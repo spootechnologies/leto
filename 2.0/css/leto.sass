@@ -1,0 +1,1051 @@
+
+// Variables
+
+$mobile: 0
+$pc: 1366px
+$pcLarge: 1921px
+
+$xxs: 8px
+
+$xs: 12px
+
+$s: 16px
+
+$md: 24px
+
+$lg: 32px
+
+$xl: 48px
+
+$xxl: 64px
+
+$colorLight: #fdfdfd 
+$colorMedium: #dadada  
+$colorDark: #303030    
+
+$colorBorder: $colorMedium
+    
+// GENERAL
+
+*, ::after, ::before 
+    box-sizing: border-box
+
+// Test object
+
+#test
+    background-color: $colorMedium
+    width: 50px
+    height: 50px
+
+// Mixins
+
+=margin($value)
+    margin: $value
+
+=marginX($value)
+    margin-left: $value
+    margin-right: $value
+
+=marginY($value)
+    margin-top: $value
+    margin-bottom: $value
+
+=marginTop($value)
+    margin-top: $value
+
+=marginLeft($value)
+    margin-left: $value
+
+=marginRight($value)
+    margin-right: $value
+
+=marginBottom($value)
+    margin-bottom: $value
+
+.leto-m
+    +margin($md)
+
+    &-xxs
+        +margin($xxs)
+
+    &-xs
+        +margin($xs)
+
+    &-s
+        +margin($s)
+
+    &-md
+        +margin($md)
+
+    &-lg
+        +margin($lg)
+
+    &-xl
+        +margin($xl)
+
+    &-xxl
+        +margin($xxl)
+
+
+.leto-mx
+    +marginX($md)
+
+    &-xxs
+        +marginX($xxs)
+
+    &-xs
+        +marginX($xs)
+
+    &-s
+        +marginX($s)
+
+    &-md
+        +marginX($md)
+
+    &-lg
+        +marginX($lg)
+
+    &-xl
+        +marginX($xl)
+
+    &-xxl
+        +marginX($xxl)
+  
+.leto-my
+    +marginY($md)
+
+    &-xxs
+        +marginY($xxs)
+
+    &-xs
+        +marginY($xs)
+
+    &-s
+        +marginY($s)
+
+    &-md
+        +marginY($md)
+
+    &-lg
+        +marginY($lg)
+
+    &-xl
+        +marginY($xl)
+
+    &-xxl
+        +marginY($xxl)
+
+.leto-mt
+    +marginTop($md)
+
+    &-xxs
+        +marginTop($xxs)
+
+    &-xs
+        +marginTop($xs)
+
+    &-s
+        +marginTop($s)
+
+    &-md
+        +marginTop($md)
+
+    &-lg
+        +marginTop($lg)
+
+    &-xl
+        +marginTop($xl)
+
+    &-xxl
+        +marginTop($xxl)
+
+.leto-ml  
+    +marginLeft($md)
+
+    &-xxs
+        +marginLeft($xxs)
+
+    &-xs
+        +marginLeft($xs)
+
+    &-s
+        +marginLeft($s)
+
+    &-md
+        +marginLeft($md)
+
+    &-lg
+        +marginLeft($lg)
+
+    &-xl
+        +marginLeft($xl)
+
+    &-xxl
+        +marginLeft($xxl)
+
+.leto-mr
+    +marginRight($md)
+
+    &-xxs
+        +marginRight($xxs)
+
+    &-xs
+        +marginRight($xs)
+
+    &-s
+        +marginRight($s)
+
+    &-md
+        +marginRight($md)
+
+    &-lg
+        +marginRight($lg)
+
+    &-xl
+        +marginRight($xl)
+
+    &-xxl
+        +marginRight($xxl)
+
+.leto-mb
+    +marginBottom($md)
+
+    &-xxs
+        +marginBottom($xxs)
+
+    &-xs
+        +marginBottom($xs)
+
+    &-s
+        +marginBottom($s)
+
+    &-md
+        +marginBottom($md)
+
+    &-lg
+        +marginBottom($lg)
+
+    &-xl
+        +marginBottom($xl)
+
+    &-xxl
+        +marginBottom($xxl)
+
+
+=padding($value)
+    padding: $value
+
+=paddingX($value)
+    padding-left: $value
+    padding-right: $value
+
+=paddingY($value)
+    padding-top: $value
+    padding-bottom: $value
+
+=paddingTop($value)
+    padding-top: $value
+
+=paddingLeft($value)
+    padding-left: $value
+
+=paddingRight($value)
+    padding-right: $value
+
+=paddingBottom($value)
+    padding-bottom: $value
+
+.leto-p
+    +padding($md)
+
+    &-xxs
+        +padding($xxs)
+
+    &-xs
+        +padding($xs)
+
+    &-s
+        +padding($s)
+
+    &-md
+        +padding($md)
+
+    &-lg
+        +padding($lg)
+
+    &-xl
+        +padding($xl)
+
+    &-xxl
+        +padding($xxl)
+
+.leto-px
+    +paddingX($md)
+
+    &-xxs
+        +paddingX($xxs)
+
+    &-xs
+        +paddingX($xs)
+
+    &-s
+        +paddingX($s)
+
+    &-md
+        +paddingX($md)
+
+    &-lg
+        +paddingX($lg)
+
+    &-xl
+        +paddingX($xl)
+
+    &-xxl
+        +paddingX($xxl)
+  
+.leto-py
+    +paddingY($md)
+
+    &-xxs
+        +paddingY($xxs)
+
+    &-xs
+        +paddingY($xs)
+
+    &-s
+        +paddingY($s)
+
+    &-md
+        +paddingY($md)
+
+    &-lg
+        +paddingY($lg)
+
+    &-xl
+        +paddingY($xl)
+
+    &-xxl
+        +paddingY($xxl)
+
+.leto-pt
+    +paddingTop($md)
+
+    &-xxs
+        +paddingTop($xxs)
+
+    &-xs
+        +paddingTop($xs)
+
+    &-s
+        +paddingTop($s)
+
+    &-md
+        +paddingTop($md)
+
+    &-lg
+        +paddingTop($lg)
+
+    &-xl
+        +paddingTop($xl)
+
+    &-xxl
+        +paddingTop($xxl)
+
+.leto-pl  
+    +paddingLeft($md)
+
+    &-xxs
+        +paddingLeft($xxs)
+
+    &-xs
+        +paddingLeft($xs)
+
+    &-s
+        +paddingLeft($s)
+
+    &-md
+        +paddingLeft($md)
+
+    &-lg
+        +paddingLeft($lg)
+
+    &-xl
+        +paddingLeft($xl)
+
+    &-xxl
+        +paddingLeft($xxl)
+
+.leto-pr
+    +paddingRight($md)
+
+    &-xxs
+        +paddingRight($xxs)
+
+    &-xs
+        +paddingRight($xs)
+
+    &-s
+        +paddingRight($s)
+
+    &-md
+        +paddingRight($md)
+
+    &-lg
+        +paddingRight($lg)
+
+    &-xl
+        +paddingRight($xl)
+
+    &-xxl
+        +paddingRight($xxl)
+
+.leto-pb
+    +paddingBottom($md)
+
+    &-xxs
+        +paddingBottom($xxs)
+
+    &-xs
+        +paddingBottom($xs)
+
+    &-s
+        +paddingBottom($s)
+
+    &-md
+        +paddingBottom($md)
+
+    &-lg
+        +paddingBottom($lg)
+
+    &-xl
+        +paddingBottom($xl)
+
+    &-xxl
+        +paddingBottom($xxl)
+
+
+.leto-border
+    border: 1px solid $colorBorder
+
+    &-top
+        border: none
+        border-top: 1px solid $colorBorder
+
+    &-left
+        border: none
+        border-left: 1px solid $colorBorder
+
+    &-right
+        border: none
+        border-right: 1px solid $colorBorder
+
+    &-bottom
+        border: none
+        border-bottom: 1px solid $colorBorder
+
+
+.leto-darkmode
+    background-color: $colorDark
+    color: $colorLight 
+
+    &-bg
+        background-color: $colorDark
+
+    &-text
+        color: $colorLight
+
+
+.leto-color
+
+    &-bg
+
+        &-light
+            background-color: $colorLight
+
+        &-medium
+            background-color: $colorMedium
+
+        &-dark
+            background-color: $colorDark
+
+    &-text
+
+        &-light
+            color: $colorLight
+
+        &-medium
+            color: $colorMedium
+
+        &-dark
+            color: $colorDark
+
+    &-border
+
+        &-light
+            border-color: $colorLight
+
+        &-medium
+            border-color: $colorMedium
+
+        &-dark
+            border-color: $colorDark
+
+
+.leto-frame
+    width: 100%
+    padding: 20px
+
+
+.leto-edge-wrapper
+
+    &-top
+        position: fixed
+        width: 100%
+        height: 100%
+        top: 0
+        left: 0
+        flex-direction: column
+        display: flex
+        z-index: 5
+
+    &-left
+        position: fixed
+        width: 100%
+        height: 100%
+        top: 0
+        left: 0
+        flex-direction: row
+        display: flex
+        z-index: 5
+
+    &-right
+        position: fixed
+        width: 100%
+        height: 100%
+        top: 0
+        right: 0
+        flex-direction: row
+        display: flex
+        z-index: 5
+
+    &-bottom
+        position: fixed
+        width: 100%
+        height: 100%
+        bottom: 0
+        left: 0
+        flex-direction: column
+        display: flex
+        z-index: 5
+
+@media (min-width: $pc) 
+
+    .leto-edge-wrapper
+
+        &-top, &-bottom
+            height: auto
+
+        &-left, &-right
+            width: auto
+    
+
+.leto-edge
+
+    &-top
+        width: 100%
+        padding: 10px
+        flex-direction: row
+        display: flex
+        
+        &-c
+            width: 100%
+            flex-direction: row
+            display: flex
+
+    &-left
+        height: 100%
+        padding: 10px
+        flex-direction: column
+        display: flex
+        
+        &-c
+            height: 100%
+            flex-direction: column
+            display: flex
+
+    &-right
+        height: 100%
+        padding: 10px
+        flex-direction: column
+        display: flex
+        
+        &-c
+            height: 100%
+            flex-direction: column
+            display: flex
+
+    &-bottom
+        width: 100%
+        padding: 10px
+        flex-direction: row
+        display: flex
+        
+        &-c
+            width: 100%
+            align-items: center
+            flex-direction: row
+            display: flex
+
+
+.leto-subedge
+
+    &-top
+        height: 100%
+        height: 100%
+        padding: 10px
+        justify-content: flex-start
+        flex-direction: row
+        display: flex
+
+        &-c
+            height: 100%
+            flex-direction: row
+            display: flex
+    
+    &-left
+        height: 100%
+        width: 100%
+        padding: 10px
+        justify-content: flex-start
+        flex-direction: column
+        display: flex
+
+        &-c
+            height: 100%
+            flex-direction: column
+            display: flex
+
+    &-right
+        height: 100%
+        width: 100%
+        padding: 10px
+        justify-content: flex-end
+        flex-direction: column
+        display: flex
+
+        &-c
+            height: 100%
+            flex-direction: column
+            display: flex
+
+    &-bottom
+        height: 100%
+        height: 100%
+        padding: 10px
+        align-items: flex-end
+        flex-direction: row
+        display: flex
+
+        &-c
+            height: 100%
+            flex-direction: row
+            display: flex
+
+@media (min-width: $pc)   
+
+    .leto-subedge
+
+        &-top, &-bottom
+            height: 20vh
+            
+        &-left, &-right
+            width: 20vw
+
+
+.leto-backdrop
+    position: fixed
+    left: 0px
+    top: 0px
+    display: block
+    height: 100%
+    width: 100%
+    background: rgba(0, 0, 0, 0.3)
+    z-index: 4
+
+
+.leto-container
+    width: 75vw
+    margin-right: auto
+    margin-left: auto
+
+    &-full
+        width: 100%
+
+.leto-bubble-group
+
+    &-h
+        flex-direction: row
+        display: flex
+
+    &-v
+        flex-direction: column
+        display: flex
+
+.leto-bubble-wrapper
+    text-decoration: none
+    color: #717171
+    text-align: center
+    overflow: hidden
+    text-overflow: ellipsis
+    max-width: 80px
+    
+    *:first-child
+        margin-top: -4px
+
+=buggle($value)
+    height: $value * 2
+    width: $value * 2
+    font-size: $value * 0.75
+    color: #414141
+    border: 1px solid $colorMedium
+    border-radius: $value * 2
+    text-align: center
+    flex-direction: column
+    align-items: center
+    justify-content: center
+    display: inline-flex
+
+    img
+        max-height: auto
+        max-width: $value      
+
+.leto-bubble
+    +buggle($md)
+
+    &-xxs
+        +buggle($xxs)
+
+    &-xs
+        +buggle($xs)
+
+    &-s
+        +buggle($s)
+
+    &-md
+        +buggle($md)
+
+    &-lg
+        +buggle($lg)
+
+    &-xl
+        +buggle($xl)
+
+    &-xxl
+        +buggle($xxl)
+
+    &.active
+        border: 3px solid #FFFFFF
+        box-shadow: 0px 0px 0px 2px #c5c5c5
+
+=search($width, $height)
+    width: $width
+    height: $height * 2
+    font-size: 18px
+    border: 1px solid $colorMedium
+    border-radius: 100px
+    padding: 9px 20px
+
+.leto-search
+    +search(auto, $md)
+
+    &-half
+        +search(50%, $md)
+
+        &-xxs
+            +search(50%, $xxs)
+
+        &-xs
+            +search(50%, $xs)
+
+        &-s
+            +search(50%, $s)
+
+        &-md
+            +search(50%, $md)
+
+        &-lg
+            +search(50%, $lg)
+
+        &-xl
+            +search(50%, $xl)
+
+        &-xxl
+            +search(50%, $xxl)
+
+    &-full
+        +search(100%, $md)
+
+        &-xxs
+            +search(100%, $xxs)
+
+        &-xs
+            +search(100%, $xs)
+
+        &-s
+            +search(100%, $s)
+
+        &-md
+            +search(100%, $md)
+
+        &-lg
+            +search(100%, $lg)
+
+        &-xl
+            +search(100%, $xl)
+
+        &-xxl
+            +search(100%, $xxl)
+
+=input($width, $height)
+    background-color: $colorMedium
+    height: $height
+    width: $width
+    font-size: 18px
+    border: 1px solid $colorMedium
+    border-radius: 100px
+    padding: 9px 20px
+
+.leto-input
+    +input(auto, $md)
+
+    &-half
+
+        &-xxs
+            +input(50%, $xxs)
+
+        &-xs
+            +input(50%, $xs)
+
+        &-s
+            +input(50%, $s)
+
+        &-md
+            +input(50%, $md)
+
+        &-lg
+            +input(50%, $lg)
+
+        &-xl
+            +input(50%, $xl)
+
+        &-xxl
+            +input(50%, $xxl)
+
+    &-full
+
+        &-xxs
+            +input(100%, $xxs)
+
+        &-xs
+            +input(100%, $xs)
+
+        &-s
+            +input(100%, $s)
+
+        &-md
+            +input(100%, $md)
+
+        &-lg
+            +input(100%, $lg)
+
+        &-xl
+            +input(100%, $xl)
+
+        &-xxl
+            +input(100%, $xxl)
+
+.leto-card-group
+    display: flex
+
+.leto-card
+    background: #FFFFFF
+    border: 1px solid $colorMedium
+    min-width: 300px
+    min-height: 50px
+    border-radius: 10px
+    padding: 15px
+    display: inline-block
+
+.leto-card-header
+
+.leto-card-header-bubble
+    float: left
+    margin: 0px
+    margin-top: 2px
+    margin-right: 10px
+
+.leto-card-header
+
+    &:after
+        clear: both
+        display: block
+        content: ''
+        
+    .leto-card-link
+        font-size: 18px
+
+
+
+// ____________________________________________________________________ 
+
+// PILE
+
+.leto-card-pile div
+    display: block
+
+    &:not(:first-child)
+        margin-top: -20px
+
+.empty-pile
+    display: block
+    width: 100%
+    background: #FAFAFA
+    min-width: 300px
+    padding: 15px
+    border-radius: 5px
+
+// ITEM
+
+.leto-item
+    background: #FFFFFF
+    border: 1px solid #EEEEEE
+    display: inline-block
+    width: 100%
+    border-radius: 10px
+    margin: 10px
+    padding: 15px
+
+// BADGE
+
+.leto-badge
+    display: inline-block
+    background: #CCCCCC
+    font-size: 13px
+    padding: 0px 8px
+    border-radius: 100px
+    white-space: nowrap
+
+// FORM
+
+.leto-form
+    width: 50%
+    height: 100%
+    display: block
+    background: #FFFFFF
+    padding: 10px
+
+.leto-form-right
+    position: fixed
+    top: 0px
+    right: 0px
+    border-left: 1px solid #CCCCCC
+    overflow-y: scroll
+
+// TABLE
+
+.leto-table
+    border-collapse: separate
+    border-spacing: 0px 15px
+    width: 100%
+
+    td, th
+        background: #FFFFFF
+        border-top: 1px solid #EEEEEE
+        border-bottom: 1px solid #EEEEEE
+        padding: 15px
+
+    td:first-child, th:first-child
+        border-left: 1px solid #EEEEEE
+        border-top-left-radius: 5px
+        border-bottom-left-radius: 5px
+
+    td:last-child, th:last-child
+        border-right: 1px solid #EEEEEE
+        border-top-right-radius: 5px
+        border-bottom-right-radius: 5px
+
+// OTHER
+
+.leto-seperator
+    display: block
+    height: 20px
+
+.leto-badge
+    display: inline-block
+    background: #CCCCCC
+    font-size: 13px
+    padding: 0px 8px
+    border-radius: 100px
+
+.leto-pull-left
+    float: left
+
+.leto-pull-right
+    float: right
+
+.leto-w-50
+    width: 50%
+
+.leto-w-30
+    width: 30%
+
+.leto-w-70
+    width: 70%
+
+@media (min-width: 768px)
+
+    .leto-container
+        width: 750px
+
+@media (min-width: 992px)
+
+    .leto-container
+        width: 970px
+
+@media (min-width: 1200px)
+
+    .leto-container
+        width: 1170px
+
+textarea:focus
+    border-color: rgba(82, 168, 236, 0.8)
+    outline: 0
+    outline: thin dotted \9
+    // IE6-9
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6)
+    -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6)
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6)
+
+input
+    &[type="text"]:focus, &[type="password"]:focus, &[type="datetime"]:focus, &[type="datetime-local"]:focus, &[type="date"]:focus, &[type="month"]:focus, &[type="time"]:focus, &[type="week"]:focus, &[type="number"]:focus, &[type="email"]:focus, &[type="url"]:focus, &[type="search"]:focus, &[type="tel"]:focus, &[type="color"]:focus
+        border-color: rgba(82, 168, 236, 0.8)
+        outline: 0
+        outline: thin dotted \9
+        // IE6-9
+        -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6)
+        -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6)
+        box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6)
+
+.uneditable-input:focus
+    border-color: rgba(82, 168, 236, 0.8)
+    outline: 0
+    outline: thin dotted \9
+    // IE6-9
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6)
+    -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6)
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6)
+
+.scrollable-table
+    display: block
+    overflow-x: auto
+    white-space: nowrap

@@ -1,0 +1,474 @@
+/* GENERAL */
+
+.leto-frame {
+    padding: 20px;
+}
+
+.leto-frame-full {
+    width: 100%;
+}
+
+
+
+/* INPUT */
+
+.leto-input {
+    border: 1px solid #dadada;
+    border-radius: 100px;
+    padding: 9px 20px;
+    font-size: 18px;
+}
+
+
+/* COLORS */
+
+.leto-bg-primary
+{
+    background: rgb(116, 140, 240);
+    color:#FFFFFF;
+}
+
+
+
+/* CONTAINER */
+
+.leto-container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+
+
+
+/* LEFT PANE */
+
+.leto-left {
+    position: fixed;
+    padding: 10px;
+    height: 100%;
+    width: 100px;
+    margin-left: -20px;
+    margin-top: -20px;
+    margin-bottom: -20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+
+
+.leto-left-light {
+    background: #F5F5F5;
+}
+
+
+
+
+
+/* TOP PANE */
+
+.leto-top {}
+
+
+
+
+/* BUBBLES */
+
+.leto-card-group {
+    display: flex;
+}
+
+.leto-bubble {
+    height: 60px;
+    width: 60px;
+    border-radius: 100px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    background: #f5f5f5;
+    text-align: center;
+    font-size: 21px;
+    color: #414141;
+    flex-direction: column;
+}
+
+.leto-bubble-md {
+    height: 50px;
+    width: 50px;
+}
+
+.leto-bubble-sm {
+    height: 30px;
+    width: 30px;
+    font-size: 14px;
+}
+
+.lato-bubble-naked {
+    background: none;
+}
+
+.leto-bubble.active {
+    border: 3px solid #FFFFFF;
+    box-shadow: 0px 0px 0px 2px #c5c5c5;
+}
+
+.leto-bubble img {
+    max-width: 90%;
+    max-height: 90%;
+}
+
+.leto-bubble-group {
+    display: inline-flex;
+    justify-content: flex-start;
+}
+
+.leto-bubble-group-right {
+    float: right;
+}
+
+
+.leto-bubble-wrapper
+{
+    text-decoration:none;
+    color:#717171;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 80px;
+}
+
+.leto-bubble-wrapper label
+{
+    margin-top: -4px;
+}
+
+
+
+/* SEARCH BAR */
+
+.leto-search {
+    width: auto;
+    margin: 10px;
+    display: inline-block;
+}
+
+.leto-search input {
+    width: 100%;
+    border: none;
+    border-radius: 100px;
+    background: #EEEEEE;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.leto-search-50 {
+    width: 50%;
+}
+
+
+
+
+
+/* MAIN CONTENT WRAPPER */
+
+.leto-main-content {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+/* CARD */
+
+.leto-card {
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    display: inline-block;
+    min-height: 50px;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 15px;
+}
+
+.leto-card-header {}
+
+.leto-card-header-bubble {
+    float: left;
+    margin: 0px;
+    margin-top: 2px;
+    margin-right: 10px;
+}
+
+.leto-card-header:after {
+    clear: both;
+    display: block;
+    content: '';
+}
+
+.leto-card-header .leto-card-link {
+    font-size: 18px;
+}
+
+
+
+/* PILE */
+
+.leto-card-pile div {
+    display: block;
+}
+
+.leto-card-pile div:not(:first-child) {
+    margin-top: -20px;
+}
+
+.empty-pile {
+    display: block;
+    width: 100%;
+    background: #FAFAFA;
+    min-width: 300px;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+
+
+/* ITEM */
+
+.leto-item {
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    display: inline-block;
+    width: 100%;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 15px;
+}
+
+
+
+
+/* BADGE */
+
+.leto-badge {
+    display: inline-block;
+    background: #CCCCCC;
+    font-size: 13px;
+    padding: 0px 8px;
+    border-radius: 100px;
+    white-space: nowrap;
+}
+
+
+
+
+/* SUBMENU */
+
+.leto-submenu {
+    height: 100%;
+    display: block;
+    width: 300px;
+    padding: 10px;
+    padding-top: 0px;
+    overflow-y: scroll;
+}
+
+.leto-submenu h4 {
+    margin: 10px;
+    margin-bottom: 30px;
+}
+
+.leto-submenu-left {
+    float: left; 
+    margin-left: -40px;
+}
+.leto-submenu-right {
+    float: right;
+    z-index: 100;
+    background-color: white;
+    top: 0;
+    right: 0;
+    position: fixed;
+}
+
+.leto-submenu-right:after {
+    clear: both;
+    content: '';
+    display: block;
+}
+
+.leto-submenu-left:after {
+    clear: both;
+    content: '';
+    display: block;
+}
+
+.leto-submenu .item {
+    display: block;
+    border-radius: 5px;
+    width: 100%;
+    margin: 10px 0px;
+    padding: 10px 15px;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.leto-submenu .item.active {
+    border: 1px solid #e8e6e6;
+}
+
+
+
+
+/* FORM */
+
+.leto-form {
+    width: 50%;
+    height: 100%;
+    display: block;
+    background: #FFFFFF;
+    padding: 10px;
+}
+
+.leto-form-right {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    border-left: 1px solid #CCCCCC;
+    overflow-y: scroll;
+}
+
+
+
+/* TABLE */
+
+.leto-table {
+    border-collapse: separate;
+    border-spacing: 0px 15px;
+    width: 100%;
+}
+
+.leto-table td,
+.leto-table th {
+    background: #FFFFFF;
+    border-top: 1px solid #EEEEEE;
+    border-bottom: 1px solid #EEEEEE;
+    padding: 15px;
+}
+
+.leto-table td:first-child,
+.leto-table th:first-child {
+    border-left: 1px solid #EEEEEE;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.leto-table td:last-child,
+.leto-table th:last-child {
+    border-right: 1px solid #EEEEEE;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+
+
+/* OTHER */
+
+.leto-seperator {
+    display: block;
+    height: 20px;
+}
+
+
+.leto-badge {
+    display: inline-block;
+    background: #CCCCCC;
+    font-size: 13px;
+    padding: 0px 8px;
+    border-radius: 100px;
+}
+
+
+
+.leto-pull-left {
+    float: left;
+}
+
+.leto-pull-right {
+    float: right;
+}
+
+.leto-frame-full .leto-container {
+    width: 100%;
+    margin-left: 100px;
+    width: calc(100% - 100px)
+}
+
+.leto-w-50 {
+    width: 50%;
+}
+
+.leto-w-30 {
+    width: 30%;
+}
+
+.leto-w-70 {
+    width: 70%;
+}
+
+
+@media (min-width: 768px) {
+    .leto-container {
+        width: 750px;
+    }
+}
+
+@media (min-width: 992px) {
+    .leto-container {
+        width: 970px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .leto-container {
+        width: 1170px;
+    }
+}
+
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.uneditable-input:focus {
+    border-color: rgba(82, 168, 236, 0.8);
+    outline: 0;
+    outline: thin dotted \9;
+    /* IE6-9 */
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(82, 168, 236, .6);
+    -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(82, 168, 236, .6);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(82, 168, 236, .6);
+}
+
+.scrollable-table {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+}
