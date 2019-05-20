@@ -1,7 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,300,400,500,700,900&display=swap')
 
 // Variables
 
-$mobile: 0
+$tablet: 450px 
 $pc: 1366px
 $pcLarge: 1921px
 
@@ -20,6 +21,7 @@ $xl: 48px
 $xxl: 64px
 
 $colorLight: #fdfdfd 
+$colorLightMedium: #f2f2f2  
 $colorMedium: #dadada  
 $colorDark: #303030    
 
@@ -30,6 +32,9 @@ $colorBorder: $colorMedium
 *, ::after, ::before 
     box-sizing: border-box
 
+body
+    font-family: 'Montserrat', sans-serif;
+
 // Test object
 
 #test
@@ -37,7 +42,32 @@ $colorBorder: $colorMedium
     width: 50px
     height: 50px
 
-// Mixins
+=rowMasonry($value)
+    column-count: 1
+    column-gap: 0
+
+    @media (min-width: $tablet)
+        column-count: 2
+
+    @media (min-width: $pc)
+        column-count: $value       
+
+.leto-row
+    flex-direction: row
+    display: flex
+
+    &-masonry
+        +rowMasonry(4)
+
+        &-3
+            +rowMasonry(3)
+
+        &-4
+            +rowMasonry(4) 
+
+        &-5
+            +rowMasonry(5)     
+           
 
 =margin($value)
     margin: $value
@@ -462,6 +492,9 @@ $colorBorder: $colorMedium
         &-light
             background-color: $colorLight
 
+        &-lightMedium
+            background-color: $colorLightMedium
+
         &-medium
             background-color: $colorMedium
 
@@ -472,6 +505,9 @@ $colorBorder: $colorMedium
 
         &-light
             color: $colorLight
+
+        &-lightMedium
+            color: $colorLightMedium
 
         &-medium
             color: $colorMedium
@@ -484,11 +520,47 @@ $colorBorder: $colorMedium
         &-light
             border-color: $colorLight
 
+        &-lightMedium
+            border-color: $colorLightMedium
+
         &-medium
             border-color: $colorMedium
 
         &-dark
             border-color: $colorDark
+
+
+.leto-index
+
+    &-1
+        z-index: 1
+
+    &-2
+        z-index: 2
+
+    &-3
+        z-index: 3
+
+    &-4
+        z-index: 4
+
+    &-5
+        z-index: 5
+
+    &-6
+        z-index: 6
+
+    &-7
+        z-index: 7
+
+    &-8
+        z-index: 8
+
+    &-9
+        z-index: 9
+
+    &-10
+        z-index: 10
 
 
 .leto-frame
@@ -506,7 +578,6 @@ $colorBorder: $colorMedium
         left: 0
         flex-direction: column
         display: flex
-        z-index: 5
 
     &-left
         position: fixed
@@ -516,7 +587,6 @@ $colorBorder: $colorMedium
         left: 0
         flex-direction: row
         display: flex
-        z-index: 5
 
     &-right
         position: fixed
@@ -526,7 +596,6 @@ $colorBorder: $colorMedium
         right: 0
         flex-direction: row
         display: flex
-        z-index: 5
 
     &-bottom
         position: fixed
@@ -536,7 +605,6 @@ $colorBorder: $colorMedium
         left: 0
         flex-direction: column
         display: flex
-        z-index: 5
 
 @media (min-width: $pc) 
 
@@ -674,12 +742,14 @@ $colorBorder: $colorMedium
 
 
 .leto-container
+    position: relative
     width: 75vw
     margin-right: auto
     margin-left: auto
 
     &-full
         width: 100%
+
 
 .leto-bubble-group
 
@@ -693,20 +763,40 @@ $colorBorder: $colorMedium
 
 .leto-bubble-wrapper
     text-decoration: none
-    color: #717171
     text-align: center
     overflow: hidden
     text-overflow: ellipsis
-    max-width: 80px
+    flex-direction: column
+    display: flex
     
-    *:first-child
-        margin-top: -4px
+.leto-bubble-label
+    max-width: $md
+
+    &-xxs
+        max-width: $xxs * 2
+
+    &-xs
+        max-width: $xs * 2
+
+    &-s
+        max-width: $s * 2
+
+    &-md
+        max-width: $md * 2
+
+    &-lg
+        max-width: $lg * 2
+
+    &-xl
+        max-width: $xl * 2
+
+    &-xxl
+        max-width: $xxl * 2
 
 =buggle($value)
     height: $value * 2
     width: $value * 2
-    font-size: $value * 0.75
-    color: #414141
+    font-size: $value * 0.66
     border: 1px solid $colorMedium
     border-radius: $value * 2
     text-align: center
@@ -717,7 +807,17 @@ $colorBorder: $colorMedium
 
     img
         max-height: auto
-        max-width: $value      
+        max-width: $value * 0.66   
+
+
+=buggleCustom($value)
+    height: $value * 2
+    width: $value * 2
+    text-align: center
+    flex-direction: column
+    align-items: center
+    justify-content: center
+    display: inline-flex   
 
 .leto-bubble
     +buggle($md)
@@ -743,9 +843,13 @@ $colorBorder: $colorMedium
     &-xxl
         +buggle($xxl)
 
+    &-c
+        +buggleCustom($md)
+
     &.active
         border: 3px solid #FFFFFF
         box-shadow: 0px 0px 0px 2px #c5c5c5
+        
 
 =search($width, $height)
     width: $width
@@ -806,9 +910,10 @@ $colorBorder: $colorMedium
         &-xxl
             +search(100%, $xxl)
 
+
 =input($width, $height)
-    background-color: $colorMedium
-    height: $height
+    background-color: $colorLightMedium
+    height: $height * 2
     width: $width
     font-size: 18px
     border: 1px solid $colorMedium
@@ -819,6 +924,7 @@ $colorBorder: $colorMedium
     +input(auto, $md)
 
     &-half
+        +input(50%, $md)
 
         &-xxs
             +input(50%, $xxs)
@@ -842,6 +948,7 @@ $colorBorder: $colorMedium
             +input(50%, $xxl)
 
     &-full
+        +input(100%, $md)
 
         &-xxs
             +input(100%, $xxs)
@@ -864,76 +971,187 @@ $colorBorder: $colorMedium
         &-xxl
             +input(100%, $xxl)
 
-.leto-card-group
+.leto-card-wrapper
+    text-decoration: none
+    text-align: center
+    overflow: hidden
+    text-overflow: ellipsis
+    flex-direction: column
     display: flex
 
-.leto-card
-    background: #FFFFFF
-    border: 1px solid $colorMedium
-    min-width: 300px
+.leto-card-label
+    max-width: 100%
+
+    &-xxs
+        max-width: $xxs * 10
+
+    &-xs
+        max-width: $xs * 10
+
+    &-s
+        max-width: $s * 10
+
+    &-md
+        max-width: $md * 10
+
+    &-lg
+        max-width: $lg * 10
+
+    &-xl
+        max-width: $xl * 10
+
+    &-xxl
+        max-width: $xxl * 10
+
+=card($value)
+    position: relative
+    width: $value*10
     min-height: 50px
+    border: 1px solid $colorMedium
     border-radius: 10px
-    padding: 15px
     display: inline-block
+    overflow: hidden
+
+=cardMasonry()
+    position: relative
+    min-height: 50px
+    border: 1px solid $colorMedium
+    border-radius: 10px
+    display: inline-block
+    overflow: hidden
+
+=cardSquare($value)
+    position: relative
+    width: $value*10
+    height: $value*10
+    border: 1px solid $colorMedium
+    border-radius: 10px
+    display: inline-block
+    overflow: hidden
+
+.leto-card
+    +card($md)
+
+    &-xxs
+      +card($xxs)  
+
+    &-xs
+      +card($xs)
+
+    &-s
+      +card($s)  
+
+    &-md
+      +card($md) 
+
+    &-lg
+      +card($lg)
+
+    &-xl
+      +card($xl) 
+
+    &-xxl
+      +card($xxl) 
+
+    &-masonry 
+        +cardMasonry()       
+
+    &-square 
+
+        &-xxs
+            +cardSquare($xxs)  
+
+        &-xs
+            +cardSquare($xs)
+
+        &-s
+            +cardSquare($s)  
+
+        &-md
+            +cardSquare($md) 
+
+        &-lg
+            +cardSquare($lg)
+
+        &-xl
+            +cardSquare($xl) 
+
+        &-xxl
+            +cardSquare($xxl)         
+
+.leto-card-image
+    max-height: auto
+    width: 100%
 
 .leto-card-header
+    padding: 10px
+    align-items: center
+    flex-direction: row
+    display: flex
 
-.leto-card-header-bubble
-    float: left
-    margin: 0px
-    margin-top: 2px
-    margin-right: 10px
-
-.leto-card-header
+    &-c
+        flex-direction: row
+        display: flex
 
     &:after
         clear: both
         display: block
         content: ''
         
-    .leto-card-link
-        font-size: 18px
+.leto-card-link
+    text-decoration: none
+    font-size: 18px
 
+.leto-card-content
+    padding: 10px
+
+    &-c
+        flex-direction: row
+        display: flex
+
+.leto-pile
+
+    > *
+        display: block
+
+    &-empty
+        background: #FAFAFA
+        min-width: 300px
+        width: 100%
+        border-radius: 5px
+        padding: 15px
+        display: block
+
+.leto-pile-header
+    align-items: center
+    flex-direction: row
+    display: flex
+
+    &-c
+        flex-direction: row
+        display: flex
+
+    &:after
+        clear: both
+        display: block
+        content: ''
+
+.leto-pile-item
+    background: #FFFFFF
+    padding: 15px
+    border: 1px solid #EEEEEE
+    border-radius: 10px
+
+.leto-badge
+    background: #CCCCCC
+    font-size: 13px
+    padding: 5px 10px
+    border-radius: 100px
+    white-space: nowrap
+    display: inline-block
 
 
 // ____________________________________________________________________ 
-
-// PILE
-
-.leto-card-pile div
-    display: block
-
-    &:not(:first-child)
-        margin-top: -20px
-
-.empty-pile
-    display: block
-    width: 100%
-    background: #FAFAFA
-    min-width: 300px
-    padding: 15px
-    border-radius: 5px
-
-// ITEM
-
-.leto-item
-    background: #FFFFFF
-    border: 1px solid #EEEEEE
-    display: inline-block
-    width: 100%
-    border-radius: 10px
-    margin: 10px
-    padding: 15px
-
-// BADGE
-
-.leto-badge
-    display: inline-block
-    background: #CCCCCC
-    font-size: 13px
-    padding: 0px 8px
-    border-radius: 100px
-    white-space: nowrap
 
 // FORM
 
@@ -976,54 +1194,10 @@ $colorBorder: $colorMedium
 
 // OTHER
 
-.leto-seperator
-    display: block
-    height: 20px
-
-.leto-badge
-    display: inline-block
-    background: #CCCCCC
-    font-size: 13px
-    padding: 0px 8px
-    border-radius: 100px
-
-.leto-pull-left
-    float: left
-
-.leto-pull-right
-    float: right
-
-.leto-w-50
-    width: 50%
-
-.leto-w-30
-    width: 30%
-
-.leto-w-70
-    width: 70%
-
-@media (min-width: 768px)
-
-    .leto-container
-        width: 750px
-
-@media (min-width: 992px)
-
-    .leto-container
-        width: 970px
-
-@media (min-width: 1200px)
-
-    .leto-container
-        width: 1170px
-
 textarea:focus
     border-color: rgba(82, 168, 236, 0.8)
     outline: 0
     outline: thin dotted \9
-    // IE6-9
-    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6)
-    -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6)
     box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6)
 
 input
@@ -1031,18 +1205,12 @@ input
         border-color: rgba(82, 168, 236, 0.8)
         outline: 0
         outline: thin dotted \9
-        // IE6-9
-        -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6)
-        -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6)
         box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6)
 
 .uneditable-input:focus
     border-color: rgba(82, 168, 236, 0.8)
     outline: 0
     outline: thin dotted \9
-    // IE6-9
-    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6)
-    -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6)
     box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6)
 
 .scrollable-table

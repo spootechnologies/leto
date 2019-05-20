@@ -1,12 +1,111 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:100,300,400,500,700,900&display=swap");
 *, ::after, ::before {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
 }
 
 #test {
   background-color: #dadada;
   width: 50px;
   height: 50px;
+}
+
+.leto-row {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.leto-row-masonry {
+  -webkit-column-count: 1;
+          column-count: 1;
+  -webkit-column-gap: 0;
+          column-gap: 0;
+}
+
+@media (min-width: 450px) {
+  .leto-row-masonry {
+    -webkit-column-count: 2;
+            column-count: 2;
+  }
+}
+
+@media (min-width: 1366px) {
+  .leto-row-masonry {
+    -webkit-column-count: 4;
+            column-count: 4;
+  }
+}
+
+.leto-row-masonry-3 {
+  -webkit-column-count: 1;
+          column-count: 1;
+  -webkit-column-gap: 0;
+          column-gap: 0;
+}
+
+@media (min-width: 450px) {
+  .leto-row-masonry-3 {
+    -webkit-column-count: 2;
+            column-count: 2;
+  }
+}
+
+@media (min-width: 1366px) {
+  .leto-row-masonry-3 {
+    -webkit-column-count: 3;
+            column-count: 3;
+  }
+}
+
+.leto-row-masonry-4 {
+  -webkit-column-count: 1;
+          column-count: 1;
+  -webkit-column-gap: 0;
+          column-gap: 0;
+}
+
+@media (min-width: 450px) {
+  .leto-row-masonry-4 {
+    -webkit-column-count: 2;
+            column-count: 2;
+  }
+}
+
+@media (min-width: 1366px) {
+  .leto-row-masonry-4 {
+    -webkit-column-count: 4;
+            column-count: 4;
+  }
+}
+
+.leto-row-masonry-5 {
+  -webkit-column-count: 1;
+          column-count: 1;
+  -webkit-column-gap: 0;
+          column-gap: 0;
+}
+
+@media (min-width: 450px) {
+  .leto-row-masonry-5 {
+    -webkit-column-count: 2;
+            column-count: 2;
+  }
+}
+
+@media (min-width: 1366px) {
+  .leto-row-masonry-5 {
+    -webkit-column-count: 5;
+            column-count: 5;
+  }
 }
 
 .leto-m {
@@ -530,6 +629,10 @@
   background-color: #fdfdfd;
 }
 
+.leto-color-bg-lightMedium {
+  background-color: #f2f2f2;
+}
+
 .leto-color-bg-medium {
   background-color: #dadada;
 }
@@ -540,6 +643,10 @@
 
 .leto-color-text-light {
   color: #fdfdfd;
+}
+
+.leto-color-text-lightMedium {
+  color: #f2f2f2;
 }
 
 .leto-color-text-medium {
@@ -554,12 +661,56 @@
   border-color: #fdfdfd;
 }
 
+.leto-color-border-lightMedium {
+  border-color: #f2f2f2;
+}
+
 .leto-color-border-medium {
   border-color: #dadada;
 }
 
 .leto-color-border-dark {
   border-color: #303030;
+}
+
+.leto-index-1 {
+  z-index: 1;
+}
+
+.leto-index-2 {
+  z-index: 2;
+}
+
+.leto-index-3 {
+  z-index: 3;
+}
+
+.leto-index-4 {
+  z-index: 4;
+}
+
+.leto-index-5 {
+  z-index: 5;
+}
+
+.leto-index-6 {
+  z-index: 6;
+}
+
+.leto-index-7 {
+  z-index: 7;
+}
+
+.leto-index-8 {
+  z-index: 8;
+}
+
+.leto-index-9 {
+  z-index: 9;
+}
+
+.leto-index-10 {
+  z-index: 10;
 }
 
 .leto-frame {
@@ -580,7 +731,6 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  z-index: 5;
 }
 
 .leto-edge-wrapper-left {
@@ -596,7 +746,6 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  z-index: 5;
 }
 
 .leto-edge-wrapper-right {
@@ -612,7 +761,6 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  z-index: 5;
 }
 
 .leto-edge-wrapper-bottom {
@@ -628,7 +776,6 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  z-index: 5;
 }
 
 @media (min-width: 1366px) {
@@ -864,6 +1011,7 @@
 }
 
 .leto-container {
+  position: relative;
   width: 75vw;
   margin-right: auto;
   margin-left: auto;
@@ -895,22 +1043,54 @@
 
 .leto-bubble-wrapper {
   text-decoration: none;
-  color: #717171;
   text-align: center;
   overflow: hidden;
   text-overflow: ellipsis;
-  max-width: 80px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
-.leto-bubble-wrapper *:first-child {
-  margin-top: -4px;
+.leto-bubble-label {
+  max-width: 24px;
+}
+
+.leto-bubble-label-xxs {
+  max-width: 16px;
+}
+
+.leto-bubble-label-xs {
+  max-width: 24px;
+}
+
+.leto-bubble-label-s {
+  max-width: 32px;
+}
+
+.leto-bubble-label-md {
+  max-width: 48px;
+}
+
+.leto-bubble-label-lg {
+  max-width: 64px;
+}
+
+.leto-bubble-label-xl {
+  max-width: 96px;
+}
+
+.leto-bubble-label-xxl {
+  max-width: 128px;
 }
 
 .leto-bubble {
   height: 48px;
   width: 48px;
-  font-size: 18px;
-  color: #414141;
+  font-size: 15.84px;
   border: 1px solid #dadada;
   border-radius: 48px;
   text-align: center;
@@ -931,14 +1111,13 @@
 
 .leto-bubble img {
   max-height: auto;
-  max-width: 24px;
+  max-width: 15.84px;
 }
 
 .leto-bubble-xxs {
   height: 16px;
   width: 16px;
-  font-size: 6px;
-  color: #414141;
+  font-size: 5.28px;
   border: 1px solid #dadada;
   border-radius: 16px;
   text-align: center;
@@ -959,14 +1138,13 @@
 
 .leto-bubble-xxs img {
   max-height: auto;
-  max-width: 8px;
+  max-width: 5.28px;
 }
 
 .leto-bubble-xs {
   height: 24px;
   width: 24px;
-  font-size: 9px;
-  color: #414141;
+  font-size: 7.92px;
   border: 1px solid #dadada;
   border-radius: 24px;
   text-align: center;
@@ -987,14 +1165,13 @@
 
 .leto-bubble-xs img {
   max-height: auto;
-  max-width: 12px;
+  max-width: 7.92px;
 }
 
 .leto-bubble-s {
   height: 32px;
   width: 32px;
-  font-size: 12px;
-  color: #414141;
+  font-size: 10.56px;
   border: 1px solid #dadada;
   border-radius: 32px;
   text-align: center;
@@ -1015,14 +1192,13 @@
 
 .leto-bubble-s img {
   max-height: auto;
-  max-width: 16px;
+  max-width: 10.56px;
 }
 
 .leto-bubble-md {
   height: 48px;
   width: 48px;
-  font-size: 18px;
-  color: #414141;
+  font-size: 15.84px;
   border: 1px solid #dadada;
   border-radius: 48px;
   text-align: center;
@@ -1043,14 +1219,13 @@
 
 .leto-bubble-md img {
   max-height: auto;
-  max-width: 24px;
+  max-width: 15.84px;
 }
 
 .leto-bubble-lg {
   height: 64px;
   width: 64px;
-  font-size: 24px;
-  color: #414141;
+  font-size: 21.12px;
   border: 1px solid #dadada;
   border-radius: 64px;
   text-align: center;
@@ -1071,14 +1246,13 @@
 
 .leto-bubble-lg img {
   max-height: auto;
-  max-width: 32px;
+  max-width: 21.12px;
 }
 
 .leto-bubble-xl {
   height: 96px;
   width: 96px;
-  font-size: 36px;
-  color: #414141;
+  font-size: 31.68px;
   border: 1px solid #dadada;
   border-radius: 96px;
   text-align: center;
@@ -1099,14 +1273,13 @@
 
 .leto-bubble-xl img {
   max-height: auto;
-  max-width: 48px;
+  max-width: 31.68px;
 }
 
 .leto-bubble-xxl {
   height: 128px;
   width: 128px;
-  font-size: 48px;
-  color: #414141;
+  font-size: 42.24px;
   border: 1px solid #dadada;
   border-radius: 128px;
   text-align: center;
@@ -1127,7 +1300,26 @@
 
 .leto-bubble-xxl img {
   max-height: auto;
-  max-width: 64px;
+  max-width: 42.24px;
+}
+
+.leto-bubble-c {
+  height: 48px;
+  width: 48px;
+  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
 }
 
 .leto-bubble.active {
@@ -1290,8 +1482,8 @@
 }
 
 .leto-input {
-  background-color: #dadada;
-  height: 24px;
+  background-color: #f2f2f2;
+  height: 48px;
   width: auto;
   font-size: 18px;
   border: 1px solid #dadada;
@@ -1299,9 +1491,19 @@
   padding: 9px 20px;
 }
 
+.leto-input-half {
+  background-color: #f2f2f2;
+  height: 48px;
+  width: 50%;
+  font-size: 18px;
+  border: 1px solid #dadada;
+  border-radius: 100px;
+  padding: 9px 20px;
+}
+
 .leto-input-half-xxs {
-  background-color: #dadada;
-  height: 8px;
+  background-color: #f2f2f2;
+  height: 16px;
   width: 50%;
   font-size: 18px;
   border: 1px solid #dadada;
@@ -1310,8 +1512,8 @@
 }
 
 .leto-input-half-xs {
-  background-color: #dadada;
-  height: 12px;
+  background-color: #f2f2f2;
+  height: 24px;
   width: 50%;
   font-size: 18px;
   border: 1px solid #dadada;
@@ -1320,8 +1522,8 @@
 }
 
 .leto-input-half-s {
-  background-color: #dadada;
-  height: 16px;
+  background-color: #f2f2f2;
+  height: 32px;
   width: 50%;
   font-size: 18px;
   border: 1px solid #dadada;
@@ -1330,8 +1532,8 @@
 }
 
 .leto-input-half-md {
-  background-color: #dadada;
-  height: 24px;
+  background-color: #f2f2f2;
+  height: 48px;
   width: 50%;
   font-size: 18px;
   border: 1px solid #dadada;
@@ -1340,8 +1542,8 @@
 }
 
 .leto-input-half-lg {
-  background-color: #dadada;
-  height: 32px;
+  background-color: #f2f2f2;
+  height: 64px;
   width: 50%;
   font-size: 18px;
   border: 1px solid #dadada;
@@ -1350,8 +1552,8 @@
 }
 
 .leto-input-half-xl {
-  background-color: #dadada;
-  height: 48px;
+  background-color: #f2f2f2;
+  height: 96px;
   width: 50%;
   font-size: 18px;
   border: 1px solid #dadada;
@@ -1360,8 +1562,8 @@
 }
 
 .leto-input-half-xxl {
-  background-color: #dadada;
-  height: 64px;
+  background-color: #f2f2f2;
+  height: 128px;
   width: 50%;
   font-size: 18px;
   border: 1px solid #dadada;
@@ -1369,58 +1571,8 @@
   padding: 9px 20px;
 }
 
-.leto-input-full-xxs {
-  background-color: #dadada;
-  height: 8px;
-  width: 100%;
-  font-size: 18px;
-  border: 1px solid #dadada;
-  border-radius: 100px;
-  padding: 9px 20px;
-}
-
-.leto-input-full-xs {
-  background-color: #dadada;
-  height: 12px;
-  width: 100%;
-  font-size: 18px;
-  border: 1px solid #dadada;
-  border-radius: 100px;
-  padding: 9px 20px;
-}
-
-.leto-input-full-s {
-  background-color: #dadada;
-  height: 16px;
-  width: 100%;
-  font-size: 18px;
-  border: 1px solid #dadada;
-  border-radius: 100px;
-  padding: 9px 20px;
-}
-
-.leto-input-full-md {
-  background-color: #dadada;
-  height: 24px;
-  width: 100%;
-  font-size: 18px;
-  border: 1px solid #dadada;
-  border-radius: 100px;
-  padding: 9px 20px;
-}
-
-.leto-input-full-lg {
-  background-color: #dadada;
-  height: 32px;
-  width: 100%;
-  font-size: 18px;
-  border: 1px solid #dadada;
-  border-radius: 100px;
-  padding: 9px 20px;
-}
-
-.leto-input-full-xl {
-  background-color: #dadada;
+.leto-input-full {
+  background-color: #f2f2f2;
   height: 48px;
   width: 100%;
   font-size: 18px;
@@ -1429,8 +1581,48 @@
   padding: 9px 20px;
 }
 
-.leto-input-full-xxl {
-  background-color: #dadada;
+.leto-input-full-xxs {
+  background-color: #f2f2f2;
+  height: 16px;
+  width: 100%;
+  font-size: 18px;
+  border: 1px solid #dadada;
+  border-radius: 100px;
+  padding: 9px 20px;
+}
+
+.leto-input-full-xs {
+  background-color: #f2f2f2;
+  height: 24px;
+  width: 100%;
+  font-size: 18px;
+  border: 1px solid #dadada;
+  border-radius: 100px;
+  padding: 9px 20px;
+}
+
+.leto-input-full-s {
+  background-color: #f2f2f2;
+  height: 32px;
+  width: 100%;
+  font-size: 18px;
+  border: 1px solid #dadada;
+  border-radius: 100px;
+  padding: 9px 20px;
+}
+
+.leto-input-full-md {
+  background-color: #f2f2f2;
+  height: 48px;
+  width: 100%;
+  font-size: 18px;
+  border: 1px solid #dadada;
+  border-radius: 100px;
+  padding: 9px 20px;
+}
+
+.leto-input-full-lg {
+  background-color: #f2f2f2;
   height: 64px;
   width: 100%;
   font-size: 18px;
@@ -1439,27 +1631,258 @@
   padding: 9px 20px;
 }
 
-.leto-card-group {
+.leto-input-full-xl {
+  background-color: #f2f2f2;
+  height: 96px;
+  width: 100%;
+  font-size: 18px;
+  border: 1px solid #dadada;
+  border-radius: 100px;
+  padding: 9px 20px;
+}
+
+.leto-input-full-xxl {
+  background-color: #f2f2f2;
+  height: 128px;
+  width: 100%;
+  font-size: 18px;
+  border: 1px solid #dadada;
+  border-radius: 100px;
+  padding: 9px 20px;
+}
+
+.leto-card-wrapper {
+  text-decoration: none;
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.leto-card {
-  background: #FFFFFF;
-  border: 1px solid #dadada;
-  min-width: 300px;
-  min-height: 50px;
-  border-radius: 10px;
-  padding: 15px;
-  display: inline-block;
+.leto-card-label {
+  max-width: 100%;
 }
 
-.leto-card-header-bubble {
-  float: left;
-  margin: 0px;
-  margin-top: 2px;
-  margin-right: 10px;
+.leto-card-label-xxs {
+  max-width: 80px;
+}
+
+.leto-card-label-xs {
+  max-width: 120px;
+}
+
+.leto-card-label-s {
+  max-width: 160px;
+}
+
+.leto-card-label-md {
+  max-width: 240px;
+}
+
+.leto-card-label-lg {
+  max-width: 320px;
+}
+
+.leto-card-label-xl {
+  max-width: 480px;
+}
+
+.leto-card-label-xxl {
+  max-width: 640px;
+}
+
+.leto-card {
+  position: relative;
+  width: 240px;
+  min-height: 50px;
+  border: 1px solid #dadada;
+  border-radius: 10px;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.leto-card-xxs {
+  position: relative;
+  width: 80px;
+  min-height: 50px;
+  border: 1px solid #dadada;
+  border-radius: 10px;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.leto-card-xs {
+  position: relative;
+  width: 120px;
+  min-height: 50px;
+  border: 1px solid #dadada;
+  border-radius: 10px;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.leto-card-s {
+  position: relative;
+  width: 160px;
+  min-height: 50px;
+  border: 1px solid #dadada;
+  border-radius: 10px;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.leto-card-md {
+  position: relative;
+  width: 240px;
+  min-height: 50px;
+  border: 1px solid #dadada;
+  border-radius: 10px;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.leto-card-lg {
+  position: relative;
+  width: 320px;
+  min-height: 50px;
+  border: 1px solid #dadada;
+  border-radius: 10px;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.leto-card-xl {
+  position: relative;
+  width: 480px;
+  min-height: 50px;
+  border: 1px solid #dadada;
+  border-radius: 10px;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.leto-card-xxl {
+  position: relative;
+  width: 640px;
+  min-height: 50px;
+  border: 1px solid #dadada;
+  border-radius: 10px;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.leto-card-masonry {
+  position: relative;
+  min-height: 50px;
+  border: 1px solid #dadada;
+  border-radius: 10px;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.leto-card-square-xxs {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  border: 1px solid #dadada;
+  border-radius: 10px;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.leto-card-square-xs {
+  position: relative;
+  width: 120px;
+  height: 120px;
+  border: 1px solid #dadada;
+  border-radius: 10px;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.leto-card-square-s {
+  position: relative;
+  width: 160px;
+  height: 160px;
+  border: 1px solid #dadada;
+  border-radius: 10px;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.leto-card-square-md {
+  position: relative;
+  width: 240px;
+  height: 240px;
+  border: 1px solid #dadada;
+  border-radius: 10px;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.leto-card-square-lg {
+  position: relative;
+  width: 320px;
+  height: 320px;
+  border: 1px solid #dadada;
+  border-radius: 10px;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.leto-card-square-xl {
+  position: relative;
+  width: 480px;
+  height: 480px;
+  border: 1px solid #dadada;
+  border-radius: 10px;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.leto-card-square-xxl {
+  position: relative;
+  width: 640px;
+  height: 640px;
+  border: 1px solid #dadada;
+  border-radius: 10px;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.leto-card-image {
+  max-height: auto;
+  width: 100%;
+}
+
+.leto-card-header {
+  padding: 10px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.leto-card-header-c {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .leto-card-header:after {
@@ -1468,44 +1891,81 @@
   content: '';
 }
 
-.leto-card-header .leto-card-link {
+.leto-card-link {
+  text-decoration: none;
   font-size: 18px;
 }
 
-.leto-card-pile div {
+.leto-card-content {
+  padding: 10px;
+}
+
+.leto-card-content-c {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.leto-pile > * {
   display: block;
 }
 
-.leto-card-pile div:not(:first-child) {
-  margin-top: -20px;
-}
-
-.empty-pile {
-  display: block;
-  width: 100%;
+.leto-pile-empty {
   background: #FAFAFA;
   min-width: 300px;
-  padding: 15px;
+  width: 100%;
   border-radius: 5px;
+  padding: 15px;
+  display: block;
 }
 
-.leto-item {
+.leto-pile-header {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.leto-pile-header-c {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.leto-pile-header:after {
+  clear: both;
+  display: block;
+  content: '';
+}
+
+.leto-pile-item {
   background: #FFFFFF;
-  border: 1px solid #EEEEEE;
-  display: inline-block;
-  width: 100%;
-  border-radius: 10px;
-  margin: 10px;
   padding: 15px;
+  border: 1px solid #EEEEEE;
+  border-radius: 10px;
 }
 
 .leto-badge {
-  display: inline-block;
   background: #CCCCCC;
   font-size: 13px;
-  padding: 0px 8px;
+  padding: 5px 10px;
   border-radius: 100px;
   white-space: nowrap;
+  display: inline-block;
 }
 
 .leto-form {
@@ -1549,63 +2009,12 @@
   border-bottom-right-radius: 5px;
 }
 
-.leto-seperator {
-  display: block;
-  height: 20px;
-}
-
-.leto-badge {
-  display: inline-block;
-  background: #CCCCCC;
-  font-size: 13px;
-  padding: 0px 8px;
-  border-radius: 100px;
-}
-
-.leto-pull-left {
-  float: left;
-}
-
-.leto-pull-right {
-  float: right;
-}
-
-.leto-w-50 {
-  width: 50%;
-}
-
-.leto-w-30 {
-  width: 30%;
-}
-
-.leto-w-70 {
-  width: 70%;
-}
-
-@media (min-width: 768px) {
-  .leto-container {
-    width: 750px;
-  }
-}
-
-@media (min-width: 992px) {
-  .leto-container {
-    width: 970px;
-  }
-}
-
-@media (min-width: 1200px) {
-  .leto-container {
-    width: 1170px;
-  }
-}
-
 textarea:focus {
   border-color: rgba(82, 168, 236, 0.8);
   outline: 0;
   outline: thin dotted \9;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
 }
 
 input[type="text"]:focus, input[type="password"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="date"]:focus, input[type="month"]:focus, input[type="time"]:focus, input[type="week"]:focus, input[type="number"]:focus, input[type="email"]:focus, input[type="url"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="color"]:focus {
@@ -1613,7 +2022,7 @@ input[type="text"]:focus, input[type="password"]:focus, input[type="datetime"]:f
   outline: 0;
   outline: thin dotted \9;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
 }
 
 .uneditable-input:focus {
@@ -1621,7 +2030,7 @@ input[type="text"]:focus, input[type="password"]:focus, input[type="datetime"]:f
   outline: 0;
   outline: thin dotted \9;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
 }
 
 .scrollable-table {
