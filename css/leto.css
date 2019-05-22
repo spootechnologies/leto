@@ -655,6 +655,54 @@ body {
   color: #fdfdfd;
 }
 
+.leto-font-weight-light {
+  font-weight: 300;
+}
+
+.leto-font-weight-regular {
+  font-weight: 400;
+}
+
+.leto-font-weight-medium {
+  font-weight: 500;
+}
+
+.leto-font-weight-bold {
+  font-weight: 700;
+}
+
+.leto-font-weight-black {
+  font-weight: 900;
+}
+
+.leto-font-size-xxs {
+  font-size: 8px;
+}
+
+.leto-font-size-xs {
+  font-size: 12px;
+}
+
+.leto-font-size-s {
+  font-size: 16px;
+}
+
+.leto-font-size-md {
+  font-size: 24px;
+}
+
+.leto-font-size-lg {
+  font-size: 32px;
+}
+
+.leto-font-size-xl {
+  font-size: 48px;
+}
+
+.leto-font-size-xxl {
+  font-size: 64px;
+}
+
 .leto-color-bg-light {
   background-color: #fdfdfd;
 }

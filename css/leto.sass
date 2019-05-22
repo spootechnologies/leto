@@ -23,7 +23,22 @@ $xxl: 64px
 $colorLight: #fdfdfd 
 $colorLightMedium: #f2f2f2  
 $colorMedium: #dadada  
-$colorDark: #303030    
+$colorDark: #303030
+
+$colorYellow: #E7E247 
+$colorOrange: #FFAA5A
+$colorRed: #E7E247   
+$colorPurple: #E7E247  
+$colorBlue: #E7E247
+$colorMint: #70D8A8    
+$colorGreen: #E7E247   
+
+$fontWeightLight: 300
+$fontWeightRegular: 400
+$fontWeightMedium: 500
+$fontWeightBold: 700
+$fontWeightBlack: 900
+
     
 // GENERAL
 
@@ -35,12 +50,14 @@ body
     margin: 0
     padding: 0
 
+
 // Test object
 
 #test
     background-color: $colorMedium
     width: 50px
     height: 50px
+
 
 // ROW
 
@@ -519,6 +536,47 @@ body
     &-text
         color: $colorLight
 
+.leto-font
+
+    &-weight
+
+        &-light
+            font-weight: $fontWeightLight
+
+        &-regular
+            font-weight: $fontWeightRegular
+
+        &-medium
+            font-weight: $fontWeightMedium
+
+        &-bold
+            font-weight: $fontWeightBold
+
+        &-black
+            font-weight: $fontWeightBlack
+
+    &-size
+
+        &-xxs
+            font-size: $xxs
+
+        &-xs
+            font-size: $xs
+
+        &-s
+            font-size: $s
+
+        &-md
+            font-size: $md
+
+        &-lg
+            font-size: $lg
+
+        &-xl
+            font-size: $xl
+
+        &-xxl
+            font-size: $xxl
 
 // Color
 
