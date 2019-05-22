@@ -24,8 +24,6 @@ $colorLight: #fdfdfd
 $colorLightMedium: #f2f2f2  
 $colorMedium: #dadada  
 $colorDark: #303030    
-
-$colorBorder: $colorMedium
     
 // GENERAL
 
@@ -34,6 +32,8 @@ $colorBorder: $colorMedium
 
 body
     font-family: 'Montserrat', sans-serif;
+    margin: 0
+    padding: 0
 
 // Test object
 
@@ -41,6 +41,8 @@ body
     background-color: $colorMedium
     width: 50px
     height: 50px
+
+// ROW
 
 =rowMasonry($value)
     column-count: 1
@@ -67,10 +69,15 @@ body
 
         &-5
             +rowMasonry(5)     
-           
+
+
+// Margin
 
 =margin($value)
     margin: $value
+
+=marginBalance($value)
+    margin: -$value
 
 =marginX($value)
     margin-left: $value
@@ -116,6 +123,28 @@ body
     &-xxl
         +margin($xxl)
 
+    &-balance
+
+        &-xxs
+            +marginBalance($xxs)
+
+        &-xs
+            +marginBalance($xs)
+
+        &-s
+            +marginBalance($s)
+
+        &-md
+            +marginBalance($md)
+
+        &-lg
+            +marginBalance($lg)
+
+        &-xl
+            +marginBalance($xl)
+
+        &-xxl
+            +marginBalance($xxl)
 
 .leto-mx
     +marginX($md)
@@ -261,6 +290,8 @@ body
     &-xxl
         +marginBottom($xxl)
 
+
+// Padding
 
 =padding($value)
     padding: $value
@@ -454,25 +485,29 @@ body
         +paddingBottom($xxl)
 
 
+// Border
+
 .leto-border
-    border: 1px solid $colorBorder
+    border: 1px solid $colorMedium
 
     &-top
         border: none
-        border-top: 1px solid $colorBorder
+        border-top: 1px solid $colorMedium
 
     &-left
         border: none
-        border-left: 1px solid $colorBorder
+        border-left: 1px solid $colorMedium
 
     &-right
         border: none
-        border-right: 1px solid $colorBorder
+        border-right: 1px solid $colorMedium
 
     &-bottom
         border: none
-        border-bottom: 1px solid $colorBorder
+        border-bottom: 1px solid $colorMedium
 
+
+// Darkmode
 
 .leto-darkmode
     background-color: $colorDark
@@ -484,6 +519,8 @@ body
     &-text
         color: $colorLight
 
+
+// Color
 
 .leto-color
 
@@ -530,6 +567,8 @@ body
             border-color: $colorDark
 
 
+// Index
+
 .leto-index
 
     &-1
@@ -563,48 +602,91 @@ body
         z-index: 10
 
 
+// Frame
+
 .leto-frame
     width: 100%
-    padding: 20px
+    padding: 16px
 
+    &-full 
+        width: 100%
+        padding: 16px
+        
+        .leto-container
+            position: relative
+            width: 100%
+
+// Edge
 
 .leto-edge-wrapper
 
     &-top
-        position: fixed
         width: 100%
-        height: 100%
+        height: auto
         top: 0
         left: 0
         flex-direction: column
         display: flex
 
+        &-fixed
+            position: fixed
+            width: 100%
+            height: 100%
+            top: 0
+            left: 0
+            flex-direction: column
+            display: flex
+
     &-left
-        position: fixed
-        width: 100%
+        width: auto
         height: 100%
         top: 0
         left: 0
         flex-direction: row
         display: flex
 
+        &-fixed
+            position: fixed
+            width: 100%
+            height: 100%
+            top: 0
+            left: 0
+            flex-direction: row
+            display: flex
+
     &-right
-        position: fixed
-        width: 100%
+        width: auto
         height: 100%
         top: 0
         right: 0
         flex-direction: row
         display: flex
 
+        &-fixed
+            position: fixed
+            width: 100%
+            height: 100%
+            top: 0
+            right: 0
+            flex-direction: row
+            display: flex
+
     &-bottom
-        position: fixed
         width: 100%
-        height: 100%
+        height: auto
         bottom: 0
         left: 0
         flex-direction: column
         display: flex
+
+        &-fixed
+            position: fixed
+            width: 100%
+            height: 100%
+            bottom: 0
+            left: 0
+            flex-direction: column
+            display: flex
 
 @media (min-width: $pc) 
 
@@ -613,56 +695,36 @@ body
         &-top, &-bottom
             height: auto
 
+            &-fixed
+                height: auto
+
         &-left, &-right
             width: auto
-    
 
+            &-fixed
+                width: auto
+    
 .leto-edge
 
     &-top
         width: 100%
-        padding: 10px
         flex-direction: row
         display: flex
-        
-        &-c
-            width: 100%
-            flex-direction: row
-            display: flex
 
     &-left
         height: 100%
-        padding: 10px
         flex-direction: column
         display: flex
-        
-        &-c
-            height: 100%
-            flex-direction: column
-            display: flex
 
     &-right
         height: 100%
-        padding: 10px
         flex-direction: column
         display: flex
-        
-        &-c
-            height: 100%
-            flex-direction: column
-            display: flex
 
     &-bottom
         width: 100%
-        padding: 10px
         flex-direction: row
         display: flex
-        
-        &-c
-            width: 100%
-            align-items: center
-            flex-direction: row
-            display: flex
 
 
 .leto-subedge
@@ -670,7 +732,6 @@ body
     &-top
         height: 100%
         height: 100%
-        padding: 10px
         justify-content: flex-start
         flex-direction: row
         display: flex
@@ -683,7 +744,6 @@ body
     &-left
         height: 100%
         width: 100%
-        padding: 10px
         justify-content: flex-start
         flex-direction: column
         display: flex
@@ -696,7 +756,6 @@ body
     &-right
         height: 100%
         width: 100%
-        padding: 10px
         justify-content: flex-end
         flex-direction: column
         display: flex
@@ -709,7 +768,6 @@ body
     &-bottom
         height: 100%
         height: 100%
-        padding: 10px
         align-items: flex-end
         flex-direction: row
         display: flex
@@ -724,32 +782,36 @@ body
     .leto-subedge
 
         &-top, &-bottom
-            height: 20vh
+            min-height: 300px
+            height: 25vh
             
         &-left, &-right
-            width: 20vw
+            min-width: 300px
+            width: 25vw
 
+
+// Backdrop
 
 .leto-backdrop
     position: fixed
-    left: 0px
-    top: 0px
+    left: 0
+    top: 0
     display: block
     height: 100%
     width: 100%
     background: rgba(0, 0, 0, 0.3)
-    z-index: 4
 
+
+// Container
 
 .leto-container
     position: relative
     width: 75vw
-    margin-right: auto
     margin-left: auto
+    margin-right: auto
 
-    &-full
-        width: 100%
-
+    
+// Bubble
 
 .leto-bubble-group
 
@@ -803,6 +865,7 @@ body
     flex-direction: column
     align-items: center
     justify-content: center
+    flex-shrink: 0
     display: inline-flex
 
     img
@@ -848,8 +911,73 @@ body
 
     &.active
         border: 3px solid #FFFFFF
-        box-shadow: 0px 0px 0px 2px #c5c5c5
-        
+        box-shadow: 0 0 0 2px #c5c5c5
+
+
+// Input
+
+=input($width, $height)
+    background-color: $colorLightMedium
+    height: $height * 2
+    width: $width
+    font-size: 18px
+    border: 1px solid $colorMedium
+    border-radius: 100px
+    padding: 9px 20px
+
+.leto-input
+    +input(auto, $md)
+
+    &-half
+        +input(50%, $md)
+
+        &-xxs
+            +input(50%, $xxs)
+
+        &-xs
+            +input(50%, $xs)
+
+        &-s
+            +input(50%, $s)
+
+        &-md
+            +input(50%, $md)
+
+        &-lg
+            +input(50%, $lg)
+
+        &-xl
+            +input(50%, $xl)
+
+        &-xxl
+            +input(50%, $xxl)
+
+    &-full
+        +input(100%, $md)
+
+        &-xxs
+            +input(100%, $xxs)
+
+        &-xs
+            +input(100%, $xs)
+
+        &-s
+            +input(100%, $s)
+
+        &-md
+            +input(100%, $md)
+
+        &-lg
+            +input(100%, $lg)
+
+        &-xl
+            +input(100%, $xl)
+
+        &-xxl
+            +input(100%, $xxl)
+
+
+// Search
 
 =search($width, $height)
     width: $width
@@ -911,65 +1039,7 @@ body
             +search(100%, $xxl)
 
 
-=input($width, $height)
-    background-color: $colorLightMedium
-    height: $height * 2
-    width: $width
-    font-size: 18px
-    border: 1px solid $colorMedium
-    border-radius: 100px
-    padding: 9px 20px
-
-.leto-input
-    +input(auto, $md)
-
-    &-half
-        +input(50%, $md)
-
-        &-xxs
-            +input(50%, $xxs)
-
-        &-xs
-            +input(50%, $xs)
-
-        &-s
-            +input(50%, $s)
-
-        &-md
-            +input(50%, $md)
-
-        &-lg
-            +input(50%, $lg)
-
-        &-xl
-            +input(50%, $xl)
-
-        &-xxl
-            +input(50%, $xxl)
-
-    &-full
-        +input(100%, $md)
-
-        &-xxs
-            +input(100%, $xxs)
-
-        &-xs
-            +input(100%, $xs)
-
-        &-s
-            +input(100%, $s)
-
-        &-md
-            +input(100%, $md)
-
-        &-lg
-            +input(100%, $lg)
-
-        &-xl
-            +input(100%, $xl)
-
-        &-xxl
-            +input(100%, $xxl)
+// Card
 
 .leto-card-wrapper
     text-decoration: none
@@ -1109,13 +1179,20 @@ body
         flex-direction: row
         display: flex
 
+
+// Pile
+
+.leto-pile-item
+    padding: 15px
+    border: 1px solid $colorMedium
+    border-radius: 10px
+
 .leto-pile
 
     > *
         display: block
 
     &-empty
-        background: #FAFAFA
         min-width: 300px
         width: 100%
         border-radius: 5px
@@ -1136,63 +1213,102 @@ body
         display: block
         content: ''
 
-.leto-pile-item
-    background: #FFFFFF
-    padding: 15px
-    border: 1px solid #EEEEEE
-    border-radius: 10px
+// Button
+
+.leto-button
+    text-decoration: none
+    text-align: center
+    border: 1px solid $colorMedium
+    border-radius: 25px
+    padding: 8px 13px
+    display: inline-block
+
+    &-c
+        text-decoration: none
+        text-align: center
+        display: inline-block       
+
+// Bagdge
 
 .leto-badge
-    background: #CCCCCC
+    background: $colorLightMedium
     font-size: 13px
     padding: 5px 10px
     border-radius: 100px
     white-space: nowrap
     display: inline-block
 
-
-// ____________________________________________________________________ 
-
-// FORM
-
-.leto-form
-    width: 50%
-    height: 100%
-    display: block
-    background: #FFFFFF
-    padding: 10px
-
-.leto-form-right
-    position: fixed
-    top: 0px
-    right: 0px
-    border-left: 1px solid #CCCCCC
-    overflow-y: scroll
-
-// TABLE
+// Table
 
 .leto-table
     border-collapse: separate
-    border-spacing: 0px 15px
+    border-spacing: 0 15px
     width: 100%
 
+    tr:not(.leto-table-header)
+
+        th
+            border-top: 1px solid $colorMedium
+            border-bottom: 1px solid $colorMedium
+            padding: 15px
+
+        td
+            border-top: 1px solid $colorMedium
+            border-bottom: 1px solid $colorMedium
+            padding: 15px
+
+    tr:not(.leto-table-header)
+
+        td:first-child, th:first-child
+            border-left: 1px solid $colorMedium
+            border-top-left-radius: 5px
+            border-bottom-left-radius: 5px
+
+        td:last-child, th:last-child
+            border-right: 1px solid $colorMedium
+            border-top-right-radius: 5px
+            border-bottom-right-radius: 5px
+
+.leto-table-header
+
     td, th
-        background: #FFFFFF
-        border-top: 1px solid #EEEEEE
-        border-bottom: 1px solid #EEEEEE
-        padding: 15px
+        padding-left: 15px
 
-    td:first-child, th:first-child
-        border-left: 1px solid #EEEEEE
-        border-top-left-radius: 5px
-        border-bottom-left-radius: 5px
 
-    td:last-child, th:last-child
-        border-right: 1px solid #EEEEEE
-        border-top-right-radius: 5px
-        border-bottom-right-radius: 5px
+// Form
 
-// OTHER
+.leto-form
+
+    &-left
+        position: fixed
+        height: 100%
+        top: 0
+        left: 0
+        flex-direction: column
+        display: flex
+
+    &-right
+        position: fixed
+        height: 100%
+        top: 0
+        right: 0
+        flex-direction: column
+        display: flex
+
+    @media (min-width: $pc)
+
+        &-left, &-right
+            min-width: 300px
+            width: 25vw
+
+// Other
+
+button
+    background: none
+    border: none
+
+    &:focus
+        outline: none
 
 textarea:focus
     border-color: rgba(82, 168, 236, 0.8)
