@@ -684,23 +684,23 @@ body {
 }
 
 .leto-font-size-s {
-  font-size: 16px;
+  font-size: 14px;
 }
 
 .leto-font-size-md {
-  font-size: 24px;
+  font-size: 16px;
 }
 
 .leto-font-size-lg {
-  font-size: 32px;
+  font-size: 24px;
 }
 
 .leto-font-size-xl {
-  font-size: 48px;
+  font-size: 32px;
 }
 
 .leto-font-size-xxl {
-  font-size: 64px;
+  font-size: 40px;
 }
 
 .leto-color-bg-light {
@@ -719,6 +719,34 @@ body {
   background-color: #303030;
 }
 
+.leto-color-bg-yellow {
+  background-color: #E7E247;
+}
+
+.leto-color-bg-orange {
+  background-color: #FFAA5A;
+}
+
+.leto-color-bg-red {
+  background-color: #E7E247;
+}
+
+.leto-color-bg-purple {
+  background-color: #E7E247;
+}
+
+.leto-color-bg-blue {
+  background-color: #E7E247;
+}
+
+.leto-color-bg-mint {
+  background-color: #70D8A8;
+}
+
+.leto-color-bg-green {
+  background-color: #E7E247;
+}
+
 .leto-color-text-light {
   color: #fdfdfd;
 }
@@ -735,6 +763,34 @@ body {
   color: #303030;
 }
 
+.leto-color-text-yellow {
+  color: #E7E247;
+}
+
+.leto-color-text-orange {
+  color: #FFAA5A;
+}
+
+.leto-color-text-red {
+  color: #E7E247;
+}
+
+.leto-color-text-purple {
+  color: #E7E247;
+}
+
+.leto-color-text-blue {
+  color: #E7E247;
+}
+
+.leto-color-text-mint {
+  color: #70D8A8;
+}
+
+.leto-color-text-green {
+  color: #E7E247;
+}
+
 .leto-color-border-light {
   border-color: #fdfdfd;
 }
@@ -749,6 +805,34 @@ body {
 
 .leto-color-border-dark {
   border-color: #303030;
+}
+
+.leto-color-border-yellow {
+  border-color: #E7E247;
+}
+
+.leto-color-border-orange {
+  border-color: #FFAA5A;
+}
+
+.leto-color-border-red {
+  border-color: #E7E247;
+}
+
+.leto-color-border-purple {
+  border-color: #E7E247;
+}
+
+.leto-color-border-blue {
+  border-color: #E7E247;
+}
+
+.leto-color-border-mint {
+  border-color: #70D8A8;
+}
+
+.leto-color-border-green {
+  border-color: #E7E247;
 }
 
 .leto-index-1 {
