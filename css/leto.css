@@ -10,12 +10,6 @@ body {
   padding: 0;
 }
 
-#test {
-  background-color: #dadada;
-  width: 50px;
-  height: 50px;
-}
-
 .leto-row {
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
@@ -168,6 +162,10 @@ body {
 
 .leto-m-balance-xxl {
   margin: -64px;
+}
+
+.leto-m-none {
+  margin: 0;
 }
 
 .leto-mx {
@@ -410,6 +408,10 @@ body {
   padding: 64px;
 }
 
+.leto-p-none {
+  padding: 0;
+}
+
 .leto-px {
   padding-left: 24px;
   padding-right: 24px;
@@ -642,6 +644,10 @@ body {
   border-bottom: 1px solid #dadada;
 }
 
+.leto-border-none {
+  border: none;
+}
+
 .leto-darkmode {
   background-color: #303030;
   color: #fdfdfd;
@@ -701,6 +707,10 @@ body {
 
 .leto-font-size-xxl {
   font-size: 40px;
+}
+
+.leto-font-italic {
+  font-style: italic;
 }
 
 .leto-color-bg-light {
@@ -1187,7 +1197,7 @@ body {
   display: block;
   height: 100%;
   width: 100%;
-  background: rgba(0, 0, 0, 0.3);
+  background: rgba(0, 0, 0, 0.25);
 }
 
 .leto-container {
@@ -1496,8 +1506,6 @@ body {
 }
 
 .leto-bubble-c {
-  height: 48px;
-  width: 48px;
   text-align: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -1516,8 +1524,8 @@ body {
 
 .leto-bubble.active {
   border: 3px solid #FFFFFF;
-  -webkit-box-shadow: 0 0 0 2px #c5c5c5;
-          box-shadow: 0 0 0 2px #c5c5c5;
+  -webkit-box-shadow: 0 0 0 2px #dadada;
+          box-shadow: 0 0 0 2px #dadada;
 }
 
 .leto-input {
@@ -2085,21 +2093,10 @@ body {
 
 .leto-card-link {
   text-decoration: none;
-  font-size: 18px;
 }
 
 .leto-card-content {
   padding: 10px;
-}
-
-.leto-card-content-c {
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
 }
 
 .leto-pile-item {
@@ -2166,9 +2163,13 @@ body {
 
 .leto-badge {
   background: #f2f2f2;
-  font-size: 13px;
   padding: 5px 10px;
   border-radius: 100px;
+  white-space: nowrap;
+  display: inline-block;
+}
+
+.leto-badge-c {
   white-space: nowrap;
   display: inline-block;
 }
