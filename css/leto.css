@@ -2252,6 +2252,7 @@ body {
 
 .leto-form-left {
   position: fixed;
+  min-width: 300px;
   height: 100%;
   top: 0;
   left: 0;
@@ -2266,6 +2267,7 @@ body {
 
 .leto-form-right {
   position: fixed;
+  min-width: 300px;
   height: 100%;
   top: 0;
   right: 0;
@@ -2280,7 +2282,6 @@ body {
 
 @media (min-width: 1366px) {
   .leto-form-left, .leto-form-right {
-    min-width: 300px;
     width: 25vw;
   }
 }
