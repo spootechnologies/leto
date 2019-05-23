@@ -661,6 +661,78 @@ body {
   color: #fdfdfd;
 }
 
+.leto-font-xxs {
+  font-size: 8px;
+}
+
+.leto-font-xs {
+  font-size: 12px;
+}
+
+.leto-font-s {
+  font-size: 14px;
+}
+
+.leto-font-md {
+  font-size: 16px;
+}
+
+.leto-font-lg {
+  font-size: 24px;
+}
+
+.leto-font-xl {
+  font-size: 32px;
+}
+
+.leto-font-xxl {
+  font-size: 40px;
+}
+
+.leto-font-xxl-light {
+  font-weight: 300;
+}
+
+.leto-font-xxl-light-italic {
+  font-style: italic;
+}
+
+.leto-font-xxl-regular {
+  font-weight: 400;
+}
+
+.leto-font-xxl-regular-italic {
+  font-style: italic;
+}
+
+.leto-font-xxl-medium {
+  font-weight: 500;
+}
+
+.leto-font-xxl-medium-italic {
+  font-style: italic;
+}
+
+.leto-font-xxl-bold {
+  font-weight: 700;
+}
+
+.leto-font-xxl-bold-italic {
+  font-style: italic;
+}
+
+.leto-font-xxl-black {
+  font-weight: 900;
+}
+
+.leto-font-xxl-black-italic {
+  font-style: italic;
+}
+
+.leto-font-xxl-italic {
+  font-style: italic;
+}
+
 .leto-font-weight-light {
   font-weight: 300;
 }
@@ -679,34 +751,6 @@ body {
 
 .leto-font-weight-black {
   font-weight: 900;
-}
-
-.leto-font-size-xxs {
-  font-size: 8px;
-}
-
-.leto-font-size-xs {
-  font-size: 12px;
-}
-
-.leto-font-size-s {
-  font-size: 14px;
-}
-
-.leto-font-size-md {
-  font-size: 16px;
-}
-
-.leto-font-size-lg {
-  font-size: 24px;
-}
-
-.leto-font-size-xl {
-  font-size: 32px;
-}
-
-.leto-font-size-xxl {
-  font-size: 40px;
 }
 
 .leto-font-italic {
@@ -938,9 +982,7 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: fFlex;
 }
 
 .leto-edge-wrapper-left-fixed {
