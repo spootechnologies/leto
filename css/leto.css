@@ -665,24 +665,354 @@ body {
   font-size: 8px;
 }
 
+.leto-font-xxs-light {
+  font-size: 8px;
+  font-weight: 300;
+}
+
+.leto-font-xxs-light-italic {
+  font-size: 8px;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.leto-font-xxs-regular {
+  font-size: 8px;
+  font-weight: 400;
+}
+
+.leto-font-xxs-regular-italic {
+  font-size: 8px;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.leto-font-xxs-medium {
+  font-size: 8px;
+  font-weight: 500;
+}
+
+.leto-font-xxs-medium-italic {
+  font-size: 8px;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.leto-font-xxs-bold {
+  font-size: 8px;
+  font-weight: 700;
+}
+
+.leto-font-xxs-bold-italic {
+  font-size: 8px;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.leto-font-xxs-black {
+  font-size: 8px;
+  font-weight: 900;
+}
+
+.leto-font-xxs-black-italic {
+  font-size: 8px;
+  font-weight: 900;
+  font-style: italic;
+}
+
 .leto-font-xs {
   font-size: 12px;
+}
+
+.leto-font-xs-light {
+  font-size: 12px;
+  font-weight: 300;
+}
+
+.leto-font-xs-light-italic {
+  font-size: 12px;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.leto-font-xs-regular {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.leto-font-xs-regular-italic {
+  font-size: 12px;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.leto-font-xs-medium {
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.leto-font-xs-medium-italic {
+  font-size: 12px;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.leto-font-xs-bold {
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.leto-font-xs-bold-italic {
+  font-size: 12px;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.leto-font-xs-black {
+  font-size: 12px;
+  font-weight: 900;
+}
+
+.leto-font-xs-black-italic {
+  font-size: 12px;
+  font-weight: 900;
+  font-style: italic;
 }
 
 .leto-font-s {
   font-size: 14px;
 }
 
+.leto-font-s-light {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.leto-font-s-light-italic {
+  font-size: 14px;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.leto-font-s-regular {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.leto-font-s-regular-italic {
+  font-size: 14px;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.leto-font-s-medium {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.leto-font-s-medium-italic {
+  font-size: 14px;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.leto-font-s-bold {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.leto-font-s-bold-italic {
+  font-size: 14px;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.leto-font-s-black {
+  font-size: 14px;
+  font-weight: 900;
+}
+
+.leto-font-s-black-italic {
+  font-size: 14px;
+  font-weight: 900;
+  font-style: italic;
+}
+
 .leto-font-md {
   font-size: 16px;
+}
+
+.leto-font-md-light {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.leto-font-md-light-italic {
+  font-size: 16px;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.leto-font-md-regular {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.leto-font-md-regular-italic {
+  font-size: 16px;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.leto-font-md-medium {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.leto-font-md-medium-italic {
+  font-size: 16px;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.leto-font-md-bold {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.leto-font-md-bold-italic {
+  font-size: 16px;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.leto-font-md-black {
+  font-size: 16px;
+  font-weight: 900;
+}
+
+.leto-font-md-black-italic {
+  font-size: 16px;
+  font-weight: 900;
+  font-style: italic;
 }
 
 .leto-font-lg {
   font-size: 24px;
 }
 
+.leto-font-lg-light {
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.leto-font-lg-light-italic {
+  font-size: 24px;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.leto-font-lg-regular {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.leto-font-lg-regular-italic {
+  font-size: 24px;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.leto-font-lg-medium {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.leto-font-lg-medium-italic {
+  font-size: 24px;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.leto-font-lg-bold {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.leto-font-lg-bold-italic {
+  font-size: 24px;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.leto-font-lg-black {
+  font-size: 24px;
+  font-weight: 900;
+}
+
+.leto-font-lg-black-italic {
+  font-size: 24px;
+  font-weight: 900;
+  font-style: italic;
+}
+
 .leto-font-xl {
   font-size: 32px;
+}
+
+.leto-font-xl-light {
+  font-size: 32px;
+  font-weight: 300;
+}
+
+.leto-font-xl-light-italic {
+  font-size: 32px;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.leto-font-xl-regular {
+  font-size: 32px;
+  font-weight: 400;
+}
+
+.leto-font-xl-regular-italic {
+  font-size: 32px;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.leto-font-xl-medium {
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.leto-font-xl-medium-italic {
+  font-size: 32px;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.leto-font-xl-bold {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.leto-font-xl-bold-italic {
+  font-size: 32px;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.leto-font-xl-black {
+  font-size: 32px;
+  font-weight: 900;
+}
+
+.leto-font-xl-black-italic {
+  font-size: 32px;
+  font-weight: 900;
+  font-style: italic;
 }
 
 .leto-font-xxl {
@@ -690,42 +1020,57 @@ body {
 }
 
 .leto-font-xxl-light {
+  font-size: 40px;
   font-weight: 300;
 }
 
 .leto-font-xxl-light-italic {
+  font-size: 40px;
+  font-weight: 300;
   font-style: italic;
 }
 
 .leto-font-xxl-regular {
+  font-size: 40px;
   font-weight: 400;
 }
 
 .leto-font-xxl-regular-italic {
+  font-size: 40px;
+  font-weight: 400;
   font-style: italic;
 }
 
 .leto-font-xxl-medium {
+  font-size: 40px;
   font-weight: 500;
 }
 
 .leto-font-xxl-medium-italic {
+  font-size: 40px;
+  font-weight: 500;
   font-style: italic;
 }
 
 .leto-font-xxl-bold {
+  font-size: 40px;
   font-weight: 700;
 }
 
 .leto-font-xxl-bold-italic {
+  font-size: 40px;
+  font-weight: 700;
   font-style: italic;
 }
 
 .leto-font-xxl-black {
+  font-size: 40px;
   font-weight: 900;
 }
 
 .leto-font-xxl-black-italic {
+  font-size: 40px;
+  font-weight: 900;
   font-style: italic;
 }
 
@@ -2282,7 +2627,7 @@ body {
 
 @media (min-width: 1366px) {
   .leto-form-left, .leto-form-right {
-    width: 25vw;
+    width: 50vw;
   }
 }
 

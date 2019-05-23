@@ -548,58 +548,89 @@ body
 
 // Font
 
+=fontWeightandStyle($size)
+
+    &-light
+        font-size: $size
+        font-weight: $fontWeightLight
+
+        &-italic
+            font-size: $size
+            font-weight: $fontWeightLight
+            font-style: italic
+
+    &-regular
+        font-size: $size
+        font-weight: $fontWeightRegular
+
+        &-italic
+            font-size: $size
+            font-weight: $fontWeightRegular
+            font-style: italic
+
+    &-medium
+        font-size: $size
+        font-weight: $fontWeightMedium
+
+        &-italic
+            font-size: $size
+            font-weight: $fontWeightMedium
+            font-style: italic
+
+    &-bold
+        font-size: $size
+        font-weight: $fontWeightBold
+
+        &-italic
+            font-size: $size
+            font-weight: $fontWeightBold
+            font-style: italic
+
+    &-black
+        font-size: $size
+        font-weight: $fontWeightBlack
+
+        &-italic
+            font-size: $size
+            font-weight: $fontWeightBlack
+            font-style: italic
+
 .leto-font
 
     &-xxs
         font-size: $fontSizeXXS
 
+        +fontWeightandStyle($fontSizeXXS)
+
     &-xs
         font-size: $fontSizeXS
+
+        +fontWeightandStyle($fontSizeXS)
 
     &-s
         font-size: $fontSizeS
 
+        +fontWeightandStyle($fontSizeS)
+
     &-md
         font-size: $fontSizeMD
+
+        +fontWeightandStyle($fontSizeMD)
 
     &-lg
         font-size: $fontSizeLG
 
+        +fontWeightandStyle($fontSizeLG)
+
     &-xl
         font-size: $fontSizeXL
+
+        +fontWeightandStyle($fontSizeXL)
 
     &-xxl
         font-size: $fontSizeXXL
 
-        &-light
-            font-weight: $fontWeightLight
-
-            &-italic
-                font-style: italic
-
-        &-regular
-            font-weight: $fontWeightRegular
-
-            &-italic
-                font-style: italic
-
-        &-medium
-            font-weight: $fontWeightMedium
-
-            &-italic
-                font-style: italic
-
-        &-bold
-            font-weight: $fontWeightBold
-
-            &-italic
-                font-style: italic
-
-        &-black
-            font-weight: $fontWeightBlack
-
-            &-italic
-                font-style: italic
+        +fontWeightandStyle($fontSizeXXL)
 
         &-italic
             font-style: italic
@@ -1462,7 +1493,7 @@ body
     @media (min-width: $pc)
 
         &-left, &-right
-            width: 25vw
+            width: 50vw
 
 // Other
 
