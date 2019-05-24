@@ -6,40 +6,40 @@ $tablet: 450px
 $pc: 1366px
 $pcLarge: 1921px
 
-$xxs: 8px
+$xxs: 4px
 
-$xs: 12px
+$xs: 8px
 
-$s: 16px
+$s: 12px
 
-$md: 24px
+$md: 16px
 
-$lg: 32px
+$lg: 24px
 
-$xl: 48px
+$xl: 32px
 
-$xxl: 64px
+$xxl: 48px
 
 $colorLight: #fdfdfd 
 $colorLightMedium: #f2f2f2  
 $colorMedium: #dadada  
 $colorDark: #303030
 
-$colorYellow: #E7E247 
-$colorOrange: #FFAA5A
-$colorRed: #D8273E  
-$colorPurple: #B233B0  
-$colorBlue: #246EB9
-$colorMint: #70D8A8     
-$colorGreen: #7AC74F  
+$colorYellow: #FFFD99
+$colorOrange: #FFBF80
+$colorRed: #FF8C8C  
+$colorPurple: #D499FF  
+$colorBlue: #99A7FF
+$colorMint: #80FFD0     
+$colorGreen: #9BFF99  
 
 $fontSizeXXS: 8px 
 $fontSizeXS: 12px 
-$fontSizeS: 14px 
-$fontSizeMD: 16px 
+$fontSizeS: 16px 
+$fontSizeMD: 20px 
 $fontSizeLG: 24px 
-$fontSizeXL: 32px 
-$fontSizeXXL: 40px 
+$fontSizeXL: 28px 
+$fontSizeXXL: 32px 
 
 $fontWeightLight: 300
 $fontWeightRegular: 400
@@ -162,9 +162,6 @@ body
 
         &-xxl
             +marginBalance($xxl)
-
-    &-none
-        margin: 0
 
 .leto-mx
     +marginX($md)
@@ -360,9 +357,6 @@ body
     &-xxl
         +padding($xxl)
 
-    &-none
-        padding: 0
-
 .leto-px
     +paddingX($md)
 
@@ -507,30 +501,67 @@ body
     &-xxl
         +paddingBottom($xxl)
 
+=borderColor()
+
+    &-light
+        border-color: $colorLight
+
+    &-lightMedium
+        border-color: $colorLightMedium
+
+    &-medium
+        border-color: $colorMedium
+
+    &-dark
+        border-color: $colorDark
+
+    &-yellow
+        border-color: $colorYellow
+
+    &-orange
+        border-color: $colorOrange
+
+    &-red
+        border-color: $colorRed
+
+    &-purple
+        border-color: $colorPurple
+
+    &-blue
+        border-color: $colorBlue
+
+    &-mint
+        border-color: $colorMint
+
+    &-green
+        border-color: $colorGreen
 
 // Border
 
 .leto-border
     border: 1px solid $colorMedium
 
+    +borderColor()
+
     &-top
-        border: none
         border-top: 1px solid $colorMedium
 
+        +borderColor()
+
     &-left
-        border: none
         border-left: 1px solid $colorMedium
 
+        +borderColor()
+
     &-right
-        border: none
         border-right: 1px solid $colorMedium
 
+        +borderColor()
+
     &-bottom
-        border: none
         border-bottom: 1px solid $colorMedium
 
-    &-none
-        border: none
+        +borderColor()
 
 
 // Darkmode
@@ -545,6 +576,63 @@ body
     &-text
         color: $colorLight
 
+
+// Text
+
+=textColor()
+
+    &-light
+        color: $colorLight
+
+    &-lightMedium
+        color: $colorLightMedium
+
+    &-medium
+        color: $colorMedium
+
+    &-dark
+        color: $colorDark
+
+    &-yellow
+        color: $colorYellow
+
+    &-orange
+        color: $colorOrange
+
+    &-red
+        color: $colorRed
+
+    &-purple
+        color: $colorPurple
+
+    &-blue
+        color: $colorBlue
+
+    &-mint
+        color: $colorMint
+
+    &-green
+        color: $colorGreen
+
+.leto-text
+
+    +textColor()
+
+    &-left
+        text-align: center
+
+        +textColor()
+
+    &-center
+        text-align: center
+
+        +textColor()
+
+    &-right
+        text-align: right
+
+        +textColor()
+        
 
 // Font
 
@@ -596,6 +684,7 @@ body
             font-style: italic
 
 .leto-font
+    font-size: $md
 
     &-xxs
         font-size: $fontSizeXXS
@@ -632,137 +721,61 @@ body
 
         +fontWeightandStyle($fontSizeXXL)
 
-        &-italic
-            font-style: italic
+    &-light
+        font-weight: $fontWeightLight
 
-    &-weight
+    &-regular
+        font-weight: $fontWeightRegular
 
-        &-light
-            font-weight: $fontWeightLight
+    &-medium
+        font-weight: $fontWeightMedium
 
-        &-regular
-            font-weight: $fontWeightRegular
+    &-bold
+        font-weight: $fontWeightBold
 
-        &-medium
-            font-weight: $fontWeightMedium
-
-        &-bold
-            font-weight: $fontWeightBold
-
-        &-black
-            font-weight: $fontWeightBlack
+    &-black
+        font-weight: $fontWeightBlack
 
     &-italic
         font-style: italic
 
-// Color
 
-.leto-color
+// Bg
 
-    &-bg
+.leto-bg
 
-        &-light
-            background-color: $colorLight
+    &-light
+        background-color: $colorLight
 
-        &-lightMedium
-            background-color: $colorLightMedium
+    &-lightMedium
+        background-color: $colorLightMedium
 
-        &-medium
-            background-color: $colorMedium
+    &-medium
+        background-color: $colorMedium
 
-        &-dark
-            background-color: $colorDark
+    &-dark
+        background-color: $colorDark
 
-        &-yellow
-            background-color: $colorYellow
+    &-yellow
+        background-color: $colorYellow
 
-        &-orange
-            background-color: $colorOrange
+    &-orange
+        background-color: $colorOrange
 
-        &-red
-            background-color: $colorRed
+    &-red
+        background-color: $colorRed
 
-        &-purple
-            background-color: $colorPurple
+    &-purple
+        background-color: $colorPurple
 
-        &-blue
-            background-color: $colorBlue
+    &-blue
+        background-color: $colorBlue
 
-        &-mint
-            background-color: $colorMint
+    &-mint
+        background-color: $colorMint
 
-        &-green
-            background-color: $colorGreen
-
-    &-text
-
-        &-light
-            color: $colorLight
-
-        &-lightMedium
-            color: $colorLightMedium
-
-        &-medium
-            color: $colorMedium
-
-        &-dark
-            color: $colorDark
-
-        &-yellow
-            color: $colorYellow
-
-        &-orange
-            color: $colorOrange
-
-        &-red
-            color: $colorRed
-
-        &-purple
-            color: $colorPurple
-
-        &-blue
-            color: $colorBlue
-
-        &-mint
-            color: $colorMint
-
-        &-green
-            color: $colorGreen
-
-    &-border
-
-        &-light
-            border-color: $colorLight
-
-        &-lightMedium
-            border-color: $colorLightMedium
-
-        &-medium
-            border-color: $colorMedium
-
-        &-dark
-            border-color: $colorDark
-
-        &-yellow
-            border-color: $colorYellow
-
-        &-orange
-            border-color: $colorOrange
-
-        &-red
-            border-color: $colorRed
-
-        &-purple
-            border-color: $colorPurple
-
-        &-blue
-            border-color: $colorBlue
-
-        &-mint
-            border-color: $colorMint
-
-        &-green
-            border-color: $colorGreen
+    &-green
+        background-color: $colorGreen
 
 
 // Index
@@ -1070,6 +1083,42 @@ body
         max-height: auto
         max-width: $value * .66    
 
+=buggle($value)
+    height: $value * 2
+    width: $value * 2
+    font-size: $value * .66
+    border: 1px solid $colorMedium
+    border-radius: $value * 2
+    text-align: center
+    flex-direction: column
+    align-items: center
+    justify-content: center
+    flex-shrink: 0
+    display: inline-flex
+
+    img
+        max-height: auto
+        max-width: $value * .66 
+
+    &-ns 
+        +buggleNS($value)   
+
+=buggleNS($value)
+    height: $value * 2
+    width: $value * 2
+    font-size: $value * .66
+    border-radius: $value * 2
+    text-align: center
+    flex-direction: column
+    align-items: center
+    justify-content: center
+    flex-shrink: 0
+    display: inline-flex
+
+    img
+        max-height: auto
+        max-width: $value * .66
+
 .leto-bubble
     +buggle($md)
 
@@ -1108,127 +1157,69 @@ body
 
 // Input
 
-=input($width, $height)
-    background-color: $colorLightMedium
+=input($height)
     height: $height * 2
-    width: $width
     font-size: 18px
     border: 1px solid $colorMedium
     border-radius: 100px
     padding: 9px 20px
 
 .leto-input
-    +input(auto, $md)
+    +input($md)
 
-    &-half
-        +input(50%, $md)
+    &-xxs
+        +input($xxs)
 
-        &-xxs
-            +input(50%, $xxs)
+    &-xs
+        +input($xs)
 
-        &-xs
-            +input(50%, $xs)
+    &-s
+        +input($s)
 
-        &-s
-            +input(50%, $s)
+    &-md
+        +input($md)
 
-        &-md
-            +input(50%, $md)
+    &-lg
+        +input($lg)
 
-        &-lg
-            +input(50%, $lg)
+    &-xl
+        +input($xl)
 
-        &-xl
-            +input(50%, $xl)
-
-        &-xxl
-            +input(50%, $xxl)
-
-    &-full
-        +input(100%, $md)
-
-        &-xxs
-            +input(100%, $xxs)
-
-        &-xs
-            +input(100%, $xs)
-
-        &-s
-            +input(100%, $s)
-
-        &-md
-            +input(100%, $md)
-
-        &-lg
-            +input(100%, $lg)
-
-        &-xl
-            +input(100%, $xl)
-
-        &-xxl
-            +input(100%, $xxl)
+    &-xxl
+        +input($xxl)
 
 
 // Search
 
-=search($width, $height)
-    width: $width
+=search($height)
+    background-color: $colorLightMedium
     height: $height * 2
-    font-size: 18px
-    border: 1px solid $colorMedium
     border-radius: 100px
     padding: 9px 20px
 
 .leto-search
-    +search(auto, $md)
+    +search($md)
 
-    &-half
-        +search(50%, $md)
+    &-xxs
+        +search($xxs)
 
-        &-xxs
-            +search(50%, $xxs)
+    &-xs
+        +search($xs)
 
-        &-xs
-            +search(50%, $xs)
+    &-s
+        +search($s)
 
-        &-s
-            +search(50%, $s)
+    &-md
+        +search($md)
 
-        &-md
-            +search(50%, $md)
+    &-lg
+        +search($lg)
 
-        &-lg
-            +search(50%, $lg)
+    &-xl
+        +search($xl)
 
-        &-xl
-            +search(50%, $xl)
-
-        &-xxl
-            +search(50%, $xxl)
-
-    &-full
-        +search(100%, $md)
-
-        &-xxs
-            +search(100%, $xxs)
-
-        &-xs
-            +search(100%, $xs)
-
-        &-s
-            +search(100%, $s)
-
-        &-md
-            +search(100%, $md)
-
-        &-lg
-            +search(100%, $lg)
-
-        &-xl
-            +search(100%, $xl)
-
-        &-xxl
-            +search(100%, $xxl)
+    &-xxl
+        +search($xxl)
 
 
 // Card
@@ -1274,6 +1265,13 @@ body
     display: inline-block
     overflow: hidden
 
+    &-ns
+        position: relative
+        width: $value*10
+        min-height: 50px
+        display: inline-block
+        overflow: hidden
+
 =cardMasonry()
     position: relative
     min-height: 50px
@@ -1281,6 +1279,12 @@ body
     border-radius: 10px
     display: inline-block
     overflow: hidden
+
+    &-ns
+        position: relative
+        min-height: 50px
+        display: inline-block
+        overflow: hidden
 
 =cardSquare($value)
     position: relative
@@ -1290,6 +1294,13 @@ body
     border-radius: 10px
     display: inline-block
     overflow: hidden
+
+    &-ns
+        position: relative
+        width: $value*10
+        height: $value*10
+        display: inline-block
+        overflow: hidden
 
 .leto-card
     +card($md)
@@ -1511,6 +1522,7 @@ textarea:focus
     box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(82, 168, 236, .6)
 
 input
+    border: none
 
     &[type="text"]:focus, &[type="password"]:focus, &[type="datetime"]:focus, &[type="datetime-local"]:focus, &[type="date"]:focus, &[type="month"]:focus, &[type="time"]:focus, &[type="week"]:focus, &[type="number"]:focus, &[type="email"]:focus, &[type="url"]:focus, &[type="search"]:focus, &[type="tel"]:focus, &[type="color"]:focus
         border-color: rgba(82, 168, 236, .8)

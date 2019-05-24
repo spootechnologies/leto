@@ -105,547 +105,751 @@ body {
 }
 
 .leto-m {
-  margin: 24px;
-}
-
-.leto-m-xxs {
-  margin: 8px;
-}
-
-.leto-m-xs {
-  margin: 12px;
-}
-
-.leto-m-s {
   margin: 16px;
 }
 
+.leto-m-xxs {
+  margin: 4px;
+}
+
+.leto-m-xs {
+  margin: 8px;
+}
+
+.leto-m-s {
+  margin: 12px;
+}
+
 .leto-m-md {
-  margin: 24px;
+  margin: 16px;
 }
 
 .leto-m-lg {
-  margin: 32px;
+  margin: 24px;
 }
 
 .leto-m-xl {
-  margin: 48px;
+  margin: 32px;
 }
 
 .leto-m-xxl {
-  margin: 64px;
+  margin: 48px;
 }
 
 .leto-m-balance-xxs {
-  margin: -8px;
+  margin: -4px;
 }
 
 .leto-m-balance-xs {
-  margin: -12px;
+  margin: -8px;
 }
 
 .leto-m-balance-s {
-  margin: -16px;
+  margin: -12px;
 }
 
 .leto-m-balance-md {
-  margin: -24px;
+  margin: -16px;
 }
 
 .leto-m-balance-lg {
-  margin: -32px;
+  margin: -24px;
 }
 
 .leto-m-balance-xl {
-  margin: -48px;
+  margin: -32px;
 }
 
 .leto-m-balance-xxl {
-  margin: -64px;
-}
-
-.leto-m-none {
-  margin: 0;
+  margin: -48px;
 }
 
 .leto-mx {
-  margin-left: 24px;
-  margin-right: 24px;
+  margin-left: 16px;
+  margin-right: 16px;
 }
 
 .leto-mx-xxs {
-  margin-left: 8px;
-  margin-right: 8px;
+  margin-left: 4px;
+  margin-right: 4px;
 }
 
 .leto-mx-xs {
-  margin-left: 12px;
-  margin-right: 12px;
-}
-
-.leto-mx-s {
-  margin-left: 16px;
-  margin-right: 16px;
-}
-
-.leto-mx-md {
-  margin-left: 24px;
-  margin-right: 24px;
-}
-
-.leto-mx-lg {
-  margin-left: 32px;
-  margin-right: 32px;
-}
-
-.leto-mx-xl {
-  margin-left: 48px;
-  margin-right: 48px;
-}
-
-.leto-mx-xxl {
-  margin-left: 64px;
-  margin-right: 64px;
-}
-
-.leto-my {
-  margin-top: 24px;
-  margin-bottom: 24px;
-}
-
-.leto-my-xxs {
-  margin-top: 8px;
-  margin-bottom: 8px;
-}
-
-.leto-my-xs {
-  margin-top: 12px;
-  margin-bottom: 12px;
-}
-
-.leto-my-s {
-  margin-top: 16px;
-  margin-bottom: 16px;
-}
-
-.leto-my-md {
-  margin-top: 24px;
-  margin-bottom: 24px;
-}
-
-.leto-my-lg {
-  margin-top: 32px;
-  margin-bottom: 32px;
-}
-
-.leto-my-xl {
-  margin-top: 48px;
-  margin-bottom: 48px;
-}
-
-.leto-my-xxl {
-  margin-top: 64px;
-  margin-bottom: 64px;
-}
-
-.leto-mt {
-  margin-top: 24px;
-}
-
-.leto-mt-xxs {
-  margin-top: 8px;
-}
-
-.leto-mt-xs {
-  margin-top: 12px;
-}
-
-.leto-mt-s {
-  margin-top: 16px;
-}
-
-.leto-mt-md {
-  margin-top: 24px;
-}
-
-.leto-mt-lg {
-  margin-top: 32px;
-}
-
-.leto-mt-xl {
-  margin-top: 48px;
-}
-
-.leto-mt-xxl {
-  margin-top: 64px;
-}
-
-.leto-ml {
-  margin-left: 24px;
-}
-
-.leto-ml-xxs {
   margin-left: 8px;
-}
-
-.leto-ml-xs {
-  margin-left: 12px;
-}
-
-.leto-ml-s {
-  margin-left: 16px;
-}
-
-.leto-ml-md {
-  margin-left: 24px;
-}
-
-.leto-ml-lg {
-  margin-left: 32px;
-}
-
-.leto-ml-xl {
-  margin-left: 48px;
-}
-
-.leto-ml-xxl {
-  margin-left: 64px;
-}
-
-.leto-mr {
-  margin-right: 24px;
-}
-
-.leto-mr-xxs {
   margin-right: 8px;
 }
 
-.leto-mr-xs {
+.leto-mx-s {
+  margin-left: 12px;
   margin-right: 12px;
 }
 
-.leto-mr-s {
+.leto-mx-md {
+  margin-left: 16px;
   margin-right: 16px;
 }
 
-.leto-mr-md {
+.leto-mx-lg {
+  margin-left: 24px;
   margin-right: 24px;
 }
 
-.leto-mr-lg {
+.leto-mx-xl {
+  margin-left: 32px;
   margin-right: 32px;
 }
 
-.leto-mr-xl {
+.leto-mx-xxl {
+  margin-left: 48px;
   margin-right: 48px;
 }
 
-.leto-mr-xxl {
-  margin-right: 64px;
-}
-
-.leto-mb {
-  margin-bottom: 24px;
-}
-
-.leto-mb-xxs {
-  margin-bottom: 8px;
-}
-
-.leto-mb-xs {
-  margin-bottom: 12px;
-}
-
-.leto-mb-s {
+.leto-my {
+  margin-top: 16px;
   margin-bottom: 16px;
 }
 
-.leto-mb-md {
+.leto-my-xxs {
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+.leto-my-xs {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.leto-my-s {
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+.leto-my-md {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.leto-my-lg {
+  margin-top: 24px;
   margin-bottom: 24px;
 }
 
-.leto-mb-lg {
+.leto-my-xl {
+  margin-top: 32px;
   margin-bottom: 32px;
 }
 
-.leto-mb-xl {
+.leto-my-xxl {
+  margin-top: 48px;
   margin-bottom: 48px;
 }
 
+.leto-mt {
+  margin-top: 16px;
+}
+
+.leto-mt-xxs {
+  margin-top: 4px;
+}
+
+.leto-mt-xs {
+  margin-top: 8px;
+}
+
+.leto-mt-s {
+  margin-top: 12px;
+}
+
+.leto-mt-md {
+  margin-top: 16px;
+}
+
+.leto-mt-lg {
+  margin-top: 24px;
+}
+
+.leto-mt-xl {
+  margin-top: 32px;
+}
+
+.leto-mt-xxl {
+  margin-top: 48px;
+}
+
+.leto-ml {
+  margin-left: 16px;
+}
+
+.leto-ml-xxs {
+  margin-left: 4px;
+}
+
+.leto-ml-xs {
+  margin-left: 8px;
+}
+
+.leto-ml-s {
+  margin-left: 12px;
+}
+
+.leto-ml-md {
+  margin-left: 16px;
+}
+
+.leto-ml-lg {
+  margin-left: 24px;
+}
+
+.leto-ml-xl {
+  margin-left: 32px;
+}
+
+.leto-ml-xxl {
+  margin-left: 48px;
+}
+
+.leto-mr {
+  margin-right: 16px;
+}
+
+.leto-mr-xxs {
+  margin-right: 4px;
+}
+
+.leto-mr-xs {
+  margin-right: 8px;
+}
+
+.leto-mr-s {
+  margin-right: 12px;
+}
+
+.leto-mr-md {
+  margin-right: 16px;
+}
+
+.leto-mr-lg {
+  margin-right: 24px;
+}
+
+.leto-mr-xl {
+  margin-right: 32px;
+}
+
+.leto-mr-xxl {
+  margin-right: 48px;
+}
+
+.leto-mb {
+  margin-bottom: 16px;
+}
+
+.leto-mb-xxs {
+  margin-bottom: 4px;
+}
+
+.leto-mb-xs {
+  margin-bottom: 8px;
+}
+
+.leto-mb-s {
+  margin-bottom: 12px;
+}
+
+.leto-mb-md {
+  margin-bottom: 16px;
+}
+
+.leto-mb-lg {
+  margin-bottom: 24px;
+}
+
+.leto-mb-xl {
+  margin-bottom: 32px;
+}
+
 .leto-mb-xxl {
-  margin-bottom: 64px;
+  margin-bottom: 48px;
 }
 
 .leto-p {
-  padding: 24px;
-}
-
-.leto-p-xxs {
-  padding: 8px;
-}
-
-.leto-p-xs {
-  padding: 12px;
-}
-
-.leto-p-s {
   padding: 16px;
 }
 
+.leto-p-xxs {
+  padding: 4px;
+}
+
+.leto-p-xs {
+  padding: 8px;
+}
+
+.leto-p-s {
+  padding: 12px;
+}
+
 .leto-p-md {
-  padding: 24px;
+  padding: 16px;
 }
 
 .leto-p-lg {
-  padding: 32px;
+  padding: 24px;
 }
 
 .leto-p-xl {
-  padding: 48px;
+  padding: 32px;
 }
 
 .leto-p-xxl {
-  padding: 64px;
-}
-
-.leto-p-none {
-  padding: 0;
+  padding: 48px;
 }
 
 .leto-px {
-  padding-left: 24px;
-  padding-right: 24px;
+  padding-left: 16px;
+  padding-right: 16px;
 }
 
 .leto-px-xxs {
-  padding-left: 8px;
-  padding-right: 8px;
+  padding-left: 4px;
+  padding-right: 4px;
 }
 
 .leto-px-xs {
-  padding-left: 12px;
-  padding-right: 12px;
-}
-
-.leto-px-s {
-  padding-left: 16px;
-  padding-right: 16px;
-}
-
-.leto-px-md {
-  padding-left: 24px;
-  padding-right: 24px;
-}
-
-.leto-px-lg {
-  padding-left: 32px;
-  padding-right: 32px;
-}
-
-.leto-px-xl {
-  padding-left: 48px;
-  padding-right: 48px;
-}
-
-.leto-px-xxl {
-  padding-left: 64px;
-  padding-right: 64px;
-}
-
-.leto-py {
-  padding-top: 24px;
-  padding-bottom: 24px;
-}
-
-.leto-py-xxs {
-  padding-top: 8px;
-  padding-bottom: 8px;
-}
-
-.leto-py-xs {
-  padding-top: 12px;
-  padding-bottom: 12px;
-}
-
-.leto-py-s {
-  padding-top: 16px;
-  padding-bottom: 16px;
-}
-
-.leto-py-md {
-  padding-top: 24px;
-  padding-bottom: 24px;
-}
-
-.leto-py-lg {
-  padding-top: 32px;
-  padding-bottom: 32px;
-}
-
-.leto-py-xl {
-  padding-top: 48px;
-  padding-bottom: 48px;
-}
-
-.leto-py-xxl {
-  padding-top: 64px;
-  padding-bottom: 64px;
-}
-
-.leto-pt {
-  padding-top: 24px;
-}
-
-.leto-pt-xxs {
-  padding-top: 8px;
-}
-
-.leto-pt-xs {
-  padding-top: 12px;
-}
-
-.leto-pt-s {
-  padding-top: 16px;
-}
-
-.leto-pt-md {
-  padding-top: 24px;
-}
-
-.leto-pt-lg {
-  padding-top: 32px;
-}
-
-.leto-pt-xl {
-  padding-top: 48px;
-}
-
-.leto-pt-xxl {
-  padding-top: 64px;
-}
-
-.leto-pl {
-  padding-left: 24px;
-}
-
-.leto-pl-xxs {
   padding-left: 8px;
-}
-
-.leto-pl-xs {
-  padding-left: 12px;
-}
-
-.leto-pl-s {
-  padding-left: 16px;
-}
-
-.leto-pl-md {
-  padding-left: 24px;
-}
-
-.leto-pl-lg {
-  padding-left: 32px;
-}
-
-.leto-pl-xl {
-  padding-left: 48px;
-}
-
-.leto-pl-xxl {
-  padding-left: 64px;
-}
-
-.leto-pr {
-  padding-right: 24px;
-}
-
-.leto-pr-xxs {
   padding-right: 8px;
 }
 
-.leto-pr-xs {
+.leto-px-s {
+  padding-left: 12px;
   padding-right: 12px;
 }
 
-.leto-pr-s {
+.leto-px-md {
+  padding-left: 16px;
   padding-right: 16px;
 }
 
-.leto-pr-md {
+.leto-px-lg {
+  padding-left: 24px;
   padding-right: 24px;
 }
 
-.leto-pr-lg {
+.leto-px-xl {
+  padding-left: 32px;
   padding-right: 32px;
 }
 
-.leto-pr-xl {
+.leto-px-xxl {
+  padding-left: 48px;
   padding-right: 48px;
 }
 
-.leto-pr-xxl {
-  padding-right: 64px;
-}
-
-.leto-pb {
-  padding-bottom: 24px;
-}
-
-.leto-pb-xxs {
-  padding-bottom: 8px;
-}
-
-.leto-pb-xs {
-  padding-bottom: 12px;
-}
-
-.leto-pb-s {
+.leto-py {
+  padding-top: 16px;
   padding-bottom: 16px;
 }
 
-.leto-pb-md {
+.leto-py-xxs {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+.leto-py-xs {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.leto-py-s {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.leto-py-md {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.leto-py-lg {
+  padding-top: 24px;
   padding-bottom: 24px;
 }
 
-.leto-pb-lg {
+.leto-py-xl {
+  padding-top: 32px;
   padding-bottom: 32px;
 }
 
-.leto-pb-xl {
+.leto-py-xxl {
+  padding-top: 48px;
   padding-bottom: 48px;
 }
 
+.leto-pt {
+  padding-top: 16px;
+}
+
+.leto-pt-xxs {
+  padding-top: 4px;
+}
+
+.leto-pt-xs {
+  padding-top: 8px;
+}
+
+.leto-pt-s {
+  padding-top: 12px;
+}
+
+.leto-pt-md {
+  padding-top: 16px;
+}
+
+.leto-pt-lg {
+  padding-top: 24px;
+}
+
+.leto-pt-xl {
+  padding-top: 32px;
+}
+
+.leto-pt-xxl {
+  padding-top: 48px;
+}
+
+.leto-pl {
+  padding-left: 16px;
+}
+
+.leto-pl-xxs {
+  padding-left: 4px;
+}
+
+.leto-pl-xs {
+  padding-left: 8px;
+}
+
+.leto-pl-s {
+  padding-left: 12px;
+}
+
+.leto-pl-md {
+  padding-left: 16px;
+}
+
+.leto-pl-lg {
+  padding-left: 24px;
+}
+
+.leto-pl-xl {
+  padding-left: 32px;
+}
+
+.leto-pl-xxl {
+  padding-left: 48px;
+}
+
+.leto-pr {
+  padding-right: 16px;
+}
+
+.leto-pr-xxs {
+  padding-right: 4px;
+}
+
+.leto-pr-xs {
+  padding-right: 8px;
+}
+
+.leto-pr-s {
+  padding-right: 12px;
+}
+
+.leto-pr-md {
+  padding-right: 16px;
+}
+
+.leto-pr-lg {
+  padding-right: 24px;
+}
+
+.leto-pr-xl {
+  padding-right: 32px;
+}
+
+.leto-pr-xxl {
+  padding-right: 48px;
+}
+
+.leto-pb {
+  padding-bottom: 16px;
+}
+
+.leto-pb-xxs {
+  padding-bottom: 4px;
+}
+
+.leto-pb-xs {
+  padding-bottom: 8px;
+}
+
+.leto-pb-s {
+  padding-bottom: 12px;
+}
+
+.leto-pb-md {
+  padding-bottom: 16px;
+}
+
+.leto-pb-lg {
+  padding-bottom: 24px;
+}
+
+.leto-pb-xl {
+  padding-bottom: 32px;
+}
+
 .leto-pb-xxl {
-  padding-bottom: 64px;
+  padding-bottom: 48px;
 }
 
 .leto-border {
   border: 1px solid #dadada;
 }
 
+.leto-border-light {
+  border-color: #fdfdfd;
+}
+
+.leto-border-lightMedium {
+  border-color: #f2f2f2;
+}
+
+.leto-border-medium {
+  border-color: #dadada;
+}
+
+.leto-border-dark {
+  border-color: #303030;
+}
+
+.leto-border-yellow {
+  border-color: #FFFD99;
+}
+
+.leto-border-orange {
+  border-color: #FFBF80;
+}
+
+.leto-border-red {
+  border-color: #FF8C8C;
+}
+
+.leto-border-purple {
+  border-color: #D499FF;
+}
+
+.leto-border-blue {
+  border-color: #99A7FF;
+}
+
+.leto-border-mint {
+  border-color: #80FFD0;
+}
+
+.leto-border-green {
+  border-color: #9BFF99;
+}
+
 .leto-border-top {
-  border: none;
   border-top: 1px solid #dadada;
 }
 
+.leto-border-top-light {
+  border-color: #fdfdfd;
+}
+
+.leto-border-top-lightMedium {
+  border-color: #f2f2f2;
+}
+
+.leto-border-top-medium {
+  border-color: #dadada;
+}
+
+.leto-border-top-dark {
+  border-color: #303030;
+}
+
+.leto-border-top-yellow {
+  border-color: #FFFD99;
+}
+
+.leto-border-top-orange {
+  border-color: #FFBF80;
+}
+
+.leto-border-top-red {
+  border-color: #FF8C8C;
+}
+
+.leto-border-top-purple {
+  border-color: #D499FF;
+}
+
+.leto-border-top-blue {
+  border-color: #99A7FF;
+}
+
+.leto-border-top-mint {
+  border-color: #80FFD0;
+}
+
+.leto-border-top-green {
+  border-color: #9BFF99;
+}
+
 .leto-border-left {
-  border: none;
   border-left: 1px solid #dadada;
 }
 
+.leto-border-left-light {
+  border-color: #fdfdfd;
+}
+
+.leto-border-left-lightMedium {
+  border-color: #f2f2f2;
+}
+
+.leto-border-left-medium {
+  border-color: #dadada;
+}
+
+.leto-border-left-dark {
+  border-color: #303030;
+}
+
+.leto-border-left-yellow {
+  border-color: #FFFD99;
+}
+
+.leto-border-left-orange {
+  border-color: #FFBF80;
+}
+
+.leto-border-left-red {
+  border-color: #FF8C8C;
+}
+
+.leto-border-left-purple {
+  border-color: #D499FF;
+}
+
+.leto-border-left-blue {
+  border-color: #99A7FF;
+}
+
+.leto-border-left-mint {
+  border-color: #80FFD0;
+}
+
+.leto-border-left-green {
+  border-color: #9BFF99;
+}
+
 .leto-border-right {
-  border: none;
   border-right: 1px solid #dadada;
 }
 
+.leto-border-right-light {
+  border-color: #fdfdfd;
+}
+
+.leto-border-right-lightMedium {
+  border-color: #f2f2f2;
+}
+
+.leto-border-right-medium {
+  border-color: #dadada;
+}
+
+.leto-border-right-dark {
+  border-color: #303030;
+}
+
+.leto-border-right-yellow {
+  border-color: #FFFD99;
+}
+
+.leto-border-right-orange {
+  border-color: #FFBF80;
+}
+
+.leto-border-right-red {
+  border-color: #FF8C8C;
+}
+
+.leto-border-right-purple {
+  border-color: #D499FF;
+}
+
+.leto-border-right-blue {
+  border-color: #99A7FF;
+}
+
+.leto-border-right-mint {
+  border-color: #80FFD0;
+}
+
+.leto-border-right-green {
+  border-color: #9BFF99;
+}
+
 .leto-border-bottom {
-  border: none;
   border-bottom: 1px solid #dadada;
 }
 
-.leto-border-none {
-  border: none;
+.leto-border-bottom-light {
+  border-color: #fdfdfd;
+}
+
+.leto-border-bottom-lightMedium {
+  border-color: #f2f2f2;
+}
+
+.leto-border-bottom-medium {
+  border-color: #dadada;
+}
+
+.leto-border-bottom-dark {
+  border-color: #303030;
+}
+
+.leto-border-bottom-yellow {
+  border-color: #FFFD99;
+}
+
+.leto-border-bottom-orange {
+  border-color: #FFBF80;
+}
+
+.leto-border-bottom-red {
+  border-color: #FF8C8C;
+}
+
+.leto-border-bottom-purple {
+  border-color: #D499FF;
+}
+
+.leto-border-bottom-blue {
+  border-color: #99A7FF;
+}
+
+.leto-border-bottom-mint {
+  border-color: #80FFD0;
+}
+
+.leto-border-bottom-green {
+  border-color: #9BFF99;
 }
 
 .leto-darkmode {
@@ -659,6 +863,198 @@ body {
 
 .leto-darkmode-text {
   color: #fdfdfd;
+}
+
+.leto-text-light {
+  color: #fdfdfd;
+}
+
+.leto-text-lightMedium {
+  color: #f2f2f2;
+}
+
+.leto-text-medium {
+  color: #dadada;
+}
+
+.leto-text-dark {
+  color: #303030;
+}
+
+.leto-text-yellow {
+  color: #FFFD99;
+}
+
+.leto-text-orange {
+  color: #FFBF80;
+}
+
+.leto-text-red {
+  color: #FF8C8C;
+}
+
+.leto-text-purple {
+  color: #D499FF;
+}
+
+.leto-text-blue {
+  color: #99A7FF;
+}
+
+.leto-text-mint {
+  color: #80FFD0;
+}
+
+.leto-text-green {
+  color: #9BFF99;
+}
+
+.leto-text-left {
+  text-align: center;
+}
+
+.leto-text-left-light {
+  color: #fdfdfd;
+}
+
+.leto-text-left-lightMedium {
+  color: #f2f2f2;
+}
+
+.leto-text-left-medium {
+  color: #dadada;
+}
+
+.leto-text-left-dark {
+  color: #303030;
+}
+
+.leto-text-left-yellow {
+  color: #FFFD99;
+}
+
+.leto-text-left-orange {
+  color: #FFBF80;
+}
+
+.leto-text-left-red {
+  color: #FF8C8C;
+}
+
+.leto-text-left-purple {
+  color: #D499FF;
+}
+
+.leto-text-left-blue {
+  color: #99A7FF;
+}
+
+.leto-text-left-mint {
+  color: #80FFD0;
+}
+
+.leto-text-left-green {
+  color: #9BFF99;
+}
+
+.leto-text-center {
+  text-align: center;
+}
+
+.leto-text-center-light {
+  color: #fdfdfd;
+}
+
+.leto-text-center-lightMedium {
+  color: #f2f2f2;
+}
+
+.leto-text-center-medium {
+  color: #dadada;
+}
+
+.leto-text-center-dark {
+  color: #303030;
+}
+
+.leto-text-center-yellow {
+  color: #FFFD99;
+}
+
+.leto-text-center-orange {
+  color: #FFBF80;
+}
+
+.leto-text-center-red {
+  color: #FF8C8C;
+}
+
+.leto-text-center-purple {
+  color: #D499FF;
+}
+
+.leto-text-center-blue {
+  color: #99A7FF;
+}
+
+.leto-text-center-mint {
+  color: #80FFD0;
+}
+
+.leto-text-center-green {
+  color: #9BFF99;
+}
+
+.leto-text-right {
+  text-align: right;
+}
+
+.leto-text-right-light {
+  color: #fdfdfd;
+}
+
+.leto-text-right-lightMedium {
+  color: #f2f2f2;
+}
+
+.leto-text-right-medium {
+  color: #dadada;
+}
+
+.leto-text-right-dark {
+  color: #303030;
+}
+
+.leto-text-right-yellow {
+  color: #FFFD99;
+}
+
+.leto-text-right-orange {
+  color: #FFBF80;
+}
+
+.leto-text-right-red {
+  color: #FF8C8C;
+}
+
+.leto-text-right-purple {
+  color: #D499FF;
+}
+
+.leto-text-right-blue {
+  color: #99A7FF;
+}
+
+.leto-text-right-mint {
+  color: #80FFD0;
+}
+
+.leto-text-right-green {
+  color: #9BFF99;
+}
+
+.leto-font {
+  font-size: 16px;
 }
 
 .leto-font-xxs {
@@ -780,119 +1176,119 @@ body {
 }
 
 .leto-font-s {
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .leto-font-s-light {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 300;
 }
 
 .leto-font-s-light-italic {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 300;
   font-style: italic;
 }
 
 .leto-font-s-regular {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 400;
 }
 
 .leto-font-s-regular-italic {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 400;
   font-style: italic;
 }
 
 .leto-font-s-medium {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 500;
 }
 
 .leto-font-s-medium-italic {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 500;
   font-style: italic;
 }
 
 .leto-font-s-bold {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 700;
 }
 
 .leto-font-s-bold-italic {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 700;
   font-style: italic;
 }
 
 .leto-font-s-black {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 900;
 }
 
 .leto-font-s-black-italic {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 900;
   font-style: italic;
 }
 
 .leto-font-md {
-  font-size: 16px;
+  font-size: 20px;
 }
 
 .leto-font-md-light {
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 300;
 }
 
 .leto-font-md-light-italic {
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 300;
   font-style: italic;
 }
 
 .leto-font-md-regular {
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 400;
 }
 
 .leto-font-md-regular-italic {
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 400;
   font-style: italic;
 }
 
 .leto-font-md-medium {
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 500;
 }
 
 .leto-font-md-medium-italic {
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 500;
   font-style: italic;
 }
 
 .leto-font-md-bold {
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 700;
 }
 
 .leto-font-md-bold-italic {
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 700;
   font-style: italic;
 }
 
 .leto-font-md-black {
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 900;
 }
 
 .leto-font-md-black-italic {
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 900;
   font-style: italic;
 }
@@ -957,144 +1353,140 @@ body {
 }
 
 .leto-font-xl {
-  font-size: 32px;
+  font-size: 28px;
 }
 
 .leto-font-xl-light {
-  font-size: 32px;
+  font-size: 28px;
   font-weight: 300;
 }
 
 .leto-font-xl-light-italic {
-  font-size: 32px;
+  font-size: 28px;
   font-weight: 300;
   font-style: italic;
 }
 
 .leto-font-xl-regular {
-  font-size: 32px;
+  font-size: 28px;
   font-weight: 400;
 }
 
 .leto-font-xl-regular-italic {
-  font-size: 32px;
+  font-size: 28px;
   font-weight: 400;
   font-style: italic;
 }
 
 .leto-font-xl-medium {
-  font-size: 32px;
+  font-size: 28px;
   font-weight: 500;
 }
 
 .leto-font-xl-medium-italic {
-  font-size: 32px;
+  font-size: 28px;
   font-weight: 500;
   font-style: italic;
 }
 
 .leto-font-xl-bold {
-  font-size: 32px;
+  font-size: 28px;
   font-weight: 700;
 }
 
 .leto-font-xl-bold-italic {
-  font-size: 32px;
+  font-size: 28px;
   font-weight: 700;
   font-style: italic;
 }
 
 .leto-font-xl-black {
-  font-size: 32px;
+  font-size: 28px;
   font-weight: 900;
 }
 
 .leto-font-xl-black-italic {
-  font-size: 32px;
+  font-size: 28px;
   font-weight: 900;
   font-style: italic;
 }
 
 .leto-font-xxl {
-  font-size: 40px;
+  font-size: 32px;
 }
 
 .leto-font-xxl-light {
-  font-size: 40px;
+  font-size: 32px;
   font-weight: 300;
 }
 
 .leto-font-xxl-light-italic {
-  font-size: 40px;
+  font-size: 32px;
   font-weight: 300;
   font-style: italic;
 }
 
 .leto-font-xxl-regular {
-  font-size: 40px;
+  font-size: 32px;
   font-weight: 400;
 }
 
 .leto-font-xxl-regular-italic {
-  font-size: 40px;
+  font-size: 32px;
   font-weight: 400;
   font-style: italic;
 }
 
 .leto-font-xxl-medium {
-  font-size: 40px;
+  font-size: 32px;
   font-weight: 500;
 }
 
 .leto-font-xxl-medium-italic {
-  font-size: 40px;
+  font-size: 32px;
   font-weight: 500;
   font-style: italic;
 }
 
 .leto-font-xxl-bold {
-  font-size: 40px;
+  font-size: 32px;
   font-weight: 700;
 }
 
 .leto-font-xxl-bold-italic {
-  font-size: 40px;
+  font-size: 32px;
   font-weight: 700;
   font-style: italic;
 }
 
 .leto-font-xxl-black {
-  font-size: 40px;
+  font-size: 32px;
   font-weight: 900;
 }
 
 .leto-font-xxl-black-italic {
-  font-size: 40px;
+  font-size: 32px;
   font-weight: 900;
   font-style: italic;
 }
 
-.leto-font-xxl-italic {
-  font-style: italic;
-}
-
-.leto-font-weight-light {
+.leto-font-light {
   font-weight: 300;
 }
 
-.leto-font-weight-regular {
+.leto-font-regular {
   font-weight: 400;
 }
 
-.leto-font-weight-medium {
+.leto-font-medium {
   font-weight: 500;
 }
 
-.leto-font-weight-bold {
+.leto-font-bold {
   font-weight: 700;
 }
 
-.leto-font-weight-black {
+.leto-font-black {
   font-weight: 900;
 }
 
@@ -1102,136 +1494,48 @@ body {
   font-style: italic;
 }
 
-.leto-color-bg-light {
+.leto-bg-light {
   background-color: #fdfdfd;
 }
 
-.leto-color-bg-lightMedium {
+.leto-bg-lightMedium {
   background-color: #f2f2f2;
 }
 
-.leto-color-bg-medium {
+.leto-bg-medium {
   background-color: #dadada;
 }
 
-.leto-color-bg-dark {
+.leto-bg-dark {
   background-color: #303030;
 }
 
-.leto-color-bg-yellow {
-  background-color: #E7E247;
+.leto-bg-yellow {
+  background-color: #FFFD99;
 }
 
-.leto-color-bg-orange {
-  background-color: #FFAA5A;
+.leto-bg-orange {
+  background-color: #FFBF80;
 }
 
-.leto-color-bg-red {
-  background-color: #D8273E;
+.leto-bg-red {
+  background-color: #FF8C8C;
 }
 
-.leto-color-bg-purple {
-  background-color: #B233B0;
+.leto-bg-purple {
+  background-color: #D499FF;
 }
 
-.leto-color-bg-blue {
-  background-color: #246EB9;
+.leto-bg-blue {
+  background-color: #99A7FF;
 }
 
-.leto-color-bg-mint {
-  background-color: #70D8A8;
+.leto-bg-mint {
+  background-color: #80FFD0;
 }
 
-.leto-color-bg-green {
-  background-color: #7AC74F;
-}
-
-.leto-color-text-light {
-  color: #fdfdfd;
-}
-
-.leto-color-text-lightMedium {
-  color: #f2f2f2;
-}
-
-.leto-color-text-medium {
-  color: #dadada;
-}
-
-.leto-color-text-dark {
-  color: #303030;
-}
-
-.leto-color-text-yellow {
-  color: #E7E247;
-}
-
-.leto-color-text-orange {
-  color: #FFAA5A;
-}
-
-.leto-color-text-red {
-  color: #D8273E;
-}
-
-.leto-color-text-purple {
-  color: #B233B0;
-}
-
-.leto-color-text-blue {
-  color: #246EB9;
-}
-
-.leto-color-text-mint {
-  color: #70D8A8;
-}
-
-.leto-color-text-green {
-  color: #7AC74F;
-}
-
-.leto-color-border-light {
-  border-color: #fdfdfd;
-}
-
-.leto-color-border-lightMedium {
-  border-color: #f2f2f2;
-}
-
-.leto-color-border-medium {
-  border-color: #dadada;
-}
-
-.leto-color-border-dark {
-  border-color: #303030;
-}
-
-.leto-color-border-yellow {
-  border-color: #E7E247;
-}
-
-.leto-color-border-orange {
-  border-color: #FFAA5A;
-}
-
-.leto-color-border-red {
-  border-color: #D8273E;
-}
-
-.leto-color-border-purple {
-  border-color: #B233B0;
-}
-
-.leto-color-border-blue {
-  border-color: #246EB9;
-}
-
-.leto-color-border-mint {
-  border-color: #70D8A8;
-}
-
-.leto-color-border-green {
-  border-color: #7AC74F;
+.leto-bg-green {
+  background-color: #9BFF99;
 }
 
 .leto-index-1 {
@@ -1629,125 +1933,38 @@ body {
 }
 
 .leto-bubble-label {
-  max-width: 24px;
-}
-
-.leto-bubble-label-xxs {
   max-width: 16px;
 }
 
+.leto-bubble-label-xxs {
+  max-width: 8px;
+}
+
 .leto-bubble-label-xs {
-  max-width: 24px;
+  max-width: 16px;
 }
 
 .leto-bubble-label-s {
-  max-width: 32px;
+  max-width: 24px;
 }
 
 .leto-bubble-label-md {
-  max-width: 48px;
+  max-width: 32px;
 }
 
 .leto-bubble-label-lg {
-  max-width: 64px;
+  max-width: 48px;
 }
 
 .leto-bubble-label-xl {
-  max-width: 96px;
+  max-width: 64px;
 }
 
 .leto-bubble-label-xxl {
-  max-width: 128px;
+  max-width: 96px;
 }
 
 .leto-bubble {
-  height: 48px;
-  width: 48px;
-  font-size: 15.84px;
-  border: 1px solid #dadada;
-  border-radius: 48px;
-  text-align: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-}
-
-.leto-bubble img {
-  max-height: auto;
-  max-width: 15.84px;
-}
-
-.leto-bubble-xxs {
-  height: 16px;
-  width: 16px;
-  font-size: 5.28px;
-  border: 1px solid #dadada;
-  border-radius: 16px;
-  text-align: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-}
-
-.leto-bubble-xxs img {
-  max-height: auto;
-  max-width: 5.28px;
-}
-
-.leto-bubble-xs {
-  height: 24px;
-  width: 24px;
-  font-size: 7.92px;
-  border: 1px solid #dadada;
-  border-radius: 24px;
-  text-align: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-}
-
-.leto-bubble-xs img {
-  max-height: auto;
-  max-width: 7.92px;
-}
-
-.leto-bubble-s {
   height: 32px;
   width: 32px;
   font-size: 10.56px;
@@ -1771,12 +1988,268 @@ body {
   display: inline-flex;
 }
 
-.leto-bubble-s img {
+.leto-bubble img {
   max-height: auto;
   max-width: 10.56px;
 }
 
+.leto-bubble-ns {
+  height: 32px;
+  width: 32px;
+  font-size: 10.56px;
+  border-radius: 32px;
+  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.leto-bubble-ns img {
+  max-height: auto;
+  max-width: 10.56px;
+}
+
+.leto-bubble-xxs {
+  height: 8px;
+  width: 8px;
+  font-size: 2.64px;
+  border: 1px solid #dadada;
+  border-radius: 8px;
+  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.leto-bubble-xxs img {
+  max-height: auto;
+  max-width: 2.64px;
+}
+
+.leto-bubble-xxs-ns {
+  height: 8px;
+  width: 8px;
+  font-size: 2.64px;
+  border-radius: 8px;
+  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.leto-bubble-xxs-ns img {
+  max-height: auto;
+  max-width: 2.64px;
+}
+
+.leto-bubble-xs {
+  height: 16px;
+  width: 16px;
+  font-size: 5.28px;
+  border: 1px solid #dadada;
+  border-radius: 16px;
+  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.leto-bubble-xs img {
+  max-height: auto;
+  max-width: 5.28px;
+}
+
+.leto-bubble-xs-ns {
+  height: 16px;
+  width: 16px;
+  font-size: 5.28px;
+  border-radius: 16px;
+  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.leto-bubble-xs-ns img {
+  max-height: auto;
+  max-width: 5.28px;
+}
+
+.leto-bubble-s {
+  height: 24px;
+  width: 24px;
+  font-size: 7.92px;
+  border: 1px solid #dadada;
+  border-radius: 24px;
+  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.leto-bubble-s img {
+  max-height: auto;
+  max-width: 7.92px;
+}
+
+.leto-bubble-s-ns {
+  height: 24px;
+  width: 24px;
+  font-size: 7.92px;
+  border-radius: 24px;
+  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.leto-bubble-s-ns img {
+  max-height: auto;
+  max-width: 7.92px;
+}
+
 .leto-bubble-md {
+  height: 32px;
+  width: 32px;
+  font-size: 10.56px;
+  border: 1px solid #dadada;
+  border-radius: 32px;
+  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.leto-bubble-md img {
+  max-height: auto;
+  max-width: 10.56px;
+}
+
+.leto-bubble-md-ns {
+  height: 32px;
+  width: 32px;
+  font-size: 10.56px;
+  border-radius: 32px;
+  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.leto-bubble-md-ns img {
+  max-height: auto;
+  max-width: 10.56px;
+}
+
+.leto-bubble-lg {
   height: 48px;
   width: 48px;
   font-size: 15.84px;
@@ -1800,12 +2273,40 @@ body {
   display: inline-flex;
 }
 
-.leto-bubble-md img {
+.leto-bubble-lg img {
   max-height: auto;
   max-width: 15.84px;
 }
 
-.leto-bubble-lg {
+.leto-bubble-lg-ns {
+  height: 48px;
+  width: 48px;
+  font-size: 15.84px;
+  border-radius: 48px;
+  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.leto-bubble-lg-ns img {
+  max-height: auto;
+  max-width: 15.84px;
+}
+
+.leto-bubble-xl {
   height: 64px;
   width: 64px;
   font-size: 21.12px;
@@ -1829,12 +2330,40 @@ body {
   display: inline-flex;
 }
 
-.leto-bubble-lg img {
+.leto-bubble-xl img {
   max-height: auto;
   max-width: 21.12px;
 }
 
-.leto-bubble-xl {
+.leto-bubble-xl-ns {
+  height: 64px;
+  width: 64px;
+  font-size: 21.12px;
+  border-radius: 64px;
+  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.leto-bubble-xl-ns img {
+  max-height: auto;
+  max-width: 21.12px;
+}
+
+.leto-bubble-xxl {
   height: 96px;
   width: 96px;
   font-size: 31.68px;
@@ -1858,17 +2387,16 @@ body {
   display: inline-flex;
 }
 
-.leto-bubble-xl img {
+.leto-bubble-xxl img {
   max-height: auto;
   max-width: 31.68px;
 }
 
-.leto-bubble-xxl {
-  height: 128px;
-  width: 128px;
-  font-size: 42.24px;
-  border: 1px solid #dadada;
-  border-radius: 128px;
+.leto-bubble-xxl-ns {
+  height: 96px;
+  width: 96px;
+  font-size: 31.68px;
+  border-radius: 96px;
   text-align: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -1887,9 +2415,9 @@ body {
   display: inline-flex;
 }
 
-.leto-bubble-xxl img {
+.leto-bubble-xxl-ns img {
   max-height: auto;
-  max-width: 42.24px;
+  max-width: 31.68px;
 }
 
 .leto-bubble-c {
@@ -1916,169 +2444,63 @@ body {
 }
 
 .leto-input {
-  background-color: #f2f2f2;
-  height: 48px;
-  width: auto;
-  font-size: 18px;
-  border: 1px solid #dadada;
-  border-radius: 100px;
-  padding: 9px 20px;
-}
-
-.leto-input-half {
-  background-color: #f2f2f2;
-  height: 48px;
-  width: 50%;
-  font-size: 18px;
-  border: 1px solid #dadada;
-  border-radius: 100px;
-  padding: 9px 20px;
-}
-
-.leto-input-half-xxs {
-  background-color: #f2f2f2;
-  height: 16px;
-  width: 50%;
-  font-size: 18px;
-  border: 1px solid #dadada;
-  border-radius: 100px;
-  padding: 9px 20px;
-}
-
-.leto-input-half-xs {
-  background-color: #f2f2f2;
-  height: 24px;
-  width: 50%;
-  font-size: 18px;
-  border: 1px solid #dadada;
-  border-radius: 100px;
-  padding: 9px 20px;
-}
-
-.leto-input-half-s {
-  background-color: #f2f2f2;
   height: 32px;
-  width: 50%;
   font-size: 18px;
   border: 1px solid #dadada;
   border-radius: 100px;
   padding: 9px 20px;
 }
 
-.leto-input-half-md {
-  background-color: #f2f2f2;
-  height: 48px;
-  width: 50%;
+.leto-input-xxs {
+  height: 8px;
   font-size: 18px;
   border: 1px solid #dadada;
   border-radius: 100px;
   padding: 9px 20px;
 }
 
-.leto-input-half-lg {
-  background-color: #f2f2f2;
-  height: 64px;
-  width: 50%;
-  font-size: 18px;
-  border: 1px solid #dadada;
-  border-radius: 100px;
-  padding: 9px 20px;
-}
-
-.leto-input-half-xl {
-  background-color: #f2f2f2;
-  height: 96px;
-  width: 50%;
-  font-size: 18px;
-  border: 1px solid #dadada;
-  border-radius: 100px;
-  padding: 9px 20px;
-}
-
-.leto-input-half-xxl {
-  background-color: #f2f2f2;
-  height: 128px;
-  width: 50%;
-  font-size: 18px;
-  border: 1px solid #dadada;
-  border-radius: 100px;
-  padding: 9px 20px;
-}
-
-.leto-input-full {
-  background-color: #f2f2f2;
-  height: 48px;
-  width: 100%;
-  font-size: 18px;
-  border: 1px solid #dadada;
-  border-radius: 100px;
-  padding: 9px 20px;
-}
-
-.leto-input-full-xxs {
-  background-color: #f2f2f2;
+.leto-input-xs {
   height: 16px;
-  width: 100%;
   font-size: 18px;
   border: 1px solid #dadada;
   border-radius: 100px;
   padding: 9px 20px;
 }
 
-.leto-input-full-xs {
-  background-color: #f2f2f2;
+.leto-input-s {
   height: 24px;
-  width: 100%;
   font-size: 18px;
   border: 1px solid #dadada;
   border-radius: 100px;
   padding: 9px 20px;
 }
 
-.leto-input-full-s {
-  background-color: #f2f2f2;
+.leto-input-md {
   height: 32px;
-  width: 100%;
   font-size: 18px;
   border: 1px solid #dadada;
   border-radius: 100px;
   padding: 9px 20px;
 }
 
-.leto-input-full-md {
-  background-color: #f2f2f2;
+.leto-input-lg {
   height: 48px;
-  width: 100%;
   font-size: 18px;
   border: 1px solid #dadada;
   border-radius: 100px;
   padding: 9px 20px;
 }
 
-.leto-input-full-lg {
-  background-color: #f2f2f2;
+.leto-input-xl {
   height: 64px;
-  width: 100%;
   font-size: 18px;
   border: 1px solid #dadada;
   border-radius: 100px;
   padding: 9px 20px;
 }
 
-.leto-input-full-xl {
-  background-color: #f2f2f2;
+.leto-input-xxl {
   height: 96px;
-  width: 100%;
-  font-size: 18px;
-  border: 1px solid #dadada;
-  border-radius: 100px;
-  padding: 9px 20px;
-}
-
-.leto-input-full-xxl {
-  background-color: #f2f2f2;
-  height: 128px;
-  width: 100%;
   font-size: 18px;
   border: 1px solid #dadada;
   border-radius: 100px;
@@ -2086,154 +2508,57 @@ body {
 }
 
 .leto-search {
-  width: auto;
-  height: 48px;
-  font-size: 18px;
-  border: 1px solid #dadada;
-  border-radius: 100px;
-  padding: 9px 20px;
-}
-
-.leto-search-half {
-  width: 50%;
-  height: 48px;
-  font-size: 18px;
-  border: 1px solid #dadada;
-  border-radius: 100px;
-  padding: 9px 20px;
-}
-
-.leto-search-half-xxs {
-  width: 50%;
-  height: 16px;
-  font-size: 18px;
-  border: 1px solid #dadada;
-  border-radius: 100px;
-  padding: 9px 20px;
-}
-
-.leto-search-half-xs {
-  width: 50%;
-  height: 24px;
-  font-size: 18px;
-  border: 1px solid #dadada;
-  border-radius: 100px;
-  padding: 9px 20px;
-}
-
-.leto-search-half-s {
-  width: 50%;
+  background-color: #f2f2f2;
   height: 32px;
-  font-size: 18px;
-  border: 1px solid #dadada;
   border-radius: 100px;
   padding: 9px 20px;
 }
 
-.leto-search-half-md {
-  width: 50%;
-  height: 48px;
-  font-size: 18px;
-  border: 1px solid #dadada;
+.leto-search-xxs {
+  background-color: #f2f2f2;
+  height: 8px;
   border-radius: 100px;
   padding: 9px 20px;
 }
 
-.leto-search-half-lg {
-  width: 50%;
-  height: 64px;
-  font-size: 18px;
-  border: 1px solid #dadada;
-  border-radius: 100px;
-  padding: 9px 20px;
-}
-
-.leto-search-half-xl {
-  width: 50%;
-  height: 96px;
-  font-size: 18px;
-  border: 1px solid #dadada;
-  border-radius: 100px;
-  padding: 9px 20px;
-}
-
-.leto-search-half-xxl {
-  width: 50%;
-  height: 128px;
-  font-size: 18px;
-  border: 1px solid #dadada;
-  border-radius: 100px;
-  padding: 9px 20px;
-}
-
-.leto-search-full {
-  width: 100%;
-  height: 48px;
-  font-size: 18px;
-  border: 1px solid #dadada;
-  border-radius: 100px;
-  padding: 9px 20px;
-}
-
-.leto-search-full-xxs {
-  width: 100%;
+.leto-search-xs {
+  background-color: #f2f2f2;
   height: 16px;
-  font-size: 18px;
-  border: 1px solid #dadada;
   border-radius: 100px;
   padding: 9px 20px;
 }
 
-.leto-search-full-xs {
-  width: 100%;
+.leto-search-s {
+  background-color: #f2f2f2;
   height: 24px;
-  font-size: 18px;
-  border: 1px solid #dadada;
   border-radius: 100px;
   padding: 9px 20px;
 }
 
-.leto-search-full-s {
-  width: 100%;
+.leto-search-md {
+  background-color: #f2f2f2;
   height: 32px;
-  font-size: 18px;
-  border: 1px solid #dadada;
   border-radius: 100px;
   padding: 9px 20px;
 }
 
-.leto-search-full-md {
-  width: 100%;
+.leto-search-lg {
+  background-color: #f2f2f2;
   height: 48px;
-  font-size: 18px;
-  border: 1px solid #dadada;
   border-radius: 100px;
   padding: 9px 20px;
 }
 
-.leto-search-full-lg {
-  width: 100%;
+.leto-search-xl {
+  background-color: #f2f2f2;
   height: 64px;
-  font-size: 18px;
-  border: 1px solid #dadada;
   border-radius: 100px;
   padding: 9px 20px;
 }
 
-.leto-search-full-xl {
-  width: 100%;
+.leto-search-xxl {
+  background-color: #f2f2f2;
   height: 96px;
-  font-size: 18px;
-  border: 1px solid #dadada;
-  border-radius: 100px;
-  padding: 9px 20px;
-}
-
-.leto-search-full-xxl {
-  width: 100%;
-  height: 128px;
-  font-size: 18px;
-  border: 1px solid #dadada;
   border-radius: 100px;
   padding: 9px 20px;
 }
@@ -2257,64 +2582,34 @@ body {
 }
 
 .leto-card-label-xxs {
-  max-width: 80px;
+  max-width: 40px;
 }
 
 .leto-card-label-xs {
-  max-width: 120px;
+  max-width: 80px;
 }
 
 .leto-card-label-s {
-  max-width: 160px;
+  max-width: 120px;
 }
 
 .leto-card-label-md {
-  max-width: 240px;
+  max-width: 160px;
 }
 
 .leto-card-label-lg {
-  max-width: 320px;
+  max-width: 240px;
 }
 
 .leto-card-label-xl {
-  max-width: 480px;
+  max-width: 320px;
 }
 
 .leto-card-label-xxl {
-  max-width: 640px;
+  max-width: 480px;
 }
 
 .leto-card {
-  position: relative;
-  width: 240px;
-  min-height: 50px;
-  border: 1px solid #dadada;
-  border-radius: 10px;
-  display: inline-block;
-  overflow: hidden;
-}
-
-.leto-card-xxs {
-  position: relative;
-  width: 80px;
-  min-height: 50px;
-  border: 1px solid #dadada;
-  border-radius: 10px;
-  display: inline-block;
-  overflow: hidden;
-}
-
-.leto-card-xs {
-  position: relative;
-  width: 120px;
-  min-height: 50px;
-  border: 1px solid #dadada;
-  border-radius: 10px;
-  display: inline-block;
-  overflow: hidden;
-}
-
-.leto-card-s {
   position: relative;
   width: 160px;
   min-height: 50px;
@@ -2324,7 +2619,87 @@ body {
   overflow: hidden;
 }
 
+.leto-card-ns {
+  position: relative;
+  width: 160px;
+  min-height: 50px;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.leto-card-xxs {
+  position: relative;
+  width: 40px;
+  min-height: 50px;
+  border: 1px solid #dadada;
+  border-radius: 10px;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.leto-card-xxs-ns {
+  position: relative;
+  width: 40px;
+  min-height: 50px;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.leto-card-xs {
+  position: relative;
+  width: 80px;
+  min-height: 50px;
+  border: 1px solid #dadada;
+  border-radius: 10px;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.leto-card-xs-ns {
+  position: relative;
+  width: 80px;
+  min-height: 50px;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.leto-card-s {
+  position: relative;
+  width: 120px;
+  min-height: 50px;
+  border: 1px solid #dadada;
+  border-radius: 10px;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.leto-card-s-ns {
+  position: relative;
+  width: 120px;
+  min-height: 50px;
+  display: inline-block;
+  overflow: hidden;
+}
+
 .leto-card-md {
+  position: relative;
+  width: 160px;
+  min-height: 50px;
+  border: 1px solid #dadada;
+  border-radius: 10px;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.leto-card-md-ns {
+  position: relative;
+  width: 160px;
+  min-height: 50px;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.leto-card-lg {
   position: relative;
   width: 240px;
   min-height: 50px;
@@ -2334,7 +2709,15 @@ body {
   overflow: hidden;
 }
 
-.leto-card-lg {
+.leto-card-lg-ns {
+  position: relative;
+  width: 240px;
+  min-height: 50px;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.leto-card-xl {
   position: relative;
   width: 320px;
   min-height: 50px;
@@ -2344,7 +2727,15 @@ body {
   overflow: hidden;
 }
 
-.leto-card-xl {
+.leto-card-xl-ns {
+  position: relative;
+  width: 320px;
+  min-height: 50px;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.leto-card-xxl {
   position: relative;
   width: 480px;
   min-height: 50px;
@@ -2354,12 +2745,10 @@ body {
   overflow: hidden;
 }
 
-.leto-card-xxl {
+.leto-card-xxl-ns {
   position: relative;
-  width: 640px;
+  width: 480px;
   min-height: 50px;
-  border: 1px solid #dadada;
-  border-radius: 10px;
   display: inline-block;
   overflow: hidden;
 }
@@ -2373,7 +2762,32 @@ body {
   overflow: hidden;
 }
 
+.leto-card-masonry-ns {
+  position: relative;
+  min-height: 50px;
+  display: inline-block;
+  overflow: hidden;
+}
+
 .leto-card-square-xxs {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #dadada;
+  border-radius: 10px;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.leto-card-square-xxs-ns {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.leto-card-square-xs {
   position: relative;
   width: 80px;
   height: 80px;
@@ -2383,7 +2797,15 @@ body {
   overflow: hidden;
 }
 
-.leto-card-square-xs {
+.leto-card-square-xs-ns {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.leto-card-square-s {
   position: relative;
   width: 120px;
   height: 120px;
@@ -2393,7 +2815,15 @@ body {
   overflow: hidden;
 }
 
-.leto-card-square-s {
+.leto-card-square-s-ns {
+  position: relative;
+  width: 120px;
+  height: 120px;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.leto-card-square-md {
   position: relative;
   width: 160px;
   height: 160px;
@@ -2403,7 +2833,15 @@ body {
   overflow: hidden;
 }
 
-.leto-card-square-md {
+.leto-card-square-md-ns {
+  position: relative;
+  width: 160px;
+  height: 160px;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.leto-card-square-lg {
   position: relative;
   width: 240px;
   height: 240px;
@@ -2413,7 +2851,15 @@ body {
   overflow: hidden;
 }
 
-.leto-card-square-lg {
+.leto-card-square-lg-ns {
+  position: relative;
+  width: 240px;
+  height: 240px;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.leto-card-square-xl {
   position: relative;
   width: 320px;
   height: 320px;
@@ -2423,7 +2869,15 @@ body {
   overflow: hidden;
 }
 
-.leto-card-square-xl {
+.leto-card-square-xl-ns {
+  position: relative;
+  width: 320px;
+  height: 320px;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.leto-card-square-xxl {
   position: relative;
   width: 480px;
   height: 480px;
@@ -2433,12 +2887,10 @@ body {
   overflow: hidden;
 }
 
-.leto-card-square-xxl {
+.leto-card-square-xxl-ns {
   position: relative;
-  width: 640px;
-  height: 640px;
-  border: 1px solid #dadada;
-  border-radius: 10px;
+  width: 480px;
+  height: 480px;
   display: inline-block;
   overflow: hidden;
 }
@@ -2646,6 +3098,10 @@ textarea:focus {
   outline: thin dotted \9;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
           box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
+}
+
+input {
+  border: none;
 }
 
 input[type="text"]:focus, input[type="password"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="date"]:focus, input[type="month"]:focus, input[type="time"]:focus, input[type="week"]:focus, input[type="number"]:focus, input[type="email"]:focus, input[type="url"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="color"]:focus {
