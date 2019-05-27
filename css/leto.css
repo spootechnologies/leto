@@ -6,6 +6,7 @@
 
 body {
   font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
   margin: 0;
   padding: 0;
 }
@@ -441,7 +442,7 @@ body {
 }
 
 .leto-m {
-  margin: 16px;
+  margin: 24px;
 }
 
 .leto-m-xxs {
@@ -453,19 +454,19 @@ body {
 }
 
 .leto-m-sm {
-  margin: 12px;
-}
-
-.leto-m-md {
   margin: 16px;
 }
 
-.leto-m-lg {
+.leto-m-md {
   margin: 24px;
 }
 
-.leto-m-xl {
+.leto-m-lg {
   margin: 32px;
+}
+
+.leto-m-xl {
+  margin: 40px;
 }
 
 .leto-m-xxl {
@@ -481,19 +482,19 @@ body {
 }
 
 .leto-m-balance-sm {
-  margin: -12px;
-}
-
-.leto-m-balance-md {
   margin: -16px;
 }
 
-.leto-m-balance-lg {
+.leto-m-balance-md {
   margin: -24px;
 }
 
-.leto-m-balance-xl {
+.leto-m-balance-lg {
   margin: -32px;
+}
+
+.leto-m-balance-xl {
+  margin: -40px;
 }
 
 .leto-m-balance-xxl {
@@ -501,8 +502,8 @@ body {
 }
 
 .leto-mx {
-  margin-left: 16px;
-  margin-right: 16px;
+  margin-left: 24px;
+  margin-right: 24px;
 }
 
 .leto-mx-xxs {
@@ -516,23 +517,23 @@ body {
 }
 
 .leto-mx-sm {
-  margin-left: 12px;
-  margin-right: 12px;
-}
-
-.leto-mx-md {
   margin-left: 16px;
   margin-right: 16px;
 }
 
-.leto-mx-lg {
+.leto-mx-md {
   margin-left: 24px;
   margin-right: 24px;
 }
 
-.leto-mx-xl {
+.leto-mx-lg {
   margin-left: 32px;
   margin-right: 32px;
+}
+
+.leto-mx-xl {
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
 .leto-mx-xxl {
@@ -541,8 +542,8 @@ body {
 }
 
 .leto-my {
-  margin-top: 16px;
-  margin-bottom: 16px;
+  margin-top: 24px;
+  margin-bottom: 24px;
 }
 
 .leto-my-xxs {
@@ -556,23 +557,23 @@ body {
 }
 
 .leto-my-sm {
-  margin-top: 12px;
-  margin-bottom: 12px;
-}
-
-.leto-my-md {
   margin-top: 16px;
   margin-bottom: 16px;
 }
 
-.leto-my-lg {
+.leto-my-md {
   margin-top: 24px;
   margin-bottom: 24px;
 }
 
-.leto-my-xl {
+.leto-my-lg {
   margin-top: 32px;
   margin-bottom: 32px;
+}
+
+.leto-my-xl {
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 .leto-my-xxl {
@@ -581,7 +582,7 @@ body {
 }
 
 .leto-mt {
-  margin-top: 16px;
+  margin-top: 24px;
 }
 
 .leto-mt-xxs {
@@ -593,19 +594,19 @@ body {
 }
 
 .leto-mt-sm {
-  margin-top: 12px;
-}
-
-.leto-mt-md {
   margin-top: 16px;
 }
 
-.leto-mt-lg {
+.leto-mt-md {
   margin-top: 24px;
 }
 
-.leto-mt-xl {
+.leto-mt-lg {
   margin-top: 32px;
+}
+
+.leto-mt-xl {
+  margin-top: 40px;
 }
 
 .leto-mt-xxl {
@@ -613,7 +614,7 @@ body {
 }
 
 .leto-ml {
-  margin-left: 16px;
+  margin-left: 24px;
 }
 
 .leto-ml-xxs {
@@ -625,19 +626,19 @@ body {
 }
 
 .leto-ml-sm {
-  margin-left: 12px;
-}
-
-.leto-ml-md {
   margin-left: 16px;
 }
 
-.leto-ml-lg {
+.leto-ml-md {
   margin-left: 24px;
 }
 
-.leto-ml-xl {
+.leto-ml-lg {
   margin-left: 32px;
+}
+
+.leto-ml-xl {
+  margin-left: 40px;
 }
 
 .leto-ml-xxl {
@@ -645,7 +646,7 @@ body {
 }
 
 .leto-mr {
-  margin-right: 16px;
+  margin-right: 24px;
 }
 
 .leto-mr-xxs {
@@ -657,19 +658,19 @@ body {
 }
 
 .leto-mr-sm {
-  margin-right: 12px;
-}
-
-.leto-mr-md {
   margin-right: 16px;
 }
 
-.leto-mr-lg {
+.leto-mr-md {
   margin-right: 24px;
 }
 
-.leto-mr-xl {
+.leto-mr-lg {
   margin-right: 32px;
+}
+
+.leto-mr-xl {
+  margin-right: 40px;
 }
 
 .leto-mr-xxl {
@@ -677,7 +678,7 @@ body {
 }
 
 .leto-mb {
-  margin-bottom: 16px;
+  margin-bottom: 24px;
 }
 
 .leto-mb-xxs {
@@ -689,19 +690,19 @@ body {
 }
 
 .leto-mb-sm {
-  margin-bottom: 12px;
-}
-
-.leto-mb-md {
   margin-bottom: 16px;
 }
 
-.leto-mb-lg {
+.leto-mb-md {
   margin-bottom: 24px;
 }
 
-.leto-mb-xl {
+.leto-mb-lg {
   margin-bottom: 32px;
+}
+
+.leto-mb-xl {
+  margin-bottom: 40px;
 }
 
 .leto-mb-xxl {
@@ -709,7 +710,7 @@ body {
 }
 
 .leto-p {
-  padding: 16px;
+  padding: 24px;
 }
 
 .leto-p-xxs {
@@ -721,19 +722,19 @@ body {
 }
 
 .leto-p-sm {
-  padding: 12px;
-}
-
-.leto-p-md {
   padding: 16px;
 }
 
-.leto-p-lg {
+.leto-p-md {
   padding: 24px;
 }
 
-.leto-p-xl {
+.leto-p-lg {
   padding: 32px;
+}
+
+.leto-p-xl {
+  padding: 40px;
 }
 
 .leto-p-xxl {
@@ -741,8 +742,8 @@ body {
 }
 
 .leto-px {
-  padding-left: 16px;
-  padding-right: 16px;
+  padding-left: 24px;
+  padding-right: 24px;
 }
 
 .leto-px-xxs {
@@ -756,23 +757,23 @@ body {
 }
 
 .leto-px-sm {
-  padding-left: 12px;
-  padding-right: 12px;
-}
-
-.leto-px-md {
   padding-left: 16px;
   padding-right: 16px;
 }
 
-.leto-px-lg {
+.leto-px-md {
   padding-left: 24px;
   padding-right: 24px;
 }
 
-.leto-px-xl {
+.leto-px-lg {
   padding-left: 32px;
   padding-right: 32px;
+}
+
+.leto-px-xl {
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
 .leto-px-xxl {
@@ -781,8 +782,8 @@ body {
 }
 
 .leto-py {
-  padding-top: 16px;
-  padding-bottom: 16px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .leto-py-xxs {
@@ -796,23 +797,23 @@ body {
 }
 
 .leto-py-sm {
-  padding-top: 12px;
-  padding-bottom: 12px;
-}
-
-.leto-py-md {
   padding-top: 16px;
   padding-bottom: 16px;
 }
 
-.leto-py-lg {
+.leto-py-md {
   padding-top: 24px;
   padding-bottom: 24px;
 }
 
-.leto-py-xl {
+.leto-py-lg {
   padding-top: 32px;
   padding-bottom: 32px;
+}
+
+.leto-py-xl {
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 .leto-py-xxl {
@@ -821,7 +822,7 @@ body {
 }
 
 .leto-pt {
-  padding-top: 16px;
+  padding-top: 24px;
 }
 
 .leto-pt-xxs {
@@ -833,19 +834,19 @@ body {
 }
 
 .leto-pt-sm {
-  padding-top: 12px;
-}
-
-.leto-pt-md {
   padding-top: 16px;
 }
 
-.leto-pt-lg {
+.leto-pt-md {
   padding-top: 24px;
 }
 
-.leto-pt-xl {
+.leto-pt-lg {
   padding-top: 32px;
+}
+
+.leto-pt-xl {
+  padding-top: 40px;
 }
 
 .leto-pt-xxl {
@@ -853,7 +854,7 @@ body {
 }
 
 .leto-pl {
-  padding-left: 16px;
+  padding-left: 24px;
 }
 
 .leto-pl-xxs {
@@ -865,19 +866,19 @@ body {
 }
 
 .leto-pl-sm {
-  padding-left: 12px;
-}
-
-.leto-pl-md {
   padding-left: 16px;
 }
 
-.leto-pl-lg {
+.leto-pl-md {
   padding-left: 24px;
 }
 
-.leto-pl-xl {
+.leto-pl-lg {
   padding-left: 32px;
+}
+
+.leto-pl-xl {
+  padding-left: 40px;
 }
 
 .leto-pl-xxl {
@@ -885,7 +886,7 @@ body {
 }
 
 .leto-pr {
-  padding-right: 16px;
+  padding-right: 24px;
 }
 
 .leto-pr-xxs {
@@ -897,19 +898,19 @@ body {
 }
 
 .leto-pr-sm {
-  padding-right: 12px;
-}
-
-.leto-pr-md {
   padding-right: 16px;
 }
 
-.leto-pr-lg {
+.leto-pr-md {
   padding-right: 24px;
 }
 
-.leto-pr-xl {
+.leto-pr-lg {
   padding-right: 32px;
+}
+
+.leto-pr-xl {
+  padding-right: 40px;
 }
 
 .leto-pr-xxl {
@@ -917,7 +918,7 @@ body {
 }
 
 .leto-pb {
-  padding-bottom: 16px;
+  padding-bottom: 24px;
 }
 
 .leto-pb-xxs {
@@ -929,19 +930,19 @@ body {
 }
 
 .leto-pb-sm {
-  padding-bottom: 12px;
-}
-
-.leto-pb-md {
   padding-bottom: 16px;
 }
 
-.leto-pb-lg {
+.leto-pb-md {
   padding-bottom: 24px;
 }
 
-.leto-pb-xl {
+.leto-pb-lg {
   padding-bottom: 32px;
+}
+
+.leto-pb-xl {
+  padding-bottom: 40px;
 }
 
 .leto-pb-xxl {
@@ -1201,39 +1202,39 @@ body {
   color: #fdfdfd;
 }
 
-leto-roundness {
-  border-radius: 16px;
-}
-
-leto-roundness-xxs {
-  border-radius: 4px;
-}
-
-leto-roundness-xs {
-  border-radius: 8px;
-}
-
-leto-roundness-sm {
-  border-radius: 12px;
-}
-
-leto-roundness-md {
-  border-radius: 16px;
-}
-
-leto-roundness-lg {
+.leto-roundness {
   border-radius: 24px;
 }
 
-leto-roundness-xl {
+.leto-roundness-xxs {
+  border-radius: 4px;
+}
+
+.leto-roundness-xs {
+  border-radius: 8px;
+}
+
+.leto-roundness-sm {
+  border-radius: 16px;
+}
+
+.leto-roundness-md {
+  border-radius: 24px;
+}
+
+.leto-roundness-lg {
   border-radius: 32px;
 }
 
-leto-roundness-xxl {
+.leto-roundness-xl {
+  border-radius: 40px;
+}
+
+.leto-roundness-xxl {
   border-radius: 48px;
 }
 
-leto-roundness-full {
+.leto-roundness-full {
   border-radius: 100px;
 }
 
@@ -1426,7 +1427,7 @@ leto-roundness-full {
 }
 
 .leto-font {
-  font-size: 16px;
+  font-size: 24px;
 }
 
 .leto-font-xxs {
@@ -1548,237 +1549,237 @@ leto-roundness-full {
 }
 
 .leto-font-sm {
-  font-size: 16px;
+  font-size: 14px;
 }
 
 .leto-font-sm-light {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 300;
 }
 
 .leto-font-sm-light-italic {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 300;
   font-style: italic;
 }
 
 .leto-font-sm-regular {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
 }
 
 .leto-font-sm-regular-italic {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
   font-style: italic;
 }
 
 .leto-font-sm-medium {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 500;
 }
 
 .leto-font-sm-medium-italic {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 500;
   font-style: italic;
 }
 
 .leto-font-sm-bold {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 700;
 }
 
 .leto-font-sm-bold-italic {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 700;
   font-style: italic;
 }
 
 .leto-font-sm-black {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 900;
 }
 
 .leto-font-sm-black-italic {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 900;
   font-style: italic;
 }
 
 .leto-font-md {
-  font-size: 20px;
+  font-size: 16px;
 }
 
 .leto-font-md-light {
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 300;
 }
 
 .leto-font-md-light-italic {
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 300;
   font-style: italic;
 }
 
 .leto-font-md-regular {
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 400;
 }
 
 .leto-font-md-regular-italic {
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 400;
   font-style: italic;
 }
 
 .leto-font-md-medium {
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 500;
 }
 
 .leto-font-md-medium-italic {
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 500;
   font-style: italic;
 }
 
 .leto-font-md-bold {
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 700;
 }
 
 .leto-font-md-bold-italic {
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 700;
   font-style: italic;
 }
 
 .leto-font-md-black {
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 900;
 }
 
 .leto-font-md-black-italic {
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 900;
   font-style: italic;
 }
 
 .leto-font-lg {
-  font-size: 24px;
+  font-size: 20px;
 }
 
 .leto-font-lg-light {
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 300;
 }
 
 .leto-font-lg-light-italic {
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 300;
   font-style: italic;
 }
 
 .leto-font-lg-regular {
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 400;
 }
 
 .leto-font-lg-regular-italic {
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 400;
   font-style: italic;
 }
 
 .leto-font-lg-medium {
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 500;
 }
 
 .leto-font-lg-medium-italic {
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 500;
   font-style: italic;
 }
 
 .leto-font-lg-bold {
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 700;
 }
 
 .leto-font-lg-bold-italic {
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 700;
   font-style: italic;
 }
 
 .leto-font-lg-black {
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 900;
 }
 
 .leto-font-lg-black-italic {
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 900;
   font-style: italic;
 }
 
 .leto-font-xl {
-  font-size: 28px;
+  font-size: 24px;
 }
 
 .leto-font-xl-light {
-  font-size: 28px;
+  font-size: 24px;
   font-weight: 300;
 }
 
 .leto-font-xl-light-italic {
-  font-size: 28px;
+  font-size: 24px;
   font-weight: 300;
   font-style: italic;
 }
 
 .leto-font-xl-regular {
-  font-size: 28px;
+  font-size: 24px;
   font-weight: 400;
 }
 
 .leto-font-xl-regular-italic {
-  font-size: 28px;
+  font-size: 24px;
   font-weight: 400;
   font-style: italic;
 }
 
 .leto-font-xl-medium {
-  font-size: 28px;
+  font-size: 24px;
   font-weight: 500;
 }
 
 .leto-font-xl-medium-italic {
-  font-size: 28px;
+  font-size: 24px;
   font-weight: 500;
   font-style: italic;
 }
 
 .leto-font-xl-bold {
-  font-size: 28px;
+  font-size: 24px;
   font-weight: 700;
 }
 
 .leto-font-xl-bold-italic {
-  font-size: 28px;
+  font-size: 24px;
   font-weight: 700;
   font-style: italic;
 }
 
 .leto-font-xl-black {
-  font-size: 28px;
+  font-size: 24px;
   font-weight: 900;
 }
 
 .leto-font-xl-black-italic {
-  font-size: 28px;
+  font-size: 24px;
   font-weight: 900;
   font-style: italic;
 }
@@ -2309,9 +2310,9 @@ leto-roundness-full {
 }
 
 .leto-bubble-label {
-  max-width: 16px;
-  margin-left: 10px;
-  margin-right: 10px;
+  max-width: 24px;
+  margin-left: 8px;
+  margin-right: 8px;
 }
 
 .leto-bubble-label-xxs {
@@ -2325,22 +2326,22 @@ leto-roundness-full {
 }
 
 .leto-bubble-label-sm {
-  max-width: 24px;
-  margin: 10px;
-}
-
-.leto-bubble-label-md {
   max-width: 32px;
   margin: 10px;
 }
 
-.leto-bubble-label-lg {
+.leto-bubble-label-md {
   max-width: 48px;
   margin: 10px;
 }
 
-.leto-bubble-label-xl {
+.leto-bubble-label-lg {
   max-width: 64px;
+  margin: 10px;
+}
+
+.leto-bubble-label-xl {
+  max-width: 80px;
   margin: 10px;
 }
 
@@ -2350,12 +2351,12 @@ leto-roundness-full {
 }
 
 .leto-bubble {
-  height: 32px;
-  width: 32px;
-  font-size: 10.56px;
+  height: 48px;
+  width: 48px;
+  font-size: 15.84px;
   border: 1px solid #dadada;
-  border-radius: 32px;
-  margin: 10px;
+  border-radius: 48px;
+  margin: 8px;
   text-align: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -2376,15 +2377,15 @@ leto-roundness-full {
 
 .leto-bubble img {
   max-height: auto;
-  max-width: 10.56px;
+  max-width: 15.84px;
 }
 
 .leto-bubble-ns {
-  height: 32px;
-  width: 32px;
-  font-size: 10.56px;
-  border-radius: 32px;
-  margin: 10px;
+  height: 48px;
+  width: 48px;
+  font-size: 15.84px;
+  border-radius: 48px;
+  margin: 8px;
   text-align: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -2405,7 +2406,36 @@ leto-roundness-full {
 
 .leto-bubble-ns img {
   max-height: auto;
-  max-width: 10.56px;
+  max-width: 15.84px;
+}
+
+.leto-bubble-np {
+  height: 48px;
+  width: 48px;
+  font-size: 15.84px;
+  border: 1px solid #dadada;
+  border-radius: 48px;
+  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.leto-bubble-np img {
+  max-height: auto;
+  max-width: 15.84px;
 }
 
 .leto-bubble-xxs {
@@ -2414,7 +2444,7 @@ leto-roundness-full {
   font-size: 2.64px;
   border: 1px solid #dadada;
   border-radius: 8px;
-  margin: 10px;
+  margin: 8px;
   text-align: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -2443,7 +2473,7 @@ leto-roundness-full {
   width: 8px;
   font-size: 2.64px;
   border-radius: 8px;
-  margin: 10px;
+  margin: 8px;
   text-align: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -2467,13 +2497,42 @@ leto-roundness-full {
   max-width: 2.64px;
 }
 
+.leto-bubble-xxs-np {
+  height: 8px;
+  width: 8px;
+  font-size: 2.64px;
+  border: 1px solid #dadada;
+  border-radius: 8px;
+  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.leto-bubble-xxs-np img {
+  max-height: auto;
+  max-width: 2.64px;
+}
+
 .leto-bubble-xs {
   height: 16px;
   width: 16px;
   font-size: 5.28px;
   border: 1px solid #dadada;
   border-radius: 16px;
-  margin: 10px;
+  margin: 8px;
   text-align: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -2502,7 +2561,7 @@ leto-roundness-full {
   width: 16px;
   font-size: 5.28px;
   border-radius: 16px;
-  margin: 10px;
+  margin: 8px;
   text-align: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -2526,13 +2585,42 @@ leto-roundness-full {
   max-width: 5.28px;
 }
 
-.leto-bubble-sm {
-  height: 24px;
-  width: 24px;
-  font-size: 7.92px;
+.leto-bubble-xs-np {
+  height: 16px;
+  width: 16px;
+  font-size: 5.28px;
   border: 1px solid #dadada;
-  border-radius: 24px;
-  margin: 10px;
+  border-radius: 16px;
+  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.leto-bubble-xs-np img {
+  max-height: auto;
+  max-width: 5.28px;
+}
+
+.leto-bubble-sm {
+  height: 32px;
+  width: 32px;
+  font-size: 10.56px;
+  border: 1px solid #dadada;
+  border-radius: 32px;
+  margin: 8px;
   text-align: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -2553,15 +2641,15 @@ leto-roundness-full {
 
 .leto-bubble-sm img {
   max-height: auto;
-  max-width: 7.92px;
+  max-width: 10.56px;
 }
 
 .leto-bubble-sm-ns {
-  height: 24px;
-  width: 24px;
-  font-size: 7.92px;
-  border-radius: 24px;
-  margin: 10px;
+  height: 32px;
+  width: 32px;
+  font-size: 10.56px;
+  border-radius: 32px;
+  margin: 8px;
   text-align: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -2582,16 +2670,45 @@ leto-roundness-full {
 
 .leto-bubble-sm-ns img {
   max-height: auto;
-  max-width: 7.92px;
+  max-width: 10.56px;
 }
 
-.leto-bubble-md {
+.leto-bubble-sm-np {
   height: 32px;
   width: 32px;
   font-size: 10.56px;
   border: 1px solid #dadada;
   border-radius: 32px;
-  margin: 10px;
+  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.leto-bubble-sm-np img {
+  max-height: auto;
+  max-width: 10.56px;
+}
+
+.leto-bubble-md {
+  height: 48px;
+  width: 48px;
+  font-size: 15.84px;
+  border: 1px solid #dadada;
+  border-radius: 48px;
+  margin: 8px;
   text-align: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -2612,15 +2729,15 @@ leto-roundness-full {
 
 .leto-bubble-md img {
   max-height: auto;
-  max-width: 10.56px;
+  max-width: 15.84px;
 }
 
 .leto-bubble-md-ns {
-  height: 32px;
-  width: 32px;
-  font-size: 10.56px;
-  border-radius: 32px;
-  margin: 10px;
+  height: 48px;
+  width: 48px;
+  font-size: 15.84px;
+  border-radius: 48px;
+  margin: 8px;
   text-align: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -2641,16 +2758,45 @@ leto-roundness-full {
 
 .leto-bubble-md-ns img {
   max-height: auto;
-  max-width: 10.56px;
+  max-width: 15.84px;
 }
 
-.leto-bubble-lg {
+.leto-bubble-md-np {
   height: 48px;
   width: 48px;
   font-size: 15.84px;
   border: 1px solid #dadada;
   border-radius: 48px;
-  margin: 10px;
+  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.leto-bubble-md-np img {
+  max-height: auto;
+  max-width: 15.84px;
+}
+
+.leto-bubble-lg {
+  height: 64px;
+  width: 64px;
+  font-size: 21.12px;
+  border: 1px solid #dadada;
+  border-radius: 64px;
+  margin: 8px;
   text-align: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -2671,15 +2817,15 @@ leto-roundness-full {
 
 .leto-bubble-lg img {
   max-height: auto;
-  max-width: 15.84px;
+  max-width: 21.12px;
 }
 
 .leto-bubble-lg-ns {
-  height: 48px;
-  width: 48px;
-  font-size: 15.84px;
-  border-radius: 48px;
-  margin: 10px;
+  height: 64px;
+  width: 64px;
+  font-size: 21.12px;
+  border-radius: 64px;
+  margin: 8px;
   text-align: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -2700,16 +2846,45 @@ leto-roundness-full {
 
 .leto-bubble-lg-ns img {
   max-height: auto;
-  max-width: 15.84px;
+  max-width: 21.12px;
 }
 
-.leto-bubble-xl {
+.leto-bubble-lg-np {
   height: 64px;
   width: 64px;
   font-size: 21.12px;
   border: 1px solid #dadada;
   border-radius: 64px;
-  margin: 10px;
+  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.leto-bubble-lg-np img {
+  max-height: auto;
+  max-width: 21.12px;
+}
+
+.leto-bubble-xl {
+  height: 80px;
+  width: 80px;
+  font-size: 26.4px;
+  border: 1px solid #dadada;
+  border-radius: 80px;
+  margin: 8px;
   text-align: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -2730,15 +2905,15 @@ leto-roundness-full {
 
 .leto-bubble-xl img {
   max-height: auto;
-  max-width: 21.12px;
+  max-width: 26.4px;
 }
 
 .leto-bubble-xl-ns {
-  height: 64px;
-  width: 64px;
-  font-size: 21.12px;
-  border-radius: 64px;
-  margin: 10px;
+  height: 80px;
+  width: 80px;
+  font-size: 26.4px;
+  border-radius: 80px;
+  margin: 8px;
   text-align: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -2759,7 +2934,36 @@ leto-roundness-full {
 
 .leto-bubble-xl-ns img {
   max-height: auto;
-  max-width: 21.12px;
+  max-width: 26.4px;
+}
+
+.leto-bubble-xl-np {
+  height: 80px;
+  width: 80px;
+  font-size: 26.4px;
+  border: 1px solid #dadada;
+  border-radius: 80px;
+  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.leto-bubble-xl-np img {
+  max-height: auto;
+  max-width: 26.4px;
 }
 
 .leto-bubble-xxl {
@@ -2768,7 +2972,7 @@ leto-roundness-full {
   font-size: 31.68px;
   border: 1px solid #dadada;
   border-radius: 96px;
-  margin: 10px;
+  margin: 8px;
   text-align: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -2797,7 +3001,7 @@ leto-roundness-full {
   width: 96px;
   font-size: 31.68px;
   border-radius: 96px;
-  margin: 10px;
+  margin: 8px;
   text-align: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -2817,6 +3021,35 @@ leto-roundness-full {
 }
 
 .leto-bubble-xxl-ns img {
+  max-height: auto;
+  max-width: 31.68px;
+}
+
+.leto-bubble-xxl-np {
+  height: 96px;
+  width: 96px;
+  font-size: 31.68px;
+  border: 1px solid #dadada;
+  border-radius: 96px;
+  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.leto-bubble-xxl-np img {
   max-height: auto;
   max-width: 31.68px;
 }
@@ -2845,7 +3078,8 @@ leto-roundness-full {
 }
 
 .leto-input {
-  height: 32px;
+  height: 48px;
+  font-size: 16px;
   border: 1px solid #dadada;
   border-radius: 100px;
   padding: 9px 20px;
@@ -2857,8 +3091,22 @@ leto-roundness-full {
   border-color: #f2f2f2;
 }
 
+.leto-input-np {
+  height: 48px;
+  font-size: 16px;
+  border: 1px solid #dadada;
+  border-radius: 100px;
+  padding: 9px 20px;
+}
+
+.leto-input-np:focus {
+  background-color: #f2f2f2;
+  border-color: #f2f2f2;
+}
+
 .leto-input-xxs {
   height: 8px;
+  font-size: 16px;
   border: 1px solid #dadada;
   border-radius: 100px;
   padding: 9px 20px;
@@ -2870,8 +3118,22 @@ leto-roundness-full {
   border-color: #f2f2f2;
 }
 
+.leto-input-xxs-np {
+  height: 8px;
+  font-size: 16px;
+  border: 1px solid #dadada;
+  border-radius: 100px;
+  padding: 9px 20px;
+}
+
+.leto-input-xxs-np:focus {
+  background-color: #f2f2f2;
+  border-color: #f2f2f2;
+}
+
 .leto-input-xs {
   height: 16px;
+  font-size: 16px;
   border: 1px solid #dadada;
   border-radius: 100px;
   padding: 9px 20px;
@@ -2883,8 +3145,22 @@ leto-roundness-full {
   border-color: #f2f2f2;
 }
 
+.leto-input-xs-np {
+  height: 16px;
+  font-size: 16px;
+  border: 1px solid #dadada;
+  border-radius: 100px;
+  padding: 9px 20px;
+}
+
+.leto-input-xs-np:focus {
+  background-color: #f2f2f2;
+  border-color: #f2f2f2;
+}
+
 .leto-input-sm {
-  height: 24px;
+  height: 32px;
+  font-size: 16px;
   border: 1px solid #dadada;
   border-radius: 100px;
   padding: 9px 20px;
@@ -2896,8 +3172,22 @@ leto-roundness-full {
   border-color: #f2f2f2;
 }
 
-.leto-input-md {
+.leto-input-sm-np {
   height: 32px;
+  font-size: 16px;
+  border: 1px solid #dadada;
+  border-radius: 100px;
+  padding: 9px 20px;
+}
+
+.leto-input-sm-np:focus {
+  background-color: #f2f2f2;
+  border-color: #f2f2f2;
+}
+
+.leto-input-md {
+  height: 48px;
+  font-size: 16px;
   border: 1px solid #dadada;
   border-radius: 100px;
   padding: 9px 20px;
@@ -2909,8 +3199,22 @@ leto-roundness-full {
   border-color: #f2f2f2;
 }
 
-.leto-input-lg {
+.leto-input-md-np {
   height: 48px;
+  font-size: 16px;
+  border: 1px solid #dadada;
+  border-radius: 100px;
+  padding: 9px 20px;
+}
+
+.leto-input-md-np:focus {
+  background-color: #f2f2f2;
+  border-color: #f2f2f2;
+}
+
+.leto-input-lg {
+  height: 64px;
+  font-size: 16px;
   border: 1px solid #dadada;
   border-radius: 100px;
   padding: 9px 20px;
@@ -2922,8 +3226,22 @@ leto-roundness-full {
   border-color: #f2f2f2;
 }
 
-.leto-input-xl {
+.leto-input-lg-np {
   height: 64px;
+  font-size: 16px;
+  border: 1px solid #dadada;
+  border-radius: 100px;
+  padding: 9px 20px;
+}
+
+.leto-input-lg-np:focus {
+  background-color: #f2f2f2;
+  border-color: #f2f2f2;
+}
+
+.leto-input-xl {
+  height: 80px;
+  font-size: 16px;
   border: 1px solid #dadada;
   border-radius: 100px;
   padding: 9px 20px;
@@ -2935,8 +3253,22 @@ leto-roundness-full {
   border-color: #f2f2f2;
 }
 
+.leto-input-xl-np {
+  height: 80px;
+  font-size: 16px;
+  border: 1px solid #dadada;
+  border-radius: 100px;
+  padding: 9px 20px;
+}
+
+.leto-input-xl-np:focus {
+  background-color: #f2f2f2;
+  border-color: #f2f2f2;
+}
+
 .leto-input-xxl {
   height: 96px;
+  font-size: 16px;
   border: 1px solid #dadada;
   border-radius: 100px;
   padding: 9px 20px;
@@ -2948,9 +3280,23 @@ leto-roundness-full {
   border-color: #f2f2f2;
 }
 
+.leto-input-xxl-np {
+  height: 96px;
+  font-size: 16px;
+  border: 1px solid #dadada;
+  border-radius: 100px;
+  padding: 9px 20px;
+}
+
+.leto-input-xxl-np:focus {
+  background-color: #f2f2f2;
+  border-color: #f2f2f2;
+}
+
 .leto-search {
   background-color: #f2f2f2;
-  height: 32px;
+  height: 48px;
+  font-size: 16px;
   border-radius: 100px;
   margin: 10px;
   padding: 9px 20px;
@@ -2961,9 +3307,23 @@ leto-roundness-full {
   border-color: #dadada;
 }
 
+.leto-search-np {
+  background-color: #f2f2f2;
+  height: 48px;
+  font-size: 16px;
+  border-radius: 100px;
+  padding: 9px 20px;
+}
+
+.leto-search-np:focus {
+  background-color: rgba(0, 0, 0, 0);
+  border-color: #dadada;
+}
+
 .leto-search-xxs {
   background-color: #f2f2f2;
   height: 8px;
+  font-size: 16px;
   border-radius: 100px;
   margin: 10px;
   padding: 9px 20px;
@@ -2974,9 +3334,23 @@ leto-roundness-full {
   border-color: #dadada;
 }
 
+.leto-search-xxs-np {
+  background-color: #f2f2f2;
+  height: 8px;
+  font-size: 16px;
+  border-radius: 100px;
+  padding: 9px 20px;
+}
+
+.leto-search-xxs-np:focus {
+  background-color: rgba(0, 0, 0, 0);
+  border-color: #dadada;
+}
+
 .leto-search-xs {
   background-color: #f2f2f2;
   height: 16px;
+  font-size: 16px;
   border-radius: 100px;
   margin: 10px;
   padding: 9px 20px;
@@ -2987,9 +3361,23 @@ leto-roundness-full {
   border-color: #dadada;
 }
 
+.leto-search-xs-np {
+  background-color: #f2f2f2;
+  height: 16px;
+  font-size: 16px;
+  border-radius: 100px;
+  padding: 9px 20px;
+}
+
+.leto-search-xs-np:focus {
+  background-color: rgba(0, 0, 0, 0);
+  border-color: #dadada;
+}
+
 .leto-search-sm {
   background-color: #f2f2f2;
-  height: 24px;
+  height: 32px;
+  font-size: 16px;
   border-radius: 100px;
   margin: 10px;
   padding: 9px 20px;
@@ -3000,9 +3388,23 @@ leto-roundness-full {
   border-color: #dadada;
 }
 
-.leto-search-md {
+.leto-search-sm-np {
   background-color: #f2f2f2;
   height: 32px;
+  font-size: 16px;
+  border-radius: 100px;
+  padding: 9px 20px;
+}
+
+.leto-search-sm-np:focus {
+  background-color: rgba(0, 0, 0, 0);
+  border-color: #dadada;
+}
+
+.leto-search-md {
+  background-color: #f2f2f2;
+  height: 48px;
+  font-size: 16px;
   border-radius: 100px;
   margin: 10px;
   padding: 9px 20px;
@@ -3013,9 +3415,23 @@ leto-roundness-full {
   border-color: #dadada;
 }
 
-.leto-search-lg {
+.leto-search-md-np {
   background-color: #f2f2f2;
   height: 48px;
+  font-size: 16px;
+  border-radius: 100px;
+  padding: 9px 20px;
+}
+
+.leto-search-md-np:focus {
+  background-color: rgba(0, 0, 0, 0);
+  border-color: #dadada;
+}
+
+.leto-search-lg {
+  background-color: #f2f2f2;
+  height: 64px;
+  font-size: 16px;
   border-radius: 100px;
   margin: 10px;
   padding: 9px 20px;
@@ -3026,9 +3442,23 @@ leto-roundness-full {
   border-color: #dadada;
 }
 
-.leto-search-xl {
+.leto-search-lg-np {
   background-color: #f2f2f2;
   height: 64px;
+  font-size: 16px;
+  border-radius: 100px;
+  padding: 9px 20px;
+}
+
+.leto-search-lg-np:focus {
+  background-color: rgba(0, 0, 0, 0);
+  border-color: #dadada;
+}
+
+.leto-search-xl {
+  background-color: #f2f2f2;
+  height: 80px;
+  font-size: 16px;
   border-radius: 100px;
   margin: 10px;
   padding: 9px 20px;
@@ -3039,15 +3469,42 @@ leto-roundness-full {
   border-color: #dadada;
 }
 
+.leto-search-xl-np {
+  background-color: #f2f2f2;
+  height: 80px;
+  font-size: 16px;
+  border-radius: 100px;
+  padding: 9px 20px;
+}
+
+.leto-search-xl-np:focus {
+  background-color: rgba(0, 0, 0, 0);
+  border-color: #dadada;
+}
+
 .leto-search-xxl {
   background-color: #f2f2f2;
   height: 96px;
+  font-size: 16px;
   border-radius: 100px;
   margin: 10px;
   padding: 9px 20px;
 }
 
 .leto-search-xxl:focus {
+  background-color: rgba(0, 0, 0, 0);
+  border-color: #dadada;
+}
+
+.leto-search-xxl-np {
+  background-color: #f2f2f2;
+  height: 96px;
+  font-size: 16px;
+  border-radius: 100px;
+  padding: 9px 20px;
+}
+
+.leto-search-xxl-np:focus {
   background-color: rgba(0, 0, 0, 0);
   border-color: #dadada;
 }
@@ -3079,19 +3536,19 @@ leto-roundness-full {
 }
 
 .leto-card-label-sm {
-  max-width: 120px;
-}
-
-.leto-card-label-md {
   max-width: 160px;
 }
 
-.leto-card-label-lg {
+.leto-card-label-md {
   max-width: 240px;
 }
 
-.leto-card-label-xl {
+.leto-card-label-lg {
   max-width: 320px;
+}
+
+.leto-card-label-xl {
+  max-width: 400px;
 }
 
 .leto-card-label-xxl {
@@ -3103,7 +3560,7 @@ leto-roundness-full {
   min-height: 50px;
   border: 1px solid #dadada;
   border-radius: 10px;
-  margin: 10px;
+  margin: 8px;
   display: inline-block;
   overflow: hidden;
 }
@@ -3111,6 +3568,16 @@ leto-roundness-full {
 .leto-card-ns {
   position: relative;
   min-height: 50px;
+  margin: 8px;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.leto-card-np {
+  position: relative;
+  min-height: 50px;
+  border: 1px solid #dadada;
+  border-radius: 10px;
   display: inline-block;
   overflow: hidden;
 }
@@ -3121,7 +3588,7 @@ leto-roundness-full {
   min-height: 50px;
   border: 1px solid #dadada;
   border-radius: 10px;
-  margin: 10px;
+  margin: 8px;
   display: inline-block;
   overflow: hidden;
 }
@@ -3130,6 +3597,17 @@ leto-roundness-full {
   position: relative;
   width: 40px;
   min-height: 50px;
+  margin: 8px;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.leto-card-xxs-np {
+  position: relative;
+  width: 40px;
+  min-height: 50px;
+  border: 1px solid #dadada;
+  border-radius: 10px;
   display: inline-block;
   overflow: hidden;
 }
@@ -3140,7 +3618,7 @@ leto-roundness-full {
   min-height: 50px;
   border: 1px solid #dadada;
   border-radius: 10px;
-  margin: 10px;
+  margin: 8px;
   display: inline-block;
   overflow: hidden;
 }
@@ -3149,82 +3627,137 @@ leto-roundness-full {
   position: relative;
   width: 80px;
   min-height: 50px;
+  margin: 8px;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.leto-card-xs-np {
+  position: relative;
+  width: 80px;
+  min-height: 50px;
+  border: 1px solid #dadada;
+  border-radius: 10px;
   display: inline-block;
   overflow: hidden;
 }
 
 .leto-card-sm {
   position: relative;
-  width: 120px;
+  width: 160px;
   min-height: 50px;
   border: 1px solid #dadada;
   border-radius: 10px;
-  margin: 10px;
+  margin: 8px;
   display: inline-block;
   overflow: hidden;
 }
 
 .leto-card-sm-ns {
   position: relative;
-  width: 120px;
+  width: 160px;
   min-height: 50px;
+  margin: 8px;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.leto-card-sm-np {
+  position: relative;
+  width: 160px;
+  min-height: 50px;
+  border: 1px solid #dadada;
+  border-radius: 10px;
   display: inline-block;
   overflow: hidden;
 }
 
 .leto-card-md {
   position: relative;
-  width: 160px;
+  width: 240px;
   min-height: 50px;
   border: 1px solid #dadada;
   border-radius: 10px;
-  margin: 10px;
+  margin: 8px;
   display: inline-block;
   overflow: hidden;
 }
 
 .leto-card-md-ns {
   position: relative;
-  width: 160px;
+  width: 240px;
   min-height: 50px;
+  margin: 8px;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.leto-card-md-np {
+  position: relative;
+  width: 240px;
+  min-height: 50px;
+  border: 1px solid #dadada;
+  border-radius: 10px;
   display: inline-block;
   overflow: hidden;
 }
 
 .leto-card-lg {
   position: relative;
-  width: 240px;
+  width: 320px;
   min-height: 50px;
   border: 1px solid #dadada;
   border-radius: 10px;
-  margin: 10px;
+  margin: 8px;
   display: inline-block;
   overflow: hidden;
 }
 
 .leto-card-lg-ns {
   position: relative;
-  width: 240px;
+  width: 320px;
   min-height: 50px;
+  margin: 8px;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.leto-card-lg-np {
+  position: relative;
+  width: 320px;
+  min-height: 50px;
+  border: 1px solid #dadada;
+  border-radius: 10px;
   display: inline-block;
   overflow: hidden;
 }
 
 .leto-card-xl {
   position: relative;
-  width: 320px;
+  width: 400px;
   min-height: 50px;
   border: 1px solid #dadada;
   border-radius: 10px;
-  margin: 10px;
+  margin: 8px;
   display: inline-block;
   overflow: hidden;
 }
 
 .leto-card-xl-ns {
   position: relative;
-  width: 320px;
+  width: 400px;
   min-height: 50px;
+  margin: 8px;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.leto-card-xl-np {
+  position: relative;
+  width: 400px;
+  min-height: 50px;
+  border: 1px solid #dadada;
+  border-radius: 10px;
   display: inline-block;
   overflow: hidden;
 }
@@ -3235,7 +3768,7 @@ leto-roundness-full {
   min-height: 50px;
   border: 1px solid #dadada;
   border-radius: 10px;
-  margin: 10px;
+  margin: 8px;
   display: inline-block;
   overflow: hidden;
 }
@@ -3244,6 +3777,17 @@ leto-roundness-full {
   position: relative;
   width: 480px;
   min-height: 50px;
+  margin: 8px;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.leto-card-xxl-np {
+  position: relative;
+  width: 480px;
+  min-height: 50px;
+  border: 1px solid #dadada;
+  border-radius: 10px;
   display: inline-block;
   overflow: hidden;
 }
@@ -3254,7 +3798,7 @@ leto-roundness-full {
   height: 40px;
   border: 1px solid #dadada;
   border-radius: 10px;
-  margin: 10px;
+  margin: 8px;
   display: inline-block;
   overflow: hidden;
 }
@@ -3263,6 +3807,17 @@ leto-roundness-full {
   position: relative;
   width: 40px;
   height: 40px;
+  margin: 8px;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.leto-card-square-xxs-np {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #dadada;
+  border-radius: 10px;
   display: inline-block;
   overflow: hidden;
 }
@@ -3273,7 +3828,7 @@ leto-roundness-full {
   height: 80px;
   border: 1px solid #dadada;
   border-radius: 10px;
-  margin: 10px;
+  margin: 8px;
   display: inline-block;
   overflow: hidden;
 }
@@ -3282,82 +3837,137 @@ leto-roundness-full {
   position: relative;
   width: 80px;
   height: 80px;
+  margin: 8px;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.leto-card-square-xs-np {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  border: 1px solid #dadada;
+  border-radius: 10px;
   display: inline-block;
   overflow: hidden;
 }
 
 .leto-card-square-sm {
   position: relative;
-  width: 120px;
-  height: 120px;
+  width: 160px;
+  height: 160px;
   border: 1px solid #dadada;
   border-radius: 10px;
-  margin: 10px;
+  margin: 8px;
   display: inline-block;
   overflow: hidden;
 }
 
 .leto-card-square-sm-ns {
   position: relative;
-  width: 120px;
-  height: 120px;
+  width: 160px;
+  height: 160px;
+  margin: 8px;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.leto-card-square-sm-np {
+  position: relative;
+  width: 160px;
+  height: 160px;
+  border: 1px solid #dadada;
+  border-radius: 10px;
   display: inline-block;
   overflow: hidden;
 }
 
 .leto-card-square-md {
   position: relative;
-  width: 160px;
-  height: 160px;
+  width: 240px;
+  height: 240px;
   border: 1px solid #dadada;
   border-radius: 10px;
-  margin: 10px;
+  margin: 8px;
   display: inline-block;
   overflow: hidden;
 }
 
 .leto-card-square-md-ns {
   position: relative;
-  width: 160px;
-  height: 160px;
+  width: 240px;
+  height: 240px;
+  margin: 8px;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.leto-card-square-md-np {
+  position: relative;
+  width: 240px;
+  height: 240px;
+  border: 1px solid #dadada;
+  border-radius: 10px;
   display: inline-block;
   overflow: hidden;
 }
 
 .leto-card-square-lg {
   position: relative;
-  width: 240px;
-  height: 240px;
+  width: 320px;
+  height: 320px;
   border: 1px solid #dadada;
   border-radius: 10px;
-  margin: 10px;
+  margin: 8px;
   display: inline-block;
   overflow: hidden;
 }
 
 .leto-card-square-lg-ns {
   position: relative;
-  width: 240px;
-  height: 240px;
+  width: 320px;
+  height: 320px;
+  margin: 8px;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.leto-card-square-lg-np {
+  position: relative;
+  width: 320px;
+  height: 320px;
+  border: 1px solid #dadada;
+  border-radius: 10px;
   display: inline-block;
   overflow: hidden;
 }
 
 .leto-card-square-xl {
   position: relative;
-  width: 320px;
-  height: 320px;
+  width: 400px;
+  height: 400px;
   border: 1px solid #dadada;
   border-radius: 10px;
-  margin: 10px;
+  margin: 8px;
   display: inline-block;
   overflow: hidden;
 }
 
 .leto-card-square-xl-ns {
   position: relative;
-  width: 320px;
-  height: 320px;
+  width: 400px;
+  height: 400px;
+  margin: 8px;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.leto-card-square-xl-np {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  border: 1px solid #dadada;
+  border-radius: 10px;
   display: inline-block;
   overflow: hidden;
 }
@@ -3368,7 +3978,7 @@ leto-roundness-full {
   height: 480px;
   border: 1px solid #dadada;
   border-radius: 10px;
-  margin: 10px;
+  margin: 8px;
   display: inline-block;
   overflow: hidden;
 }
@@ -3377,6 +3987,17 @@ leto-roundness-full {
   position: relative;
   width: 480px;
   height: 480px;
+  margin: 8px;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.leto-card-square-xxl-np {
+  position: relative;
+  width: 480px;
+  height: 480px;
+  border: 1px solid #dadada;
+  border-radius: 10px;
   display: inline-block;
   overflow: hidden;
 }
@@ -3408,12 +4029,6 @@ leto-roundness-full {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-}
-
-.leto-card-header:after {
-  clear: both;
-  display: block;
-  content: '';
 }
 
 .leto-card-link {
@@ -3477,15 +4092,28 @@ leto-roundness-full {
   text-align: center;
   border: 1px solid #dadada;
   border-radius: 25px;
-  margin: 10px;
+  margin: 8px;
   padding: 8px 13px;
+  cursor: pointer;
   display: inline-block;
 }
 
 .leto-button-ns {
   text-decoration: none;
   text-align: center;
+  margin: 8px;
   padding: 8px 13px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.leto-button-np {
+  text-decoration: none;
+  text-align: center;
+  border: 1px solid #dadada;
+  border-radius: 25px;
+  padding: 8px 13px;
+  cursor: pointer;
   display: inline-block;
 }
 
@@ -3497,8 +4125,9 @@ leto-roundness-full {
 
 .leto-badge {
   background: #f2f2f2;
-  padding: 5px 10px;
+  font-size: 12px;
   border-radius: 100px;
+  padding: 5px 10px;
   white-space: nowrap;
   display: inline-block;
 }

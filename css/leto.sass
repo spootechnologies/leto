@@ -11,13 +11,13 @@ $xxs: 4px
 
 $xs: 8px
 
-$sm: 12px
+$sm: 16px
 
-$md: 16px
+$md: 24px
 
-$lg: 24px
+$lg: 32px
 
-$xl: 32px
+$xl: 40px
 
 $xxl: 48px
 
@@ -36,10 +36,10 @@ $colorGreen: #9BFF99
 
 $fontSizeXXS: 8px 
 $fontSizeXS: 12px 
-$fontSizeSM: 16px 
-$fontSizeMD: 20px 
-$fontSizeLG: 24px 
-$fontSizeXL: 28px 
+$fontSizeSM: 14px 
+$fontSizeMD: 16px 
+$fontSizeLG: 20px 
+$fontSizeXL: 24px 
 $fontSizeXXL: 32px 
 
 $fontWeightLight: 300
@@ -56,9 +56,9 @@ $fontWeightBlack: 900
 
 body
     font-family: 'Montserrat', sans-serif
+    font-size: $fontSizeMD
     margin: 0
     padding: 0
-
 
 // Layout
 
@@ -644,7 +644,7 @@ body
 
 // Roundness
 
-leto-roundness
+.leto-roundness
     border-radius: $md
 
     &-xxs
@@ -1145,8 +1145,8 @@ leto-roundness
     
 .leto-bubble-label
     max-width: $md
-    margin-left: 10px
-    margin-right: 10px
+    margin-left: 8px
+    margin-right: 8px
 
     &-xxs
         max-width: $xxs * 2
@@ -1176,13 +1176,47 @@ leto-roundness
         max-width: $xxl * 2
         margin: 10px
 
-=buggle($value)
+=bubbleNS($value)
+    height: $value * 2
+    width: $value * 2
+    font-size: $value * .66
+    border-radius: $value * 2
+    margin: 8px
+    text-align: center
+    flex-direction: column
+    align-items: center
+    justify-content: center
+    flex-shrink: 0
+    display: inline-flex
+
+    img
+        max-height: auto
+        max-width: $value * .66
+
+=bubbleNP($value)
     height: $value * 2
     width: $value * 2
     font-size: $value * .66
     border: 1px solid $colorMedium
     border-radius: $value * 2
-    margin: 10px
+    text-align: center
+    flex-direction: column
+    align-items: center
+    justify-content: center
+    flex-shrink: 0
+    display: inline-flex
+
+    img
+        max-height: auto
+        max-width: $value * .66    
+
+=bubble($value)
+    height: $value * 2
+    width: $value * 2
+    font-size: $value * .66
+    border: 1px solid $colorMedium
+    border-radius: $value * 2
+    margin: 8px
     text-align: center
     flex-direction: column
     align-items: center
@@ -1195,48 +1229,34 @@ leto-roundness
         max-width: $value * .66    
 
     &-ns 
-        +buggleNS($value)   
+        +bubbleNS($value)   
 
-=buggleNS($value)
-    height: $value * 2
-    width: $value * 2
-    font-size: $value * .66
-    border-radius: $value * 2
-    margin: 10px
-    text-align: center
-    flex-direction: column
-    align-items: center
-    justify-content: center
-    flex-shrink: 0
-    display: inline-flex
-
-    img
-        max-height: auto
-        max-width: $value * .66
+    &-np
+        +bubbleNP($value)
 
 .leto-bubble
-    +buggle($md)
+    +bubble($md)
 
     &-xxs
-        +buggle($xxs)
+        +bubble($xxs)
 
     &-xs
-        +buggle($xs)
+        +bubble($xs)
 
     &-sm
-        +buggle($sm)
+        +bubble($sm)
 
     &-md
-        +buggle($md)
+        +bubble($md)
 
     &-lg
-        +buggle($lg)
+        +bubble($lg)
 
     &-xl
-        +buggle($xl)
+        +bubble($xl)
 
     &-xxl
-        +buggle($xxl)
+        +bubble($xxl)
 
     &-c
         text-align: center
@@ -1252,8 +1272,20 @@ leto-roundness
 
 // Input
 
+=inputNP($height)
+    height: $height * 2
+    font-size: $fontSizeMD
+    border: 1px solid $colorMedium
+    border-radius: 100px
+    padding: 9px 20px
+
+    &:focus
+        background-color: $colorLightMedium
+        border-color: $colorLightMedium
+
 =input($height)
     height: $height * 2
+    font-size: $fontSizeMD
     border: 1px solid $colorMedium
     border-radius: 100px
     padding: 9px 20px
@@ -1262,6 +1294,9 @@ leto-roundness
     &:focus
         background-color: $colorLightMedium
         border-color: $colorLightMedium
+
+    &-np
+        +inputNP($height)
 
 .leto-input
     +input($md)
@@ -1287,12 +1322,23 @@ leto-roundness
     &-xxl
         +input($xxl)
 
-
 // Search
+
+=searchNP($height)
+    background-color: $colorLightMedium
+    height: $height * 2
+    font-size: $fontSizeMD
+    border-radius: 100px
+    padding: 9px 20px
+
+    &:focus
+        background-color: rgba(0, 0, 0, 0)
+        border-color: $colorMedium
 
 =search($height)
     background-color: $colorLightMedium
     height: $height * 2
+    font-size: $fontSizeMD
     border-radius: 100px
     margin: 10px
     padding: 9px 20px
@@ -1300,6 +1346,9 @@ leto-roundness
     &:focus
         background-color: rgba(0, 0, 0, 0)
         border-color: $colorMedium
+
+    &-np
+        +searchNP($height)
 
 .leto-search
     +search($md)
@@ -1366,7 +1415,7 @@ leto-roundness
     min-height: 50px
     border: 1px solid $colorMedium
     border-radius: 10px
-    margin: 10px
+    margin: 8px
     display: inline-block
     overflow: hidden
 
@@ -1374,6 +1423,16 @@ leto-roundness
         position: relative
         width: $value*10
         min-height: 50px
+        margin: 8px
+        display: inline-block
+        overflow: hidden
+
+    &-np
+        position: relative
+        width: $value*10
+        min-height: 50px
+        border: 1px solid $colorMedium
+        border-radius: 10px
         display: inline-block
         overflow: hidden
 
@@ -1382,13 +1441,22 @@ leto-roundness
     min-height: 50px
     border: 1px solid $colorMedium
     border-radius: 10px
-    margin: 10px
+    margin: 8px
     display: inline-block
     overflow: hidden
 
     &-ns
         position: relative
         min-height: 50px
+        margin: 8px
+        display: inline-block
+        overflow: hidden
+
+    &-np
+        position: relative
+        min-height: 50px
+        border: 1px solid $colorMedium
+        border-radius: 10px
         display: inline-block
         overflow: hidden
 
@@ -1398,7 +1466,7 @@ leto-roundness
     height: $value*10
     border: 1px solid $colorMedium
     border-radius: 10px
-    margin: 10px
+    margin: 8px
     display: inline-block
     overflow: hidden
 
@@ -1406,8 +1474,18 @@ leto-roundness
         position: relative
         width: $value*10
         height: $value*10
+        margin: 8px
         display: inline-block
         overflow: hidden
+
+    &-np
+        position: relative
+        width: $value*10
+        height: $value*10
+        border: 1px solid $colorMedium
+        border-radius: 10px
+        display: inline-block
+        overflow: hidden      
 
 .leto-card
     +cardAutoWidth()
@@ -1469,11 +1547,6 @@ leto-roundness
     &-c
         flex-direction: row
         display: flex
-
-    &:after
-        clear: both
-        display: block
-        content: ''
         
 .leto-card-link
     text-decoration: none
@@ -1525,14 +1598,26 @@ leto-roundness
     text-align: center
     border: 1px solid $colorMedium
     border-radius: 25px
-    margin: 10px
+    margin: 8px
     padding: 8px 13px
+    cursor: pointer
     display: inline-block
 
     &-ns
         text-decoration: none
         text-align: center
+        margin: 8px
         padding: 8px 13px
+        cursor: pointer
+        display: inline-block
+
+    &-np
+        text-decoration: none
+        text-align: center
+        border: 1px solid $colorMedium
+        border-radius: 25px
+        padding: 8px 13px
+        cursor: pointer
         display: inline-block
 
     &-c
@@ -1544,8 +1629,9 @@ leto-roundness
 
 .leto-badge
     background: $colorLightMedium
-    padding: 5px 10px
+    font-size: $fontSizeXS
     border-radius: 100px
+    padding: 5px 10px
     white-space: nowrap
     display: inline-block
 
