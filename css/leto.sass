@@ -2,15 +2,16 @@
 
 // Variables
 
-$tablet: 450px 
+$tablet: 600px 
 $pc: 1366px
 $pcLarge: 1921px
+$ultrawide: "21/9"
 
 $xxs: 4px
 
 $xs: 8px
 
-$s: 12px
+$sm: 12px
 
 $md: 16px
 
@@ -35,7 +36,7 @@ $colorGreen: #9BFF99
 
 $fontSizeXXS: 8px 
 $fontSizeXS: 12px 
-$fontSizeS: 16px 
+$fontSizeSM: 16px 
 $fontSizeMD: 20px 
 $fontSizeLG: 24px 
 $fontSizeXL: 28px 
@@ -54,14 +55,14 @@ $fontWeightBlack: 900
     box-sizing: border-box
 
 body
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif
     margin: 0
     padding: 0
 
 
-// Row
+// Layout
 
-=rowMasonry($value)
+=masonry($value)
     column-count: 1
     column-gap: 0
 
@@ -69,24 +70,87 @@ body
         column-count: 2
 
     @media (min-width: $pc)
-        column-count: $value       
+        column-count: $value
 
-.leto-row
+    > * 
+        break-inside: avoid;
+        counter-increment: item-counter;
+
+.leto-layout
     flex-direction: row
+    flex-wrap: wrap
     display: flex
 
+    &-row
+        flex-direction: row
+        display: flex
+
     &-masonry
-        +rowMasonry(4)
+        +masonry(4)
 
         &-3
-            +rowMasonry(3)
+            +masonry(3)
 
         &-4
-            +rowMasonry(4) 
+            +masonry(4) 
 
         &-5
-            +rowMasonry(5)     
+            +masonry(5) 
 
+=letoWidth($width)
+    width: $width
+    flex-shrink: 0
+
+    @media (min-width: $tablet)
+
+        &-tablet
+            width: $width
+            flex-shrink: 0  
+
+    @media (min-width: $pc)
+
+        &-pc
+            width: $width
+            flex-shrink: 0  
+
+    @media (min-aspect-ratio: $ultrawide) and (min-width: $pcLarge)
+
+        &-ultrawide
+            width: $width
+            flex-shrink: 0   
+
+
+// Width
+
+.leto-full 
+    +letoWidth(100%)   
+
+.leto-fourfifths
+    +letoWidth(80%)
+
+.leto-threequaters
+    +letoWidth(75%)  
+
+.leto-twothirds
+    +letoWidth(calc((100% / 3) * 2))       
+
+.leto-half
+    +letoWidth(50%)
+    
+.leto-third
+    +letoWidth(calc(100% / 3))
+
+.leto-quater
+    +letoWidth(25%)   
+
+.leto-fifth
+    +letoWidth(20%)   
+
+.leto-sixth
+    +letoWidth(calc(100% / 6))   
+
+.leto-eighth
+    +letoWidth(12.5%)   
 
 // Margin
 
@@ -125,8 +189,8 @@ body
     &-xs
         +margin($xs)
 
-    &-s
-        +margin($s)
+    &-sm
+        +margin($sm)
 
     &-md
         +margin($md)
@@ -148,8 +212,8 @@ body
         &-xs
             +marginBalance($xs)
 
-        &-s
-            +marginBalance($s)
+        &-sm
+            +marginBalance($sm)
 
         &-md
             +marginBalance($md)
@@ -172,8 +236,8 @@ body
     &-xs
         +marginX($xs)
 
-    &-s
-        +marginX($s)
+    &-sm
+        +marginX($sm)
 
     &-md
         +marginX($md)
@@ -196,8 +260,8 @@ body
     &-xs
         +marginY($xs)
 
-    &-s
-        +marginY($s)
+    &-sm
+        +marginY($sm)
 
     &-md
         +marginY($md)
@@ -220,8 +284,8 @@ body
     &-xs
         +marginTop($xs)
 
-    &-s
-        +marginTop($s)
+    &-sm
+        +marginTop($sm)
 
     &-md
         +marginTop($md)
@@ -244,8 +308,8 @@ body
     &-xs
         +marginLeft($xs)
 
-    &-s
-        +marginLeft($s)
+    &-sm
+        +marginLeft($sm)
 
     &-md
         +marginLeft($md)
@@ -268,8 +332,8 @@ body
     &-xs
         +marginRight($xs)
 
-    &-s
-        +marginRight($s)
+    &-sm
+        +marginRight($sm)
 
     &-md
         +marginRight($md)
@@ -292,8 +356,8 @@ body
     &-xs
         +marginBottom($xs)
 
-    &-s
-        +marginBottom($s)
+    &-sm
+        +marginBottom($sm)
 
     &-md
         +marginBottom($md)
@@ -342,8 +406,8 @@ body
     &-xs
         +padding($xs)
 
-    &-s
-        +padding($s)
+    &-sm
+        +padding($sm)
 
     &-md
         +padding($md)
@@ -366,8 +430,8 @@ body
     &-xs
         +paddingX($xs)
 
-    &-s
-        +paddingX($s)
+    &-sm
+        +paddingX($sm)
 
     &-md
         +paddingX($md)
@@ -390,8 +454,8 @@ body
     &-xs
         +paddingY($xs)
 
-    &-s
-        +paddingY($s)
+    &-sm
+        +paddingY($sm)
 
     &-md
         +paddingY($md)
@@ -414,8 +478,8 @@ body
     &-xs
         +paddingTop($xs)
 
-    &-s
-        +paddingTop($s)
+    &-sm
+        +paddingTop($sm)
 
     &-md
         +paddingTop($md)
@@ -438,8 +502,8 @@ body
     &-xs
         +paddingLeft($xs)
 
-    &-s
-        +paddingLeft($s)
+    &-sm
+        +paddingLeft($sm)
 
     &-md
         +paddingLeft($md)
@@ -462,8 +526,8 @@ body
     &-xs
         +paddingRight($xs)
 
-    &-s
-        +paddingRight($s)
+    &-sm
+        +paddingRight($sm)
 
     &-md
         +paddingRight($md)
@@ -486,8 +550,8 @@ body
     &-xs
         +paddingBottom($xs)
 
-    &-s
-        +paddingBottom($s)
+    &-sm
+        +paddingBottom($sm)
 
     &-md
         +paddingBottom($md)
@@ -500,6 +564,9 @@ body
 
     &-xxl
         +paddingBottom($xxl)
+
+
+// Border
 
 =borderColor()
 
@@ -535,8 +602,6 @@ body
 
     &-green
         border-color: $colorGreen
-
-// Border
 
 .leto-border
     border: 1px solid $colorMedium
@@ -575,6 +640,36 @@ body
 
     &-text
         color: $colorLight
+
+
+// Roundness
+
+leto-roundness
+    border-radius: $md
+
+    &-xxs
+        border-radius: $xxs
+
+    &-xs
+        border-radius: $xs
+
+    &-sm
+        border-radius: $sm
+
+    &-md
+        border-radius: $md
+
+    &-lg
+        border-radius: $lg
+
+    &-xl
+        border-radius: $xl
+
+    &-xxl
+        border-radius: $xxl
+
+    &-full
+        border-radius: 100px
 
 
 // Text
@@ -696,10 +791,10 @@ body
 
         +fontWeightandStyle($fontSizeXS)
 
-    &-s
-        font-size: $fontSizeS
+    &-sm
+        font-size: $fontSizeSM
 
-        +fontWeightandStyle($fontSizeS)
+        +fontWeightandStyle($fontSizeSM)
 
     &-md
         font-size: $fontSizeMD
@@ -738,6 +833,12 @@ body
 
     &-italic
         font-style: italic
+
+
+// Link
+
+.leto-link
+    cursor: pointer
 
 
 // Bg
@@ -1051,8 +1152,8 @@ body
     &-xs
         max-width: $xs * 2
 
-    &-s
-        max-width: $s * 2
+    &-sm
+        max-width: $sm * 2
 
     &-md
         max-width: $md * 2
@@ -1128,8 +1229,8 @@ body
     &-xs
         +buggle($xs)
 
-    &-s
-        +buggle($s)
+    &-sm
+        +buggle($sm)
 
     &-md
         +buggle($md)
@@ -1159,10 +1260,13 @@ body
 
 =input($height)
     height: $height * 2
-    font-size: 18px
     border: 1px solid $colorMedium
     border-radius: 100px
     padding: 9px 20px
+
+    &:focus
+        background-color: $colorLightMedium
+        border-color: $colorLightMedium
 
 .leto-input
     +input($md)
@@ -1173,8 +1277,8 @@ body
     &-xs
         +input($xs)
 
-    &-s
-        +input($s)
+    &-sm
+        +input($sm)
 
     &-md
         +input($md)
@@ -1197,6 +1301,10 @@ body
     border-radius: 100px
     padding: 9px 20px
 
+    &:focus
+        background-color: rgba(0, 0, 0, 0)
+        border-color: $colorMedium
+
 .leto-search
     +search($md)
 
@@ -1206,8 +1314,8 @@ body
     &-xs
         +search($xs)
 
-    &-s
-        +search($s)
+    &-sm
+        +search($sm)
 
     &-md
         +search($md)
@@ -1241,8 +1349,8 @@ body
     &-xs
         max-width: $xs * 10
 
-    &-s
-        max-width: $s * 10
+    &-sm
+        max-width: $sm * 10
 
     &-md
         max-width: $md * 10
@@ -1272,7 +1380,7 @@ body
         display: inline-block
         overflow: hidden
 
-=cardMasonry()
+=cardAutoWidth()
     position: relative
     min-height: 50px
     border: 1px solid $colorMedium
@@ -1303,7 +1411,7 @@ body
         overflow: hidden
 
 .leto-card
-    +card($md)
+    +cardAutoWidth()
 
     &-xxs
       +card($xxs)  
@@ -1311,8 +1419,8 @@ body
     &-xs
       +card($xs)
 
-    &-s
-      +card($s)  
+    &-sm
+      +card($sm)  
 
     &-md
       +card($md) 
@@ -1324,10 +1432,7 @@ body
       +card($xl) 
 
     &-xxl
-      +card($xxl) 
-
-    &-masonry 
-        +cardMasonry()       
+      +card($xxl)    
 
     &-square 
 
@@ -1337,8 +1442,8 @@ body
         &-xs
             +cardSquare($xs)
 
-        &-s
-            +cardSquare($s)  
+        &-sm
+            +cardSquare($sm)  
 
         &-md
             +cardSquare($md) 
@@ -1423,6 +1528,12 @@ body
     padding: 8px 13px
     display: inline-block
 
+    &-ns
+        text-decoration: none
+        text-align: center
+        padding: 8px 13px
+        display: inline-block
+
     &-c
         text-decoration: none
         text-align: center
@@ -1436,6 +1547,11 @@ body
     border-radius: 100px
     white-space: nowrap
     display: inline-block
+
+    &-ns
+        padding: 5px 10px
+        white-space: nowrap
+        display: inline-block
 
     &-c
         white-space: nowrap
@@ -1472,6 +1588,18 @@ body
             border-right: 1px solid $colorMedium
             border-top-right-radius: 5px
             border-bottom-right-radius: 5px
+
+    &-ns
+
+        tr:not(.leto-table-header)
+
+            th
+                padding: 15px
+
+            td
+                padding: 15px
+
+
 
 .leto-table-header
 
@@ -1515,26 +1643,20 @@ button
     &:focus
         outline: none
 
-textarea:focus
-    border-color: rgba(82, 168, 236, .8)
-    outline: 0
-    outline: thin dotted \9
-    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(82, 168, 236, .6)
+textarea
+    border: 1px solid rgba(0 , 0, 0, 0)
+    
+    &:focus
+        outline: 0
 
 input
-    border: none
+    border: 1px solid rgba(0 , 0, 0, 0)
 
     &[type="text"]:focus, &[type="password"]:focus, &[type="datetime"]:focus, &[type="datetime-local"]:focus, &[type="date"]:focus, &[type="month"]:focus, &[type="time"]:focus, &[type="week"]:focus, &[type="number"]:focus, &[type="email"]:focus, &[type="url"]:focus, &[type="search"]:focus, &[type="tel"]:focus, &[type="color"]:focus
-        border-color: rgba(82, 168, 236, .8)
         outline: 0
-        outline: thin dotted \9
-        box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(82, 168, 236, .6)
 
 .uneditable-input:focus
-    border-color: rgba(82, 168, 236, .8)
     outline: 0
-    outline: thin dotted \9
-    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(82, 168, 236, .6)
 
 .scrollable-table
     display: block
