@@ -1145,27 +1145,36 @@ leto-roundness
     
 .leto-bubble-label
     max-width: $md
+    margin-left: 10px
+    margin-right: 10px
 
     &-xxs
         max-width: $xxs * 2
+        margin: 10px
 
     &-xs
         max-width: $xs * 2
+        margin: 10px
 
     &-sm
         max-width: $sm * 2
+        margin: 10px
 
     &-md
         max-width: $md * 2
+        margin: 10px
 
     &-lg
         max-width: $lg * 2
+        margin: 10px
 
     &-xl
         max-width: $xl * 2
+        margin: 10px
 
     &-xxl
         max-width: $xxl * 2
+        margin: 10px
 
 =buggle($value)
     height: $value * 2
@@ -1173,6 +1182,7 @@ leto-roundness
     font-size: $value * .66
     border: 1px solid $colorMedium
     border-radius: $value * 2
+    margin: 10px
     text-align: center
     flex-direction: column
     align-items: center
@@ -1184,23 +1194,6 @@ leto-roundness
         max-height: auto
         max-width: $value * .66    
 
-=buggle($value)
-    height: $value * 2
-    width: $value * 2
-    font-size: $value * .66
-    border: 1px solid $colorMedium
-    border-radius: $value * 2
-    text-align: center
-    flex-direction: column
-    align-items: center
-    justify-content: center
-    flex-shrink: 0
-    display: inline-flex
-
-    img
-        max-height: auto
-        max-width: $value * .66 
-
     &-ns 
         +buggleNS($value)   
 
@@ -1209,6 +1202,7 @@ leto-roundness
     width: $value * 2
     font-size: $value * .66
     border-radius: $value * 2
+    margin: 10px
     text-align: center
     flex-direction: column
     align-items: center
@@ -1263,6 +1257,7 @@ leto-roundness
     border: 1px solid $colorMedium
     border-radius: 100px
     padding: 9px 20px
+    margin: 10px
 
     &:focus
         background-color: $colorLightMedium
@@ -1299,6 +1294,7 @@ leto-roundness
     background-color: $colorLightMedium
     height: $height * 2
     border-radius: 100px
+    margin: 10px
     padding: 9px 20px
 
     &:focus
@@ -1370,6 +1366,7 @@ leto-roundness
     min-height: 50px
     border: 1px solid $colorMedium
     border-radius: 10px
+    margin: 10px
     display: inline-block
     overflow: hidden
 
@@ -1385,6 +1382,7 @@ leto-roundness
     min-height: 50px
     border: 1px solid $colorMedium
     border-radius: 10px
+    margin: 10px
     display: inline-block
     overflow: hidden
 
@@ -1400,6 +1398,7 @@ leto-roundness
     height: $value*10
     border: 1px solid $colorMedium
     border-radius: 10px
+    margin: 10px
     display: inline-block
     overflow: hidden
 
@@ -1488,6 +1487,7 @@ leto-roundness
 // Pile
 
 .leto-pile-item
+    margin: 10px
     padding: 15px
     border: 1px solid $colorMedium
     border-radius: 10px
@@ -1525,6 +1525,7 @@ leto-roundness
     text-align: center
     border: 1px solid $colorMedium
     border-radius: 25px
+    margin: 10px
     padding: 8px 13px
     display: inline-block
 

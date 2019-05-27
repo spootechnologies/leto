@@ -2310,34 +2310,43 @@ leto-roundness-full {
 
 .leto-bubble-label {
   max-width: 16px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .leto-bubble-label-xxs {
   max-width: 8px;
+  margin: 10px;
 }
 
 .leto-bubble-label-xs {
   max-width: 16px;
+  margin: 10px;
 }
 
 .leto-bubble-label-sm {
   max-width: 24px;
+  margin: 10px;
 }
 
 .leto-bubble-label-md {
   max-width: 32px;
+  margin: 10px;
 }
 
 .leto-bubble-label-lg {
   max-width: 48px;
+  margin: 10px;
 }
 
 .leto-bubble-label-xl {
   max-width: 64px;
+  margin: 10px;
 }
 
 .leto-bubble-label-xxl {
   max-width: 96px;
+  margin: 10px;
 }
 
 .leto-bubble {
@@ -2346,6 +2355,7 @@ leto-roundness-full {
   font-size: 10.56px;
   border: 1px solid #dadada;
   border-radius: 32px;
+  margin: 10px;
   text-align: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -2374,6 +2384,7 @@ leto-roundness-full {
   width: 32px;
   font-size: 10.56px;
   border-radius: 32px;
+  margin: 10px;
   text-align: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -2403,6 +2414,7 @@ leto-roundness-full {
   font-size: 2.64px;
   border: 1px solid #dadada;
   border-radius: 8px;
+  margin: 10px;
   text-align: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -2431,6 +2443,7 @@ leto-roundness-full {
   width: 8px;
   font-size: 2.64px;
   border-radius: 8px;
+  margin: 10px;
   text-align: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -2460,6 +2473,7 @@ leto-roundness-full {
   font-size: 5.28px;
   border: 1px solid #dadada;
   border-radius: 16px;
+  margin: 10px;
   text-align: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -2488,6 +2502,7 @@ leto-roundness-full {
   width: 16px;
   font-size: 5.28px;
   border-radius: 16px;
+  margin: 10px;
   text-align: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -2517,6 +2532,7 @@ leto-roundness-full {
   font-size: 7.92px;
   border: 1px solid #dadada;
   border-radius: 24px;
+  margin: 10px;
   text-align: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -2545,6 +2561,7 @@ leto-roundness-full {
   width: 24px;
   font-size: 7.92px;
   border-radius: 24px;
+  margin: 10px;
   text-align: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -2574,6 +2591,7 @@ leto-roundness-full {
   font-size: 10.56px;
   border: 1px solid #dadada;
   border-radius: 32px;
+  margin: 10px;
   text-align: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -2602,6 +2620,7 @@ leto-roundness-full {
   width: 32px;
   font-size: 10.56px;
   border-radius: 32px;
+  margin: 10px;
   text-align: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -2631,6 +2650,7 @@ leto-roundness-full {
   font-size: 15.84px;
   border: 1px solid #dadada;
   border-radius: 48px;
+  margin: 10px;
   text-align: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -2659,6 +2679,7 @@ leto-roundness-full {
   width: 48px;
   font-size: 15.84px;
   border-radius: 48px;
+  margin: 10px;
   text-align: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -2688,6 +2709,7 @@ leto-roundness-full {
   font-size: 21.12px;
   border: 1px solid #dadada;
   border-radius: 64px;
+  margin: 10px;
   text-align: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -2716,6 +2738,7 @@ leto-roundness-full {
   width: 64px;
   font-size: 21.12px;
   border-radius: 64px;
+  margin: 10px;
   text-align: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -2745,6 +2768,7 @@ leto-roundness-full {
   font-size: 31.68px;
   border: 1px solid #dadada;
   border-radius: 96px;
+  margin: 10px;
   text-align: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -2773,6 +2797,7 @@ leto-roundness-full {
   width: 96px;
   font-size: 31.68px;
   border-radius: 96px;
+  margin: 10px;
   text-align: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -2824,6 +2849,7 @@ leto-roundness-full {
   border: 1px solid #dadada;
   border-radius: 100px;
   padding: 9px 20px;
+  margin: 10px;
 }
 
 .leto-input:focus {
@@ -2836,6 +2862,7 @@ leto-roundness-full {
   border: 1px solid #dadada;
   border-radius: 100px;
   padding: 9px 20px;
+  margin: 10px;
 }
 
 .leto-input-xxs:focus {
@@ -2848,6 +2875,7 @@ leto-roundness-full {
   border: 1px solid #dadada;
   border-radius: 100px;
   padding: 9px 20px;
+  margin: 10px;
 }
 
 .leto-input-xs:focus {
@@ -2860,6 +2888,7 @@ leto-roundness-full {
   border: 1px solid #dadada;
   border-radius: 100px;
   padding: 9px 20px;
+  margin: 10px;
 }
 
 .leto-input-sm:focus {
@@ -2872,6 +2901,7 @@ leto-roundness-full {
   border: 1px solid #dadada;
   border-radius: 100px;
   padding: 9px 20px;
+  margin: 10px;
 }
 
 .leto-input-md:focus {
@@ -2884,6 +2914,7 @@ leto-roundness-full {
   border: 1px solid #dadada;
   border-radius: 100px;
   padding: 9px 20px;
+  margin: 10px;
 }
 
 .leto-input-lg:focus {
@@ -2896,6 +2927,7 @@ leto-roundness-full {
   border: 1px solid #dadada;
   border-radius: 100px;
   padding: 9px 20px;
+  margin: 10px;
 }
 
 .leto-input-xl:focus {
@@ -2908,6 +2940,7 @@ leto-roundness-full {
   border: 1px solid #dadada;
   border-radius: 100px;
   padding: 9px 20px;
+  margin: 10px;
 }
 
 .leto-input-xxl:focus {
@@ -2919,6 +2952,7 @@ leto-roundness-full {
   background-color: #f2f2f2;
   height: 32px;
   border-radius: 100px;
+  margin: 10px;
   padding: 9px 20px;
 }
 
@@ -2931,6 +2965,7 @@ leto-roundness-full {
   background-color: #f2f2f2;
   height: 8px;
   border-radius: 100px;
+  margin: 10px;
   padding: 9px 20px;
 }
 
@@ -2943,6 +2978,7 @@ leto-roundness-full {
   background-color: #f2f2f2;
   height: 16px;
   border-radius: 100px;
+  margin: 10px;
   padding: 9px 20px;
 }
 
@@ -2955,6 +2991,7 @@ leto-roundness-full {
   background-color: #f2f2f2;
   height: 24px;
   border-radius: 100px;
+  margin: 10px;
   padding: 9px 20px;
 }
 
@@ -2967,6 +3004,7 @@ leto-roundness-full {
   background-color: #f2f2f2;
   height: 32px;
   border-radius: 100px;
+  margin: 10px;
   padding: 9px 20px;
 }
 
@@ -2979,6 +3017,7 @@ leto-roundness-full {
   background-color: #f2f2f2;
   height: 48px;
   border-radius: 100px;
+  margin: 10px;
   padding: 9px 20px;
 }
 
@@ -2991,6 +3030,7 @@ leto-roundness-full {
   background-color: #f2f2f2;
   height: 64px;
   border-radius: 100px;
+  margin: 10px;
   padding: 9px 20px;
 }
 
@@ -3003,6 +3043,7 @@ leto-roundness-full {
   background-color: #f2f2f2;
   height: 96px;
   border-radius: 100px;
+  margin: 10px;
   padding: 9px 20px;
 }
 
@@ -3062,6 +3103,7 @@ leto-roundness-full {
   min-height: 50px;
   border: 1px solid #dadada;
   border-radius: 10px;
+  margin: 10px;
   display: inline-block;
   overflow: hidden;
 }
@@ -3079,6 +3121,7 @@ leto-roundness-full {
   min-height: 50px;
   border: 1px solid #dadada;
   border-radius: 10px;
+  margin: 10px;
   display: inline-block;
   overflow: hidden;
 }
@@ -3097,6 +3140,7 @@ leto-roundness-full {
   min-height: 50px;
   border: 1px solid #dadada;
   border-radius: 10px;
+  margin: 10px;
   display: inline-block;
   overflow: hidden;
 }
@@ -3115,6 +3159,7 @@ leto-roundness-full {
   min-height: 50px;
   border: 1px solid #dadada;
   border-radius: 10px;
+  margin: 10px;
   display: inline-block;
   overflow: hidden;
 }
@@ -3133,6 +3178,7 @@ leto-roundness-full {
   min-height: 50px;
   border: 1px solid #dadada;
   border-radius: 10px;
+  margin: 10px;
   display: inline-block;
   overflow: hidden;
 }
@@ -3151,6 +3197,7 @@ leto-roundness-full {
   min-height: 50px;
   border: 1px solid #dadada;
   border-radius: 10px;
+  margin: 10px;
   display: inline-block;
   overflow: hidden;
 }
@@ -3169,6 +3216,7 @@ leto-roundness-full {
   min-height: 50px;
   border: 1px solid #dadada;
   border-radius: 10px;
+  margin: 10px;
   display: inline-block;
   overflow: hidden;
 }
@@ -3187,6 +3235,7 @@ leto-roundness-full {
   min-height: 50px;
   border: 1px solid #dadada;
   border-radius: 10px;
+  margin: 10px;
   display: inline-block;
   overflow: hidden;
 }
@@ -3205,6 +3254,7 @@ leto-roundness-full {
   height: 40px;
   border: 1px solid #dadada;
   border-radius: 10px;
+  margin: 10px;
   display: inline-block;
   overflow: hidden;
 }
@@ -3223,6 +3273,7 @@ leto-roundness-full {
   height: 80px;
   border: 1px solid #dadada;
   border-radius: 10px;
+  margin: 10px;
   display: inline-block;
   overflow: hidden;
 }
@@ -3241,6 +3292,7 @@ leto-roundness-full {
   height: 120px;
   border: 1px solid #dadada;
   border-radius: 10px;
+  margin: 10px;
   display: inline-block;
   overflow: hidden;
 }
@@ -3259,6 +3311,7 @@ leto-roundness-full {
   height: 160px;
   border: 1px solid #dadada;
   border-radius: 10px;
+  margin: 10px;
   display: inline-block;
   overflow: hidden;
 }
@@ -3277,6 +3330,7 @@ leto-roundness-full {
   height: 240px;
   border: 1px solid #dadada;
   border-radius: 10px;
+  margin: 10px;
   display: inline-block;
   overflow: hidden;
 }
@@ -3295,6 +3349,7 @@ leto-roundness-full {
   height: 320px;
   border: 1px solid #dadada;
   border-radius: 10px;
+  margin: 10px;
   display: inline-block;
   overflow: hidden;
 }
@@ -3313,6 +3368,7 @@ leto-roundness-full {
   height: 480px;
   border: 1px solid #dadada;
   border-radius: 10px;
+  margin: 10px;
   display: inline-block;
   overflow: hidden;
 }
@@ -3369,6 +3425,7 @@ leto-roundness-full {
 }
 
 .leto-pile-item {
+  margin: 10px;
   padding: 15px;
   border: 1px solid #dadada;
   border-radius: 10px;
@@ -3420,6 +3477,7 @@ leto-roundness-full {
   text-align: center;
   border: 1px solid #dadada;
   border-radius: 25px;
+  margin: 10px;
   padding: 8px 13px;
   display: inline-block;
 }
