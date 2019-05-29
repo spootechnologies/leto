@@ -4243,6 +4243,7 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  overflow: scroll;
 }
 
 .leto-form-right {
@@ -4258,6 +4259,7 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  overflow: scroll;
 }
 
 @media (min-width: 1366px) {
