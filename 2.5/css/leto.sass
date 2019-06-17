@@ -1,0 +1,1842 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,300,400,500,700,900&display=swap')
+
+@import 'leto-variables.sass'
+    
+// GENERAL
+
+*, ::after, ::before 
+    box-sizing: border-box
+
+body
+    background-color: $colorLight
+    font-family: 'Montserrat', sans-serif
+    font-size: $fontSizeMD
+    margin: 0
+    padding: 0
+
+button
+    background: none
+    border: none
+
+    &:focus
+        outline: none
+
+textarea
+    border: 1px solid rgba(0, 0, 0, 0)
+    
+    &:focus
+        outline: 0
+
+input
+    border: 1px solid rgba(0, 0, 0, 0)
+
+    &[type="text"]:focus, &[type="password"]:focus, &[type="datetime"]:focus, &[type="datetime-local"]:focus, &[type="date"]:focus, &[type="month"]:focus, &[type="time"]:focus, &[type="week"]:focus, &[type="number"]:focus, &[type="email"]:focus, &[type="url"]:focus, &[type="search"]:focus, &[type="tel"]:focus, &[type="color"]:focus
+        outline: 0
+
+h1
+    margin-top: $md
+    margin-bottom: $md
+
+h2, h3
+    margin-top: $sm
+    margin-bottom: $sm
+
+h4, h5
+    margin-top: $xs
+    margin-bottom: $xs
+
+p, b,
+    margin-top: $xxs
+    margin-bottom: $xxs
+
+    
+// Leto with spoo theme
+
+
+// Bubble
+
+=bubbleLabel($size) // Old
+    max-width: $size * 2
+    text-decoration: none
+    text-align: center
+    overflow: hidden
+    text-overflow: ellipsis 
+    margin-left: $xs
+    margin-right: $xs
+    
+.leto-bubble-label // Old
+    +bubbleLabel($md)
+
+    &-xxs
+        +bubbleLabel($xxs)
+
+    &-xs
+        +bubbleLabel($xs)
+
+    &-sm
+        +bubbleLabel($sm)
+
+    &-md
+        +bubbleLabel($md)
+
+    &-lg
+        +bubbleLabel($lg)
+
+    &-xl
+        +bubbleLabel($xl)
+
+    &-xxl
+        +bubbleLabel($xxl)  
+
+=bubble($value)
+    height: $value * 2
+    width: $value * 2
+    font-size: $value * .66
+    border: 1px solid $colorMedium
+    border-radius: $value
+    margin-top: $xs
+    margin-left: $xs
+    margin-right: $xs
+    margin-bottom: $xs
+    text-align: center
+    flex-direction: column
+    align-items: center
+    justify-content: center
+    flex-shrink: 0
+    display: inline-flex
+
+    // ? ...
+
+    img
+        max-height: auto
+        max-width: $value * .66    
+
+.leto-bubble
+    +bubble($md)
+
+    &-xxs
+        +bubble($xxs)
+
+    &-xs
+        +bubble($xs)
+
+    &-sm
+        +bubble($sm)
+
+    &-md
+        +bubble($md)
+
+    &-lg
+        +bubble($lg)
+
+    &-xl
+        +bubble($xl)
+
+    &-xxl
+        +bubble($xxl)
+
+    &.active // Old
+        border: 1px solid rgba(0, 0, 0, 0)
+        box-shadow: 0 0 0 2px $colorMedium
+
+
+// Card
+
+.leto-card-label // Old
+    max-width: 100%
+
+    &-xxs
+        max-width: $xxs * 10
+
+    &-xs
+        max-width: $xs * 10
+
+    &-sm
+        max-width: $sm * 10
+
+    &-md
+        max-width: $md * 10
+
+    &-lg
+        max-width: $lg * 10
+
+    &-xl
+        max-width: $xl * 10
+
+    &-xxl
+        max-width: $xxl * 10
+
+=card($value)
+    position: relative
+    width: $value*10
+    min-height: 50px
+    border: 1px solid $colorMedium
+    border-radius: 12px
+    margin-top: $xs
+    margin-left: $xs
+    margin-right: $xs
+    margin-bottom: $xs
+    display: inline-block
+    overflow: hidden
+
+=cardAutoWidth()
+    position: relative
+    min-height: 50px
+    border: 1px solid $colorMedium
+    border-radius: 12px
+    margin-top: $xs
+    margin-left: $xs
+    margin-right: $xs
+    margin-bottom: $xs
+    display: inline-block
+    overflow: hidden
+
+=cardSquare($value)
+    position: relative
+    width: $value*10
+    height: $value*10
+    border: 1px solid $colorMedium
+    border-radius: 12px
+    margin-top: $xs
+    margin-left: $xs
+    margin-right: $xs
+    margin-bottom: $xs
+    display: inline-block
+    overflow: hidden 
+
+.leto-card
+    +cardAutoWidth()
+
+    &-xxs
+        +card($xxs)  
+
+    &-xs
+        +card($xs)
+
+    &-sm
+        +card($sm)  
+
+    &-md
+        +card($md) 
+
+    &-lg
+        +card($lg)
+
+    &-xl
+        +card($xl) 
+
+    &-xxl
+        +card($xxl)    
+
+    &-square 
+
+        &-xxs
+            +cardSquare($xxs)  
+
+        &-xs
+            +cardSquare($xs)
+
+        &-sm
+            +cardSquare($sm)  
+
+        &-md
+            +cardSquare($md) 
+
+        &-lg
+            +cardSquare($lg)
+
+        &-xl
+            +cardSquare($xl) 
+
+        &-xxl
+            +cardSquare($xxl)         
+
+
+// Pile
+
+.leto-pile-item
+    margin-top: $xs
+    margin-left: $xs
+    margin-right: $xs
+    margin-bottom: $xs
+    padding: $xs
+    border: 1px solid $colorMedium
+    border-radius: 12px
+
+
+// Button
+
+.leto-button
+    text-decoration: none
+    text-align: center
+    border: 1px solid $colorMedium
+    border-radius: 100px
+    margin-top: $xs
+    margin-left: $xs
+    margin-right: $xs
+    margin-bottom: $xs
+    padding: $xs $sm
+    cursor: pointer
+    display: inline-block    
+
+
+// Badge
+
+.leto-badge
+    background: $colorLightMedium
+    font-size: $fontSizeXS
+    border-radius: 100px
+    padding: $xxs $xs
+    margin-top: $xxs
+    margin-left: $xxs
+    margin-right: $xxs
+    margin-bottom: $xxs
+    white-space: nowrap
+    display: inline-block
+
+
+// Input
+
+=input($height)
+    background-color: rgba(255, 255, 255, 0)
+    height: $height * 2
+    font-size: $fontSizeMD
+    border: 1px solid $colorMedium
+    border-radius: 12px
+    margin-top: $xs
+    margin-left: $xs
+    margin-right: $xs
+    margin-bottom: $xs
+    padding: $xs $sm
+
+    &:focus
+        background-color: $colorLightMedium
+        border-color: $colorLightMedium
+
+.leto-input
+    +input($md)
+
+    &-xxs
+        +input($xxs)
+
+    &-xs
+        +input($xs)
+
+    &-sm
+        +input($sm)
+
+    &-md
+        +input($md)
+
+    &-lg
+        +input($lg)
+
+    &-xl
+        +input($xl)
+
+    &-xxl
+        +input($xxl)
+
+
+// Search
+
+=search($height)
+    background-color: $colorLightMedium
+    height: $height * 2
+    font-size: $fontSizeMD
+    border-radius: 12px
+    margin-top: $xs
+    margin-left: $xs
+    margin-right: $xs
+    margin-bottom: $xs
+    padding: $xs $sm
+
+    &:focus
+        background-color: rgba(0, 0, 0, 0)
+        border-color: $colorMedium
+
+.leto-search
+    +search($md)
+
+    &-xxs
+        +search($xxs)
+
+    &-xs
+        +search($xs)
+
+    &-sm
+        +search($sm)
+
+    &-md
+        +search($md)
+
+    &-lg
+        +search($lg)
+
+    &-xl
+        +search($xl)
+
+    &-xxl
+        +search($xxl)
+
+
+// Textarea
+
+=textarea()
+    background-color: rgba(255, 255, 255, 0)
+    font-size: $fontSizeMD
+    border: 1px solid $colorMedium
+    border-radius: 12px
+    margin-top: $xs
+    margin-left: $xs
+    margin-right: $xs
+    margin-bottom: $xs
+    padding: $xs $sm
+
+    &:focus
+        background-color: $colorLightMedium
+        border-color: $colorLightMedium
+
+.leto-textarea
+    +textarea()
+
+
+// Table
+
+.leto-table
+    border-collapse: separate
+    border-spacing: 0 15px
+    width: 100%
+
+    tr:not(.leto-table-header) // ...
+
+        th
+            border-top: 1px solid $colorMedium
+            border-bottom: 1px solid $colorMedium
+            padding: $sm
+
+        td
+            border-top: 1px solid $colorMedium
+            border-bottom: 1px solid $colorMedium
+            padding: $sm
+
+    tr:not(.leto-table-header) // ...
+
+        td:first-child, th:first-child
+            border-left: 1px solid $colorMedium
+            border-top-left-radius: $xs
+            border-bottom-left-radius: $xs
+
+        td:last-child, th:last-child
+            border-right: 1px solid $colorMedium
+            border-top-right-radius: $xs
+            border-bottom-right-radius: $xs
+
+
+// Leto without theme
+
+// Bubble
+
+.leto-bubble-wrapper // Old
+    flex-direction: column
+    display: inline-flex
+
+// Card
+
+.leto-card-wrapper // Old
+    text-decoration: none
+    text-align: center
+    overflow: hidden
+    text-overflow: ellipsis
+    flex-direction: column
+    display: flex       
+
+.leto-card-image // Old
+    max-height: auto
+    width: 100%
+
+.leto-card-header // Old
+    padding: $xs
+    align-items: center
+    flex-direction: row
+    display: flex
+        
+.leto-card-link // Old
+    color: $colorDark
+    text-decoration: none
+
+.leto-card-content // Old
+    padding: $xs
+
+
+// Pile
+
+.leto-pile
+
+    > *
+        display: block
+
+    &-empty
+        min-width: 300px
+        width: 100%
+        padding: $xs
+        display: block
+
+.leto-pile-header // Old
+    align-items: center
+    flex-direction: row
+    display: flex
+
+    &:after
+        clear: both
+        display: block
+        content: ''
+
+.leto-table-header // Old
+
+    td, th
+        padding-left: $sm
+
+
+// Form
+
+.leto-form
+
+    &-left
+        position: fixed
+        min-width: 300px
+        height: 100%
+        top: 0
+        left: 0
+        flex-direction: column
+        display: flex
+        overflow: scroll
+
+    &-right
+        position: fixed
+        min-width: 300px
+        height: 100%
+        top: 0
+        right: 0
+        flex-direction: column
+        display: flex
+        overflow: scroll
+
+    @media (min-width: $pc)
+
+        &-left, &-right
+            width: 50vw
+
+.uneditable-input:focus
+    outline: 0
+
+.scrollable-table
+    display: block
+    overflow-x: auto
+    white-space: nowrap
+
+
+// Frame
+
+.leto-frame
+    width: 100%
+    padding: 8px
+
+    &-full 
+        width: 100%
+        padding: 8px
+        
+        .leto-container
+            position: relative
+            width: 100%
+
+    
+// Darkmode
+
+.leto-darkmode // Old
+    background-color: $colorDark
+    color: $colorLight 
+
+    &-bg
+        background-color: $colorDark
+
+    &-text
+        color: $colorLight
+
+    &-border
+        border-color: $colorLight
+
+
+
+// Container
+
+.leto-container
+    position: relative
+    width: 75vw
+    margin-left: auto
+    margin-right: auto
+
+
+// Edge
+
+.leto-edge-wrapper // Old
+
+    &-top
+        width: 100%
+        height: auto
+        top: 0
+        left: 0
+        flex-direction: column
+        display: flex
+
+        &-fixed
+            position: fixed
+            width: 100%
+            height: 100%
+            top: 0
+            left: 0
+            flex-direction: column
+            display: flex
+
+    &-left
+        width: auto
+        height: 100%
+        top: 0
+        left: 0
+        flex-direction: row
+        display: fFlex
+
+        &-fixed
+            position: fixed
+            width: 100%
+            height: 100%
+            top: 0
+            left: 0
+            flex-direction: row
+            display: flex
+
+    &-right
+        width: auto
+        height: 100%
+        top: 0
+        right: 0
+        flex-direction: row
+        display: flex
+
+        &-fixed
+            position: fixed
+            width: 100%
+            height: 100%
+            top: 0
+            right: 0
+            flex-direction: row
+            display: flex
+
+    &-bottom
+        width: 100%
+        height: auto
+        bottom: 0
+        left: 0
+        flex-direction: column
+        display: flex
+
+        &-fixed
+            position: fixed
+            width: 100%
+            height: 100%
+            bottom: 0
+            left: 0
+            flex-direction: column
+            display: flex
+
+@media (min-width: $pc) 
+
+    .leto-edge-wrapper
+
+        &-top, &-bottom
+            height: auto
+
+            &-fixed
+                height: auto
+
+        &-left, &-right
+            width: auto
+
+            &-fixed
+                width: auto
+    
+.leto-edge
+
+    &-top
+        width: 100%
+        flex-direction: row
+        display: flex
+
+    &-left
+        top: 0
+        height: 100%
+        flex-direction: column
+        display: flex
+
+    &-right
+        height: 100%
+        flex-direction: column
+        display: flex
+
+    &-bottom
+        width: 100%
+        flex-direction: row
+        display: flex
+
+
+.leto-subedge
+
+    &-top
+        height: 100%
+        height: 100%
+        justify-content: flex-start
+        flex-direction: row
+        display: flex
+
+        &-c
+            height: 100%
+            flex-direction: row
+            display: flex
+    
+    &-left
+        height: 100%
+        width: 100%
+        justify-content: flex-start
+        flex-direction: column
+        display: flex
+
+        &-c
+            height: 100%
+            flex-direction: column
+            display: flex
+
+    &-right
+        height: 100%
+        width: 100%
+        justify-content: flex-end
+        flex-direction: column
+        display: flex
+
+        &-c
+            height: 100%
+            flex-direction: column
+            display: flex
+
+    &-bottom
+        height: 100%
+        height: 100%
+        align-items: flex-end
+        flex-direction: row
+        display: flex
+
+        &-c
+            height: 100%
+            flex-direction: row
+            display: flex
+
+@media (min-width: $pc)   
+
+    .leto-subedge
+
+        &-top, &-bottom
+            min-height: 300px
+            height: 25vh
+            
+        &-left, &-right
+            min-width: 300px
+            width: 25vw
+
+
+// Backdrop
+
+.leto-backdrop
+    position: fixed
+    left: 0
+    top: 0
+    display: block
+    height: 100%
+    width: 100%
+    background: rgba(0, 0, 0, .25)
+
+
+// Layout
+
+=masonry($value)
+    column-count: 1
+    column-gap: 0
+
+    @media (min-width: $tablet)
+        column-count: 2
+
+    @media (min-width: $pc)
+        column-count: $value
+
+    > * 
+        break-inside: avoid;
+        counter-increment: item-counter;
+
+=layoutPositioningY($direction, $wrap, $x)
+
+    &-y
+
+        &-top
+            flex-direction: $direction
+            flex-wrap: $wrap
+            justify-content: $x
+            align-items: flex-start
+            display: flex
+
+        &-center
+            flex-direction: $direction
+            flex-wrap: $wrap
+            justify-content: $x
+            align-items: center
+            display: flex
+
+        &-bottom
+            flex-direction: $direction
+            flex-wrap: $wrap
+            justify-content: $x
+            align-items: flex-end
+            display: flex
+
+=layoutPositioning($direction, $wrap)
+
+    &-x
+
+        &-left
+            flex-direction: $direction
+            flex-wrap: $wrap
+            justify-content: flex-start
+            display: flex
+
+            +layoutPositioningY($direction, $wrap, flex-start)
+
+        &-center
+            flex-direction: $direction
+            flex-wrap: $wrap
+            justify-content: center
+            display: flex
+
+            +layoutPositioningY($direction, $wrap, center)
+
+        &-right
+            flex-direction: $direction
+            flex-wrap: $wrap
+            justify-content: flex-end
+            display: flex
+
+            +layoutPositioningY($direction, $wrap, flex-end)
+
+        &-between
+            flex-direction: $direction
+            flex-wrap: $wrap
+            justify-content: space-between
+            display: flex
+            
+            +layoutPositioningY($direction, $wrap, space-between)
+
+        &-around
+            flex-direction: $direction
+            flex-wrap: $wrap
+            justify-content: space-around
+            display: flex
+
+            +layoutPositioningY($direction, $wrap, space-around)
+
+        &-evenly
+            flex-direction: $direction
+            flex-wrap: $wrap
+            justify-content: space-evenly
+            display: flex
+
+            +layoutPositioningY($direction, $wrap, space-evenly)
+
+    +layoutPositioningY($direction, $wrap, flex-start)
+
+.leto-layout
+    flex-direction: row
+    flex-wrap: wrap
+    display: flex
+
+    +layoutPositioning(row, wrap)
+
+    &-row
+        flex-direction: row
+        display: flex
+
+        &-wrap
+            flex-direction: row
+            flex-wrap: wrap
+            display: flex
+
+            +layoutPositioning(row, wrap)
+
+        &-wrap-reverse
+            flex-direction: row
+            flex-wrap: wrap-reverse
+            display: flex
+
+            +layoutPositioning(row, wrap-reverse)
+
+        +layoutPositioning(row, nowrap)
+
+    &-row-reverse
+        flex-direction: row-reverse
+        display: flex
+
+        &-wrap
+            flex-direction: row-reverse
+            flex-wrap: wrap
+            display: flex
+
+            +layoutPositioning(row-reverse, wrap)
+
+        &-wrap-reverse
+            flex-direction: row-reverse
+            flex-wrap: wrap-reverse
+            display: flex
+
+            +layoutPositioning(row-reverse, wrap-reverse)
+
+        +layoutPositioning(row-reverse, nowrap)
+
+    &-column
+        flex-direction: column
+        display: flex
+
+        &-wrap
+            flex-direction: column
+            flex-wrap: wrap
+            display: flex
+
+            +layoutPositioning(column, wrap)
+
+        &-wrap-reverse
+            flex-direction: column
+            flex-wrap: wrap-reverse
+            display: flex
+
+            +layoutPositioning(column, wrap-reverse)
+
+        +layoutPositioning(column, nowrap)     
+
+    &-column-reverse
+        flex-direction: column-reverse
+        display: flex  
+
+        &-wrap
+            flex-direction: column-reverse
+            flex-wrap: wrap
+            display: flex
+
+            +layoutPositioning(column-reverse, wrap)
+
+        &-wrap-reverse
+            flex-direction: column-reverse
+            flex-wrap: wrap-reverse
+            display: flex
+
+            +layoutPositioning(column-reverse, wrap-reverse)
+
+        +layoutPositioning(column-reverse, nowrap) 
+
+    &-masonry
+        +masonry(4)
+
+        &-3
+            +masonry(3)
+
+        &-4
+            +masonry(4) 
+
+        &-5
+            +masonry(5) 
+
+=letoWidth($width)
+    width: $width
+    flex-shrink: 0
+
+    @media (min-width: $tablet)
+
+        &-tablet
+            width: $width
+            flex-shrink: 0  
+
+    @media (min-width: $pc)
+
+        &-pc
+            width: $width
+            flex-shrink: 0  
+
+    @media (min-aspect-ratio: $ultrawide) and (min-width: $pcLarge)
+
+        &-ultrawide
+            width: $width
+            flex-shrink: 0   
+
+
+// Width
+
+.leto-full 
+    +letoWidth(100%)   
+
+.leto-fourfifths
+    +letoWidth(80%)
+
+.leto-threequaters
+    +letoWidth(75%)  
+
+.leto-twothirds
+    +letoWidth(calc((100% / 3) * 2))       
+
+.leto-half
+    +letoWidth(50%)
+    
+.leto-third
+    +letoWidth(calc(100% / 3))
+
+.leto-quater
+    +letoWidth(25%)   
+
+.leto-fifth
+    +letoWidth(20%)   
+
+.leto-sixth
+    +letoWidth(calc(100% / 6))   
+
+.leto-eighth
+    +letoWidth(12.5%)   
+
+
+// Margin
+
+=margin($value)
+    margin: $value
+
+=marginBalance($value)
+    margin: -$value
+
+=marginX($value)
+    margin-left: $value
+    margin-right: $value
+
+=marginY($value)
+    margin-top: $value
+    margin-bottom: $value
+
+=marginTop($value)
+    margin-top: $value
+
+=marginLeft($value)
+    margin-left: $value
+
+=marginRight($value)
+    margin-right: $value
+
+=marginBottom($value)
+    margin-bottom: $value
+
+.leto-m
+    +margin($md)
+
+    &-xxs
+        +margin($xxs)
+
+    &-xs
+        +margin($xs)
+
+    &-sm
+        +margin($sm)
+
+    &-md
+        +margin($md)
+
+    &-lg
+        +margin($lg)
+
+    &-xl
+        +margin($xl)
+
+    &-xxl
+        +margin($xxl)
+
+    &-none
+        +margin(0)
+
+    &-balance
+        +marginBalance($md)
+
+        &-xxs
+            +marginBalance($xxs)
+
+        &-xs
+            +marginBalance($xs)
+
+        &-sm
+            +marginBalance($sm)
+
+        &-md
+            +marginBalance($md)
+
+        &-lg
+            +marginBalance($lg)
+
+        &-xl
+            +marginBalance($xl)
+
+        &-xxl
+            +marginBalance($xxl)
+
+.leto-mx
+    +marginX($md)
+
+    &-xxs
+        +marginX($xxs)
+
+    &-xs
+        +marginX($xs)
+
+    &-sm
+        +marginX($sm)
+
+    &-md
+        +marginX($md)
+
+    &-lg
+        +marginX($lg)
+
+    &-xl
+        +marginX($xl)
+
+    &-xxl
+        +marginX($xxl)
+
+    &-none
+        +marginX(0)
+  
+.leto-my
+    +marginY($md)
+
+    &-xxs
+        +marginY($xxs)
+
+    &-xs
+        +marginY($xs)
+
+    &-sm
+        +marginY($sm)
+
+    &-md
+        +marginY($md)
+
+    &-lg
+        +marginY($lg)
+
+    &-xl
+        +marginY($xl)
+
+    &-xxl
+        +marginY($xxl)
+
+    &-none
+        +marginY(0)
+
+.leto-mt
+    +marginTop($md)
+
+    &-xxs
+        +marginTop($xxs)
+
+    &-xs
+        +marginTop($xs)
+
+    &-sm
+        +marginTop($sm)
+
+    &-md
+        +marginTop($md)
+
+    &-lg
+        +marginTop($lg)
+
+    &-xl
+        +marginTop($xl)
+
+    &-xxl
+        +marginTop($xxl)
+
+    &-none
+        +marginTop(0)
+
+.leto-ml  
+    +marginLeft($md)
+
+    &-xxs
+        +marginLeft($xxs)
+
+    &-xs
+        +marginLeft($xs)
+
+    &-sm
+        +marginLeft($sm)
+
+    &-md
+        +marginLeft($md)
+
+    &-lg
+        +marginLeft($lg)
+
+    &-xl
+        +marginLeft($xl)
+
+    &-xxl
+        +marginLeft($xxl)
+
+    &-none
+        +marginLeft(0)
+
+.leto-mr
+    +marginRight($md)
+
+    &-xxs
+        +marginRight($xxs)
+
+    &-xs
+        +marginRight($xs)
+
+    &-sm
+        +marginRight($sm)
+
+    &-md
+        +marginRight($md)
+
+    &-lg
+        +marginRight($lg)
+
+    &-xl
+        +marginRight($xl)
+
+    &-xxl
+        +marginRight($xxl)
+
+    &-none
+        +marginRight(0)
+
+.leto-mb
+    +marginBottom($md)
+
+    &-xxs
+        +marginBottom($xxs)
+
+    &-xs
+        +marginBottom($xs)
+
+    &-sm
+        +marginBottom($sm)
+
+    &-md
+        +marginBottom($md)
+
+    &-lg
+        +marginBottom($lg)
+
+    &-xl
+        +marginBottom($xl)
+
+    &-xxl
+        +marginBottom($xxl)
+
+    &-none
+        +marginBottom(0)
+
+
+// Padding
+
+=padding($value)
+    padding: $value
+
+=paddingX($value)
+    padding-left: $value
+    padding-right: $value
+
+=paddingY($value)
+    padding-top: $value
+    padding-bottom: $value
+
+=paddingTop($value)
+    padding-top: $value
+
+=paddingLeft($value)
+    padding-left: $value
+
+=paddingRight($value)
+    padding-right: $value
+
+=paddingBottom($value)
+    padding-bottom: $value
+
+.leto-p
+    +padding($md)
+
+    &-xxs
+        +padding($xxs)
+
+    &-xs
+        +padding($xs)
+
+    &-sm
+        +padding($sm)
+
+    &-md
+        +padding($md)
+
+    &-lg
+        +padding($lg)
+
+    &-xl
+        +padding($xl)
+
+    &-xxl
+        +padding($xxl)
+
+    &-none
+        +padding(0)
+
+.leto-px
+    +paddingX($md)
+
+    &-xxs
+        +paddingX($xxs)
+
+    &-xs
+        +paddingX($xs)
+
+    &-sm
+        +paddingX($sm)
+
+    &-md
+        +paddingX($md)
+
+    &-lg
+        +paddingX($lg)
+
+    &-xl
+        +paddingX($xl)
+
+    &-xxl
+        +paddingX($xxl)
+
+    &-none
+        +paddingX(0)
+  
+.leto-py
+    +paddingY($md)
+
+    &-xxs
+        +paddingY($xxs)
+
+    &-xs
+        +paddingY($xs)
+
+    &-sm
+        +paddingY($sm)
+
+    &-md
+        +paddingY($md)
+
+    &-lg
+        +paddingY($lg)
+
+    &-xl
+        +paddingY($xl)
+
+    &-xxl
+        +paddingY($xxl)
+
+    &-none
+        +paddingY(0)
+
+.leto-pt
+    +paddingTop($md)
+
+    &-xxs
+        +paddingTop($xxs)
+
+    &-xs
+        +paddingTop($xs)
+
+    &-sm
+        +paddingTop($sm)
+
+    &-md
+        +paddingTop($md)
+
+    &-lg
+        +paddingTop($lg)
+
+    &-xl
+        +paddingTop($xl)
+
+    &-xxl
+        +paddingTop($xxl)
+
+    &-none
+        +paddingTop(0)
+
+.leto-pl  
+    +paddingLeft($md)
+
+    &-xxs
+        +paddingLeft($xxs)
+
+    &-xs
+        +paddingLeft($xs)
+
+    &-sm
+        +paddingLeft($sm)
+
+    &-md
+        +paddingLeft($md)
+
+    &-lg
+        +paddingLeft($lg)
+
+    &-xl
+        +paddingLeft($xl)
+
+    &-xxl
+        +paddingLeft($xxl)
+
+    &-none
+        +paddingLeft(0)
+
+.leto-pr
+    +paddingRight($md)
+
+    &-xxs
+        +paddingRight($xxs)
+
+    &-xs
+        +paddingRight($xs)
+
+    &-sm
+        +paddingRight($sm)
+
+    &-md
+        +paddingRight($md)
+
+    &-lg
+        +paddingRight($lg)
+
+    &-xl
+        +paddingRight($xl)
+
+    &-xxl
+        +paddingRight($xxl)
+
+    &-none
+        +paddingRight(0)
+
+.leto-pb
+    +paddingBottom($md)
+
+    &-xxs
+        +paddingBottom($xxs)
+
+    &-xs
+        +paddingBottom($xs)
+
+    &-sm
+        +paddingBottom($sm)
+
+    &-md
+        +paddingBottom($md)
+
+    &-lg
+        +paddingBottom($lg)
+
+    &-xl
+        +paddingBottom($xl)
+
+    &-xxl
+        +paddingBottom($xxl)
+
+    &-none
+        +paddingBottom(0)
+
+
+// Index
+
+.leto-index
+
+    &-1
+        z-index: 1
+
+    &-2
+        z-index: 2
+
+    &-3
+        z-index: 3
+
+    &-4
+        z-index: 4
+
+    &-5
+        z-index: 5
+
+    &-6
+        z-index: 6
+
+    &-7
+        z-index: 7
+
+    &-8
+        z-index: 8
+
+    &-9
+        z-index: 9
+
+    &-10
+        z-index: 10
+
+    &-11
+        z-index: 11
+
+    &-12
+        z-index: 12
+
+    &-13
+        z-index: 13
+
+    &-14
+        z-index: 14
+
+    &-15
+        z-index: 15
+
+    &-16
+        z-index: 16
+
+    &-17
+        z-index: 17
+
+    &-18
+        z-index: 18
+
+    &-19
+        z-index: 19
+
+    &-20
+        z-index: 20
+
+
+// Roundness
+
+.leto-roundness
+    border-radius: $md
+
+    &-xxs
+        border-radius: $xxs
+
+    &-xs
+        border-radius: $xs
+
+    &-sm
+        border-radius: $sm
+
+    &-md
+        border-radius: $md
+
+    &-lg
+        border-radius: $lg
+
+    &-xl
+        border-radius: $xl
+
+    &-xxl
+        border-radius: $xxl
+
+    &-full
+        border-radius: 100px
+
+
+// Border
+
+=borderColor()
+
+    &-light
+        border-color: $colorLight
+
+    &-lightMedium
+        border-color: $colorLightMedium
+
+    &-medium
+        border-color: $colorMedium
+
+    &-dark
+        border-color: $colorDark
+
+    &-yellow
+        border-color: $colorYellow
+
+    &-orange
+        border-color: $colorOrange
+
+    &-red
+        border-color: $colorRed
+
+    &-purple
+        border-color: $colorPurple
+
+    &-blue
+        border-color: $colorBlue
+
+    &-mint
+        border-color: $colorMint
+
+    &-green
+        border-color: $colorGreen
+
+    &-none
+        border: none
+
+.leto-border
+    border: 1px solid $colorMedium
+
+    +borderColor()
+
+    &-top
+        border-top: 1px solid $colorMedium
+
+        +borderColor()
+
+    &-left
+        border-left: 1px solid $colorMedium
+
+        +borderColor()
+
+    &-right
+        border-right: 1px solid $colorMedium
+
+        +borderColor()
+
+    &-bottom
+        border-bottom: 1px solid $colorMedium
+
+        +borderColor()
+
+
+// Text
+
+=textColor()
+
+    &-light
+        color: $colorLight
+
+    &-lightMedium
+        color: $colorLightMedium
+
+    &-medium
+        color: $colorMedium
+
+    &-dark
+        color: $colorDark
+
+    &-yellow
+        color: $colorYellow
+
+    &-orange
+        color: $colorOrange
+
+    &-red
+        color: $colorRed
+
+    &-purple
+        color: $colorPurple
+
+    &-blue
+        color: $colorBlue
+
+    &-mint
+        color: $colorMint
+
+    &-green
+        color: $colorGreen
+
+.leto-text
+
+    +textColor()
+
+    &-left
+        text-align: center
+
+        +textColor()
+
+    &-center
+        text-align: center
+
+        +textColor()
+
+    &-right
+        text-align: right
+
+        +textColor()
+        
+
+// Font
+
+=fontWeightandStyle($size)
+
+    &-light
+        font-size: $size
+        font-weight: $fontWeightLight
+
+        &-italic
+            font-size: $size
+            font-weight: $fontWeightLight
+            font-style: italic
+
+    &-regular
+        font-size: $size
+        font-weight: $fontWeightRegular
+
+        &-italic
+            font-size: $size
+            font-weight: $fontWeightRegular
+            font-style: italic
+
+    &-medium
+        font-size: $size
+        font-weight: $fontWeightMedium
+
+        &-italic
+            font-size: $size
+            font-weight: $fontWeightMedium
+            font-style: italic
+
+    &-bold
+        font-size: $size
+        font-weight: $fontWeightBold
+
+        &-italic
+            font-size: $size
+            font-weight: $fontWeightBold
+            font-style: italic
+
+    &-black
+        font-size: $size
+        font-weight: $fontWeightBlack
+
+        &-italic
+            font-size: $size
+            font-weight: $fontWeightBlack
+            font-style: italic
+
+.leto-font
+    font-size: $md
+
+    &-xxs
+        font-size: $fontSizeXXS
+
+        +fontWeightandStyle($fontSizeXXS)
+
+    &-xs
+        font-size: $fontSizeXS
+
+        +fontWeightandStyle($fontSizeXS)
+
+    &-sm
+        font-size: $fontSizeSM
+
+        +fontWeightandStyle($fontSizeSM)
+
+    &-md
+        font-size: $fontSizeMD
+
+        +fontWeightandStyle($fontSizeMD)
+
+    &-lg
+        font-size: $fontSizeLG
+
+        +fontWeightandStyle($fontSizeLG)
+
+    &-xl
+        font-size: $fontSizeXL
+
+        +fontWeightandStyle($fontSizeXL)
+
+    &-xxl
+        font-size: $fontSizeXXL
+
+        +fontWeightandStyle($fontSizeXXL)
+
+    &-light
+        font-weight: $fontWeightLight
+
+    &-regular
+        font-weight: $fontWeightRegular
+
+    &-medium
+        font-weight: $fontWeightMedium
+
+    &-bold
+        font-weight: $fontWeightBold
+
+    &-black
+        font-weight: $fontWeightBlack
+
+    &-italic
+        font-style: italic
+
+
+// Link
+
+.leto-link
+    cursor: pointer
+
+
+// Bg
+
+.leto-bg
+
+    &-light
+        background-color: $colorLight
+
+    &-lightMedium
+        background-color: $colorLightMedium
+
+    &-medium
+        background-color: $colorMedium
+
+    &-dark
+        background-color: $colorDark
+
+    &-yellow
+        background-color: $colorYellow
+
+    &-orange
+        background-color: $colorOrange
+
+    &-red
+        background-color: $colorRed
+
+    &-purple
+        background-color: $colorPurple
+
+    &-blue
+        background-color: $colorBlue
+
+    &-mint
+        background-color: $colorMint
+
+    &-green
+        background-color: $colorGreen
+    
+    &-none
+        border: none
