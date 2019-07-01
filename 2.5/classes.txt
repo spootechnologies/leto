@@ -27,16 +27,18 @@ Layout:
     wrapper, ?
     [Positions],
     [Size],
-    header,
-    content
+    oveflow,
+    scrollable
+    header, ?
+    content ?
 
 Styling:
 
     roundness,
     border,
     text, Task: merge with font, text-overflow
-    font,
     link,
+    no-link,
     bg,
     focus,
     active,

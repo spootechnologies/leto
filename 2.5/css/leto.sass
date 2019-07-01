@@ -175,7 +175,8 @@ p, b,
     margin-left: $xs
     margin-right: $xs
     margin-bottom: $xs
-    display: inline-block
+    flex-direction: column
+    display: inline-flex
     overflow: hidden
 
 =cardAutoWidth()
@@ -187,7 +188,8 @@ p, b,
     margin-left: $xs
     margin-right: $xs
     margin-bottom: $xs
-    display: inline-block
+    flex-direction: column
+    display: inline-flex
     overflow: hidden
 
 =cardSquare($value)
@@ -200,7 +202,8 @@ p, b,
     margin-left: $xs
     margin-right: $xs
     margin-bottom: $xs
-    display: inline-block
+    flex-direction: column
+    display: inline-flex
     overflow: hidden 
 
 .leto-card
@@ -450,22 +453,12 @@ p, b,
     flex-direction: column
     display: flex       
 
-.leto-card-image // Old
-    max-height: auto
-    width: 100%
+.leto-image
 
-.leto-card-header // Old
-    padding: $xs
-    align-items: center
-    flex-direction: row
-    display: flex
-        
-.leto-card-link // Old
-    color: $colorDark
-    text-decoration: none
+    &-full
+        max-height: auto
+        width: 100%
 
-.leto-card-content // Old
-    padding: $xs
 
 
 // Pile
@@ -498,12 +491,12 @@ p, b,
 
 
 // Form
-
+ 
 .leto-form
 
     &-left
         position: fixed
-        min-width: 300px
+        width: 100%
         height: 100%
         top: 0
         left: 0
@@ -511,9 +504,18 @@ p, b,
         display: flex
         overflow: scroll
 
+    &-center
+        position: fixed
+        width: 100%
+        height: 100%
+        top: 0
+        flex-direction: column
+        display: flex
+        overflow: scroll
+
     &-right
         position: fixed
-        min-width: 300px
+        width: 100%
         height: 100%
         top: 0
         right: 0
@@ -525,6 +527,11 @@ p, b,
 
         &-left, &-right
             width: 50vw
+
+        &-center
+            width: 50vw
+            left: 50%
+            margin-left: -25vw
 
 .uneditable-input:focus
     outline: 0
@@ -539,15 +546,10 @@ p, b,
 
 .leto-frame
     width: 100%
-    padding: 8px
-
-    &-full 
-        width: 100%
-        padding: 8px
         
-        .leto-container
-            position: relative
-            width: 100%
+    .leto-container
+        position: relative
+        width: 100%
 
 // Container
 
@@ -556,10 +558,25 @@ p, b,
     width: 75vw
     margin-left: auto
     margin-right: auto
+    padding: 8px
+
+    &-full
+        position: relative
+        width: 100%
+        padding: 8px
+
+        &[class*="leto-scrollable"]
+            position: relative
+            width: 100%
+            height: 100vh
+            padding: 8px
+            overflow-y: scroll     
 
 // Wrapper
 
 .leto-wrapper
+    padding: $xs
+
     position: relative
     flex-shrink: 0
 
@@ -593,7 +610,7 @@ p, b,
         top: 0
         left: 0
         flex-direction: row
-        display: flex
+        display: fFlex
 
         &-fixed
             position: fixed
@@ -656,79 +673,69 @@ p, b,
     
 .leto-edge
 
-    &-top
+    &-x
         width: 100%
+        flex-direction: row
+        display: flex
+
+    &-y
+        height: 100%
+        flex-direction: column
+        display: flex
+
+    &-top
+        position: fixed
+        width: 100%
+        top: 0
+        left: 0
         flex-direction: row
         display: flex
 
     &-left
-        position: sticky
+        position: fixed
+        height: 100%
         top: 0
         left: 0
-        height: 100%
         flex-direction: column
         display: flex
 
     &-right
+        position: fixed
         height: 100%
+        top: 0
+        right: 0
         flex-direction: column
         display: flex
 
     &-bottom
+        position: fixed
         width: 100%
+        bottom: 0
+        left: 0
         flex-direction: row
         display: flex
-
 
 .leto-subedge
 
     &-top
         height: 100%
-        height: 100%
-        justify-content: flex-start
         flex-direction: row
         display: flex
-
-        &-c
-            height: 100%
-            flex-direction: row
-            display: flex
     
     &-left
-        height: 100%
         width: 100%
-        justify-content: flex-start
         flex-direction: column
         display: flex
-
-        &-c
-            height: 100%
-            flex-direction: column
-            display: flex
 
     &-right
-        height: 100%
         width: 100%
-        justify-content: flex-end
         flex-direction: column
         display: flex
-
-        &-c
-            height: 100%
-            flex-direction: column
-            display: flex
 
     &-bottom
         height: 100%
-        height: 100%
-        align-items: flex-end
         flex-direction: row
         display: flex
-
-        &-c
-            height: 100%
-            flex-direction: row
-            display: flex
 
 @media (min-width: $pc)   
 
@@ -770,41 +777,6 @@ p, b,
     > * 
         break-inside: avoid;
         counter-increment: item-counter;
-
-=layoutPositioningY()
-
-    &-y
-
-        &-top
-            align-items: flex-start
-
-        &-center
-            align-items: center
-
-        &-bottom
-            align-items: flex-end
-
-=layoutPositioningX()
-
-    &-x
-
-        &-left
-            justify-content: flex-start
-
-        &-center
-            justify-content: center
-
-        &-right
-            justify-content: flex-end
-
-        &-between
-            justify-content: space-between
-
-        &-around
-            justify-content: space-around
-
-        &-evenly
-            justify-content: space-evenly
 
 .leto-layout
     flex-direction: row
@@ -915,7 +887,7 @@ p, b,
 // Width
 
 .leto-full 
-    +letoWidth(100%)   
+    +letoWidth(100%)  
 
 .leto-fourfifths
     +letoWidth(80%)
@@ -1473,7 +1445,7 @@ p, b,
     border-radius: $md
 
     &-xxs
-        border-radius: $xxs
+        border-radius: $xxs 
 
     &-xs
         border-radius: $xs
@@ -1495,45 +1467,6 @@ p, b,
 
     &-full
         border-radius: 100px
-
-
-=borderColor()
-
-    &-light
-        border-color: $colorLight
-
-    &-lightMedium
-        border-color: $colorLightMedium
-
-    &-medium
-        border-color: $colorMedium
-
-    &-dark
-        border-color: $colorDark
-
-    &-yellow
-        border-color: $colorYellow
-
-    &-orange
-        border-color: $colorOrange
-
-    &-red
-        border-color: $colorRed
-
-    &-purple
-        border-color: $colorPurple
-
-    &-blue
-        border-color: $colorBlue
-
-    &-mint
-        border-color: $colorMint
-
-    &-green
-        border-color: $colorGreen
-
-    &-none
-        border: none
 
 
 // Border
@@ -1561,82 +1494,70 @@ p, b,
     &-bottom
         border-bottom: 1px solid $colorMedium
 
-    &-light
-        border-color: $colorLight
+    &-color
 
-    &-lightMedium
-        border-color: $colorLightMedium
+        &-light
+            border-color: $colorLight
 
-    &-medium
-        border-color: $colorMedium
+        &-lightMedium
+            border-color: $colorLightMedium
 
-    &-dark
-        border-color: $colorDark
+        &-medium
+            border-color: $colorMedium
 
-    &-yellow
-        border-color: $colorYellow
+        &-dark
+            border-color: $colorDark
 
-    &-orange
-        border-color: $colorOrange
+        &-yellow
+            border-color: $colorYellow
 
-    &-red
-        border-color: $colorRed
+        &-orange
+            border-color: $colorOrange
 
-    &-purple
-        border-color: $colorPurple
+        &-red
+            border-color: $colorRed
 
-    &-blue
-        border-color: $colorBlue
+        &-purple
+            border-color: $colorPurple
 
-    &-mint
-        border-color: $colorMint
+        &-blue
+            border-color: $colorBlue
 
-    &-green
-        border-color: $colorGreen
+        &-mint
+            border-color: $colorMint
 
-    &-none
-        border: none
+        &-green
+            border-color: $colorGreen
 
-
-=textColor()
-
-    &-light
-        color: $colorLight
-
-    &-lightMedium
-        color: $colorLightMedium
-
-    &-medium
-        color: $colorMedium
-
-    &-dark
-        color: $colorDark
-
-    &-yellow
-        color: $colorYellow
-
-    &-orange
-        color: $colorOrange
-
-    &-red
-        color: $colorRed
-
-    &-purple
-        color: $colorPurple
-
-    &-blue
-        color: $colorBlue
-
-    &-mint
-        color: $colorMint
-
-    &-green
-        color: $colorGreen
+        &-none
+            border: none
 
 
 // Text        
 
 .leto-text // Check
+    font-size: $fontSizeMD
+
+    &-xxs
+        font-size: $fontSizeXXS
+
+    &-xs
+        font-size: $fontSizeXS
+
+    &-sm
+        font-size: $fontSizeSM
+
+    &-md
+        font-size: $fontSizeMD
+
+    &-lg
+        font-size: $fontSizeLG
+
+    &-xl
+        font-size: $fontSizeXL
+
+    &-xxl
+        font-size: $fontSizeXXL
 
     &-light
         font-weight: $fontWeightLight
@@ -1656,38 +1577,54 @@ p, b,
     &-italic
         font-style: italic
 
-    &-light
-        color: $colorLight
+    &-ellipsis
+        white-space: nowrap
+        overflow: hidden
+        text-overflow: ellipsis
 
-    &-lightMedium
-        color: $colorLightMedium
+    &-left
+        text-align: left
 
-    &-medium
-        color: $colorMedium
+    &-center
+        text-align: center
+        
+    &-right
+        text-align: right
 
-    &-dark
-        color: $colorDark
+    &-color
 
-    &-yellow
-        color: $colorYellow
+        &-light
+            color: $colorLight
 
-    &-orange
-        color: $colorOrange
+        &-lightMedium
+            color: $colorLightMedium
 
-    &-red
-        color: $colorRed
+        &-medium
+            color: $colorMedium
 
-    &-purple
-        color: $colorPurple
+        &-dark
+            color: $colorDark
 
-    &-blue
-        color: $colorBlue
+        &-yellow
+            color: $colorYellow
 
-    &-mint
-        color: $colorMint
+        &-orange
+            color: $colorOrange
 
-    &-green
-        color: $colorGreen
+        &-red
+            color: $colorRed
+
+        &-purple
+            color: $colorPurple
+
+        &-blue
+            color: $colorBlue
+
+        &-mint
+            color: $colorMint
+
+        &-green
+            color: $colorGreen
 
 
 // Link
@@ -1695,43 +1632,48 @@ p, b,
 .leto-link // Check
     cursor: pointer
 
+.leto-no-link
+    text-decoration: none
+    pointer-events: none
 
 // Bg
 
 .leto-bg  // Check
 
-    &-light
-        background-color: $colorLight
+    &-color
 
-    &-lightMedium
-        background-color: $colorLightMedium
+        &-light
+            background-color: $colorLight
 
-    &-medium
-        background-color: $colorMedium
+        &-lightMedium
+            background-color: $colorLightMedium
 
-    &-dark
-        background-color: $colorDark
+        &-medium
+            background-color: $colorMedium
 
-    &-yellow
-        background-color: $colorYellow
+        &-dark
+            background-color: $colorDark
 
-    &-orange
-        background-color: $colorOrange
+        &-yellow
+            background-color: $colorYellow
 
-    &-red
-        background-color: $colorRed
+        &-orange
+            background-color: $colorOrange
 
-    &-purple
-        background-color: $colorPurple
+        &-red
+            background-color: $colorRed
 
-    &-blue
-        background-color: $colorBlue
+        &-purple
+            background-color: $colorPurple
 
-    &-mint
-        background-color: $colorMint
+        &-blue
+            background-color: $colorBlue
 
-    &-green
-        background-color: $colorGreen
-    
-    &-none
-        border: none
+        &-mint
+            background-color: $colorMint
+
+        &-green
+            background-color: $colorGreen
+        
+        &-none
+            border: none
