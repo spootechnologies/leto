@@ -549,6 +549,24 @@ p, b,
             position: relative
             width: 100%
 
+    
+// Darkmode
+
+.leto-darkmode // Old
+    background-color: $colorDark
+    color: $colorLight 
+
+    &-bg
+        background-color: $colorDark
+
+    &-text
+        color: $colorLight
+
+    &-border
+        border-color: $colorLight
+
+
+
 // Container
 
 .leto-container
@@ -560,11 +578,11 @@ p, b,
 // Wrapper
 
 .leto-wrapper
-    position: relative
-    flex-shrink: 0
 
     > [class*="leto-bubble"] ~ label
         background: pink
+
+
 
 // Edge
 
@@ -593,7 +611,7 @@ p, b,
         top: 0
         left: 0
         flex-direction: row
-        display: flex
+        display: fFlex
 
         &-fixed
             position: fixed
@@ -662,9 +680,7 @@ p, b,
         display: flex
 
     &-left
-        position: sticky
         top: 0
-        left: 0
         height: 100%
         flex-direction: column
         display: flex
@@ -771,67 +787,171 @@ p, b,
         break-inside: avoid;
         counter-increment: item-counter;
 
-=layoutPositioningY()
+=layoutPositioningY($direction, $wrap, $x)
 
     &-y
 
         &-top
+            flex-direction: $direction
+            flex-wrap: $wrap
+            justify-content: $x
             align-items: flex-start
+            display: flex
 
         &-center
+            flex-direction: $direction
+            flex-wrap: $wrap
+            justify-content: $x
             align-items: center
+            display: flex
 
         &-bottom
+            flex-direction: $direction
+            flex-wrap: $wrap
+            justify-content: $x
             align-items: flex-end
+            display: flex
 
-=layoutPositioningX()
+=layoutPositioning($direction, $wrap)
 
     &-x
 
         &-left
+            flex-direction: $direction
+            flex-wrap: $wrap
             justify-content: flex-start
+            display: flex
+
+            +layoutPositioningY($direction, $wrap, flex-start)
 
         &-center
+            flex-direction: $direction
+            flex-wrap: $wrap
             justify-content: center
+            display: flex
+
+            +layoutPositioningY($direction, $wrap, center)
 
         &-right
+            flex-direction: $direction
+            flex-wrap: $wrap
             justify-content: flex-end
+            display: flex
+
+            +layoutPositioningY($direction, $wrap, flex-end)
 
         &-between
+            flex-direction: $direction
+            flex-wrap: $wrap
             justify-content: space-between
+            display: flex
+            
+            +layoutPositioningY($direction, $wrap, space-between)
 
         &-around
+            flex-direction: $direction
+            flex-wrap: $wrap
             justify-content: space-around
+            display: flex
+
+            +layoutPositioningY($direction, $wrap, space-around)
 
         &-evenly
+            flex-direction: $direction
+            flex-wrap: $wrap
             justify-content: space-evenly
+            display: flex
+
+            +layoutPositioningY($direction, $wrap, space-evenly)
+
+    +layoutPositioningY($direction, $wrap, flex-start)
 
 .leto-layout
     flex-direction: row
     flex-wrap: wrap
     display: flex
 
+    +layoutPositioning(row, wrap)
+
     &-row
         flex-direction: row
         display: flex
 
-    &-wrap
-        flex-direction: row
-        flex-wrap: wrap
+        &-wrap
+            flex-direction: row
+            flex-wrap: wrap
+            display: flex
+
+            +layoutPositioning(row, wrap)
+
+        &-wrap-reverse
+            flex-direction: row
+            flex-wrap: wrap-reverse
+            display: flex
+
+            +layoutPositioning(row, wrap-reverse)
+
+        +layoutPositioning(row, nowrap)
+
+    &-row-reverse
+        flex-direction: row-reverse
         display: flex
 
-    &-wrap-reverse
-        flex-direction: row
-        flex-wrap: wrap-reverse
-        display: flex
+        &-wrap
+            flex-direction: row-reverse
+            flex-wrap: wrap
+            display: flex
+
+            +layoutPositioning(row-reverse, wrap)
+
+        &-wrap-reverse
+            flex-direction: row-reverse
+            flex-wrap: wrap-reverse
+            display: flex
+
+            +layoutPositioning(row-reverse, wrap-reverse)
+
+        +layoutPositioning(row-reverse, nowrap)
 
     &-column
         flex-direction: column
         display: flex
 
+        &-wrap
+            flex-direction: column
+            flex-wrap: wrap
+            display: flex
+
+            +layoutPositioning(column, wrap)
+
+        &-wrap-reverse
+            flex-direction: column
+            flex-wrap: wrap-reverse
+            display: flex
+
+            +layoutPositioning(column, wrap-reverse)
+
+        +layoutPositioning(column, nowrap)     
+
     &-column-reverse
         flex-direction: column-reverse
-        display: flex
+        display: flex  
+
+        &-wrap
+            flex-direction: column-reverse
+            flex-wrap: wrap
+            display: flex
+
+            +layoutPositioning(column-reverse, wrap)
+
+        &-wrap-reverse
+            flex-direction: column-reverse
+            flex-wrap: wrap-reverse
+            display: flex
+
+            +layoutPositioning(column-reverse, wrap-reverse)
+
+        +layoutPositioning(column-reverse, nowrap) 
 
     &-masonry
         +masonry(4)
@@ -844,51 +964,6 @@ p, b,
 
         &-5
             +masonry(5) 
-
-    &-x
-
-        &-left
-            justify-content: flex-start
-
-        &-center
-            justify-content: center
-
-        &-right
-            justify-content: flex-end
-
-        &-between
-            justify-content: space-between
-
-        &-around
-            justify-content: space-around
-
-        &-evenly
-            justify-content: space-evenly
-
-    &-y
-
-        &-top
-            align-items: flex-start
-
-        &-center
-            align-items: center
-
-        &-bottom
-            align-items: flex-end
-
-
-// Position
-
-.leto-left
-    margin-right: auto
-
-.leto-center
-    margin-left: auto
-    margin-right: auto
-
-.leto-right
-    margin-left: auto
-
 
 =letoWidth($width)
     width: $width
@@ -910,7 +985,8 @@ p, b,
 
         &-ultrawide
             width: $width
-            flex-shrink: 0
+            flex-shrink: 0   
+
 
 // Width
 
@@ -1404,7 +1480,7 @@ p, b,
 
 // Index
 
-.leto-index // check
+.leto-index
 
     &-1
         z-index: 1
@@ -1469,7 +1545,7 @@ p, b,
 
 // Roundness
 
-.leto-roundness // Check
+.leto-roundness
     border-radius: $md
 
     &-xxs
@@ -1496,6 +1572,8 @@ p, b,
     &-full
         border-radius: 100px
 
+
+// Border
 
 =borderColor()
 
@@ -1535,68 +1613,33 @@ p, b,
     &-none
         border: none
 
-
-// Border
-
-.leto-border // Check
+.leto-border
     border: 1px solid $colorMedium
 
-    &-x
-        border-top: 1px solid $colorMedium
-        border-bottom: 1px solid $colorMedium
-
-    &-y
-        border-left: 1px solid $colorMedium
-        border-right: 1px solid $colorMedium
+    +borderColor()
 
     &-top
         border-top: 1px solid $colorMedium
 
+        +borderColor()
+
     &-left
         border-left: 1px solid $colorMedium
+
+        +borderColor()
 
     &-right
         border-right: 1px solid $colorMedium
 
+        +borderColor()
+
     &-bottom
         border-bottom: 1px solid $colorMedium
 
-    &-light
-        border-color: $colorLight
+        +borderColor()
 
-    &-lightMedium
-        border-color: $colorLightMedium
 
-    &-medium
-        border-color: $colorMedium
-
-    &-dark
-        border-color: $colorDark
-
-    &-yellow
-        border-color: $colorYellow
-
-    &-orange
-        border-color: $colorOrange
-
-    &-red
-        border-color: $colorRed
-
-    &-purple
-        border-color: $colorPurple
-
-    &-blue
-        border-color: $colorBlue
-
-    &-mint
-        border-color: $colorMint
-
-    &-green
-        border-color: $colorGreen
-
-    &-none
-        border: none
-
+// Text
 
 =textColor()
 
@@ -1633,10 +1676,112 @@ p, b,
     &-green
         color: $colorGreen
 
+.leto-text
 
-// Text        
+    +textColor()
 
-.leto-text // Check
+    &-left
+        text-align: center
+
+        +textColor()
+
+    &-center
+        text-align: center
+
+        +textColor()
+
+    &-right
+        text-align: right
+
+        +textColor()
+        
+
+// Font
+
+=fontWeightandStyle($size)
+
+    &-light
+        font-size: $size
+        font-weight: $fontWeightLight
+
+        &-italic
+            font-size: $size
+            font-weight: $fontWeightLight
+            font-style: italic
+
+    &-regular
+        font-size: $size
+        font-weight: $fontWeightRegular
+
+        &-italic
+            font-size: $size
+            font-weight: $fontWeightRegular
+            font-style: italic
+
+    &-medium
+        font-size: $size
+        font-weight: $fontWeightMedium
+
+        &-italic
+            font-size: $size
+            font-weight: $fontWeightMedium
+            font-style: italic
+
+    &-bold
+        font-size: $size
+        font-weight: $fontWeightBold
+
+        &-italic
+            font-size: $size
+            font-weight: $fontWeightBold
+            font-style: italic
+
+    &-black
+        font-size: $size
+        font-weight: $fontWeightBlack
+
+        &-italic
+            font-size: $size
+            font-weight: $fontWeightBlack
+            font-style: italic
+
+.leto-font
+    font-size: $md
+
+    &-xxs
+        font-size: $fontSizeXXS
+
+        +fontWeightandStyle($fontSizeXXS)
+
+    &-xs
+        font-size: $fontSizeXS
+
+        +fontWeightandStyle($fontSizeXS)
+
+    &-sm
+        font-size: $fontSizeSM
+
+        +fontWeightandStyle($fontSizeSM)
+
+    &-md
+        font-size: $fontSizeMD
+
+        +fontWeightandStyle($fontSizeMD)
+
+    &-lg
+        font-size: $fontSizeLG
+
+        +fontWeightandStyle($fontSizeLG)
+
+    &-xl
+        font-size: $fontSizeXL
+
+        +fontWeightandStyle($fontSizeXL)
+
+    &-xxl
+        font-size: $fontSizeXXL
+
+        +fontWeightandStyle($fontSizeXXL)
 
     &-light
         font-weight: $fontWeightLight
@@ -1656,49 +1801,16 @@ p, b,
     &-italic
         font-style: italic
 
-    &-light
-        color: $colorLight
-
-    &-lightMedium
-        color: $colorLightMedium
-
-    &-medium
-        color: $colorMedium
-
-    &-dark
-        color: $colorDark
-
-    &-yellow
-        color: $colorYellow
-
-    &-orange
-        color: $colorOrange
-
-    &-red
-        color: $colorRed
-
-    &-purple
-        color: $colorPurple
-
-    &-blue
-        color: $colorBlue
-
-    &-mint
-        color: $colorMint
-
-    &-green
-        color: $colorGreen
-
 
 // Link
 
-.leto-link // Check
+.leto-link
     cursor: pointer
 
 
 // Bg
 
-.leto-bg  // Check
+.leto-bg
 
     &-light
         background-color: $colorLight
