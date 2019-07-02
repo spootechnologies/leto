@@ -28,9 +28,10 @@ Layout:
     [Positions],
     [Size],
     oveflow,
-    scrollable
+    scrollable,
     header, ?
-    content ?
+    content, ?
+    scroller
 
 Styling:
 

@@ -759,7 +759,7 @@ p, b {
   margin-bottom: 8px;
   padding: 8px 16px;
   cursor: pointer;
-  display: inline-block;
+  display: inline;
 }
 
 .leto-badge {
@@ -772,7 +772,7 @@ p, b {
   margin-right: 4px;
   margin-bottom: 4px;
   white-space: nowrap;
-  display: inline-block;
+  display: inline;
 }
 
 .leto-input {
@@ -1237,14 +1237,9 @@ p, b {
   width: 100%;
 }
 
-.leto-frame .leto-container {
-  position: relative;
-  width: 100%;
-}
-
 .leto-container {
   position: relative;
-  width: 75vw;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
   padding: 8px;
@@ -1259,9 +1254,19 @@ p, b {
 .leto-container-full[class*="leto-scrollable"] {
   position: relative;
   width: 100%;
-  height: 100vh;
+  height: 100%;
   padding: 8px;
   overflow-y: scroll;
+}
+
+@media (min-width: 1366px) {
+  .leto-container {
+    position: relative;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 8px;
+  }
 }
 
 .leto-wrapper {

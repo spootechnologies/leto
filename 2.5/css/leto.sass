@@ -279,7 +279,7 @@ p, b,
     margin-bottom: $xs
     padding: $xs $sm
     cursor: pointer
-    display: inline-block    
+    display: inline  
 
 
 // Badge
@@ -294,7 +294,7 @@ p, b,
     margin-right: $xxs
     margin-bottom: $xxs
     white-space: nowrap
-    display: inline-block
+    display: inline
 
 
 // Input
@@ -546,16 +546,12 @@ p, b,
 
 .leto-frame
     width: 100%
-        
-    .leto-container
-        position: relative
-        width: 100%
 
 // Container
 
 .leto-container
     position: relative
-    width: 75vw
+    width: 100%
     margin-left: auto
     margin-right: auto
     padding: 8px
@@ -568,9 +564,19 @@ p, b,
         &[class*="leto-scrollable"]
             position: relative
             width: 100%
-            height: 100vh
+            height: 100%
             padding: 8px
             overflow-y: scroll     
+
+@media (min-width: $pc)
+
+    .leto-container
+        position: relative
+        width: 75%
+        margin-left: auto
+        margin-right: auto
+        padding: 8px
+   
 
 // Wrapper
 
