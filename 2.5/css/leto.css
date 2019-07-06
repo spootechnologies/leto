@@ -1269,146 +1269,6 @@ p, b {
   }
 }
 
-.leto-wrapper {
-  padding: 8px;
-  position: relative;
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
-}
-
-.leto-wrapper > [class*="leto-bubble"] ~ label {
-  background: pink;
-}
-
-.leto-edge-wrapper-top {
-  width: 100%;
-  height: auto;
-  top: 0;
-  left: 0;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.leto-edge-wrapper-top-fixed {
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.leto-edge-wrapper-left {
-  width: auto;
-  height: 100%;
-  top: 0;
-  left: 0;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  display: fFlex;
-}
-
-.leto-edge-wrapper-left-fixed {
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.leto-edge-wrapper-right {
-  width: auto;
-  height: 100%;
-  top: 0;
-  right: 0;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.leto-edge-wrapper-right-fixed {
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  right: 0;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.leto-edge-wrapper-bottom {
-  width: 100%;
-  height: auto;
-  bottom: 0;
-  left: 0;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.leto-edge-wrapper-bottom-fixed {
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  bottom: 0;
-  left: 0;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-@media (min-width: 1366px) {
-  .leto-edge-wrapper-top, .leto-edge-wrapper-bottom {
-    height: auto;
-  }
-  .leto-edge-wrapper-top-fixed, .leto-edge-wrapper-bottom-fixed {
-    height: auto;
-  }
-  .leto-edge-wrapper-left, .leto-edge-wrapper-right {
-    width: auto;
-  }
-  .leto-edge-wrapper-left-fixed, .leto-edge-wrapper-right-fixed {
-    width: auto;
-  }
-}
-
 .leto-edge-x {
   width: 100%;
   -webkit-box-orient: horizontal;
@@ -1726,54 +1586,54 @@ p, b {
   counter-increment: item-counter;
 }
 
-.leto-layout-x-left {
+.leto-x-left {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
 }
 
-.leto-layout-x-center {
+.leto-x-center {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
 }
 
-.leto-layout-x-right {
+.leto-x-right {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
 }
 
-.leto-layout-x-between {
+.leto-x-between {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
 
-.leto-layout-x-around {
+.leto-x-around {
   -ms-flex-pack: distribute;
       justify-content: space-around;
 }
 
-.leto-layout-x-evenly {
+.leto-x-evenly {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
 }
 
-.leto-layout-y-top {
+.leto-y-top {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
 }
 
-.leto-layout-y-center {
+.leto-y-center {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
 }
 
-.leto-layout-y-bottom {
+.leto-y-bottom {
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;

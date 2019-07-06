@@ -576,106 +576,6 @@ p, b,
         margin-left: auto
         margin-right: auto
         padding: 8px
-   
-
-// Wrapper
-
-.leto-wrapper
-    padding: $xs
-
-    position: relative
-    flex-shrink: 0
-
-    > [class*="leto-bubble"] ~ label
-        background: pink
-
-// Edge
-
-.leto-edge-wrapper // Old
-
-    &-top
-        width: 100%
-        height: auto
-        top: 0
-        left: 0
-        flex-direction: column
-        display: flex
-
-        &-fixed
-            position: fixed
-            width: 100%
-            height: 100%
-            top: 0
-            left: 0
-            flex-direction: column
-            display: flex
-
-    &-left
-        width: auto
-        height: 100%
-        top: 0
-        left: 0
-        flex-direction: row
-        display: fFlex
-
-        &-fixed
-            position: fixed
-            width: 100%
-            height: 100%
-            top: 0
-            left: 0
-            flex-direction: row
-            display: flex
-
-    &-right
-        width: auto
-        height: 100%
-        top: 0
-        right: 0
-        flex-direction: row
-        display: flex
-
-        &-fixed
-            position: fixed
-            width: 100%
-            height: 100%
-            top: 0
-            right: 0
-            flex-direction: row
-            display: flex
-
-    &-bottom
-        width: 100%
-        height: auto
-        bottom: 0
-        left: 0
-        flex-direction: column
-        display: flex
-
-        &-fixed
-            position: fixed
-            width: 100%
-            height: 100%
-            bottom: 0
-            left: 0
-            flex-direction: column
-            display: flex
-
-@media (min-width: $pc) 
-
-    .leto-edge-wrapper
-
-        &-top, &-bottom
-            height: auto
-
-            &-fixed
-                height: auto
-
-        &-left, &-right
-            width: auto
-
-            &-fixed
-                width: auto
     
 .leto-edge
 
@@ -821,7 +721,9 @@ p, b,
             +masonry(4) 
 
         &-5
-            +masonry(5) 
+            +masonry(5)
+
+.leto 
 
     &-x
 
