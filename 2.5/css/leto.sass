@@ -11,6 +11,7 @@ body
     background-color: $colorLight
     font-family: 'Montserrat', sans-serif
     font-size: $fontSizeMD
+    color: $colorDark
     margin: 0
     padding: 0
 
@@ -34,58 +35,23 @@ input
         outline: 0
 
 h1
-    margin-top: $md
-    margin-bottom: $md
+    margin: $xs
 
 h2, h3
-    margin-top: $sm
-    margin-bottom: $sm
+    margin: $xs
 
 h4, h5
-    margin-top: $xs
-    margin-bottom: $xs
+    margin: $xs
 
 p, b,
-    margin-top: $xxs
-    margin-bottom: $xxs
+    margin: $xs
+
+a
+    color: $colorDark
+    text-decoration: none
 
     
 // Leto with spoo theme
-
-// Bubble
-
-=bubbleLabel($size) // Old
-    max-width: $size * 2
-    text-decoration: none
-    text-align: center
-    overflow: hidden
-    text-overflow: ellipsis 
-    margin-left: $xs
-    margin-right: $xs
-    
-.leto-bubble-label // Old
-    +bubbleLabel($md)
-
-    &-xxs
-        +bubbleLabel($xxs)
-
-    &-xs
-        +bubbleLabel($xs)
-
-    &-sm
-        +bubbleLabel($sm)
-
-    &-md
-        +bubbleLabel($md)
-
-    &-lg
-        +bubbleLabel($lg)
-
-    &-xl
-        +bubbleLabel($xl)
-
-    &-xxl
-        +bubbleLabel($xxl)  
 
 =bubble($value)
     height: $value * 2
@@ -93,10 +59,7 @@ p, b,
     font-size: $value * .66
     border: 1px solid $colorMedium
     border-radius: $value
-    margin-top: $xs
-    margin-left: $xs
-    margin-right: $xs
-    margin-bottom: $xs
+    margin: $xs
     text-align: center
     flex-direction: column
     align-items: center
@@ -104,11 +67,8 @@ p, b,
     flex-shrink: 0
     display: inline-flex
 
-    // ? ...
-
     img
-        max-height: auto
-        max-width: $value * .66    
+        max-width: $value * 0.66   
 
 .leto-bubble
     +bubble($md)
@@ -134,36 +94,8 @@ p, b,
     &-xxl
         +bubble($xxl)
 
-    &.active // Old
-        border: 1px solid rgba(0, 0, 0, 0)
-        box-shadow: 0 0 0 2px $colorMedium
-
 
 // Card
-
-.leto-card-label // Old
-    max-width: 100%
-
-    &-xxs
-        max-width: $xxs * 10
-
-    &-xs
-        max-width: $xs * 10
-
-    &-sm
-        max-width: $sm * 10
-
-    &-md
-        max-width: $md * 10
-
-    &-lg
-        max-width: $lg * 10
-
-    &-xl
-        max-width: $xl * 10
-
-    &-xxl
-        max-width: $xxl * 10
 
 =card($value)
     position: relative
@@ -171,26 +103,34 @@ p, b,
     min-height: 50px
     border: 1px solid $colorMedium
     border-radius: 12px
-    margin-top: $xs
-    margin-left: $xs
-    margin-right: $xs
-    margin-bottom: $xs
+    margin: $xs
+    padding: $xs
     flex-direction: column
     display: inline-flex
     overflow: hidden
+
+    > .leto-image-full
+        margin-top: -$xs
+        margin-left: -$xs
+        margin-right: -$xs
+        width: calc(100% + 16px)
 
 =cardAutoWidth()
     position: relative
     min-height: 50px
     border: 1px solid $colorMedium
     border-radius: 12px
-    margin-top: $xs
-    margin-left: $xs
-    margin-right: $xs
-    margin-bottom: $xs
+    margin: $xs
+    padding: $xs
     flex-direction: column
     display: inline-flex
     overflow: hidden
+
+    > .leto-image-full
+        margin-top: -$xs
+        margin-left: -$xs
+        margin-right: -$xs
+        width: calc(100% + 16px)
 
 =cardSquare($value)
     position: relative
@@ -198,13 +138,16 @@ p, b,
     height: $value*10
     border: 1px solid $colorMedium
     border-radius: 12px
-    margin-top: $xs
-    margin-left: $xs
-    margin-right: $xs
-    margin-bottom: $xs
+    margin: $xs
     flex-direction: column
     display: inline-flex
     overflow: hidden 
+
+    > .leto-image-full
+        margin-top: -$xs
+        margin-left: -$xs
+        margin-right: -$xs
+        width: calc(100% + 16px)
 
 .leto-card
     +cardAutoWidth()
@@ -273,13 +216,10 @@ p, b,
     text-align: center
     border: 1px solid $colorMedium
     border-radius: 100px
-    margin-top: $xs
-    margin-left: $xs
-    margin-right: $xs
-    margin-bottom: $xs
+    margin: $xs
     padding: $xs $sm
     cursor: pointer
-    display: inline  
+    display: inline-block
 
 
 // Badge
@@ -289,12 +229,9 @@ p, b,
     font-size: $fontSizeXS
     border-radius: 100px
     padding: $xxs $xs
-    margin-top: $xxs
-    margin-left: $xxs
-    margin-right: $xxs
-    margin-bottom: $xxs
+    margin: $xs
     white-space: nowrap
-    display: inline
+    display: inline-block
 
 
 // Input
@@ -410,7 +347,7 @@ p, b,
     border-spacing: 0 15px
     width: 100%
 
-    tr:not(.leto-table-header) // ...
+    tr:not(.leto-header) // ...
 
         th
             border-top: 1px solid $colorMedium
@@ -422,7 +359,7 @@ p, b,
             border-bottom: 1px solid $colorMedium
             padding: $sm
 
-    tr:not(.leto-table-header) // ...
+    tr:not(.leto-header) // ...
 
         td:first-child, th:first-child
             border-left: 1px solid $colorMedium
@@ -437,21 +374,78 @@ p, b,
 
 // Leto without theme
 
-// Bubble
-
-.leto-bubble-wrapper // Old
+.leto-wrapper
     flex-direction: column
     display: inline-flex
 
+// Bubble
+
+=bubbleWrapper($value)
+    width: $value * 2
+    margin: $xs
+    justify-content: center
+    flex-direction: column
+    display: inline-flex
+
+    > .leto-bubble
+        height: $value * 2
+        width: $value * 2
+        border-radius: $value
+
+    > [class*=leto-bubble]
+        margin: 0
+
+    > label
+        text-align: center
+
+    > .leto-bubble ~ label
+        margin-top: $xs
+
+    > label ~ .leto-bubble
+        margin-top: $xs
+
+.leto-bubble-wrapper
+    +bubbleWrapper($md)
+
+    &-xxs
+        +bubbleWrapper($xxs)
+        
+    &-xs
+        +bubbleWrapper($xs)
+
+    &-sm
+        +bubbleWrapper($sm)
+
+    &-md
+        +bubbleWrapper($md)
+        
+    &-lg
+        +bubbleWrapper($lg)
+
+    &-xl
+        +bubbleWrapper($xl)
+
+    &-xxl
+        +bubbleWrapper($xxl)
+
 // Card
 
-.leto-card-wrapper // Old
+.leto-card-wrapper
     text-decoration: none
-    text-align: center
-    overflow: hidden
-    text-overflow: ellipsis
-    flex-direction: column
-    display: flex       
+    display: inline-flex
+
+.leto-header
+    align-items: center
+    flex-direction: row
+    display: flex
+
+.leto-table
+
+    .leto-header
+        display: table-row
+
+.leto-content
+               
 
 .leto-image
 
@@ -474,20 +468,12 @@ p, b,
         padding: $xs
         display: block
 
-.leto-pile-header // Old
-    align-items: center
-    flex-direction: row
-    display: flex
+.leto-table
 
-    &:after
-        clear: both
-        display: block
-        content: ''
+    .leto-header
 
-.leto-table-header // Old
-
-    td, th
-        padding-left: $sm
+        td, th
+            padding-left: $sm
 
 
 // Form
@@ -772,6 +758,7 @@ p, b,
 
 =letoWidth($width)
     width: $width
+    padding: $xs
     flex-shrink: 0
 
     @media (min-width: $tablet)
@@ -791,6 +778,10 @@ p, b,
         &-ultrawide
             width: $width
             flex-shrink: 0
+
+    > *
+        width: 100%
+        margin: 0
 
 // Width
 
@@ -1349,7 +1340,7 @@ p, b,
 
 // Roundness
 
-.leto-roundness // Check
+.leto-roundness
     border-radius: $md
 
     &-xxs
@@ -1379,7 +1370,7 @@ p, b,
 
 // Border
 
-.leto-border // Check
+.leto-border
     border: 1px solid $colorMedium
 
     &-x
@@ -1402,48 +1393,49 @@ p, b,
     &-bottom
         border-bottom: 1px solid $colorMedium
 
-    &-color
+    &-light
+        border-color: $colorLight
 
-        &-light
-            border-color: $colorLight
+    &-lightMedium
+        border-color: $colorLightMedium
 
-        &-lightMedium
-            border-color: $colorLightMedium
+    &-medium
+        border-color: $colorMedium
 
-        &-medium
-            border-color: $colorMedium
+    &-darkMedium
+        border-color: $colorDarkMedium
 
-        &-dark
-            border-color: $colorDark
+    &-dark
+        border-color: $colorDark
 
-        &-yellow
-            border-color: $colorYellow
+    &-yellow
+        border-color: $colorYellow
 
-        &-orange
-            border-color: $colorOrange
+    &-orange
+        border-color: $colorOrange
 
-        &-red
-            border-color: $colorRed
+    &-red
+        border-color: $colorRed
 
-        &-purple
-            border-color: $colorPurple
+    &-purple
+        border-color: $colorPurple
 
-        &-blue
-            border-color: $colorBlue
+    &-blue
+        border-color: $colorBlue
 
-        &-mint
-            border-color: $colorMint
+    &-mint
+        border-color: $colorMint
 
-        &-green
-            border-color: $colorGreen
+    &-green
+        border-color: $colorGreen
 
-        &-none
-            border: none
+    &-none
+        border: none
 
 
 // Text        
 
-.leto-text // Check
+.leto-text
     font-size: $fontSizeMD
 
     &-xxs
@@ -1507,6 +1499,9 @@ p, b,
         &-lightMedium
             color: $colorLightMedium
 
+        &-darkMedium
+            color: $colorDarkMedium
+
         &-medium
             color: $colorMedium
 
@@ -1535,53 +1530,193 @@ p, b,
             color: $colorGreen
 
 
+// Focus
+
+=active($color)
+    background-color: $color
+
+    &[class*=leto-bubble]
+        background-color: $color
+
+    &[class*=leto-card]
+        background-color: $color
+
+    &[class*=leto-button]
+        background-color: $color
+
+    &[class*=leto-badge]
+        background-color: $color
+
+    &[class*=leto-text]
+        color: $color
+
+
+.leto-active
+    +active($colorMedium)
+
+    &-light
+        +active($colorLight)
+
+    &-lightMedium
+        +active($colorLightMedium)
+
+    &-medium
+        +active($colorMedium)
+
+    &-darkMedium
+        +active($colorDarkMedium)
+
+    &-dark
+        +active($colorDark)
+
+    &-yellow
+        +active($colorYellow)
+
+    &-orange
+        +active($colorOrange)
+
+    &-red
+        +active($colorRed)
+
+    &-purple
+        +active($colorPurple)
+
+    &-blue
+        +active($colorBlue)
+
+    &-mint
+        +active($colorMint)
+
+    &-green
+        +active($colorGreen)
+
+
+// Hover
+
+
+=hover($color)
+    background-color: $color
+
+    &[class*=leto-bubble]
+        background-color: $color
+
+    &[class*=leto-card]
+        background-color: $color
+
+    &[class*=leto-button]
+        background-color: $color
+
+    &[class*=leto-badge]
+        background-color: $color
+
+    &[class*=leto-text]
+        color: $color
+
+
+.leto-hover
+    +hover($colorMedium)
+
+    &-light
+        +hover($colorLight)
+
+    &-lightMedium
+        +hover($colorLightMedium)
+
+    &-medium
+        +hover($colorMedium)
+
+    &-darkMedium
+        +hover($colorDarkMedium)
+
+    &-dark
+        +hover($colorDark)
+
+    &-yellow
+        +hover($colorYellow)
+
+    &-orange
+        +hover($colorOrange)
+
+    &-red
+        +hover($colorRed)
+
+    &-purple
+        +hover($colorPurple)
+
+    &-blue
+        +hover($colorBlue)
+
+    &-mint
+        +hover($colorMint)
+
+    &-green
+        +hover($colorGreen)
+
+
+// Disabled
+
+.leto-disabled
+    background-color: $colorLightMedium !important
+    border-color: $colorLightMedium !important
+    color: $colorDarkMedium !important
+    pointer-events: none
+
+    &::placeholder
+       color: $colorDarkMedium !important 
+
+
 // Link
 
-.leto-link // Check
+.leto-link
     cursor: pointer
+
+
+// No Link
 
 .leto-no-link
     text-decoration: none
     pointer-events: none
 
+
 // Bg
 
-.leto-bg  // Check
+.leto-bg
 
-    &-color
+    &-light
+        background-color: $colorLight
 
-        &-light
-            background-color: $colorLight
+    &-lightMedium
+        background-color: $colorLightMedium
 
-        &-lightMedium
-            background-color: $colorLightMedium
+    &-medium
+        background-color: $colorMedium
 
-        &-medium
-            background-color: $colorMedium
+    &-darkMedium
+        background-color: $colorDarkMedium
 
-        &-dark
-            background-color: $colorDark
+    &-dark
+        background-color: $colorDark
 
-        &-yellow
-            background-color: $colorYellow
+    &-yellow
+        background-color: $colorYellow
 
-        &-orange
-            background-color: $colorOrange
+    &-orange
+        background-color: $colorOrange
 
-        &-red
-            background-color: $colorRed
+    &-red
+        background-color: $colorRed
 
-        &-purple
-            background-color: $colorPurple
+    &-purple
+        background-color: $colorPurple
 
-        &-blue
-            background-color: $colorBlue
+    &-blue
+        background-color: $colorBlue
 
-        &-mint
-            background-color: $colorMint
+    &-mint
+        background-color: $colorMint
 
-        &-green
-            background-color: $colorGreen
-        
-        &-none
-            border: none
+    &-green
+        background-color: $colorGreen
+    
+    &-none
+        border: none

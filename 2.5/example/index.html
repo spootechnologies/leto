@@ -21,11 +21,11 @@
             <div class="leto-layout-row">
                 <div class="leto-edge-y leto-color-bg-light">
                     <!-- LETO BUBBLES -->
-                    <div class="leto-wrapper">
-                        <div class="leto-bubble-lg"><img src="https://spoo.io/assets/img/spoo_icon_sm.png"></div>
-                        <label>SPOO</label>
+                    <div class="leto-bubble-wrapper-lg">
+                        <label class="leto-text-ellipsis">Leto Theme</label>
+                        <div class="leto-bubble"><img src="https://spoo.io/assets/img/spoo_icon_sm.png"></div>
                     </div>
-                    <div class="leto-bubble-lg"><span class="fa fa-plus"></span></div>
+                    <div class="leto-bubble-lg leto-disabled"><span class="fa fa-plus"></span></div>
                     <div class="leto-bubble-lg"><span class="fa fa-rocket"></span></div>
                     <div class="leto-bubble-lg"><span class="fa fa-code"></span></div>
                     <div class="leto-bubble-lg"><span class="fa fa-building"></span></div>
@@ -37,8 +37,8 @@
                         <div>
                             <div class="leto-edge-x leto-color-bg-light">
                                 <!-- LETO BUBBLES -->
-                                <div class="leto-wrapper">
-                                    <div class="leto-bubble-lg"><img src="https://spoo.io/assets/img/spoo_icon_sm.png"></div>
+                                <div class="leto-bubble-wrapper-lg">
+                                    <div class="leto-bubble"><img src="https://spoo.io/assets/img/spoo_icon_sm.png"></div>
                                     <label>SPOO</label>
                                 </div>
                                 <div class="leto-bubble-lg"><span class="fa fa-plus"></span></div>
@@ -47,53 +47,19 @@
                                 <div class="leto-bubble-lg"><span class="fa fa-building"></span></div>
                             </div>
                             <!-- LETO INPUT -->
-                            <input type="text" class="leto-input-lg leto-full leto-half-pc leto-mt-sm" placeholder="this is an input...">
+                            <div class="leto-full leto-half-pc leto-mt-sm">
+                                    <input type="text" class="leto-input-lg leto-disabled" placeholder="this is an input...">
+                            </div>
                             <!-- LETO CARD GROUP -->
                             <div class="leto-layout leto-mt-sm leto-m-balance-xxs">
                                 <div class="leto-full leto-half-tablet leto-quater-pc leto-p-xxs">
                                     <div class="leto-card">
-                                        <image src="assets/placeholder.jpg" class="leto-card-image"></image>
-                                        <div class="new_leto-card-header leto-p-none">
+                                        <image src="assets/placeholder.jpg" class="leto-image-full"></image>
+                                        <div class="leto-header leto-p-none">
                                             <div class="leto-bubble"><span class="fa fa-user"></span></div>
-                                            <a href="#" class="new_leto-card-link">This is a card</a>
+                                            <a href="#">This is a card</a>
                                         </div>
-                                        <div class="new_leto-card-content">
-                                            <span class="leto-badge">BADGE</span>
-                                            <p>Content</p>
-                                            <div class="leto-button">Button</div>
-                                        </div>
-                                    </div>
-                                    <div class="leto-card">
-                                        <image src="assets/placeholder.jpg" class="leto-card-image"></image>
-                                        <div class="new_leto-card-header leto-p-none">
-                                            <div class="leto-bubble"><span class="fa fa-user"></span></div>
-                                            <a href="#" class="new_leto-card-link">This is a card</a>
-                                        </div>
-                                        <div class="new_leto-card-content">
-                                            <span class="leto-badge">BADGE</span>
-                                            <p>Content</p>
-                                            <div class="leto-button">Button</div>
-                                        </div>
-                                    </div>
-                                    <div class="leto-card">
-                                        <image src="assets/placeholder.jpg" class="leto-card-image"></image>
-                                        <div class="new_leto-card-header leto-p-none">
-                                            <div class="leto-bubble"><span class="fa fa-user"></span></div>
-                                            <a href="#" class="new_leto-card-link">This is a card</a>
-                                        </div>
-                                        <div class="new_leto-card-content">
-                                            <span class="leto-badge">BADGE</span>
-                                            <p>Content</p>
-                                            <div class="leto-button">Button</div>
-                                        </div>
-                                    </div>
-                                    <div class="leto-card">
-                                        <image src="assets/placeholder.jpg" class="leto-card-image"></image>
-                                        <div class="new_leto-card-header leto-p-none">
-                                            <div class="leto-bubble"><span class="fa fa-user"></span></div>
-                                            <a href="#" class="new_leto-card-link">This is a card</a>
-                                        </div>
-                                        <div class="new_leto-card-content">
+                                        <div class="leto-card-content">
                                             <span class="leto-badge">BADGE</span>
                                             <p>Content</p>
                                             <div class="leto-button">Button</div>
@@ -103,7 +69,7 @@
                             </div>
                             <!-- LETO TABLE -->
                             <table class="leto-table">
-                                <tr class="new_leto-table-header">
+                                <tr class="leto-header">
                                     <td>this is </td>
                                     <td>a leto table</td>
                                 </tr>
@@ -115,22 +81,22 @@
                             <br>
                             <!-- LETO CARD PILE -->
                             <div class="leto-layout-masonry-4 leto-m-balance-xxs">
-                                <div class="leto-pile-item">
-                                    <div class="new_leto-pile-header">
+                                <div class="leto-card">
+                                    <div class="leto-header">
                                         <div class="leto-bubble"><span class="fa fa-user"></span></div>
-                                        <a href="#" class="new_leto-card-link">This is a Pile Item</a>
+                                        <a href="#">This is a Pile Item</a>
                                     </div>
                                     <div class="leto-pile leto-mt-sm">
-                                        <div class="leto-card-masonry">
-                                            <div class="new_leto-card-header">
+                                        <div class="leto-card">
+                                            <div class="leto-header">
                                                 <div class="leto-bubble"><span class="fa fa-user"></span></div>
-                                                <a href="#" class="new_leto-card-link">This is a card</a>
+                                                <a href="#">This is a card</a>
                                             </div>
                                         </div>
-                                        <div class="leto-card-masonry">
-                                            <div class="new_leto-card-header">
+                                        <div class="leto-card">
+                                            <div class="leto-header">
                                                 <div class="leto-bubble"><span class="fa fa-user"></span></div>
-                                                <a href="#" class="new_leto-card-link">This is a card</a>
+                                                <a href="#">This is a card</a>
                                             </div>
                                         </div>
                                     </div>

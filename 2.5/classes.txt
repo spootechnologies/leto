@@ -14,7 +14,7 @@ Elements:
     subedge,
     backdrop,
     image,
-    icon
+    icon, ?
 
 Layout:
 
@@ -41,7 +41,6 @@ Styling:
     link,
     no-link,
     bg,
-    focus,
     active,
     hover,
     disabled
