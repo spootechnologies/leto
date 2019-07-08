@@ -387,7 +387,7 @@ a
     flex-direction: column
     display: inline-flex
 
-    > .leto-bubble
+    > [class*=leto-bubble]
         height: $value * 2
         width: $value * 2
         border-radius: $value
@@ -398,10 +398,10 @@ a
     > label
         text-align: center
 
-    > .leto-bubble ~ label
+    > [class*=leto-bubble] ~ label
         margin-top: $xs
 
-    > label ~ .leto-bubble
+    > label ~ [class*=leto-bubble]
         margin-top: $xs
 
 .leto-bubble-wrapper
@@ -429,6 +429,25 @@ a
         +bubbleWrapper($xxl)
 
 // Card
+
+
+=cardWrapper($value)
+    margin: $xs
+    justify-content: center
+    flex-direction: column
+    display: inline-flex
+
+    > [class*=leto-card]
+        margin: 0
+
+    > label
+        text-align: center
+
+    > [class*=leto-card] ~ label
+        margin-top: $xs
+
+    > label ~ [class*=leto-card]
+        margin-top: $xs
 
 .leto-card-wrapper
     text-decoration: none
@@ -672,42 +691,44 @@ a
 
 .leto-layout
     flex-direction: row
-    flex-wrap: wrap
+    flex-wrap: nowrap
     display: flex
 
-    &-row
-        flex-direction: row
-        display: flex
+.leto-row
+    flex-direction: row
+    display: flex
 
-    &-wrap
-        flex-direction: row
-        flex-wrap: wrap
-        display: flex
+.leto-column
+    flex-direction: column
+    display: flex
 
-    &-wrap-reverse
-        flex-direction: row
-        flex-wrap: wrap-reverse
-        display: flex
+.leto-column-reverse
+    flex-direction: column-reverse
+    display: flex
 
-    &-column
-        flex-direction: column
-        display: flex
+.leto-wrap
+    flex-wrap: wrap
 
-    &-column-reverse
-        flex-direction: column-reverse
-        display: flex
+.leto-no-wrap
+    flex-wrap: nowrap
 
-    &-masonry
-        +masonry(4)
+.leto-wrap-reverse
+    flex-wrap: wrap-reverse
 
-        &-3
-            +masonry(3)
+.leto-masonry
+    +masonry(4)
 
-        &-4
-            +masonry(4) 
+    &-3
+        +masonry(3)
 
-        &-5
-            +masonry(5)
+    &-4
+        +masonry(4) 
+
+    &-5
+        +masonry(5)
+
+
+// Position
 
 .leto 
 
@@ -742,8 +763,6 @@ a
         &-bottom
             align-items: flex-end
 
-
-// Position
 
 .leto-left
     margin-right: auto
@@ -1595,21 +1614,23 @@ a
 
 
 =hover($color)
-    background-color: $color
 
-    &[class*=leto-bubble]
+    &:hover
         background-color: $color
 
-    &[class*=leto-card]
+    &[class*=leto-bubble]:hover
         background-color: $color
 
-    &[class*=leto-button]
+    &[class*=leto-card]:hover
         background-color: $color
 
-    &[class*=leto-badge]
+    &[class*=leto-button]:hover
         background-color: $color
 
-    &[class*=leto-text]
+    &[class*=leto-badge]:hover
+        background-color: $color
+
+    &[class*=leto-text]:hover
         color: $color
 
 

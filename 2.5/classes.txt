@@ -35,15 +35,15 @@ Layout:
 
 Styling:
 
-    roundness,
-    border,
-    text, Task: merge with font, text-overflow
-    link,
-    no-link,
-    bg,
-    active,
-    hover,
-    disabled
+    roundness, check
+    border, check
+    text, check
+    link, check
+    no-link, check
+    bg, check
+    active, check
+    hover, check
+    disabled check
 
 Special:
 
