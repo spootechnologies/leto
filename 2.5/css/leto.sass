@@ -173,7 +173,8 @@ a
     &-xxl
         +card($xxl)    
 
-    &-square 
+    &-square
+        +cardSquare($md) 
 
         &-xxs
             +cardSquare($xxs)  
@@ -514,6 +515,7 @@ a
         width: 100%
         height: 100%
         top: 0
+        left: 0
         flex-direction: column
         display: flex
         overflow: scroll
@@ -689,11 +691,6 @@ a
         break-inside: avoid;
         counter-increment: item-counter;
 
-.leto-layout
-    flex-direction: row
-    flex-wrap: nowrap
-    display: flex
-
 .leto-row
     flex-direction: row
     display: flex
@@ -709,7 +706,7 @@ a
 .leto-wrap
     flex-wrap: wrap
 
-.leto-no-wrap
+.leto-nowrap
     flex-wrap: nowrap
 
 .leto-wrap-reverse
@@ -1495,6 +1492,9 @@ a
 
     &-italic
         font-style: italic
+
+    &-uppercase
+        text-transform: uppercase
 
     &-ellipsis
         white-space: nowrap
