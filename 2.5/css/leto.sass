@@ -571,7 +571,7 @@ a
         &[class*="leto-scrollable"]
             position: relative
             width: 100%
-            height: 100%
+            height: 100vh
             padding: 8px
             overflow-y: scroll     
 
@@ -691,6 +691,11 @@ a
         break-inside: avoid;
         counter-increment: item-counter;
 
+.leto-layout
+    flex-direction: row
+    flex-wrap: wrap
+    display: flex
+
 .leto-row
     flex-direction: row
     display: flex
@@ -775,25 +780,21 @@ a
 =letoWidth($width)
     width: $width
     padding: $xs
-    flex-shrink: 0
 
     @media (min-width: $tablet)
 
         &-tablet
             width: $width
-            flex-shrink: 0  
 
     @media (min-width: $pc)
 
         &-pc
             width: $width
-            flex-shrink: 0  
 
     @media (min-aspect-ratio: $ultrawide) and (min-width: $pcLarge)
 
         &-ultrawide
             width: $width
-            flex-shrink: 0
 
     > *
         width: 100%

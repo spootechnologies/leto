@@ -1480,7 +1480,7 @@ a {
 .leto-container-full[class*="leto-scrollable"] {
   position: relative;
   width: 100%;
-  height: 100%;
+  height: 100vh;
   padding: 8px;
   overflow-y: scroll;
 }
@@ -1636,6 +1636,18 @@ a {
   height: 100%;
   width: 100%;
   background: rgba(0, 0, 0, 0.25);
+}
+
+.leto-layout {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .leto-row {
@@ -1860,31 +1872,23 @@ a {
 .leto-full {
   width: 100%;
   padding: 8px;
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
 }
 
 @media (min-width: 600px) {
   .leto-full-tablet {
     width: 100%;
-    -ms-flex-negative: 0;
-        flex-shrink: 0;
   }
 }
 
 @media (min-width: 1366px) {
   .leto-full-pc {
     width: 100%;
-    -ms-flex-negative: 0;
-        flex-shrink: 0;
   }
 }
 
 @media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
   .leto-full-ultrawide {
     width: 100%;
-    -ms-flex-negative: 0;
-        flex-shrink: 0;
   }
 }
 
@@ -1896,31 +1900,23 @@ a {
 .leto-fourfifths {
   width: 80%;
   padding: 8px;
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
 }
 
 @media (min-width: 600px) {
   .leto-fourfifths-tablet {
     width: 80%;
-    -ms-flex-negative: 0;
-        flex-shrink: 0;
   }
 }
 
 @media (min-width: 1366px) {
   .leto-fourfifths-pc {
     width: 80%;
-    -ms-flex-negative: 0;
-        flex-shrink: 0;
   }
 }
 
 @media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
   .leto-fourfifths-ultrawide {
     width: 80%;
-    -ms-flex-negative: 0;
-        flex-shrink: 0;
   }
 }
 
@@ -1932,31 +1928,23 @@ a {
 .leto-threequaters {
   width: 75%;
   padding: 8px;
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
 }
 
 @media (min-width: 600px) {
   .leto-threequaters-tablet {
     width: 75%;
-    -ms-flex-negative: 0;
-        flex-shrink: 0;
   }
 }
 
 @media (min-width: 1366px) {
   .leto-threequaters-pc {
     width: 75%;
-    -ms-flex-negative: 0;
-        flex-shrink: 0;
   }
 }
 
 @media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
   .leto-threequaters-ultrawide {
     width: 75%;
-    -ms-flex-negative: 0;
-        flex-shrink: 0;
   }
 }
 
@@ -1968,31 +1956,23 @@ a {
 .leto-twothirds {
   width: calc((100% / 3) * 2);
   padding: 8px;
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
 }
 
 @media (min-width: 600px) {
   .leto-twothirds-tablet {
     width: calc((100% / 3) * 2);
-    -ms-flex-negative: 0;
-        flex-shrink: 0;
   }
 }
 
 @media (min-width: 1366px) {
   .leto-twothirds-pc {
     width: calc((100% / 3) * 2);
-    -ms-flex-negative: 0;
-        flex-shrink: 0;
   }
 }
 
 @media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
   .leto-twothirds-ultrawide {
     width: calc((100% / 3) * 2);
-    -ms-flex-negative: 0;
-        flex-shrink: 0;
   }
 }
 
@@ -2004,31 +1984,23 @@ a {
 .leto-half {
   width: 50%;
   padding: 8px;
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
 }
 
 @media (min-width: 600px) {
   .leto-half-tablet {
     width: 50%;
-    -ms-flex-negative: 0;
-        flex-shrink: 0;
   }
 }
 
 @media (min-width: 1366px) {
   .leto-half-pc {
     width: 50%;
-    -ms-flex-negative: 0;
-        flex-shrink: 0;
   }
 }
 
 @media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
   .leto-half-ultrawide {
     width: 50%;
-    -ms-flex-negative: 0;
-        flex-shrink: 0;
   }
 }
 
@@ -2040,31 +2012,23 @@ a {
 .leto-third {
   width: calc(100% / 3);
   padding: 8px;
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
 }
 
 @media (min-width: 600px) {
   .leto-third-tablet {
     width: calc(100% / 3);
-    -ms-flex-negative: 0;
-        flex-shrink: 0;
   }
 }
 
 @media (min-width: 1366px) {
   .leto-third-pc {
     width: calc(100% / 3);
-    -ms-flex-negative: 0;
-        flex-shrink: 0;
   }
 }
 
 @media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
   .leto-third-ultrawide {
     width: calc(100% / 3);
-    -ms-flex-negative: 0;
-        flex-shrink: 0;
   }
 }
 
@@ -2076,31 +2040,23 @@ a {
 .leto-quater {
   width: 25%;
   padding: 8px;
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
 }
 
 @media (min-width: 600px) {
   .leto-quater-tablet {
     width: 25%;
-    -ms-flex-negative: 0;
-        flex-shrink: 0;
   }
 }
 
 @media (min-width: 1366px) {
   .leto-quater-pc {
     width: 25%;
-    -ms-flex-negative: 0;
-        flex-shrink: 0;
   }
 }
 
 @media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
   .leto-quater-ultrawide {
     width: 25%;
-    -ms-flex-negative: 0;
-        flex-shrink: 0;
   }
 }
 
@@ -2112,31 +2068,23 @@ a {
 .leto-fifth {
   width: 20%;
   padding: 8px;
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
 }
 
 @media (min-width: 600px) {
   .leto-fifth-tablet {
     width: 20%;
-    -ms-flex-negative: 0;
-        flex-shrink: 0;
   }
 }
 
 @media (min-width: 1366px) {
   .leto-fifth-pc {
     width: 20%;
-    -ms-flex-negative: 0;
-        flex-shrink: 0;
   }
 }
 
 @media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
   .leto-fifth-ultrawide {
     width: 20%;
-    -ms-flex-negative: 0;
-        flex-shrink: 0;
   }
 }
 
@@ -2148,31 +2096,23 @@ a {
 .leto-sixth {
   width: calc(100% / 6);
   padding: 8px;
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
 }
 
 @media (min-width: 600px) {
   .leto-sixth-tablet {
     width: calc(100% / 6);
-    -ms-flex-negative: 0;
-        flex-shrink: 0;
   }
 }
 
 @media (min-width: 1366px) {
   .leto-sixth-pc {
     width: calc(100% / 6);
-    -ms-flex-negative: 0;
-        flex-shrink: 0;
   }
 }
 
 @media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
   .leto-sixth-ultrawide {
     width: calc(100% / 6);
-    -ms-flex-negative: 0;
-        flex-shrink: 0;
   }
 }
 
@@ -2184,31 +2124,23 @@ a {
 .leto-eighth {
   width: 12.5%;
   padding: 8px;
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
 }
 
 @media (min-width: 600px) {
   .leto-eighth-tablet {
     width: 12.5%;
-    -ms-flex-negative: 0;
-        flex-shrink: 0;
   }
 }
 
 @media (min-width: 1366px) {
   .leto-eighth-pc {
     width: 12.5%;
-    -ms-flex-negative: 0;
-        flex-shrink: 0;
   }
 }
 
 @media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
   .leto-eighth-ultrawide {
     width: 12.5%;
-    -ms-flex-negative: 0;
-        flex-shrink: 0;
   }
 }
 
