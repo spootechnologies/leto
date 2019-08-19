@@ -55,7 +55,7 @@ p, b {
 }
 
 a {
-  color: #303030;
+  color: #99A7FF;
   text-decoration: none;
 }
 
@@ -682,16 +682,6 @@ a {
   width: calc(100% + 16px);
 }
 
-.leto-pile-item {
-  margin-top: 8px;
-  margin-left: 8px;
-  margin-right: 8px;
-  margin-bottom: 8px;
-  padding: 8px;
-  border: 1px solid #dadada;
-  border-radius: 12px;
-}
-
 .leto-button {
   text-decoration: none;
   text-align: center;
@@ -1040,16 +1030,6 @@ a {
   border-bottom-right-radius: 8px;
 }
 
-.leto-wrapper {
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-}
-
 .leto-bubble-wrapper {
   width: 48px;
   margin: 8px;
@@ -1065,7 +1045,7 @@ a {
   display: inline-flex;
 }
 
-.leto-bubble-wrapper > [class*=leto-bubble] {
+.leto-bubble-wrapper > .leto-bubble {
   height: 48px;
   width: 48px;
   border-radius: 24px;
@@ -1102,7 +1082,7 @@ a {
   display: inline-flex;
 }
 
-.leto-bubble-wrapper-xxs > [class*=leto-bubble] {
+.leto-bubble-wrapper-xxs > .leto-bubble {
   height: 8px;
   width: 8px;
   border-radius: 4px;
@@ -1139,7 +1119,7 @@ a {
   display: inline-flex;
 }
 
-.leto-bubble-wrapper-xs > [class*=leto-bubble] {
+.leto-bubble-wrapper-xs > .leto-bubble {
   height: 16px;
   width: 16px;
   border-radius: 8px;
@@ -1176,7 +1156,7 @@ a {
   display: inline-flex;
 }
 
-.leto-bubble-wrapper-sm > [class*=leto-bubble] {
+.leto-bubble-wrapper-sm > .leto-bubble {
   height: 32px;
   width: 32px;
   border-radius: 16px;
@@ -1213,7 +1193,7 @@ a {
   display: inline-flex;
 }
 
-.leto-bubble-wrapper-md > [class*=leto-bubble] {
+.leto-bubble-wrapper-md > .leto-bubble {
   height: 48px;
   width: 48px;
   border-radius: 24px;
@@ -1250,7 +1230,7 @@ a {
   display: inline-flex;
 }
 
-.leto-bubble-wrapper-lg > [class*=leto-bubble] {
+.leto-bubble-wrapper-lg > .leto-bubble {
   height: 64px;
   width: 64px;
   border-radius: 32px;
@@ -1287,7 +1267,7 @@ a {
   display: inline-flex;
 }
 
-.leto-bubble-wrapper-xl > [class*=leto-bubble] {
+.leto-bubble-wrapper-xl > .leto-bubble {
   height: 96px;
   width: 96px;
   border-radius: 48px;
@@ -1324,7 +1304,7 @@ a {
   display: inline-flex;
 }
 
-.leto-bubble-wrapper-xxl > [class*=leto-bubble] {
+.leto-bubble-wrapper-xxl > .leto-bubble {
   height: 128px;
   width: 128px;
   border-radius: 64px;
@@ -1354,6 +1334,7 @@ a {
 }
 
 .leto-header {
+  font-weight: 500;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -1364,10 +1345,6 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-}
-
-.leto-table .leto-header {
-  display: table-row;
 }
 
 .leto-image-full {
@@ -1390,7 +1367,8 @@ a {
   padding-left: 16px;
 }
 
-.leto-form-left {
+.leto-form {
+  background-color: #fdfdfd;
   position: fixed;
   width: 100%;
   height: 100%;
@@ -1403,10 +1381,12 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  overflow: scroll;
+  overflow-y: scroll;
+  z-index: 2;
 }
 
-.leto-form-center {
+.leto-form-left {
+  background-color: #fdfdfd;
   position: fixed;
   width: 100%;
   height: 100%;
@@ -1419,10 +1399,12 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  overflow: scroll;
+  overflow-y: scroll;
+  z-index: 2;
 }
 
 .leto-form-right {
+  background-color: #fdfdfd;
   position: fixed;
   width: 100%;
   height: 100%;
@@ -1435,28 +1417,19 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  overflow: scroll;
+  overflow-y: scroll;
+  z-index: 2;
 }
 
 @media (min-width: 1366px) {
-  .leto-form-left, .leto-form-right {
-    width: 50vw;
-  }
-  .leto-form-center {
+  .leto-form {
     width: 50vw;
     left: 50%;
     margin-left: -25vw;
   }
-}
-
-.uneditable-input:focus {
-  outline: 0;
-}
-
-.scrollable-table {
-  display: block;
-  overflow-x: auto;
-  white-space: nowrap;
+  .leto-form-left, .leto-form-right {
+    width: 50vw;
+  }
 }
 
 .leto-frame {
@@ -1466,6 +1439,7 @@ a {
 .leto-container {
   position: relative;
   width: 100%;
+  max-width: 1024px;
   margin-left: auto;
   margin-right: auto;
   padding: 8px;
@@ -1574,6 +1548,8 @@ a {
 }
 
 .leto-subedge-top {
+  position: fixed;
+  width: 100%;
   height: 100%;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
@@ -1585,7 +1561,9 @@ a {
 }
 
 .leto-subedge-left {
+  position: fixed;
   width: 100%;
+  height: 100%;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -1596,7 +1574,9 @@ a {
 }
 
 .leto-subedge-right {
+  position: fixed;
   width: 100%;
+  height: 100%;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -1607,6 +1587,8 @@ a {
 }
 
 .leto-subedge-bottom {
+  position: fixed;
+  width: 100%;
   height: 100%;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
@@ -1636,18 +1618,11 @@ a {
   height: 100%;
   width: 100%;
   background: rgba(0, 0, 0, 0.25);
+  z-index: 1;
 }
 
-.leto-layout {
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+.leto-group {
+  diplay: flex;
 }
 
 .leto-row {
@@ -1655,9 +1630,6 @@ a {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
 }
 
 .leto-column {
@@ -1665,9 +1637,6 @@ a {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
 }
 
 .leto-column-reverse {
@@ -1675,19 +1644,11 @@ a {
   -webkit-box-direction: reverse;
       -ms-flex-direction: column-reverse;
           flex-direction: column-reverse;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
 }
 
 .leto-wrap {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-}
-
-.leto-nowrap {
-  -ms-flex-wrap: nowrap;
-      flex-wrap: nowrap;
 }
 
 .leto-wrap-reverse {
@@ -2834,7 +2795,7 @@ a {
 }
 
 .leto-roundness-full {
-  border-radius: 100px;
+  border-radius: 1000px;
 }
 
 .leto-border {
@@ -3050,19 +3011,19 @@ a {
 }
 
 .leto-active[class*=leto-bubble] {
-  background-color: #dadada;
+  border-width: 3px;
 }
 
 .leto-active[class*=leto-card] {
-  background-color: #dadada;
+  border-width: 3px;
 }
 
 .leto-active[class*=leto-button] {
-  background-color: #dadada;
+  border-width: 3px;
 }
 
 .leto-active[class*=leto-badge] {
-  background-color: #dadada;
+  border-width: 3px;
 }
 
 .leto-active[class*=leto-text] {
@@ -3074,19 +3035,19 @@ a {
 }
 
 .leto-active-light[class*=leto-bubble] {
-  background-color: #fdfdfd;
+  border-width: 3px;
 }
 
 .leto-active-light[class*=leto-card] {
-  background-color: #fdfdfd;
+  border-width: 3px;
 }
 
 .leto-active-light[class*=leto-button] {
-  background-color: #fdfdfd;
+  border-width: 3px;
 }
 
 .leto-active-light[class*=leto-badge] {
-  background-color: #fdfdfd;
+  border-width: 3px;
 }
 
 .leto-active-light[class*=leto-text] {
@@ -3098,19 +3059,19 @@ a {
 }
 
 .leto-active-lightMedium[class*=leto-bubble] {
-  background-color: #f2f2f2;
+  border-width: 3px;
 }
 
 .leto-active-lightMedium[class*=leto-card] {
-  background-color: #f2f2f2;
+  border-width: 3px;
 }
 
 .leto-active-lightMedium[class*=leto-button] {
-  background-color: #f2f2f2;
+  border-width: 3px;
 }
 
 .leto-active-lightMedium[class*=leto-badge] {
-  background-color: #f2f2f2;
+  border-width: 3px;
 }
 
 .leto-active-lightMedium[class*=leto-text] {
@@ -3122,19 +3083,19 @@ a {
 }
 
 .leto-active-medium[class*=leto-bubble] {
-  background-color: #dadada;
+  border-width: 3px;
 }
 
 .leto-active-medium[class*=leto-card] {
-  background-color: #dadada;
+  border-width: 3px;
 }
 
 .leto-active-medium[class*=leto-button] {
-  background-color: #dadada;
+  border-width: 3px;
 }
 
 .leto-active-medium[class*=leto-badge] {
-  background-color: #dadada;
+  border-width: 3px;
 }
 
 .leto-active-medium[class*=leto-text] {
@@ -3146,19 +3107,19 @@ a {
 }
 
 .leto-active-darkMedium[class*=leto-bubble] {
-  background-color: #a6a6a6;
+  border-width: 3px;
 }
 
 .leto-active-darkMedium[class*=leto-card] {
-  background-color: #a6a6a6;
+  border-width: 3px;
 }
 
 .leto-active-darkMedium[class*=leto-button] {
-  background-color: #a6a6a6;
+  border-width: 3px;
 }
 
 .leto-active-darkMedium[class*=leto-badge] {
-  background-color: #a6a6a6;
+  border-width: 3px;
 }
 
 .leto-active-darkMedium[class*=leto-text] {
@@ -3170,19 +3131,19 @@ a {
 }
 
 .leto-active-dark[class*=leto-bubble] {
-  background-color: #303030;
+  border-width: 3px;
 }
 
 .leto-active-dark[class*=leto-card] {
-  background-color: #303030;
+  border-width: 3px;
 }
 
 .leto-active-dark[class*=leto-button] {
-  background-color: #303030;
+  border-width: 3px;
 }
 
 .leto-active-dark[class*=leto-badge] {
-  background-color: #303030;
+  border-width: 3px;
 }
 
 .leto-active-dark[class*=leto-text] {
@@ -3194,19 +3155,19 @@ a {
 }
 
 .leto-active-yellow[class*=leto-bubble] {
-  background-color: #FFFD99;
+  border-width: 3px;
 }
 
 .leto-active-yellow[class*=leto-card] {
-  background-color: #FFFD99;
+  border-width: 3px;
 }
 
 .leto-active-yellow[class*=leto-button] {
-  background-color: #FFFD99;
+  border-width: 3px;
 }
 
 .leto-active-yellow[class*=leto-badge] {
-  background-color: #FFFD99;
+  border-width: 3px;
 }
 
 .leto-active-yellow[class*=leto-text] {
@@ -3218,19 +3179,19 @@ a {
 }
 
 .leto-active-orange[class*=leto-bubble] {
-  background-color: #FFBF80;
+  border-width: 3px;
 }
 
 .leto-active-orange[class*=leto-card] {
-  background-color: #FFBF80;
+  border-width: 3px;
 }
 
 .leto-active-orange[class*=leto-button] {
-  background-color: #FFBF80;
+  border-width: 3px;
 }
 
 .leto-active-orange[class*=leto-badge] {
-  background-color: #FFBF80;
+  border-width: 3px;
 }
 
 .leto-active-orange[class*=leto-text] {
@@ -3242,19 +3203,19 @@ a {
 }
 
 .leto-active-red[class*=leto-bubble] {
-  background-color: #FF8C8C;
+  border-width: 3px;
 }
 
 .leto-active-red[class*=leto-card] {
-  background-color: #FF8C8C;
+  border-width: 3px;
 }
 
 .leto-active-red[class*=leto-button] {
-  background-color: #FF8C8C;
+  border-width: 3px;
 }
 
 .leto-active-red[class*=leto-badge] {
-  background-color: #FF8C8C;
+  border-width: 3px;
 }
 
 .leto-active-red[class*=leto-text] {
@@ -3266,19 +3227,19 @@ a {
 }
 
 .leto-active-purple[class*=leto-bubble] {
-  background-color: #D499FF;
+  border-width: 3px;
 }
 
 .leto-active-purple[class*=leto-card] {
-  background-color: #D499FF;
+  border-width: 3px;
 }
 
 .leto-active-purple[class*=leto-button] {
-  background-color: #D499FF;
+  border-width: 3px;
 }
 
 .leto-active-purple[class*=leto-badge] {
-  background-color: #D499FF;
+  border-width: 3px;
 }
 
 .leto-active-purple[class*=leto-text] {
@@ -3290,19 +3251,19 @@ a {
 }
 
 .leto-active-blue[class*=leto-bubble] {
-  background-color: #99A7FF;
+  border-width: 3px;
 }
 
 .leto-active-blue[class*=leto-card] {
-  background-color: #99A7FF;
+  border-width: 3px;
 }
 
 .leto-active-blue[class*=leto-button] {
-  background-color: #99A7FF;
+  border-width: 3px;
 }
 
 .leto-active-blue[class*=leto-badge] {
-  background-color: #99A7FF;
+  border-width: 3px;
 }
 
 .leto-active-blue[class*=leto-text] {
@@ -3314,19 +3275,19 @@ a {
 }
 
 .leto-active-mint[class*=leto-bubble] {
-  background-color: #80FFD0;
+  border-width: 3px;
 }
 
 .leto-active-mint[class*=leto-card] {
-  background-color: #80FFD0;
+  border-width: 3px;
 }
 
 .leto-active-mint[class*=leto-button] {
-  background-color: #80FFD0;
+  border-width: 3px;
 }
 
 .leto-active-mint[class*=leto-badge] {
-  background-color: #80FFD0;
+  border-width: 3px;
 }
 
 .leto-active-mint[class*=leto-text] {
@@ -3338,19 +3299,19 @@ a {
 }
 
 .leto-active-green[class*=leto-bubble] {
-  background-color: #9BFF99;
+  border-width: 3px;
 }
 
 .leto-active-green[class*=leto-card] {
-  background-color: #9BFF99;
+  border-width: 3px;
 }
 
 .leto-active-green[class*=leto-button] {
-  background-color: #9BFF99;
+  border-width: 3px;
 }
 
 .leto-active-green[class*=leto-badge] {
-  background-color: #9BFF99;
+  border-width: 3px;
 }
 
 .leto-active-green[class*=leto-text] {
@@ -3362,19 +3323,19 @@ a {
 }
 
 .leto-hover[class*=leto-bubble]:hover {
-  background-color: #dadada;
+  border-width: 3px;
 }
 
 .leto-hover[class*=leto-card]:hover {
-  background-color: #dadada;
+  border-width: 3px;
 }
 
 .leto-hover[class*=leto-button]:hover {
-  background-color: #dadada;
+  border-width: 3px;
 }
 
 .leto-hover[class*=leto-badge]:hover {
-  background-color: #dadada;
+  border-width: 3px;
 }
 
 .leto-hover[class*=leto-text]:hover {
@@ -3386,19 +3347,19 @@ a {
 }
 
 .leto-hover-light[class*=leto-bubble]:hover {
-  background-color: #fdfdfd;
+  border-width: 3px;
 }
 
 .leto-hover-light[class*=leto-card]:hover {
-  background-color: #fdfdfd;
+  border-width: 3px;
 }
 
 .leto-hover-light[class*=leto-button]:hover {
-  background-color: #fdfdfd;
+  border-width: 3px;
 }
 
 .leto-hover-light[class*=leto-badge]:hover {
-  background-color: #fdfdfd;
+  border-width: 3px;
 }
 
 .leto-hover-light[class*=leto-text]:hover {
@@ -3410,19 +3371,19 @@ a {
 }
 
 .leto-hover-lightMedium[class*=leto-bubble]:hover {
-  background-color: #f2f2f2;
+  border-width: 3px;
 }
 
 .leto-hover-lightMedium[class*=leto-card]:hover {
-  background-color: #f2f2f2;
+  border-width: 3px;
 }
 
 .leto-hover-lightMedium[class*=leto-button]:hover {
-  background-color: #f2f2f2;
+  border-width: 3px;
 }
 
 .leto-hover-lightMedium[class*=leto-badge]:hover {
-  background-color: #f2f2f2;
+  border-width: 3px;
 }
 
 .leto-hover-lightMedium[class*=leto-text]:hover {
@@ -3434,19 +3395,19 @@ a {
 }
 
 .leto-hover-medium[class*=leto-bubble]:hover {
-  background-color: #dadada;
+  border-width: 3px;
 }
 
 .leto-hover-medium[class*=leto-card]:hover {
-  background-color: #dadada;
+  border-width: 3px;
 }
 
 .leto-hover-medium[class*=leto-button]:hover {
-  background-color: #dadada;
+  border-width: 3px;
 }
 
 .leto-hover-medium[class*=leto-badge]:hover {
-  background-color: #dadada;
+  border-width: 3px;
 }
 
 .leto-hover-medium[class*=leto-text]:hover {
@@ -3458,19 +3419,19 @@ a {
 }
 
 .leto-hover-darkMedium[class*=leto-bubble]:hover {
-  background-color: #a6a6a6;
+  border-width: 3px;
 }
 
 .leto-hover-darkMedium[class*=leto-card]:hover {
-  background-color: #a6a6a6;
+  border-width: 3px;
 }
 
 .leto-hover-darkMedium[class*=leto-button]:hover {
-  background-color: #a6a6a6;
+  border-width: 3px;
 }
 
 .leto-hover-darkMedium[class*=leto-badge]:hover {
-  background-color: #a6a6a6;
+  border-width: 3px;
 }
 
 .leto-hover-darkMedium[class*=leto-text]:hover {
@@ -3482,19 +3443,19 @@ a {
 }
 
 .leto-hover-dark[class*=leto-bubble]:hover {
-  background-color: #303030;
+  border-width: 3px;
 }
 
 .leto-hover-dark[class*=leto-card]:hover {
-  background-color: #303030;
+  border-width: 3px;
 }
 
 .leto-hover-dark[class*=leto-button]:hover {
-  background-color: #303030;
+  border-width: 3px;
 }
 
 .leto-hover-dark[class*=leto-badge]:hover {
-  background-color: #303030;
+  border-width: 3px;
 }
 
 .leto-hover-dark[class*=leto-text]:hover {
@@ -3506,19 +3467,19 @@ a {
 }
 
 .leto-hover-yellow[class*=leto-bubble]:hover {
-  background-color: #FFFD99;
+  border-width: 3px;
 }
 
 .leto-hover-yellow[class*=leto-card]:hover {
-  background-color: #FFFD99;
+  border-width: 3px;
 }
 
 .leto-hover-yellow[class*=leto-button]:hover {
-  background-color: #FFFD99;
+  border-width: 3px;
 }
 
 .leto-hover-yellow[class*=leto-badge]:hover {
-  background-color: #FFFD99;
+  border-width: 3px;
 }
 
 .leto-hover-yellow[class*=leto-text]:hover {
@@ -3530,19 +3491,19 @@ a {
 }
 
 .leto-hover-orange[class*=leto-bubble]:hover {
-  background-color: #FFBF80;
+  border-width: 3px;
 }
 
 .leto-hover-orange[class*=leto-card]:hover {
-  background-color: #FFBF80;
+  border-width: 3px;
 }
 
 .leto-hover-orange[class*=leto-button]:hover {
-  background-color: #FFBF80;
+  border-width: 3px;
 }
 
 .leto-hover-orange[class*=leto-badge]:hover {
-  background-color: #FFBF80;
+  border-width: 3px;
 }
 
 .leto-hover-orange[class*=leto-text]:hover {
@@ -3554,19 +3515,19 @@ a {
 }
 
 .leto-hover-red[class*=leto-bubble]:hover {
-  background-color: #FF8C8C;
+  border-width: 3px;
 }
 
 .leto-hover-red[class*=leto-card]:hover {
-  background-color: #FF8C8C;
+  border-width: 3px;
 }
 
 .leto-hover-red[class*=leto-button]:hover {
-  background-color: #FF8C8C;
+  border-width: 3px;
 }
 
 .leto-hover-red[class*=leto-badge]:hover {
-  background-color: #FF8C8C;
+  border-width: 3px;
 }
 
 .leto-hover-red[class*=leto-text]:hover {
@@ -3578,19 +3539,19 @@ a {
 }
 
 .leto-hover-purple[class*=leto-bubble]:hover {
-  background-color: #D499FF;
+  border-width: 3px;
 }
 
 .leto-hover-purple[class*=leto-card]:hover {
-  background-color: #D499FF;
+  border-width: 3px;
 }
 
 .leto-hover-purple[class*=leto-button]:hover {
-  background-color: #D499FF;
+  border-width: 3px;
 }
 
 .leto-hover-purple[class*=leto-badge]:hover {
-  background-color: #D499FF;
+  border-width: 3px;
 }
 
 .leto-hover-purple[class*=leto-text]:hover {
@@ -3602,19 +3563,19 @@ a {
 }
 
 .leto-hover-blue[class*=leto-bubble]:hover {
-  background-color: #99A7FF;
+  border-width: 3px;
 }
 
 .leto-hover-blue[class*=leto-card]:hover {
-  background-color: #99A7FF;
+  border-width: 3px;
 }
 
 .leto-hover-blue[class*=leto-button]:hover {
-  background-color: #99A7FF;
+  border-width: 3px;
 }
 
 .leto-hover-blue[class*=leto-badge]:hover {
-  background-color: #99A7FF;
+  border-width: 3px;
 }
 
 .leto-hover-blue[class*=leto-text]:hover {
@@ -3626,19 +3587,19 @@ a {
 }
 
 .leto-hover-mint[class*=leto-bubble]:hover {
-  background-color: #80FFD0;
+  border-width: 3px;
 }
 
 .leto-hover-mint[class*=leto-card]:hover {
-  background-color: #80FFD0;
+  border-width: 3px;
 }
 
 .leto-hover-mint[class*=leto-button]:hover {
-  background-color: #80FFD0;
+  border-width: 3px;
 }
 
 .leto-hover-mint[class*=leto-badge]:hover {
-  background-color: #80FFD0;
+  border-width: 3px;
 }
 
 .leto-hover-mint[class*=leto-text]:hover {
@@ -3650,19 +3611,19 @@ a {
 }
 
 .leto-hover-green[class*=leto-bubble]:hover {
-  background-color: #9BFF99;
+  border-width: 3px;
 }
 
 .leto-hover-green[class*=leto-card]:hover {
-  background-color: #9BFF99;
+  border-width: 3px;
 }
 
 .leto-hover-green[class*=leto-button]:hover {
-  background-color: #9BFF99;
+  border-width: 3px;
 }
 
 .leto-hover-green[class*=leto-badge]:hover {
-  background-color: #9BFF99;
+  border-width: 3px;
 }
 
 .leto-hover-green[class*=leto-text]:hover {
@@ -3692,11 +3653,12 @@ a {
   color: #a6a6a6 !important;
 }
 
-.leto-link {
+.leto-click {
   cursor: pointer;
 }
 
 .leto-no-link {
+  color: #303030;
   text-decoration: none;
   pointer-events: none;
 }
@@ -3750,6 +3712,6 @@ a {
 }
 
 .leto-bg-none {
-  border: none;
+  background-color: rgba(0, 0, 0, 0);
 }
 /*# sourceMappingURL=leto.css.map */

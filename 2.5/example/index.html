@@ -18,6 +18,10 @@
         <!-- LETO FRAME -->
         <div class="leto-frame">
             <!-- LETO EDGE LEFT FIXED -->
+            <!--<div class="leto-form">
+
+            </div>
+            <div class="leto-backdrop"></div>-->
             <div class="leto-row">
                 <div class="leto-edge-y leto-color-bg-light">
                     <!-- LETO BUBBLES -->
@@ -30,8 +34,9 @@
                     <div class="leto-bubble-lg"><span class="fa fa-code"></span></div>
                     <div class="leto-bubble-lg"><span class="fa fa-building"></span></div>
                 </div>
+                <div class="leto-subedge-left"></div>
                 <!-- LETO CONTAINER -->
-                <div class="leto-container-full leto-scrollable">
+                <div class="leto-container leto-scrollable">
                     <div>
                         <!-- LETO EDGE TOP -->
                         <div>
@@ -49,7 +54,7 @@
                             <!-- LETO INPUT -->
                             <div class="leto-row leto-mt-sm">
                                 <div class="leto-full">
-                                    <input type="text" class="leto-input-lg leto-disabled" placeholder="this is an input...">
+                                    <input type="text" class="leto-input-lg" placeholder="this is an input...">
                                 </div>         
                                 <div class="leto-bubble-lg">
                                     <span class="fa fa-rocket"></span>
@@ -57,8 +62,8 @@
                             </div>
 
                             <!-- LETO CARD GROUP -->
-                            <div class="leto-layout leto-mt-sm leto-m-balance-xxs">
-                                <div class="leto-full leto-half-tablet leto-quater-pc leto-p-xxs">
+                            <div class="leto-layout leto-mt-sm">
+                                <div class="leto-full leto-half-tablet leto-quater-pc">
                                     <div class="leto-card">
                                         <image src="assets/placeholder.jpg" class="leto-image-full"></image>
                                         <div class="leto-header leto-p-none">
@@ -72,19 +77,23 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="leto-full leto-half-tablet leto-quater-pc leto-p-xxs">
-                                    <div class="leto-card">
-                                        <image src="assets/placeholder.jpg" class="leto-image-full"></image>
-                                        <div class="leto-header leto-p-none">
-                                            <div class="leto-bubble"><span class="fa fa-user"></span></div>
-                                            <a href="#">This is a card</a>
+                                <div class="leto-full leto-half-tablet leto-quater-pc">
+                                    <div class="leto-card-wrapper">
+                                        <div class="leto-card">
+                                            <image src="assets/placeholder.jpg" class="leto-image-full"></image>
+                                            <div class="leto-header leto-p-none">
+                                                <div class="leto-bubble"><span class="fa fa-user"></span></div>
+                                                <a href="#">This is a card</a>
+                                            </div>
+                                            <div class="leto-content">
+                                                <span class="leto-badge">BADGE</span>
+                                                <p>Content</p>
+                                                <div class="leto-button">Button</div>
+                                            </div>
                                         </div>
-                                        <div class="leto-content">
-                                            <span class="leto-badge">BADGE</span>
-                                            <p>Content</p>
-                                            <div class="leto-button">Button</div>
-                                        </div>
+                                        <label>Test</label>
                                     </div>
+
                                 </div>
                                 <div class="leto-full leto-half-tablet leto-quater-pc leto-p-xxs">
                                     <div class="leto-card">
@@ -173,9 +182,13 @@
                             </div>
                             <!-- LETO TABLE -->
                             <table class="leto-table">
-                                <tr class="leto-header">
+                                <th>
                                     <td>this is </td>
                                     <td>a leto table</td>
+                                </th>
+                                <tr>
+                                    <td>isn't this</td>
+                                    <td>cool?</td>
                                 </tr>
                                 <tr>
                                     <td>isn't this</td>
@@ -184,7 +197,7 @@
                             </table>
                             <br>
                             <!-- LETO CARD PILE -->
-                            <div class="leto-layout-masonry-4 leto-m-balance-xxs">
+                            <div class="leto-masonry leto-m-balance-xxs">
                                 <div class="leto-card">
                                     <div class="leto-header">
                                         <div class="leto-bubble"><span class="fa fa-user"></span></div>

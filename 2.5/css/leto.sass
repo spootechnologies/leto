@@ -47,7 +47,7 @@ p, b,
     margin: $xs
 
 a
-    color: $colorDark
+    color: $colorBlue
     text-decoration: none
 
     
@@ -198,19 +198,7 @@ a
             +cardSquare($xxl)         
 
 
-// Pile
-
-.leto-pile-item
-    margin-top: $xs
-    margin-left: $xs
-    margin-right: $xs
-    margin-bottom: $xs
-    padding: $xs
-    border: 1px solid $colorMedium
-    border-radius: 12px
-
-
-// Button
+// Button ... adding Sizes
 
 .leto-button
     text-decoration: none
@@ -223,7 +211,7 @@ a
     display: inline-block
 
 
-// Badge
+// Badge ... adding Sizes
 
 .leto-badge
     background: $colorLightMedium
@@ -341,7 +329,7 @@ a
     +textarea()
 
 
-// Table
+// Table ... leto-header to th transformation th table row
 
 .leto-table
     border-collapse: separate
@@ -373,11 +361,7 @@ a
             border-bottom-right-radius: $xs
 
 
-// Leto without theme
-
-.leto-wrapper
-    flex-direction: column
-    display: inline-flex
+// Leto core
 
 // Bubble
 
@@ -388,7 +372,7 @@ a
     flex-direction: column
     display: inline-flex
 
-    > [class*=leto-bubble]
+    > .leto-bubble
         height: $value * 2
         width: $value * 2
         border-radius: $value
@@ -429,8 +413,7 @@ a
     &-xxl
         +bubbleWrapper($xxl)
 
-// Card
-
+// Card add Card Wrapper Mixin to .leto-card-wrapper
 
 =cardWrapper($value)
     margin: $xs
@@ -455,17 +438,10 @@ a
     display: inline-flex
 
 .leto-header
+    font-weight: $fontWeightMedium
     align-items: center
     flex-direction: row
     display: flex
-
-.leto-table
-
-    .leto-header
-        display: table-row
-
-.leto-content
-               
 
 .leto-image
 
@@ -488,6 +464,9 @@ a
         padding: $xs
         display: block
 
+
+// Table
+
 .leto-table
 
     .leto-header
@@ -499,8 +478,19 @@ a
 // Form
  
 .leto-form
+    background-color: $colorLight
+    position: fixed
+    width: 100%
+    height: 100%
+    top: 0
+    left: 0
+    flex-direction: column
+    display: flex
+    overflow-y: scroll
+    z-index: 2
 
     &-left
+        background-color: $colorLight
         position: fixed
         width: 100%
         height: 100%
@@ -508,19 +498,11 @@ a
         left: 0
         flex-direction: column
         display: flex
-        overflow: scroll
-
-    &-center
-        position: fixed
-        width: 100%
-        height: 100%
-        top: 0
-        left: 0
-        flex-direction: column
-        display: flex
-        overflow: scroll
+        overflow-y: scroll
+        z-index: 2
 
     &-right
+        background-color: $colorLight
         position: fixed
         width: 100%
         height: 100%
@@ -528,27 +510,18 @@ a
         right: 0
         flex-direction: column
         display: flex
-        overflow: scroll
+        overflow-y: scroll
+        z-index: 2
 
     @media (min-width: $pc)
+        width: 50vw
+        left: 50%
+        margin-left: -25vw
 
         &-left, &-right
             width: 50vw
 
-        &-center
-            width: 50vw
-            left: 50%
-            margin-left: -25vw
-
-.uneditable-input:focus
-    outline: 0
-
-.scrollable-table
-    display: block
-    overflow-x: auto
-    white-space: nowrap
-
-
+    
 // Frame
 
 .leto-frame
@@ -559,6 +532,7 @@ a
 .leto-container
     position: relative
     width: 100%
+    max-width: 1024px
     margin-left: auto
     margin-right: auto
     padding: 8px
@@ -631,21 +605,29 @@ a
 .leto-subedge
 
     &-top
+        position: fixed
+        width: 100%
         height: 100%
         flex-direction: row
         display: flex
     
     &-left
+        position: fixed
         width: 100%
+        height: 100%
         flex-direction: column
         display: flex
 
     &-right
+        position: fixed
         width: 100%
+        height: 100%
         flex-direction: column
         display: flex
 
     &-bottom
+        position: fixed
+        width: 100%
         height: 100%
         flex-direction: row
         display: flex
@@ -673,6 +655,7 @@ a
     height: 100%
     width: 100%
     background: rgba(0, 0, 0, .25)
+    z-index: 1
 
 
 // Layout
@@ -691,28 +674,20 @@ a
         break-inside: avoid;
         counter-increment: item-counter;
 
-.leto-layout
-    flex-direction: row
-    flex-wrap: wrap
-    display: flex
+.leto-group
+    diplay: flex
 
 .leto-row
     flex-direction: row
-    display: flex
 
 .leto-column
     flex-direction: column
-    display: flex
 
 .leto-column-reverse
     flex-direction: column-reverse
-    display: flex
 
 .leto-wrap
     flex-wrap: wrap
-
-.leto-nowrap
-    flex-wrap: nowrap
 
 .leto-wrap-reverse
     flex-wrap: wrap-reverse
@@ -1382,7 +1357,7 @@ a
         border-radius: $xxl
 
     &-full
-        border-radius: 100px
+        border-radius: 1000px
 
 
 // Border
@@ -1556,16 +1531,16 @@ a
     background-color: $color
 
     &[class*=leto-bubble]
-        background-color: $color
+        border-width: 3px
 
     &[class*=leto-card]
-        background-color: $color
+        border-width: 3px
 
     &[class*=leto-button]
-        background-color: $color
+        border-width: 3px
 
     &[class*=leto-badge]
-        background-color: $color
+        border-width: 3px
 
     &[class*=leto-text]
         color: $color
@@ -1620,16 +1595,16 @@ a
         background-color: $color
 
     &[class*=leto-bubble]:hover
-        background-color: $color
+        border-width: 3px
 
     &[class*=leto-card]:hover
-        background-color: $color
+        border-width: 3px
 
     &[class*=leto-button]:hover
-        background-color: $color
+        border-width: 3px
 
     &[class*=leto-badge]:hover
-        background-color: $color
+        border-width: 3px
 
     &[class*=leto-text]:hover
         color: $color
@@ -1687,15 +1662,16 @@ a
        color: $colorDarkMedium !important 
 
 
-// Link
+// Click
 
-.leto-link
+.leto-click
     cursor: pointer
 
 
 // No Link
 
 .leto-no-link
+    color: $colorDark
     text-decoration: none
     pointer-events: none
 
@@ -1741,4 +1717,4 @@ a
         background-color: $colorGreen
     
     &-none
-        border: none
+        background-color: rgba(0, 0, 0, 0)
