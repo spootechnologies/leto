@@ -8,10 +8,10 @@
     box-sizing: border-box
 
 body
-    background-color: $colorLight
+    background-color: $colorWhite
     font-family: 'Montserrat', sans-serif
     font-size: $fontSizeMD
-    color: $colorDark
+    color: $colorBlack
     margin: 0
     padding: 0
 
@@ -34,6 +34,13 @@ input
     &[type="text"]:focus, &[type="password"]:focus, &[type="datetime"]:focus, &[type="datetime-local"]:focus, &[type="date"]:focus, &[type="month"]:focus, &[type="time"]:focus, &[type="week"]:focus, &[type="number"]:focus, &[type="email"]:focus, &[type="url"]:focus, &[type="search"]:focus, &[type="tel"]:focus, &[type="color"]:focus
         outline: 0
 
+a
+    color: $colorBlack
+    text-decoration: none
+
+
+// Leto with default theme
+
 h1
     margin: $xs
 
@@ -46,18 +53,11 @@ h4, h5
 p, b,
     margin: $xs
 
-a
-    color: $colorDark
-    text-decoration: none
-
-    
-// Leto with spoo theme
-
 =bubble($value)
     height: $value * 2
     width: $value * 2
     font-size: $value * .66
-    border: 1px solid $colorMedium
+    border: 1px solid $colorGrey
     border-radius: $value
     margin: $xs
     text-align: center
@@ -101,7 +101,7 @@ a
     position: relative
     width: $value*10
     min-height: 50px
-    border: 1px solid $colorMedium
+    border: 1px solid $colorGrey
     border-radius: 12px
     margin: $xs
     padding: $xs
@@ -118,7 +118,7 @@ a
 =cardAutoWidth()
     position: relative
     min-height: 50px
-    border: 1px solid $colorMedium
+    border: 1px solid $colorGrey
     border-radius: 12px
     margin: $xs
     padding: $xs
@@ -136,7 +136,7 @@ a
     position: relative
     width: $value*10
     height: $value*10
-    border: 1px solid $colorMedium
+    border: 1px solid $colorGrey
     border-radius: 12px
     margin: $xs
     flex-direction: column
@@ -201,12 +201,9 @@ a
 // Pile
 
 .leto-pile-item
-    margin-top: $xs
-    margin-left: $xs
-    margin-right: $xs
-    margin-bottom: $xs
+    margin: $xs
     padding: $xs
-    border: 1px solid $colorMedium
+    border: 1px solid $colorGrey
     border-radius: 12px
 
 
@@ -215,7 +212,7 @@ a
 .leto-button
     text-decoration: none
     text-align: center
-    border: 1px solid $colorMedium
+    border: 1px solid $colorGrey
     border-radius: 100px
     margin: $xs
     padding: $xs $sm
@@ -226,7 +223,7 @@ a
 // Badge
 
 .leto-badge
-    background: $colorLightMedium
+    background: $colorLightGrey
     font-size: $fontSizeXS
     border-radius: 100px
     padding: $xxs $xs
@@ -241,17 +238,14 @@ a
     background-color: rgba(255, 255, 255, 0)
     height: $height * 2
     font-size: $fontSizeMD
-    border: 1px solid $colorMedium
+    border: 1px solid $colorGrey
     border-radius: 12px
-    margin-top: $xs
-    margin-left: $xs
-    margin-right: $xs
-    margin-bottom: $xs
+    margin: $xs
     padding: $xs $sm
 
     &:focus
-        background-color: $colorLightMedium
-        border-color: $colorLightMedium
+        background-color: $colorLightGrey
+        border-color: $colorLightGrey
 
 .leto-input
     +input($md)
@@ -281,19 +275,16 @@ a
 // Search
 
 =search($height)
-    background-color: $colorLightMedium
+    background-color: $colorLightGrey
     height: $height * 2
     font-size: $fontSizeMD
     border-radius: 12px
-    margin-top: $xs
-    margin-left: $xs
-    margin-right: $xs
-    margin-bottom: $xs
+    margin: $xs
     padding: $xs $sm
 
     &:focus
         background-color: rgba(0, 0, 0, 0)
-        border-color: $colorMedium
+        border-color: $colorGrey
 
 .leto-search
     +search($md)
@@ -325,17 +316,14 @@ a
 =textarea()
     background-color: rgba(255, 255, 255, 0)
     font-size: $fontSizeMD
-    border: 1px solid $colorMedium
+    border: 1px solid $colorGrey
     border-radius: 12px
-    margin-top: $xs
-    margin-left: $xs
-    margin-right: $xs
-    margin-bottom: $xs
+    margin: $xs
     padding: $xs $sm
 
     &:focus
-        background-color: $colorLightMedium
-        border-color: $colorLightMedium
+        background-color: $colorLightGrey
+        border-color: $colorLightGrey
 
 .leto-textarea
     +textarea()
@@ -351,33 +339,26 @@ a
     tr:not(.leto-header) // ...
 
         th
-            border-top: 1px solid $colorMedium
-            border-bottom: 1px solid $colorMedium
+            border-top: 1px solid $colorGrey
+            border-bottom: 1px solid $colorGrey
             padding: $sm
 
         td
-            border-top: 1px solid $colorMedium
-            border-bottom: 1px solid $colorMedium
+            border-top: 1px solid $colorGrey
+            border-bottom: 1px solid $colorGrey
             padding: $sm
 
     tr:not(.leto-header) // ...
 
         td:first-child, th:first-child
-            border-left: 1px solid $colorMedium
+            border-left: 1px solid $colorGrey
             border-top-left-radius: $xs
             border-bottom-left-radius: $xs
 
         td:last-child, th:last-child
-            border-right: 1px solid $colorMedium
+            border-right: 1px solid $colorGrey
             border-top-right-radius: $xs
             border-bottom-right-radius: $xs
-
-
-// Leto without theme
-
-.leto-wrapper
-    flex-direction: column
-    display: inline-flex
 
 // Bubble
 
@@ -454,6 +435,12 @@ a
     text-decoration: none
     display: inline-flex
 
+// Leto Core Styles
+
+.leto-wrapper
+    flex-direction: column
+    display: inline-flex
+
 .leto-header
     align-items: center
     flex-direction: row
@@ -478,6 +465,10 @@ a
 // Pile
 
 .leto-pile
+    flex-direction: column
+    display: flex
+    
+
 
     > *
         display: block
@@ -508,7 +499,7 @@ a
         left: 0
         flex-direction: column
         display: flex
-        overflow: scroll
+        overflow-y: scroll
 
     &-center
         position: fixed
@@ -518,7 +509,7 @@ a
         left: 0
         flex-direction: column
         display: flex
-        overflow: scroll
+        overflow-y: scroll
 
     &-right
         position: fixed
@@ -528,7 +519,7 @@ a
         right: 0
         flex-direction: column
         display: flex
-        overflow: scroll
+        overflow-y: scroll
 
     @media (min-width: $pc)
 
@@ -830,8 +821,56 @@ a
     +letoWidth(calc(100% / 6))   
 
 .leto-eighth
-    +letoWidth(12.5%)   
+    +letoWidth(12.5%)
 
+
+// Display
+
+.leto-block   
+    display: block
+
+.leto-inline-block   
+    display: inline-block
+
+.leto-inline   
+    display: inline
+
+.leto-flex   
+    display: flex
+
+.leto-inline-flex
+    display: inline-flex
+
+.leto-hidden   
+    display: hidden
+
+
+// Overflow
+
+leto-overflow-scroll
+    overflow: scroll
+
+leto-overflow-hidden
+    overflow: hidden
+
+leto-overflow-y-hidden
+    overflow-y: hidden
+
+leto-overflow-y-scroll
+    overflow-y: scroll
+
+leto-overflow-x-hidden
+    overflow-x: hidden
+
+leto-overflow-x-scroll
+    overflow-x: scroll
+
+
+// Shrink
+
+leto-no-shrink
+    flex-shrink: 0
+    
 
 // Margin
 
@@ -1388,42 +1427,42 @@ a
 // Border
 
 .leto-border
-    border: 1px solid $colorMedium
+    border: 1px solid $colorGrey
 
     &-x
-        border-top: 1px solid $colorMedium
-        border-bottom: 1px solid $colorMedium
+        border-top: 1px solid $colorGrey
+        border-bottom: 1px solid $colorGrey
 
     &-y
-        border-left: 1px solid $colorMedium
-        border-right: 1px solid $colorMedium
+        border-left: 1px solid $colorGrey
+        border-right: 1px solid $colorGrey
 
     &-top
-        border-top: 1px solid $colorMedium
+        border-top: 1px solid $colorGrey
 
     &-left
-        border-left: 1px solid $colorMedium
+        border-left: 1px solid $colorGrey
 
     &-right
-        border-right: 1px solid $colorMedium
+        border-right: 1px solid $colorGrey
 
     &-bottom
-        border-bottom: 1px solid $colorMedium
+        border-bottom: 1px solid $colorGrey
 
-    &-light
-        border-color: $colorLight
+    &-white
+        border-color: $colorWhite
 
-    &-lightMedium
-        border-color: $colorLightMedium
+    &-lightGrey
+        border-color: $colorLightGrey
 
-    &-medium
-        border-color: $colorMedium
+    &-grey
+        border-color: $colorGrey
 
-    &-darkMedium
-        border-color: $colorDarkMedium
+    &-darkGrey
+        border-color: $colorDarkGrey
 
-    &-dark
-        border-color: $colorDark
+    &-black
+        border-color: $colorBlack
 
     &-yellow
         border-color: $colorYellow
@@ -1511,43 +1550,41 @@ a
     &-right
         text-align: right
 
-    &-color
+    &-white
+        color: $colorWhite
 
-        &-light
-            color: $colorLight
+    &-lightGrey
+        color: $colorLightGrey
 
-        &-lightMedium
-            color: $colorLightMedium
+    &-darkGrey
+        color: $colorDarkGrey
 
-        &-darkMedium
-            color: $colorDarkMedium
+    &-grey
+        color: $colorGrey
 
-        &-medium
-            color: $colorMedium
+    &-black
+        color: $colorBlack
 
-        &-dark
-            color: $colorDark
+    &-yellow
+        color: $colorYellow
 
-        &-yellow
-            color: $colorYellow
+    &-orange
+        color: $colorOrange
 
-        &-orange
-            color: $colorOrange
+    &-red
+        color: $colorRed
 
-        &-red
-            color: $colorRed
+    &-purple
+        color: $colorPurple
 
-        &-purple
-            color: $colorPurple
+    &-blue
+        color: $colorBlue
 
-        &-blue
-            color: $colorBlue
+    &-mint
+        color: $colorMint
 
-        &-mint
-            color: $colorMint
-
-        &-green
-            color: $colorGreen
+    &-green
+        color: $colorGreen
 
 
 // Focus
@@ -1572,22 +1609,22 @@ a
 
 
 .leto-active
-    +active($colorMedium)
+    +active($colorGrey)
 
-    &-light
-        +active($colorLight)
+    &-white
+        +active($colorWhite)
 
-    &-lightMedium
-        +active($colorLightMedium)
+    &-lightGrey
+        +active($colorLightGrey)
 
-    &-medium
-        +active($colorMedium)
+    &-grey
+        +active($colorGrey)
 
-    &-darkMedium
-        +active($colorDarkMedium)
+    &-darkGrey
+        +active($colorDarkGrey)
 
-    &-dark
-        +active($colorDark)
+    &-black
+        +active($colorBlack)
 
     &-yellow
         +active($colorYellow)
@@ -1636,22 +1673,22 @@ a
 
 
 .leto-hover
-    +hover($colorMedium)
+    +hover($colorGrey)
 
-    &-light
-        +hover($colorLight)
+    &-white
+        +hover($colorWhite)
 
-    &-lightMedium
-        +hover($colorLightMedium)
+    &-lightGrey
+        +hover($colorLightGrey)
 
-    &-medium
-        +hover($colorMedium)
+    &-grey
+        +hover($colorGrey)
 
-    &-darkMedium
-        +hover($colorDarkMedium)
+    &-darkGrey
+        +hover($colorDarkGrey)
 
-    &-dark
-        +hover($colorDark)
+    &-black
+        +hover($colorBlack)
 
     &-yellow
         +hover($colorYellow)
@@ -1678,13 +1715,13 @@ a
 // Disabled
 
 .leto-disabled
-    background-color: $colorLightMedium !important
-    border-color: $colorLightMedium !important
-    color: $colorDarkMedium !important
+    background-color: $colorLightGrey !important
+    border-color: $colorLightGrey !important
+    color: $colorDarkGrey !important
     pointer-events: none
 
     &::placeholder
-       color: $colorDarkMedium !important 
+       color: $colorDarkGrey !important 
 
 
 // Link
@@ -1704,20 +1741,20 @@ a
 
 .leto-bg
 
-    &-light
-        background-color: $colorLight
+    &-white
+        background-color: $colorWhite
 
-    &-lightMedium
-        background-color: $colorLightMedium
+    &-lightGrey
+        background-color: $colorLightGrey
 
-    &-medium
-        background-color: $colorMedium
+    &-grey
+        background-color: $colorGrey
 
-    &-darkMedium
-        background-color: $colorDarkMedium
+    &-darkGrey
+        background-color: $colorDarkGrey
 
-    &-dark
-        background-color: $colorDark
+    &-black
+        background-color: $colorBlack
 
     &-yellow
         background-color: $colorYellow

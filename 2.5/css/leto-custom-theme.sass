@@ -1,13 +1,9 @@
 @import 'leto-variables.sass'
 
 
-// Leto with custom theme
+// Leto Default Theme Overwrite
 
-.leto-frame-theme-custom
-    padding: 0
-
-    &-full 
-        padding: 0
+[class*=leto-frame-theme]
 
     h1
         margin: 0
@@ -21,44 +17,13 @@
     p, b,
         margin: 0
 
-
-    // Bubble
-
-    =bubbleLabel($size)
-        max-width: $size * 2
-        text-decoration: none
-        text-align: center
-        overflow: hidden
-        text-overflow: ellipsis
-        
-    .leto-bubble-label
-        +bubbleLabel($md)
-
-        &-xxs
-            +bubbleLabel($xxs)
-
-        &-xs
-            +bubbleLabel($xs)
-
-        &-sm
-            +bubbleLabel($sm)
-
-        &-md
-            +bubbleLabel($md)
-
-        &-lg
-            +bubbleLabel($lg)
-
-        &-xl
-            +bubbleLabel($xl)
-
-        &-xxl
-            +bubbleLabel($xxl)  
-
     =bubble($value)
         height: $value * 2
         width: $value * 2
         font-size: $value * .66
+        border: 0
+        border-radius: 0
+        margin: 0
         text-align: center
         flex-direction: column
         align-items: center
@@ -67,8 +32,7 @@
         display: inline-flex
 
         img
-            max-height: auto
-            max-width: $value * .66    
+            max-width: $value * 0.66   
 
     .leto-bubble
         +bubble($md)
@@ -94,56 +58,60 @@
         &-xxl
             +bubble($xxl)
 
-        &.active
-            border: 3px solid #FFFFFF
-            box-shadow: 0 0 0 2px $colorMedium
-
 
     // Card
-
-    .leto-card-label
-        max-width: 100%
-
-        &-xxs
-            max-width: $xxs * 10
-
-        &-xs
-            max-width: $xs * 10
-
-        &-sm
-            max-width: $sm * 10
-
-        &-md
-            max-width: $md * 10
-
-        &-lg
-            max-width: $lg * 10
-
-        &-xl
-            max-width: $xl * 10
-
-        &-xxl
-            max-width: $xxl * 10
 
     =card($value)
         position: relative
         width: $value*10
         min-height: 50px
-        display: inline-block
+        border: 0
+        border-radius: 0
+        margin: 0
+        padding: 0
+        flex-direction: column
+        display: inline-flex
         overflow: hidden
+
+        > .leto-image-full
+            margin-top: 0
+            margin-left: 0
+            margin-right: 0
+            width: 100%
 
     =cardAutoWidth()
         position: relative
         min-height: 50px
-        display: inline-block
+        border: 0
+        border-radius: 0
+        margin: 0
+        padding: 0
+        flex-direction: column
+        display: inline-flex
         overflow: hidden
+
+        > .leto-image-full
+            margin-top: 0
+            margin-left: 0
+            margin-right: 0
+            width: 100%
 
     =cardSquare($value)
         position: relative
         width: $value*10
         height: $value*10
-        display: inline-block
+        border: 0
+        border-radius: 0
+        margin: 0
+        flex-direction: column
+        display: inline-flex
         overflow: hidden 
+
+        > .leto-image-full
+            margin-top: 0
+            margin-left: 0
+            margin-right: 0
+            width: 100%
 
     .leto-card
         +cardAutoWidth()
@@ -169,7 +137,8 @@
         &-xxl
             +card($xxl)    
 
-        &-square 
+        &-square
+            +cardSquare($md) 
 
             &-xxs
                 +cardSquare($xxs)  
@@ -190,41 +159,58 @@
                 +cardSquare($xl) 
 
             &-xxl
-                +cardSquare($xxl)
+                +cardSquare($xxl)         
 
 
     // Pile
 
     .leto-pile-item
-        padding: $xs
+        margin: 0
+        padding: 0
+        border: 0
+        border-radius: 0
 
 
     // Button
 
     .leto-button
+        background: rgba(0, 0, 0, 0)
         text-decoration: none
         text-align: center
-        padding: $xs $sm
-        display: inline-block 
-        cursor: pointer   
+        border: 0
+        border-radius: 0
+        margin: 0
+        padding: 0
+        cursor: pointer
+        display: inline-block
 
 
     // Badge
 
     .leto-badge
+        background: rgba(0, 0, 0, 0)
         font-size: $fontSizeXS
+        border-radius: 0
+        padding: 0
+        margin: 0
         white-space: nowrap
-        padding: $xxs $xs
         display: inline-block
 
 
     // Input
 
     =input($height)
-        background: none
+        background-color: rgba(255, 255, 255, 0)
         height: $height * 2
         font-size: $fontSizeMD
+        border: 0
+        border-radius: 0
+        margin: 0
         padding: $xs $sm
+
+        &:focus
+            background-color: $colorLightGrey
+            border-color: $colorLightGrey
 
     .leto-input
         +input($md)
@@ -254,10 +240,16 @@
     // Search
 
     =search($height)
-        background: none
+        background-color: $colorLightGrey
         height: $height * 2
         font-size: $fontSizeMD
+        border-radius: 0
+        margin: 0
         padding: $xs $sm
+
+        &:focus
+            background-color: rgba(0, 0, 0, 0)
+            border-color: $colorGrey
 
     .leto-search
         +search($md)
@@ -287,9 +279,16 @@
     // Textarea
 
     =textarea()
-        background: none
+        background-color: rgba(255, 255, 255, 0)
         font-size: $fontSizeMD
+        border: 0
+        border-radius: 0
+        margin: 0
         padding: $xs $sm
+
+        &:focus
+            background-color: $colorLightGrey
+            border-color: $colorLightGrey
 
     .leto-textarea
         +textarea()
@@ -302,12 +301,101 @@
         border-spacing: 0 15px
         width: 100%
 
-        tr:not(.leto-table-header)
+        tr:not(.leto-header) // ...
 
             th
-                padding: $sm
+                border-top: 0
+                border-bottom: 0
+                padding: 0
 
             td
-                padding: $sm
+                border-top: 0
+                border-bottom: 0
+                padding: 0
 
-        tr:not(.leto-table-header)
+        tr:not(.leto-header) // ...
+
+            td:first-child, th:first-child
+                border-left: 0
+                border-top-left-radius: 0
+                border-bottom-left-radius: 0
+
+            td:last-child, th:last-child
+                border-right: 0
+                border-top-right-radius: 0
+                border-bottom-right-radius: 0
+
+    // Bubble
+
+    =bubbleWrapper($value)
+        width: $value * 2
+        margin: 0
+        justify-content: center
+        flex-direction: column
+        display: inline-flex
+
+        > [class*=leto-bubble]
+            height: $value * 2
+            width: $value * 2
+            border-radius: 0
+
+        > [class*=leto-bubble]
+            margin: 0
+
+        > label
+            text-align: center
+
+        > [class*=leto-bubble] ~ label
+            margin-top: 0
+
+        > label ~ [class*=leto-bubble]
+            margin-top: 0
+
+    .leto-bubble-wrapper
+        +bubbleWrapper($md)
+
+        &-xxs
+            +bubbleWrapper($xxs)
+            
+        &-xs
+            +bubbleWrapper($xs)
+
+        &-sm
+            +bubbleWrapper($sm)
+
+        &-md
+            +bubbleWrapper($md)
+            
+        &-lg
+            +bubbleWrapper($lg)
+
+        &-xl
+            +bubbleWrapper($xl)
+
+        &-xxl
+            +bubbleWrapper($xxl)
+
+    // Card
+
+
+    =cardWrapper($value)
+        margin: 0
+        justify-content: center
+        flex-direction: column
+        display: inline-flex
+
+        > [class*=leto-card]
+            margin: 0
+
+        > label
+            text-align: center
+
+        > [class*=leto-card] ~ label
+            margin-top: 0
+
+        > label ~ [class*=leto-card]
+            margin-top: 0
+
+    .leto-card-wrapper
+        text-decoration: none
+        display: inline-flex

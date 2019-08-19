@@ -38,6 +38,11 @@ input[type="text"]:focus, input[type="password"]:focus, input[type="datetime"]:f
   outline: 0;
 }
 
+a {
+  color: #303030;
+  text-decoration: none;
+}
+
 h1 {
   margin: 8px;
 }
@@ -52,11 +57,6 @@ h4, h5 {
 
 p, b {
   margin: 8px;
-}
-
-a {
-  color: #303030;
-  text-decoration: none;
 }
 
 .leto-bubble {
@@ -683,10 +683,7 @@ a {
 }
 
 .leto-pile-item {
-  margin-top: 8px;
-  margin-left: 8px;
-  margin-right: 8px;
-  margin-bottom: 8px;
+  margin: 8px;
   padding: 8px;
   border: 1px solid #dadada;
   border-radius: 12px;
@@ -719,10 +716,7 @@ a {
   font-size: 16px;
   border: 1px solid #dadada;
   border-radius: 12px;
-  margin-top: 8px;
-  margin-left: 8px;
-  margin-right: 8px;
-  margin-bottom: 8px;
+  margin: 8px;
   padding: 8px 16px;
 }
 
@@ -737,10 +731,7 @@ a {
   font-size: 16px;
   border: 1px solid #dadada;
   border-radius: 12px;
-  margin-top: 8px;
-  margin-left: 8px;
-  margin-right: 8px;
-  margin-bottom: 8px;
+  margin: 8px;
   padding: 8px 16px;
 }
 
@@ -755,10 +746,7 @@ a {
   font-size: 16px;
   border: 1px solid #dadada;
   border-radius: 12px;
-  margin-top: 8px;
-  margin-left: 8px;
-  margin-right: 8px;
-  margin-bottom: 8px;
+  margin: 8px;
   padding: 8px 16px;
 }
 
@@ -773,10 +761,7 @@ a {
   font-size: 16px;
   border: 1px solid #dadada;
   border-radius: 12px;
-  margin-top: 8px;
-  margin-left: 8px;
-  margin-right: 8px;
-  margin-bottom: 8px;
+  margin: 8px;
   padding: 8px 16px;
 }
 
@@ -791,10 +776,7 @@ a {
   font-size: 16px;
   border: 1px solid #dadada;
   border-radius: 12px;
-  margin-top: 8px;
-  margin-left: 8px;
-  margin-right: 8px;
-  margin-bottom: 8px;
+  margin: 8px;
   padding: 8px 16px;
 }
 
@@ -809,10 +791,7 @@ a {
   font-size: 16px;
   border: 1px solid #dadada;
   border-radius: 12px;
-  margin-top: 8px;
-  margin-left: 8px;
-  margin-right: 8px;
-  margin-bottom: 8px;
+  margin: 8px;
   padding: 8px 16px;
 }
 
@@ -827,10 +806,7 @@ a {
   font-size: 16px;
   border: 1px solid #dadada;
   border-radius: 12px;
-  margin-top: 8px;
-  margin-left: 8px;
-  margin-right: 8px;
-  margin-bottom: 8px;
+  margin: 8px;
   padding: 8px 16px;
 }
 
@@ -845,10 +821,7 @@ a {
   font-size: 16px;
   border: 1px solid #dadada;
   border-radius: 12px;
-  margin-top: 8px;
-  margin-left: 8px;
-  margin-right: 8px;
-  margin-bottom: 8px;
+  margin: 8px;
   padding: 8px 16px;
 }
 
@@ -862,10 +835,7 @@ a {
   height: 48px;
   font-size: 16px;
   border-radius: 12px;
-  margin-top: 8px;
-  margin-left: 8px;
-  margin-right: 8px;
-  margin-bottom: 8px;
+  margin: 8px;
   padding: 8px 16px;
 }
 
@@ -879,10 +849,7 @@ a {
   height: 8px;
   font-size: 16px;
   border-radius: 12px;
-  margin-top: 8px;
-  margin-left: 8px;
-  margin-right: 8px;
-  margin-bottom: 8px;
+  margin: 8px;
   padding: 8px 16px;
 }
 
@@ -896,10 +863,7 @@ a {
   height: 16px;
   font-size: 16px;
   border-radius: 12px;
-  margin-top: 8px;
-  margin-left: 8px;
-  margin-right: 8px;
-  margin-bottom: 8px;
+  margin: 8px;
   padding: 8px 16px;
 }
 
@@ -913,10 +877,7 @@ a {
   height: 32px;
   font-size: 16px;
   border-radius: 12px;
-  margin-top: 8px;
-  margin-left: 8px;
-  margin-right: 8px;
-  margin-bottom: 8px;
+  margin: 8px;
   padding: 8px 16px;
 }
 
@@ -930,10 +891,7 @@ a {
   height: 48px;
   font-size: 16px;
   border-radius: 12px;
-  margin-top: 8px;
-  margin-left: 8px;
-  margin-right: 8px;
-  margin-bottom: 8px;
+  margin: 8px;
   padding: 8px 16px;
 }
 
@@ -947,10 +905,7 @@ a {
   height: 64px;
   font-size: 16px;
   border-radius: 12px;
-  margin-top: 8px;
-  margin-left: 8px;
-  margin-right: 8px;
-  margin-bottom: 8px;
+  margin: 8px;
   padding: 8px 16px;
 }
 
@@ -964,10 +919,7 @@ a {
   height: 96px;
   font-size: 16px;
   border-radius: 12px;
-  margin-top: 8px;
-  margin-left: 8px;
-  margin-right: 8px;
-  margin-bottom: 8px;
+  margin: 8px;
   padding: 8px 16px;
 }
 
@@ -981,10 +933,7 @@ a {
   height: 128px;
   font-size: 16px;
   border-radius: 12px;
-  margin-top: 8px;
-  margin-left: 8px;
-  margin-right: 8px;
-  margin-bottom: 8px;
+  margin: 8px;
   padding: 8px 16px;
 }
 
@@ -998,10 +947,7 @@ a {
   font-size: 16px;
   border: 1px solid #dadada;
   border-radius: 12px;
-  margin-top: 8px;
-  margin-left: 8px;
-  margin-right: 8px;
-  margin-bottom: 8px;
+  margin: 8px;
   padding: 8px 16px;
 }
 
@@ -1038,16 +984,6 @@ a {
   border-right: 1px solid #dadada;
   border-top-right-radius: 8px;
   border-bottom-right-radius: 8px;
-}
-
-.leto-wrapper {
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
 }
 
 .leto-bubble-wrapper {
@@ -1353,6 +1289,16 @@ a {
   display: inline-flex;
 }
 
+.leto-wrapper {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
 .leto-header {
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -1373,6 +1319,16 @@ a {
 .leto-image-full {
   max-height: auto;
   width: 100%;
+}
+
+.leto-pile {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .leto-pile > * {
@@ -1403,7 +1359,7 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  overflow: scroll;
+  overflow-y: scroll;
 }
 
 .leto-form-center {
@@ -1419,7 +1375,7 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  overflow: scroll;
+  overflow-y: scroll;
 }
 
 .leto-form-right {
@@ -1435,7 +1391,7 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  overflow: scroll;
+  overflow-y: scroll;
 }
 
 @media (min-width: 1366px) {
@@ -2147,6 +2103,63 @@ a {
 .leto-eighth > * {
   width: 100%;
   margin: 0;
+}
+
+.leto-block {
+  display: block;
+}
+
+.leto-inline-block {
+  display: inline-block;
+}
+
+.leto-inline {
+  display: inline;
+}
+
+.leto-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.leto-inline-flex {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.leto-hidden {
+  display: hidden;
+}
+
+leto-overflow-scroll {
+  overflow: scroll;
+}
+
+leto-overflow-hidden {
+  overflow: hidden;
+}
+
+leto-overflow-y-hidden {
+  overflow-y: hidden;
+}
+
+leto-overflow-y-scroll {
+  overflow-y: scroll;
+}
+
+leto-overflow-x-hidden {
+  overflow-x: hidden;
+}
+
+leto-overflow-x-scroll {
+  overflow-x: scroll;
+}
+
+leto-no-shrink {
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
 }
 
 .leto-m {
@@ -2867,23 +2880,23 @@ a {
   border-bottom: 1px solid #dadada;
 }
 
-.leto-border-light {
+.leto-border-white {
   border-color: #fdfdfd;
 }
 
-.leto-border-lightMedium {
+.leto-border-lightGrey {
   border-color: #f2f2f2;
 }
 
-.leto-border-medium {
+.leto-border-grey {
   border-color: #dadada;
 }
 
-.leto-border-darkMedium {
+.leto-border-darkGrey {
   border-color: #a6a6a6;
 }
 
-.leto-border-dark {
+.leto-border-black {
   border-color: #303030;
 }
 
@@ -2997,51 +3010,51 @@ a {
   text-align: right;
 }
 
-.leto-text-color-light {
+.leto-text-white {
   color: #fdfdfd;
 }
 
-.leto-text-color-lightMedium {
+.leto-text-lightGrey {
   color: #f2f2f2;
 }
 
-.leto-text-color-darkMedium {
+.leto-text-darkGrey {
   color: #a6a6a6;
 }
 
-.leto-text-color-medium {
+.leto-text-grey {
   color: #dadada;
 }
 
-.leto-text-color-dark {
+.leto-text-black {
   color: #303030;
 }
 
-.leto-text-color-yellow {
+.leto-text-yellow {
   color: #FFFD99;
 }
 
-.leto-text-color-orange {
+.leto-text-orange {
   color: #FFBF80;
 }
 
-.leto-text-color-red {
+.leto-text-red {
   color: #FF8C8C;
 }
 
-.leto-text-color-purple {
+.leto-text-purple {
   color: #D499FF;
 }
 
-.leto-text-color-blue {
+.leto-text-blue {
   color: #99A7FF;
 }
 
-.leto-text-color-mint {
+.leto-text-mint {
   color: #80FFD0;
 }
 
-.leto-text-color-green {
+.leto-text-green {
   color: #9BFF99;
 }
 
@@ -3069,123 +3082,123 @@ a {
   color: #dadada;
 }
 
-.leto-active-light {
+.leto-active-white {
   background-color: #fdfdfd;
 }
 
-.leto-active-light[class*=leto-bubble] {
+.leto-active-white[class*=leto-bubble] {
   background-color: #fdfdfd;
 }
 
-.leto-active-light[class*=leto-card] {
+.leto-active-white[class*=leto-card] {
   background-color: #fdfdfd;
 }
 
-.leto-active-light[class*=leto-button] {
+.leto-active-white[class*=leto-button] {
   background-color: #fdfdfd;
 }
 
-.leto-active-light[class*=leto-badge] {
+.leto-active-white[class*=leto-badge] {
   background-color: #fdfdfd;
 }
 
-.leto-active-light[class*=leto-text] {
+.leto-active-white[class*=leto-text] {
   color: #fdfdfd;
 }
 
-.leto-active-lightMedium {
+.leto-active-lightGrey {
   background-color: #f2f2f2;
 }
 
-.leto-active-lightMedium[class*=leto-bubble] {
+.leto-active-lightGrey[class*=leto-bubble] {
   background-color: #f2f2f2;
 }
 
-.leto-active-lightMedium[class*=leto-card] {
+.leto-active-lightGrey[class*=leto-card] {
   background-color: #f2f2f2;
 }
 
-.leto-active-lightMedium[class*=leto-button] {
+.leto-active-lightGrey[class*=leto-button] {
   background-color: #f2f2f2;
 }
 
-.leto-active-lightMedium[class*=leto-badge] {
+.leto-active-lightGrey[class*=leto-badge] {
   background-color: #f2f2f2;
 }
 
-.leto-active-lightMedium[class*=leto-text] {
+.leto-active-lightGrey[class*=leto-text] {
   color: #f2f2f2;
 }
 
-.leto-active-medium {
+.leto-active-grey {
   background-color: #dadada;
 }
 
-.leto-active-medium[class*=leto-bubble] {
+.leto-active-grey[class*=leto-bubble] {
   background-color: #dadada;
 }
 
-.leto-active-medium[class*=leto-card] {
+.leto-active-grey[class*=leto-card] {
   background-color: #dadada;
 }
 
-.leto-active-medium[class*=leto-button] {
+.leto-active-grey[class*=leto-button] {
   background-color: #dadada;
 }
 
-.leto-active-medium[class*=leto-badge] {
+.leto-active-grey[class*=leto-badge] {
   background-color: #dadada;
 }
 
-.leto-active-medium[class*=leto-text] {
+.leto-active-grey[class*=leto-text] {
   color: #dadada;
 }
 
-.leto-active-darkMedium {
+.leto-active-darkGrey {
   background-color: #a6a6a6;
 }
 
-.leto-active-darkMedium[class*=leto-bubble] {
+.leto-active-darkGrey[class*=leto-bubble] {
   background-color: #a6a6a6;
 }
 
-.leto-active-darkMedium[class*=leto-card] {
+.leto-active-darkGrey[class*=leto-card] {
   background-color: #a6a6a6;
 }
 
-.leto-active-darkMedium[class*=leto-button] {
+.leto-active-darkGrey[class*=leto-button] {
   background-color: #a6a6a6;
 }
 
-.leto-active-darkMedium[class*=leto-badge] {
+.leto-active-darkGrey[class*=leto-badge] {
   background-color: #a6a6a6;
 }
 
-.leto-active-darkMedium[class*=leto-text] {
+.leto-active-darkGrey[class*=leto-text] {
   color: #a6a6a6;
 }
 
-.leto-active-dark {
+.leto-active-black {
   background-color: #303030;
 }
 
-.leto-active-dark[class*=leto-bubble] {
+.leto-active-black[class*=leto-bubble] {
   background-color: #303030;
 }
 
-.leto-active-dark[class*=leto-card] {
+.leto-active-black[class*=leto-card] {
   background-color: #303030;
 }
 
-.leto-active-dark[class*=leto-button] {
+.leto-active-black[class*=leto-button] {
   background-color: #303030;
 }
 
-.leto-active-dark[class*=leto-badge] {
+.leto-active-black[class*=leto-badge] {
   background-color: #303030;
 }
 
-.leto-active-dark[class*=leto-text] {
+.leto-active-black[class*=leto-text] {
   color: #303030;
 }
 
@@ -3381,123 +3394,123 @@ a {
   color: #dadada;
 }
 
-.leto-hover-light:hover {
+.leto-hover-white:hover {
   background-color: #fdfdfd;
 }
 
-.leto-hover-light[class*=leto-bubble]:hover {
+.leto-hover-white[class*=leto-bubble]:hover {
   background-color: #fdfdfd;
 }
 
-.leto-hover-light[class*=leto-card]:hover {
+.leto-hover-white[class*=leto-card]:hover {
   background-color: #fdfdfd;
 }
 
-.leto-hover-light[class*=leto-button]:hover {
+.leto-hover-white[class*=leto-button]:hover {
   background-color: #fdfdfd;
 }
 
-.leto-hover-light[class*=leto-badge]:hover {
+.leto-hover-white[class*=leto-badge]:hover {
   background-color: #fdfdfd;
 }
 
-.leto-hover-light[class*=leto-text]:hover {
+.leto-hover-white[class*=leto-text]:hover {
   color: #fdfdfd;
 }
 
-.leto-hover-lightMedium:hover {
+.leto-hover-lightGrey:hover {
   background-color: #f2f2f2;
 }
 
-.leto-hover-lightMedium[class*=leto-bubble]:hover {
+.leto-hover-lightGrey[class*=leto-bubble]:hover {
   background-color: #f2f2f2;
 }
 
-.leto-hover-lightMedium[class*=leto-card]:hover {
+.leto-hover-lightGrey[class*=leto-card]:hover {
   background-color: #f2f2f2;
 }
 
-.leto-hover-lightMedium[class*=leto-button]:hover {
+.leto-hover-lightGrey[class*=leto-button]:hover {
   background-color: #f2f2f2;
 }
 
-.leto-hover-lightMedium[class*=leto-badge]:hover {
+.leto-hover-lightGrey[class*=leto-badge]:hover {
   background-color: #f2f2f2;
 }
 
-.leto-hover-lightMedium[class*=leto-text]:hover {
+.leto-hover-lightGrey[class*=leto-text]:hover {
   color: #f2f2f2;
 }
 
-.leto-hover-medium:hover {
+.leto-hover-grey:hover {
   background-color: #dadada;
 }
 
-.leto-hover-medium[class*=leto-bubble]:hover {
+.leto-hover-grey[class*=leto-bubble]:hover {
   background-color: #dadada;
 }
 
-.leto-hover-medium[class*=leto-card]:hover {
+.leto-hover-grey[class*=leto-card]:hover {
   background-color: #dadada;
 }
 
-.leto-hover-medium[class*=leto-button]:hover {
+.leto-hover-grey[class*=leto-button]:hover {
   background-color: #dadada;
 }
 
-.leto-hover-medium[class*=leto-badge]:hover {
+.leto-hover-grey[class*=leto-badge]:hover {
   background-color: #dadada;
 }
 
-.leto-hover-medium[class*=leto-text]:hover {
+.leto-hover-grey[class*=leto-text]:hover {
   color: #dadada;
 }
 
-.leto-hover-darkMedium:hover {
+.leto-hover-darkGrey:hover {
   background-color: #a6a6a6;
 }
 
-.leto-hover-darkMedium[class*=leto-bubble]:hover {
+.leto-hover-darkGrey[class*=leto-bubble]:hover {
   background-color: #a6a6a6;
 }
 
-.leto-hover-darkMedium[class*=leto-card]:hover {
+.leto-hover-darkGrey[class*=leto-card]:hover {
   background-color: #a6a6a6;
 }
 
-.leto-hover-darkMedium[class*=leto-button]:hover {
+.leto-hover-darkGrey[class*=leto-button]:hover {
   background-color: #a6a6a6;
 }
 
-.leto-hover-darkMedium[class*=leto-badge]:hover {
+.leto-hover-darkGrey[class*=leto-badge]:hover {
   background-color: #a6a6a6;
 }
 
-.leto-hover-darkMedium[class*=leto-text]:hover {
+.leto-hover-darkGrey[class*=leto-text]:hover {
   color: #a6a6a6;
 }
 
-.leto-hover-dark:hover {
+.leto-hover-black:hover {
   background-color: #303030;
 }
 
-.leto-hover-dark[class*=leto-bubble]:hover {
+.leto-hover-black[class*=leto-bubble]:hover {
   background-color: #303030;
 }
 
-.leto-hover-dark[class*=leto-card]:hover {
+.leto-hover-black[class*=leto-card]:hover {
   background-color: #303030;
 }
 
-.leto-hover-dark[class*=leto-button]:hover {
+.leto-hover-black[class*=leto-button]:hover {
   background-color: #303030;
 }
 
-.leto-hover-dark[class*=leto-badge]:hover {
+.leto-hover-black[class*=leto-badge]:hover {
   background-color: #303030;
 }
 
-.leto-hover-dark[class*=leto-text]:hover {
+.leto-hover-black[class*=leto-text]:hover {
   color: #303030;
 }
 
@@ -3701,23 +3714,23 @@ a {
   pointer-events: none;
 }
 
-.leto-bg-light {
+.leto-bg-white {
   background-color: #fdfdfd;
 }
 
-.leto-bg-lightMedium {
+.leto-bg-lightGrey {
   background-color: #f2f2f2;
 }
 
-.leto-bg-medium {
+.leto-bg-grey {
   background-color: #dadada;
 }
 
-.leto-bg-darkMedium {
+.leto-bg-darkGrey {
   background-color: #a6a6a6;
 }
 
-.leto-bg-dark {
+.leto-bg-black {
   background-color: #303030;
 }
 
