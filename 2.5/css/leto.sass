@@ -205,7 +205,19 @@ a
             +cardSquare($xxl)         
 
 
-// Button ... adding Sizes
+// Button
+
+=button($value)
+    height: $value * 2
+    text-decoration: none
+    text-align: center
+    border: 1px solid $colorGrey
+    border-radius: 100px
+    margin: $xs
+    padding: $xs $sm
+    cursor: pointer
+    display: inline-block
+
 
 .leto-button
     text-decoration: none
@@ -217,8 +229,40 @@ a
     cursor: pointer
     display: inline-block
 
+    &-xxs
+        +button($xxs)
 
-// Badge ... adding Sizes
+    &-xs
+        +button($xs)
+
+    &-sm
+        +button($sm)
+
+    &-md
+        +button($md)
+
+    &-lg
+        +button($lg)
+
+    &-xl
+        +button($xl)
+
+    &-xxl
+        +button($xxl)
+
+
+// Badge
+
+=badge($value)
+    background: $colorLightGrey
+    height: $value
+    font-size: $fontSizeXS
+    border-radius: 100px
+    padding: $xxs $xs
+    margin: $xs
+    white-space: nowrap
+    display: inline-block
+
 
 .leto-badge
     background: $colorLightGrey
@@ -228,6 +272,27 @@ a
     margin: $xs
     white-space: nowrap
     display: inline-block
+
+    &-xxs
+        +button($xxs)
+
+    &-xs
+        +button($xs)
+
+    &-sm
+        +button($sm)
+
+    &-md
+        +button($md)
+
+    &-lg
+        +button($lg)
+
+    &-xl
+        +button($xl)
+
+    &-xxl
+        +button($xxl)
 
 
 // Input
@@ -327,36 +392,32 @@ a
     +textarea()
 
 
-// Table ... leto-header to th transformation th table row
+// Table
 
 .leto-table
     border-collapse: separate
     border-spacing: 0 15px
     width: 100%
 
-    tr:not(.leto-header) // ...
+    th
+        border-top: 1px solid $colorGrey
+        border-bottom: 1px solid $colorGrey
+        padding: $sm
 
-        th
-            border-top: 1px solid $colorGrey
-            border-bottom: 1px solid $colorGrey
-            padding: $sm
+    tr
+        border-top: 1px solid $colorGrey
+        border-bottom: 1px solid $colorGrey
+        padding: $sm
 
-        td
-            border-top: 1px solid $colorGrey
-            border-bottom: 1px solid $colorGrey
-            padding: $sm
+    td:first-child
+        border-left: 1px solid $colorGrey
+        border-top-left-radius: $xs
+        border-bottom-left-radius: $xs
 
-    tr:not(.leto-header) // ...
-
-        td:first-child, th:first-child
-            border-left: 1px solid $colorGrey
-            border-top-left-radius: $xs
-            border-bottom-left-radius: $xs
-
-        td:last-child, th:last-child
-            border-right: 1px solid $colorGrey
-            border-top-right-radius: $xs
-            border-bottom-right-radius: $xs
+    td:last-child
+        border-right: 1px solid $colorGrey
+        border-top-right-radius: $xs
+        border-bottom-right-radius: $xs
 
 
 // Leto core
@@ -411,7 +472,7 @@ a
     &-xxl
         +bubbleWrapper($xxl)
 
-// Card add Card Wrapper Mixin to .leto-card-wrapper
+// Card ... add Card Wrapper Mixin to .leto-card-wrapper
 
 =cardWrapper($value)
     margin: $xs

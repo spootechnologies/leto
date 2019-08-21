@@ -698,6 +698,90 @@ a {
   display: inline-block;
 }
 
+.leto-button-xxs {
+  height: 8px;
+  text-decoration: none;
+  text-align: center;
+  border: 1px solid #dadada;
+  border-radius: 100px;
+  margin: 8px;
+  padding: 8px 16px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.leto-button-xs {
+  height: 16px;
+  text-decoration: none;
+  text-align: center;
+  border: 1px solid #dadada;
+  border-radius: 100px;
+  margin: 8px;
+  padding: 8px 16px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.leto-button-sm {
+  height: 32px;
+  text-decoration: none;
+  text-align: center;
+  border: 1px solid #dadada;
+  border-radius: 100px;
+  margin: 8px;
+  padding: 8px 16px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.leto-button-md {
+  height: 48px;
+  text-decoration: none;
+  text-align: center;
+  border: 1px solid #dadada;
+  border-radius: 100px;
+  margin: 8px;
+  padding: 8px 16px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.leto-button-lg {
+  height: 64px;
+  text-decoration: none;
+  text-align: center;
+  border: 1px solid #dadada;
+  border-radius: 100px;
+  margin: 8px;
+  padding: 8px 16px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.leto-button-xl {
+  height: 96px;
+  text-decoration: none;
+  text-align: center;
+  border: 1px solid #dadada;
+  border-radius: 100px;
+  margin: 8px;
+  padding: 8px 16px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.leto-button-xxl {
+  height: 128px;
+  text-decoration: none;
+  text-align: center;
+  border: 1px solid #dadada;
+  border-radius: 100px;
+  margin: 8px;
+  padding: 8px 16px;
+  cursor: pointer;
+  display: inline-block;
+}
+
 .leto-badge {
   background: #f2f2f2;
   font-size: 12px;
@@ -705,6 +789,90 @@ a {
   padding: 4px 8px;
   margin: 8px;
   white-space: nowrap;
+  display: inline-block;
+}
+
+.leto-badge-xxs {
+  height: 8px;
+  text-decoration: none;
+  text-align: center;
+  border: 1px solid #dadada;
+  border-radius: 100px;
+  margin: 8px;
+  padding: 8px 16px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.leto-badge-xs {
+  height: 16px;
+  text-decoration: none;
+  text-align: center;
+  border: 1px solid #dadada;
+  border-radius: 100px;
+  margin: 8px;
+  padding: 8px 16px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.leto-badge-sm {
+  height: 32px;
+  text-decoration: none;
+  text-align: center;
+  border: 1px solid #dadada;
+  border-radius: 100px;
+  margin: 8px;
+  padding: 8px 16px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.leto-badge-md {
+  height: 48px;
+  text-decoration: none;
+  text-align: center;
+  border: 1px solid #dadada;
+  border-radius: 100px;
+  margin: 8px;
+  padding: 8px 16px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.leto-badge-lg {
+  height: 64px;
+  text-decoration: none;
+  text-align: center;
+  border: 1px solid #dadada;
+  border-radius: 100px;
+  margin: 8px;
+  padding: 8px 16px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.leto-badge-xl {
+  height: 96px;
+  text-decoration: none;
+  text-align: center;
+  border: 1px solid #dadada;
+  border-radius: 100px;
+  margin: 8px;
+  padding: 8px 16px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.leto-badge-xxl {
+  height: 128px;
+  text-decoration: none;
+  text-align: center;
+  border: 1px solid #dadada;
+  border-radius: 100px;
+  margin: 8px;
+  padding: 8px 16px;
+  cursor: pointer;
   display: inline-block;
 }
 
@@ -960,25 +1128,25 @@ a {
   width: 100%;
 }
 
-.leto-table tr:not(.leto-header) th {
+.leto-table th {
   border-top: 1px solid #dadada;
   border-bottom: 1px solid #dadada;
   padding: 16px;
 }
 
-.leto-table tr:not(.leto-header) td {
+.leto-table tr {
   border-top: 1px solid #dadada;
   border-bottom: 1px solid #dadada;
   padding: 16px;
 }
 
-.leto-table tr:not(.leto-header) td:first-child, .leto-table tr:not(.leto-header) th:first-child {
+.leto-table td:first-child {
   border-left: 1px solid #dadada;
   border-top-left-radius: 8px;
   border-bottom-left-radius: 8px;
 }
 
-.leto-table tr:not(.leto-header) td:last-child, .leto-table tr:not(.leto-header) th:last-child {
+.leto-table td:last-child {
   border-right: 1px solid #dadada;
   border-top-right-radius: 8px;
   border-bottom-right-radius: 8px;
