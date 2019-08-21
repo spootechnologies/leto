@@ -16,14 +16,14 @@
 
     <body>
         <!-- LETO FRAME -->
-        <div class="leto-frame-theme">
+        <div class="leto-frame">
             <!-- LETO EDGE LEFT FIXED -->
             <!--<div class="leto-form">
 
             </div>
             <div class="leto-backdrop"></div>-->
-            <div class="leto-row">
-                <div class="leto-edge-y leto-color-bg-light">
+            <div class="leto-group">
+                <div class="leto-edge-vertical leto-bg-white">
                     <!-- LETO BUBBLES -->
                     <div class="leto-bubble-wrapper-lg">
                         <label class="leto-text-ellipsis">Leto Theme</label>
@@ -34,13 +34,12 @@
                     <div class="leto-bubble-lg"><span class="fa fa-code"></span></div>
                     <div class="leto-bubble-lg"><span class="fa fa-building"></span></div>
                 </div>
-                <div class="leto-subedge-left"></div>
                 <!-- LETO CONTAINER -->
-                <div class="leto-container leto-scrollable">
+                <div class="leto-container-full leto-scrollable">
                     <div>
                         <!-- LETO EDGE TOP -->
                         <div>
-                            <div class="leto-edge-x leto-color-bg-light">
+                            <div class="leto-edge-horizontal leto-bg-white">
                                 <!-- LETO BUBBLES -->
                                 <div class="leto-bubble-wrapper-lg">
                                     <div class="leto-bubble"><img src="https://spoo.io/assets/img/spoo_icon_sm.png"></div>
@@ -52,7 +51,7 @@
                                 <div class="leto-bubble-lg"><span class="fa fa-building"></span></div>
                             </div>
                             <!-- LETO INPUT -->
-                            <div class="leto-row leto-mt-sm">
+                            <div class="leto-group leto-mt-sm">
                                 <div class="leto-full">
                                     <input type="text" class="leto-input-lg" placeholder="this is an input...">
                                 </div>         
@@ -62,7 +61,7 @@
                             </div>
 
                             <!-- LETO CARD GROUP -->
-                            <div class="leto-layout leto-mt-sm">
+                            <div class="leto-group leto-wrap leto-mt-sm">
                                 <div class="leto-full leto-half-tablet leto-quater-pc">
                                     <div class="leto-card">
                                         <image src="assets/placeholder.jpg" class="leto-image-full"></image>
@@ -182,10 +181,10 @@
                             </div>
                             <!-- LETO TABLE -->
                             <table class="leto-table">
-                                <th>
-                                    <td>this is </td>
-                                    <td>a leto table</td>
-                                </th>
+                                <tr class="leto-table-header">
+                                    <th>this is </th>
+                                    <th>a leto table</th>
+                                </tr>
                                 <tr>
                                     <td>isn't this</td>
                                     <td>cool?</td>

@@ -75,7 +75,7 @@ a
     display: inline-flex
 
     img
-        max-width: $value * 0.66   
+        max-width: $value * .66   
 
 .leto-bubble
     +bubble($md)
@@ -218,6 +218,18 @@ a
     cursor: pointer
     display: inline-block
 
+=buttonFull($value)
+    width: 100%
+    height: $value * 2
+    text-decoration: none
+    text-align: center
+    border: 1px solid $colorGrey
+    border-radius: 100px
+    margin: $xs
+    padding: $xs $sm
+    cursor: pointer
+    display: inline-block
+
 
 .leto-button
     text-decoration: none
@@ -250,11 +262,35 @@ a
     &-xxl
         +button($xxl)
 
+    &-full
+
+        &-xxs
+            +buttonFull($xxs)
+
+        &-xs
+            +buttonFull($xs)
+
+        &-sm
+            +buttonFull($sm)
+
+        &-md
+            +buttonFull($md)
+
+        &-lg
+            +buttonFull($lg)
+
+        &-xl
+            +buttonFull($xl)
+
+        &-xxl
+            +buttonFull($xxl)
+
+
 
 // Badge
 
 =badge($value)
-    background: $colorLightGrey
+    background-color: $colorLightGrey
     height: $value
     font-size: $fontSizeXS
     border-radius: 100px
@@ -265,7 +301,7 @@ a
 
 
 .leto-badge
-    background: $colorLightGrey
+    background-color: $colorLightGrey
     font-size: $fontSizeXS
     border-radius: 100px
     padding: $xxs $xs
@@ -400,24 +436,36 @@ a
     width: 100%
 
     th
-        border-top: 1px solid $colorGrey
-        border-bottom: 1px solid $colorGrey
-        padding: $sm
+        font-weight: $fontWeightBold
+        text-align: left
 
-    tr
-        border-top: 1px solid $colorGrey
-        border-bottom: 1px solid $colorGrey
-        padding: $sm
+    .leto-table-header
 
-    td:first-child
-        border-left: 1px solid $colorGrey
-        border-top-left-radius: $xs
-        border-bottom-left-radius: $xs
+    td, th
+        padding-left: $sm
 
-    td:last-child
-        border-right: 1px solid $colorGrey
-        border-top-right-radius: $xs
-        border-bottom-right-radius: $xs
+    tr:not(.leto-table-header)
+
+        td
+            padding: $sm
+
+    tr:not(.leto-table-header):nth-child(2n)
+
+        td
+            border-top: 1px solid $colorGrey
+            border-bottom: 1px solid $colorGrey
+
+    tr:not(.leto-table-header):nth-child(2n)
+
+        td:first-child
+            border-left: 1px solid $colorGrey
+            border-top-left-radius: $xs
+            border-bottom-left-radius: $xs
+
+        td:last-child
+            border-right: 1px solid $colorGrey
+            border-top-right-radius: $xs
+            border-bottom-right-radius: $xs
 
 
 // Leto core
@@ -434,10 +482,14 @@ a
     > .leto-bubble
         height: $value * 2
         width: $value * 2
+        font-size: $value * .66
         border-radius: $value
 
     > [class*=leto-bubble]
-        margin: 0
+        margin-top: 0
+        margin-left: auto
+        margin-right: auto
+        margin-bottom: 0
 
     > label
         text-align: center
@@ -472,7 +524,7 @@ a
     &-xxl
         +bubbleWrapper($xxl)
 
-// Card ... add Card Wrapper Mixin to .leto-card-wrapper
+// Card
 
 =cardWrapper($value)
     margin: $xs
@@ -481,7 +533,10 @@ a
     display: inline-flex
 
     > [class*=leto-card]
-        margin: 0
+        margin-top: 0
+        margin-left: auto
+        margin-right: auto
+        margin-bottom: 0
 
     > label
         text-align: center
@@ -493,8 +548,7 @@ a
         margin-top: $xs
 
 .leto-card-wrapper
-    text-decoration: none
-    display: inline-flex
+    +cardWrapper($md)
 
 // Leto Core Styles
 
@@ -532,16 +586,6 @@ a
         width: 100%
         padding: $xs
         display: block
-
-
-// Table
-
-.leto-table
-
-    .leto-header
-
-        td, th
-            padding-left: $sm
 
 
 // Form
@@ -601,10 +645,19 @@ a
 .leto-container
     position: relative
     width: 100%
-    max-width: 1024px
     margin-left: auto
     margin-right: auto
     padding: 8px
+
+    &[class*="leto-scrollable"]
+        position: relative
+        width: 100%
+        height: 100%
+        max-height: 100vh
+        margin-left: auto
+        margin-right: auto
+        padding: 8px
+        overflow-y: scroll    
 
     &-full
         position: relative
@@ -614,7 +667,8 @@ a
         &[class*="leto-scrollable"]
             position: relative
             width: 100%
-            height: 100vh
+            height: 100%
+            max-height: 100vh
             padding: 8px
             overflow-y: scroll     
 
@@ -622,19 +676,19 @@ a
 
     .leto-container
         position: relative
-        width: 75%
+        max-width: 1024px
         margin-left: auto
         margin-right: auto
         padding: 8px
     
 .leto-edge
 
-    &-x
+    &-horizontal
         width: 100%
         flex-direction: row
         display: flex
 
-    &-y
+    &-vertical
         height: 100%
         flex-direction: column
         display: flex
@@ -723,7 +777,7 @@ a
     display: block
     height: 100%
     width: 100%
-    background: rgba(0, 0, 0, .25)
+    background-color: rgba(0, 0, 0, .25)
     z-index: 1
 
 
@@ -744,7 +798,7 @@ a
         counter-increment: item-counter;
 
 .leto-group
-    diplay: flex
+    display: flex
 
 .leto-row
     flex-direction: row
@@ -778,7 +832,7 @@ a
 
 .leto 
 
-    &-x
+    &-horizontal
 
         &-left
             justify-content: flex-start
@@ -798,7 +852,7 @@ a
         &-evenly
             justify-content: space-evenly
 
-    &-y
+    &-vertical
 
         &-top
             align-items: flex-start
@@ -953,7 +1007,7 @@ leto-no-shrink
 =marginBottom($value)
     margin-bottom: $value
 
-.leto-m
+.leto-m, .leto-margin
     +margin($md)
 
     &-xxs
@@ -1004,7 +1058,7 @@ leto-no-shrink
         &-xxl
             +marginBalance($xxl)
 
-.leto-mx
+.leto-mh, .leto-margin-horizontal
     +marginX($md)
 
     &-xxs
@@ -1031,7 +1085,7 @@ leto-no-shrink
     &-none
         +marginX(0)
   
-.leto-my
+.leto-mv, .leto-margin-vertical
     +marginY($md)
 
     &-xxs
@@ -1058,7 +1112,7 @@ leto-no-shrink
     &-none
         +marginY(0)
 
-.leto-mt
+.leto-mt, .leto-margin-top
     +marginTop($md)
 
     &-xxs
@@ -1085,7 +1139,7 @@ leto-no-shrink
     &-none
         +marginTop(0)
 
-.leto-ml  
+.leto-ml, .leto-margin-left
     +marginLeft($md)
 
     &-xxs
@@ -1112,7 +1166,7 @@ leto-no-shrink
     &-none
         +marginLeft(0)
 
-.leto-mr
+.leto-mr, .leto-margin-right
     +marginRight($md)
 
     &-xxs
@@ -1139,7 +1193,7 @@ leto-no-shrink
     &-none
         +marginRight(0)
 
-.leto-mb
+.leto-mb, .leto-margin-bottom
     +marginBottom($md)
 
     &-xxs
@@ -1192,7 +1246,7 @@ leto-no-shrink
 =paddingBottom($value)
     padding-bottom: $value
 
-.leto-p
+.leto-p, .leto-padding
     +padding($md)
 
     &-xxs
@@ -1219,7 +1273,7 @@ leto-no-shrink
     &-none
         +padding(0)
 
-.leto-px
+.leto-ph, .leto-padding-horizontal
     +paddingX($md)
 
     &-xxs
@@ -1246,7 +1300,7 @@ leto-no-shrink
     &-none
         +paddingX(0)
   
-.leto-py
+.leto-pv, .leto-padding-vertical
     +paddingY($md)
 
     &-xxs
@@ -1273,7 +1327,7 @@ leto-no-shrink
     &-none
         +paddingY(0)
 
-.leto-pt
+.leto-pt, .leto-padding-top
     +paddingTop($md)
 
     &-xxs
@@ -1300,7 +1354,7 @@ leto-no-shrink
     &-none
         +paddingTop(0)
 
-.leto-pl  
+.leto-pl, .leto-padding-left
     +paddingLeft($md)
 
     &-xxs
@@ -1327,7 +1381,7 @@ leto-no-shrink
     &-none
         +paddingLeft(0)
 
-.leto-pr
+.leto-pr, .leto-padding-right
     +paddingRight($md)
 
     &-xxs
@@ -1354,7 +1408,7 @@ leto-no-shrink
     &-none
         +paddingRight(0)
 
-.leto-pb
+.leto-pb, .leto-padding-bottom
     +paddingBottom($md)
 
     &-xxs
@@ -1482,11 +1536,11 @@ leto-no-shrink
 .leto-border
     border: 1px solid $colorGrey
 
-    &-x
+    &-horizontal
         border-top: 1px solid $colorGrey
         border-bottom: 1px solid $colorGrey
 
-    &-y
+    &-vertical
         border-left: 1px solid $colorGrey
         border-right: 1px solid $colorGrey
 
