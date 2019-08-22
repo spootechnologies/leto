@@ -1674,7 +1674,6 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  overflow-y: scroll;
   z-index: 2;
 }
 
@@ -1692,7 +1691,6 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  overflow-y: scroll;
   z-index: 2;
 }
 
@@ -1710,7 +1708,6 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  overflow-y: scroll;
   z-index: 2;
 }
 
