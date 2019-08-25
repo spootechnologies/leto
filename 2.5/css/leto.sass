@@ -42,16 +42,16 @@ a
 // Leto with default theme
 
 h1
-    margin: $xs
+    margin: $basicMargin
 
 h2, h3
-    margin: $xs
+    margin: $basicMargin
 
 h4, h5
-    margin: $xs
+    margin: $basicMargin
 
 p, b,
-    margin: $xs
+    margin: $basicMargin
 
 a
     color: $colorBlue
@@ -66,7 +66,7 @@ a
     font-size: $value * .66
     border: 1px solid $colorGrey
     border-radius: $value
-    margin: $xs
+    margin: $basicMargin
     text-align: center
     flex-direction: column
     align-items: center
@@ -110,8 +110,8 @@ a
     min-height: 50px
     border: 1px solid $colorGrey
     border-radius: 12px
-    margin: $xs
-    padding: $xs
+    margin: $basicMargin
+    padding: $basicPadding
     flex-direction: column
     display: inline-flex
     overflow: hidden
@@ -127,8 +127,8 @@ a
     min-height: 50px
     border: 1px solid $colorGrey
     border-radius: 12px
-    margin: $xs
-    padding: $xs
+    margin: $basicMargin
+    padding: $basicPadding
     flex-direction: column
     display: inline-flex
     overflow: hidden
@@ -145,7 +145,7 @@ a
     height: $value*10
     border: 1px solid $colorGrey
     border-radius: 12px
-    margin: $xs
+    margin: $basicMargin
     flex-direction: column
     display: inline-flex
     overflow: hidden 
@@ -213,8 +213,8 @@ a
     text-align: center
     border: 1px solid $colorGrey
     border-radius: 100px
-    margin: $xs
-    padding: $xs $sm
+    margin: $basicMargin
+    padding: $basicPadding $basicPadding * 2
     cursor: pointer
     display: inline-block
 
@@ -225,8 +225,8 @@ a
     text-align: center
     border: 1px solid $colorGrey
     border-radius: 100px
-    margin: $xs
-    padding: $xs $sm
+    margin: $basicMargin
+    padding: $basicPadding $basicPadding * 2
     cursor: pointer
     display: inline-block
 
@@ -236,8 +236,8 @@ a
     text-align: center
     border: 1px solid $colorGrey
     border-radius: 100px
-    margin: $xs
-    padding: $xs $sm
+    margin: $basicMargin
+    padding: $basicPadding $basicPadding * 2
     cursor: pointer
     display: inline-block
 
@@ -295,7 +295,7 @@ a
     font-size: $fontSizeXS
     border-radius: 100px
     padding: $xxs $xs
-    margin: $xs
+    margin: $basicMargin
     white-space: nowrap
     display: inline-block
 
@@ -305,7 +305,7 @@ a
     font-size: $fontSizeXS
     border-radius: 100px
     padding: $xxs $xs
-    margin: $xs
+    margin: $basicMargin
     white-space: nowrap
     display: inline-block
 
@@ -339,8 +339,8 @@ a
     font-size: $fontSizeMD
     border: 1px solid $colorGrey
     border-radius: 12px
-    margin: $xs
-    padding: $xs $sm
+    margin: $basicMargin
+    padding: $basicPadding $basicPadding * 2
 
     &:focus
         background-color: $colorLightGrey
@@ -378,8 +378,8 @@ a
     height: $height * 2
     font-size: $fontSizeMD
     border-radius: 12px
-    margin: $xs
-    padding: $xs $sm
+    margin: $basicMargin
+    padding: $basicPadding $basicPadding * 2
 
     &:focus
         background-color: rgba(0, 0, 0, 0)
@@ -417,8 +417,8 @@ a
     font-size: $fontSizeMD
     border: 1px solid $colorGrey
     border-radius: 12px
-    margin: $xs
-    padding: $xs $sm
+    margin: $basicMargin
+    padding: $basicPadding $basicPadding * 2
 
     &:focus
         background-color: $colorLightGrey
@@ -474,7 +474,7 @@ a
 
 =bubbleWrapper($value)
     width: $value * 2
-    margin: $xs
+    margin: $basicMargin
     justify-content: center
     flex-direction: column
     display: inline-flex
@@ -495,10 +495,10 @@ a
         text-align: center
 
     > [class*=leto-bubble] ~ label
-        margin-top: $xs
+        margin-top: $basicMargin
 
     > label ~ [class*=leto-bubble]
-        margin-top: $xs
+        margin-top: $basicMargin
 
 .leto-bubble-wrapper
     +bubbleWrapper($md)
@@ -527,7 +527,7 @@ a
 // Card
 
 =cardWrapper($value)
-    margin: $xs
+    margin: $basicMargin
     justify-content: center
     flex-direction: column
     display: inline-flex
@@ -542,10 +542,10 @@ a
         text-align: center
 
     > [class*=leto-card] ~ label
-        margin-top: $xs
+        margin-top: $basicMargin
 
     > label ~ [class*=leto-card]
-        margin-top: $xs
+        margin-top: $basicMargin
 
 .leto-card-wrapper
     +cardWrapper($md)
@@ -584,7 +584,7 @@ a
     &-empty
         min-width: 300px
         width: 100%
-        padding: $xs
+        padding: $basicPadding
         display: block
 
 
@@ -644,7 +644,7 @@ a
     width: 100%
     margin-left: auto
     margin-right: auto
-    padding: 8px
+    padding: $basicPadding
 
     &[class*="leto-scrollable"]
         position: relative
@@ -653,20 +653,20 @@ a
         max-height: 100vh
         margin-left: auto
         margin-right: auto
-        padding: 8px
+        padding: $basicPadding
         overflow-y: scroll    
 
     &-full
         position: relative
         width: 100%
-        padding: 8px
+        padding: $basicPadding
 
         &[class*="leto-scrollable"]
             position: relative
             width: 100%
             height: 100%
             max-height: 100vh
-            padding: 8px
+            padding: $basicPadding
             overflow-y: scroll     
 
 @media (min-width: $pc)
@@ -676,7 +676,7 @@ a
         max-width: 1024px
         margin-left: auto
         margin-right: auto
-        padding: 8px
+        padding: $basicPadding
     
 .leto-edge
 
@@ -691,7 +691,7 @@ a
         display: flex
 
     &-top
-        position: fixed
+        position: sticky
         width: 100%
         top: 0
         left: 0
@@ -721,6 +721,24 @@ a
         left: 0
         flex-direction: row
         display: flex
+
+[class*=leto-frame]
+
+    > .leto-group
+
+        > .leto-container
+
+            > .leto-edge-top
+                margin-top: -$basicPadding
+
+@media (max-width: $pc)
+
+    [class*=leto-frame]
+
+        > .leto-group
+
+           > .leto-edge-left, > .leto-edge-right
+                position: sticky
 
 .leto-subedge
 
@@ -874,7 +892,7 @@ a
 
 =letoWidth($width)
     width: $width
-    padding: $xs
+    padding: $basicPadding
 
     @media (min-width: $tablet)
 
@@ -895,7 +913,7 @@ a
         width: 100%
         margin: 0
 
-// Width
+// Flexbox Areas
 
 .leto-full 
     +letoWidth(100%)  
@@ -926,6 +944,54 @@ a
 
 .leto-eighth
     +letoWidth(12.5%)
+
+// Sizes
+
+.leto-width
+
+    &-xxs
+        width: $xxs * 8
+
+    &-xs
+        width: $xs * 8
+
+    &-sm
+        width: $sm * 8
+
+    &-md
+        width: $md * 8
+
+    &-lg
+        width: $lg * 8
+
+    &-xl
+        width: $xl * 8
+
+    &-xxl
+        width: $xxl * 8
+
+.leto-height
+
+    &-xxs
+        height: $xxs * 8
+
+    &-xs
+        height: $xs * 8
+
+    &-sm
+        height: $sm * 8
+
+    &-md
+        height: $md * 8
+
+    &-lg
+        height: $lg * 8
+
+    &-xl
+        height: $xl * 8
+
+    &-xxl
+        height: $xxl * 8
 
 
 // Display
