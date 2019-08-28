@@ -210,25 +210,27 @@ a
 =button($value)
     height: $value * 2
     text-decoration: none
-    text-align: center
     border: 1px solid $colorGrey
     border-radius: 100px
     margin: $basicMargin
     padding: $basicPadding $basicPadding * 2
+    justify-content: center
+    align-items: center
     cursor: pointer
-    display: inline-block
+    display: inline-flex
 
 =buttonFull($value)
     width: 100%
     height: $value * 2
     text-decoration: none
-    text-align: center
     border: 1px solid $colorGrey
     border-radius: 100px
     margin: $basicMargin
     padding: $basicPadding $basicPadding * 2
+    justify-content: center
+    align-items: center
     cursor: pointer
-    display: inline-block
+    display: inline-flex
 
 
 .leto-button
@@ -238,8 +240,10 @@ a
     border-radius: 100px
     margin: $basicMargin
     padding: $basicPadding $basicPadding * 2
+    justify-content: center
+    align-items: center
     cursor: pointer
-    display: inline-block
+    display: inline-flex
 
     &-xxs
         +button($xxs)
