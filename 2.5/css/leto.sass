@@ -597,34 +597,37 @@ a
 .leto-form
     background-color: $colorWhite
     position: fixed
-    width: 100%
+    width: 100vh
     height: 100%
     top: 0
     left: 0
     flex-direction: column
     display: flex
+    overflow-y: scroll
     z-index: 2
 
     &-left
         background-color: $colorWhite
         position: fixed
-        width: 100%
+        width: 100vh
         height: 100%
         top: 0
         left: 0
         flex-direction: column
         display: flex
+        overflow-y: scroll
         z-index: 2
 
     &-right
         background-color: $colorWhite
         position: fixed
-        width: 100%
+        width: 100vh
         height: 100%
         top: 0
         right: 0
         flex-direction: column
         display: flex
+        overflow-y: scroll
         z-index: 2
 
     @media (min-width: $pc)
@@ -681,6 +684,11 @@ a
         margin-left: auto
         margin-right: auto
         padding: $basicPadding
+
+@media (min-aspect-ratio: $ultrawide) and (min-width: $pcLarge)
+
+    .leto-container
+        max-width: 1536px
     
 .leto-edge
 
@@ -786,6 +794,88 @@ a
             min-width: 300px
             width: 25vw
 
+
+// Toast
+
+=toast($bgColor, $textColor)
+    position: fixed
+    background-color: $bgColor
+    width: 250px
+    min-height: 50px
+    max-height: 100px
+    color: $textColor
+    border-radius: 12px
+    padding: $basicPadding
+    align-items: center
+    justify-content: center
+    display: flex
+    z-index: 21
+
+=toastPos($bgColor, $textColor)
+    +toast($bgColor, $textColor)
+    left: 50%
+    bottom: 64px
+    margin-left: -150px
+
+    &-left-top
+        +toast($bgColor, $textColor)
+        left: 64px
+        top: 64px
+
+    &-center-top
+        +toast($bgColor, $textColor)
+        left: 50%
+        top: 64px
+        margin-left: -150px
+
+    &-right-top
+        +toast($bgColor, $textColor)
+        right: 64px
+        top: 64px
+
+    &-left-center
+        +toast($bgColor, $textColor)
+        left: 64px
+        top: 50%
+        margin-top: -37.5px
+
+    &-center
+        +toast($bgColor, $textColor)
+        left: 50%
+        top: 50%
+        margin-top: -37.5px
+        margin-left: -150px
+
+    &-right-center
+        +toast($bgColor, $textColor)
+        right: 64px
+        top: 50%
+        margin-top: -37.5px
+
+    &-left-bottom
+        +toast($bgColor, $textColor)
+        left: 64px
+        bottom: 64px
+
+    &-center-bottom
+        +toast($bgColor, $textColor)
+        left: 50%
+        bottom: 64px
+        margin-left: -150px
+
+    &-right-bottom
+        +toast($bgColor, $textColor)
+        right: 64px
+        bottom: 64px
+
+.leto-toast
+    +toastPos($colorBlack, $colorWhite)
+
+.leto-toast-success
+    +toastPos($colorGreen, $colorBlack)
+
+.leto-toast-error
+    +toastPos($colorRed, $colorBlack)
 
 // Backdrop
 
@@ -952,50 +1042,52 @@ a
 // Sizes
 
 .leto-width
+    width: $md * 4
 
     &-xxs
-        width: $xxs * 8
+        width: $xxs * 4
 
     &-xs
-        width: $xs * 8
+        width: $xs * 4
 
     &-sm
-        width: $sm * 8
+        width: $sm * 4
 
     &-md
-        width: $md * 8
+        width: $md * 4
 
     &-lg
-        width: $lg * 8
+        width: $lg * 4
 
     &-xl
-        width: $xl * 8
+        width: $xl * 4
 
     &-xxl
-        width: $xxl * 8
+        width: $xxl * 4
 
 .leto-height
+    height: $md * 4
 
     &-xxs
-        height: $xxs * 8
+        height: $xxs * 4
 
     &-xs
-        height: $xs * 8
+        height: $xs * 4
 
     &-sm
-        height: $sm * 8
+        height: $sm * 4
 
     &-md
-        height: $md * 8
+        height: $md * 4
 
     &-lg
-        height: $lg * 8
+        height: $lg * 4
 
     &-xl
-        height: $xl * 8
+        height: $xl * 4
 
     &-xxl
-        height: $xxl * 8
+        height: $xxl * 4
 
 
 // Display
