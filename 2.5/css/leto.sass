@@ -596,7 +596,7 @@ a
 .leto-form
     background-color: $colorWhite
     position: fixed
-    width: 100vh
+    width: 100vw
     height: 100%
     top: 0
     left: 0
@@ -609,10 +609,11 @@ a
     &-left
         background-color: $colorWhite
         position: fixed
-        width: 100vh
+        width: 100vw
         height: 100%
         top: 0
         left: 0
+        padding: $basicPadding
         flex-direction: column
         display: flex
         overflow-y: scroll
@@ -621,10 +622,11 @@ a
     &-right
         background-color: $colorWhite
         position: fixed
-        width: 100vh
+        width: 100vw
         height: 100%
         top: 0
         right: 0
+        padding: $basicPadding
         flex-direction: column
         display: flex
         overflow-y: scroll
@@ -970,29 +972,27 @@ a
     &-bottom
         align-items: flex-end
 
-.leto-group
 
-    .leto
+.leto-group.leto
 
-        &-horizontal
+    &-horizontal
 
-            +justifyContent()
+        +justifyContent()
 
-        &-vertical
+    &-vertical
 
-            +alignItems()
+        +alignItems()
+        
 
-.leto-column
+.leto-column.leto
 
-    .leto
+    &-horizontal
 
-        &-horizontal
+        +alignItems()
 
-            +alignItems()
+    &-vertical
 
-        &-vertical
-
-            +justifyContent()
+        +justifyContent()
 
 
 .leto-left
@@ -1005,10 +1005,10 @@ a
 .leto-right
     margin-right: auto
 
-
 .leto-group
 
     .leto-left
+        margin-left: 0
         margin-right: auto
 
     .leto-center
@@ -1017,6 +1017,7 @@ a
 
     .leto-right
         margin-left: auto
+        margin-right: 0
 
 
 =letoWidth($width)
@@ -1102,31 +1103,31 @@ a
         width: $xxl * 4
 
     &-full
-        width: calc(100% - $basicMargin)
+        width: calc(100% - #{$basicMargin})
 
     &-fourfifths
-        width: calc(80% - $basicMargin)
+        width: calc(80% - #{$basicMargin})
 
     &-threequaters
-        width: calc(75% - $basicMargin)
+        width: calc(75% - #{$basicMargin})
 
     &-twothirds
-        width: calc(66% - $basicMargin)
+        width: calc(66% - #{$basicMargin})
 
     &-third
-        width: calc((100% / 3) - $basicMargin)
+        width: calc((100% / 3) - #{$basicMargin})
 
     &-quater
-        width: calc(25% - $basicMargin)
+        width: calc(25% - #{$basicMargin})
 
     &-fifth
-        width: calc(20% - $basicMargin)
+        width: calc(20% - #{$basicMargin})
 
     &-sixth
-        width: calc((100% / 6) - $basicMargin)
+        width: calc((100% / 6) - #{$basicMargin})
 
     &-eighth
-        width: calc(12.5% - $basicMargin)
+        width: calc(12.5% - #{$basicMargin})
 
 .leto-height
     height: $md * 4
@@ -1153,31 +1154,31 @@ a
         height: $xxl * 4
 
     &-full
-        height: calc(100% - $basicMargin)
+        height: calc(100% - #{$basicMargin})
 
     &-fourfifths
-        height: calc(80% - $basicMargin)
+        height: calc(80% - #{$basicMargin})
 
     &-threequaters
-        height: calc(75% - $basicMargin)
+        height: calc(75% - #{$basicMargin})
 
     &-twothirds
-        height: calc(66% - $basicMargin)
+        height: calc(66% - #{$basicMargin})
 
     &-third
-        height: calc((100% / 3) - $basicMargin)
+        height: calc((100% / 3) - #{$basicMargin})
 
     &-quater
-        height: calc(25% - $basicMargin)
+        height: calc(25% - #{$basicMargin})
 
     &-fifth
-        height: calc(20% - $basicMargin)
+        height: calc(20% - #{$basicMargin})
 
     &-sixth
-        height: calc((100% / 6) - $basicMargin)
+        height: calc((100% / 6) - #{$basicMargin})
 
     &-eighth
-        height: calc(12.5% - $basicMargin)
+        height: calc(12.5% - #{$basicMargin})
 
 
 // Position

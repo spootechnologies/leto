@@ -1838,7 +1838,7 @@ a {
 .leto-form {
   background-color: #fdfdfd;
   position: fixed;
-  width: 100vh;
+  width: 100vw;
   height: 100%;
   top: 0;
   left: 0;
@@ -1857,10 +1857,11 @@ a {
 .leto-form-left {
   background-color: #fdfdfd;
   position: fixed;
-  width: 100vh;
+  width: 100vw;
   height: 100%;
   top: 0;
   left: 0;
+  padding: 8px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -1875,10 +1876,11 @@ a {
 .leto-form-right {
   background-color: #fdfdfd;
   position: fixed;
-  width: 100vh;
+  width: 100vw;
   height: 100%;
   top: 0;
   right: 0;
+  padding: 8px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -2975,107 +2977,107 @@ a {
   counter-increment: item-counter;
 }
 
-.leto-group .leto-horizontal-left {
+.leto-group.leto-horizontal-left {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
 }
 
-.leto-group .leto-horizontal-center {
+.leto-group.leto-horizontal-center {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
 }
 
-.leto-group .leto-horizontal-right {
+.leto-group.leto-horizontal-right {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
 }
 
-.leto-group .leto-horizontal-between {
+.leto-group.leto-horizontal-between {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
 
-.leto-group .leto-horizontal-around {
+.leto-group.leto-horizontal-around {
   -ms-flex-pack: distribute;
       justify-content: space-around;
 }
 
-.leto-group .leto-horizontal-evenly {
+.leto-group.leto-horizontal-evenly {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
 }
 
-.leto-group .leto-vertical-top {
+.leto-group.leto-vertical-top {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
 }
 
-.leto-group .leto-vertical-center {
+.leto-group.leto-vertical-center {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
 }
 
-.leto-group .leto-vertical-bottom {
+.leto-group.leto-vertical-bottom {
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
 }
 
-.leto-column .leto-horizontal-top {
+.leto-column.leto-horizontal-top {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
 }
 
-.leto-column .leto-horizontal-center {
+.leto-column.leto-horizontal-center {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
 }
 
-.leto-column .leto-horizontal-bottom {
+.leto-column.leto-horizontal-bottom {
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
 }
 
-.leto-column .leto-vertical-left {
+.leto-column.leto-vertical-left {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
 }
 
-.leto-column .leto-vertical-center {
+.leto-column.leto-vertical-center {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
 }
 
-.leto-column .leto-vertical-right {
+.leto-column.leto-vertical-right {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
 }
 
-.leto-column .leto-vertical-between {
+.leto-column.leto-vertical-between {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
 
-.leto-column .leto-vertical-around {
+.leto-column.leto-vertical-around {
   -ms-flex-pack: distribute;
       justify-content: space-around;
 }
 
-.leto-column .leto-vertical-evenly {
+.leto-column.leto-vertical-evenly {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
@@ -3095,6 +3097,7 @@ a {
 }
 
 .leto-group .leto-left {
+  margin-left: 0;
   margin-right: auto;
 }
 
@@ -3105,6 +3108,7 @@ a {
 
 .leto-group .leto-right {
   margin-left: auto;
+  margin-right: 0;
 }
 
 .leto-full {
@@ -3420,39 +3424,39 @@ a {
 }
 
 .leto-width-full {
-  width: calc(100% - $basicMargin);
+  width: calc(100% - 8px);
 }
 
 .leto-width-fourfifths {
-  width: calc(80% - $basicMargin);
+  width: calc(80% - 8px);
 }
 
 .leto-width-threequaters {
-  width: calc(75% - $basicMargin);
+  width: calc(75% - 8px);
 }
 
 .leto-width-twothirds {
-  width: calc(66% - $basicMargin);
+  width: calc(66% - 8px);
 }
 
 .leto-width-third {
-  width: calc((100% / 3) - $basicMargin);
+  width: calc((100% / 3) - 8px);
 }
 
 .leto-width-quater {
-  width: calc(25% - $basicMargin);
+  width: calc(25% - 8px);
 }
 
 .leto-width-fifth {
-  width: calc(20% - $basicMargin);
+  width: calc(20% - 8px);
 }
 
 .leto-width-sixth {
-  width: calc((100% / 6) - $basicMargin);
+  width: calc((100% / 6) - 8px);
 }
 
 .leto-width-eighth {
-  width: calc(12.5% - $basicMargin);
+  width: calc(12.5% - 8px);
 }
 
 .leto-height {
@@ -3488,39 +3492,39 @@ a {
 }
 
 .leto-height-full {
-  height: calc(100% - $basicMargin);
+  height: calc(100% - 8px);
 }
 
 .leto-height-fourfifths {
-  height: calc(80% - $basicMargin);
+  height: calc(80% - 8px);
 }
 
 .leto-height-threequaters {
-  height: calc(75% - $basicMargin);
+  height: calc(75% - 8px);
 }
 
 .leto-height-twothirds {
-  height: calc(66% - $basicMargin);
+  height: calc(66% - 8px);
 }
 
 .leto-height-third {
-  height: calc((100% / 3) - $basicMargin);
+  height: calc((100% / 3) - 8px);
 }
 
 .leto-height-quater {
-  height: calc(25% - $basicMargin);
+  height: calc(25% - 8px);
 }
 
 .leto-height-fifth {
-  height: calc(20% - $basicMargin);
+  height: calc(20% - 8px);
 }
 
 .leto-height-sixth {
-  height: calc((100% / 6) - $basicMargin);
+  height: calc((100% / 6) - 8px);
 }
 
 .leto-height-eighth {
-  height: calc(12.5% - $basicMargin);
+  height: calc(12.5% - 8px);
 }
 
 .leto-static {
