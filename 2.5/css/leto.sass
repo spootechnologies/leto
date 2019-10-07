@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:100,300,400,500,700,900&display=swap')
-
 @import 'leto-variables.sass'
     
 // GENERAL
@@ -9,7 +7,7 @@
 
 body
     background-color: $colorWhite
-    font-family: 'Montserrat', sans-serif
+    font-family: $fontFamily
     font-size: $fontSizeMD
     color: $colorBlack
     margin: 0
@@ -387,7 +385,7 @@ a
     padding: $basicPadding $basicPadding * 2
 
     &:focus
-        background-color: rgba(0, 0, 0, 0)
+        background-color: transparent
         border-color: $colorGrey
 
 .leto-search
@@ -454,13 +452,13 @@ a
         td
             padding: $sm
 
-    tr:not(.leto-table-header):nth-child(2n)
+    tr:not(.leto-table-header)
 
         td
             border-top: 1px solid $colorGrey
             border-bottom: 1px solid $colorGrey
 
-    tr:not(.leto-table-header):nth-child(2n)
+    tr:not(.leto-table-header)
 
         td:first-child
             border-left: 1px solid $colorGrey
@@ -602,6 +600,7 @@ a
     height: 100%
     top: 0
     left: 0
+    padding: $basicPadding
     flex-direction: column
     display: flex
     overflow-y: scroll
@@ -940,49 +939,84 @@ a
 
 // Position
 
-.leto 
+=justifyContent()
 
-    &-horizontal
+    &-left
+        justify-content: flex-start
 
-        &-left
-            justify-content: flex-start
+    &-center
+        justify-content: center
 
-        &-center
-            justify-content: center
+    &-right
+        justify-content: flex-end
 
-        &-right
-            justify-content: flex-end
+    &-between
+        justify-content: space-between
 
-        &-between
-            justify-content: space-between
+    &-around
+        justify-content: space-around
 
-        &-around
-            justify-content: space-around
+    &-evenly
+        justify-content: space-evenly
 
-        &-evenly
-            justify-content: space-evenly
+=alignItems()
 
-    &-vertical
+    &-top
+        align-items: flex-start
 
-        &-top
-            align-items: flex-start
+    &-center
+        align-items: center
 
-        &-center
-            align-items: center
+    &-bottom
+        align-items: flex-end
 
-        &-bottom
-            align-items: flex-end
+.leto-group
+
+    .leto
+
+        &-horizontal
+
+            +justifyContent()
+
+        &-vertical
+
+            +alignItems()
+
+.leto-column
+
+    .leto
+
+        &-horizontal
+
+            +alignItems()
+
+        &-vertical
+
+            +justifyContent()
 
 
 .leto-left
-    margin-right: auto
+    margin-left: auto
 
 .leto-center
     margin-left: auto
     margin-right: auto
 
 .leto-right
-    margin-left: auto
+    margin-right: auto
+
+
+.leto-group
+
+    .leto-left
+        margin-right: auto
+
+    .leto-center
+        margin-left: auto
+        margin-right: auto
+
+    .leto-right
+        margin-left: auto
 
 
 =letoWidth($width)
@@ -1090,6 +1124,23 @@ a
     &-xxl
         height: $xxl * 4
 
+// Position
+
+.leto-static
+    position: static
+
+.leto-relative
+    position: relative
+
+.leto-fixed
+    position: fixed
+
+.leto-sticky
+    position: sticky
+
+.leto-absolute
+    position: absolute
+
 
 // Display
 
@@ -1114,30 +1165,65 @@ a
 
 // Overflow
 
-leto-overflow-scroll
+.leto-overflow-scroll
     overflow: scroll
 
-leto-overflow-hidden
+.leto-overflow-hidden
     overflow: hidden
 
-leto-overflow-y-hidden
+.leto-overflow-y-hidden
     overflow-y: hidden
 
-leto-overflow-y-scroll
+.leto-overflow-y-scroll
     overflow-y: scroll
 
-leto-overflow-x-hidden
+.leto-overflow-x-hidden
     overflow-x: hidden
 
-leto-overflow-x-scroll
+.leto-overflow-x-scroll
     overflow-x: scroll
 
 
 // Shrink
 
-leto-no-shrink
+.leto-no-shrink
     flex-shrink: 0
-    
+
+
+// Space
+
+.leto-space
+    width: 100%
+    height: calc($md * 2)
+
+    &-xxs
+        width: 100%
+        height: calc($xxs * 2)    
+
+    &-xs
+        width: 100%
+        height: calc($xs * 2)    
+
+    &-sm
+        width: 100%
+        height: calc($sm * 2)    
+
+    &-md
+        width: 100%
+        height: calc($md * 2)  
+
+    &-lg
+        width: 100%
+        height: calc($lg * 2)    
+
+    &-xl
+        width: 100%
+        height: calc($xl * 2)    
+
+    &-xxl
+        width: 100%
+        height: calc($xxl * 2)  
+
 
 // Margin
 
@@ -1718,6 +1804,12 @@ leto-no-shrink
 
     &-white
         border-color: $colorWhite
+   
+    &-darkWhite
+        border-color: $colorDarkWhite
+
+    &-lighterGrey
+        border-color: $colorLighterGrey
 
     &-lightGrey
         border-color: $colorLightGrey
@@ -1728,29 +1820,77 @@ leto-no-shrink
     &-darkGrey
         border-color: $colorDarkGrey
 
+    &-darkerGrey
+        border-color: $colorDarkerGrey
+
+    &-lightBlack
+        border-color: $colorLightBlack
+
     &-black
         border-color: $colorBlack
+
+    &-lightYellow
+        border-color: $colorLightYellow
 
     &-yellow
         border-color: $colorYellow
 
+    &-darkYellow
+        border-color: $colorDarkYellow
+
+    &-lightOrange
+        border-color: $colorLightOrange
+
     &-orange
         border-color: $colorOrange
+
+    &-darkOrange
+        border-color: $colorDarkOrange
+
+    &-lightRed
+        border-color: $colorLightRed
 
     &-red
         border-color: $colorRed
 
+    &-darkRed
+        border-color: $colorDarkRed
+
+    &-lightPurple
+        border-color: $colorLightPurple
+
     &-purple
         border-color: $colorPurple
+
+    &-darkPurple
+        border-color: $colorDarkPurple
+
+    &-lightBlue
+        border-color: $colorLightBlue
 
     &-blue
         border-color: $colorBlue
 
+    &-darkBlue
+        border-color: $colorDarkBlue
+
+    &-lightMint
+        border-color: $colorLightMint
+
     &-mint
         border-color: $colorMint
 
+    &-darkMint
+        border-color: $colorDarkMint
+
+    &-lightGreen
+        border-color: $colorLightGreen
+
     &-green
         border-color: $colorGreen
+
+    &-darkGreen
+        border-color: $colorDarkGreen
 
     &-none
         border: none
@@ -1808,6 +1948,13 @@ leto-no-shrink
         overflow: hidden
         text-overflow: ellipsis
 
+    &-link
+        color: $colorBlue
+
+        &:hover
+            color: $colorDarkBlue
+            text-decoration: underline
+
     &-left
         text-align: left
 
@@ -1819,39 +1966,96 @@ leto-no-shrink
 
     &-white
         color: $colorWhite
+   
+    &-darkWhite
+        color: $colorDarkWhite
+
+    &-lighterGrey
+        color: $colorLighterGrey
 
     &-lightGrey
         color: $colorLightGrey
 
+    &-grey
+        color: $colorGrey
+
     &-darkGrey
         color: $colorDarkGrey
 
-    &-grey
-        color: $colorGrey
+    &-darkerGrey
+        color: $colorDarkerGrey
+
+    &-lightBlack
+        color: $colorLightBlack
 
     &-black
         color: $colorBlack
 
+    &-lightYellow
+        color: $colorLightYellow
+
     &-yellow
         color: $colorYellow
+
+    &-darkYellow
+        color: $colorDarkYellow
+
+    &-lightOrange
+        color: $colorLightOrange
 
     &-orange
         color: $colorOrange
 
+    &-darkOrange
+        color: $colorDarkOrange
+
+    &-lightRed
+        color: $colorLightRed
+
     &-red
         color: $colorRed
+
+    &-darkRed
+        color: $colorDarkRed
+
+    &-lightPurple
+        color: $colorLightPurple
 
     &-purple
         color: $colorPurple
 
+    &-darkPurple
+        color: $colorDarkPurple
+
+    &-lightBlue
+        color: $colorLightBlue
+
     &-blue
         color: $colorBlue
+
+    &-darkBlue
+        color: $colorDarkBlue
+
+    &-lightMint
+        color: $colorLightMint
 
     &-mint
         color: $colorMint
 
+    &-darkMint
+        color: $colorDarkMint
+
+    &-lightGreen
+        color: $colorLightGreen
+
     &-green
         color: $colorGreen
+
+    &-darkGreen
+        color: $colorDarkGreen
+
+    &-none
+        color: transparent
 
 
 // Focus
@@ -1880,6 +2084,12 @@ leto-no-shrink
 
     &-white
         +active($colorWhite)
+   
+    &-darkWhite
+        +active($colorDarkWhite)
+
+    &-lighterGrey
+        +active($colorLighterGrey)
 
     &-lightGrey
         +active($colorLightGrey)
@@ -1890,29 +2100,77 @@ leto-no-shrink
     &-darkGrey
         +active($colorDarkGrey)
 
+    &-darkerGrey
+        +active($colorDarkerGrey)
+
+    &-lightBlack
+        +active($colorLightBlack)
+
     &-black
         +active($colorBlack)
+
+    &-lightYellow
+        +active($colorLightYellow)
 
     &-yellow
         +active($colorYellow)
 
+    &-darkYellow
+        +active($colorDarkYellow)
+
+    &-lightOrange
+        +active($colorLightOrange)
+
     &-orange
         +active($colorOrange)
+
+    &-darkOrange
+        +active($colorDarkOrange)
+
+    &-lightRed
+        +active($colorLightRed)
 
     &-red
         +active($colorRed)
 
+    &-darkRed
+        +active($colorDarkRed)
+
+    &-lightPurple
+        +active($colorLightPurple)
+
     &-purple
         +active($colorPurple)
+
+    &-darkPurple
+        +active($colorDarkPurple)
+
+    &-lightBlue
+        +active($colorLightBlue)
 
     &-blue
         +active($colorBlue)
 
+    &-darkBlue
+        +active($colorDarkBlue)
+
+    &-lightMint
+        +active($colorLightMint)
+
     &-mint
         +active($colorMint)
 
+    &-darkMint
+        +active($colorDarkMint)
+
+    &-lightGreen
+        +active($colorLightGreen)
+
     &-green
         +active($colorGreen)
+
+    &-darkGreen
+        +active($colorDarkGreen)
 
 
 // Hover
@@ -1944,6 +2202,12 @@ leto-no-shrink
 
     &-white
         +hover($colorWhite)
+   
+    &-darkWhite
+        +hover($colorDarkWhite)
+
+    &-lighterGrey
+        +hover($colorLighterGrey)
 
     &-lightGrey
         +hover($colorLightGrey)
@@ -1954,29 +2218,77 @@ leto-no-shrink
     &-darkGrey
         +hover($colorDarkGrey)
 
+    &-darkerGrey
+        +hover($colorDarkerGrey)
+
+    &-lightBlack
+        +hover($colorLightBlack)
+
     &-black
         +hover($colorBlack)
+
+    &-lightYellow
+        +hover($colorLightYellow)
 
     &-yellow
         +hover($colorYellow)
 
+    &-darkYellow
+        +hover($colorDarkYellow)
+
+    &-lightOrange
+        +hover($colorLightOrange)
+
     &-orange
         +hover($colorOrange)
+
+    &-darkOrange
+        +hover($colorDarkOrange)
+
+    &-lightRed
+        +hover($colorLightRed)
 
     &-red
         +hover($colorRed)
 
+    &-darkRed
+        +hover($colorDarkRed)
+
+    &-lightPurple
+        +hover($colorLightPurple)
+
     &-purple
         +hover($colorPurple)
+
+    &-darkPurple
+        +hover($colorDarkPurple)
+
+    &-lightBlue
+        +hover($colorLightBlue)
 
     &-blue
         +hover($colorBlue)
 
+    &-darkBlue
+        +hover($colorDarkBlue)
+
+    &-lightMint
+        +hover($colorLightMint)
+
     &-mint
         +hover($colorMint)
 
+    &-darkMint
+        +hover($colorDarkMint)
+
+    &-lightGreen
+        +hover($colorLightGreen)
+
     &-green
         +hover($colorGreen)
+
+    &-darkGreen
+        +hover($colorDarkGreen)
 
 
 // Disabled
@@ -2011,6 +2323,12 @@ leto-no-shrink
 
     &-white
         background-color: $colorWhite
+   
+    &-darkWhite
+        background-color: $colorDarkWhite
+
+    &-lighterGrey
+        background-color: $colorLighterGrey
 
     &-lightGrey
         background-color: $colorLightGrey
@@ -2021,29 +2339,77 @@ leto-no-shrink
     &-darkGrey
         background-color: $colorDarkGrey
 
+    &-darkerGrey
+        background-color: $colorDarkerGrey
+
+    &-lightBlack
+        background-color: $colorLightBlack
+
     &-black
         background-color: $colorBlack
+
+    &-lightYellow
+        background-color: $colorLightYellow
 
     &-yellow
         background-color: $colorYellow
 
+    &-darkYellow
+        background-color: $colorDarkYellow
+
+    &-lightOrange
+        background-color: $colorLightOrange
+
     &-orange
         background-color: $colorOrange
+
+    &-darkOrange
+        background-color: $colorDarkOrange
+
+    &-lightRed
+        background-color: $colorLightRed
 
     &-red
         background-color: $colorRed
 
+    &-darkRed
+        background-color: $colorDarkRed
+
+    &-lightPurple
+        background-color: $colorLightPurple
+
     &-purple
         background-color: $colorPurple
+
+    &-darkPurple
+        background-color: $colorDarkPurple
+
+    &-lightBlue
+        background-color: $colorLightBlue
 
     &-blue
         background-color: $colorBlue
 
+    &-darkBlue
+        background-color: $colorDarkBlue
+
+    &-lightMint
+        background-color: $colorLightMint
+
     &-mint
         background-color: $colorMint
 
+    &-darkMint
+        background-color: $colorDarkMint
+
+    &-lightGreen
+        background-color: $colorLightGreen
+
     &-green
         background-color: $colorGreen
+
+    &-darkGreen
+        background-color: $colorDarkGreen
     
     &-none
-        background-color: rgba(0, 0, 0, 0)
+        background-color: transparent
