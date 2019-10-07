@@ -814,28 +814,28 @@ a
 =toastPos($bgColor, $textColor)
     +toast($bgColor, $textColor)
     left: 50%
-    bottom: 64px
-    margin-left: -150px
+    bottom: 20px
+    margin-left: -125px
 
     &-left-top
         +toast($bgColor, $textColor)
-        left: 64px
-        top: 64px
+        left: 20px
+        top: 20px
 
     &-center-top
         +toast($bgColor, $textColor)
         left: 50%
-        top: 64px
-        margin-left: -150px
+        top: 20px
+        margin-left: -125px
 
     &-right-top
         +toast($bgColor, $textColor)
-        right: 64px
-        top: 64px
+        right: 20px
+        top: 20px
 
     &-left-center
         +toast($bgColor, $textColor)
-        left: 64px
+        left: 20px
         top: 50%
         margin-top: -37.5px
 
@@ -844,29 +844,29 @@ a
         left: 50%
         top: 50%
         margin-top: -37.5px
-        margin-left: -150px
+        margin-left: -125px
 
     &-right-center
         +toast($bgColor, $textColor)
-        right: 64px
+        right: 20px
         top: 50%
         margin-top: -37.5px
 
     &-left-bottom
         +toast($bgColor, $textColor)
-        left: 64px
-        bottom: 64px
+        left: 20px
+        bottom: 20px
 
     &-center-bottom
         +toast($bgColor, $textColor)
         left: 50%
-        bottom: 64px
-        margin-left: -150px
+        bottom: 20px
+        margin-left: -125px
 
     &-right-bottom
         +toast($bgColor, $textColor)
-        right: 64px
-        bottom: 64px
+        right: 20px
+        bottom: 20px
 
 .leto-toast
     +toastPos($colorBlack, $colorWhite)
@@ -1073,6 +1073,7 @@ a
 
 .leto-eighth
     +letoWidth(12.5%)
+    
 
 // Sizes
 
@@ -1100,6 +1101,33 @@ a
     &-xxl
         width: $xxl * 4
 
+    &-full
+        width: calc(100% - $basicMargin)
+
+    &-fourfifths
+        width: calc(80% - $basicMargin)
+
+    &-threequaters
+        width: calc(75% - $basicMargin)
+
+    &-twothirds
+        width: calc(66% - $basicMargin)
+
+    &-third
+        width: calc((100% / 3) - $basicMargin)
+
+    &-quater
+        width: calc(25% - $basicMargin)
+
+    &-fifth
+        width: calc(20% - $basicMargin)
+
+    &-sixth
+        width: calc((100% / 6) - $basicMargin)
+
+    &-eighth
+        width: calc(12.5% - $basicMargin)
+
 .leto-height
     height: $md * 4
 
@@ -1123,6 +1151,34 @@ a
 
     &-xxl
         height: $xxl * 4
+
+    &-full
+        height: calc(100% - $basicMargin)
+
+    &-fourfifths
+        height: calc(80% - $basicMargin)
+
+    &-threequaters
+        height: calc(75% - $basicMargin)
+
+    &-twothirds
+        height: calc(66% - $basicMargin)
+
+    &-third
+        height: calc((100% / 3) - $basicMargin)
+
+    &-quater
+        height: calc(25% - $basicMargin)
+
+    &-fifth
+        height: calc(20% - $basicMargin)
+
+    &-sixth
+        height: calc((100% / 6) - $basicMargin)
+
+    &-eighth
+        height: calc(12.5% - $basicMargin)
+
 
 // Position
 
@@ -1950,6 +2006,7 @@ a
 
     &-link
         color: $colorBlue
+        cursor: pointer
 
         &:hover
             color: $colorDarkBlue

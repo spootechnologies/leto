@@ -2128,8 +2128,8 @@ a {
   display: flex;
   z-index: 21;
   left: 50%;
-  bottom: 64px;
-  margin-left: -150px;
+  bottom: 20px;
+  margin-left: -125px;
 }
 
 .leto-toast-left-top {
@@ -2151,8 +2151,8 @@ a {
   display: -ms-flexbox;
   display: flex;
   z-index: 21;
-  left: 64px;
-  top: 64px;
+  left: 20px;
+  top: 20px;
 }
 
 .leto-toast-center-top {
@@ -2175,8 +2175,8 @@ a {
   display: flex;
   z-index: 21;
   left: 50%;
-  top: 64px;
-  margin-left: -150px;
+  top: 20px;
+  margin-left: -125px;
 }
 
 .leto-toast-right-top {
@@ -2198,8 +2198,8 @@ a {
   display: -ms-flexbox;
   display: flex;
   z-index: 21;
-  right: 64px;
-  top: 64px;
+  right: 20px;
+  top: 20px;
 }
 
 .leto-toast-left-center {
@@ -2221,7 +2221,7 @@ a {
   display: -ms-flexbox;
   display: flex;
   z-index: 21;
-  left: 64px;
+  left: 20px;
   top: 50%;
   margin-top: -37.5px;
 }
@@ -2248,7 +2248,7 @@ a {
   left: 50%;
   top: 50%;
   margin-top: -37.5px;
-  margin-left: -150px;
+  margin-left: -125px;
 }
 
 .leto-toast-right-center {
@@ -2270,7 +2270,7 @@ a {
   display: -ms-flexbox;
   display: flex;
   z-index: 21;
-  right: 64px;
+  right: 20px;
   top: 50%;
   margin-top: -37.5px;
 }
@@ -2294,8 +2294,8 @@ a {
   display: -ms-flexbox;
   display: flex;
   z-index: 21;
-  left: 64px;
-  bottom: 64px;
+  left: 20px;
+  bottom: 20px;
 }
 
 .leto-toast-center-bottom {
@@ -2318,8 +2318,8 @@ a {
   display: flex;
   z-index: 21;
   left: 50%;
-  bottom: 64px;
-  margin-left: -150px;
+  bottom: 20px;
+  margin-left: -125px;
 }
 
 .leto-toast-right-bottom {
@@ -2341,8 +2341,8 @@ a {
   display: -ms-flexbox;
   display: flex;
   z-index: 21;
-  right: 64px;
-  bottom: 64px;
+  right: 20px;
+  bottom: 20px;
 }
 
 .leto-toast-success {
@@ -2365,8 +2365,8 @@ a {
   display: flex;
   z-index: 21;
   left: 50%;
-  bottom: 64px;
-  margin-left: -150px;
+  bottom: 20px;
+  margin-left: -125px;
 }
 
 .leto-toast-success-left-top {
@@ -2388,8 +2388,8 @@ a {
   display: -ms-flexbox;
   display: flex;
   z-index: 21;
-  left: 64px;
-  top: 64px;
+  left: 20px;
+  top: 20px;
 }
 
 .leto-toast-success-center-top {
@@ -2412,8 +2412,8 @@ a {
   display: flex;
   z-index: 21;
   left: 50%;
-  top: 64px;
-  margin-left: -150px;
+  top: 20px;
+  margin-left: -125px;
 }
 
 .leto-toast-success-right-top {
@@ -2435,8 +2435,8 @@ a {
   display: -ms-flexbox;
   display: flex;
   z-index: 21;
-  right: 64px;
-  top: 64px;
+  right: 20px;
+  top: 20px;
 }
 
 .leto-toast-success-left-center {
@@ -2458,7 +2458,7 @@ a {
   display: -ms-flexbox;
   display: flex;
   z-index: 21;
-  left: 64px;
+  left: 20px;
   top: 50%;
   margin-top: -37.5px;
 }
@@ -2485,7 +2485,7 @@ a {
   left: 50%;
   top: 50%;
   margin-top: -37.5px;
-  margin-left: -150px;
+  margin-left: -125px;
 }
 
 .leto-toast-success-right-center {
@@ -2507,7 +2507,7 @@ a {
   display: -ms-flexbox;
   display: flex;
   z-index: 21;
-  right: 64px;
+  right: 20px;
   top: 50%;
   margin-top: -37.5px;
 }
@@ -2531,8 +2531,8 @@ a {
   display: -ms-flexbox;
   display: flex;
   z-index: 21;
-  left: 64px;
-  bottom: 64px;
+  left: 20px;
+  bottom: 20px;
 }
 
 .leto-toast-success-center-bottom {
@@ -2555,8 +2555,8 @@ a {
   display: flex;
   z-index: 21;
   left: 50%;
-  bottom: 64px;
-  margin-left: -150px;
+  bottom: 20px;
+  margin-left: -125px;
 }
 
 .leto-toast-success-right-bottom {
@@ -2578,8 +2578,8 @@ a {
   display: -ms-flexbox;
   display: flex;
   z-index: 21;
-  right: 64px;
-  bottom: 64px;
+  right: 20px;
+  bottom: 20px;
 }
 
 .leto-toast-error {
@@ -2602,8 +2602,8 @@ a {
   display: flex;
   z-index: 21;
   left: 50%;
-  bottom: 64px;
-  margin-left: -150px;
+  bottom: 20px;
+  margin-left: -125px;
 }
 
 .leto-toast-error-left-top {
@@ -2625,8 +2625,8 @@ a {
   display: -ms-flexbox;
   display: flex;
   z-index: 21;
-  left: 64px;
-  top: 64px;
+  left: 20px;
+  top: 20px;
 }
 
 .leto-toast-error-center-top {
@@ -2649,8 +2649,8 @@ a {
   display: flex;
   z-index: 21;
   left: 50%;
-  top: 64px;
-  margin-left: -150px;
+  top: 20px;
+  margin-left: -125px;
 }
 
 .leto-toast-error-right-top {
@@ -2672,8 +2672,8 @@ a {
   display: -ms-flexbox;
   display: flex;
   z-index: 21;
-  right: 64px;
-  top: 64px;
+  right: 20px;
+  top: 20px;
 }
 
 .leto-toast-error-left-center {
@@ -2695,7 +2695,7 @@ a {
   display: -ms-flexbox;
   display: flex;
   z-index: 21;
-  left: 64px;
+  left: 20px;
   top: 50%;
   margin-top: -37.5px;
 }
@@ -2722,7 +2722,7 @@ a {
   left: 50%;
   top: 50%;
   margin-top: -37.5px;
-  margin-left: -150px;
+  margin-left: -125px;
 }
 
 .leto-toast-error-right-center {
@@ -2744,7 +2744,7 @@ a {
   display: -ms-flexbox;
   display: flex;
   z-index: 21;
-  right: 64px;
+  right: 20px;
   top: 50%;
   margin-top: -37.5px;
 }
@@ -2768,8 +2768,8 @@ a {
   display: -ms-flexbox;
   display: flex;
   z-index: 21;
-  left: 64px;
-  bottom: 64px;
+  left: 20px;
+  bottom: 20px;
 }
 
 .leto-toast-error-center-bottom {
@@ -2792,8 +2792,8 @@ a {
   display: flex;
   z-index: 21;
   left: 50%;
-  bottom: 64px;
-  margin-left: -150px;
+  bottom: 20px;
+  margin-left: -125px;
 }
 
 .leto-toast-error-right-bottom {
@@ -2815,8 +2815,8 @@ a {
   display: -ms-flexbox;
   display: flex;
   z-index: 21;
-  right: 64px;
-  bottom: 64px;
+  right: 20px;
+  bottom: 20px;
 }
 
 .leto-backdrop {
@@ -3419,6 +3419,42 @@ a {
   width: 192px;
 }
 
+.leto-width-full {
+  width: calc(100% - $basicMargin);
+}
+
+.leto-width-fourfifths {
+  width: calc(80% - $basicMargin);
+}
+
+.leto-width-threequaters {
+  width: calc(75% - $basicMargin);
+}
+
+.leto-width-twothirds {
+  width: calc(66% - $basicMargin);
+}
+
+.leto-width-third {
+  width: calc((100% / 3) - $basicMargin);
+}
+
+.leto-width-quater {
+  width: calc(25% - $basicMargin);
+}
+
+.leto-width-fifth {
+  width: calc(20% - $basicMargin);
+}
+
+.leto-width-sixth {
+  width: calc((100% / 6) - $basicMargin);
+}
+
+.leto-width-eighth {
+  width: calc(12.5% - $basicMargin);
+}
+
 .leto-height {
   height: 96px;
 }
@@ -3449,6 +3485,42 @@ a {
 
 .leto-height-xxl {
   height: 192px;
+}
+
+.leto-height-full {
+  height: calc(100% - $basicMargin);
+}
+
+.leto-height-fourfifths {
+  height: calc(80% - $basicMargin);
+}
+
+.leto-height-threequaters {
+  height: calc(75% - $basicMargin);
+}
+
+.leto-height-twothirds {
+  height: calc(66% - $basicMargin);
+}
+
+.leto-height-third {
+  height: calc((100% / 3) - $basicMargin);
+}
+
+.leto-height-quater {
+  height: calc(25% - $basicMargin);
+}
+
+.leto-height-fifth {
+  height: calc(20% - $basicMargin);
+}
+
+.leto-height-sixth {
+  height: calc((100% / 6) - $basicMargin);
+}
+
+.leto-height-eighth {
+  height: calc(12.5% - $basicMargin);
 }
 
 .leto-static {
@@ -4479,6 +4551,7 @@ a {
 
 .leto-text-link {
   color: #99A7FF;
+  cursor: pointer;
 }
 
 .leto-text-link:hover {
