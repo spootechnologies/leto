@@ -58,12 +58,12 @@ a
     
 // Leto with spoo theme
 
-=bubble($value)
-    height: $value * 2
-    width: $value * 2
-    font-size: $value * .66
+=bubble($value, $multi, $fontSizeMulti)
+    height: $value * $multi
+    width: $value * $multi
+    font-size: $value * $fontSizeMulti
     border: 1px solid $colorGrey
-    border-radius: $value
+    border-radius: $value * $multi 
     margin: $basicMargin
     text-align: center
     flex-direction: column
@@ -73,31 +73,31 @@ a
     display: inline-flex
 
     img
-        max-width: $value * .66   
+        max-width: $value * $fontSizeMulti  
 
 .leto-bubble
-    +bubble($md)
+    +bubble($md, 2, 0.66)
 
     &-xxs
-        +bubble($xxs)
+        +bubble($xxs, 4, 1)
 
     &-xs
-        +bubble($xs)
+        +bubble($xs, 3, 1)
 
     &-sm
-        +bubble($sm)
+        +bubble($sm, 2, 0.66)
 
     &-md
-        +bubble($md)
+        +bubble($md, 2, 0.66)
 
     &-lg
-        +bubble($lg)
+        +bubble($lg, 2, 0.66)
 
     &-xl
-        +bubble($xl)
+        +bubble($xl, 2, 0.66)
 
     &-xxl
-        +bubble($xxl)
+        +bubble($xxl, 2, 0.66)
 
 
 // Card

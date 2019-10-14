@@ -69,7 +69,7 @@ a {
   width: 48px;
   font-size: 15.84px;
   border: 1px solid #d4d4d4;
-  border-radius: 24px;
+  border-radius: 48px;
   margin: 8px;
   text-align: center;
   -webkit-box-orient: vertical;
@@ -94,11 +94,11 @@ a {
 }
 
 .leto-bubble-xxs {
-  height: 8px;
-  width: 8px;
-  font-size: 2.64px;
+  height: 16px;
+  width: 16px;
+  font-size: 4px;
   border: 1px solid #d4d4d4;
-  border-radius: 4px;
+  border-radius: 16px;
   margin: 8px;
   text-align: center;
   -webkit-box-orient: vertical;
@@ -119,15 +119,15 @@ a {
 }
 
 .leto-bubble-xxs img {
-  max-width: 2.64px;
+  max-width: 4px;
 }
 
 .leto-bubble-xs {
-  height: 16px;
-  width: 16px;
-  font-size: 5.28px;
+  height: 24px;
+  width: 24px;
+  font-size: 8px;
   border: 1px solid #d4d4d4;
-  border-radius: 8px;
+  border-radius: 24px;
   margin: 8px;
   text-align: center;
   -webkit-box-orient: vertical;
@@ -148,7 +148,7 @@ a {
 }
 
 .leto-bubble-xs img {
-  max-width: 5.28px;
+  max-width: 8px;
 }
 
 .leto-bubble-sm {
@@ -156,7 +156,7 @@ a {
   width: 32px;
   font-size: 10.56px;
   border: 1px solid #d4d4d4;
-  border-radius: 16px;
+  border-radius: 32px;
   margin: 8px;
   text-align: center;
   -webkit-box-orient: vertical;
@@ -185,7 +185,7 @@ a {
   width: 48px;
   font-size: 15.84px;
   border: 1px solid #d4d4d4;
-  border-radius: 24px;
+  border-radius: 48px;
   margin: 8px;
   text-align: center;
   -webkit-box-orient: vertical;
@@ -214,7 +214,7 @@ a {
   width: 64px;
   font-size: 21.12px;
   border: 1px solid #d4d4d4;
-  border-radius: 32px;
+  border-radius: 64px;
   margin: 8px;
   text-align: center;
   -webkit-box-orient: vertical;
@@ -243,7 +243,7 @@ a {
   width: 80px;
   font-size: 26.4px;
   border: 1px solid #d4d4d4;
-  border-radius: 40px;
+  border-radius: 80px;
   margin: 8px;
   text-align: center;
   -webkit-box-orient: vertical;
@@ -272,7 +272,7 @@ a {
   width: 96px;
   font-size: 31.68px;
   border: 1px solid #d4d4d4;
-  border-radius: 48px;
+  border-radius: 96px;
   margin: 8px;
   text-align: center;
   -webkit-box-orient: vertical;
