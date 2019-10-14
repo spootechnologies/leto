@@ -60,7 +60,7 @@ p, b {
 }
 
 a {
-  color: #99A7FF;
+  color: #7385ff;
   text-decoration: none;
 }
 
@@ -2349,7 +2349,7 @@ a {
 
 .leto-toast-success {
   position: fixed;
-  background-color: #9BFF99;
+  background-color: #80ff7f;
   width: 250px;
   min-height: 50px;
   max-height: 100px;
@@ -2373,7 +2373,7 @@ a {
 
 .leto-toast-success-left-top {
   position: fixed;
-  background-color: #9BFF99;
+  background-color: #80ff7f;
   width: 250px;
   min-height: 50px;
   max-height: 100px;
@@ -2396,7 +2396,7 @@ a {
 
 .leto-toast-success-center-top {
   position: fixed;
-  background-color: #9BFF99;
+  background-color: #80ff7f;
   width: 250px;
   min-height: 50px;
   max-height: 100px;
@@ -2420,7 +2420,7 @@ a {
 
 .leto-toast-success-right-top {
   position: fixed;
-  background-color: #9BFF99;
+  background-color: #80ff7f;
   width: 250px;
   min-height: 50px;
   max-height: 100px;
@@ -2443,7 +2443,7 @@ a {
 
 .leto-toast-success-left-center {
   position: fixed;
-  background-color: #9BFF99;
+  background-color: #80ff7f;
   width: 250px;
   min-height: 50px;
   max-height: 100px;
@@ -2467,7 +2467,7 @@ a {
 
 .leto-toast-success-center {
   position: fixed;
-  background-color: #9BFF99;
+  background-color: #80ff7f;
   width: 250px;
   min-height: 50px;
   max-height: 100px;
@@ -2492,7 +2492,7 @@ a {
 
 .leto-toast-success-right-center {
   position: fixed;
-  background-color: #9BFF99;
+  background-color: #80ff7f;
   width: 250px;
   min-height: 50px;
   max-height: 100px;
@@ -2516,7 +2516,7 @@ a {
 
 .leto-toast-success-left-bottom {
   position: fixed;
-  background-color: #9BFF99;
+  background-color: #80ff7f;
   width: 250px;
   min-height: 50px;
   max-height: 100px;
@@ -2539,7 +2539,7 @@ a {
 
 .leto-toast-success-center-bottom {
   position: fixed;
-  background-color: #9BFF99;
+  background-color: #80ff7f;
   width: 250px;
   min-height: 50px;
   max-height: 100px;
@@ -2563,7 +2563,7 @@ a {
 
 .leto-toast-success-right-bottom {
   position: fixed;
-  background-color: #9BFF99;
+  background-color: #80ff7f;
   width: 250px;
   min-height: 50px;
   max-height: 100px;
@@ -2586,7 +2586,7 @@ a {
 
 .leto-toast-error {
   position: fixed;
-  background-color: #FF8C8C;
+  background-color: #ffac5a;
   width: 250px;
   min-height: 50px;
   max-height: 100px;
@@ -2610,7 +2610,7 @@ a {
 
 .leto-toast-error-left-top {
   position: fixed;
-  background-color: #FF8C8C;
+  background-color: #ffac5a;
   width: 250px;
   min-height: 50px;
   max-height: 100px;
@@ -2633,7 +2633,7 @@ a {
 
 .leto-toast-error-center-top {
   position: fixed;
-  background-color: #FF8C8C;
+  background-color: #ffac5a;
   width: 250px;
   min-height: 50px;
   max-height: 100px;
@@ -2657,7 +2657,7 @@ a {
 
 .leto-toast-error-right-top {
   position: fixed;
-  background-color: #FF8C8C;
+  background-color: #ffac5a;
   width: 250px;
   min-height: 50px;
   max-height: 100px;
@@ -2680,7 +2680,7 @@ a {
 
 .leto-toast-error-left-center {
   position: fixed;
-  background-color: #FF8C8C;
+  background-color: #ffac5a;
   width: 250px;
   min-height: 50px;
   max-height: 100px;
@@ -2704,7 +2704,7 @@ a {
 
 .leto-toast-error-center {
   position: fixed;
-  background-color: #FF8C8C;
+  background-color: #ffac5a;
   width: 250px;
   min-height: 50px;
   max-height: 100px;
@@ -2729,7 +2729,7 @@ a {
 
 .leto-toast-error-right-center {
   position: fixed;
-  background-color: #FF8C8C;
+  background-color: #ffac5a;
   width: 250px;
   min-height: 50px;
   max-height: 100px;
@@ -2753,7 +2753,7 @@ a {
 
 .leto-toast-error-left-bottom {
   position: fixed;
-  background-color: #FF8C8C;
+  background-color: #ffac5a;
   width: 250px;
   min-height: 50px;
   max-height: 100px;
@@ -2776,7 +2776,7 @@ a {
 
 .leto-toast-error-center-bottom {
   position: fixed;
-  background-color: #FF8C8C;
+  background-color: #ffac5a;
   width: 250px;
   min-height: 50px;
   max-height: 100px;
@@ -2800,7 +2800,7 @@ a {
 
 .leto-toast-error-right-bottom {
   position: fixed;
-  background-color: #FF8C8C;
+  background-color: #ffac5a;
   width: 250px;
   min-height: 50px;
   max-height: 100px;
@@ -4400,87 +4400,87 @@ a {
 }
 
 .leto-border-lightYellow {
-  border-color: #fffecc;
+  border-color: #ffffa6;
 }
 
 .leto-border-yellow {
-  border-color: #FFFD99;
+  border-color: #ffff73;
 }
 
 .leto-border-darkYellow {
-  border-color: #fffc66;
+  border-color: #ffff40;
 }
 
 .leto-border-lightOrange {
-  border-color: #ffd9b3;
+  border-color: #ffc68d;
 }
 
 .leto-border-orange {
-  border-color: #FFBF80;
+  border-color: #ffac5a;
 }
 
 .leto-border-darkOrange {
-  border-color: #ffa54d;
+  border-color: #ff9227;
 }
 
 .leto-border-lightRed {
-  border-color: #ffbfbf;
+  border-color: #ffc68d;
 }
 
 .leto-border-red {
-  border-color: #FF8C8C;
+  border-color: #ffac5a;
 }
 
 .leto-border-darkRed {
-  border-color: #ff5959;
+  border-color: #ff9227;
 }
 
 .leto-border-lightPurple {
-  border-color: #eaccff;
+  border-color: #dfb2ff;
 }
 
 .leto-border-purple {
-  border-color: #D499FF;
+  border-color: #ca7fff;
 }
 
 .leto-border-darkPurple {
-  border-color: #bf66ff;
+  border-color: #b54cff;
 }
 
 .leto-border-lightBlue {
-  border-color: #ccd3ff;
+  border-color: #a6b1ff;
 }
 
 .leto-border-blue {
-  border-color: #99A7FF;
+  border-color: #7385ff;
 }
 
 .leto-border-darkBlue {
-  border-color: #667bff;
+  border-color: #4059ff;
 }
 
 .leto-border-lightMint {
-  border-color: #b3ffe3;
+  border-color: #8cffd9;
 }
 
 .leto-border-mint {
-  border-color: #80FFD0;
+  border-color: #59ffc8;
 }
 
 .leto-border-darkMint {
-  border-color: #4dffbd;
+  border-color: #26ffb7;
 }
 
 .leto-border-lightGreen {
-  border-color: #cdffcc;
+  border-color: #b3ffb2;
 }
 
 .leto-border-green {
-  border-color: #9BFF99;
+  border-color: #80ff7f;
 }
 
 .leto-border-darkGreen {
-  border-color: #69ff66;
+  border-color: #4dff4c;
 }
 
 .leto-border-none {
@@ -4554,12 +4554,12 @@ a {
 }
 
 .leto-text-link {
-  color: #99A7FF;
+  color: #7385ff;
   cursor: pointer;
 }
 
 .leto-text-link:hover {
-  color: #667bff;
+  color: #4059ff;
   text-decoration: underline;
 }
 
@@ -4612,87 +4612,87 @@ a {
 }
 
 .leto-text-lightYellow {
-  color: #fffecc;
+  color: #ffffa6;
 }
 
 .leto-text-yellow {
-  color: #FFFD99;
+  color: #ffff73;
 }
 
 .leto-text-darkYellow {
-  color: #fffc66;
+  color: #ffff40;
 }
 
 .leto-text-lightOrange {
-  color: #ffd9b3;
+  color: #ffc68d;
 }
 
 .leto-text-orange {
-  color: #FFBF80;
+  color: #ffac5a;
 }
 
 .leto-text-darkOrange {
-  color: #ffa54d;
+  color: #ff9227;
 }
 
 .leto-text-lightRed {
-  color: #ffbfbf;
+  color: #ffc68d;
 }
 
 .leto-text-red {
-  color: #FF8C8C;
+  color: #ffac5a;
 }
 
 .leto-text-darkRed {
-  color: #ff5959;
+  color: #ff9227;
 }
 
 .leto-text-lightPurple {
-  color: #eaccff;
+  color: #dfb2ff;
 }
 
 .leto-text-purple {
-  color: #D499FF;
+  color: #ca7fff;
 }
 
 .leto-text-darkPurple {
-  color: #bf66ff;
+  color: #b54cff;
 }
 
 .leto-text-lightBlue {
-  color: #ccd3ff;
+  color: #a6b1ff;
 }
 
 .leto-text-blue {
-  color: #99A7FF;
+  color: #7385ff;
 }
 
 .leto-text-darkBlue {
-  color: #667bff;
+  color: #4059ff;
 }
 
 .leto-text-lightMint {
-  color: #b3ffe3;
+  color: #8cffd9;
 }
 
 .leto-text-mint {
-  color: #80FFD0;
+  color: #59ffc8;
 }
 
 .leto-text-darkMint {
-  color: #4dffbd;
+  color: #26ffb7;
 }
 
 .leto-text-lightGreen {
-  color: #cdffcc;
+  color: #b3ffb2;
 }
 
 .leto-text-green {
-  color: #9BFF99;
+  color: #80ff7f;
 }
 
 .leto-text-darkGreen {
-  color: #69ff66;
+  color: #4dff4c;
 }
 
 .leto-text-none {
@@ -4940,7 +4940,7 @@ a {
 }
 
 .leto-active-lightYellow {
-  background-color: #fffecc;
+  background-color: #ffffa6;
 }
 
 .leto-active-lightYellow[class*=leto-bubble] {
@@ -4960,11 +4960,11 @@ a {
 }
 
 .leto-active-lightYellow[class*=leto-text] {
-  color: #fffecc;
+  color: #ffffa6;
 }
 
 .leto-active-yellow {
-  background-color: #FFFD99;
+  background-color: #ffff73;
 }
 
 .leto-active-yellow[class*=leto-bubble] {
@@ -4984,11 +4984,11 @@ a {
 }
 
 .leto-active-yellow[class*=leto-text] {
-  color: #FFFD99;
+  color: #ffff73;
 }
 
 .leto-active-darkYellow {
-  background-color: #fffc66;
+  background-color: #ffff40;
 }
 
 .leto-active-darkYellow[class*=leto-bubble] {
@@ -5008,11 +5008,11 @@ a {
 }
 
 .leto-active-darkYellow[class*=leto-text] {
-  color: #fffc66;
+  color: #ffff40;
 }
 
 .leto-active-lightOrange {
-  background-color: #ffd9b3;
+  background-color: #ffc68d;
 }
 
 .leto-active-lightOrange[class*=leto-bubble] {
@@ -5032,11 +5032,11 @@ a {
 }
 
 .leto-active-lightOrange[class*=leto-text] {
-  color: #ffd9b3;
+  color: #ffc68d;
 }
 
 .leto-active-orange {
-  background-color: #FFBF80;
+  background-color: #ffac5a;
 }
 
 .leto-active-orange[class*=leto-bubble] {
@@ -5056,11 +5056,11 @@ a {
 }
 
 .leto-active-orange[class*=leto-text] {
-  color: #FFBF80;
+  color: #ffac5a;
 }
 
 .leto-active-darkOrange {
-  background-color: #ffa54d;
+  background-color: #ff9227;
 }
 
 .leto-active-darkOrange[class*=leto-bubble] {
@@ -5080,11 +5080,11 @@ a {
 }
 
 .leto-active-darkOrange[class*=leto-text] {
-  color: #ffa54d;
+  color: #ff9227;
 }
 
 .leto-active-lightRed {
-  background-color: #ffbfbf;
+  background-color: #ffc68d;
 }
 
 .leto-active-lightRed[class*=leto-bubble] {
@@ -5104,11 +5104,11 @@ a {
 }
 
 .leto-active-lightRed[class*=leto-text] {
-  color: #ffbfbf;
+  color: #ffc68d;
 }
 
 .leto-active-red {
-  background-color: #FF8C8C;
+  background-color: #ffac5a;
 }
 
 .leto-active-red[class*=leto-bubble] {
@@ -5128,11 +5128,11 @@ a {
 }
 
 .leto-active-red[class*=leto-text] {
-  color: #FF8C8C;
+  color: #ffac5a;
 }
 
 .leto-active-darkRed {
-  background-color: #ff5959;
+  background-color: #ff9227;
 }
 
 .leto-active-darkRed[class*=leto-bubble] {
@@ -5152,11 +5152,11 @@ a {
 }
 
 .leto-active-darkRed[class*=leto-text] {
-  color: #ff5959;
+  color: #ff9227;
 }
 
 .leto-active-lightPurple {
-  background-color: #eaccff;
+  background-color: #dfb2ff;
 }
 
 .leto-active-lightPurple[class*=leto-bubble] {
@@ -5176,11 +5176,11 @@ a {
 }
 
 .leto-active-lightPurple[class*=leto-text] {
-  color: #eaccff;
+  color: #dfb2ff;
 }
 
 .leto-active-purple {
-  background-color: #D499FF;
+  background-color: #ca7fff;
 }
 
 .leto-active-purple[class*=leto-bubble] {
@@ -5200,11 +5200,11 @@ a {
 }
 
 .leto-active-purple[class*=leto-text] {
-  color: #D499FF;
+  color: #ca7fff;
 }
 
 .leto-active-darkPurple {
-  background-color: #bf66ff;
+  background-color: #b54cff;
 }
 
 .leto-active-darkPurple[class*=leto-bubble] {
@@ -5224,11 +5224,11 @@ a {
 }
 
 .leto-active-darkPurple[class*=leto-text] {
-  color: #bf66ff;
+  color: #b54cff;
 }
 
 .leto-active-lightBlue {
-  background-color: #ccd3ff;
+  background-color: #a6b1ff;
 }
 
 .leto-active-lightBlue[class*=leto-bubble] {
@@ -5248,11 +5248,11 @@ a {
 }
 
 .leto-active-lightBlue[class*=leto-text] {
-  color: #ccd3ff;
+  color: #a6b1ff;
 }
 
 .leto-active-blue {
-  background-color: #99A7FF;
+  background-color: #7385ff;
 }
 
 .leto-active-blue[class*=leto-bubble] {
@@ -5272,11 +5272,11 @@ a {
 }
 
 .leto-active-blue[class*=leto-text] {
-  color: #99A7FF;
+  color: #7385ff;
 }
 
 .leto-active-darkBlue {
-  background-color: #667bff;
+  background-color: #4059ff;
 }
 
 .leto-active-darkBlue[class*=leto-bubble] {
@@ -5296,11 +5296,11 @@ a {
 }
 
 .leto-active-darkBlue[class*=leto-text] {
-  color: #667bff;
+  color: #4059ff;
 }
 
 .leto-active-lightMint {
-  background-color: #b3ffe3;
+  background-color: #8cffd9;
 }
 
 .leto-active-lightMint[class*=leto-bubble] {
@@ -5320,11 +5320,11 @@ a {
 }
 
 .leto-active-lightMint[class*=leto-text] {
-  color: #b3ffe3;
+  color: #8cffd9;
 }
 
 .leto-active-mint {
-  background-color: #80FFD0;
+  background-color: #59ffc8;
 }
 
 .leto-active-mint[class*=leto-bubble] {
@@ -5344,11 +5344,11 @@ a {
 }
 
 .leto-active-mint[class*=leto-text] {
-  color: #80FFD0;
+  color: #59ffc8;
 }
 
 .leto-active-darkMint {
-  background-color: #4dffbd;
+  background-color: #26ffb7;
 }
 
 .leto-active-darkMint[class*=leto-bubble] {
@@ -5368,11 +5368,11 @@ a {
 }
 
 .leto-active-darkMint[class*=leto-text] {
-  color: #4dffbd;
+  color: #26ffb7;
 }
 
 .leto-active-lightGreen {
-  background-color: #cdffcc;
+  background-color: #b3ffb2;
 }
 
 .leto-active-lightGreen[class*=leto-bubble] {
@@ -5392,11 +5392,11 @@ a {
 }
 
 .leto-active-lightGreen[class*=leto-text] {
-  color: #cdffcc;
+  color: #b3ffb2;
 }
 
 .leto-active-green {
-  background-color: #9BFF99;
+  background-color: #80ff7f;
 }
 
 .leto-active-green[class*=leto-bubble] {
@@ -5416,11 +5416,11 @@ a {
 }
 
 .leto-active-green[class*=leto-text] {
-  color: #9BFF99;
+  color: #80ff7f;
 }
 
 .leto-active-darkGreen {
-  background-color: #69ff66;
+  background-color: #4dff4c;
 }
 
 .leto-active-darkGreen[class*=leto-bubble] {
@@ -5440,7 +5440,7 @@ a {
 }
 
 .leto-active-darkGreen[class*=leto-text] {
-  color: #69ff66;
+  color: #4dff4c;
 }
 
 .leto-hover:hover {
@@ -5684,7 +5684,7 @@ a {
 }
 
 .leto-hover-lightYellow:hover {
-  background-color: #fffecc;
+  background-color: #ffffa6;
 }
 
 .leto-hover-lightYellow[class*=leto-bubble]:hover {
@@ -5704,11 +5704,11 @@ a {
 }
 
 .leto-hover-lightYellow[class*=leto-text]:hover {
-  color: #fffecc;
+  color: #ffffa6;
 }
 
 .leto-hover-yellow:hover {
-  background-color: #FFFD99;
+  background-color: #ffff73;
 }
 
 .leto-hover-yellow[class*=leto-bubble]:hover {
@@ -5728,11 +5728,11 @@ a {
 }
 
 .leto-hover-yellow[class*=leto-text]:hover {
-  color: #FFFD99;
+  color: #ffff73;
 }
 
 .leto-hover-darkYellow:hover {
-  background-color: #fffc66;
+  background-color: #ffff40;
 }
 
 .leto-hover-darkYellow[class*=leto-bubble]:hover {
@@ -5752,11 +5752,11 @@ a {
 }
 
 .leto-hover-darkYellow[class*=leto-text]:hover {
-  color: #fffc66;
+  color: #ffff40;
 }
 
 .leto-hover-lightOrange:hover {
-  background-color: #ffd9b3;
+  background-color: #ffc68d;
 }
 
 .leto-hover-lightOrange[class*=leto-bubble]:hover {
@@ -5776,11 +5776,11 @@ a {
 }
 
 .leto-hover-lightOrange[class*=leto-text]:hover {
-  color: #ffd9b3;
+  color: #ffc68d;
 }
 
 .leto-hover-orange:hover {
-  background-color: #FFBF80;
+  background-color: #ffac5a;
 }
 
 .leto-hover-orange[class*=leto-bubble]:hover {
@@ -5800,11 +5800,11 @@ a {
 }
 
 .leto-hover-orange[class*=leto-text]:hover {
-  color: #FFBF80;
+  color: #ffac5a;
 }
 
 .leto-hover-darkOrange:hover {
-  background-color: #ffa54d;
+  background-color: #ff9227;
 }
 
 .leto-hover-darkOrange[class*=leto-bubble]:hover {
@@ -5824,11 +5824,11 @@ a {
 }
 
 .leto-hover-darkOrange[class*=leto-text]:hover {
-  color: #ffa54d;
+  color: #ff9227;
 }
 
 .leto-hover-lightRed:hover {
-  background-color: #ffbfbf;
+  background-color: #ffc68d;
 }
 
 .leto-hover-lightRed[class*=leto-bubble]:hover {
@@ -5848,11 +5848,11 @@ a {
 }
 
 .leto-hover-lightRed[class*=leto-text]:hover {
-  color: #ffbfbf;
+  color: #ffc68d;
 }
 
 .leto-hover-red:hover {
-  background-color: #FF8C8C;
+  background-color: #ffac5a;
 }
 
 .leto-hover-red[class*=leto-bubble]:hover {
@@ -5872,11 +5872,11 @@ a {
 }
 
 .leto-hover-red[class*=leto-text]:hover {
-  color: #FF8C8C;
+  color: #ffac5a;
 }
 
 .leto-hover-darkRed:hover {
-  background-color: #ff5959;
+  background-color: #ff9227;
 }
 
 .leto-hover-darkRed[class*=leto-bubble]:hover {
@@ -5896,11 +5896,11 @@ a {
 }
 
 .leto-hover-darkRed[class*=leto-text]:hover {
-  color: #ff5959;
+  color: #ff9227;
 }
 
 .leto-hover-lightPurple:hover {
-  background-color: #eaccff;
+  background-color: #dfb2ff;
 }
 
 .leto-hover-lightPurple[class*=leto-bubble]:hover {
@@ -5920,11 +5920,11 @@ a {
 }
 
 .leto-hover-lightPurple[class*=leto-text]:hover {
-  color: #eaccff;
+  color: #dfb2ff;
 }
 
 .leto-hover-purple:hover {
-  background-color: #D499FF;
+  background-color: #ca7fff;
 }
 
 .leto-hover-purple[class*=leto-bubble]:hover {
@@ -5944,11 +5944,11 @@ a {
 }
 
 .leto-hover-purple[class*=leto-text]:hover {
-  color: #D499FF;
+  color: #ca7fff;
 }
 
 .leto-hover-darkPurple:hover {
-  background-color: #bf66ff;
+  background-color: #b54cff;
 }
 
 .leto-hover-darkPurple[class*=leto-bubble]:hover {
@@ -5968,11 +5968,11 @@ a {
 }
 
 .leto-hover-darkPurple[class*=leto-text]:hover {
-  color: #bf66ff;
+  color: #b54cff;
 }
 
 .leto-hover-lightBlue:hover {
-  background-color: #ccd3ff;
+  background-color: #a6b1ff;
 }
 
 .leto-hover-lightBlue[class*=leto-bubble]:hover {
@@ -5992,11 +5992,11 @@ a {
 }
 
 .leto-hover-lightBlue[class*=leto-text]:hover {
-  color: #ccd3ff;
+  color: #a6b1ff;
 }
 
 .leto-hover-blue:hover {
-  background-color: #99A7FF;
+  background-color: #7385ff;
 }
 
 .leto-hover-blue[class*=leto-bubble]:hover {
@@ -6016,11 +6016,11 @@ a {
 }
 
 .leto-hover-blue[class*=leto-text]:hover {
-  color: #99A7FF;
+  color: #7385ff;
 }
 
 .leto-hover-darkBlue:hover {
-  background-color: #667bff;
+  background-color: #4059ff;
 }
 
 .leto-hover-darkBlue[class*=leto-bubble]:hover {
@@ -6040,11 +6040,11 @@ a {
 }
 
 .leto-hover-darkBlue[class*=leto-text]:hover {
-  color: #667bff;
+  color: #4059ff;
 }
 
 .leto-hover-lightMint:hover {
-  background-color: #b3ffe3;
+  background-color: #8cffd9;
 }
 
 .leto-hover-lightMint[class*=leto-bubble]:hover {
@@ -6064,11 +6064,11 @@ a {
 }
 
 .leto-hover-lightMint[class*=leto-text]:hover {
-  color: #b3ffe3;
+  color: #8cffd9;
 }
 
 .leto-hover-mint:hover {
-  background-color: #80FFD0;
+  background-color: #59ffc8;
 }
 
 .leto-hover-mint[class*=leto-bubble]:hover {
@@ -6088,11 +6088,11 @@ a {
 }
 
 .leto-hover-mint[class*=leto-text]:hover {
-  color: #80FFD0;
+  color: #59ffc8;
 }
 
 .leto-hover-darkMint:hover {
-  background-color: #4dffbd;
+  background-color: #26ffb7;
 }
 
 .leto-hover-darkMint[class*=leto-bubble]:hover {
@@ -6112,11 +6112,11 @@ a {
 }
 
 .leto-hover-darkMint[class*=leto-text]:hover {
-  color: #4dffbd;
+  color: #26ffb7;
 }
 
 .leto-hover-lightGreen:hover {
-  background-color: #cdffcc;
+  background-color: #b3ffb2;
 }
 
 .leto-hover-lightGreen[class*=leto-bubble]:hover {
@@ -6136,11 +6136,11 @@ a {
 }
 
 .leto-hover-lightGreen[class*=leto-text]:hover {
-  color: #cdffcc;
+  color: #b3ffb2;
 }
 
 .leto-hover-green:hover {
-  background-color: #9BFF99;
+  background-color: #80ff7f;
 }
 
 .leto-hover-green[class*=leto-bubble]:hover {
@@ -6160,11 +6160,11 @@ a {
 }
 
 .leto-hover-green[class*=leto-text]:hover {
-  color: #9BFF99;
+  color: #80ff7f;
 }
 
 .leto-hover-darkGreen:hover {
-  background-color: #69ff66;
+  background-color: #4dff4c;
 }
 
 .leto-hover-darkGreen[class*=leto-bubble]:hover {
@@ -6184,7 +6184,7 @@ a {
 }
 
 .leto-hover-darkGreen[class*=leto-text]:hover {
-  color: #69ff66;
+  color: #4dff4c;
 }
 
 .leto-disabled {
@@ -6257,87 +6257,87 @@ a {
 }
 
 .leto-bg-lightYellow {
-  background-color: #fffecc;
+  background-color: #ffffa6;
 }
 
 .leto-bg-yellow {
-  background-color: #FFFD99;
+  background-color: #ffff73;
 }
 
 .leto-bg-darkYellow {
-  background-color: #fffc66;
+  background-color: #ffff40;
 }
 
 .leto-bg-lightOrange {
-  background-color: #ffd9b3;
+  background-color: #ffc68d;
 }
 
 .leto-bg-orange {
-  background-color: #FFBF80;
+  background-color: #ffac5a;
 }
 
 .leto-bg-darkOrange {
-  background-color: #ffa54d;
+  background-color: #ff9227;
 }
 
 .leto-bg-lightRed {
-  background-color: #ffbfbf;
+  background-color: #ffc68d;
 }
 
 .leto-bg-red {
-  background-color: #FF8C8C;
+  background-color: #ffac5a;
 }
 
 .leto-bg-darkRed {
-  background-color: #ff5959;
+  background-color: #ff9227;
 }
 
 .leto-bg-lightPurple {
-  background-color: #eaccff;
+  background-color: #dfb2ff;
 }
 
 .leto-bg-purple {
-  background-color: #D499FF;
+  background-color: #ca7fff;
 }
 
 .leto-bg-darkPurple {
-  background-color: #bf66ff;
+  background-color: #b54cff;
 }
 
 .leto-bg-lightBlue {
-  background-color: #ccd3ff;
+  background-color: #a6b1ff;
 }
 
 .leto-bg-blue {
-  background-color: #99A7FF;
+  background-color: #7385ff;
 }
 
 .leto-bg-darkBlue {
-  background-color: #667bff;
+  background-color: #4059ff;
 }
 
 .leto-bg-lightMint {
-  background-color: #b3ffe3;
+  background-color: #8cffd9;
 }
 
 .leto-bg-mint {
-  background-color: #80FFD0;
+  background-color: #59ffc8;
 }
 
 .leto-bg-darkMint {
-  background-color: #4dffbd;
+  background-color: #26ffb7;
 }
 
 .leto-bg-lightGreen {
-  background-color: #cdffcc;
+  background-color: #b3ffb2;
 }
 
 .leto-bg-green {
-  background-color: #9BFF99;
+  background-color: #80ff7f;
 }
 
 .leto-bg-darkGreen {
-  background-color: #69ff66;
+  background-color: #4dff4c;
 }
 
 .leto-bg-none {
