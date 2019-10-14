@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,300,400,500,700,900&display=swap')
+@import 'leto-variables.sass'
+
+$themeColor: $colorBlue
+
+\:root
+    --theme-color: #{$themeColor} // changed
+    --base-font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" // changed
+    --base-font-size: 14px // changed
+    --base-font-weight: #{$fontWeightRegular} // changed
+    --heading-font-weight: #{$fontWeightMedium} // changed
+    --base-background-color: #{$colorWhite} // changed
+    --selection-color: #{$themeColor}
+
+    --link-border-bottom: #{$themeColor}
+    --sidebar-background: #{$colorWhite} // changed
+    --sidebar-nav-link-text-decoration--active: none
+    --sidebar-nav-link-font-weight--active: #{$fontWeightMedium}
+    --sidebar-nav-link-color: #{$colorBlack}
+    --sidebar-nav-link-color--active: #{$themeColor}
+    --sidebar-nav-link-border-width--active: 0 2px 0 0
+    --sidebar-nav-link-border-color: #{$themeColor}
+    --sidebar-nav-link-margin: 0 -25px 0 0
+    --sidebar-border-color: #{$colorLightGrey}
+    --sidebar-border-width: 0 2px 0 0
+
+    --code-block-border-radius: 12px
+    --blockquote-border-radius: 12px
+
+    --code-theme-background:
+    --code-theme-comment: #{$colorDarkGrey}               
+    --code-theme-function: #{$colorBlue}            
+    --code-theme-keyword: #{$colorGreen}                
+    --code-theme-operator: #{$colorRed}              
+    --code-theme-punctuation: #{$colorWhite}           
+    --code-theme-selection: #{$themeColor}               
+    --code-theme-selector: #{$colorOrange}                
+    --code-theme-tag: #{$colorRed}                    
+    --code-theme-text: #{$colorWhite}           
+    --code-theme-variable: #{$colorRed}              
+
+    --table-row-odd-background: transparent
+    --table-row-border-width: 2px
+    --table-row-border-color: #{$colorGrey}
+
+    --cover-button-border-radius: 100px
+
+h1, h2, h3, h4, h5, h6
+    
+    &:hover > a
+        text-decoration-color: $themeColor !important
+
+.sidebar::-webkit-scrollbar
+    background: transparent
+    width: 4px
+
+.sidebar::-webkit-scrollbar-thumb 
+    background: transparent
+    border-radius: 4px
+
+body:not([data-platform^="Mac"]) .sidebar::-webkit-scrollbar-thumb
+    background: transparent
+
+.sidebar::-webkit-scrollbar-track
+    background: transparent
+
+body:not([data-platform^="Mac"]) .sidebar::-webkit-scrollbar-track
+    background: transparent
+
+.sidebar:hover::-webkit-scrollbar-thumb
+    background: #{$colorGrey}
+
+body:not([data-platform^="Mac"]) .sidebar:hover::-webkit-scrollbar-thumb
+    background: #{$colorGrey}
+
+.sidebar:hover::-webkit-scrollbar-track
+    background: hsla(0,0%,53%,.1)
+
+body:not([data-platform^="Mac"]) .sidebar:hover::-webkit-scrollbar-track
+    background: hsla(0,0%,53%,.1)
+
+.markdown-section pre[data-lang]
+    background: #404040
+    border: 0px solid #{$colorLightGrey}
+
+.markdown-section table
+    border-collapse: separate
+    border-spacing: 0 $basicMargin
+
+.markdown-section tbody td
+    border-top: 1px solid #{$colorGrey}
+    border-bottom: 1px solid #{$colorGrey}
+
+.markdown-section tbody td:first-child
+    border-left: 1px solid #{$colorGrey}
+    border-top-left-radius: 0
+    border-bottom-left-radius: 0
+    padding-left: 16px
+
+.markdown-section tbody td:last-child
+    border-right: 1px solid #{$colorGrey}
+    border-top-right-radius: 0
+    border-bottom-right-radius: 0
+    padding-right: 16px
+
+.token.string
+    color: #{$colorGreen}
