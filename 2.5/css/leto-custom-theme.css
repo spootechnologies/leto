@@ -45,35 +45,6 @@
 }
 
 [class*=leto-frame-theme] .leto-bubble-xxs {
-  height: 8px;
-  width: 8px;
-  font-size: 2.64px;
-  border: 0;
-  border-radius: 0;
-  margin: 0;
-  text-align: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-}
-
-[class*=leto-frame-theme] .leto-bubble-xxs img {
-  max-width: 2.64px;
-}
-
-[class*=leto-frame-theme] .leto-bubble-xs {
   height: 16px;
   width: 16px;
   font-size: 5.28px;
@@ -98,8 +69,37 @@
   display: inline-flex;
 }
 
-[class*=leto-frame-theme] .leto-bubble-xs img {
+[class*=leto-frame-theme] .leto-bubble-xxs img {
   max-width: 5.28px;
+}
+
+[class*=leto-frame-theme] .leto-bubble-xs {
+  height: 24px;
+  width: 24px;
+  font-size: 7.92px;
+  border: 0;
+  border-radius: 0;
+  margin: 0;
+  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+[class*=leto-frame-theme] .leto-bubble-xs img {
+  max-width: 7.92px;
 }
 
 [class*=leto-frame-theme] .leto-bubble-sm {
@@ -190,35 +190,6 @@
 }
 
 [class*=leto-frame-theme] .leto-bubble-xl {
-  height: 80px;
-  width: 80px;
-  font-size: 26.4px;
-  border: 0;
-  border-radius: 0;
-  margin: 0;
-  text-align: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-}
-
-[class*=leto-frame-theme] .leto-bubble-xl img {
-  max-width: 26.4px;
-}
-
-[class*=leto-frame-theme] .leto-bubble-xxl {
   height: 96px;
   width: 96px;
   font-size: 31.68px;
@@ -243,8 +214,37 @@
   display: inline-flex;
 }
 
-[class*=leto-frame-theme] .leto-bubble-xxl img {
+[class*=leto-frame-theme] .leto-bubble-xl img {
   max-width: 31.68px;
+}
+
+[class*=leto-frame-theme] .leto-bubble-xxl {
+  height: 128px;
+  width: 128px;
+  font-size: 42.24px;
+  border: 0;
+  border-radius: 0;
+  margin: 0;
+  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+[class*=leto-frame-theme] .leto-bubble-xxl img {
+  max-width: 42.24px;
 }
 
 [class*=leto-frame-theme] .leto-card {
@@ -273,7 +273,7 @@
 
 [class*=leto-frame-theme] .leto-card-xxs {
   position: relative;
-  width: 40px;
+  width: 80px;
   min-height: 50px;
   border: 0;
   border-radius: 0;
@@ -298,7 +298,7 @@
 
 [class*=leto-frame-theme] .leto-card-xs {
   position: relative;
-  width: 80px;
+  width: 120px;
   min-height: 50px;
   border: 0;
   border-radius: 0;
@@ -398,7 +398,7 @@
 
 [class*=leto-frame-theme] .leto-card-xl {
   position: relative;
-  width: 400px;
+  width: 480px;
   min-height: 50px;
   border: 0;
   border-radius: 0;
@@ -423,7 +423,7 @@
 
 [class*=leto-frame-theme] .leto-card-xxl {
   position: relative;
-  width: 480px;
+  width: 640px;
   min-height: 50px;
   border: 0;
   border-radius: 0;
@@ -472,8 +472,8 @@
 
 [class*=leto-frame-theme] .leto-card-square-xxs {
   position: relative;
-  width: 40px;
-  height: 40px;
+  width: 80px;
+  height: 80px;
   border: 0;
   border-radius: 0;
   margin: 0;
@@ -496,8 +496,8 @@
 
 [class*=leto-frame-theme] .leto-card-square-xs {
   position: relative;
-  width: 80px;
-  height: 80px;
+  width: 120px;
+  height: 120px;
   border: 0;
   border-radius: 0;
   margin: 0;
@@ -592,8 +592,8 @@
 
 [class*=leto-frame-theme] .leto-card-square-xl {
   position: relative;
-  width: 400px;
-  height: 400px;
+  width: 480px;
+  height: 480px;
   border: 0;
   border-radius: 0;
   margin: 0;
@@ -616,8 +616,8 @@
 
 [class*=leto-frame-theme] .leto-card-square-xxl {
   position: relative;
-  width: 480px;
-  height: 480px;
+  width: 640px;
+  height: 640px;
   border: 0;
   border-radius: 0;
   margin: 0;
@@ -674,7 +674,7 @@
   border: 0;
   border-radius: 0;
   margin: 0;
-  padding: 8px 16px;
+  padding: 12px 16px;
 }
 
 [class*=leto-frame-theme] .leto-input:focus {
@@ -684,12 +684,12 @@
 
 [class*=leto-frame-theme] .leto-input-xxs {
   background-color: rgba(255, 255, 255, 0);
-  height: 8px;
+  height: 16px;
   font-size: 16px;
   border: 0;
   border-radius: 0;
   margin: 0;
-  padding: 8px 16px;
+  padding: 12px 16px;
 }
 
 [class*=leto-frame-theme] .leto-input-xxs:focus {
@@ -699,12 +699,12 @@
 
 [class*=leto-frame-theme] .leto-input-xs {
   background-color: rgba(255, 255, 255, 0);
-  height: 16px;
+  height: 24px;
   font-size: 16px;
   border: 0;
   border-radius: 0;
   margin: 0;
-  padding: 8px 16px;
+  padding: 12px 16px;
 }
 
 [class*=leto-frame-theme] .leto-input-xs:focus {
@@ -719,7 +719,7 @@
   border: 0;
   border-radius: 0;
   margin: 0;
-  padding: 8px 16px;
+  padding: 12px 16px;
 }
 
 [class*=leto-frame-theme] .leto-input-sm:focus {
@@ -734,7 +734,7 @@
   border: 0;
   border-radius: 0;
   margin: 0;
-  padding: 8px 16px;
+  padding: 12px 16px;
 }
 
 [class*=leto-frame-theme] .leto-input-md:focus {
@@ -749,7 +749,7 @@
   border: 0;
   border-radius: 0;
   margin: 0;
-  padding: 8px 16px;
+  padding: 12px 16px;
 }
 
 [class*=leto-frame-theme] .leto-input-lg:focus {
@@ -759,12 +759,12 @@
 
 [class*=leto-frame-theme] .leto-input-xl {
   background-color: rgba(255, 255, 255, 0);
-  height: 80px;
+  height: 96px;
   font-size: 16px;
   border: 0;
   border-radius: 0;
   margin: 0;
-  padding: 8px 16px;
+  padding: 12px 16px;
 }
 
 [class*=leto-frame-theme] .leto-input-xl:focus {
@@ -774,12 +774,12 @@
 
 [class*=leto-frame-theme] .leto-input-xxl {
   background-color: rgba(255, 255, 255, 0);
-  height: 96px;
+  height: 128px;
   font-size: 16px;
   border: 0;
   border-radius: 0;
   margin: 0;
-  padding: 8px 16px;
+  padding: 12px 16px;
 }
 
 [class*=leto-frame-theme] .leto-input-xxl:focus {
@@ -793,7 +793,7 @@
   font-size: 16px;
   border-radius: 0;
   margin: 0;
-  padding: 8px 16px;
+  padding: 12px 16px;
 }
 
 [class*=leto-frame-theme] .leto-search:focus {
@@ -803,11 +803,11 @@
 
 [class*=leto-frame-theme] .leto-search-xxs {
   background-color: #e1e1e1;
-  height: 8px;
+  height: 16px;
   font-size: 16px;
   border-radius: 0;
   margin: 0;
-  padding: 8px 16px;
+  padding: 12px 16px;
 }
 
 [class*=leto-frame-theme] .leto-search-xxs:focus {
@@ -817,11 +817,11 @@
 
 [class*=leto-frame-theme] .leto-search-xs {
   background-color: #e1e1e1;
-  height: 16px;
+  height: 24px;
   font-size: 16px;
   border-radius: 0;
   margin: 0;
-  padding: 8px 16px;
+  padding: 12px 16px;
 }
 
 [class*=leto-frame-theme] .leto-search-xs:focus {
@@ -835,7 +835,7 @@
   font-size: 16px;
   border-radius: 0;
   margin: 0;
-  padding: 8px 16px;
+  padding: 12px 16px;
 }
 
 [class*=leto-frame-theme] .leto-search-sm:focus {
@@ -849,7 +849,7 @@
   font-size: 16px;
   border-radius: 0;
   margin: 0;
-  padding: 8px 16px;
+  padding: 12px 16px;
 }
 
 [class*=leto-frame-theme] .leto-search-md:focus {
@@ -863,7 +863,7 @@
   font-size: 16px;
   border-radius: 0;
   margin: 0;
-  padding: 8px 16px;
+  padding: 12px 16px;
 }
 
 [class*=leto-frame-theme] .leto-search-lg:focus {
@@ -873,11 +873,11 @@
 
 [class*=leto-frame-theme] .leto-search-xl {
   background-color: #e1e1e1;
-  height: 80px;
+  height: 96px;
   font-size: 16px;
   border-radius: 0;
   margin: 0;
-  padding: 8px 16px;
+  padding: 12px 16px;
 }
 
 [class*=leto-frame-theme] .leto-search-xl:focus {
@@ -887,11 +887,11 @@
 
 [class*=leto-frame-theme] .leto-search-xxl {
   background-color: #e1e1e1;
-  height: 96px;
+  height: 128px;
   font-size: 16px;
   border-radius: 0;
   margin: 0;
-  padding: 8px 16px;
+  padding: 12px 16px;
 }
 
 [class*=leto-frame-theme] .leto-search-xxl:focus {
@@ -905,7 +905,7 @@
   border: 0;
   border-radius: 0;
   margin: 0;
-  padding: 8px 16px;
+  padding: 12px 16px;
 }
 
 [class*=leto-frame-theme] .leto-textarea:focus {
@@ -981,7 +981,7 @@
 }
 
 [class*=leto-frame-theme] .leto-bubble-wrapper-xxs {
-  width: 8px;
+  width: 16px;
   margin: 0;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -996,8 +996,8 @@
 }
 
 [class*=leto-frame-theme] .leto-bubble-wrapper-xxs > [class*=leto-bubble] {
-  height: 8px;
-  width: 8px;
+  height: 16px;
+  width: 16px;
   border-radius: 0;
 }
 
@@ -1018,7 +1018,7 @@
 }
 
 [class*=leto-frame-theme] .leto-bubble-wrapper-xs {
-  width: 16px;
+  width: 24px;
   margin: 0;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -1033,8 +1033,8 @@
 }
 
 [class*=leto-frame-theme] .leto-bubble-wrapper-xs > [class*=leto-bubble] {
-  height: 16px;
-  width: 16px;
+  height: 24px;
+  width: 24px;
   border-radius: 0;
 }
 
@@ -1166,7 +1166,7 @@
 }
 
 [class*=leto-frame-theme] .leto-bubble-wrapper-xl {
-  width: 80px;
+  width: 96px;
   margin: 0;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -1181,8 +1181,8 @@
 }
 
 [class*=leto-frame-theme] .leto-bubble-wrapper-xl > [class*=leto-bubble] {
-  height: 80px;
-  width: 80px;
+  height: 96px;
+  width: 96px;
   border-radius: 0;
 }
 
@@ -1203,7 +1203,7 @@
 }
 
 [class*=leto-frame-theme] .leto-bubble-wrapper-xxl {
-  width: 96px;
+  width: 128px;
   margin: 0;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -1218,8 +1218,8 @@
 }
 
 [class*=leto-frame-theme] .leto-bubble-wrapper-xxl > [class*=leto-bubble] {
-  height: 96px;
-  width: 96px;
+  height: 128px;
+  width: 128px;
   border-radius: 0;
 }
 

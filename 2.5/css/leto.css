@@ -4250,11 +4250,11 @@ a {
 }
 
 .leto-m-xxs, .leto-margin-xxs {
-  margin: 8px;
+  margin: 4px;
 }
 
 .leto-m-xs, .leto-margin-xs {
-  margin: 12px;
+  margin: 8px;
 }
 
 .leto-m-sm, .leto-margin-sm {
@@ -4286,11 +4286,11 @@ a {
 }
 
 .leto-m-balance-xxs, .leto-margin-balance-xxs {
-  margin: -8px;
+  margin: -4px;
 }
 
 .leto-m-balance-xs, .leto-margin-balance-xs {
-  margin: -12px;
+  margin: -8px;
 }
 
 .leto-m-balance-sm, .leto-margin-balance-sm {
@@ -4319,13 +4319,13 @@ a {
 }
 
 .leto-mh-xxs, .leto-margin-horizontal-xxs {
-  margin-left: 8px;
-  margin-right: 8px;
+  margin-left: 4px;
+  margin-right: 4px;
 }
 
 .leto-mh-xs, .leto-margin-horizontal-xs {
-  margin-left: 12px;
-  margin-right: 12px;
+  margin-left: 8px;
+  margin-right: 8px;
 }
 
 .leto-mh-sm, .leto-margin-horizontal-sm {
@@ -4364,13 +4364,13 @@ a {
 }
 
 .leto-mv-xxs, .leto-margin-vertical-xxs {
-  margin-top: 8px;
-  margin-bottom: 8px;
+  margin-top: 4px;
+  margin-bottom: 4px;
 }
 
 .leto-mv-xs, .leto-margin-vertical-xs {
-  margin-top: 12px;
-  margin-bottom: 12px;
+  margin-top: 8px;
+  margin-bottom: 8px;
 }
 
 .leto-mv-sm, .leto-margin-vertical-sm {
@@ -4408,11 +4408,11 @@ a {
 }
 
 .leto-mt-xxs, .leto-margin-top-xxs {
-  margin-top: 8px;
+  margin-top: 4px;
 }
 
 .leto-mt-xs, .leto-margin-top-xs {
-  margin-top: 12px;
+  margin-top: 8px;
 }
 
 .leto-mt-sm, .leto-margin-top-sm {
@@ -4444,11 +4444,11 @@ a {
 }
 
 .leto-ml-xxs, .leto-margin-left-xxs {
-  margin-left: 8px;
+  margin-left: 4px;
 }
 
 .leto-ml-xs, .leto-margin-left-xs {
-  margin-left: 12px;
+  margin-left: 8px;
 }
 
 .leto-ml-sm, .leto-margin-left-sm {
@@ -4480,11 +4480,11 @@ a {
 }
 
 .leto-mr-xxs, .leto-margin-right-xxs {
-  margin-right: 8px;
+  margin-right: 4px;
 }
 
 .leto-mr-xs, .leto-margin-right-xs {
-  margin-right: 12px;
+  margin-right: 8px;
 }
 
 .leto-mr-sm, .leto-margin-right-sm {
@@ -4516,11 +4516,11 @@ a {
 }
 
 .leto-mb-xxs, .leto-margin-bottom-xxs {
-  margin-bottom: 8px;
+  margin-bottom: 4px;
 }
 
 .leto-mb-xs, .leto-margin-bottom-xs {
-  margin-bottom: 12px;
+  margin-bottom: 8px;
 }
 
 .leto-mb-sm, .leto-margin-bottom-sm {
@@ -4552,11 +4552,11 @@ a {
 }
 
 .leto-p-xxs, .leto-padding-xxs {
-  padding: 8px;
+  padding: 4px;
 }
 
 .leto-p-xs, .leto-padding-xs {
-  padding: 12px;
+  padding: 8px;
 }
 
 .leto-p-sm, .leto-padding-sm {
@@ -4589,13 +4589,13 @@ a {
 }
 
 .leto-ph-xxs, .leto-padding-horizontal-xxs {
-  padding-left: 8px;
-  padding-right: 8px;
+  padding-left: 4px;
+  padding-right: 4px;
 }
 
 .leto-ph-xs, .leto-padding-horizontal-xs {
-  padding-left: 12px;
-  padding-right: 12px;
+  padding-left: 8px;
+  padding-right: 8px;
 }
 
 .leto-ph-sm, .leto-padding-horizontal-sm {
@@ -4634,13 +4634,13 @@ a {
 }
 
 .leto-pv-xxs, .leto-padding-vertical-xxs {
-  padding-top: 8px;
-  padding-bottom: 8px;
+  padding-top: 4px;
+  padding-bottom: 4px;
 }
 
 .leto-pv-xs, .leto-padding-vertical-xs {
-  padding-top: 12px;
-  padding-bottom: 12px;
+  padding-top: 8px;
+  padding-bottom: 8px;
 }
 
 .leto-pv-sm, .leto-padding-vertical-sm {
@@ -4678,11 +4678,11 @@ a {
 }
 
 .leto-pt-xxs, .leto-padding-top-xxs {
-  padding-top: 8px;
+  padding-top: 4px;
 }
 
 .leto-pt-xs, .leto-padding-top-xs {
-  padding-top: 12px;
+  padding-top: 8px;
 }
 
 .leto-pt-sm, .leto-padding-top-sm {
@@ -4714,11 +4714,11 @@ a {
 }
 
 .leto-pl-xxs, .leto-padding-left-xxs {
-  padding-left: 8px;
+  padding-left: 4px;
 }
 
 .leto-pl-xs, .leto-padding-left-xs {
-  padding-left: 12px;
+  padding-left: 8px;
 }
 
 .leto-pl-sm, .leto-padding-left-sm {
@@ -4750,11 +4750,11 @@ a {
 }
 
 .leto-pr-xxs, .leto-padding-right-xxs {
-  padding-right: 8px;
+  padding-right: 4px;
 }
 
 .leto-pr-xs, .leto-padding-right-xs {
-  padding-right: 12px;
+  padding-right: 8px;
 }
 
 .leto-pr-sm, .leto-padding-right-sm {
@@ -4786,7 +4786,7 @@ a {
 }
 
 .leto-pb-xxs, .leto-padding-bottom-xxs {
-  padding-bottom: 8px;
+  padding-bottom: 4px;
 }
 
 .leto-pb-xs, .leto-padding-bottom-xs {
