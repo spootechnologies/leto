@@ -79,10 +79,10 @@ a
     +bubble($md, 2, 0.66)
 
     &-xxs
-        +bubble($xxs, 4, 1)
+        +bubble($xxs, 2, 0.66)
 
     &-xs
-        +bubble($xs, 3, 1)
+        +bubble($xs, 2, 0.66)
 
     &-sm
         +bubble($sm, 2, 0.66)
@@ -115,9 +115,9 @@ a
     overflow: hidden
 
     > .leto-image-full
-        margin-top: -$xs
-        margin-left: -$xs
-        margin-right: -$xs
+        margin-top: -$basicMargin
+        margin-left: -$basicMargin
+        margin-right: -$basicMargin
         width: calc(100% + 16px)
 
 =cardAutoWidth()
@@ -132,9 +132,9 @@ a
     overflow: hidden
 
     > .leto-image-full
-        margin-top: -$xs
-        margin-left: -$xs
-        margin-right: -$xs
+        margin-top: -$basicMargin
+        margin-left: -$basicMargin
+        margin-right: -$basicMargin
         width: calc(100% + 16px)
 
 =cardSquare($value)
@@ -149,9 +149,9 @@ a
     overflow: hidden 
 
     > .leto-image-full
-        margin-top: -$xs
-        margin-left: -$xs
-        margin-right: -$xs
+        margin-top: -$basicMargin
+        margin-left: -$basicMargin
+        margin-right: -$basicMargin
         width: calc(100% + 16px)
 
 .leto-card
@@ -333,7 +333,6 @@ a
     &-xxl
         +button($xxl)
 
-
 // Input
 
 =input($height)
@@ -372,6 +371,34 @@ a
 
     &-xxl
         +input($xxl)
+
+.leto-input-wrapper
+    position: relative
+    margin: $basicMargin
+
+    label
+        position: absolute 
+        background-color: $colorWhite
+        font-size: $fontSizeSM
+        font-weight: $fontWeightMedium
+        top: -10px
+        left: $basicPadding
+        padding-left: $basicPadding
+        padding-right: $basicPadding
+
+    [class*=leto-input]
+        border: 2px solid $colorLightGrey
+        margin: 0
+
+    [class*=leto-input]:focus::placeholder
+        opacity: 0
+
+    [class*=leto-input]:focus ~ label
+        opacity: 1
+
+    [class*=leto-input]:focus
+        background-color: transparent
+        border: 2px solid $colorDarkGrey
 
 
 // Search
@@ -802,7 +829,8 @@ a
 =toast($bgColor, $textColor)
     position: fixed
     background-color: $bgColor
-    width: 250px
+    min-width: 200px
+    max-width: 400px
     min-height: 50px
     max-height: 100px
     color: $textColor
@@ -876,6 +904,9 @@ a
 .leto-toast-success
     +toastPos($colorGreen, $colorBlack)
 
+.leto-toast-warning
+    +toastPos($colorOrange, $colorBlack)
+
 .leto-toast-error
     +toastPos($colorRed, $colorBlack)
 
@@ -919,6 +950,9 @@ a
 
 .leto-column-reverse
     flex-direction: column-reverse
+
+.leto-nowrap
+    flex-wrap: nowrap
 
 .leto-wrap
     flex-wrap: wrap
@@ -1078,6 +1112,57 @@ a
 
 // Sizes
 
+.leto-min-width
+    min-width: $md * 4
+
+    &-xxs
+        min-width: $xxs * 4
+
+    &-xs
+        min-width: $xs * 4
+
+    &-sm
+        max-width: $sm * 4
+
+    &-md
+        min-width: $md * 4
+
+    &-lg
+        min-width: $lg * 4
+
+    &-xl
+        min-width: $xl * 4
+
+    &-xxl
+        min-width: $xxl * 4
+
+    &-full
+        min-width: calc(100% - #{$basicMargin})
+
+    &-fourfifths
+        min-width: calc(80% - #{$basicMargin})
+
+    &-threequaters
+        min-width: calc(75% - #{$basicMargin})
+
+    &-twothirds
+        min-width: calc(66% - #{$basicMargin})
+
+    &-third
+        min-width: calc((100% / 3) - #{$basicMargin})
+
+    &-quater
+        min-width: calc(25% - #{$basicMargin})
+
+    &-fifth
+        min-width: calc(20% - #{$basicMargin})
+
+    &-sixth
+        min-width: calc((100% / 6) - #{$basicMargin})
+
+    &-eighth
+        min-width: calc(12.5% - #{$basicMargin})
+
 .leto-width
     width: $md * 4
 
@@ -1129,6 +1214,109 @@ a
     &-eighth
         width: calc(12.5% - #{$basicMargin})
 
+.leto-max-width
+    max-width: $md * 4
+
+    &-xxs
+        max-width: $xxs * 4
+
+    &-xs
+        max-width: $xs * 4
+
+    &-sm
+        max-width: $sm * 4
+
+    &-md
+        max-width: $md * 4
+
+    &-lg
+        max-width: $lg * 4
+
+    &-xl
+        max-width: $xl * 4
+
+    &-xxl
+        max-width: $xxl * 4
+
+    &-full
+        max-width: calc(100% - #{$basicMargin})
+
+    &-fourfifths
+        max-width: calc(80% - #{$basicMargin})
+
+    &-threequaters
+        max-width: calc(75% - #{$basicMargin})
+
+    &-twothirds
+        max-width: calc(66% - #{$basicMargin})
+
+    &-third
+        max-width: calc((100% / 3) - #{$basicMargin})
+
+    &-quater
+        max-width: calc(25% - #{$basicMargin})
+
+    &-fifth
+        max-width: calc(20% - #{$basicMargin})
+
+    &-sixth
+        max-width: calc((100% / 6) - #{$basicMargin})
+
+    &-eighth
+        max-width: calc(12.5% - #{$basicMargin})
+
+
+.leto-min-height
+    min-height: $md * 4
+
+    &-xxs
+        min-height: $xxs * 4
+
+    &-xs
+        min-height: $xs * 4
+
+    &-sm
+        min-height: $sm * 4
+
+    &-md
+        min-height: $md * 4
+
+    &-lg
+        min-height: $lg * 4
+
+    &-xl
+        min-height: $xl * 4
+
+    &-xxl
+        min-height: $xxl * 4
+
+    &-full
+        min-height: calc(100% - #{$basicMargin})
+
+    &-fourfifths
+        min-height: calc(80% - #{$basicMargin})
+
+    &-threequaters
+        min-height: calc(75% - #{$basicMargin})
+
+    &-twothirds
+        min-height: calc(66% - #{$basicMargin})
+
+    &-third
+        min-height: calc((100% / 3) - #{$basicMargin})
+
+    &-quater
+        min-height: calc(25% - #{$basicMargin})
+
+    &-fifth
+        min-height: calc(20% - #{$basicMargin})
+
+    &-sixth
+        min-height: calc((100% / 6) - #{$basicMargin})
+
+    &-eighth
+        min-height: calc(12.5% - #{$basicMargin})
+
 .leto-height
     height: $md * 4
 
@@ -1179,6 +1367,57 @@ a
 
     &-eighth
         height: calc(12.5% - #{$basicMargin})
+
+.leto-max-height
+    max-height: $md * 4
+
+    &-xxs
+        max-height: $xxs * 4
+
+    &-xs
+        max-height: $xs * 4
+
+    &-sm
+        max-height: $sm * 4
+
+    &-md
+        max-height: $md * 4
+
+    &-lg
+        max-height: $lg * 4
+
+    &-xl
+        max-height: $xl * 4
+
+    &-xxl
+        max-height: $xxl * 4
+
+    &-full
+        max-height: calc(100% - #{$basicMargin})
+
+    &-fourfifths
+        max-height: calc(80% - #{$basicMargin})
+
+    &-threequaters
+        max-height: calc(75% - #{$basicMargin})
+
+    &-twothirds
+        max-height: calc(66% - #{$basicMargin})
+
+    &-third
+        max-height: calc((100% / 3) - #{$basicMargin})
+
+    &-quater
+        max-height: calc(25% - #{$basicMargin})
+
+    &-fifth
+        max-height: calc(20% - #{$basicMargin})
+
+    &-sixth
+        max-height: calc((100% / 6) - #{$basicMargin})
+
+    &-eighth
+        max-height: calc(12.5% - #{$basicMargin})
 
 
 // Position
@@ -2374,6 +2613,9 @@ a
     text-decoration: none
     pointer-events: none
 
+.leto-no-link-style
+    color: $colorBlack
+    text-decoration: none
 
 // Bg
 
