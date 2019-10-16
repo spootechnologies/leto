@@ -1861,6 +1861,10 @@ a {
 }
 
 .leto-pile {
+  border: 1px solid #d4d4d4;
+  border-radius: 12px;
+  margin: 8px;
+  padding: 8px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -1884,7 +1888,7 @@ a {
 .leto-form {
   background-color: #fdfdfd;
   position: fixed;
-  width: 100vw;
+  width: calc(100% - 8px);
   height: 100%;
   top: 0;
   left: 0;
@@ -1903,7 +1907,7 @@ a {
 .leto-form-left {
   background-color: #fdfdfd;
   position: fixed;
-  width: 100vw;
+  width: calc(100% - 8px);
   height: 100%;
   top: 0;
   left: 0;
@@ -1922,7 +1926,7 @@ a {
 .leto-form-right {
   background-color: #fdfdfd;
   position: fixed;
-  width: 100vw;
+  width: calc(100% - 8px);
   height: 100%;
   top: 0;
   right: 0;
@@ -3224,6 +3228,33 @@ a {
   counter-increment: item-counter;
 }
 
+.leto-masonry-2 {
+  -webkit-column-count: 1;
+          column-count: 1;
+  -webkit-column-gap: 0;
+          column-gap: 0;
+}
+
+@media (min-width: 600px) {
+  .leto-masonry-2 {
+    -webkit-column-count: 2;
+            column-count: 2;
+  }
+}
+
+@media (min-width: 1366px) {
+  .leto-masonry-2 {
+    -webkit-column-count: 2;
+            column-count: 2;
+  }
+}
+
+.leto-masonry-2 > * {
+  -webkit-column-break-inside: avoid;
+          break-inside: avoid;
+  counter-increment: item-counter;
+}
+
 .leto-masonry-3 {
   -webkit-column-count: 1;
           column-count: 1;
@@ -3767,6 +3798,10 @@ a {
   min-width: calc(66% - 8px);
 }
 
+.leto-min-width-half {
+  min-width: calc(50% - 8px);
+}
+
 .leto-min-width-third {
   min-width: calc((100% / 3) - 8px);
 }
@@ -3833,6 +3868,10 @@ a {
 
 .leto-width-twothirds {
   width: calc(66% - 8px);
+}
+
+.leto-width-half {
+  width: calc(50% - 8px);
 }
 
 .leto-width-third {
@@ -3903,6 +3942,10 @@ a {
   max-width: calc(66% - 8px);
 }
 
+.leto-max-width-half {
+  max-width: calc(50% - 8px);
+}
+
 .leto-max-width-third {
   max-width: calc((100% / 3) - 8px);
 }
@@ -3969,6 +4012,10 @@ a {
 
 .leto-min-height-twothirds {
   min-height: calc(66% - 8px);
+}
+
+.leto-min-height-half {
+  min-height: calc(50% - 8px);
 }
 
 .leto-min-height-third {
@@ -4039,6 +4086,10 @@ a {
   height: calc(66% - 8px);
 }
 
+.leto-height-half {
+  height: calc(50% - 8px);
+}
+
 .leto-height-third {
   height: calc((100% / 3) - 8px);
 }
@@ -4105,6 +4156,10 @@ a {
 
 .leto-max-height-twothirds {
   max-height: calc(66% - 8px);
+}
+
+.leto-max-height-half {
+  max-height: calc(50% - 8px);
 }
 
 .leto-max-height-third {

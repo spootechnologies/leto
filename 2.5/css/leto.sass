@@ -603,6 +603,10 @@ a
 // Pile
 
 .leto-pile
+    border: 1px solid $colorGrey
+    border-radius: 12px
+    margin: $basicMargin
+    padding: $basicPadding
     flex-direction: column
     display: flex
     
@@ -623,7 +627,7 @@ a
 .leto-form
     background-color: $colorWhite
     position: fixed
-    width: 100vw
+    width: calc(100% - #{$basicPadding})
     height: 100%
     top: 0
     left: 0
@@ -636,7 +640,7 @@ a
     &-left
         background-color: $colorWhite
         position: fixed
-        width: 100vw
+        width: calc(100% - #{$basicPadding})
         height: 100%
         top: 0
         left: 0
@@ -649,7 +653,7 @@ a
     &-right
         background-color: $colorWhite
         position: fixed
-        width: 100vw
+        width: calc(100% - #{$basicPadding})
         height: 100%
         top: 0
         right: 0
@@ -963,6 +967,9 @@ a
 .leto-masonry
     +masonry(4)
 
+    &-2
+        +masonry(2)
+
     &-3
         +masonry(3)
 
@@ -1148,6 +1155,9 @@ a
     &-twothirds
         min-width: calc(66% - #{$basicMargin})
 
+    &-half
+        min-width: calc(50% - #{$basicMargin})
+
     &-third
         min-width: calc((100% / 3) - #{$basicMargin})
 
@@ -1198,6 +1208,9 @@ a
 
     &-twothirds
         width: calc(66% - #{$basicMargin})
+
+    &-half
+        width: calc(50% - #{$basicMargin})
 
     &-third
         width: calc((100% / 3) - #{$basicMargin})
@@ -1250,6 +1263,9 @@ a
     &-twothirds
         max-width: calc(66% - #{$basicMargin})
 
+    &-half
+        max-width: calc(50% - #{$basicMargin})
+
     &-third
         max-width: calc((100% / 3) - #{$basicMargin})
 
@@ -1301,6 +1317,9 @@ a
 
     &-twothirds
         min-height: calc(66% - #{$basicMargin})
+    
+    &-half
+        min-height: calc(50% - #{$basicMargin})
 
     &-third
         min-height: calc((100% / 3) - #{$basicMargin})
@@ -1353,6 +1372,9 @@ a
     &-twothirds
         height: calc(66% - #{$basicMargin})
 
+    &-half
+        height: calc(50% - #{$basicMargin})
+
     &-third
         height: calc((100% / 3) - #{$basicMargin})
 
@@ -1403,6 +1425,9 @@ a
 
     &-twothirds
         max-height: calc(66% - #{$basicMargin})
+
+    &-half
+        max-height: calc(50% - #{$basicMargin})
 
     &-third
         max-height: calc((100% / 3) - #{$basicMargin})
