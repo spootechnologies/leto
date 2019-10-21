@@ -348,6 +348,19 @@ a
         background-color: $colorLightGrey
         border-color: $colorLightGrey
 
+
+    &[type="search"]
+        background-color: $colorLightGrey
+        height: $height * 2
+        font-size: $fontSizeMD
+        border-radius: 12px
+        margin: $basicMargin
+        padding: $basicPadding $basicPadding * 2
+
+        &:focus
+            background-color: transparent
+            border-color: $colorGrey
+
 .leto-input
     +input($md)
 
@@ -444,6 +457,7 @@ a
 
 =textarea()
     background-color: rgba(255, 255, 255, 0)
+    height: auto
     font-size: $fontSizeMD
     border: 1px solid $colorGrey
     border-radius: 12px
@@ -454,7 +468,7 @@ a
         background-color: $colorLightGrey
         border-color: $colorLightGrey
 
-.leto-textarea
+textarea[class*="leto-input"], .leto-textarea
     +textarea()
 
 
