@@ -76,28 +76,28 @@ a
         max-width: $value * $fontSizeMulti  
 
 .leto-bubble
-    +bubble($md, 2, 0.66)
+    +bubble($md, 2.5, 0.75)
 
     &-xxs
-        +bubble($xxs, 2, 0.66)
+        +bubble($xxs, 2.5, 0.75)
 
     &-xs
-        +bubble($xs, 2, 0.66)
+        +bubble($xs, 2.5, 0.75)
 
     &-sm
-        +bubble($sm, 2, 0.66)
+        +bubble($sm, 2.5, 0.75)
 
     &-md
-        +bubble($md, 2, 0.66)
+        +bubble($md, 2.5, 0.75)
 
     &-lg
-        +bubble($lg, 2, 0.66)
+        +bubble($lg, 2.5, 0.75)
 
     &-xl
-        +bubble($xl, 2, 0.66)
+        +bubble($xl, 2.5, 0.75)
 
     &-xxl
-        +bubble($xxl, 2, 0.66)
+        +bubble($xxl, 2.5, 0.75)
 
 
 // Card
@@ -400,7 +400,8 @@ a
         padding-right: $basicPadding
 
     [class*=leto-input]
-        border: 2px solid $colorLightGrey
+        width: 100%
+        border: 1px solid $colorLightGrey
         margin: 0
 
     [class*=leto-input]:focus::placeholder
@@ -411,7 +412,7 @@ a
 
     [class*=leto-input]:focus
         background-color: transparent
-        border: 2px solid $colorDarkGrey
+        border: 1px solid $colorDarkGrey
 
 
 // Search
@@ -517,17 +518,20 @@ textarea[class*="leto-input"], .leto-textarea
 // Bubble
 
 =bubbleWrapper($value)
-    width: $value * 2
+    width: $value * 2.5
     margin: $basicMargin
     justify-content: center
     flex-direction: column
     display: inline-flex
 
     > .leto-bubble
-        height: $value * 2
-        width: $value * 2
-        font-size: $value * .66
-        border-radius: $value
+        height: $value * 2.5
+        width: $value * 2.5
+        font-size: $value * .75
+        border-radius: $value * 2.5
+
+        img
+            max-width: $value * .75 
 
     > [class*=leto-bubble]
         margin-top: 0
@@ -727,7 +731,7 @@ textarea[class*="leto-input"], .leto-textarea
 
     .leto-container
         position: relative
-        max-width: 1024px
+        max-width: 1280px
         margin-left: auto
         margin-right: auto
         padding: $basicPadding
@@ -735,7 +739,7 @@ textarea[class*="leto-input"], .leto-textarea
 @media (min-aspect-ratio: $ultrawide) and (min-width: $pcLarge)
 
     .leto-container
-        max-width: 1536px
+        max-width: 1680px
     
 .leto-edge
 
@@ -2289,7 +2293,6 @@ textarea[class*="leto-input"], .leto-textarea
 
         &:hover
             color: $colorDarkBlue
-            text-decoration: underline
 
     &-left
         text-align: left

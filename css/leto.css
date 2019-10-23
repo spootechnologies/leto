@@ -65,11 +65,11 @@ a {
 }
 
 .leto-bubble {
-  height: 48px;
-  width: 48px;
-  font-size: 15.84px;
+  height: 60px;
+  width: 60px;
+  font-size: 18px;
   border: 1px solid #d4d4d4;
-  border-radius: 48px;
+  border-radius: 60px;
   margin: 8px;
   text-align: center;
   -webkit-box-orient: vertical;
@@ -90,15 +90,15 @@ a {
 }
 
 .leto-bubble img {
-  max-width: 15.84px;
+  max-width: 18px;
 }
 
 .leto-bubble-xxs {
-  height: 16px;
-  width: 16px;
-  font-size: 5.28px;
+  height: 20px;
+  width: 20px;
+  font-size: 6px;
   border: 1px solid #d4d4d4;
-  border-radius: 16px;
+  border-radius: 20px;
   margin: 8px;
   text-align: center;
   -webkit-box-orient: vertical;
@@ -119,15 +119,15 @@ a {
 }
 
 .leto-bubble-xxs img {
-  max-width: 5.28px;
+  max-width: 6px;
 }
 
 .leto-bubble-xs {
-  height: 24px;
-  width: 24px;
-  font-size: 7.92px;
+  height: 30px;
+  width: 30px;
+  font-size: 9px;
   border: 1px solid #d4d4d4;
-  border-radius: 24px;
+  border-radius: 30px;
   margin: 8px;
   text-align: center;
   -webkit-box-orient: vertical;
@@ -148,15 +148,15 @@ a {
 }
 
 .leto-bubble-xs img {
-  max-width: 7.92px;
+  max-width: 9px;
 }
 
 .leto-bubble-sm {
-  height: 32px;
-  width: 32px;
-  font-size: 10.56px;
+  height: 40px;
+  width: 40px;
+  font-size: 12px;
   border: 1px solid #d4d4d4;
-  border-radius: 32px;
+  border-radius: 40px;
   margin: 8px;
   text-align: center;
   -webkit-box-orient: vertical;
@@ -177,15 +177,15 @@ a {
 }
 
 .leto-bubble-sm img {
-  max-width: 10.56px;
+  max-width: 12px;
 }
 
 .leto-bubble-md {
-  height: 48px;
-  width: 48px;
-  font-size: 15.84px;
+  height: 60px;
+  width: 60px;
+  font-size: 18px;
   border: 1px solid #d4d4d4;
-  border-radius: 48px;
+  border-radius: 60px;
   margin: 8px;
   text-align: center;
   -webkit-box-orient: vertical;
@@ -206,15 +206,15 @@ a {
 }
 
 .leto-bubble-md img {
-  max-width: 15.84px;
+  max-width: 18px;
 }
 
 .leto-bubble-lg {
-  height: 64px;
-  width: 64px;
-  font-size: 21.12px;
+  height: 80px;
+  width: 80px;
+  font-size: 24px;
   border: 1px solid #d4d4d4;
-  border-radius: 64px;
+  border-radius: 80px;
   margin: 8px;
   text-align: center;
   -webkit-box-orient: vertical;
@@ -235,15 +235,15 @@ a {
 }
 
 .leto-bubble-lg img {
-  max-width: 21.12px;
+  max-width: 24px;
 }
 
 .leto-bubble-xl {
-  height: 96px;
-  width: 96px;
-  font-size: 31.68px;
+  height: 120px;
+  width: 120px;
+  font-size: 36px;
   border: 1px solid #d4d4d4;
-  border-radius: 96px;
+  border-radius: 120px;
   margin: 8px;
   text-align: center;
   -webkit-box-orient: vertical;
@@ -264,15 +264,15 @@ a {
 }
 
 .leto-bubble-xl img {
-  max-width: 31.68px;
+  max-width: 36px;
 }
 
 .leto-bubble-xxl {
-  height: 128px;
-  width: 128px;
-  font-size: 42.24px;
+  height: 160px;
+  width: 160px;
+  font-size: 48px;
   border: 1px solid #d4d4d4;
-  border-radius: 128px;
+  border-radius: 160px;
   margin: 8px;
   text-align: center;
   -webkit-box-orient: vertical;
@@ -293,7 +293,7 @@ a {
 }
 
 .leto-bubble-xxl img {
-  max-width: 42.24px;
+  max-width: 48px;
 }
 
 .leto-card {
@@ -1391,7 +1391,8 @@ a {
 }
 
 .leto-input-wrapper [class*=leto-input] {
-  border: 2px solid #e1e1e1;
+  width: 100%;
+  border: 1px solid #e1e1e1;
   margin: 0;
 }
 
@@ -1417,7 +1418,7 @@ a {
 
 .leto-input-wrapper [class*=leto-input]:focus {
   background-color: transparent;
-  border: 2px solid #bbbbbb;
+  border: 1px solid #bbbbbb;
 }
 
 .leto-search {
@@ -1584,7 +1585,7 @@ textarea[class*="leto-input"]:focus, .leto-textarea:focus {
 }
 
 .leto-bubble-wrapper {
-  width: 48px;
+  width: 60px;
   margin: 8px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -1599,10 +1600,14 @@ textarea[class*="leto-input"]:focus, .leto-textarea:focus {
 }
 
 .leto-bubble-wrapper > .leto-bubble {
-  height: 48px;
-  width: 48px;
-  font-size: 15.84px;
-  border-radius: 24px;
+  height: 60px;
+  width: 60px;
+  font-size: 18px;
+  border-radius: 60px;
+}
+
+.leto-bubble-wrapper > .leto-bubble img {
+  max-width: 18px;
 }
 
 .leto-bubble-wrapper > [class*=leto-bubble] {
@@ -1625,7 +1630,7 @@ textarea[class*="leto-input"]:focus, .leto-textarea:focus {
 }
 
 .leto-bubble-wrapper-xxs {
-  width: 16px;
+  width: 20px;
   margin: 8px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -1640,10 +1645,14 @@ textarea[class*="leto-input"]:focus, .leto-textarea:focus {
 }
 
 .leto-bubble-wrapper-xxs > .leto-bubble {
-  height: 16px;
-  width: 16px;
-  font-size: 5.28px;
-  border-radius: 8px;
+  height: 20px;
+  width: 20px;
+  font-size: 6px;
+  border-radius: 20px;
+}
+
+.leto-bubble-wrapper-xxs > .leto-bubble img {
+  max-width: 6px;
 }
 
 .leto-bubble-wrapper-xxs > [class*=leto-bubble] {
@@ -1666,7 +1675,7 @@ textarea[class*="leto-input"]:focus, .leto-textarea:focus {
 }
 
 .leto-bubble-wrapper-xs {
-  width: 24px;
+  width: 30px;
   margin: 8px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -1681,10 +1690,14 @@ textarea[class*="leto-input"]:focus, .leto-textarea:focus {
 }
 
 .leto-bubble-wrapper-xs > .leto-bubble {
-  height: 24px;
-  width: 24px;
-  font-size: 7.92px;
-  border-radius: 12px;
+  height: 30px;
+  width: 30px;
+  font-size: 9px;
+  border-radius: 30px;
+}
+
+.leto-bubble-wrapper-xs > .leto-bubble img {
+  max-width: 9px;
 }
 
 .leto-bubble-wrapper-xs > [class*=leto-bubble] {
@@ -1707,7 +1720,7 @@ textarea[class*="leto-input"]:focus, .leto-textarea:focus {
 }
 
 .leto-bubble-wrapper-sm {
-  width: 32px;
+  width: 40px;
   margin: 8px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -1722,10 +1735,14 @@ textarea[class*="leto-input"]:focus, .leto-textarea:focus {
 }
 
 .leto-bubble-wrapper-sm > .leto-bubble {
-  height: 32px;
-  width: 32px;
-  font-size: 10.56px;
-  border-radius: 16px;
+  height: 40px;
+  width: 40px;
+  font-size: 12px;
+  border-radius: 40px;
+}
+
+.leto-bubble-wrapper-sm > .leto-bubble img {
+  max-width: 12px;
 }
 
 .leto-bubble-wrapper-sm > [class*=leto-bubble] {
@@ -1748,7 +1765,7 @@ textarea[class*="leto-input"]:focus, .leto-textarea:focus {
 }
 
 .leto-bubble-wrapper-md {
-  width: 48px;
+  width: 60px;
   margin: 8px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -1763,10 +1780,14 @@ textarea[class*="leto-input"]:focus, .leto-textarea:focus {
 }
 
 .leto-bubble-wrapper-md > .leto-bubble {
-  height: 48px;
-  width: 48px;
-  font-size: 15.84px;
-  border-radius: 24px;
+  height: 60px;
+  width: 60px;
+  font-size: 18px;
+  border-radius: 60px;
+}
+
+.leto-bubble-wrapper-md > .leto-bubble img {
+  max-width: 18px;
 }
 
 .leto-bubble-wrapper-md > [class*=leto-bubble] {
@@ -1789,7 +1810,7 @@ textarea[class*="leto-input"]:focus, .leto-textarea:focus {
 }
 
 .leto-bubble-wrapper-lg {
-  width: 64px;
+  width: 80px;
   margin: 8px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -1804,10 +1825,14 @@ textarea[class*="leto-input"]:focus, .leto-textarea:focus {
 }
 
 .leto-bubble-wrapper-lg > .leto-bubble {
-  height: 64px;
-  width: 64px;
-  font-size: 21.12px;
-  border-radius: 32px;
+  height: 80px;
+  width: 80px;
+  font-size: 24px;
+  border-radius: 80px;
+}
+
+.leto-bubble-wrapper-lg > .leto-bubble img {
+  max-width: 24px;
 }
 
 .leto-bubble-wrapper-lg > [class*=leto-bubble] {
@@ -1830,7 +1855,7 @@ textarea[class*="leto-input"]:focus, .leto-textarea:focus {
 }
 
 .leto-bubble-wrapper-xl {
-  width: 96px;
+  width: 120px;
   margin: 8px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -1845,10 +1870,14 @@ textarea[class*="leto-input"]:focus, .leto-textarea:focus {
 }
 
 .leto-bubble-wrapper-xl > .leto-bubble {
-  height: 96px;
-  width: 96px;
-  font-size: 31.68px;
-  border-radius: 48px;
+  height: 120px;
+  width: 120px;
+  font-size: 36px;
+  border-radius: 120px;
+}
+
+.leto-bubble-wrapper-xl > .leto-bubble img {
+  max-width: 36px;
 }
 
 .leto-bubble-wrapper-xl > [class*=leto-bubble] {
@@ -1871,7 +1900,7 @@ textarea[class*="leto-input"]:focus, .leto-textarea:focus {
 }
 
 .leto-bubble-wrapper-xxl {
-  width: 128px;
+  width: 160px;
   margin: 8px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -1886,10 +1915,14 @@ textarea[class*="leto-input"]:focus, .leto-textarea:focus {
 }
 
 .leto-bubble-wrapper-xxl > .leto-bubble {
-  height: 128px;
-  width: 128px;
-  font-size: 42.24px;
-  border-radius: 64px;
+  height: 160px;
+  width: 160px;
+  font-size: 48px;
+  border-radius: 160px;
+}
+
+.leto-bubble-wrapper-xxl > .leto-bubble img {
+  max-width: 48px;
 }
 
 .leto-bubble-wrapper-xxl > [class*=leto-bubble] {
@@ -2107,7 +2140,7 @@ textarea[class*="leto-input"]:focus, .leto-textarea:focus {
 @media (min-width: 1366px) {
   .leto-container {
     position: relative;
-    max-width: 1024px;
+    max-width: 1280px;
     margin-left: auto;
     margin-right: auto;
     padding: 8px;
@@ -2116,7 +2149,7 @@ textarea[class*="leto-input"]:focus, .leto-textarea:focus {
 
 @media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
   .leto-container {
-    max-width: 1536px;
+    max-width: 1680px;
   }
 }
 
@@ -5328,7 +5361,6 @@ textarea[class*="leto-input"]:focus, .leto-textarea:focus {
 
 .leto-text-link:hover {
   color: #274aff;
-  text-decoration: underline;
 }
 
 .leto-text-left {
