@@ -68,7 +68,7 @@ a {
   height: 60px;
   width: 60px;
   font-size: 18px;
-  border: 1px solid #d4d4d4;
+  border: 1px solid #e1e1e1;
   border-radius: 60px;
   margin: 8px;
   text-align: center;
@@ -97,7 +97,7 @@ a {
   height: 20px;
   width: 20px;
   font-size: 6px;
-  border: 1px solid #d4d4d4;
+  border: 1px solid #e1e1e1;
   border-radius: 20px;
   margin: 8px;
   text-align: center;
@@ -126,7 +126,7 @@ a {
   height: 30px;
   width: 30px;
   font-size: 9px;
-  border: 1px solid #d4d4d4;
+  border: 1px solid #e1e1e1;
   border-radius: 30px;
   margin: 8px;
   text-align: center;
@@ -155,7 +155,7 @@ a {
   height: 40px;
   width: 40px;
   font-size: 12px;
-  border: 1px solid #d4d4d4;
+  border: 1px solid #e1e1e1;
   border-radius: 40px;
   margin: 8px;
   text-align: center;
@@ -184,7 +184,7 @@ a {
   height: 60px;
   width: 60px;
   font-size: 18px;
-  border: 1px solid #d4d4d4;
+  border: 1px solid #e1e1e1;
   border-radius: 60px;
   margin: 8px;
   text-align: center;
@@ -213,7 +213,7 @@ a {
   height: 80px;
   width: 80px;
   font-size: 24px;
-  border: 1px solid #d4d4d4;
+  border: 1px solid #e1e1e1;
   border-radius: 80px;
   margin: 8px;
   text-align: center;
@@ -242,7 +242,7 @@ a {
   height: 120px;
   width: 120px;
   font-size: 36px;
-  border: 1px solid #d4d4d4;
+  border: 1px solid #e1e1e1;
   border-radius: 120px;
   margin: 8px;
   text-align: center;
@@ -271,7 +271,7 @@ a {
   height: 160px;
   width: 160px;
   font-size: 48px;
-  border: 1px solid #d4d4d4;
+  border: 1px solid #e1e1e1;
   border-radius: 160px;
   margin: 8px;
   text-align: center;
@@ -299,7 +299,7 @@ a {
 .leto-card {
   position: relative;
   min-height: 50px;
-  border: 1px solid #d4d4d4;
+  border: 1px solid #e1e1e1;
   border-radius: 12px;
   margin: 8px;
   padding: 8px;
@@ -324,7 +324,7 @@ a {
   position: relative;
   width: 80px;
   min-height: 50px;
-  border: 1px solid #d4d4d4;
+  border: 1px solid #e1e1e1;
   border-radius: 12px;
   margin: 8px;
   padding: 8px;
@@ -349,7 +349,7 @@ a {
   position: relative;
   width: 120px;
   min-height: 50px;
-  border: 1px solid #d4d4d4;
+  border: 1px solid #e1e1e1;
   border-radius: 12px;
   margin: 8px;
   padding: 8px;
@@ -374,7 +374,7 @@ a {
   position: relative;
   width: 160px;
   min-height: 50px;
-  border: 1px solid #d4d4d4;
+  border: 1px solid #e1e1e1;
   border-radius: 12px;
   margin: 8px;
   padding: 8px;
@@ -399,7 +399,7 @@ a {
   position: relative;
   width: 240px;
   min-height: 50px;
-  border: 1px solid #d4d4d4;
+  border: 1px solid #e1e1e1;
   border-radius: 12px;
   margin: 8px;
   padding: 8px;
@@ -424,7 +424,7 @@ a {
   position: relative;
   width: 320px;
   min-height: 50px;
-  border: 1px solid #d4d4d4;
+  border: 1px solid #e1e1e1;
   border-radius: 12px;
   margin: 8px;
   padding: 8px;
@@ -449,7 +449,7 @@ a {
   position: relative;
   width: 480px;
   min-height: 50px;
-  border: 1px solid #d4d4d4;
+  border: 1px solid #e1e1e1;
   border-radius: 12px;
   margin: 8px;
   padding: 8px;
@@ -474,7 +474,7 @@ a {
   position: relative;
   width: 640px;
   min-height: 50px;
-  border: 1px solid #d4d4d4;
+  border: 1px solid #e1e1e1;
   border-radius: 12px;
   margin: 8px;
   padding: 8px;
@@ -499,7 +499,7 @@ a {
   position: relative;
   width: 240px;
   height: 240px;
-  border: 1px solid #d4d4d4;
+  border: 1px solid #e1e1e1;
   border-radius: 12px;
   margin: 8px;
   -webkit-box-orient: vertical;
@@ -523,7 +523,7 @@ a {
   position: relative;
   width: 80px;
   height: 80px;
-  border: 1px solid #d4d4d4;
+  border: 1px solid #e1e1e1;
   border-radius: 12px;
   margin: 8px;
   -webkit-box-orient: vertical;
@@ -547,7 +547,7 @@ a {
   position: relative;
   width: 120px;
   height: 120px;
-  border: 1px solid #d4d4d4;
+  border: 1px solid #e1e1e1;
   border-radius: 12px;
   margin: 8px;
   -webkit-box-orient: vertical;
@@ -571,7 +571,7 @@ a {
   position: relative;
   width: 160px;
   height: 160px;
-  border: 1px solid #d4d4d4;
+  border: 1px solid #e1e1e1;
   border-radius: 12px;
   margin: 8px;
   -webkit-box-orient: vertical;
@@ -595,7 +595,7 @@ a {
   position: relative;
   width: 240px;
   height: 240px;
-  border: 1px solid #d4d4d4;
+  border: 1px solid #e1e1e1;
   border-radius: 12px;
   margin: 8px;
   -webkit-box-orient: vertical;
@@ -619,7 +619,7 @@ a {
   position: relative;
   width: 320px;
   height: 320px;
-  border: 1px solid #d4d4d4;
+  border: 1px solid #e1e1e1;
   border-radius: 12px;
   margin: 8px;
   -webkit-box-orient: vertical;
@@ -643,7 +643,7 @@ a {
   position: relative;
   width: 480px;
   height: 480px;
-  border: 1px solid #d4d4d4;
+  border: 1px solid #e1e1e1;
   border-radius: 12px;
   margin: 8px;
   -webkit-box-orient: vertical;
@@ -667,7 +667,7 @@ a {
   position: relative;
   width: 640px;
   height: 640px;
-  border: 1px solid #d4d4d4;
+  border: 1px solid #e1e1e1;
   border-radius: 12px;
   margin: 8px;
   -webkit-box-orient: vertical;
@@ -691,7 +691,7 @@ a {
   background-color: #fdfdfd;
   text-decoration: none;
   text-align: center;
-  border: 1px solid #d4d4d4;
+  border: 1px solid #e1e1e1;
   border-radius: 100px;
   margin: 8px;
   padding: 8px 16px;
@@ -711,7 +711,7 @@ a {
   background-color: #fdfdfd;
   height: 16px;
   text-decoration: none;
-  border: 1px solid #d4d4d4;
+  border: 1px solid #e1e1e1;
   border-radius: 100px;
   margin: 8px;
   padding: 8px 16px;
@@ -731,7 +731,7 @@ a {
   background-color: #fdfdfd;
   height: 24px;
   text-decoration: none;
-  border: 1px solid #d4d4d4;
+  border: 1px solid #e1e1e1;
   border-radius: 100px;
   margin: 8px;
   padding: 8px 16px;
@@ -751,7 +751,7 @@ a {
   background-color: #fdfdfd;
   height: 32px;
   text-decoration: none;
-  border: 1px solid #d4d4d4;
+  border: 1px solid #e1e1e1;
   border-radius: 100px;
   margin: 8px;
   padding: 8px 16px;
@@ -771,7 +771,7 @@ a {
   background-color: #fdfdfd;
   height: 48px;
   text-decoration: none;
-  border: 1px solid #d4d4d4;
+  border: 1px solid #e1e1e1;
   border-radius: 100px;
   margin: 8px;
   padding: 8px 16px;
@@ -791,7 +791,7 @@ a {
   background-color: #fdfdfd;
   height: 64px;
   text-decoration: none;
-  border: 1px solid #d4d4d4;
+  border: 1px solid #e1e1e1;
   border-radius: 100px;
   margin: 8px;
   padding: 8px 16px;
@@ -811,7 +811,7 @@ a {
   background-color: #fdfdfd;
   height: 96px;
   text-decoration: none;
-  border: 1px solid #d4d4d4;
+  border: 1px solid #e1e1e1;
   border-radius: 100px;
   margin: 8px;
   padding: 8px 16px;
@@ -831,7 +831,7 @@ a {
   background-color: #fdfdfd;
   height: 128px;
   text-decoration: none;
-  border: 1px solid #d4d4d4;
+  border: 1px solid #e1e1e1;
   border-radius: 100px;
   margin: 8px;
   padding: 8px 16px;
@@ -852,7 +852,7 @@ a {
   width: 100%;
   height: 48px;
   text-decoration: none;
-  border: 1px solid #d4d4d4;
+  border: 1px solid #e1e1e1;
   border-radius: 100px;
   margin: 8px;
   padding: 8px 16px;
@@ -873,7 +873,7 @@ a {
   width: 100%;
   height: 16px;
   text-decoration: none;
-  border: 1px solid #d4d4d4;
+  border: 1px solid #e1e1e1;
   border-radius: 100px;
   margin: 8px;
   padding: 8px 16px;
@@ -894,7 +894,7 @@ a {
   width: 100%;
   height: 24px;
   text-decoration: none;
-  border: 1px solid #d4d4d4;
+  border: 1px solid #e1e1e1;
   border-radius: 100px;
   margin: 8px;
   padding: 8px 16px;
@@ -915,7 +915,7 @@ a {
   width: 100%;
   height: 32px;
   text-decoration: none;
-  border: 1px solid #d4d4d4;
+  border: 1px solid #e1e1e1;
   border-radius: 100px;
   margin: 8px;
   padding: 8px 16px;
@@ -936,7 +936,7 @@ a {
   width: 100%;
   height: 48px;
   text-decoration: none;
-  border: 1px solid #d4d4d4;
+  border: 1px solid #e1e1e1;
   border-radius: 100px;
   margin: 8px;
   padding: 8px 16px;
@@ -957,7 +957,7 @@ a {
   width: 100%;
   height: 64px;
   text-decoration: none;
-  border: 1px solid #d4d4d4;
+  border: 1px solid #e1e1e1;
   border-radius: 100px;
   margin: 8px;
   padding: 8px 16px;
@@ -978,7 +978,7 @@ a {
   width: 100%;
   height: 96px;
   text-decoration: none;
-  border: 1px solid #d4d4d4;
+  border: 1px solid #e1e1e1;
   border-radius: 100px;
   margin: 8px;
   padding: 8px 16px;
@@ -999,7 +999,7 @@ a {
   width: 100%;
   height: 128px;
   text-decoration: none;
-  border: 1px solid #d4d4d4;
+  border: 1px solid #e1e1e1;
   border-radius: 100px;
   margin: 8px;
   padding: 8px 16px;
@@ -1029,7 +1029,7 @@ a {
   background-color: #fdfdfd;
   height: 16px;
   text-decoration: none;
-  border: 1px solid #d4d4d4;
+  border: 1px solid #e1e1e1;
   border-radius: 100px;
   margin: 8px;
   padding: 8px 16px;
@@ -1049,7 +1049,7 @@ a {
   background-color: #fdfdfd;
   height: 24px;
   text-decoration: none;
-  border: 1px solid #d4d4d4;
+  border: 1px solid #e1e1e1;
   border-radius: 100px;
   margin: 8px;
   padding: 8px 16px;
@@ -1069,7 +1069,7 @@ a {
   background-color: #fdfdfd;
   height: 32px;
   text-decoration: none;
-  border: 1px solid #d4d4d4;
+  border: 1px solid #e1e1e1;
   border-radius: 100px;
   margin: 8px;
   padding: 8px 16px;
@@ -1089,7 +1089,7 @@ a {
   background-color: #fdfdfd;
   height: 48px;
   text-decoration: none;
-  border: 1px solid #d4d4d4;
+  border: 1px solid #e1e1e1;
   border-radius: 100px;
   margin: 8px;
   padding: 8px 16px;
@@ -1109,7 +1109,7 @@ a {
   background-color: #fdfdfd;
   height: 64px;
   text-decoration: none;
-  border: 1px solid #d4d4d4;
+  border: 1px solid #e1e1e1;
   border-radius: 100px;
   margin: 8px;
   padding: 8px 16px;
@@ -1129,7 +1129,7 @@ a {
   background-color: #fdfdfd;
   height: 96px;
   text-decoration: none;
-  border: 1px solid #d4d4d4;
+  border: 1px solid #e1e1e1;
   border-radius: 100px;
   margin: 8px;
   padding: 8px 16px;
@@ -1149,7 +1149,7 @@ a {
   background-color: #fdfdfd;
   height: 128px;
   text-decoration: none;
-  border: 1px solid #d4d4d4;
+  border: 1px solid #e1e1e1;
   border-radius: 100px;
   margin: 8px;
   padding: 8px 16px;
@@ -1169,19 +1169,19 @@ a {
   background-color: #fdfdfd;
   height: 48px;
   font-size: 16px;
-  border: 1px solid #d4d4d4;
+  border: 1px solid #e1e1e1;
   border-radius: 12px;
   margin: 8px;
   padding: 8px 16px;
 }
 
 .leto-input:focus {
-  background-color: #e1e1e1;
-  border-color: #e1e1e1;
+  background-color: #eeeeee;
+  border-color: #eeeeee;
 }
 
 .leto-input[type="search"] {
-  background-color: #e1e1e1;
+  background-color: #eeeeee;
   height: 48px;
   font-size: 16px;
   border-radius: 12px;
@@ -1191,26 +1191,26 @@ a {
 
 .leto-input[type="search"]:focus {
   background-color: transparent;
-  border-color: #d4d4d4;
+  border-color: #e1e1e1;
 }
 
 .leto-input-xxs {
   background-color: #fdfdfd;
   height: 16px;
   font-size: 16px;
-  border: 1px solid #d4d4d4;
+  border: 1px solid #e1e1e1;
   border-radius: 12px;
   margin: 8px;
   padding: 8px 16px;
 }
 
 .leto-input-xxs:focus {
-  background-color: #e1e1e1;
-  border-color: #e1e1e1;
+  background-color: #eeeeee;
+  border-color: #eeeeee;
 }
 
 .leto-input-xxs[type="search"] {
-  background-color: #e1e1e1;
+  background-color: #eeeeee;
   height: 16px;
   font-size: 16px;
   border-radius: 12px;
@@ -1220,26 +1220,26 @@ a {
 
 .leto-input-xxs[type="search"]:focus {
   background-color: transparent;
-  border-color: #d4d4d4;
+  border-color: #e1e1e1;
 }
 
 .leto-input-xs {
   background-color: #fdfdfd;
   height: 24px;
   font-size: 16px;
-  border: 1px solid #d4d4d4;
+  border: 1px solid #e1e1e1;
   border-radius: 12px;
   margin: 8px;
   padding: 8px 16px;
 }
 
 .leto-input-xs:focus {
-  background-color: #e1e1e1;
-  border-color: #e1e1e1;
+  background-color: #eeeeee;
+  border-color: #eeeeee;
 }
 
 .leto-input-xs[type="search"] {
-  background-color: #e1e1e1;
+  background-color: #eeeeee;
   height: 24px;
   font-size: 16px;
   border-radius: 12px;
@@ -1249,26 +1249,26 @@ a {
 
 .leto-input-xs[type="search"]:focus {
   background-color: transparent;
-  border-color: #d4d4d4;
+  border-color: #e1e1e1;
 }
 
 .leto-input-sm {
   background-color: #fdfdfd;
   height: 32px;
   font-size: 16px;
-  border: 1px solid #d4d4d4;
+  border: 1px solid #e1e1e1;
   border-radius: 12px;
   margin: 8px;
   padding: 8px 16px;
 }
 
 .leto-input-sm:focus {
-  background-color: #e1e1e1;
-  border-color: #e1e1e1;
+  background-color: #eeeeee;
+  border-color: #eeeeee;
 }
 
 .leto-input-sm[type="search"] {
-  background-color: #e1e1e1;
+  background-color: #eeeeee;
   height: 32px;
   font-size: 16px;
   border-radius: 12px;
@@ -1278,26 +1278,26 @@ a {
 
 .leto-input-sm[type="search"]:focus {
   background-color: transparent;
-  border-color: #d4d4d4;
+  border-color: #e1e1e1;
 }
 
 .leto-input-md {
   background-color: #fdfdfd;
   height: 48px;
   font-size: 16px;
-  border: 1px solid #d4d4d4;
+  border: 1px solid #e1e1e1;
   border-radius: 12px;
   margin: 8px;
   padding: 8px 16px;
 }
 
 .leto-input-md:focus {
-  background-color: #e1e1e1;
-  border-color: #e1e1e1;
+  background-color: #eeeeee;
+  border-color: #eeeeee;
 }
 
 .leto-input-md[type="search"] {
-  background-color: #e1e1e1;
+  background-color: #eeeeee;
   height: 48px;
   font-size: 16px;
   border-radius: 12px;
@@ -1307,26 +1307,26 @@ a {
 
 .leto-input-md[type="search"]:focus {
   background-color: transparent;
-  border-color: #d4d4d4;
+  border-color: #e1e1e1;
 }
 
 .leto-input-lg {
   background-color: #fdfdfd;
   height: 64px;
   font-size: 16px;
-  border: 1px solid #d4d4d4;
+  border: 1px solid #e1e1e1;
   border-radius: 12px;
   margin: 8px;
   padding: 8px 16px;
 }
 
 .leto-input-lg:focus {
-  background-color: #e1e1e1;
-  border-color: #e1e1e1;
+  background-color: #eeeeee;
+  border-color: #eeeeee;
 }
 
 .leto-input-lg[type="search"] {
-  background-color: #e1e1e1;
+  background-color: #eeeeee;
   height: 64px;
   font-size: 16px;
   border-radius: 12px;
@@ -1336,26 +1336,26 @@ a {
 
 .leto-input-lg[type="search"]:focus {
   background-color: transparent;
-  border-color: #d4d4d4;
+  border-color: #e1e1e1;
 }
 
 .leto-input-xl {
   background-color: #fdfdfd;
   height: 96px;
   font-size: 16px;
-  border: 1px solid #d4d4d4;
+  border: 1px solid #e1e1e1;
   border-radius: 12px;
   margin: 8px;
   padding: 8px 16px;
 }
 
 .leto-input-xl:focus {
-  background-color: #e1e1e1;
-  border-color: #e1e1e1;
+  background-color: #eeeeee;
+  border-color: #eeeeee;
 }
 
 .leto-input-xl[type="search"] {
-  background-color: #e1e1e1;
+  background-color: #eeeeee;
   height: 96px;
   font-size: 16px;
   border-radius: 12px;
@@ -1365,26 +1365,26 @@ a {
 
 .leto-input-xl[type="search"]:focus {
   background-color: transparent;
-  border-color: #d4d4d4;
+  border-color: #e1e1e1;
 }
 
 .leto-input-xxl {
   background-color: #fdfdfd;
   height: 128px;
   font-size: 16px;
-  border: 1px solid #d4d4d4;
+  border: 1px solid #e1e1e1;
   border-radius: 12px;
   margin: 8px;
   padding: 8px 16px;
 }
 
 .leto-input-xxl:focus {
-  background-color: #e1e1e1;
-  border-color: #e1e1e1;
+  background-color: #eeeeee;
+  border-color: #eeeeee;
 }
 
 .leto-input-xxl[type="search"] {
-  background-color: #e1e1e1;
+  background-color: #eeeeee;
   height: 128px;
   font-size: 16px;
   border-radius: 12px;
@@ -1394,7 +1394,7 @@ a {
 
 .leto-input-xxl[type="search"]:focus {
   background-color: transparent;
-  border-color: #d4d4d4;
+  border-color: #e1e1e1;
 }
 
 .leto-input-wrapper {
@@ -1415,7 +1415,7 @@ a {
 
 .leto-input-wrapper [class*=leto-input] {
   width: 100%;
-  border: 1px solid #e1e1e1;
+  border: 1px solid #eeeeee;
   margin: 0;
 }
 
@@ -1441,11 +1441,11 @@ a {
 
 .leto-input-wrapper [class*=leto-input]:focus {
   background-color: transparent;
-  border: 1px solid #bbbbbb;
+  border: 1px solid #c8c8c8;
 }
 
 .leto-search {
-  background-color: #e1e1e1;
+  background-color: #eeeeee;
   height: 48px;
   font-size: 16px;
   border-radius: 12px;
@@ -1455,11 +1455,11 @@ a {
 
 .leto-search:focus {
   background-color: transparent;
-  border-color: #d4d4d4;
+  border-color: #e1e1e1;
 }
 
 .leto-search-xxs {
-  background-color: #e1e1e1;
+  background-color: #eeeeee;
   height: 16px;
   font-size: 16px;
   border-radius: 12px;
@@ -1469,11 +1469,11 @@ a {
 
 .leto-search-xxs:focus {
   background-color: transparent;
-  border-color: #d4d4d4;
+  border-color: #e1e1e1;
 }
 
 .leto-search-xs {
-  background-color: #e1e1e1;
+  background-color: #eeeeee;
   height: 24px;
   font-size: 16px;
   border-radius: 12px;
@@ -1483,11 +1483,11 @@ a {
 
 .leto-search-xs:focus {
   background-color: transparent;
-  border-color: #d4d4d4;
+  border-color: #e1e1e1;
 }
 
 .leto-search-sm {
-  background-color: #e1e1e1;
+  background-color: #eeeeee;
   height: 32px;
   font-size: 16px;
   border-radius: 12px;
@@ -1497,11 +1497,11 @@ a {
 
 .leto-search-sm:focus {
   background-color: transparent;
-  border-color: #d4d4d4;
+  border-color: #e1e1e1;
 }
 
 .leto-search-md {
-  background-color: #e1e1e1;
+  background-color: #eeeeee;
   height: 48px;
   font-size: 16px;
   border-radius: 12px;
@@ -1511,11 +1511,11 @@ a {
 
 .leto-search-md:focus {
   background-color: transparent;
-  border-color: #d4d4d4;
+  border-color: #e1e1e1;
 }
 
 .leto-search-lg {
-  background-color: #e1e1e1;
+  background-color: #eeeeee;
   height: 64px;
   font-size: 16px;
   border-radius: 12px;
@@ -1525,11 +1525,11 @@ a {
 
 .leto-search-lg:focus {
   background-color: transparent;
-  border-color: #d4d4d4;
+  border-color: #e1e1e1;
 }
 
 .leto-search-xl {
-  background-color: #e1e1e1;
+  background-color: #eeeeee;
   height: 96px;
   font-size: 16px;
   border-radius: 12px;
@@ -1539,11 +1539,11 @@ a {
 
 .leto-search-xl:focus {
   background-color: transparent;
-  border-color: #d4d4d4;
+  border-color: #e1e1e1;
 }
 
 .leto-search-xxl {
-  background-color: #e1e1e1;
+  background-color: #eeeeee;
   height: 128px;
   font-size: 16px;
   border-radius: 12px;
@@ -1553,22 +1553,22 @@ a {
 
 .leto-search-xxl:focus {
   background-color: transparent;
-  border-color: #d4d4d4;
+  border-color: #e1e1e1;
 }
 
 textarea[class*="leto-input"], .leto-textarea {
   background-color: rgba(255, 255, 255, 0);
   height: auto;
   font-size: 16px;
-  border: 1px solid #d4d4d4;
+  border: 1px solid #e1e1e1;
   border-radius: 12px;
   margin: 8px;
   padding: 8px 16px;
 }
 
 textarea[class*="leto-input"]:focus, .leto-textarea:focus {
-  background-color: #e1e1e1;
-  border-color: #e1e1e1;
+  background-color: #eeeeee;
+  border-color: #eeeeee;
 }
 
 .leto-table {
@@ -1591,18 +1591,18 @@ textarea[class*="leto-input"]:focus, .leto-textarea:focus {
 }
 
 .leto-table tr:not(.leto-table-header) td {
-  border-top: 1px solid #d4d4d4;
-  border-bottom: 1px solid #d4d4d4;
+  border-top: 1px solid #e1e1e1;
+  border-bottom: 1px solid #e1e1e1;
 }
 
 .leto-table tr:not(.leto-table-header) td:first-child {
-  border-left: 1px solid #d4d4d4;
+  border-left: 1px solid #e1e1e1;
   border-top-left-radius: 12px;
   border-bottom-left-radius: 12px;
 }
 
 .leto-table tr:not(.leto-table-header) td:last-child {
-  border-right: 1px solid #d4d4d4;
+  border-right: 1px solid #e1e1e1;
   border-top-right-radius: 12px;
   border-bottom-right-radius: 12px;
 }
@@ -2030,7 +2030,7 @@ textarea[class*="leto-input"]:focus, .leto-textarea:focus {
 }
 
 .leto-pile {
-  border: 1px solid #d4d4d4;
+  border: 1px solid #e1e1e1;
   border-radius: 12px;
   margin: 8px;
   padding: 8px;
@@ -5158,33 +5158,33 @@ textarea[class*="leto-input"]:focus, .leto-textarea:focus {
 }
 
 .leto-border {
-  border: 1px solid #d4d4d4;
+  border: 1px solid #e1e1e1;
 }
 
 .leto-border-horizontal {
-  border-top: 1px solid #d4d4d4;
-  border-bottom: 1px solid #d4d4d4;
+  border-top: 1px solid #e1e1e1;
+  border-bottom: 1px solid #e1e1e1;
 }
 
 .leto-border-vertical {
-  border-left: 1px solid #d4d4d4;
-  border-right: 1px solid #d4d4d4;
+  border-left: 1px solid #e1e1e1;
+  border-right: 1px solid #e1e1e1;
 }
 
 .leto-border-top {
-  border-top: 1px solid #d4d4d4;
+  border-top: 1px solid #e1e1e1;
 }
 
 .leto-border-left {
-  border-left: 1px solid #d4d4d4;
+  border-left: 1px solid #e1e1e1;
 }
 
 .leto-border-right {
-  border-right: 1px solid #d4d4d4;
+  border-right: 1px solid #e1e1e1;
 }
 
 .leto-border-bottom {
-  border-bottom: 1px solid #d4d4d4;
+  border-bottom: 1px solid #e1e1e1;
 }
 
 .leto-border-white {
@@ -5196,23 +5196,23 @@ textarea[class*="leto-input"]:focus, .leto-textarea:focus {
 }
 
 .leto-border-lighterGrey {
-  border-color: #eeeeee;
+  border-color: #fbfbfb;
 }
 
 .leto-border-lightGrey {
-  border-color: #e1e1e1;
+  border-color: #eeeeee;
 }
 
 .leto-border-grey {
-  border-color: #d4d4d4;
+  border-color: #e1e1e1;
 }
 
 .leto-border-darkGrey {
-  border-color: #bbbbbb;
+  border-color: #c8c8c8;
 }
 
 .leto-border-darkerGrey {
-  border-color: #a1a1a1;
+  border-color: #aeaeae;
 }
 
 .leto-border-lightBlack {
@@ -5407,23 +5407,23 @@ textarea[class*="leto-input"]:focus, .leto-textarea:focus {
 }
 
 .leto-text-lighterGrey {
-  color: #eeeeee;
+  color: #fbfbfb;
 }
 
 .leto-text-lightGrey {
-  color: #e1e1e1;
+  color: #eeeeee;
 }
 
 .leto-text-grey {
-  color: #d4d4d4;
+  color: #e1e1e1;
 }
 
 .leto-text-darkGrey {
-  color: #bbbbbb;
+  color: #c8c8c8;
 }
 
 .leto-text-darkerGrey {
-  color: #a1a1a1;
+  color: #aeaeae;
 }
 
 .leto-text-lightBlack {
@@ -5523,7 +5523,7 @@ textarea[class*="leto-input"]:focus, .leto-textarea:focus {
 }
 
 .leto-active {
-  background-color: #d4d4d4;
+  background-color: #e1e1e1;
 }
 
 .leto-active[class*=leto-bubble] {
@@ -5543,7 +5543,7 @@ textarea[class*="leto-input"]:focus, .leto-textarea:focus {
 }
 
 .leto-active[class*=leto-text] {
-  color: #d4d4d4;
+  color: #e1e1e1;
 }
 
 .leto-active-white {
@@ -5595,7 +5595,7 @@ textarea[class*="leto-input"]:focus, .leto-textarea:focus {
 }
 
 .leto-active-lighterGrey {
-  background-color: #eeeeee;
+  background-color: #fbfbfb;
 }
 
 .leto-active-lighterGrey[class*=leto-bubble] {
@@ -5615,11 +5615,11 @@ textarea[class*="leto-input"]:focus, .leto-textarea:focus {
 }
 
 .leto-active-lighterGrey[class*=leto-text] {
-  color: #eeeeee;
+  color: #fbfbfb;
 }
 
 .leto-active-lightGrey {
-  background-color: #e1e1e1;
+  background-color: #eeeeee;
 }
 
 .leto-active-lightGrey[class*=leto-bubble] {
@@ -5639,11 +5639,11 @@ textarea[class*="leto-input"]:focus, .leto-textarea:focus {
 }
 
 .leto-active-lightGrey[class*=leto-text] {
-  color: #e1e1e1;
+  color: #eeeeee;
 }
 
 .leto-active-grey {
-  background-color: #d4d4d4;
+  background-color: #e1e1e1;
 }
 
 .leto-active-grey[class*=leto-bubble] {
@@ -5663,11 +5663,11 @@ textarea[class*="leto-input"]:focus, .leto-textarea:focus {
 }
 
 .leto-active-grey[class*=leto-text] {
-  color: #d4d4d4;
+  color: #e1e1e1;
 }
 
 .leto-active-darkGrey {
-  background-color: #bbbbbb;
+  background-color: #c8c8c8;
 }
 
 .leto-active-darkGrey[class*=leto-bubble] {
@@ -5687,11 +5687,11 @@ textarea[class*="leto-input"]:focus, .leto-textarea:focus {
 }
 
 .leto-active-darkGrey[class*=leto-text] {
-  color: #bbbbbb;
+  color: #c8c8c8;
 }
 
 .leto-active-darkerGrey {
-  background-color: #a1a1a1;
+  background-color: #aeaeae;
 }
 
 .leto-active-darkerGrey[class*=leto-bubble] {
@@ -5711,7 +5711,7 @@ textarea[class*="leto-input"]:focus, .leto-textarea:focus {
 }
 
 .leto-active-darkerGrey[class*=leto-text] {
-  color: #a1a1a1;
+  color: #aeaeae;
 }
 
 .leto-active-lightBlack {
@@ -6267,7 +6267,7 @@ textarea[class*="leto-input"]:focus, .leto-textarea:focus {
 }
 
 .leto-hover:hover {
-  background-color: #d4d4d4;
+  background-color: #e1e1e1;
 }
 
 .leto-hover[class*=leto-bubble]:hover {
@@ -6287,7 +6287,7 @@ textarea[class*="leto-input"]:focus, .leto-textarea:focus {
 }
 
 .leto-hover[class*=leto-text]:hover {
-  color: #d4d4d4;
+  color: #e1e1e1;
 }
 
 .leto-hover-white:hover {
@@ -6339,7 +6339,7 @@ textarea[class*="leto-input"]:focus, .leto-textarea:focus {
 }
 
 .leto-hover-lighterGrey:hover {
-  background-color: #eeeeee;
+  background-color: #fbfbfb;
 }
 
 .leto-hover-lighterGrey[class*=leto-bubble]:hover {
@@ -6359,11 +6359,11 @@ textarea[class*="leto-input"]:focus, .leto-textarea:focus {
 }
 
 .leto-hover-lighterGrey[class*=leto-text]:hover {
-  color: #eeeeee;
+  color: #fbfbfb;
 }
 
 .leto-hover-lightGrey:hover {
-  background-color: #e1e1e1;
+  background-color: #eeeeee;
 }
 
 .leto-hover-lightGrey[class*=leto-bubble]:hover {
@@ -6383,11 +6383,11 @@ textarea[class*="leto-input"]:focus, .leto-textarea:focus {
 }
 
 .leto-hover-lightGrey[class*=leto-text]:hover {
-  color: #e1e1e1;
+  color: #eeeeee;
 }
 
 .leto-hover-grey:hover {
-  background-color: #d4d4d4;
+  background-color: #e1e1e1;
 }
 
 .leto-hover-grey[class*=leto-bubble]:hover {
@@ -6407,11 +6407,11 @@ textarea[class*="leto-input"]:focus, .leto-textarea:focus {
 }
 
 .leto-hover-grey[class*=leto-text]:hover {
-  color: #d4d4d4;
+  color: #e1e1e1;
 }
 
 .leto-hover-darkGrey:hover {
-  background-color: #bbbbbb;
+  background-color: #c8c8c8;
 }
 
 .leto-hover-darkGrey[class*=leto-bubble]:hover {
@@ -6431,11 +6431,11 @@ textarea[class*="leto-input"]:focus, .leto-textarea:focus {
 }
 
 .leto-hover-darkGrey[class*=leto-text]:hover {
-  color: #bbbbbb;
+  color: #c8c8c8;
 }
 
 .leto-hover-darkerGrey:hover {
-  background-color: #a1a1a1;
+  background-color: #aeaeae;
 }
 
 .leto-hover-darkerGrey[class*=leto-bubble]:hover {
@@ -6455,7 +6455,7 @@ textarea[class*="leto-input"]:focus, .leto-textarea:focus {
 }
 
 .leto-hover-darkerGrey[class*=leto-text]:hover {
-  color: #a1a1a1;
+  color: #aeaeae;
 }
 
 .leto-hover-lightBlack:hover {
@@ -7011,26 +7011,26 @@ textarea[class*="leto-input"]:focus, .leto-textarea:focus {
 }
 
 .leto-disabled {
-  background-color: #e1e1e1 !important;
-  border-color: #e1e1e1 !important;
-  color: #bbbbbb !important;
+  background-color: #eeeeee !important;
+  border-color: #eeeeee !important;
+  color: #c8c8c8 !important;
   pointer-events: none;
 }
 
 .leto-disabled::-webkit-input-placeholder {
-  color: #bbbbbb !important;
+  color: #c8c8c8 !important;
 }
 
 .leto-disabled:-ms-input-placeholder {
-  color: #bbbbbb !important;
+  color: #c8c8c8 !important;
 }
 
 .leto-disabled::-ms-input-placeholder {
-  color: #bbbbbb !important;
+  color: #c8c8c8 !important;
 }
 
 .leto-disabled::placeholder {
-  color: #bbbbbb !important;
+  color: #c8c8c8 !important;
 }
 
 .leto-click {
@@ -7057,23 +7057,23 @@ textarea[class*="leto-input"]:focus, .leto-textarea:focus {
 }
 
 .leto-bg-lighterGrey {
-  background-color: #eeeeee;
+  background-color: #fbfbfb;
 }
 
 .leto-bg-lightGrey {
-  background-color: #e1e1e1;
+  background-color: #eeeeee;
 }
 
 .leto-bg-grey {
-  background-color: #d4d4d4;
+  background-color: #e1e1e1;
 }
 
 .leto-bg-darkGrey {
-  background-color: #bbbbbb;
+  background-color: #c8c8c8;
 }
 
 .leto-bg-darkerGrey {
-  background-color: #a1a1a1;
+  background-color: #aeaeae;
 }
 
 .leto-bg-lightBlack {
