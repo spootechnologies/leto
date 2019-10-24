@@ -688,6 +688,7 @@ a {
 }
 
 .leto-button {
+  background-color: #fdfdfd;
   text-decoration: none;
   text-align: center;
   border: 1px solid #d4d4d4;
@@ -707,6 +708,7 @@ a {
 }
 
 .leto-button-xxs {
+  background-color: #fdfdfd;
   height: 16px;
   text-decoration: none;
   border: 1px solid #d4d4d4;
@@ -726,6 +728,7 @@ a {
 }
 
 .leto-button-xs {
+  background-color: #fdfdfd;
   height: 24px;
   text-decoration: none;
   border: 1px solid #d4d4d4;
@@ -745,6 +748,7 @@ a {
 }
 
 .leto-button-sm {
+  background-color: #fdfdfd;
   height: 32px;
   text-decoration: none;
   border: 1px solid #d4d4d4;
@@ -764,6 +768,7 @@ a {
 }
 
 .leto-button-md {
+  background-color: #fdfdfd;
   height: 48px;
   text-decoration: none;
   border: 1px solid #d4d4d4;
@@ -783,6 +788,7 @@ a {
 }
 
 .leto-button-lg {
+  background-color: #fdfdfd;
   height: 64px;
   text-decoration: none;
   border: 1px solid #d4d4d4;
@@ -802,6 +808,7 @@ a {
 }
 
 .leto-button-xl {
+  background-color: #fdfdfd;
   height: 96px;
   text-decoration: none;
   border: 1px solid #d4d4d4;
@@ -821,6 +828,7 @@ a {
 }
 
 .leto-button-xxl {
+  background-color: #fdfdfd;
   height: 128px;
   text-decoration: none;
   border: 1px solid #d4d4d4;
@@ -840,6 +848,7 @@ a {
 }
 
 .leto-button-full {
+  background-color: #fdfdfd;
   width: 100%;
   height: 48px;
   text-decoration: none;
@@ -860,6 +869,7 @@ a {
 }
 
 .leto-button-full-xxs {
+  background-color: #fdfdfd;
   width: 100%;
   height: 16px;
   text-decoration: none;
@@ -880,6 +890,7 @@ a {
 }
 
 .leto-button-full-xs {
+  background-color: #fdfdfd;
   width: 100%;
   height: 24px;
   text-decoration: none;
@@ -900,6 +911,7 @@ a {
 }
 
 .leto-button-full-sm {
+  background-color: #fdfdfd;
   width: 100%;
   height: 32px;
   text-decoration: none;
@@ -920,6 +932,7 @@ a {
 }
 
 .leto-button-full-md {
+  background-color: #fdfdfd;
   width: 100%;
   height: 48px;
   text-decoration: none;
@@ -940,6 +953,7 @@ a {
 }
 
 .leto-button-full-lg {
+  background-color: #fdfdfd;
   width: 100%;
   height: 64px;
   text-decoration: none;
@@ -960,6 +974,7 @@ a {
 }
 
 .leto-button-full-xl {
+  background-color: #fdfdfd;
   width: 100%;
   height: 96px;
   text-decoration: none;
@@ -980,6 +995,7 @@ a {
 }
 
 .leto-button-full-xxl {
+  background-color: #fdfdfd;
   width: 100%;
   height: 128px;
   text-decoration: none;
@@ -1000,7 +1016,7 @@ a {
 }
 
 .leto-badge {
-  background-color: #e1e1e1;
+  background-color: transparent;
   font-size: 12px;
   border-radius: 100px;
   padding: 8px 12px;
@@ -1010,6 +1026,7 @@ a {
 }
 
 .leto-badge-xxs {
+  background-color: #fdfdfd;
   height: 16px;
   text-decoration: none;
   border: 1px solid #d4d4d4;
@@ -1029,6 +1046,7 @@ a {
 }
 
 .leto-badge-xs {
+  background-color: #fdfdfd;
   height: 24px;
   text-decoration: none;
   border: 1px solid #d4d4d4;
@@ -1048,6 +1066,7 @@ a {
 }
 
 .leto-badge-sm {
+  background-color: #fdfdfd;
   height: 32px;
   text-decoration: none;
   border: 1px solid #d4d4d4;
@@ -1067,6 +1086,7 @@ a {
 }
 
 .leto-badge-md {
+  background-color: #fdfdfd;
   height: 48px;
   text-decoration: none;
   border: 1px solid #d4d4d4;
@@ -1086,6 +1106,7 @@ a {
 }
 
 .leto-badge-lg {
+  background-color: #fdfdfd;
   height: 64px;
   text-decoration: none;
   border: 1px solid #d4d4d4;
@@ -1105,6 +1126,7 @@ a {
 }
 
 .leto-badge-xl {
+  background-color: #fdfdfd;
   height: 96px;
   text-decoration: none;
   border: 1px solid #d4d4d4;
@@ -1124,6 +1146,7 @@ a {
 }
 
 .leto-badge-xxl {
+  background-color: #fdfdfd;
   height: 128px;
   text-decoration: none;
   border: 1px solid #d4d4d4;
@@ -1143,7 +1166,7 @@ a {
 }
 
 .leto-input {
-  background-color: rgba(255, 255, 255, 0);
+  background-color: #fdfdfd;
   height: 48px;
   font-size: 16px;
   border: 1px solid #d4d4d4;
@@ -1172,7 +1195,7 @@ a {
 }
 
 .leto-input-xxs {
-  background-color: rgba(255, 255, 255, 0);
+  background-color: #fdfdfd;
   height: 16px;
   font-size: 16px;
   border: 1px solid #d4d4d4;
@@ -1201,7 +1224,7 @@ a {
 }
 
 .leto-input-xs {
-  background-color: rgba(255, 255, 255, 0);
+  background-color: #fdfdfd;
   height: 24px;
   font-size: 16px;
   border: 1px solid #d4d4d4;
@@ -1230,7 +1253,7 @@ a {
 }
 
 .leto-input-sm {
-  background-color: rgba(255, 255, 255, 0);
+  background-color: #fdfdfd;
   height: 32px;
   font-size: 16px;
   border: 1px solid #d4d4d4;
@@ -1259,7 +1282,7 @@ a {
 }
 
 .leto-input-md {
-  background-color: rgba(255, 255, 255, 0);
+  background-color: #fdfdfd;
   height: 48px;
   font-size: 16px;
   border: 1px solid #d4d4d4;
@@ -1288,7 +1311,7 @@ a {
 }
 
 .leto-input-lg {
-  background-color: rgba(255, 255, 255, 0);
+  background-color: #fdfdfd;
   height: 64px;
   font-size: 16px;
   border: 1px solid #d4d4d4;
@@ -1317,7 +1340,7 @@ a {
 }
 
 .leto-input-xl {
-  background-color: rgba(255, 255, 255, 0);
+  background-color: #fdfdfd;
   height: 96px;
   font-size: 16px;
   border: 1px solid #d4d4d4;
@@ -1346,7 +1369,7 @@ a {
 }
 
 .leto-input-xxl {
-  background-color: rgba(255, 255, 255, 0);
+  background-color: #fdfdfd;
   height: 128px;
   font-size: 16px;
   border: 1px solid #d4d4d4;
