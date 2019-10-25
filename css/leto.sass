@@ -206,6 +206,7 @@ a
 // Button
 
 =button($value)
+    background-color: $colorWhite
     height: $value * 2
     text-decoration: none
     border: 1px solid $colorGrey
@@ -218,6 +219,7 @@ a
     display: inline-flex
 
 =buttonFull($value)
+    background-color: $colorWhite
     width: 100%
     height: $value * 2
     text-decoration: none
@@ -232,6 +234,7 @@ a
 
 
 .leto-button
+    background-color: $colorWhite
     text-decoration: none
     text-align: center
     border: 1px solid $colorGrey
@@ -293,7 +296,7 @@ a
 // Badge
 
 =badge($value)
-    background-color: $colorLightGrey
+    background-color: transparent
     height: $value
     font-size: $fontSizeXS
     border-radius: 100px
@@ -304,7 +307,7 @@ a
 
 
 .leto-badge
-    background-color: $colorLightGrey
+    background-color: transparent
     font-size: $fontSizeXS
     border-radius: 100px
     padding: $xxs $xs
@@ -336,7 +339,7 @@ a
 // Input
 
 =input($height)
-    background-color: rgba(255, 255, 255, 0)
+    background-color: $colorWhite
     height: $height * 2
     font-size: $fontSizeMD
     border: 1px solid $colorGrey
