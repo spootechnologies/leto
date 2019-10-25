@@ -3929,43 +3929,43 @@ textarea[class*="leto-input"]:focus, .leto-textarea:focus {
 }
 
 .leto-min-width-full {
-  min-width: calc(100% - 8px);
+  min-width: calc(100% - (8px*2));
 }
 
 .leto-min-width-fourfifths {
-  min-width: calc(80% - 8px);
+  min-width: calc(80% - (8px*2));
 }
 
 .leto-min-width-threequaters {
-  min-width: calc(75% - 8px);
+  min-width: calc(75% - (8px*2));
 }
 
 .leto-min-width-twothirds {
-  min-width: calc(66% - 8px);
+  min-width: calc(66% - (8px*2));
 }
 
 .leto-min-width-half {
-  min-width: calc(50% - 8px);
+  min-width: calc(50% - (8px*2));
 }
 
 .leto-min-width-third {
-  min-width: calc((100% / 3) - 8px);
+  min-width: calc((100% / 3) - (8px*2));
 }
 
 .leto-min-width-quater {
-  min-width: calc(25% - 8px);
+  min-width: calc(25% - (8px*2));
 }
 
 .leto-min-width-fifth {
-  min-width: calc(20% - 8px);
+  min-width: calc(20% - (8px*2));
 }
 
 .leto-min-width-sixth {
-  min-width: calc((100% / 6) - 8px);
+  min-width: calc((100% / 6) - (8px*2));
 }
 
 .leto-min-width-eighth {
-  min-width: calc(12.5% - 8px);
+  min-width: calc(12.5% - (8px*2));
 }
 
 .leto-width {
@@ -4001,43 +4001,43 @@ textarea[class*="leto-input"]:focus, .leto-textarea:focus {
 }
 
 .leto-width-full {
-  width: calc(100% - 8px);
+  width: calc(100% - (8px*2));
 }
 
 .leto-width-fourfifths {
-  width: calc(80% - 8px);
+  width: calc(80% - (8px*2));
 }
 
 .leto-width-threequaters {
-  width: calc(75% - 8px);
+  width: calc(75% - (8px*2));
 }
 
 .leto-width-twothirds {
-  width: calc(66% - 8px);
+  width: calc(66% - (8px*2));
 }
 
 .leto-width-half {
-  width: calc(50% - 8px);
+  width: calc(50% - (8px*2));
 }
 
 .leto-width-third {
-  width: calc((100% / 3) - 8px);
+  width: calc((100% / 3) - (8px*2));
 }
 
 .leto-width-quater {
-  width: calc(25% - 8px);
+  width: calc(25% - (8px*2));
 }
 
 .leto-width-fifth {
-  width: calc(20% - 8px);
+  width: calc(20% - (8px*2));
 }
 
 .leto-width-sixth {
-  width: calc((100% / 6) - 8px);
+  width: calc((100% / 6) - (8px*2));
 }
 
 .leto-width-eighth {
-  width: calc(12.5% - 8px);
+  width: calc(12.5% - (8px*2));
 }
 
 .leto-max-width {
@@ -4073,43 +4073,43 @@ textarea[class*="leto-input"]:focus, .leto-textarea:focus {
 }
 
 .leto-max-width-full {
-  max-width: calc(100% - 8px);
+  max-width: calc(100% - (8px*2));
 }
 
 .leto-max-width-fourfifths {
-  max-width: calc(80% - 8px);
+  max-width: calc(80% - (8px*2));
 }
 
 .leto-max-width-threequaters {
-  max-width: calc(75% - 8px);
+  max-width: calc(75% - (8px*2));
 }
 
 .leto-max-width-twothirds {
-  max-width: calc(66% - 8px);
+  max-width: calc(66% - (8px*2));
 }
 
 .leto-max-width-half {
-  max-width: calc(50% - 8px);
+  max-width: calc(50% - (8px*2));
 }
 
 .leto-max-width-third {
-  max-width: calc((100% / 3) - 8px);
+  max-width: calc((100% / 3) - (8px*2));
 }
 
 .leto-max-width-quater {
-  max-width: calc(25% - 8px);
+  max-width: calc(25% - (8px*2));
 }
 
 .leto-max-width-fifth {
-  max-width: calc(20% - 8px);
+  max-width: calc(20% - (8px*2));
 }
 
 .leto-max-width-sixth {
-  max-width: calc((100% / 6) - 8px);
+  max-width: calc((100% / 6) - (8px*2));
 }
 
 .leto-max-width-eighth {
-  max-width: calc(12.5% - 8px);
+  max-width: calc(12.5% - (8px*2));
 }
 
 .leto-min-height {
