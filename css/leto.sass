@@ -32,6 +32,12 @@ input
     &[type="text"]:focus, &[type="password"]:focus, &[type="datetime"]:focus, &[type="datetime-local"]:focus, &[type="date"]:focus, &[type="month"]:focus, &[type="time"]:focus, &[type="week"]:focus, &[type="number"]:focus, &[type="email"]:focus, &[type="url"]:focus, &[type="search"]:focus, &[type="tel"]:focus, &[type="color"]:focus
         outline: 0
 
+select
+    border: 1px solid rgba(0, 0, 0, 0)
+    
+    &:focus
+        outline: 0
+
 a
     color: $colorBlack
     text-decoration: none
@@ -218,6 +224,14 @@ a
     cursor: pointer
     display: inline-flex
 
+    > *
+        margin: 0
+        margin-right: $basicMargin / 2
+
+    > *:last-child
+        margin-right: 0
+
+
 =buttonFull($value)
     background-color: $colorWhite
     width: 100%
@@ -232,19 +246,17 @@ a
     cursor: pointer
     display: inline-flex
 
+    > *
+        margin: 0
+        margin-right: $basicMargin / 2
+
+    > *:last-child
+        margin-right: 0
+
+
 
 .leto-button
-    background-color: $colorWhite
-    text-decoration: none
-    text-align: center
-    border: 1px solid $colorGrey
-    border-radius: 100px
-    margin: $basicMargin
-    padding: $basicPadding $basicPadding * 2
-    justify-content: center
-    align-items: center
-    cursor: pointer
-    display: inline-flex
+    +button($md)
 
     &-xxs
         +button($xxs)
@@ -299,42 +311,45 @@ a
     background-color: transparent
     height: $value
     font-size: $fontSizeXS
+    border: 1px solid $colorGrey
     border-radius: 100px
     padding: $xxs $xs
     margin: $basicMargin
     white-space: nowrap
-    display: inline-block
+    align-items: center
+    display: inline-flex
+
+    > *
+        margin: 0
+        margin-right: $basicMargin / 2
+
+    > *:last-child
+        margin-right: 0
 
 
 .leto-badge
-    background-color: transparent
-    font-size: $fontSizeXS
-    border-radius: 100px
-    padding: $xxs $xs
-    margin: $basicMargin
-    white-space: nowrap
-    display: inline-block
+    +badge($md)
 
     &-xxs
-        +button($xxs)
+        +badge($xxs)
 
     &-xs
-        +button($xs)
+        +badge($xs)
 
     &-sm
-        +button($sm)
+        +badge($sm)
 
     &-md
-        +button($md)
+        +badge($md)
 
     &-lg
-        +button($lg)
+        +badge($lg)
 
     &-xl
-        +button($xl)
+        +badge($xl)
 
     &-xxl
-        +button($xxl)
+        +badge($xxl)
 
 // Input
 
@@ -417,6 +432,18 @@ a
         background-color: transparent
         border: 1px solid $colorDarkGrey
 
+    > i
+        position: absolute
+        top: 50%
+        margin-top: -8px
+        right: 8px
+
+    > select[class*=leto-input]
+        appearance: none
+
+        &::-ms-expand
+            display: none
+
 
 // Search
 
@@ -474,6 +501,55 @@ a
 
 textarea[class*="leto-input"], .leto-textarea
     +textarea()
+
+=select($height)
+    background-color: $colorWhite
+    height: $height * 2
+    font-size: $fontSizeMD
+    border: 1px solid $colorGrey
+    border-radius: 12px
+    margin: $basicMargin
+    padding: $basicPadding $basicPadding * 3 $basicPadding $basicPadding * 2
+    cursor: pointer
+
+    & option 
+        background-color: $colorLightGrey
+        outline: 0
+
+
+    &:focus
+        background-color: $colorWhite
+        border: 1px solid $colorGrey
+        border-radius: 12px 12px 0 0
+
+        &::-ms-value
+            background-color: transparent
+
+
+select.leto-input
+    +select($md)
+
+    &-xxs
+        +select($xxs)
+
+    &-xs
+        +select($xs)
+
+    &-sm
+        +select($sm)
+
+    &-md
+        +select($md)
+
+    &-lg
+        +select($lg)
+
+    &-xl
+        +select($xl)
+
+    &-xxl
+        +select($xxl)
+
 
 
 // Table
@@ -2118,6 +2194,170 @@ textarea[class*="leto-input"], .leto-textarea
     &-full
         border-radius: 1000px
 
+    &-top
+        border-radius: $md $md 0 0 
+
+        &-xxs
+            border-radius: $xxs $xxs 0 0 
+
+        &-xs
+            border-radius: $xs $xs 0 0
+
+        &-sm
+            border-radius: $sm $sm 0 0
+
+        &-md
+            border-radius: $md $md 0 0
+
+        &-lg
+            border-radius: $lg $lg 0 0
+
+        &-xl
+            border-radius: $xl $xl 0 0
+
+        &-xxl
+            border-radius: $xxl $xxl 0 0
+
+        &-full
+            border-radius: 1000px 1000px 0 0
+
+        &-left
+            border-radius: $md 0 0 0 
+
+            &-xxs
+                border-radius: $xxs 0 0 0 
+
+            &-xs
+                border-radius: $xs 0 0 0
+
+            &-sm
+                border-radius: $sm 0 0 0
+
+            &-md
+                border-radius: $md 0 0 0
+
+            &-lg
+                border-radius: $lg 0 0 0
+
+            &-xl
+                border-radius: $xl 0 0 0
+
+            &-xxl
+                border-radius: $xxl 0 0 0
+
+            &-full
+                border-radius: 1000px 0 0 0
+        
+        &-right
+            border-radius: 0 $md 0 0 
+
+            &-xxs
+                border-radius: 0 $xxs 0 0
+
+            &-xs
+                border-radius: 0 $xs 0 0
+
+            &-sm
+                border-radius: 0 $sm 0 0
+
+            &-md
+                border-radius: 0 $md 0 0
+
+            &-lg
+                border-radius: 0 $lg 0 0
+
+            &-xl
+                border-radius: 0 $xl 0 0
+
+            &-xxl
+                border-radius: 0 $xxl 0 0
+
+            &-full
+                border-radius: 0 1000px 0 0
+
+    &-bottom
+        border-radius: 0 0 $md $md 
+
+        &-xxs
+            border-radius: 0 0 $xxs $xxs
+
+        &-xs
+            border-radius: 0 0 $xs $xs 
+
+        &-sm
+            border-radius: 0 0 $sm $sm
+
+        &-md
+            border-radius: 0 0 $md $md
+
+        &-lg
+            border-radius: 0 0 $lg $lg 
+
+        &-xl
+            border-radius: 0 0 $xl $xl 
+
+        &-xxl
+            border-radius: 0 0 $xxl $xxl
+
+        &-full
+            border-radius: 0 0 1000px 1000px
+
+        &-right
+            border-radius: 0 0 $md 0 
+
+            &-xxs
+                border-radius: 0 0 $xxs 0 
+
+            &-xs
+                border-radius: 0 0 $xs 0 
+
+            &-sm
+                border-radius: 0 0 $sm 0 
+
+            &-md
+                border-radius: 0 0 $md 0 
+
+            &-lg
+                border-radius: 0 0 $lg 0 
+
+            &-xl
+                border-radius: 0 0 $xl 0 
+
+            &-xxl
+                border-radius: 0 0 $xxl 0
+
+            &-full
+                border-radius: 0 0 1000px 0
+        
+        &-left
+            border-radius: 0 0 0 $md 0 
+
+            &-xxs
+                border-radius: 0 0 0 $xxs 
+
+            &-xs
+                border-radius: 0 0 0 $xs
+
+            &-sm
+                border-radius: 0 0 0 $sm
+
+            &-md
+                border-radius: 0 0 0 $md 
+
+            &-lg
+                border-radius: 0 0 0 $lg
+
+            &-xl
+                border-radius: 0 0 0 $xl
+
+            &-xxl
+                border-radius: 0 0 0 $xxl
+
+            &-full
+                border-radius: 0 0 0 1000px
+
+
+
 
 // Border
 
@@ -2147,91 +2387,91 @@ textarea[class*="leto-input"], .leto-textarea
     &-white
         border-color: $colorWhite
    
-    &-darkWhite
+    &-darkwhite
         border-color: $colorDarkWhite
 
-    &-lighterGrey
+    &-lightergrey
         border-color: $colorLighterGrey
 
-    &-lightGrey
+    &-lightgrey
         border-color: $colorLightGrey
 
     &-grey
         border-color: $colorGrey
 
-    &-darkGrey
+    &-darkgrey
         border-color: $colorDarkGrey
 
-    &-darkerGrey
+    &-darkergrey
         border-color: $colorDarkerGrey
 
-    &-lightBlack
+    &-lightblack
         border-color: $colorLightBlack
 
     &-black
         border-color: $colorBlack
 
-    &-lightYellow
+    &-lightyellow
         border-color: $colorLightYellow
 
     &-yellow
         border-color: $colorYellow
 
-    &-darkYellow
+    &-darkyellow
         border-color: $colorDarkYellow
 
-    &-lightOrange
+    &-lightorange
         border-color: $colorLightOrange
 
     &-orange
         border-color: $colorOrange
 
-    &-darkOrange
+    &-darkorange
         border-color: $colorDarkOrange
 
-    &-lightRed
+    &-lightred
         border-color: $colorLightRed
 
     &-red
         border-color: $colorRed
 
-    &-darkRed
+    &-darkred
         border-color: $colorDarkRed
 
-    &-lightPurple
+    &-lightpurple
         border-color: $colorLightPurple
 
     &-purple
         border-color: $colorPurple
 
-    &-darkPurple
+    &-darkpurple
         border-color: $colorDarkPurple
 
-    &-lightBlue
+    &-lightblue
         border-color: $colorLightBlue
 
     &-blue
         border-color: $colorBlue
 
-    &-darkBlue
+    &-darkblue
         border-color: $colorDarkBlue
 
-    &-lightMint
+    &-lightmint
         border-color: $colorLightMint
 
     &-mint
         border-color: $colorMint
 
-    &-darkMint
+    &-darkmint
         border-color: $colorDarkMint
 
-    &-lightGreen
+    &-lightgreen
         border-color: $colorLightGreen
 
     &-green
         border-color: $colorGreen
 
-    &-darkGreen
+    &-darkgreen
         border-color: $colorDarkGreen
 
     &-none
@@ -2309,91 +2549,91 @@ textarea[class*="leto-input"], .leto-textarea
     &-white
         color: $colorWhite
    
-    &-darkWhite
+    &-darkwhite
         color: $colorDarkWhite
 
-    &-lighterGrey
+    &-lightergrey
         color: $colorLighterGrey
 
-    &-lightGrey
+    &-lightgrey
         color: $colorLightGrey
 
     &-grey
         color: $colorGrey
 
-    &-darkGrey
+    &-darkgrey
         color: $colorDarkGrey
 
-    &-darkerGrey
+    &-darkergrey
         color: $colorDarkerGrey
 
-    &-lightBlack
+    &-lightblack
         color: $colorLightBlack
 
     &-black
         color: $colorBlack
 
-    &-lightYellow
+    &-lightyellow
         color: $colorLightYellow
 
     &-yellow
         color: $colorYellow
 
-    &-darkYellow
+    &-darkyellow
         color: $colorDarkYellow
 
-    &-lightOrange
+    &-lightorange
         color: $colorLightOrange
 
     &-orange
         color: $colorOrange
 
-    &-darkOrange
+    &-darkorange
         color: $colorDarkOrange
 
-    &-lightRed
+    &-lightred
         color: $colorLightRed
 
     &-red
         color: $colorRed
 
-    &-darkRed
+    &-darkred
         color: $colorDarkRed
 
-    &-lightPurple
+    &-lightpurple
         color: $colorLightPurple
 
     &-purple
         color: $colorPurple
 
-    &-darkPurple
+    &-darkpurple
         color: $colorDarkPurple
 
-    &-lightBlue
+    &-lightblue
         color: $colorLightBlue
 
     &-blue
         color: $colorBlue
 
-    &-darkBlue
+    &-darkblue
         color: $colorDarkBlue
 
-    &-lightMint
+    &-lightmint
         color: $colorLightMint
 
     &-mint
         color: $colorMint
 
-    &-darkMint
+    &-darkmint
         color: $colorDarkMint
 
-    &-lightGreen
+    &-lightgreen
         color: $colorLightGreen
 
     &-green
         color: $colorGreen
 
-    &-darkGreen
+    &-darkgreen
         color: $colorDarkGreen
 
     &-none
@@ -2427,91 +2667,91 @@ textarea[class*="leto-input"], .leto-textarea
     &-white
         +active($colorWhite)
    
-    &-darkWhite
+    &-darkwhite
         +active($colorDarkWhite)
 
-    &-lighterGrey
+    &-lightergrey
         +active($colorLighterGrey)
 
-    &-lightGrey
+    &-lightgrey
         +active($colorLightGrey)
 
     &-grey
         +active($colorGrey)
 
-    &-darkGrey
+    &-darkgrey
         +active($colorDarkGrey)
 
-    &-darkerGrey
+    &-darkergrey
         +active($colorDarkerGrey)
 
-    &-lightBlack
+    &-lightblack
         +active($colorLightBlack)
 
     &-black
         +active($colorBlack)
 
-    &-lightYellow
+    &-lightyellow
         +active($colorLightYellow)
 
     &-yellow
         +active($colorYellow)
 
-    &-darkYellow
+    &-darkyellow
         +active($colorDarkYellow)
 
-    &-lightOrange
+    &-lightorange
         +active($colorLightOrange)
 
     &-orange
         +active($colorOrange)
 
-    &-darkOrange
+    &-darkorange
         +active($colorDarkOrange)
 
-    &-lightRed
+    &-lightred
         +active($colorLightRed)
 
     &-red
         +active($colorRed)
 
-    &-darkRed
+    &-darkred
         +active($colorDarkRed)
 
-    &-lightPurple
+    &-lightpurple
         +active($colorLightPurple)
 
     &-purple
         +active($colorPurple)
 
-    &-darkPurple
+    &-darkpurple
         +active($colorDarkPurple)
 
-    &-lightBlue
+    &-lightblue
         +active($colorLightBlue)
 
     &-blue
         +active($colorBlue)
 
-    &-darkBlue
+    &-darkblue
         +active($colorDarkBlue)
 
-    &-lightMint
+    &-lightmint
         +active($colorLightMint)
 
     &-mint
         +active($colorMint)
 
-    &-darkMint
+    &-darkmint
         +active($colorDarkMint)
 
-    &-lightGreen
+    &-lightgreen
         +active($colorLightGreen)
 
     &-green
         +active($colorGreen)
 
-    &-darkGreen
+    &-darkgreen
         +active($colorDarkGreen)
 
 
@@ -2545,91 +2785,91 @@ textarea[class*="leto-input"], .leto-textarea
     &-white
         +hover($colorWhite)
    
-    &-darkWhite
+    &-darkwhite
         +hover($colorDarkWhite)
 
-    &-lighterGrey
+    &-lightergrey
         +hover($colorLighterGrey)
 
-    &-lightGrey
+    &-lightgrey
         +hover($colorLightGrey)
 
     &-grey
         +hover($colorGrey)
 
-    &-darkGrey
+    &-darkgrey
         +hover($colorDarkGrey)
 
-    &-darkerGrey
+    &-darkergrey
         +hover($colorDarkerGrey)
 
-    &-lightBlack
+    &-lightblack
         +hover($colorLightBlack)
 
     &-black
         +hover($colorBlack)
 
-    &-lightYellow
+    &-lightyellow
         +hover($colorLightYellow)
 
     &-yellow
         +hover($colorYellow)
 
-    &-darkYellow
+    &-darkyellow
         +hover($colorDarkYellow)
 
-    &-lightOrange
+    &-lightorange
         +hover($colorLightOrange)
 
     &-orange
         +hover($colorOrange)
 
-    &-darkOrange
+    &-darkorange
         +hover($colorDarkOrange)
 
-    &-lightRed
+    &-lightred
         +hover($colorLightRed)
 
     &-red
         +hover($colorRed)
 
-    &-darkRed
+    &-darkred
         +hover($colorDarkRed)
 
-    &-lightPurple
+    &-lightpurple
         +hover($colorLightPurple)
 
     &-purple
         +hover($colorPurple)
 
-    &-darkPurple
+    &-darkpurple
         +hover($colorDarkPurple)
 
-    &-lightBlue
+    &-lightblue
         +hover($colorLightBlue)
 
     &-blue
         +hover($colorBlue)
 
-    &-darkBlue
+    &-darkblue
         +hover($colorDarkBlue)
 
-    &-lightMint
+    &-lightmint
         +hover($colorLightMint)
 
     &-mint
         +hover($colorMint)
 
-    &-darkMint
+    &-darkmint
         +hover($colorDarkMint)
 
-    &-lightGreen
+    &-lightgreen
         +hover($colorLightGreen)
 
     &-green
         +hover($colorGreen)
 
-    &-darkGreen
+    &-darkgreen
         +hover($colorDarkGreen)
 
 
@@ -2669,91 +2909,91 @@ textarea[class*="leto-input"], .leto-textarea
     &-white
         background-color: $colorWhite
    
-    &-darkWhite
+    &-darkwhite
         background-color: $colorDarkWhite
 
-    &-lighterGrey
+    &-lightergrey
         background-color: $colorLighterGrey
 
-    &-lightGrey
+    &-lightgrey
         background-color: $colorLightGrey
 
     &-grey
         background-color: $colorGrey
 
-    &-darkGrey
+    &-darkgrey
         background-color: $colorDarkGrey
 
-    &-darkerGrey
+    &-darkergrey
         background-color: $colorDarkerGrey
 
-    &-lightBlack
+    &-lightblack
         background-color: $colorLightBlack
 
     &-black
         background-color: $colorBlack
 
-    &-lightYellow
+    &-lightyellow
         background-color: $colorLightYellow
 
     &-yellow
         background-color: $colorYellow
 
-    &-darkYellow
+    &-darkyellow
         background-color: $colorDarkYellow
 
-    &-lightOrange
+    &-lightorange
         background-color: $colorLightOrange
 
     &-orange
         background-color: $colorOrange
 
-    &-darkOrange
+    &-darkorange
         background-color: $colorDarkOrange
 
-    &-lightRed
+    &-lightred
         background-color: $colorLightRed
 
     &-red
         background-color: $colorRed
 
-    &-darkRed
+    &-darkred
         background-color: $colorDarkRed
 
-    &-lightPurple
+    &-lightpurple
         background-color: $colorLightPurple
 
     &-purple
         background-color: $colorPurple
 
-    &-darkPurple
+    &-darkpurple
         background-color: $colorDarkPurple
 
-    &-lightBlue
+    &-lightblue
         background-color: $colorLightBlue
 
     &-blue
         background-color: $colorBlue
 
-    &-darkBlue
+    &-darkblue
         background-color: $colorDarkBlue
 
-    &-lightMint
+    &-lightmint
         background-color: $colorLightMint
 
     &-mint
         background-color: $colorMint
 
-    &-darkMint
+    &-darkmint
         background-color: $colorDarkMint
 
-    &-lightGreen
+    &-lightgreen
         background-color: $colorLightGreen
 
     &-green
         background-color: $colorGreen
 
-    &-darkGreen
+    &-darkgreen
         background-color: $colorDarkGreen
     
     &-none
