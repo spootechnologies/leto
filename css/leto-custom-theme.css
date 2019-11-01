@@ -678,8 +678,8 @@
 }
 
 [class*=leto-frame-theme] .leto-input:focus {
-  background-color: #e1e1e1;
-  border-color: #e1e1e1;
+  background-color: #eeeeee;
+  border-color: #eeeeee;
 }
 
 [class*=leto-frame-theme] .leto-input-xxs {
@@ -693,8 +693,8 @@
 }
 
 [class*=leto-frame-theme] .leto-input-xxs:focus {
-  background-color: #e1e1e1;
-  border-color: #e1e1e1;
+  background-color: #eeeeee;
+  border-color: #eeeeee;
 }
 
 [class*=leto-frame-theme] .leto-input-xs {
@@ -708,8 +708,8 @@
 }
 
 [class*=leto-frame-theme] .leto-input-xs:focus {
-  background-color: #e1e1e1;
-  border-color: #e1e1e1;
+  background-color: #eeeeee;
+  border-color: #eeeeee;
 }
 
 [class*=leto-frame-theme] .leto-input-sm {
@@ -723,8 +723,8 @@
 }
 
 [class*=leto-frame-theme] .leto-input-sm:focus {
-  background-color: #e1e1e1;
-  border-color: #e1e1e1;
+  background-color: #eeeeee;
+  border-color: #eeeeee;
 }
 
 [class*=leto-frame-theme] .leto-input-md {
@@ -738,8 +738,8 @@
 }
 
 [class*=leto-frame-theme] .leto-input-md:focus {
-  background-color: #e1e1e1;
-  border-color: #e1e1e1;
+  background-color: #eeeeee;
+  border-color: #eeeeee;
 }
 
 [class*=leto-frame-theme] .leto-input-lg {
@@ -753,8 +753,8 @@
 }
 
 [class*=leto-frame-theme] .leto-input-lg:focus {
-  background-color: #e1e1e1;
-  border-color: #e1e1e1;
+  background-color: #eeeeee;
+  border-color: #eeeeee;
 }
 
 [class*=leto-frame-theme] .leto-input-xl {
@@ -768,8 +768,8 @@
 }
 
 [class*=leto-frame-theme] .leto-input-xl:focus {
-  background-color: #e1e1e1;
-  border-color: #e1e1e1;
+  background-color: #eeeeee;
+  border-color: #eeeeee;
 }
 
 [class*=leto-frame-theme] .leto-input-xxl {
@@ -783,12 +783,12 @@
 }
 
 [class*=leto-frame-theme] .leto-input-xxl:focus {
-  background-color: #e1e1e1;
-  border-color: #e1e1e1;
+  background-color: #eeeeee;
+  border-color: #eeeeee;
 }
 
 [class*=leto-frame-theme] .leto-search {
-  background-color: #e1e1e1;
+  background-color: #eeeeee;
   height: 48px;
   font-size: 16px;
   border-radius: 0;
@@ -798,11 +798,11 @@
 
 [class*=leto-frame-theme] .leto-search:focus {
   background-color: rgba(0, 0, 0, 0);
-  border-color: #d4d4d4;
+  border-color: #e1e1e1;
 }
 
 [class*=leto-frame-theme] .leto-search-xxs {
-  background-color: #e1e1e1;
+  background-color: #eeeeee;
   height: 16px;
   font-size: 16px;
   border-radius: 0;
@@ -812,11 +812,11 @@
 
 [class*=leto-frame-theme] .leto-search-xxs:focus {
   background-color: rgba(0, 0, 0, 0);
-  border-color: #d4d4d4;
+  border-color: #e1e1e1;
 }
 
 [class*=leto-frame-theme] .leto-search-xs {
-  background-color: #e1e1e1;
+  background-color: #eeeeee;
   height: 24px;
   font-size: 16px;
   border-radius: 0;
@@ -826,11 +826,11 @@
 
 [class*=leto-frame-theme] .leto-search-xs:focus {
   background-color: rgba(0, 0, 0, 0);
-  border-color: #d4d4d4;
+  border-color: #e1e1e1;
 }
 
 [class*=leto-frame-theme] .leto-search-sm {
-  background-color: #e1e1e1;
+  background-color: #eeeeee;
   height: 32px;
   font-size: 16px;
   border-radius: 0;
@@ -840,11 +840,11 @@
 
 [class*=leto-frame-theme] .leto-search-sm:focus {
   background-color: rgba(0, 0, 0, 0);
-  border-color: #d4d4d4;
+  border-color: #e1e1e1;
 }
 
 [class*=leto-frame-theme] .leto-search-md {
-  background-color: #e1e1e1;
+  background-color: #eeeeee;
   height: 48px;
   font-size: 16px;
   border-radius: 0;
@@ -854,11 +854,11 @@
 
 [class*=leto-frame-theme] .leto-search-md:focus {
   background-color: rgba(0, 0, 0, 0);
-  border-color: #d4d4d4;
+  border-color: #e1e1e1;
 }
 
 [class*=leto-frame-theme] .leto-search-lg {
-  background-color: #e1e1e1;
+  background-color: #eeeeee;
   height: 64px;
   font-size: 16px;
   border-radius: 0;
@@ -868,11 +868,11 @@
 
 [class*=leto-frame-theme] .leto-search-lg:focus {
   background-color: rgba(0, 0, 0, 0);
-  border-color: #d4d4d4;
+  border-color: #e1e1e1;
 }
 
 [class*=leto-frame-theme] .leto-search-xl {
-  background-color: #e1e1e1;
+  background-color: #eeeeee;
   height: 96px;
   font-size: 16px;
   border-radius: 0;
@@ -882,11 +882,11 @@
 
 [class*=leto-frame-theme] .leto-search-xl:focus {
   background-color: rgba(0, 0, 0, 0);
-  border-color: #d4d4d4;
+  border-color: #e1e1e1;
 }
 
 [class*=leto-frame-theme] .leto-search-xxl {
-  background-color: #e1e1e1;
+  background-color: #eeeeee;
   height: 128px;
   font-size: 16px;
   border-radius: 0;
@@ -896,7 +896,7 @@
 
 [class*=leto-frame-theme] .leto-search-xxl:focus {
   background-color: rgba(0, 0, 0, 0);
-  border-color: #d4d4d4;
+  border-color: #e1e1e1;
 }
 
 [class*=leto-frame-theme] .leto-textarea {
@@ -909,8 +909,8 @@
 }
 
 [class*=leto-frame-theme] .leto-textarea:focus {
-  background-color: #e1e1e1;
-  border-color: #e1e1e1;
+  background-color: #eeeeee;
+  border-color: #eeeeee;
 }
 
 [class*=leto-frame-theme] .leto-table {
