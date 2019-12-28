@@ -1,0 +1,357 @@
+@import '_variables.sass'
+@import '_theme-functions.scss'
+
+
+// Elements base mixins
+    
+=basicElementStyles($bgColor, $color, $borderWidth, $borderColor, $borderRadius)
+    background-color: $bgColor
+    color: $color
+    border-width: $borderWidth
+    border-style: solid
+    border-color: $borderColor
+    border-radius: $borderRadius
+
+    @if $bgColor == $lightModeBgColor
+        +themed() 
+            background-color: t('bg')
+
+    @if $color == $lightModeColor
+        +themed() 
+            color: t('text')
+
+    @if $borderColor == $lightModeColor
+        +themed() 
+            border-color: t('text')
+
+
+=elementConstructor($bgColor, $color, $borderWidth, $borderColor, $borderRadius)
+    @content
+    +basicElementStyles($bgColor, $color, $borderWidth, $borderColor, $borderRadius)
+    
+    @media (min-width: $tablet)
+
+        &-tablet
+            @content
+            +basicElementStyles($bgColor, $color, $borderWidth, $borderColor, $borderRadius)
+
+    @media (min-width: $tabletAndPC)
+
+        &-tablet-pc
+            @content
+            +basicElementStyles($bgColor, $color, $borderWidth, $borderColor, $borderRadius)
+
+    @media (min-width: $tabletAndPC) and ($touchDevice)
+
+        &-tablet-pc
+            @content
+            +basicElementStyles($bgColor, $color, $borderWidth, $borderColor, $borderRadius)
+
+    @media (min-width: $pc)
+
+        &-pc
+            @content
+            +basicElementStyles($bgColor, $color, $borderWidth, $borderColor, $borderRadius)
+
+    @media (min-aspect-ratio: $ultrawideRatio) and (min-width: $ultrawide)
+
+        &-ultrawide
+            @content
+            +basicElementStyles($bgColor, $color, $borderWidth, $borderColor, $borderRadius)
+
+    @media (min-aspect-ratio: $superUltrawideRatio) and (min-width: $ultrawide)
+        
+        &-super-ultrawide
+            @content
+            +basicElementStyles($bgColor, $color, $borderWidth, $borderColor, $borderRadius)
+
+
+// Elements mixins
+
+// Bubble
+
+=bubble($value)
+    height: $value * 2.5
+    width: $value * 2.5
+    font-size: $value * 0.75
+    text-align: center
+    margin: $basicMargin
+    flex-direction: column
+    align-items: center
+    justify-content: center
+    flex-shrink: 0
+    display: inline-flex
+
+    img
+        max-width: $value * 0.75
+
+
+// Bubble wrapper
+
+=bubbleWrapper($value)
+    width: $value * 2.5
+    margin: $basicMargin
+    justify-content: center
+    flex-direction: column
+    display: inline-flex
+
+    > .leto-bubble
+        height: $value * 2.5
+        width: $value * 2.5
+        font-size: $value * .75
+        border-radius: $value * 2.5
+
+        img
+            max-width: $value * .75 
+
+    > [class*=leto-bubble]
+        margin-top: 0
+        margin-left: auto
+        margin-right: auto
+        margin-bottom: 0
+
+    > label
+        text-align: center
+
+    > [class*=leto-bubble] ~ label
+        margin-top: $basicMargin
+
+    > label ~ [class*=leto-bubble]
+        margin-top: $basicMargin
+
+
+// Card
+
+=card($value)
+    position: relative
+    width: $value*10
+    min-height: 50px
+    border: 1px solid $colorGrey
+    border-radius: 12px
+    margin: $basicMargin
+    padding: $basicPadding
+    flex-direction: column
+    display: inline-flex
+    overflow: hidden
+
+    > .leto-image-full
+        margin-top: -$basicMargin
+        margin-left: -$basicMargin
+        margin-right: -$basicMargin
+        width: calc(100% + 16px)
+
+=cardAutoWidth()
+    position: relative
+    min-height: 50px
+    margin: $basicMargin
+    padding: $basicPadding
+    flex-direction: column
+    display: inline-flex
+    overflow: hidden
+
+    > .leto-image-full
+        margin-top: -$basicMargin
+        margin-left: -$basicMargin
+        margin-right: -$basicMargin
+        width: calc(100% + 16px)
+
+=cardSquare($value)
+    position: relative
+    width: $value*10
+    height: $value*10
+    margin: $basicMargin
+    flex-direction: column
+    display: inline-flex
+    overflow: hidden 
+
+    > .leto-image-full
+        margin-top: -$basicMargin
+        margin-left: -$basicMargin
+        margin-right: -$basicMargin
+        width: calc(100% + 16px)
+
+
+// Card wrapper
+
+=cardWrapper($value)
+    margin: $basicMargin
+    justify-content: center
+    flex-direction: column
+    display: inline-flex
+
+    > [class*=leto-card]
+        margin-top: 0
+        margin-left: auto
+        margin-right: auto
+        margin-bottom: 0
+
+    > label
+        text-align: center
+
+    > [class*=leto-card] ~ label
+        margin-top: $basicMargin
+
+    > label ~ [class*=leto-card]
+        margin-top: $basicMargin    
+
+
+// Button
+
+=button($value)
+    height: $value * 2
+    text-decoration: none
+    margin: $basicMargin
+    padding: $basicPadding $basicPadding * 2
+    justify-content: center
+    align-items: center
+    cursor: pointer
+    display: inline-flex
+
+    > *
+        margin: 0
+        margin-right: $basicMargin / 2
+
+    > *:last-child
+        margin-right: 0
+
+
+=buttonFull($value)
+    width: 100%
+    height: $value * 2
+    text-decoration: none
+    margin: $basicMargin
+    padding: $basicPadding $basicPadding * 2
+    justify-content: center
+    align-items: center
+    cursor: pointer
+    display: inline-flex
+
+    > *
+        margin: 0
+        margin-right: $basicMargin / 2
+
+    > *:last-child
+        margin-right: 0
+
+
+// Badge
+
+=badge($value)
+    height: $value
+    font-size: $fontSizeXS
+    padding: $xxs $xs
+    margin: $basicMargin
+    white-space: nowrap
+    align-items: center
+    display: inline-flex
+
+    > *
+        margin: 0
+        margin-right: $basicMargin / 2
+
+    > *:last-child
+        margin-right: 0
+
+
+// Input
+
+=input($height)
+    background-color: $colorWhite
+    height: $height * 2
+    font-size: $fontSizeMD
+    border: 1px solid $colorGrey
+    border-radius: 12px
+    margin: $basicMargin
+    padding: $basicPadding $basicPadding * 2
+
+    &:focus
+        background-color: $colorLightGrey
+        border-color: $colorLightGrey
+
+
+    &[type="search"]
+        background-color: $colorLightGrey
+        height: $height * 2
+        font-size: $fontSizeMD
+        border-radius: 12px
+        margin: $basicMargin
+        padding: $basicPadding $basicPadding * 2
+
+        &:focus
+            background-color: transparent
+            border-color: $colorGrey
+
+
+// Search
+
+=search($height)
+    background-color: $colorLightGrey
+    height: $height * 2
+    font-size: $fontSizeMD
+    border-radius: 12px
+    margin: $basicMargin
+    padding: $basicPadding $basicPadding * 2
+
+    &:focus
+        background-color: transparent
+        border-color: $colorGrey
+
+
+// Textarea
+
+=textarea()
+    background-color: rgba(255, 255, 255, 0)
+    height: auto
+    font-size: $fontSizeMD
+    border: 1px solid $colorGrey
+    border-radius: 12px
+    margin: $basicMargin
+    padding: $basicPadding $basicPadding * 2
+
+    &:focus
+        background-color: $colorLightGrey
+        border-color: $colorLightGrey
+
+
+// Select
+
+=select($height)
+    background-color: $colorWhite
+    height: $height * 2
+    font-size: $fontSizeMD
+    border: 1px solid $colorGrey
+    border-radius: 12px
+    margin: $basicMargin
+    padding: $basicPadding $basicPadding * 3 $basicPadding $basicPadding * 2
+    cursor: pointer
+
+    & option 
+        background-color: $colorLightGrey
+        outline: 0
+
+
+    &:focus
+        background-color: $colorWhite
+        border: 1px solid $colorGrey
+        border-radius: 12px 12px 0 0
+
+        &::-ms-value
+            background-color: transparent
+
+
+// Toast
+
+=toast($bgColor, $textColor)
+    position: fixed
+    background-color: $bgColor
+    min-width: 200px
+    max-width: 400px
+    min-height: 50px
+    max-height: 100px
+    color: $textColor
+    border-radius: 12px
+    padding: $basicPadding
+    align-items: center
+    justify-content: center
+    display: flex
+    z-index: 21
