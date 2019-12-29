@@ -923,7 +923,7 @@
 // Margin
 
 .leto-m, .leto-margin
-    +margin($md)
+    +margin($standardSize)
 
     &-xxs
         +margin($xxs / 2)
@@ -950,7 +950,7 @@
         +margin(0)
 
     &-balance
-        +marginBalance($md)
+        +marginBalance($standardSize)
 
         &-xxs
             +marginBalance($xxs / 2)
@@ -974,7 +974,7 @@
             +marginBalance($xxl)
 
 .leto-mh, .leto-margin-horizontal
-    +marginX($md)
+    +marginX($standardSize)
 
     &-xxs
         +marginX($xxs / 2)
@@ -999,9 +999,33 @@
 
     &-none
         +marginX(0)
+
+    &-balance
+        +marginXBalance($standardSize)
+
+        &-xxs
+            +marginXBalance($xxs / 2)
+
+        &-xs
+            +marginXBalance($xs * (2 / 3))
+
+        &-sm
+            +marginXBalance($sm)
+
+        &-md
+            +marginXBalance($md)
+
+        &-lg
+            +marginXBalance($lg)
+
+        &-xl
+            +marginXBalance($xl)
+
+        &-xxl
+            +marginXBalance($xxl)
   
 .leto-mv, .leto-margin-vertical
-    +marginY($md)
+    +marginY($standardSize)
 
     &-xxs
         +marginY($xxs / 2)
@@ -1027,8 +1051,32 @@
     &-none
         +marginY(0)
 
+    &-balance
+        +marginYBalance($standardSize)
+
+        &-xxs
+            +marginYBalance($xxs / 2)
+
+        &-xs
+            +marginYBalance($xs * (2 / 3))
+
+        &-sm
+            +marginYBalance($sm)
+
+        &-md
+            +marginYBalance($md)
+
+        &-lg
+            +marginYBalance($lg)
+
+        &-xl
+            +marginYBalance($xl)
+
+        &-xxl
+            +marginYBalance($xxl)
+
 .leto-mt, .leto-margin-top
-    +marginTop($md)
+    +marginTop($standardSize)
 
     &-xxs
         +marginTop($xxs / 2)
@@ -1054,8 +1102,32 @@
     &-none
         +marginTop(0)
 
+    &-balance
+        +marginTopBalance($standardSize)
+
+        &-xxs
+            +marginTopBalance($xxs / 2)
+
+        &-xs
+            +marginTopBalance($xs * (2 / 3))
+
+        &-sm
+            +marginTopBalance($sm)
+
+        &-md
+            +marginTopBalance($md)
+
+        &-lg
+            +marginTopBalance($lg)
+
+        &-xl
+            +marginTopBalance($xl)
+
+        &-xxl
+            +marginTopBalance($xxl)
+
 .leto-ml, .leto-margin-left
-    +marginLeft($md)
+    +marginLeft($standardSize)
 
     &-xxs
         +marginLeft($xxs / 2)
@@ -1081,8 +1153,33 @@
     &-none
         +marginLeft(0)
 
+    &-balance
+        +marginLeftBalance($standardSize)
+
+        &-xxs
+            +marginLeftBalance($xxs / 2)
+
+        &-xs
+            +marginLeftBalance($xs * (2 / 3))
+
+        &-sm
+            +marginLeftBalance($sm)
+
+        &-md
+            +marginLeftBalance($md)
+
+        &-lg
+            +marginLeftBalance($lg)
+
+        &-xl
+            +marginLeftBalance($xl)
+
+        &-xxl
+            +marginLeftBalance($xxl)
+
+
 .leto-mr, .leto-margin-right
-    +marginRight($md)
+    +marginRight($standardSize)
 
     &-xxs
         +marginRight($xxs / 2)
@@ -1108,8 +1205,32 @@
     &-none
         +marginRight(0)
 
+    &-balance
+        +marginRightBalance($standardSize)
+
+        &-xxs
+            +marginRightBalance($xxs / 2)
+
+        &-xs
+            +marginRightBalance($xs * (2 / 3))
+
+        &-sm
+            +marginRightBalance($sm)
+
+        &-md
+            +marginRightBalance($md)
+
+        &-lg
+            +marginRightBalance($lg)
+
+        &-xl
+            +marginRightBalance($xl)
+
+        &-xxl
+            +marginRightBalance($xxl)
+
 .leto-mb, .leto-margin-bottom
-    +marginBottom($md)
+    +marginBottom($standardSize)
 
     &-xxs
         +marginBottom($xxs / 2)
@@ -1135,11 +1256,35 @@
     &-none
         +marginBottom(0)
 
+    &-balance
+        +marginBottomBalance($standardSize)
+
+        &-xxs
+            +marginBottomBalance($xxs / 2)
+
+        &-xs
+            +marginBottomBalance($xs * (2 / 3))
+
+        &-sm
+            +marginBottomBalance($sm)
+
+        &-md
+            +marginBottomBalance($md)
+
+        &-lg
+            +marginBottomBalance($lg)
+
+        &-xl
+            +marginBottomBalance($xl)
+
+        &-xxl
+            +marginBottomBalance($xxl)
+
 
 // Padding
 
 .leto-p, .leto-padding
-    +padding($md)
+    +padding($standardSize)
 
     &-xxs
         +padding($xxs / 2)
@@ -1166,7 +1311,7 @@
         +padding(0)
 
 .leto-ph, .leto-padding-horizontal
-    +paddingX($md)
+    +paddingX($standardSize)
 
     &-xxs
         +paddingX($xxs / 2)
@@ -1193,7 +1338,7 @@
         +paddingX(0)
   
 .leto-pv, .leto-padding-vertical
-    +paddingY($md)
+    +paddingY($standardSize)
 
     &-xxs
         +paddingY($xxs / 2)
@@ -1220,7 +1365,7 @@
         +paddingY(0)
 
 .leto-pt, .leto-padding-top
-    +paddingTop($md)
+    +paddingTop($standardSize)
 
     &-xxs
         +paddingTop($xxs / 2)
@@ -1247,7 +1392,7 @@
         +paddingTop(0)
 
 .leto-pl, .leto-padding-left
-    +paddingLeft($md)
+    +paddingLeft($standardSize)
 
     &-xxs
         +paddingLeft($xxs / 2)
@@ -1274,7 +1419,7 @@
         +paddingLeft(0)
 
 .leto-pr, .leto-padding-right
-    +paddingRight($md)
+    +paddingRight($standardSize)
 
     &-xxs
         +paddingRight($xxs / 2)
@@ -1301,7 +1446,7 @@
         +paddingRight(0)
 
 .leto-pb, .leto-padding-bottom
-    +paddingBottom($md)
+    +paddingBottom($standardSize)
 
     &-xxs
         +paddingBottom($xxs / 2)
