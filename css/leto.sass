@@ -552,11 +552,9 @@ select.leto-input
 
 
 
-// Table
-
-.leto-table
+=table($size)
     border-collapse: separate
-    border-spacing: 0 15px
+    border-spacing: 0 $size / 1.5
     width: 100%
 
     th
@@ -566,12 +564,13 @@ select.leto-input
     .leto-table-header
 
     td, th
-        padding-left: $sm
+        padding-left: $size / 1.5
+
 
     tr:not(.leto-table-header)
 
         td
-            padding: $sm
+            padding: $size / 1.5
 
     tr:not(.leto-table-header)
 
@@ -583,13 +582,40 @@ select.leto-input
 
         td:first-child
             border-left: 1px solid $colorGrey
-            border-top-left-radius: $xs
-            border-bottom-left-radius: $xs
+            border-top-left-radius: $size / 1.5
+            border-bottom-left-radius: $size / 1.5
 
         td:last-child
             border-right: 1px solid $colorGrey
-            border-top-right-radius: $xs
-            border-bottom-right-radius: $xs
+            border-top-right-radius: $size / 1.5
+            border-bottom-right-radius: $size / 1.5
+
+// Table
+
+.leto-table
+    +table($md)
+
+    &-xxs
+        +table($xxs)
+
+    &-xs
+        +table($xs)
+
+    &-sm
+        +table($sm)
+
+    &-md
+        +table($md)
+
+    &-lg
+        +table($lg)
+
+    &-xl
+        +table($xl)
+
+    &-xxl
+        +table($xxl)
+
 
 
 // Leto core
@@ -627,8 +653,27 @@ select.leto-input
     > label ~ [class*=leto-bubble]
         margin-top: $basicMargin
 
-.leto-bubble-wrapper
-    +bubbleWrapper($md)
+.leto-bubble-wrapper // TODO
+    width: auto
+    margin: $basicMargin
+    justify-content: center
+    flex-direction: column
+    display: inline-flex
+
+    > [class*=leto-bubble]
+        margin-top: 0
+        margin-left: auto
+        margin-right: auto
+        margin-bottom: 0
+
+    > label
+        text-align: center
+
+    > [class*=leto-bubble] ~ label
+        margin-top: $basicMargin
+
+    > label ~ [class*=leto-bubble]
+        margin-top: $basicMargin
 
     &-xxs
         +bubbleWrapper($xxs)
@@ -695,8 +740,6 @@ select.leto-input
         max-height: auto
         width: 100%
 
-
-
 // Pile
 
 .leto-pile
@@ -706,11 +749,6 @@ select.leto-input
     padding: $basicPadding
     flex-direction: column
     display: flex
-    
-
-
-    > *
-        display: block
 
     &-empty
         min-width: 300px
