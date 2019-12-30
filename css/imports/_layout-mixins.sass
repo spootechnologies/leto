@@ -1,0 +1,80 @@
+@import '_variables.sass'
+
+// Masonry
+
+=masonry($value)
+    column-count: 1
+    column-gap: 0
+
+    @media (min-width: $tablet)
+        column-count: 2
+
+    @media (min-width: $pc)
+        column-count: $value
+
+    > * 
+        break-inside: avoid
+        counter-increment: item-counter
+
+
+// Justify-content
+
+=justifyContent()
+
+    &-left
+        justify-content: flex-start
+
+    &-center
+        justify-content: center
+
+    &-right
+        justify-content: flex-end
+
+    &-between
+        justify-content: space-between
+
+    &-around
+        justify-content: space-around
+
+    &-evenly
+        justify-content: space-evenly
+
+
+// Align-items
+
+=alignItems()
+
+    &-top
+        align-items: flex-start
+
+    &-center
+        align-items: center
+
+    &-bottom
+        align-items: flex-end
+
+
+// Flex areas    
+
+=letoFlexAreas($width)
+    width: $width
+    padding: $basicPadding
+
+    @media (min-width: $tablet)
+
+        &-tablet
+            width: $width
+
+    @media (min-width: $pc)
+
+        &-pc
+            width: $width
+
+    @media (min-aspect-ratio: $ultrawideRatio) and (min-width: $ultrawide)
+
+        &-ultrawide
+            width: $width
+
+    > *
+        width: 100%
+        margin: 0

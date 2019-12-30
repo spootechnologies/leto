@@ -1,0 +1,484 @@
+@import '_elements-mixins.sass'
+
+// Elements
+
+// Bubble
+
+.leto-bubble
+    +elementConstructor('bubble')
+        +bubble($standardSize)
+    
+    &-xxs
+        +elementConstructor('bubble')
+            +bubble($xxs)
+
+    &-xs
+        +elementConstructor('bubble')
+            +bubble($xs)
+
+    &-sm
+        +elementConstructor('bubble')
+            +bubble($sm)
+
+    &-md
+        +elementConstructor('bubble')
+            +bubble($md)
+
+    &-lg
+        +elementConstructor('bubble')
+            +bubble($lg)
+
+    &-xl
+        +elementConstructor('bubble')
+            +bubble($xl)
+
+    &-xxl
+        +elementConstructor('bubble')
+            +bubble($xxl)
+
+
+// Bubble wrapper
+
+.leto-bubble-wrapper
+    +bubbleWrapper($md)
+
+    &-xxs
+        +bubbleWrapper($xxs)
+        
+    &-xs
+        +bubbleWrapper($xs)
+
+    &-sm
+        +bubbleWrapper($sm)
+
+    &-md
+        +bubbleWrapper($md)
+        
+    &-lg
+        +bubbleWrapper($lg)
+
+    &-xl
+        +bubbleWrapper($xl)
+
+    &-xxl
+        +bubbleWrapper($xxl)
+
+
+// Card
+
+.leto-card
+    +elementConstructor('card')
+        +cardAutoWidth()
+
+    &-xxs    
+        +elementConstructor('card')
+            +card($xxs)
+
+    &-xs
+        +elementConstructor('card')
+            +card($xs)
+
+    &-sm
+        +elementConstructor('card')
+            +card($sm) 
+
+    &-md
+        +elementConstructor('card')
+            +card($md)
+
+    &-lg
+        +elementConstructor('card')
+            +card($lg)
+
+    &-xl
+        +elementConstructor('card')
+            +card($xl)
+
+    &-xxl
+        +elementConstructor('card')
+            +card($xxl) 
+
+    &-square
+        +elementConstructor('card') 
+            +cardSquare($md)
+
+        &-xxs      
+            +elementConstructor('card')  
+                +cardSquare($xxs)
+
+        &-xs
+            +elementConstructor('card')  
+                +cardSquare($xs)
+
+        &-sm
+            +elementConstructor('card')  
+                +cardSquare($sm)
+
+        &-md
+            +elementConstructor('card')  
+                +cardSquare($md)
+
+        &-lg
+            +elementConstructor('card')  
+                +cardSquare($lg)
+
+        &-xl
+            +elementConstructor('card')  
+                +cardSquare($xl)
+
+        &-xxl
+            +elementConstructor('card')  
+                +cardSquare($xxl) 
+
+
+// Card wrapper
+
+.leto-card-wrapper
+    +cardWrapper($md)
+
+
+// Button
+
+.leto-button 
+    +elementConstructor('button')
+        +button($standardSize)
+
+    &-xxs
+        +elementConstructor('button')
+            +button($xxs)
+
+    &-xs
+        +elementConstructor('button')
+            +button($xs)
+
+    &-sm
+        +elementConstructor('button')
+            +button($sm)
+
+    &-md
+        +elementConstructor('button')
+            +button($md)
+
+    &-lg
+        +elementConstructor('button')
+            +button($lg)
+
+    &-xl
+        +elementConstructor('button')
+            +button($xl)
+
+    &-xxl
+        +elementConstructor('button')
+            +button($xxl)
+
+    &-full
+        +elementConstructor('button')
+            +buttonFull($standardSize)
+
+        &-xxs
+            +elementConstructor('button')
+                +buttonFull($xxs)
+
+        &-xs
+            +elementConstructor('button')
+                +buttonFull($xs)
+
+        &-sm
+            +elementConstructor('button')
+                +buttonFull($sm)
+
+        &-md
+            +elementConstructor('button')
+                +buttonFull($md)
+
+        &-lg
+            +elementConstructor('button')
+                +buttonFull($lg)
+
+        &-xl
+            +elementConstructor('button')
+                +buttonFull($xl)
+
+        &-xxl
+            +elementConstructor('button')
+                +buttonFull($xxl)
+
+
+// Badge
+
+.leto-badge
+    +elementConstructor('badge')
+        +badge($standardSize)
+
+    &-xxs
+        +elementConstructor('badge')
+            +badge($xxs)
+
+    &-xs
+        +elementConstructor('badge')
+            +badge($xs)
+
+    &-sm
+        +elementConstructor('badge')
+            +badge($sm)
+
+    &-md
+        +elementConstructor('badge')
+            +badge($sm)
+
+    &-lg
+        +elementConstructor('badge')
+            +badge($lg)
+
+    &-xl
+        +elementConstructor('badge')
+            +badge($xl)
+
+    &-xxl
+        +elementConstructor('badge')
+            +badge($xxl)
+
+
+// Input
+
+.leto-input
+    +elementConstructor('input')
+        +input($standardSize)
+
+    &-xxs
+        +elementConstructor('input')
+            +input($xxs)
+
+    &-xs
+        +elementConstructor('input')
+            +input($xs)
+    &-sm
+        +elementConstructor('input')
+            +input($sm)
+
+    &-md
+        +elementConstructor('input')
+            +input($md)
+
+    &-lg
+        +elementConstructor('input')
+            +input($lg)
+
+    &-xl
+        +elementConstructor('input')
+            +input($xl)
+
+    &-xxl
+        +elementConstructor('input')
+            +input($xxl)
+
+
+// Input wrapper
+
+.leto-input-wrapper
+    +InputWrapper()
+
+
+// Search
+
+.leto-input
+    +elementConstructor('search')
+        +search($standardSize)
+
+    &-xxs[type="search"]
+        +elementConstructor('search')
+            +search($xxs)
+
+    &-xs[type="search"]
+        +elementConstructor('search')
+            +search($xs)
+
+    &-sm[type="search"]
+        +elementConstructor('search')
+            +search($sm)
+
+    &-md[type="search"]
+        +elementConstructor('search')
+            +search($md)
+
+    &-lg[type="search"]
+        +elementConstructor('search')
+            +search($lg)
+
+    &-xl[type="search"]
+        +elementConstructor('search')
+            +search($xl)
+
+    &-xxl[type="search"]
+        +elementConstructor('search')
+            +search($xxl)
+
+
+// Textarea
+
+textarea[class*="leto-input"], .leto-textarea
+    +elementConstructor('textarea')
+        +textarea()
+
+
+// Select
+
+select.leto-input
+    +elementConstructor('select')
+        +select($standardSize)
+
+    &-xxs
+        +elementConstructor('select')
+            +select($xxs)
+
+    &-xs
+        +elementConstructor('select')
+            +select($xs)
+
+    &-sm
+        +elementConstructor('select')
+            +select($sm)
+
+    &-md
+        +elementConstructor('select')
+            +select($md)
+
+    &-lg
+        +elementConstructor('select')
+            +select($lg)
+
+    &-xl
+        +elementConstructor('select')
+            +select($xl)
+
+    &-xxl
+        +elementConstructor('select')
+            +select($xxl)
+
+
+// Table
+
+.leto-table
+    +table()
+
+
+// Wrapper
+
+.leto-wrapper // Not Used
+    flex-direction: column
+    display: inline-flex
+
+
+// Header 
+    
+.leto-header // Not Used
+    font-weight: $fontWeightMedium
+    align-items: center
+    flex-direction: row
+    display: flex
+
+
+// Image
+
+.leto-image
+
+    &-full
+        max-height: auto
+        width: 100%
+
+
+// Pile
+
+.leto-pile
+    +elementConstructor('pile')
+        margin: $basicMargin
+        padding: $basicPadding
+        flex-direction: column
+        display: flex
+
+        > *
+            display: block
+
+        &-empty // NOT USED
+            min-width: 300px
+            width: 100%
+            padding: $basicPadding
+            display: block
+
+
+// Form
+ 
+.leto-form
+    +elementConstructor('form')
+        position: fixed
+        width: calc(100% - #{$basicPadding})
+        height: 100%
+        top: 0
+        left: 0
+        padding: $basicPadding
+        flex-direction: column
+        display: flex
+        overflow-y: scroll
+        z-index: 2
+
+    &-left
+        +elementConstructor('form')
+            position: fixed
+            width: calc(100% - #{$basicPadding})
+            height: 100%
+            top: 0
+            left: 0
+            padding: $basicPadding
+            flex-direction: column
+            display: flex
+            overflow-y: scroll
+            z-index: 2
+
+    &-right
+        +elementConstructor('form')
+            position: fixed
+            width: calc(100% - #{$basicPadding})
+            height: 100%
+            top: 0
+            right: 0
+            padding: $basicPadding
+            flex-direction: column
+            display: flex
+            overflow-y: scroll
+            z-index: 2
+
+    @media (min-width: $pc)
+        width: 50vw
+        left: 50%
+        margin-left: -25vw
+
+        &-left, &-right
+            width: 50vw
+
+
+// Backdrop
+
+.leto-backdrop
+    position: fixed
+    left: 0
+    top: 0
+    display: block
+    height: 100%
+    width: 100%
+    background-color: rgba(0, 0, 0, .25)
+    z-index: 1
+
+
+// Toast
+
+.leto-toast
+    +toastPos($toastColor, $colorWhite)
+
+.leto-toast-success
+    +toastPos($colorGreen, $colorBlack)
+
+.leto-toast-warning
+    +toastPos($colorOrange, $colorBlack)
+
+.leto-toast-error
+    +toastPos($colorRed, $colorBlack)

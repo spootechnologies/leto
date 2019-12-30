@@ -1,0 +1,39 @@
+@import '_variables.sass'
+@use 'sass:map'
+
+$bubbleDefaultAttrVal: ('bg': transparent, 'color': $colorBlack, 'borderWidth': 1px, 'borderColor': $colorGrey, 'borderRadius': 100%)
+$cardDefaultAttrVal: ('bg': transparent, 'color': $colorBlack, 'borderWidth': 1px, 'borderColor': $colorGrey, 'borderRadius': $standardRoundness)
+$buttonDefaultAttrVal: ('bg': $colorWhite, 'color': $colorBlack, 'borderWidth': 1px, 'borderColor': $colorGrey, 'borderRadius': 128px)
+$badgeDefaultAttrVal: ('bg': $colorWhite, 'color': $colorBlack, 'borderWidth': 1px, 'borderColor': $colorGrey, 'borderRadius': 128px)
+$inputDefaultAttrVal: ('bg': $colorWhite, 'color': $colorBlack, 'borderWidth': 1px, 'borderColor': $colorGrey, 'borderRadius': $standardRoundness)
+$searchDefaultAttrVal: ('bg': $colorLightGrey, 'color': $colorBlack, 'borderWidth': 1px, 'borderColor': $colorGrey, 'borderRadius': $standardRoundness)
+$textareaDefaultAttrVal: ('bg': $colorWhite, 'color': $colorBlack, 'borderWidth': 1px, 'borderColor': $colorGrey, 'borderRadius': $standardRoundness)
+$selectDefaultAttrVal: ('bg': $colorWhite, 'color': $colorBlack, 'borderWidth': 1px, 'borderColor': $colorGrey, 'borderRadius': $standardRoundness)
+$pileDefaultAttrVal: ('bg': transparent, 'color': $colorBlack, 'borderWidth': 1px, 'borderColor': $colorGrey, 'borderRadius': $standardRoundness)
+$formDefaultAttrVal: ('bg': $colorWhite, 'color': $colorBlack, 'borderWidth': 1px, 'borderColor': $colorGrey, 'borderRadius': 0)
+
+
+@function getElementAttrVal($elementName, $attr) 
+    $value: ''
+
+    @if $elementName == 'bubble'
+        $value: map-get($bubbleDefaultAttrVal, $attr)
+    @else if $elementName == 'card'
+        $value: map-get($cardDefaultAttrVal, $attr)                
+    @else if $elementName == 'button'
+        $value: map-get($buttonDefaultAttrVal, $attr)   
+    @else if $elementName == 'badge'
+        $value: map-get($badgeDefaultAttrVal, $attr)
+    @else if $elementName == 'input'
+        $value: map-get($inputDefaultAttrVal, $attr)                
+    @else if $elementName == 'search'
+        $value: map-get($searchDefaultAttrVal, $attr)
+    @else if $elementName == 'textarea'
+        $value: map-get($textareaDefaultAttrVal, $attr)
+    @else if $elementName == 'select'
+        $value: map-get($selectDefaultAttrVal, $attr)                
+    @else if $elementName == 'pile'
+        $value: map-get($pileDefaultAttrVal, $attr)   
+    @else if $elementName == 'form'
+        $value: map-get($formDefaultAttrVal, $attr)                      
+    @return $value

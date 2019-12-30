@@ -1,0 +1,640 @@
+@import '_variables.sass'
+@import '_elements-variables.sass'
+@import '_theme-functions.scss'
+
+
+// Elements base mixins
+    
+=basicElementStyles($bgColor, $color, $borderWidth, $borderColor, $borderRadius)
+    background: $bgColor
+    color: $color
+    border-width: $borderWidth
+    border-style: solid
+    border-color: $borderColor
+    border-radius: $borderRadius
+
+    @if $bgColor == $lightModeBgColor
+        +themed() 
+            background: t('bg')
+
+    @if $color == $lightModeColor
+        +themed() 
+            color: t('text')
+
+    @if $borderColor == $lightModeColor
+        +themed() 
+            border-color: t('text')
+
+
+// Presets
+
+=preset($bgColor, $color, $borderWidth, $borderColor, $borderRadius)
+    @content
+    +basicElementStyles($bgColor, $color, $borderWidth, $borderColor, $borderRadius)
+    
+    @media (min-width: $tablet)
+
+        &-tablet
+            @content
+            +basicElementStyles($bgColor, $color, $borderWidth, $borderColor, $borderRadius)
+
+    @media (min-width: $tabletAndPC)
+
+        &-tablet-pc
+            @content
+            +basicElementStyles($bgColor, $color, $borderWidth, $borderColor, $borderRadius)
+
+    @media (min-width: $tabletAndPC) and ($touchDevice)
+
+        &-tablet-pc
+            @content
+            +basicElementStyles($bgColor, $color, $borderWidth, $borderColor, $borderRadius)
+
+    @media (min-width: $pc)
+
+        &-pc
+            @content
+            +basicElementStyles($bgColor, $color, $borderWidth, $borderColor, $borderRadius)
+
+    @media (min-aspect-ratio: $ultrawideRatio) and (min-width: $ultrawide)
+
+        &-ultrawide
+            @content
+            +basicElementStyles($bgColor, $color, $borderWidth, $borderColor, $borderRadius)
+
+    @media (min-aspect-ratio: $superUltrawideRatio) and (min-width: $ultrawide)
+        
+        &-super-ultrawide
+            @content
+            +basicElementStyles($bgColor, $color, $borderWidth, $borderColor, $borderRadius)
+
+// Element constructor
+
+=elementConstructor($elementName)
+    $bgColor: getElementAttrVal($elementName, 'bg');
+    $color: getElementAttrVal($elementName, 'color');
+    $borderWidth: getElementAttrVal($elementName, 'borderWidth');
+    $borderColor: getElementAttrVal($elementName, 'borderColor');
+    $borderRadius: getElementAttrVal($elementName, 'borderRadius');
+    
+    @content
+    +basicElementStyles($bgColor, $color, $borderWidth, $borderColor, $borderRadius)
+    
+    @media (min-width: $tablet)
+
+        &-tablet
+            @content
+            +basicElementStyles($bgColor, $color, $borderWidth, $borderColor, $borderRadius)
+
+    @media (min-width: $tabletAndPC)
+
+        &-tablet-pc
+            @content
+            +basicElementStyles($bgColor, $color, $borderWidth, $borderColor, $borderRadius)
+
+    @media (min-width: $tabletAndPC) and ($touchDevice)
+
+        &-tablet-pc
+            @content
+            +basicElementStyles($bgColor, $color, $borderWidth, $borderColor, $borderRadius)
+
+    @media (min-width: $pc)
+
+        &-pc
+            @content
+            +basicElementStyles($bgColor, $color, $borderWidth, $borderColor, $borderRadius)
+
+    @media (min-aspect-ratio: $ultrawideRatio) and (min-width: $ultrawide)
+
+        &-ultrawide
+            @content
+            +basicElementStyles($bgColor, $color, $borderWidth, $borderColor, $borderRadius)
+
+    @media (min-aspect-ratio: $superUltrawideRatio) and (min-width: $ultrawide)
+        
+        &-super-ultrawide
+            @content
+            +basicElementStyles($bgColor, $color, $borderWidth, $borderColor, $borderRadius)
+
+    &-white
+        +preset(transparent, $colorWhite, 1px, $colorWhite, $borderRadius)
+            @content
+
+    &-dark-white
+        +preset(transparent, $colorDarkWhite, 1px, $colorDarkWhite, $borderRadius)
+            @content
+
+    &-grey
+        +preset(transparent, $colorGrey, 1px, $colorGrey, $borderRadius)
+            @content
+
+    &-light-grey
+        +preset(transparent, $colorLightGrey, 1px, $colorLightGrey, $borderRadius)
+            @content
+
+    &-lighter-grey
+        +preset(transparent, $colorLighterGrey, 1px, $colorLighterGrey, $borderRadius)
+            @content
+
+    &-dark-grey
+        +preset(transparent, $colorDarkGrey, 1px, $colorDarkGrey, $borderRadius)
+            @content
+
+    &-darker-grey
+        +preset(transparent, $colorDarkerGrey, 1px, $colorDarkerGrey, $borderRadius)
+            @content
+
+    &-yellow
+        +preset(transparent, $colorYellow, 1px, $colorYellow, $borderRadius)
+            @content
+
+    &-light-yellow
+        +preset(transparent, $colorLightYellow, 1px, $colorLightYellow, $borderRadius)
+            @content
+
+    &-dark-yellow
+        +preset(transparent, $colorDarkYellow, 1px, $colorDarkYellow, $borderRadius)
+            @content
+
+    &-orange
+        +preset(transparent, $colorOrange, 1px, $colorOrange, $borderRadius)
+            @content
+
+    &-light-orange
+        +preset(transparent, $colorLightOrange, 1px, $colorLightOrange, $borderRadius)
+            @content
+
+    &-dark-orange
+        +preset(transparent, $colorDarkOrange, 1px, $colorDarkOrange, $borderRadius)
+            @content
+
+    &-red
+        +preset(transparent, $colorRed, 1px, $colorRed, $borderRadius)
+            @content
+
+    &-light-red
+        +preset(transparent, $colorLightRed, 1px, $colorLightRed, $borderRadius)
+            @content
+
+    &-dark-red
+        +preset(transparent, $colorDarkRed, 1px, $colorDarkRed, $borderRadius)
+            @content
+
+    &-purple
+        +preset(transparent, $colorPurple, 1px, $colorPurple, $borderRadius)
+            @content
+
+    &-light-purple
+        +preset(transparent, $colorLightPurple, 1px, $colorLightPurple, $borderRadius)
+            @content
+
+    &-dark-purple
+        +preset(transparent, $colorDarkPurple, 1px, $colorDarkPurple, $borderRadius)
+            @content
+
+    &-blue
+        +preset(transparent, $colorBlue, 1px, $colorBlue, $borderRadius)
+            @content
+
+    &-light-blue
+        +preset(transparent, $colorLightBlue, 1px, $colorLightBlue, $borderRadius)
+            @content
+
+    &-dark-blue
+        +preset(transparent, $colorDarkBlue, 1px, $colorDarkBlue, $borderRadius)
+            @content
+
+    &-mint
+        +preset(transparent, $colorMint, 1px, $colorMint, $borderRadius)
+            @content
+
+    &-light-mint
+        +preset(transparent, $colorLightMint, 1px, $colorLightMint, $borderRadius)
+            @content
+
+    &-dark-mint
+        +preset(transparent, $colorDarkMint, 1px, $colorDarkMint, $borderRadius)
+            @content
+
+    &-mint
+        +preset(transparent, $colorGreen, 1px, $colorGreen, $borderRadius)
+            @content
+
+    &-light-mint
+        +preset(transparent, $colorLightGreen, 1px, $colorLightGreen, $borderRadius)
+            @content
+
+    &-dark-mint
+        +preset(transparent, $colorDarkGreen, 1px, $colorDarkGreen, $borderRadius)
+            @content
+
+
+// Elements mixins
+
+// Bubble
+
+=bubble($value)
+    height: $value * 2.5
+    width: $value * 2.5
+    font-size: $value * 0.75
+    text-align: center
+    margin: $basicMargin
+    flex-direction: column
+    align-items: center
+    justify-content: center
+    flex-shrink: 0
+    display: inline-flex
+
+    img
+        max-width: $value * 0.75
+
+
+// Bubble wrapper
+
+=bubbleWrapper($value)
+    width: $value * 2.5
+    margin: $basicMargin
+    justify-content: center
+    flex-direction: column
+    display: inline-flex
+
+    > .leto-bubble
+        height: $value * 2.5
+        width: $value * 2.5
+        font-size: $value * .75
+        border-radius: $value * 2.5
+
+        img
+            max-width: $value * .75 
+
+    > [class*=leto-bubble]
+        margin-top: 0
+        margin-left: auto
+        margin-right: auto
+        margin-bottom: 0
+
+    > label
+        text-align: center
+
+    > [class*=leto-bubble] ~ label
+        margin-top: $basicMargin
+
+    > label ~ [class*=leto-bubble]
+        margin-top: $basicMargin
+
+
+// Card
+
+=card($value)
+    position: relative
+    width: $value*10
+    min-height: 50px
+    border: 1px solid $colorGrey
+    border-radius: 12px
+    margin: $basicMargin
+    padding: $basicPadding
+    flex-direction: column
+    display: inline-flex
+    overflow: hidden
+
+    > .leto-image-full
+        margin-top: -$basicMargin
+        margin-left: -$basicMargin
+        margin-right: -$basicMargin
+        width: calc(100% + 16px)
+
+=cardAutoWidth()
+    position: relative
+    min-height: 50px
+    margin: $basicMargin
+    padding: $basicPadding
+    flex-direction: column
+    display: inline-flex
+    overflow: hidden
+
+    > .leto-image-full
+        margin-top: -$basicMargin
+        margin-left: -$basicMargin
+        margin-right: -$basicMargin
+        width: calc(100% + 16px)
+
+=cardSquare($value)
+    position: relative
+    width: $value*10
+    height: $value*10
+    margin: $basicMargin
+    flex-direction: column
+    display: inline-flex
+    overflow: hidden 
+
+    > .leto-image-full
+        margin-top: -$basicMargin
+        margin-left: -$basicMargin
+        margin-right: -$basicMargin
+        width: calc(100% + 16px)
+
+
+// Card wrapper
+
+=cardWrapper($value)
+    margin: $basicMargin
+    justify-content: center
+    flex-direction: column
+    display: inline-flex
+
+    > [class*=leto-card]
+        margin-top: 0
+        margin-left: auto
+        margin-right: auto
+        margin-bottom: 0
+
+    > label
+        text-align: center
+
+    > [class*=leto-card] ~ label
+        margin-top: $basicMargin
+
+    > label ~ [class*=leto-card]
+        margin-top: $basicMargin    
+
+
+// Button
+
+=button($value)
+    height: $value * 2
+    text-decoration: none
+    margin: $basicMargin
+    padding: $basicPadding $basicPadding * 2
+    justify-content: center
+    align-items: center
+    cursor: pointer
+    display: inline-flex
+
+    > *
+        margin: 0
+        margin-right: $basicMargin / 2
+
+    > *:last-child
+        margin-right: 0
+
+
+=buttonFull($value)
+    width: 100%
+    height: $value * 2
+    text-decoration: none
+    margin: $basicMargin
+    padding: $basicPadding $basicPadding * 2
+    justify-content: center
+    align-items: center
+    cursor: pointer
+    display: inline-flex
+
+    > *
+        margin: 0
+        margin-right: $basicMargin / 2
+
+    > *:last-child
+        margin-right: 0
+
+
+// Badge
+
+=badge($value)
+    height: $value
+    font-size: $fontSizeXS
+    padding: $xxs $xs
+    margin: $basicMargin
+    white-space: nowrap
+    align-items: center
+    display: inline-flex
+
+    > *
+        margin: 0
+        margin-right: $basicMargin / 2
+
+    > *:last-child
+        margin-right: 0
+
+
+// Input
+
+=input($height)
+    height: $height * 2
+    font-size: $fontSizeMD
+    margin: $basicMargin
+    padding: $basicPadding $basicPadding * 2
+
+    &:focus
+        background-color: $colorLightGrey
+        border-color: $colorLightGrey
+
+
+// Input Wrapper
+
+=InputWrapper()
+    position: relative
+    margin: $basicMargin
+
+    label
+        position: absolute
+        +themed()  
+            background-color: t('bg')
+        font-size: $fontSizeSM
+        font-weight: $fontWeightMedium
+        top: -10px
+        left: $basicPadding
+        padding-left: $basicPadding
+        padding-right: $basicPadding
+
+    [class*=leto-input]
+        width: 100%
+        border: 1px solid $colorLightGrey
+        margin: 0
+
+    [class*=leto-input]:focus::placeholder
+        opacity: 0
+
+    [class*=leto-input]:focus ~ label
+        opacity: 1
+
+    [class*=leto-input]:focus
+        background-color: transparent
+        border: 1px solid $colorDarkGrey
+
+    > i
+        position: absolute
+        top: 50%
+        margin-top: -8px
+        right: 8px
+
+    > select[class*=leto-input]
+        appearance: none
+
+        &::-ms-expand
+            display: none
+
+
+
+
+// Search
+
+=search($height)
+    height: $height * 2
+    font-size: $fontSizeMD
+    margin: $basicMargin
+    padding: $basicPadding $basicPadding * 2
+
+    &:focus
+        background-color: transparent
+        border-color: $colorGrey
+
+// Textarea
+
+=textarea()
+    height: auto
+    font-size: $fontSizeMD
+    margin: $basicMargin
+    padding: $basicPadding $basicPadding * 2
+
+    &:focus
+        background-color: $colorLightGrey
+        border-color: $colorLightGrey
+
+
+// Select
+
+=select($height)
+    height: $height * 2
+    font-size: $fontSizeMD
+    margin: $basicMargin
+    padding: $basicPadding $basicPadding * 3 $basicPadding $basicPadding * 2
+    cursor: pointer
+
+    & option 
+        background-color: $colorLightGrey
+        outline: 0
+
+
+    &:focus
+        background-color: $colorWhite
+        border: 1px solid $colorGrey
+        border-radius: 12px 12px 0 0
+
+        &::-ms-value
+            background-color: transparent
+
+
+// Table
+
+=table()
+    border-collapse: separate
+    border-spacing: 0 15px
+    width: 100%
+    +themed() 
+        color: t('text')
+
+    th
+        font-weight: $fontWeightBold
+        text-align: left
+
+    .leto-table-header
+
+    td, th
+        padding-left: $sm
+
+    tr:not(.leto-table-header)
+
+        td
+            padding: $sm
+
+    tr:not(.leto-table-header)
+
+        td
+            border-top: 1px solid $colorGrey
+            border-bottom: 1px solid $colorGrey
+
+    tr:not(.leto-table-header)
+
+        td:first-child
+            border-left: 1px solid $colorGrey
+            border-top-left-radius: $xs
+            border-bottom-left-radius: $xs
+
+        td:last-child
+            border-right: 1px solid $colorGrey
+            border-top-right-radius: $xs
+            border-bottom-right-radius: $xs
+
+// Toast
+
+=toast($bgColor, $textColor)
+    position: fixed
+    background-color: $bgColor
+    min-width: 200px
+    max-width: 400px
+    min-height: 50px
+    max-height: 100px
+    color: $textColor
+    border-radius: 12px
+    padding: $basicPadding
+    align-items: center
+    justify-content: center
+    display: flex
+    z-index: 21
+
+=toastPos($bgColor, $textColor)
+    +toast($bgColor, $textColor)
+    left: 50%
+    bottom: 20px
+    margin-left: -125px
+
+    &-left-top
+        +toast($bgColor, $textColor)
+        left: 20px
+        top: 20px
+
+    &-center-top
+        +toast($bgColor, $textColor)
+        left: 50%
+        top: 20px
+        margin-left: -125px
+
+    &-right-top
+        +toast($bgColor, $textColor)
+        right: 20px
+        top: 20px
+
+    &-left-center
+        +toast($bgColor, $textColor)
+        left: 20px
+        top: 50%
+        margin-top: -37.5px
+
+    &-center
+        +toast($bgColor, $textColor)
+        left: 50%
+        top: 50%
+        margin-top: -37.5px
+        margin-left: -125px
+
+    &-right-center
+        +toast($bgColor, $textColor)
+        right: 20px
+        top: 50%
+        margin-top: -37.5px
+
+    &-left-bottom
+        +toast($bgColor, $textColor)
+        left: 20px
+        bottom: 20px
+
+    &-center-bottom
+        +toast($bgColor, $textColor)
+        left: 50%
+        bottom: 20px
+        margin-left: -125px
+
+    &-right-bottom
+        +toast($bgColor, $textColor)
+        right: 20px
+        bottom: 20px
