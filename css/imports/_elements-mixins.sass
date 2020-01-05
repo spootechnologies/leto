@@ -29,44 +29,137 @@
 // Presets
 
 =preset($bgColor, $color, $borderWidth, $borderColor, $borderRadius)
-    @content
     +basicElementStyles($bgColor, $color, $borderWidth, $borderColor, $borderRadius)
     
     @media (min-width: $tablet)
 
         &-tablet
-            @content
             +basicElementStyles($bgColor, $color, $borderWidth, $borderColor, $borderRadius)
 
     @media (min-width: $tabletAndPC)
 
         &-tablet-pc
-            @content
             +basicElementStyles($bgColor, $color, $borderWidth, $borderColor, $borderRadius)
 
     @media (min-width: $tabletAndPC) and ($touchDevice)
 
         &-tablet-pc
-            @content
             +basicElementStyles($bgColor, $color, $borderWidth, $borderColor, $borderRadius)
 
     @media (min-width: $pc)
 
         &-pc
-            @content
             +basicElementStyles($bgColor, $color, $borderWidth, $borderColor, $borderRadius)
 
     @media (min-aspect-ratio: $ultrawideRatio) and (min-width: $ultrawide)
 
         &-ultrawide
-            @content
             +basicElementStyles($bgColor, $color, $borderWidth, $borderColor, $borderRadius)
 
     @media (min-aspect-ratio: $superUltrawideRatio) and (min-width: $ultrawide)
         
         &-super-ultrawide
-            @content
             +basicElementStyles($bgColor, $color, $borderWidth, $borderColor, $borderRadius)
+
+=presetConstructor($elementName)
+    $bgColor: getElementAttrVal($elementName, 'bg');
+    $color: getElementAttrVal($elementName, 'color');
+    $borderWidth: getElementAttrVal($elementName, 'borderWidth');
+    $borderColor: getElementAttrVal($elementName, 'borderColor');
+    $borderRadius: getElementAttrVal($elementName, 'borderRadius');
+
+    &-white
+        +preset(transparent, $colorWhite, 1px, $colorWhite, $borderRadius)
+
+    &-dark-white
+        +preset(transparent, $colorDarkWhite, 1px, $colorDarkWhite, $borderRadius)
+
+    &-grey
+        +preset(transparent, $colorGrey, 1px, $colorGrey, $borderRadius)
+
+    &-light-grey
+        +preset(transparent, $colorLightGrey, 1px, $colorLightGrey, $borderRadius)
+
+    &-lighter-grey
+        +preset(transparent, $colorLighterGrey, 1px, $colorLighterGrey, $borderRadius)
+
+    &-dark-grey
+        +preset(transparent, $colorDarkGrey, 1px, $colorDarkGrey, $borderRadius)
+
+    &-darker-grey
+        +preset(transparent, $colorDarkerGrey, 1px, $colorDarkerGrey, $borderRadius)
+
+    &-yellow
+        +preset(transparent, $colorYellow, 1px, $colorYellow, $borderRadius)
+
+    &-light-yellow
+        +preset(transparent, $colorLightYellow, 1px, $colorLightYellow, $borderRadius)
+
+    &-dark-yellow
+        +preset(transparent, $colorDarkYellow, 1px, $colorDarkYellow, $borderRadius)
+
+    &-orange
+        +preset(transparent, $colorOrange, 1px, $colorOrange, $borderRadius)
+
+    &-light-orange
+        +preset(transparent, $colorLightOrange, 1px, $colorLightOrange, $borderRadius)
+
+    &-dark-orange
+        +preset(transparent, $colorDarkOrange, 1px, $colorDarkOrange, $borderRadius)
+
+    &-red
+        +preset(transparent, $colorRed, 1px, $colorRed, $borderRadius)
+
+    &-light-red
+        +preset(transparent, $colorLightRed, 1px, $colorLightRed, $borderRadius)
+
+    &-dark-red
+        +preset(transparent, $colorDarkRed, 1px, $colorDarkRed, $borderRadius)
+
+    &-purple
+        +preset(transparent, $colorPurple, 1px, $colorPurple, $borderRadius)
+
+    &-light-purple
+        +preset(transparent, $colorLightPurple, 1px, $colorLightPurple, $borderRadius)
+
+    &-dark-purple
+        +preset(transparent, $colorDarkPurple, 1px, $colorDarkPurple, $borderRadius)
+
+    &-blue
+        +preset(transparent, $colorBlue, 1px, $colorBlue, $borderRadius)
+            
+
+    &-light-blue
+        +preset(transparent, $colorLightBlue, 1px, $colorLightBlue, $borderRadius)
+            
+
+    &-dark-blue
+        +preset(transparent, $colorDarkBlue, 1px, $colorDarkBlue, $borderRadius)
+            
+
+    &-mint
+        +preset(transparent, $colorMint, 1px, $colorMint, $borderRadius)
+            
+
+    &-light-mint
+        +preset(transparent, $colorLightMint, 1px, $colorLightMint, $borderRadius)
+            
+
+    &-dark-mint
+        +preset(transparent, $colorDarkMint, 1px, $colorDarkMint, $borderRadius)
+            
+
+    &-mint
+        +preset(transparent, $colorGreen, 1px, $colorGreen, $borderRadius)
+            
+
+    &-light-mint
+        +preset(transparent, $colorLightGreen, 1px, $colorLightGreen, $borderRadius)
+            
+
+    &-dark-mint
+        +preset(transparent, $colorDarkGreen, 1px, $colorDarkGreen, $borderRadius)
+            
 
 // Element constructor
 
@@ -115,118 +208,6 @@
         &-super-ultrawide
             @content
             +basicElementStyles($bgColor, $color, $borderWidth, $borderColor, $borderRadius)
-
-    &-white
-        +preset(transparent, $colorWhite, 1px, $colorWhite, $borderRadius)
-            @content
-
-    &-dark-white
-        +preset(transparent, $colorDarkWhite, 1px, $colorDarkWhite, $borderRadius)
-            @content
-
-    &-grey
-        +preset(transparent, $colorGrey, 1px, $colorGrey, $borderRadius)
-            @content
-
-    &-light-grey
-        +preset(transparent, $colorLightGrey, 1px, $colorLightGrey, $borderRadius)
-            @content
-
-    &-lighter-grey
-        +preset(transparent, $colorLighterGrey, 1px, $colorLighterGrey, $borderRadius)
-            @content
-
-    &-dark-grey
-        +preset(transparent, $colorDarkGrey, 1px, $colorDarkGrey, $borderRadius)
-            @content
-
-    &-darker-grey
-        +preset(transparent, $colorDarkerGrey, 1px, $colorDarkerGrey, $borderRadius)
-            @content
-
-    &-yellow
-        +preset(transparent, $colorYellow, 1px, $colorYellow, $borderRadius)
-            @content
-
-    &-light-yellow
-        +preset(transparent, $colorLightYellow, 1px, $colorLightYellow, $borderRadius)
-            @content
-
-    &-dark-yellow
-        +preset(transparent, $colorDarkYellow, 1px, $colorDarkYellow, $borderRadius)
-            @content
-
-    &-orange
-        +preset(transparent, $colorOrange, 1px, $colorOrange, $borderRadius)
-            @content
-
-    &-light-orange
-        +preset(transparent, $colorLightOrange, 1px, $colorLightOrange, $borderRadius)
-            @content
-
-    &-dark-orange
-        +preset(transparent, $colorDarkOrange, 1px, $colorDarkOrange, $borderRadius)
-            @content
-
-    &-red
-        +preset(transparent, $colorRed, 1px, $colorRed, $borderRadius)
-            @content
-
-    &-light-red
-        +preset(transparent, $colorLightRed, 1px, $colorLightRed, $borderRadius)
-            @content
-
-    &-dark-red
-        +preset(transparent, $colorDarkRed, 1px, $colorDarkRed, $borderRadius)
-            @content
-
-    &-purple
-        +preset(transparent, $colorPurple, 1px, $colorPurple, $borderRadius)
-            @content
-
-    &-light-purple
-        +preset(transparent, $colorLightPurple, 1px, $colorLightPurple, $borderRadius)
-            @content
-
-    &-dark-purple
-        +preset(transparent, $colorDarkPurple, 1px, $colorDarkPurple, $borderRadius)
-            @content
-
-    &-blue
-        +preset(transparent, $colorBlue, 1px, $colorBlue, $borderRadius)
-            @content
-
-    &-light-blue
-        +preset(transparent, $colorLightBlue, 1px, $colorLightBlue, $borderRadius)
-            @content
-
-    &-dark-blue
-        +preset(transparent, $colorDarkBlue, 1px, $colorDarkBlue, $borderRadius)
-            @content
-
-    &-mint
-        +preset(transparent, $colorMint, 1px, $colorMint, $borderRadius)
-            @content
-
-    &-light-mint
-        +preset(transparent, $colorLightMint, 1px, $colorLightMint, $borderRadius)
-            @content
-
-    &-dark-mint
-        +preset(transparent, $colorDarkMint, 1px, $colorDarkMint, $borderRadius)
-            @content
-
-    &-mint
-        +preset(transparent, $colorGreen, 1px, $colorGreen, $borderRadius)
-            @content
-
-    &-light-mint
-        +preset(transparent, $colorLightGreen, 1px, $colorLightGreen, $borderRadius)
-            @content
-
-    &-dark-mint
-        +preset(transparent, $colorDarkGreen, 1px, $colorDarkGreen, $borderRadius)
-            @content
 
 
 // Elements mixins
@@ -431,7 +412,7 @@
 
 // Input Wrapper
 
-=InputWrapper()
+=inputWrapper()
     position: relative
     margin: $basicMargin
 
@@ -474,6 +455,167 @@
             display: none
 
 
+// Input Radio
+
+=inputRadio($size)
+    position: relative
+    width: $size
+    height: $size
+    cursor: pointer
+    margin: calc(#{$size} / 2 + #{$basicMargin})
+
+    &:before, &:after
+        position: absolute
+        content: ''
+
+    &:before
+        width: 200%
+        height: 200%
+        background-color: $colorBlack
+        border: 1px solid $colorWhite
+        border-radius: 100%
+        margin: calc(-1 * #{$size} / 2)
+
+    &:after
+        width: calc(200% - 16px)
+        height: calc(200% - 16px)
+        border-radius: 100%
+        margin: calc(#{$basicMargin} - #{$size} / 2)
+
+    &:checked
+        
+        &:after  
+            background: $colorWhite
+
+
+// Input Checkbox
+
+=inputCheckbox($size)
+    position: relative
+    width: $size
+    height: $size
+    cursor: pointer
+    margin: calc(#{$size} / 2 + #{$basicMargin})
+
+    &:before, &:after
+        position: absolute
+        content: ''
+
+    &:before
+        width: 200%
+        height: 200%
+        background-color: $colorBlack
+        border: 1px solid $colorWhite
+        border-radius: 100%
+        margin: calc(-1 * #{$size} / 2)
+
+    &:after
+        width: calc(200% - 16px)
+        height: calc(200% - 16px)
+        border-radius: 100%
+        margin: calc(#{$basicMargin} - #{$size} / 2)
+
+    &:checked
+        
+        &:after  
+            background: $colorWhite
+
+
+// Input Color
+
+=inputColor($height)
+    height: $height * 2
+    margin: $basicMargin
+    padding: 4px
+
+// Input Image
+
+=inputImage()
+    margin: $basicMargin
+
+// Range
+
+=range($height)
+    background: transparent
+    height: 48px
+    -webkit-appearance: none
+    margin: 10px 0
+    width: 100%
+
+    &:focus
+        outline: none
+
+    &::-webkit-slider-runnable-track
+        width: 100%
+        height: 10px
+        cursor: pointer
+        animate: 0.2s
+        box-shadow: 0px 0px 0px #000000
+        background: $colorGrey
+        border-radius: 6px
+        border: 0px solid #000000
+
+    &::-webkit-slider-thumb
+        box-shadow: 0px 0px 0px #FFFFFF
+        border: 2px solid #FFFFFF
+        height: 40px
+        width: 20px
+        border-radius: 50px
+        background: $colorDarkerGrey
+        cursor: pointer
+        -webkit-appearance: none
+        margin-top: -16px
+
+    &:focus::-webkit-slider-runnable-track
+        background: $colorGrey
+
+    &::-moz-range-track
+        width: 100%
+        height: 10px
+        cursor: pointer
+        animate: 0.2s
+        box-shadow: 0px 0px 0px #000000
+        background: $colorGrey
+        border-radius: 6px
+        border: 0px solid #000000
+
+    &::-moz-range-thumb
+        box-shadow: 0px 0px 0px #FFFFFF
+        border: 2px solid #FFFFFF
+        height: 40px
+        width: 20px
+        border-radius: 50px
+        background: $colorDarkerGrey
+        cursor: pointer
+
+    &::-ms-track
+        width: 100%
+        height: 10px
+        cursor: pointer
+        animate: 0.2s
+        background: transparent
+        border-color: transparent
+        color: transparent
+
+    &::-ms-fill-lower, &::-ms-fill-upper
+        background: $colorGrey
+        border: 0px solid #000000
+        border-radius: 12px
+        box-shadow: 0px 0px 0px #000000
+
+    &::-ms-thumb
+        margin-top: 1px
+        box-shadow: 0px 0px 0px #FFFFFF
+        border: 2px solid #FFFFFF
+        height: 40px
+        width: 20px
+        border-radius: 50px
+        background: $colorDarkerGrey
+        cursor: pointer
+
+    &:focus
+        &::-ms-fill-lower, &::-ms-fill-upper
+        background: $colorGrey
 
 
 // Search

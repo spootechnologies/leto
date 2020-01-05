@@ -36,6 +36,7 @@
         +elementConstructor('bubble')
             +bubble($xxl)
 
+    +presetConstructor('bubble')
 
 // Bubble wrapper
 
@@ -130,6 +131,7 @@
             +elementConstructor('card')  
                 +cardSquare($xxl) 
 
+    +presetConstructor('card')
 
 // Card wrapper
 
@@ -203,6 +205,7 @@
             +elementConstructor('button')
                 +buttonFull($xxl)
 
+    +presetConstructor('button')
 
 // Badge
 
@@ -238,52 +241,173 @@
         +elementConstructor('badge')
             +badge($xxl)
 
+    +presetConstructor('badge')
 
 // Input
 
 .leto-input
-    +elementConstructor('input')
-        +input($standardSize)
 
-    &-xxs
+    &[type="text"], &[type="date"], &[type="datetime-local"], &[type="email"], &[type="month"], &[type="number"], &[type="password"], &[type="tel"], &[type="time"], &[type="url"], &[type="week"]
+        +elementConstructor('input')
+            +input($standardSize)
+
+    &-xxs[type="text"], &-xxs[type="date"], &-xxs[type="datetime-local"], &-xxs[type="email"], &-xxs[type="month"], &-xxs[type="number"], &-xxs[type="password"], &-xxs[type="tel"], &-xxs[type="time"], &-xxs[type="url"], &-xxs[type="week"]
         +elementConstructor('input')
             +input($xxs)
 
-    &-xs
+    &-xs[type="text"], &-xs[type="date"], &-xs[type="datetime-local"], &-xs[type="email"], &-xs[type="month"], &-xs[type="number"], &-xs[type="password"], &-xs[type="tel"], &-xs[type="time"], &-xs[type="url"], &-xs[type="week"]
         +elementConstructor('input')
             +input($xs)
-    &-sm
+
+    &-sm[type="text"], &-sm[type="date"], &-sm[type="datetime-local"], &-sm[type="email"], &-sm[type="month"], &-sm[type="number"], &-sm[type="password"], &-sm[type="tel"], &-sm[type="time"], &-sm[type="url"], &-sm[type="week"]
         +elementConstructor('input')
             +input($sm)
 
-    &-md
+    &-md[type="text"], &-md[type="date"], &-md[type="datetime-local"], &-md[type="email"], &-md[type="month"], &-md[type="number"], &-md[type="password"], &-md[type="tel"], &-md[type="time"], &-md[type="url"], &-md[type="week"]
         +elementConstructor('input')
             +input($md)
 
-    &-lg
+    &-lg[type="text"], &-lg[type="date"], &-lg[type="datetime-local"], &-lg[type="email"], &-lg[type="month"], &-lg[type="number"], &-lg[type="password"], &-lg[type="tel"], &-lg[type="time"], &-lg[type="url"], &-lg[type="week"]
         +elementConstructor('input')
             +input($lg)
 
-    &-xl
+    &-xl[type="text"], &-xl[type="date"], &-xl[type="datetime-local"], &-xl[type="email"], &-xl[type="month"], &-xl[type="number"], &-xl[type="password"], &-xl[type="tel"], &-xl[type="time"], &-xl[type="url"], &-xl[type="week"]
         +elementConstructor('input')
             +input($xl)
 
-    &-xxl
+    &-xxl[type="text"], &-xxl[type="date"], &-xxl[type="datetime-local"], &-xxl[type="email"], &-xxl[type="month"], &-xxl[type="number"], &-xxl[type="password"], &-xxl[type="tel"], &-xxl[type="time"], &-xxl[type="url"], &-xxl[type="week"]
         +elementConstructor('input')
             +input($xxl)
 
+    &[type="text"], &[type="date"], &[type="datetime-local"], &[type="email"], &[type="month"], &[type="number"], &[type="password"], &[type="tel"], &[type="time"], &[type="url"], &[type="week"]
+        +presetConstructor('input')
 
-// Input wrapper
+// Input Wrapper
 
 .leto-input-wrapper
-    +InputWrapper()
+    +inputWrapper()
+
+
+// Input Radio
+
+.leto-input
+
+    &[type="radio"]
+        +inputRadio($standardSize)
+
+    &-xxs[type="radio"]
+        +inputRadio($xxs)
+
+    &-xs[type="radio"]
+        +inputRadio($xs)
+
+    &-sm[type="radio"]
+        +inputRadio($sm)
+
+    &-md[type="radio"]
+        +inputRadio($md)
+
+    &-lg[type="radio"]
+        +inputRadio($lg)
+
+    &-xl[type="radio"]
+        +inputRadio($xl)
+
+    &-xxl[type="radio"]
+        +inputRadio($xxl)
+
+
+// Input Checkbox
+
+.leto-input
+
+    &[type="checkbox"]
+        +inputCheckbox($standardSize)
+
+    &-xxs[type="checkbox"]
+        +inputCheckbox($xxs)
+
+    &-xs[type="checkbox"]
+        +inputCheckbox($xs)
+
+    &-sm[type="checkbox"]
+        +inputCheckbox($sm)
+
+    &-md[type="checkbox"]
+        +inputCheckbox($md)
+
+    &-lg[type="checkbox"]
+        +inputCheckbox($lg)
+
+    &-xl[type="checkbox"]
+        +inputCheckbox($xl)
+
+    &-xxl[type="checkbox"]
+        +inputCheckbox($xxl)
+
+
+// Input Color
+
+.leto-input
+
+    &[type="color"]
+        +elementConstructor('input')
+            +inputColor($standardSize)
+
+    &-xxs[type="color"]
+        +elementConstructor('input')
+            +inputColor($xxs)
+
+    &-xs[type="color"]
+        +elementConstructor('input')
+            +inputColor($xs)
+
+    &-sm[type="color"]
+        +elementConstructor('input')
+            +inputColor($sm)
+
+    &-md[type="color"]
+        +elementConstructor('input')
+            +inputColor($md)
+
+    &-lg[type="color"]
+        +elementConstructor('input')
+            +inputColor($lg)
+
+    &-xl[type="color"]
+        +elementConstructor('input')
+            +inputColor($xl)
+
+    &-xxl[type="color"]
+        +elementConstructor('input')
+            +inputColor($xxl)
+
+    +presetConstructor('input')
+    
+
+// Input Image
+
+.leto-input
+
+    &[type="image"]
+        +inputImage()
+
+    
+// Range
+
+.leto-input // NOT USED
+
+    &[type=range]
+        +range($standardSize)
 
 
 // Search
 
 .leto-input
-    +elementConstructor('search')
-        +search($standardSize)
+    
+    &[type="search"]
+        +elementConstructor('search')
+            +search($standardSize)
 
     &-xxs[type="search"]
         +elementConstructor('search')
@@ -313,12 +437,16 @@
         +elementConstructor('search')
             +search($xxl)
 
+    +presetConstructor('search')
+
 
 // Textarea
 
 textarea[class*="leto-input"], .leto-textarea
     +elementConstructor('textarea')
         +textarea()
+
+    +presetConstructor('textarea')
 
 
 // Select
@@ -355,6 +483,7 @@ select.leto-input
         +elementConstructor('select')
             +select($xxl)
 
+    +presetConstructor('select')
 
 // Table
 
@@ -405,6 +534,7 @@ select.leto-input
             padding: $basicPadding
             display: block
 
+    +presetConstructor('pile')
 
 // Form
  
@@ -446,6 +576,8 @@ select.leto-input
             display: flex
             overflow-y: scroll
             z-index: 2
+
+    +presetConstructor('form')
 
     @media (min-width: $pc)
         width: 50vw
