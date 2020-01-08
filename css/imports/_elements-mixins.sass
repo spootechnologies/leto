@@ -618,6 +618,52 @@
         background: $colorGrey
 
 
+// Input File Wrapper
+
+=inputFile($height)    
+    margin: $basicMargin
+    align-items: center
+    display: flex
+    cursor: pointer
+
+    input[type="file"]
+        width: 200px
+        height: $height * 2
+        opacity: 0
+        cursor: pointer
+
+    label
+        position: absolute
+        margin-left: 210px
+        color: $colorWhite
+        align-items: center
+        display: flex
+        cursor: pointer
+
+    label:before
+        position: absolute
+        content: ''
+        width: 200px
+        height: $height * 2
+        border: 1px solid $colorWhite
+        border-radius: 128px
+        margin-left: -210px
+        cursor: pointer
+
+    label:after
+        position: absolute
+        content: 'Upload file'
+        width: 200px
+        height: $height * 2
+        color: $colorWhite
+        margin-left: -210px
+        top: 0
+        left: 0
+        justify-content: center
+        display: flex
+        cursor: pointer
+
+
 // Search
 
 =search($height)
