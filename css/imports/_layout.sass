@@ -10,25 +10,11 @@
 // Container
 
 .leto-container
-    position: relative
-    width: 100%
-    margin-left: auto
-    margin-right: auto
-    padding: $basicPadding
-
-    &[class*="leto-scrollable"]
+    +layoutConstructor()
         position: relative
         width: 100%
-        height: 100%
-        max-height: 100vh
         margin-left: auto
         margin-right: auto
-        padding: $basicPadding
-        overflow-y: scroll    
-
-    &-full
-        position: relative
-        width: 100%
         padding: $basicPadding
 
         &[class*="leto-scrollable"]
@@ -36,8 +22,24 @@
             width: 100%
             height: 100%
             max-height: 100vh
+            margin-left: auto
+            margin-right: auto
             padding: $basicPadding
-            overflow-y: scroll     
+            overflow-y: scroll    
+
+    +layoutConstructor()
+        &-full
+            position: relative
+            width: 100%
+            padding: $basicPadding
+
+            &[class*="leto-scrollable"]
+                position: relative
+                width: 100%
+                height: 100%
+                max-height: 100vh
+                padding: $basicPadding
+                overflow-y: scroll     
 
 @media (min-width: $pc)
 
@@ -59,46 +61,52 @@
 .leto-edge
 
     &-horizontal
-        width: 100%
-        flex-direction: row
-        display: flex
+        +layoutConstructor()
+            width: 100%
+            flex-direction: row
+            display: flex
 
     &-vertical
-        height: 100%
-        flex-direction: column
-        display: flex
+        +layoutConstructor()
+            height: 100%
+            flex-direction: column
+            display: flex
 
     &-top
-        position: sticky
-        width: 100%
-        top: 0
-        left: 0
-        flex-direction: row
-        display: flex
+        +layoutConstructor()
+            position: sticky
+            width: 100%
+            top: 0
+            left: 0
+            flex-direction: row
+            display: flex
 
     &-left
-        position: fixed
-        height: 100%
-        top: 0
-        left: 0
-        flex-direction: column
-        display: flex
+        +layoutConstructor()
+            position: fixed
+            height: 100%
+            top: 0
+            left: 0
+            flex-direction: column
+            display: flex
 
     &-right
-        position: fixed
-        height: 100%
-        top: 0
-        right: 0
-        flex-direction: column
-        display: flex
+        +layoutConstructor()
+            position: fixed
+            height: 100%
+            top: 0
+            right: 0
+            flex-direction: column
+            display: flex
 
     &-bottom
-        position: fixed
-        width: 100%
-        bottom: 0
-        left: 0
-        flex-direction: row
-        display: flex
+        +layoutConstructor()
+            position: fixed
+            width: 100%
+            bottom: 0
+            left: 0
+            flex-direction: row
+            display: flex
 
 [class*=leto-frame]
 
@@ -124,32 +132,36 @@
 .leto-sub-edge
 
     &-top
-        position: fixed
-        width: 100%
-        height: 100%
-        flex-direction: row
-        display: flex
+        +layoutConstructor()
+            position: fixed
+            width: 100%
+            height: 100%
+            flex-direction: row
+            display: flex
     
     &-left
-        position: fixed
-        width: 100%
-        height: 100%
-        flex-direction: column
-        display: flex
+        +layoutConstructor()
+            position: fixed
+            width: 100%
+            height: 100%
+            flex-direction: column
+            display: flex
 
     &-right
-        position: fixed
-        width: 100%
-        height: 100%
-        flex-direction: column
-        display: flex
+        +layoutConstructor()
+            position: fixed
+            width: 100%
+            height: 100%
+            flex-direction: column
+            display: flex
 
-    &-bottom
-        position: fixed
-        width: 100%
-        height: 100%
-        flex-direction: row
-        display: flex
+    &-bottom      
+        +layoutConstructor()
+            position: fixed
+            width: 100%
+            height: 100%
+            flex-direction: row
+            display: flex
 
 @media (min-width: $pc)   
 
@@ -167,187 +179,232 @@
 // Masonry
 
 .leto-masonry
-    +masonry(4)
+    +layoutConstructor()
+        +masonry(4)
 
     &-2
-        +masonry(2)
+        +layoutConstructor()
+            +masonry(2)
 
-    &-3
-        +masonry(3)
+    &-3        
+        +layoutConstructor()
+            +masonry(3)
 
     &-4
-        +masonry(4) 
+        +layoutConstructor()
+            +masonry(4) 
 
     &-5
-        +masonry(5)
+        +layoutConstructor()
+            +masonry(5)
 
 
 // Flex
 
 .leto-group
-    display: flex
+    +layoutConstructor()
+        display: flex
 
-.leto-row
-    flex-direction: row
+.leto-row    
+    +layoutConstructor()
+        flex-direction: row
 
 .leto-column
-    flex-direction: column
+    +layoutConstructor()
+        flex-direction: column
 
 .leto-column-reverse
-    flex-direction: column-reverse
+    +layoutConstructor()
+        flex-direction: column-reverse
 
 .leto-no-wrap
-    flex-wrap: nowrap
+    +layoutConstructor()
+        flex-wrap: nowrap
 
 .leto-wrap
-    flex-wrap: wrap
+    +layoutConstructor()
+        flex-wrap: wrap
 
 .leto-wrap-reverse
-    flex-wrap: wrap-reverse
+    +layoutConstructor()
+        flex-wrap: wrap-reverse
 
 
 // Position
 
 .leto-all-center
-    justify-content: center
-    align-items: center
+    +layoutConstructor()
+        justify-content: center
+        align-items: center
 
 .leto-group.leto
 
     &-horizontal
-
-        +justifyContent()
+        +layoutConstructor()
+            +justifyContent()
 
     &-vertical
-
-        +alignItems()
+        +layoutConstructor()
+            +alignItems()
         
 
 .leto-column.leto
 
     &-horizontal
-
-        +alignItems()
+        +layoutConstructor()
+            +alignItems()
 
     &-vertical
-
-        +justifyContent()
+        +layoutConstructor()
+            +justifyContent()
 
 
 .leto-left
-    margin-left: auto
+    +layoutConstructor()
+        margin-left: auto
 
 .leto-center
-    margin-left: auto
-    margin-right: auto
+    +layoutConstructor()
+        margin-left: auto
+        margin-right: auto
 
 .leto-right
-    margin-right: auto
+    +layoutConstructor()
+        margin-right: auto
 
 .leto-group
 
     > .leto-left
-        margin-left: 0
-        margin-right: auto
+        +layoutConstructor()
+            margin-left: 0
+            margin-right: auto
 
     > .leto-center
-        margin-left: auto
-        margin-right: auto
+        +layoutConstructor()
+            margin-left: auto
+            margin-right: auto
 
     > .leto-right
-        margin-left: auto
-        margin-right: 0
+        +layoutConstructor()
+            margin-left: auto
+            margin-right: 0
 
 // Flexbox areas
 
 .leto-full 
-    +letoFlexAreas(100%) 
+    +layoutConstructor()
+        +letoFlexAreas(100%) 
 
 .leto-seven-eighth
-    +letoFlexAreas(87.5%)
+    +layoutConstructor()
+        +letoFlexAreas(87.5%)
 
 .leto-five-sixth
-    +letoFlexAreas(calc((100% / 6) * 5)) 
+    +layoutConstructor()
+        +letoFlexAreas(calc((100% / 6) * 5)) 
 
 .leto-four-fifths
-    +letoFlexAreas(80%)
+    +layoutConstructor()
+        +letoFlexAreas(80%)
 
 .leto-three-quaters
-    +letoFlexAreas(75%)  
+    +layoutConstructor()
+        +letoFlexAreas(75%)  
 
 .leto-two-thirds
-    +letoFlexAreas(calc((100% / 3) * 2))  
+    +layoutConstructor()
+        +letoFlexAreas(calc((100% / 3) * 2))  
 
 .leto-five-eighth
-    +letoFlexAreas(62.5%)
+    +layoutConstructor()
+        +letoFlexAreas(62.5%)
 
 .leto-three-fifth
-    +letoFlexAreas(60%)     
+    +layoutConstructor()
+        +letoFlexAreas(60%)     
 
 .leto-half
-    +letoFlexAreas(50%)
+    +layoutConstructor()
+        +letoFlexAreas(50%)
 
 .leto-three-sixth
-    +letoFlexAreas(calc((100% / 6) * 3))
+    +layoutConstructor()
+        +letoFlexAreas(calc((100% / 6) * 3))
 
 .leto-two-fifth
-    +letoFlexAreas(40%)
+    +layoutConstructor()
+        +letoFlexAreas(40%)
 
 .leto-three-eighth
-    +letoFlexAreas(37.5%)
+    +layoutConstructor()
+        +letoFlexAreas(37.5%)
     
 .leto-third
-    +letoFlexAreas(calc(100% / 3))
+    +layoutConstructor()
+        +letoFlexAreas(calc(100% / 3))
 
 .leto-quater
-    +letoFlexAreas(25%)   
+    +layoutConstructor()
+        +letoFlexAreas(25%)   
 
 .leto-fifth
-    +letoFlexAreas(20%)   
+    +layoutConstructor()
+        +letoFlexAreas(20%)   
 
 .leto-sixth
-    +letoFlexAreas(calc(100% / 6))   
+    +layoutConstructor()
+        +letoFlexAreas(calc(100% / 6))   
 
 .leto-eighth
-    +letoFlexAreas(12.5%)
+    +layoutConstructor()
+        +letoFlexAreas(12.5%)
 
 
 // Flex-shrink
 
 .leto-no-shrink
-    flex-shrink: 0
+    +layoutConstructor()
+        flex-shrink: 0
 
 
 // Space
 
 .leto-space
-    width: 100%
-    height: calc($standardSize * 8)
+    +layoutConstructor()
+        width: 100%
+        height: calc($standardSize * 8)
 
     &-xxs
-        width: 100%
-        height: calc($xxs * 8)    
+        +layoutConstructor()
+            width: 100%
+            height: calc($xxs * 8)    
 
     &-xs
-        width: 100%
-        height: calc($xs * 8)    
+        +layoutConstructor()
+            width: 100%
+            height: calc($xs * 8)    
 
     &-sm
-        width: 100%
-        height: calc($sm * 8)    
+        +layoutConstructor()
+            width: 100%
+            height: calc($sm * 8)    
 
     &-md
-        width: 100%
-        height: calc($md * 8)  
+        +layoutConstructor()
+            width: 100%
+            height: calc($md * 8)  
 
     &-lg
-        width: 100%
-        height: calc($lg * 8)    
+        +layoutConstructor()
+            width: 100%
+            height: calc($lg * 8)    
 
     &-xl
-        width: 100%
-        height: calc($xl * 8)    
+        +layoutConstructor()
+            width: 100%
+            height: calc($xl * 8)    
 
     &-xxl
-        width: 100%
-        height: calc($xxl * 8) 
+        +layoutConstructor()
+            width: 100%
+            height: calc($xxl * 8) 
