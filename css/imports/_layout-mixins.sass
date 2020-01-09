@@ -1,5 +1,42 @@
 @import '_variables.sass'
 
+
+// Layout contructor
+
+=layoutConstructor()
+    @content
+    
+    @media (min-width: $tablet)
+
+        &-tablet
+            @content
+
+    @media (min-width: $tabletAndPC)
+
+        &-tablet-pc
+            @content
+
+    @media (min-width: $tabletAndPC) and ($touchDevice)
+
+        &-tablet-pc
+            @content
+
+    @media (min-width: $pc)
+
+        &-pc
+            @content
+
+    @media (min-aspect-ratio: $ultrawideRatio) and (min-width: $ultrawide)
+
+        &-ultrawide
+            @content
+
+    @media (min-aspect-ratio: $superUltrawideRatio) and (min-width: $ultrawide)
+        
+        &-super-ultrawide
+            @content
+
+
 // Masonry
 
 =masonry($value)
