@@ -1,17 +1,34 @@
 @import '_variables.sass'
 @import '_elements-variables.sass'
+@import '_white-lists.sass'
 @import '_theme-functions.scss'
 
 
 // Elements base mixins
     
 =basicElementStyles($bgColor, $color, $borderWidth, $borderColor, $borderRadius)
-    background: $bgColor
-    color: $color
     border-width: $borderWidth
     border-style: solid
-    border-color: $borderColor
     border-radius: $borderRadius
+
+    @if $bgColor != $lightModeBgColor
+       background: $bgColor 
+
+    @if $color != $lightModeColor
+       color: $color
+
+    @if $borderColor != $lightModeColor
+        border-color: $borderColor
+
+=basicElementColors($bgColor, $color, $borderColor)
+    background: $bgColor 
+    color: $color
+    border-color: $borderColor
+
+=elementThemeColors($elementName)
+    $bgColor: getElementAttrVal($elementName, 'bg');
+    $color: getElementAttrVal($elementName, 'color');
+    $borderColor: getElementAttrVal($elementName, 'borderColor');
 
     @if $bgColor == $lightModeBgColor
         +themed() 
@@ -25,41 +42,40 @@
         +themed() 
             border-color: t('text')
 
-
 // Presets
 
 =preset($bgColor, $color, $borderWidth, $borderColor, $borderRadius)
-    +basicElementStyles($bgColor, $color, $borderWidth, $borderColor, $borderRadius)
+    +basicElementColors($bgColor, $color, $borderColor)
     
     @media (min-width: $tablet)
 
         &-tablet
-            +basicElementStyles($bgColor, $color, $borderWidth, $borderColor, $borderRadius)
+            +basicElementColors($bgColor, $color, $borderColor)
 
     @media (min-width: $tabletAndPC)
 
         &-tablet-pc
-            +basicElementStyles($bgColor, $color, $borderWidth, $borderColor, $borderRadius)
+            +basicElementColors($bgColor, $color, $borderColor)
 
     @media (min-width: $tabletAndPC) and ($touchDevice)
 
         &-tablet-pc
-            +basicElementStyles($bgColor, $color, $borderWidth, $borderColor, $borderRadius)
+            +basicElementColors($bgColor, $color, $borderColor)
 
     @media (min-width: $pc)
 
         &-pc
-            +basicElementStyles($bgColor, $color, $borderWidth, $borderColor, $borderRadius)
+            +basicElementColors($bgColor, $color, $borderColor)
 
     @media (min-aspect-ratio: $ultrawideRatio) and (min-width: $ultrawide)
 
         &-ultrawide
-            +basicElementStyles($bgColor, $color, $borderWidth, $borderColor, $borderRadius)
+            +basicElementColors($bgColor, $color, $borderColor)
 
     @media (min-aspect-ratio: $superUltrawideRatio) and (min-width: $ultrawide)
         
         &-super-ultrawide
-            +basicElementStyles($bgColor, $color, $borderWidth, $borderColor, $borderRadius)
+            +basicElementColors($bgColor, $color, $borderColor)
 
 =presetConstructor($elementName)
     $bgColor: getElementAttrVal($elementName, 'bg');
@@ -68,97 +84,90 @@
     $borderColor: getElementAttrVal($elementName, 'borderColor');
     $borderRadius: getElementAttrVal($elementName, 'borderRadius');
 
-    &-white
-        +preset(transparent, $colorWhite, 1px, $colorWhite, $borderRadius)
+    @if checkElementPresetsList($elementName)
+        &-white
+            +preset(transparent, $colorWhite, 1px, $colorWhite, $borderRadius)
 
-    &-dark-white
-        +preset(transparent, $colorDarkWhite, 1px, $colorDarkWhite, $borderRadius)
+        &-dark-white
+            +preset(transparent, $colorDarkWhite, 1px, $colorDarkWhite, $borderRadius)
 
-    &-grey
-        +preset(transparent, $colorGrey, 1px, $colorGrey, $borderRadius)
+        &-grey
+            +preset(transparent, $colorGrey, 1px, $colorGrey, $borderRadius)
 
-    &-light-grey
-        +preset(transparent, $colorLightGrey, 1px, $colorLightGrey, $borderRadius)
+        &-light-grey
+            +preset(transparent, $colorLightGrey, 1px, $colorLightGrey, $borderRadius)
 
-    &-lighter-grey
-        +preset(transparent, $colorLighterGrey, 1px, $colorLighterGrey, $borderRadius)
+        &-lighter-grey
+            +preset(transparent, $colorLighterGrey, 1px, $colorLighterGrey, $borderRadius)
 
-    &-dark-grey
-        +preset(transparent, $colorDarkGrey, 1px, $colorDarkGrey, $borderRadius)
+        &-dark-grey
+            +preset(transparent, $colorDarkGrey, 1px, $colorDarkGrey, $borderRadius)
 
-    &-darker-grey
-        +preset(transparent, $colorDarkerGrey, 1px, $colorDarkerGrey, $borderRadius)
+        &-darker-grey
+            +preset(transparent, $colorDarkerGrey, 1px, $colorDarkerGrey, $borderRadius)
 
-    &-yellow
-        +preset(transparent, $colorYellow, 1px, $colorYellow, $borderRadius)
+        &-yellow
+            +preset(transparent, $colorYellow, 1px, $colorYellow, $borderRadius)
 
-    &-light-yellow
-        +preset(transparent, $colorLightYellow, 1px, $colorLightYellow, $borderRadius)
+        &-light-yellow
+            +preset(transparent, $colorLightYellow, 1px, $colorLightYellow, $borderRadius)
 
-    &-dark-yellow
-        +preset(transparent, $colorDarkYellow, 1px, $colorDarkYellow, $borderRadius)
+        &-dark-yellow
+            +preset(transparent, $colorDarkYellow, 1px, $colorDarkYellow, $borderRadius)
 
-    &-orange
-        +preset(transparent, $colorOrange, 1px, $colorOrange, $borderRadius)
+        &-orange
+            +preset(transparent, $colorOrange, 1px, $colorOrange, $borderRadius)
 
-    &-light-orange
-        +preset(transparent, $colorLightOrange, 1px, $colorLightOrange, $borderRadius)
+        &-light-orange
+            +preset(transparent, $colorLightOrange, 1px, $colorLightOrange, $borderRadius)
 
-    &-dark-orange
-        +preset(transparent, $colorDarkOrange, 1px, $colorDarkOrange, $borderRadius)
+        &-dark-orange
+            +preset(transparent, $colorDarkOrange, 1px, $colorDarkOrange, $borderRadius)
 
-    &-red
-        +preset(transparent, $colorRed, 1px, $colorRed, $borderRadius)
+        &-red
+            +preset(transparent, $colorRed, 1px, $colorRed, $borderRadius)
 
-    &-light-red
-        +preset(transparent, $colorLightRed, 1px, $colorLightRed, $borderRadius)
+        &-light-red
+            +preset(transparent, $colorLightRed, 1px, $colorLightRed, $borderRadius)
 
-    &-dark-red
-        +preset(transparent, $colorDarkRed, 1px, $colorDarkRed, $borderRadius)
+        &-dark-red
+            +preset(transparent, $colorDarkRed, 1px, $colorDarkRed, $borderRadius)
 
-    &-purple
-        +preset(transparent, $colorPurple, 1px, $colorPurple, $borderRadius)
+        &-purple
+            +preset(transparent, $colorPurple, 1px, $colorPurple, $borderRadius)
 
-    &-light-purple
-        +preset(transparent, $colorLightPurple, 1px, $colorLightPurple, $borderRadius)
+        &-light-purple
+            +preset(transparent, $colorLightPurple, 1px, $colorLightPurple, $borderRadius)
 
-    &-dark-purple
-        +preset(transparent, $colorDarkPurple, 1px, $colorDarkPurple, $borderRadius)
+        &-dark-purple
+            +preset(transparent, $colorDarkPurple, 1px, $colorDarkPurple, $borderRadius)
 
-    &-blue
-        +preset(transparent, $colorBlue, 1px, $colorBlue, $borderRadius)
-            
+        &-blue
+            +preset(transparent, $colorBlue, 1px, $colorBlue, $borderRadius)           
 
-    &-light-blue
-        +preset(transparent, $colorLightBlue, 1px, $colorLightBlue, $borderRadius)
-            
+        &-light-blue
+            +preset(transparent, $colorLightBlue, 1px, $colorLightBlue, $borderRadius)          
 
-    &-dark-blue
-        +preset(transparent, $colorDarkBlue, 1px, $colorDarkBlue, $borderRadius)
-            
+        &-dark-blue
+            +preset(transparent, $colorDarkBlue, 1px, $colorDarkBlue, $borderRadius)           
 
-    &-mint
-        +preset(transparent, $colorMint, 1px, $colorMint, $borderRadius)
-            
+        &-mint
+            +preset(transparent, $colorMint, 1px, $colorMint, $borderRadius)          
 
-    &-light-mint
-        +preset(transparent, $colorLightMint, 1px, $colorLightMint, $borderRadius)
-            
+        &-light-mint
+            +preset(transparent, $colorLightMint, 1px, $colorLightMint, $borderRadius)          
 
-    &-dark-mint
-        +preset(transparent, $colorDarkMint, 1px, $colorDarkMint, $borderRadius)
-            
-
-    &-mint
-        +preset(transparent, $colorGreen, 1px, $colorGreen, $borderRadius)
-            
-
-    &-light-mint
-        +preset(transparent, $colorLightGreen, 1px, $colorLightGreen, $borderRadius)
-            
-
-    &-dark-mint
-        +preset(transparent, $colorDarkGreen, 1px, $colorDarkGreen, $borderRadius)
+        &-dark-mint
+            +preset(transparent, $colorDarkMint, 1px, $colorDarkMint, $borderRadius)
+                
+        &-mint
+            +preset(transparent, $colorGreen, 1px, $colorGreen, $borderRadius)
+                
+        &-light-mint
+            +preset(transparent, $colorLightGreen, 1px, $colorLightGreen, $borderRadius)
+                
+        &-dark-mint
+            +preset(transparent, $colorDarkGreen, 1px, $colorDarkGreen, $borderRadius)
             
 
 // Element constructor
@@ -173,41 +182,42 @@
     @content
     +basicElementStyles($bgColor, $color, $borderWidth, $borderColor, $borderRadius)
     
-    @media (min-width: $tablet)
+    @if checkElementMQList($elementName)
+        @media (min-width: $tablet)
 
-        &-tablet
-            @content
-            +basicElementStyles($bgColor, $color, $borderWidth, $borderColor, $borderRadius)
+            &-tablet
+                @content
+                +basicElementStyles($bgColor, $color, $borderWidth, $borderColor, $borderRadius)
 
-    @media (min-width: $tabletAndPC)
+        @media (min-width: $tabletAndPC)
 
-        &-tablet-pc
-            @content
-            +basicElementStyles($bgColor, $color, $borderWidth, $borderColor, $borderRadius)
+            &-tablet-pc
+                @content
+                +basicElementStyles($bgColor, $color, $borderWidth, $borderColor, $borderRadius)
 
-    @media (min-width: $tabletAndPC) and ($touchDevice)
+        @media (min-width: $tabletAndPC) and ($touchDevice)
 
-        &-tablet-pc
-            @content
-            +basicElementStyles($bgColor, $color, $borderWidth, $borderColor, $borderRadius)
+            &-tablet-pc
+                @content
+                +basicElementStyles($bgColor, $color, $borderWidth, $borderColor, $borderRadius)
 
-    @media (min-width: $pc)
+        @media (min-width: $pc)
 
-        &-pc
-            @content
-            +basicElementStyles($bgColor, $color, $borderWidth, $borderColor, $borderRadius)
+            &-pc
+                @content
+                +basicElementStyles($bgColor, $color, $borderWidth, $borderColor, $borderRadius)
 
-    @media (min-aspect-ratio: $ultrawideRatio) and (min-width: $ultrawide)
+        @media (min-aspect-ratio: $ultrawideRatio) and (min-width: $ultrawide)
 
-        &-ultrawide
-            @content
-            +basicElementStyles($bgColor, $color, $borderWidth, $borderColor, $borderRadius)
+            &-ultrawide
+                @content
+                +basicElementStyles($bgColor, $color, $borderWidth, $borderColor, $borderRadius)
 
-    @media (min-aspect-ratio: $superUltrawideRatio) and (min-width: $ultrawide)
-        
-        &-super-ultrawide
-            @content
-            +basicElementStyles($bgColor, $color, $borderWidth, $borderColor, $borderRadius)
+        @media (min-aspect-ratio: $superUltrawideRatio) and (min-width: $ultrawide)
+            
+            &-super-ultrawide
+                @content
+                +basicElementStyles($bgColor, $color, $borderWidth, $borderColor, $borderRadius)
 
 
 // Elements mixins

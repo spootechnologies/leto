@@ -38,6 +38,10 @@
 
     +presetConstructor('bubble')
 
+[class*="leto-bubble"]
+    +elementThemeColors('bubble')
+
+    
 // Bubble wrapper
 
 .leto-bubble-wrapper
@@ -133,6 +137,10 @@
 
     +presetConstructor('card')
 
+[class*="leto-card"]
+    +elementThemeColors('card')
+
+
 // Card wrapper
 
 .leto-card-wrapper
@@ -207,6 +215,10 @@
 
     +presetConstructor('button')
 
+[class*="leto-button"]
+    +elementThemeColors('button')
+
+
 // Badge
 
 .leto-badge
@@ -242,6 +254,10 @@
             +badge($xxl)
 
     +presetConstructor('badge')
+
+[class*="leto-badge"]
+    +elementThemeColors('badge')
+
 
 // Input
 
@@ -281,6 +297,12 @@
 
     &[type="text"], &[type="date"], &[type="datetime-local"], &[type="email"], &[type="month"], &[type="number"], &[type="password"], &[type="tel"], &[type="time"], &[type="url"], &[type="week"]
         +presetConstructor('input')
+
+[class*="leto-input"]
+
+    &[type="text"], &[type="date"], &[type="datetime-local"], &[type="email"], &[type="month"], &[type="number"], &[type="password"], &[type="tel"], &[type="time"], &[type="url"], &[type="week"]
+        +elementThemeColors('input')
+
 
 // Input Wrapper
 
@@ -384,6 +406,11 @@
 
     +presetConstructor('input')
     
+[class*="leto-input"]
+
+    &[type="color"]
+        +elementThemeColors('input')
+
 
 // Input Image
 
@@ -444,6 +471,11 @@
 
     +presetConstructor('search')
 
+[class*="leto-input"]
+
+    &[type="search"]
+        +elementThemeColors('search')
+
 
 // Textarea
 
@@ -452,6 +484,9 @@ textarea[class*="leto-input"], .leto-textarea
         +textarea()
 
     +presetConstructor('textarea')
+
+textarea[class*="leto-input"]
+    +elementThemeColors('textarea')
 
 
 // Select
@@ -489,6 +524,10 @@ select.leto-input
             +select($xxl)
 
     +presetConstructor('select')
+
+select[class*="leto-input"]
+    +elementThemeColors('select')
+
 
 // Table
 
@@ -541,6 +580,10 @@ select.leto-input
 
     +presetConstructor('pile')
 
+[class*="leto-pile"]
+    +elementThemeColors('pile')
+
+
 // Form
  
 .leto-form
@@ -591,6 +634,9 @@ select.leto-input
 
         &-left, &-right
             width: 50vw
+
+[class*="leto-form"]
+    +elementThemeColors('form')
 
 
 // Backdrop

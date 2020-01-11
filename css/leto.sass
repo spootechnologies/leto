@@ -19,7 +19,9 @@
 // TODO leto-text Link color
 // TODO leto-input-wrapper child width
 // TODO $standardMultipier intplemations
-
+// TODO add $elementMultipier to basicElementStyle
+// TODO Color classes add leto-frame to overrule theming
+    
     
 =constructor()
     @content
@@ -53,3 +55,29 @@
         
         &-super-ultrawide
             @content
+
+=basicElementStylesAlt($bgColor, $color, $borderWidth, $borderColor, $borderRadius)
+    border-width: $borderWidth
+    border-style: solid
+    border-radius: $borderRadius
+
+    @if $bgColor == $lightModeBgColor
+        +themed() 
+            background: t('bg')
+
+    @else 
+       background: $bgColor 
+
+    @if $color == $lightModeColor
+        +themed() 
+            color: t('text')
+
+    @else 
+       color: $color
+
+    @if $borderColor == $lightModeColor
+        +themed() 
+            border-color: t('text')
+
+    @else
+        border-color: $borderColor

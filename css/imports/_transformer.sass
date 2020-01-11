@@ -4,349 +4,462 @@
 // Position
 
 .leto-static
-    position: static
+    +transformerConstructor('position')
+        position: static
 
 .leto-relative
-    position: relative
+    +transformerConstructor('position')
+        position: relative
 
 .leto-fixed
-    position: fixed
+    +transformerConstructor('position')
+        position: fixed
 
 .leto-sticky
-    position: sticky
+    +transformerConstructor('position')
+        position: sticky
 
 .leto-absolute
-    position: absolute
+    +transformerConstructor('position')
+        position: absolute
 
 
 // Width
 
 .leto-min-width
-    min-width: $md * 4
+    +transformerConstructor('minWidth')
+        min-width: $standardSize * 4
 
     &-xxs
-        min-width: $xxs * 4
+        +transformerConstructor('minWidth')
+            min-width: $xxs * 4
 
     &-xs
-        min-width: $xs * 4
+        +transformerConstructor('minWidth')
+            min-width: $xs * 4
 
     &-sm
-        max-width: $sm * 4
+        +transformerConstructor('minWidth')
+            min-width: $sm * 4
 
     &-md
-        min-width: $md * 4
+        +transformerConstructor('minWidth')
+            min-width: $md * 4
 
     &-lg
-        min-width: $lg * 4
+        +transformerConstructor('minWidth')
+            min-width: $lg * 4
 
     &-xl
-        min-width: $xl * 4
+        +transformerConstructor('minWidth')
+            min-width: $xl * 4
 
     &-xxl
-        min-width: $xxl * 4
+        +transformerConstructor('minWidth')
+            min-width: $xxl * 4
 
     &-full
-        min-width: calc(100% - (#{$basicMargin}*2))
+        +transformerConstructor('minWidth')
+            min-width: calc(100% - (#{$basicMargin}*2))
 
     &-four-fifths
-        min-width: calc(80% - (#{$basicMargin}*2))
+        +transformerConstructor('minWidth')
+            min-width: calc(80% - (#{$basicMargin}*2))
 
     &-three-quaters
-        min-width: calc(75% - (#{$basicMargin}*2))
+        +transformerConstructor('minWidth')
+            min-width: calc(75% - (#{$basicMargin}*2))
 
     &-two-thirds
-        min-width: calc(66% - (#{$basicMargin}*2))
+        +transformerConstructor('minWidth')
+            min-width: calc(66% - (#{$basicMargin}*2))
 
     &-half
-        min-width: calc(50% - (#{$basicMargin}*2))
+        +transformerConstructor('minWidth')
+            min-width: calc(50% - (#{$basicMargin}*2))
 
     &-third
-        min-width: calc((100% / 3) - (#{$basicMargin}*2))
+        +transformerConstructor('minWidth')
+            min-width: calc((100% / 3) - (#{$basicMargin}*2))
 
     &-quater
-        min-width: calc(25% - (#{$basicMargin}*2))
+        +transformerConstructor('minWidth')
+            min-width: calc(25% - (#{$basicMargin}*2))
 
     &-fifth
-        min-width: calc(20% - (#{$basicMargin}*2))
+        +transformerConstructor('minWidth')
+            min-width: calc(20% - (#{$basicMargin}*2))
 
     &-sixth
-        min-width: calc((100% / 6) - (#{$basicMargin}*2))
+        +transformerConstructor('minWidth')
+            min-width: calc((100% / 6) - (#{$basicMargin}*2))
 
     &-eighth
-        min-width: calc(12.5% - (#{$basicMargin}*2))
+        +transformerConstructor('minWidth')
+            min-width: calc(12.5% - (#{$basicMargin}*2))
 
 .leto-width
-    width: $md * 4
+    +transformerConstructor('width')
+        width: $standardSize * 4
 
     &-xxs
-        width: $xxs * 4
+        +transformerConstructor('width')
+            width: $xxs * 4
 
     &-xs
-        width: $xs * 4
+        +transformerConstructor('width')
+            width: $xs * 4
 
     &-sm
-        width: $sm * 4
+        +transformerConstructor('width')
+            width: $sm * 4
 
     &-md
-        width: $md * 4
+        +transformerConstructor('width')
+            width: $md * 4
 
     &-lg
-        width: $lg * 4
+        +transformerConstructor('width')
+            width: $lg * 4
 
     &-xl
-        width: $xl * 4
+        +transformerConstructor('width')
+            width: $xl * 4
 
     &-xxl
-        width: $xxl * 4
+        +transformerConstructor('width')
+            width: $xxl * 4
 
     &-full
-        width: calc(100% - (#{$basicMargin}*2))
+        +transformerConstructor('width')
+            width: calc(100% - (#{$basicMargin}*2))
 
     &-four-fifths
-        width: calc(80% - (#{$basicMargin}*2))
+        +transformerConstructor('width')
+            width: calc(80% - (#{$basicMargin}*2))
 
     &-three-quaters
-        width: calc(75% - (#{$basicMargin}*2))
+        +transformerConstructor('width')
+            width: calc(75% - (#{$basicMargin}*2))
 
     &-two-thirds
-        width: calc(66% - (#{$basicMargin}*2))
+        +transformerConstructor('width')
+            width: calc(66% - (#{$basicMargin}*2))
 
     &-half
-        width: calc(50% - (#{$basicMargin}*2))
+        +transformerConstructor('width')
+            width: calc(50% - (#{$basicMargin}*2))
 
     &-third
-        width: calc((100% / 3) - (#{$basicMargin}*2))
+        +transformerConstructor('width')
+            width: calc((100% / 3) - (#{$basicMargin}*2))
 
     &-quater
-        width: calc(25% - (#{$basicMargin}*2))
+        +transformerConstructor('width')
+            width: calc(25% - (#{$basicMargin}*2))
 
     &-fifth
-        width: calc(20% - (#{$basicMargin}*2))
+        +transformerConstructor('width')
+            width: calc(20% - (#{$basicMargin}*2))
 
     &-sixth
-        width: calc((100% / 6) - (#{$basicMargin}*2))
+        +transformerConstructor('width')
+            width: calc((100% / 6) - (#{$basicMargin}*2))
 
     &-eighth
-        width: calc(12.5% - (#{$basicMargin}*2))
+        +transformerConstructor('width')
+            width: calc(12.5% - (#{$basicMargin}*2))
 
 .leto-max-width
-    max-width: $md * 4
+    +transformerConstructor('maxWidth')
+        max-width: $standardSize * 4
 
     &-xxs
-        max-width: $xxs * 4
+        +transformerConstructor('maxWidth')
+            max-width: $xxs * 4
 
     &-xs
-        max-width: $xs * 4
+        +transformerConstructor('maxWidth')
+            max-width: $xs * 4
 
     &-sm
-        max-width: $sm * 4
+        +transformerConstructor('maxWidth')
+            max-width: $sm * 4
 
     &-md
-        max-width: $md * 4
+        +transformerConstructor('maxWidth')
+            max-width: $md * 4
 
     &-lg
-        max-width: $lg * 4
+        +transformerConstructor('maxWidth')
+            max-width: $lg * 4
 
     &-xl
-        max-width: $xl * 4
+        +transformerConstructor('maxWidth')
+            max-width: $xl * 4
 
     &-xxl
-        max-width: $xxl * 4
+        +transformerConstructor('maxWidth')
+            max-width: $xxl * 4
 
     &-full
-        max-width: calc(100% - (#{$basicMargin}*2))
+        +transformerConstructor('maxWidth')
+            max-width: calc(100% - (#{$basicMargin}*2))
 
     &-four-fifths
-        max-width: calc(80% - (#{$basicMargin}*2))
+        +transformerConstructor('maxWidth')
+            max-width: calc(80% - (#{$basicMargin}*2))
 
     &-three-quaters
-        max-width: calc(75% - (#{$basicMargin}*2))
+        +transformerConstructor('maxWidth')
+            max-width: calc(75% - (#{$basicMargin}*2))
 
     &-two-thirds
-        max-width: calc(66% - (#{$basicMargin}*2))
+        +transformerConstructor('maxWidth')
+            max-width: calc(66% - (#{$basicMargin}*2))
 
     &-half
-        max-width: calc(50% - (#{$basicMargin}*2))
+        +transformerConstructor('maxWidth')
+            max-width: calc(50% - (#{$basicMargin}*2))
 
     &-third
-        max-width: calc((100% / 3) - (#{$basicMargin}*2))
+        +transformerConstructor('maxWidth')
+            max-width: calc((100% / 3) - (#{$basicMargin}*2))
 
     &-quater
-        max-width: calc(25% - (#{$basicMargin}*2))
+        +transformerConstructor('maxWidth')
+            max-width: calc(25% - (#{$basicMargin}*2))
 
     &-fifth
-        max-width: calc(20% - (#{$basicMargin}*2))
+        +transformerConstructor('maxWidth')
+            max-width: calc(20% - (#{$basicMargin}*2))
 
     &-sixth
-        max-width: calc((100% / 6) - (#{$basicMargin}*2))
+        +transformerConstructor('maxWidth')
+            max-width: calc((100% / 6) - (#{$basicMargin}*2))
 
     &-eighth
-        max-width: calc(12.5% - (#{$basicMargin}*2))
+        +transformerConstructor('maxWidth')
+            max-width: calc(12.5% - (#{$basicMargin}*2))
 
 
 // Height
 
 .leto-min-height
-    min-height: $md * 4
+    +transformerConstructor('minHeight')
+        min-height: $standardSize * 4
 
     &-xxs
-        min-height: $xxs * 4
+        +transformerConstructor('minHeight')
+            min-height: $xxs * 4
 
     &-xs
-        min-height: $xs * 4
+        +transformerConstructor('minHeight')
+            min-height: $xs * 4
 
     &-sm
-        min-height: $sm * 4
+        +transformerConstructor('minHeight')
+            min-height: $sm * 4
 
     &-md
-        min-height: $md * 4
+        +transformerConstructor('minHeight')
+            min-height: $md * 4
 
     &-lg
-        min-height: $lg * 4
+        +transformerConstructor('minHeight')
+            min-height: $lg * 4
 
     &-xl
-        min-height: $xl * 4
+        +transformerConstructor('minHeight')
+            min-height: $xl * 4
 
     &-xxl
-        min-height: $xxl * 4
+        +transformerConstructor('minHeight')
+            min-height: $xxl * 4
 
     &-full
-        min-height: calc(100% - #{$basicMargin})
+        +transformerConstructor('minHeight')
+            min-height: calc(100% - (#{$basicMargin}))
 
     &-four-fifths
-        min-height: calc(80% - #{$basicMargin})
+        +transformerConstructor('minHeight')
+            min-height: calc(80% - (#{$basicMargin}))
 
     &-three-quaters
-        min-height: calc(75% - #{$basicMargin})
+        +transformerConstructor('minHeight')
+            min-height: calc(75% - (#{$basicMargin}))
 
     &-two-thirds
-        min-height: calc(66% - #{$basicMargin})
-    
+        +transformerConstructor('minHeight')
+            min-height: calc(66% - (#{$basicMargin}))
+
     &-half
-        min-height: calc(50% - #{$basicMargin})
+        +transformerConstructor('minHeight')
+            min-height: calc(50% - (#{$basicMargin}))
 
     &-third
-        min-height: calc((100% / 3) - #{$basicMargin})
+        +transformerConstructor('minHeight')
+            min-height: calc((100% / 3) - (#{$basicMargin}))
 
     &-quater
-        min-height: calc(25% - #{$basicMargin})
+        +transformerConstructor('minHeight')
+            min-height: calc(25% - (#{$basicMargin}))
 
     &-fifth
-        min-height: calc(20% - #{$basicMargin})
+        +transformerConstructor('minHeight')
+            min-height: calc(20% - (#{$basicMargin}))
 
     &-sixth
-        min-height: calc((100% / 6) - #{$basicMargin})
+        +transformerConstructor('minHeight')
+            min-height: calc((100% / 6) - (#{$basicMargin}))
 
     &-eighth
-        min-height: calc(12.5% - #{$basicMargin})
+        +transformerConstructor('minHeight')
+            min-height: calc(12.5% - (#{$basicMargin}))
 
 .leto-height
-    height: $md * 4
+    +transformerConstructor('height')
+        height: $standardSize * 4
 
     &-xxs
-        height: $xxs * 4
+        +transformerConstructor('height')
+            height: $xxs * 4
 
     &-xs
-        height: $xs * 4
+        +transformerConstructor('height')
+            height: $xs * 4
 
     &-sm
-        height: $sm * 4
+        +transformerConstructor('height')
+            height: $sm * 4
 
     &-md
-        height: $md * 4
+        +transformerConstructor('height')
+            height: $md * 4
 
     &-lg
-        height: $lg * 4
+        +transformerConstructor('height')
+            height: $lg * 4
 
     &-xl
-        height: $xl * 4
+        +transformerConstructor('height')
+            height: $xl * 4
 
     &-xxl
-        height: $xxl * 4
+        +transformerConstructor('height')
+            height: $xxl * 4
 
     &-full
-        height: calc(100% - #{$basicMargin})
+        +transformerConstructor('height')
+            height: calc(100% - (#{$basicMargin}))
 
     &-four-fifths
-        height: calc(80% - #{$basicMargin})
+        +transformerConstructor('height')
+            height: calc(80% - (#{$basicMargin}))
 
     &-three-quaters
-        height: calc(75% - #{$basicMargin})
+        +transformerConstructor('height')
+            height: calc(75% - (#{$basicMargin}))
 
     &-two-thirds
-        height: calc(66% - #{$basicMargin})
+        +transformerConstructor('height')
+            height: calc(66% - (#{$basicMargin}))
 
     &-half
-        height: calc(50% - #{$basicMargin})
+        +transformerConstructor('height')
+            height: calc(50% - (#{$basicMargin}))
 
     &-third
-        height: calc((100% / 3) - #{$basicMargin})
+        +transformerConstructor('height')
+            height: calc((100% / 3) - (#{$basicMargin}))
 
     &-quater
-        height: calc(25% - #{$basicMargin})
+        +transformerConstructor('height')
+            height: calc(25% - (#{$basicMargin}))
 
     &-fifth
-        height: calc(20% - #{$basicMargin})
+        +transformerConstructor('height')
+            height: calc(20% - (#{$basicMargin}))
 
     &-sixth
-        height: calc((100% / 6) - #{$basicMargin})
+        +transformerConstructor('height')
+            height: calc((100% / 6) - (#{$basicMargin}))
 
     &-eighth
-        height: calc(12.5% - #{$basicMargin})
+        +transformerConstructor('height')
+            height: calc(12.5% - (#{$basicMargin}))
 
 .leto-max-height
-    max-height: $md * 4
+    +transformerConstructor('maxHeight')
+        max-height: $standardSize * 4
 
     &-xxs
-        max-height: $xxs * 4
+        +transformerConstructor('maxHeight')
+            max-height: $xxs * 4
 
     &-xs
-        max-height: $xs * 4
+        +transformerConstructor('maxHeight')
+            max-height: $xs * 4
 
     &-sm
-        max-height: $sm * 4
+        +transformerConstructor('maxHeight')
+            max-height: $sm * 4
 
     &-md
-        max-height: $md * 4
+        +transformerConstructor('maxHeight')
+            max-height: $md * 4
 
     &-lg
-        max-height: $lg * 4
+        +transformerConstructor('maxHeight')
+            max-height: $lg * 4
 
     &-xl
-        max-height: $xl * 4
+        +transformerConstructor('maxHeight')
+            max-height: $xl * 4
 
     &-xxl
-        max-height: $xxl * 4
+        +transformerConstructor('maxHeight')
+            max-height: $xxl * 4
 
     &-full
-        max-height: calc(100% - #{$basicMargin})
+        +transformerConstructor('maxHeight')
+            max-height: calc(100% - (#{$basicMargin}))
 
     &-four-fifths
-        max-height: calc(80% - #{$basicMargin})
+        +transformerConstructor('maxHeight')
+            max-height: calc(80% - (#{$basicMargin}))
 
     &-three-quaters
-        max-height: calc(75% - #{$basicMargin})
+        +transformerConstructor('maxHeight')
+            max-height: calc(75% - (#{$basicMargin}))
 
     &-two-thirds
-        max-height: calc(66% - #{$basicMargin})
+        +transformerConstructor('maxHeight')
+            max-height: calc(66% - (#{$basicMargin}))
 
     &-half
-        max-height: calc(50% - #{$basicMargin})
+        +transformerConstructor('maxHeight')
+            max-height: calc(50% - (#{$basicMargin}))
 
     &-third
-        max-height: calc((100% / 3) - #{$basicMargin})
+        +transformerConstructor('maxHeight')
+            max-height: calc((100% / 3) - (#{$basicMargin}))
 
     &-quater
-        max-height: calc(25% - #{$basicMargin})
+        +transformerConstructor('maxHeight')
+            max-height: calc(25% - (#{$basicMargin}))
 
     &-fifth
-        max-height: calc(20% - #{$basicMargin})
+        +transformerConstructor('maxHeight')
+            max-height: calc(20% - (#{$basicMargin}))
 
     &-sixth
-        max-height: calc((100% / 6) - #{$basicMargin})
+        +transformerConstructor('maxHeight')
+            max-height: calc((100% / 6) - (#{$basicMargin}))
 
     &-eighth
-        max-height: calc(12.5% - #{$basicMargin})
+        +transformerConstructor('maxHeight')
+            max-height: calc(12.5% - (#{$basicMargin}))
 
 
 // Background
@@ -354,1174 +467,1481 @@
 .leto-bg
 
     &-white
-        background-color: $colorWhite
+        +transformerConstructor('background')
+            background-color: $colorWhite
    
     &-dark-white
-        background-color: $colorDarkWhite
+        +transformerConstructor('background')
+            background-color: $colorDarkWhite
 
     &-lighter-grey
-        background-color: $colorLighterGrey
+        +transformerConstructor('background')
+            background-color: $colorLighterGrey
 
     &-light-grey
-        background-color: $colorLightGrey
+        +transformerConstructor('background')
+            background-color: $colorLightGrey
 
     &-grey
-        background-color: $colorGrey
+        +transformerConstructor('background')
+            background-color: $colorGrey
 
     &-dark-grey
-        background-color: $colorDarkGrey
+        +transformerConstructor('background')
+            background-color: $colorDarkGrey
 
     &-darker-grey
-        background-color: $colorDarkerGrey
+        +transformerConstructor('background')
+            background-color: $colorDarkerGrey
 
     &-light-black
-        background-color: $colorLightBlack
+        +transformerConstructor('background')
+            background-color: $colorLightBlack
 
     &-black
-        background-color: $colorBlack
+        +transformerConstructor('background')
+            background-color: $colorBlack
 
     &-light-yellow
-        background-color: $colorLightYellow
+        +transformerConstructor('background')
+            background-color: $colorLightYellow
 
     &-yellow
-        background-color: $colorYellow
+        +transformerConstructor('background')
+            background-color: $colorYellow
 
     &-dark-yellow
-        background-color: $colorDarkYellow
+        +transformerConstructor('background')
+            background-color: $colorDarkYellow
 
     &-light-orange
-        background-color: $colorLightOrange
+        +transformerConstructor('background')
+            background-color: $colorLightOrange
 
     &-orange
-        background-color: $colorOrange
+        +transformerConstructor('background')
+            background-color: $colorOrange
 
     &-dark-orange
-        background-color: $colorDarkOrange
+        +transformerConstructor('background')
+            background-color: $colorDarkOrange
 
     &-light-red
-        background-color: $colorLightRed
+        +transformerConstructor('background')
+            background-color: $colorLightRed
 
     &-red
-        background-color: $colorRed
+        +transformerConstructor('background')
+            background-color: $colorRed
 
     &-dark-red
-        background-color: $colorDarkRed
+        +transformerConstructor('background')
+            background-color: $colorDarkRed
 
     &-light-purple
-        background-color: $colorLightPurple
+        +transformerConstructor('background')
+            background-color: $colorLightPurple
 
     &-purple
-        background-color: $colorPurple
+        +transformerConstructor('background')
+            background-color: $colorPurple
 
     &-dark-purple
-        background-color: $colorDarkPurple
+        +transformerConstructor('background')
+            background-color: $colorDarkPurple
 
     &-light-blue
-        background-color: $colorLightBlue
+        +transformerConstructor('background')
+            background-color: $colorLightBlue
 
     &-blue
-        background-color: $colorBlue
+        +transformerConstructor('background')
+            background-color: $colorBlue
 
     &-dark-blue
-        background-color: $colorDarkBlue
+        +transformerConstructor('background')
+            background-color: $colorDarkBlue
 
     &-light-mint
-        background-color: $colorLightMint
+        +transformerConstructor('background')
+            background-color: $colorLightMint
 
     &-mint
-        background-color: $colorMint
+        +transformerConstructor('background')
+            background-color: $colorMint
 
     &-dark-mint
-        background-color: $colorDarkMint
+        +transformerConstructor('background')
+            background-color: $colorDarkMint
 
     &-light-green
-        background-color: $colorLightGreen
+        +transformerConstructor('background')
+            background-color: $colorLightGreen
 
     &-green
-        background-color: $colorGreen
+        +transformerConstructor('background')
+            background-color: $colorGreen
 
     &-dark-green
-        background-color: $colorDarkGreen
+        +transformerConstructor('background')
+            background-color: $colorDarkGreen
     
     &-none
-        background-color: transparent
+        +transformerConstructor('background')
+            background-color: transparent
 
 
 // Border
 
 .leto-border
-    border: 1px solid $colorGrey
+    +transformerConstructor('border')
+        border: 1px solid $colorGrey
 
     &-horizontal
-        border-top: 1px solid $colorGrey
-        border-bottom: 1px solid $colorGrey
+        +transformerConstructor('border')
+            border-top: 1px solid $colorGrey
+            border-bottom: 1px solid $colorGrey
 
     &-vertical
-        border-left: 1px solid $colorGrey
-        border-right: 1px solid $colorGrey
+        +transformerConstructor('border')
+            border-left: 1px solid $colorGrey
+            border-right: 1px solid $colorGrey
 
     &-top
-        border-top: 1px solid $colorGrey
+        +transformerConstructor('border')
+            border-top: 1px solid $colorGrey
 
     &-left
-        border-left: 1px solid $colorGrey
+        +transformerConstructor('border')
+            border-left: 1px solid $colorGrey
 
     &-right
-        border-right: 1px solid $colorGrey
+        +transformerConstructor('border')
+            border-right: 1px solid $colorGrey
 
     &-bottom
-        border-bottom: 1px solid $colorGrey
+        +transformerConstructor('border')
+            border-bottom: 1px solid $colorGrey
 
     &-white
-        border-color: $colorWhite
+        +transformerConstructor('border')
+            border-color: $colorWhite
    
     &-dark-white
-        border-color: $colorDarkWhite
+        +transformerConstructor('border')
+            border-color: $colorDarkWhite
 
     &-lighter-grey
-        border-color: $colorLighterGrey
+        +transformerConstructor('border')
+            border-color: $colorLighterGrey
 
     &-light-grey
-        border-color: $colorLightGrey
+        +transformerConstructor('border')
+            border-color: $colorLightGrey
 
     &-grey
-        border-color: $colorGrey
+        +transformerConstructor('border')
+            border-color: $colorGrey
 
     &-dark-grey
-        border-color: $colorDarkGrey
+        +transformerConstructor('border')
+            border-color: $colorDarkGrey
 
     &-darker-grey
-        border-color: $colorDarkerGrey
+        +transformerConstructor('border')
+            border-color: $colorDarkerGrey
 
     &-light-black
-        border-color: $colorLightBlack
+        +transformerConstructor('border')
+            border-color: $colorLightBlack
 
     &-black
-        border-color: $colorBlack
+        +transformerConstructor('border')
+            border-color: $colorBlack
 
     &-light-yellow
-        border-color: $colorLightYellow
+        +transformerConstructor('border')
+            border-color: $colorLightYellow
 
     &-yellow
-        border-color: $colorYellow
+        +transformerConstructor('border')
+            border-color: $colorYellow
 
     &-dark-yellow
-        border-color: $colorDarkYellow
+        +transformerConstructor('border')
+            border-color: $colorDarkYellow
 
     &-light-orange
-        border-color: $colorLightOrange
+        +transformerConstructor('border')
+            border-color: $colorLightOrange
 
     &-orange
-        border-color: $colorOrange
+        +transformerConstructor('border')
+            border-color: $colorOrange
 
     &-dark-orange
-        border-color: $colorDarkOrange
+        +transformerConstructor('border')
+            border-color: $colorDarkOrange
 
     &-light-red
-        border-color: $colorLightRed
+        +transformerConstructor('border')
+            border-color: $colorLightRed
 
     &-red
-        border-color: $colorRed
+        +transformerConstructor('border')
+            border-color: $colorRed
 
     &-dark-red
-        border-color: $colorDarkRed
+        +transformerConstructor('border')
+            border-color: $colorDarkRed
 
     &-light-purple
-        border-color: $colorLightPurple
+        +transformerConstructor('border')
+            border-color: $colorLightPurple
 
     &-purple
-        border-color: $colorPurple
+        +transformerConstructor('border')
+            border-color: $colorPurple
 
     &-dark-purple
-        border-color: $colorDarkPurple
+        +transformerConstructor('border')
+            border-color: $colorDarkPurple
 
     &-light-blue
-        border-color: $colorLightBlue
+        +transformerConstructor('border')
+            border-color: $colorLightBlue
 
     &-blue
-        border-color: $colorBlue
+        +transformerConstructor('border')
+            border-color: $colorBlue
 
     &-dark-blue
-        border-color: $colorDarkBlue
+        +transformerConstructor('border')
+            border-color: $colorDarkBlue
 
     &-light-mint
-        border-color: $colorLightMint
+        +transformerConstructor('border')
+            border-color: $colorLightMint
 
     &-mint
-        border-color: $colorMint
+        +transformerConstructor('border')
+            border-color: $colorMint
 
     &-dark-mint
-        border-color: $colorDarkMint
+        +transformerConstructor('border')
+            border-color: $colorDarkMint
 
     &-light-green
-        border-color: $colorLightGreen
+        +transformerConstructor('border')
+            border-color: $colorLightGreen
 
     &-green
-        border-color: $colorGreen
+        +transformerConstructor('border')
+            border-color: $colorGreen
 
     &-dark-green
-        border-color: $colorDarkGreen
+        +transformerConstructor('border')
+            border-color: $colorDarkGreen
 
     &-none
-        border: none
+        +transformerConstructor('border')
+            border: none
 
 
 // Roundness
 
 .leto-roundness
-    border-radius: $md
+    +transformerConstructor('roundness')
+        border-radius: $standardSize
 
     &-xxs
-        border-radius: $xxs 
+        +transformerConstructor('roundness')
+            border-radius: $xxs 
 
     &-xs
-        border-radius: $xs
+        +transformerConstructor('roundness')
+            border-radius: $xs
 
     &-sm
-        border-radius: $sm
+        +transformerConstructor('roundness')
+            border-radius: $sm
 
     &-md
-        border-radius: $md
+        +transformerConstructor('roundness')
+            border-radius: $md
 
     &-lg
-        border-radius: $lg
+        +transformerConstructor('roundness')
+            border-radius: $lg
 
     &-xl
-        border-radius: $xl
+        +transformerConstructor('roundness')
+            border-radius: $xl
 
     &-xxl
-        border-radius: $xxl
+        +transformerConstructor('roundness')
+            border-radius: $xxl
 
     &-full
-        border-radius: 1000px
+        +transformerConstructor('roundness')
+            border-radius: 1000px
 
     &-top
-        border-radius: $md $md 0 0 
+        +transformerConstructor('roundness')
+            border-radius: $standardSize $standardSize 0 0 
 
         &-xxs
-            border-radius: $xxs $xxs 0 0 
+            +transformerConstructor('roundness')
+                border-radius: $xxs $xxs 0 0 
 
         &-xs
-            border-radius: $xs $xs 0 0
+            +transformerConstructor('roundness')
+                border-radius: $xs $xs 0 0
 
         &-sm
-            border-radius: $sm $sm 0 0
+            +transformerConstructor('roundness')
+                border-radius: $sm $sm 0 0
 
         &-md
-            border-radius: $md $md 0 0
+            +transformerConstructor('roundness')
+                border-radius: $md $md 0 0
 
         &-lg
-            border-radius: $lg $lg 0 0
+            +transformerConstructor('roundness')
+                border-radius: $lg $lg 0 0
 
         &-xl
-            border-radius: $xl $xl 0 0
+            +transformerConstructor('roundness')
+                border-radius: $xl $xl 0 0
 
         &-xxl
-            border-radius: $xxl $xxl 0 0
+            +transformerConstructor('roundness')
+                border-radius: $xxl $xxl 0 0
 
         &-full
-            border-radius: 1000px 1000px 0 0
+            +transformerConstructor('roundness')
+                border-radius: 1000px 1000px 0 0
 
-        &-left
-            border-radius: $md 0 0 0 
+    &-left
+        +transformerConstructor('roundness')
+            border-radius: $standardSize 0 0 0 
 
-            &-xxs
+        &-xxs
+            +transformerConstructor('roundness')
                 border-radius: $xxs 0 0 0 
 
-            &-xs
+        &-xs
+            +transformerConstructor('roundness')
                 border-radius: $xs 0 0 0
 
-            &-sm
+        &-sm
+            +transformerConstructor('roundness')
                 border-radius: $sm 0 0 0
 
-            &-md
+        &-md
+            +transformerConstructor('roundness')
                 border-radius: $md 0 0 0
 
-            &-lg
+        &-lg
+            +transformerConstructor('roundness')
                 border-radius: $lg 0 0 0
 
-            &-xl
+        &-xl
+            +transformerConstructor('roundness')
                 border-radius: $xl 0 0 0
 
-            &-xxl
+        &-xxl
+            +transformerConstructor('roundness')
                 border-radius: $xxl 0 0 0
 
-            &-full
-                border-radius: 1000px 0 0 0
-        
-        &-right
-            border-radius: 0 $md 0 0 
+        &-full
+            border-radius: 1000px 0 0 0
+    
+    &-right
+        +transformerConstructor('roundness')
+            border-radius: 0 $standardSize 0 0 
 
-            &-xxs
+        &-xxs
+            +transformerConstructor('roundness')
                 border-radius: 0 $xxs 0 0
 
-            &-xs
+        &-xs
+            +transformerConstructor('roundness')
                 border-radius: 0 $xs 0 0
 
-            &-sm
+        &-sm
+            +transformerConstructor('roundness')
                 border-radius: 0 $sm 0 0
 
-            &-md
+        &-md
+            +transformerConstructor('roundness')
                 border-radius: 0 $md 0 0
 
-            &-lg
+        &-lg
+            +transformerConstructor('roundness')
                 border-radius: 0 $lg 0 0
 
-            &-xl
+        &-xl
+            +transformerConstructor('roundness')
                 border-radius: 0 $xl 0 0
 
-            &-xxl
+        &-xxl
+            +transformerConstructor('roundness')
                 border-radius: 0 $xxl 0 0
 
-            &-full
+        &-full
+            +transformerConstructor('roundness')
                 border-radius: 0 1000px 0 0
 
     &-bottom
-        border-radius: 0 0 $md $md 
+        +transformerConstructor('roundness')
+            border-radius: 0 0 $standardSize $standardSize 
 
         &-xxs
-            border-radius: 0 0 $xxs $xxs
+            +transformerConstructor('roundness')
+                border-radius: 0 0 $xxs $xxs
 
         &-xs
-            border-radius: 0 0 $xs $xs 
+            +transformerConstructor('roundness')
+                border-radius: 0 0 $xs $xs 
 
         &-sm
-            border-radius: 0 0 $sm $sm
+            +transformerConstructor('roundness')
+                border-radius: 0 0 $sm $sm
 
         &-md
-            border-radius: 0 0 $md $md
+            +transformerConstructor('roundness')
+                border-radius: 0 0 $md $md
 
         &-lg
-            border-radius: 0 0 $lg $lg 
+            +transformerConstructor('roundness')
+                border-radius: 0 0 $lg $lg 
 
         &-xl
-            border-radius: 0 0 $xl $xl 
+            +transformerConstructor('roundness')
+                border-radius: 0 0 $xl $xl 
 
         &-xxl
-            border-radius: 0 0 $xxl $xxl
+            +transformerConstructor('roundness')
+                border-radius: 0 0 $xxl $xxl
 
         &-full
-            border-radius: 0 0 1000px 1000px
-
-        &-right
-            border-radius: 0 0 $md 0 
-
-            &-xxs
-                border-radius: 0 0 $xxs 0 
-
-            &-xs
-                border-radius: 0 0 $xs 0 
-
-            &-sm
-                border-radius: 0 0 $sm 0 
-
-            &-md
-                border-radius: 0 0 $md 0 
-
-            &-lg
-                border-radius: 0 0 $lg 0 
-
-            &-xl
-                border-radius: 0 0 $xl 0 
-
-            &-xxl
-                border-radius: 0 0 $xxl 0
-
-            &-full
-                border-radius: 0 0 1000px 0
-        
-        &-left
-            border-radius: 0 0 0 $md 0 
-
-            &-xxs
-                border-radius: 0 0 0 $xxs 
-
-            &-xs
-                border-radius: 0 0 0 $xs
-
-            &-sm
-                border-radius: 0 0 0 $sm
-
-            &-md
-                border-radius: 0 0 0 $md 
-
-            &-lg
-                border-radius: 0 0 0 $lg
-
-            &-xl
-                border-radius: 0 0 0 $xl
-
-            &-xxl
-                border-radius: 0 0 0 $xxl
-
-            &-full
-                border-radius: 0 0 0 1000px
+            +transformerConstructor('roundness')
+                border-radius: 0 0 1000px 1000px
 
 
 // Text        
 
 .leto-text
-    font-size: $fontSizeMD
-
-    &-xxs
-        font-size: $fontSizeXXS
-
-    &-xs
-        font-size: $fontSizeXS
-
-    &-sm
-        font-size: $fontSizeSM
-
-    &-md
+    +transformerConstructor('text')
         font-size: $fontSizeMD
 
+    &-xxs
+        +transformerConstructor('text')
+            font-size: $fontSizeXXS
+
+    &-xs
+        +transformerConstructor('text')
+            font-size: $fontSizeXS
+
+    &-sm
+        +transformerConstructor('text')
+            font-size: $fontSizeSM
+
+    &-md
+        +transformerConstructor('text')
+            font-size: $fontSizeMD
+
     &-lg
-        font-size: $fontSizeLG
+        +transformerConstructor('text')
+            font-size: $fontSizeLG
 
     &-xl
-        font-size: $fontSizeXL
+        +transformerConstructor('text')
+            font-size: $fontSizeXL
 
     &-xxl
-        font-size: $fontSizeXXL
+        +transformerConstructor('text')
+            font-size: $fontSizeXXL
 
     &-light
-        font-weight: $fontWeightLight
+        +transformerConstructor('text')
+            font-weight: $fontWeightLight
 
     &-regular
-        font-weight: $fontWeightRegular
+        +transformerConstructor('text')
+            font-weight: $fontWeightRegular
 
     &-medium
-        font-weight: $fontWeightMedium
+        +transformerConstructor('text')
+            font-weight: $fontWeightMedium
 
     &-bold
-        font-weight: $fontWeightBold
+        +transformerConstructor('text')
+            font-weight: $fontWeightBold
 
     &-bolder
-        font-weight: $fontWeightBlack
+        +transformerConstructor('text')
+            font-weight: $fontWeightBlack
 
     &-italic
-        font-style: italic
+        +transformerConstructor('text')
+            font-style: italic
 
     &-uppercase
-        text-transform: uppercase
+        +transformerConstructor('text')
+            text-transform: uppercase
 
     &-ellipsis
-        white-space: nowrap
-        overflow: hidden
-        text-overflow: ellipsis
+        +transformerConstructor('text')
+            white-space: nowrap
+            overflow: hidden
+            text-overflow: ellipsis
 
     &-link
-        color: $colorBlue
-        cursor: pointer
+        +transformerConstructor('text')
+            color: $colorBlue
+            cursor: pointer
 
-        &:hover
-            color: $colorDarkBlue
+            &:hover
+                color: $colorDarkBlue
 
     &-left
-        text-align: left
+        +transformerConstructor('text')
+            text-align: left
 
     &-center
-        text-align: center
+        +transformerConstructor('text')
+            text-align: center
         
     &-right
-        text-align: right
+        +transformerConstructor('text')
+            text-align: right
 
     &-white
-        color: $colorWhite
+        +transformerConstructor('text')
+            color: $colorWhite
    
     &-dark-white
-        color: $colorDarkWhite
+        +transformerConstructor('text')
+            color: $colorDarkWhite
 
     &-lighter-grey
-        color: $colorLighterGrey
+        +transformerConstructor('text')
+            color: $colorLighterGrey
 
     &-light-grey
-        color: $colorLightGrey
+        +transformerConstructor('text')
+            color: $colorLightGrey
 
     &-grey
-        color: $colorGrey
+        +transformerConstructor('text')
+            color: $colorGrey
 
     &-dark-grey
-        color: $colorDarkGrey
+        +transformerConstructor('text')
+            color: $colorDarkGrey
 
     &-darker-grey
-        color: $colorDarkerGrey
+        +transformerConstructor('text')
+            color: $colorDarkerGrey
 
     &-light-black
-        color: $colorLightBlack
+        +transformerConstructor('text')
+            color: $colorLightBlack
 
     &-black
-        color: $colorBlack
+        +transformerConstructor('text')
+            color: $colorBlack
 
     &-light-yellow
-        color: $colorLightYellow
+        +transformerConstructor('text')
+            color: $colorLightYellow
 
     &-yellow
-        color: $colorYellow
+        +transformerConstructor('text')
+            color: $colorYellow
 
     &-dark-yellow
-        color: $colorDarkYellow
+        +transformerConstructor('text')
+            color: $colorDarkYellow
 
     &-light-orange
-        color: $colorLightOrange
+        +transformerConstructor('text')
+            color: $colorLightOrange
 
     &-orange
-        color: $colorOrange
+        +transformerConstructor('text')
+            color: $colorOrange
 
     &-dark-orange
-        color: $colorDarkOrange
+        +transformerConstructor('text')
+            color: $colorDarkOrange
 
     &-light-red
-        color: $colorLightRed
+        +transformerConstructor('text')
+            color: $colorLightRed
 
     &-red
-        color: $colorRed
+        +transformerConstructor('text')
+            color: $colorRed
 
     &-dark-red
-        color: $colorDarkRed
+        +transformerConstructor('text')
+            color: $colorDarkRed
 
     &-light-purple
-        color: $colorLightPurple
+        +transformerConstructor('text')
+            color: $colorLightPurple
 
     &-purple
-        color: $colorPurple
+        +transformerConstructor('text')
+            color: $colorPurple
 
     &-dark-purple
-        color: $colorDarkPurple
+        +transformerConstructor('text')
+            color: $colorDarkPurple
 
     &-light-blue
-        color: $colorLightBlue
+        +transformerConstructor('text')
+            color: $colorLightBlue
 
     &-blue
-        color: $colorBlue
+        +transformerConstructor('text')
+            color: $colorBlue
 
     &-dark-blue
-        color: $colorDarkBlue
+        +transformerConstructor('text')
+            color: $colorDarkBlue
 
     &-light-mint
-        color: $colorLightMint
+        +transformerConstructor('text')
+            color: $colorLightMint
 
     &-mint
-        color: $colorMint
+        +transformerConstructor('text')
+            color: $colorMint
 
     &-dark-mint
-        color: $colorDarkMint
+        +transformerConstructor('text')
+            color: $colorDarkMint
 
     &-light-green
-        color: $colorLightGreen
+        +transformerConstructor('text')
+            color: $colorLightGreen
 
     &-green
-        color: $colorGreen
+        +transformerConstructor('text')
+            color: $colorGreen
 
     &-dark-green
-        color: $colorDarkGreen
+        +transformerConstructor('text')
+            color: $colorDarkGreen
 
     &-none
-        color: transparent
+        +transformerConstructor('text')
+            color: transparent
 
 
 // Margin
 
 .leto-m, .leto-margin
-    +margin($standardSize)
+    +transformerConstructor('margin')
+        +margin($standardSize)
 
     &-xxs
-        +margin($xxs / 2)
+        +transformerConstructor('margin')
+            +margin($xxs / 2)
 
     &-xs
-        +margin($xs * (2 / 3))
+        +transformerConstructor('margin')
+            +margin($xs * (2 / 3))
 
     &-sm
-        +margin($sm)
+        +transformerConstructor('margin')
+            +margin($sm)
 
     &-md
-        +margin($md)
+        +transformerConstructor('margin')
+            +margin($md)
 
     &-lg
-        +margin($lg)
+        +transformerConstructor('margin')
+            +margin($lg)
 
     &-xl
-        +margin($xl)
+        +transformerConstructor('margin')
+            +margin($xl)
 
     &-xxl
-        +margin($xxl)
+        +transformerConstructor('margin')
+            +margin($xxl)
 
     &-none
-        +margin(0)
+        +transformerConstructor('margin')
+            +margin(0)
 
     &-balance
-        +marginBalance($standardSize)
+        +transformerConstructor('margin')
+            +marginBalance($standardSize)
 
         &-xxs
-            +marginBalance($xxs / 2)
+            +transformerConstructor('margin')
+                +marginBalance($xxs / 2)
 
         &-xs
-            +marginBalance($xs * (2 / 3))
+            +transformerConstructor('margin')
+                +marginBalance($xs * (2 / 3))
 
         &-sm
-            +marginBalance($sm)
+            +transformerConstructor('margin')
+                +marginBalance($sm)
 
         &-md
-            +marginBalance($md)
+            +transformerConstructor('margin')
+                +marginBalance($md)
 
         &-lg
-            +marginBalance($lg)
+            +transformerConstructor('margin')
+                +marginBalance($lg)
 
         &-xl
-            +marginBalance($xl)
+            +transformerConstructor('margin')
+                +marginBalance($xl)
 
         &-xxl
-            +marginBalance($xxl)
+            +transformerConstructor('margin')
+                +marginBalance($xxl)
 
 .leto-mh, .leto-margin-horizontal
-    +marginX($standardSize)
+    +transformerConstructor('margin')
+        +marginX($standardSize)
 
     &-xxs
-        +marginX($xxs / 2)
+        +transformerConstructor('margin')
+            +marginX($xxs / 2)
 
     &-xs
-        +marginX($xs * (2 / 3))
+        +transformerConstructor('margin')
+            +marginX($xs * (2 / 3))
 
     &-sm
-        +marginX($sm)
+        +transformerConstructor('margin')
+            +marginX($sm)
 
     &-md
-        +marginX($md)
+        +transformerConstructor('margin')
+            +marginX($md)
 
     &-lg
-        +marginX($lg)
+        +transformerConstructor('margin')
+            +marginX($lg)
 
     &-xl
-        +marginX($xl)
+        +transformerConstructor('margin')
+            +marginX($xl)
 
     &-xxl
-        +marginX($xxl)
+        +transformerConstructor('margin')
+            +marginX($xxl)
 
     &-none
-        +marginX(0)
+        +transformerConstructor('margin')
+            +marginX(0)
 
     &-balance
-        +marginXBalance($standardSize)
+        +transformerConstructor('margin')
+            +marginXBalance($standardSize)
 
         &-xxs
-            +marginXBalance($xxs / 2)
+            +transformerConstructor('margin')
+                +marginXBalance($xxs / 2)
 
         &-xs
-            +marginXBalance($xs * (2 / 3))
+            +transformerConstructor('margin')
+                +marginXBalance($xs * (2 / 3))
 
         &-sm
-            +marginXBalance($sm)
+            +transformerConstructor('margin')
+                +marginXBalance($sm)
 
         &-md
-            +marginXBalance($md)
+            +transformerConstructor('margin')
+                +marginXBalance($md)
 
         &-lg
-            +marginXBalance($lg)
+            +transformerConstructor('margin')
+                +marginXBalance($lg)
 
         &-xl
-            +marginXBalance($xl)
+            +transformerConstructor('margin')
+                +marginXBalance($xl)
 
         &-xxl
-            +marginXBalance($xxl)
+            +transformerConstructor('margin')
+                +marginXBalance($xxl)
   
 .leto-mv, .leto-margin-vertical
-    +marginY($standardSize)
+    +transformerConstructor('margin')
+        +marginY($standardSize)
 
     &-xxs
-        +marginY($xxs / 2)
+        +transformerConstructor('margin')
+            +marginY($xxs / 2)
 
     &-xs
-        +marginY($xs * (2 / 3))
+        +transformerConstructor('margin')
+            +marginY($xs * (2 / 3))
 
     &-sm
-        +marginY($sm)
+        +transformerConstructor('margin')
+            +marginY($sm)
 
     &-md
-        +marginY($md)
+        +transformerConstructor('margin')
+            +marginY($md)
 
     &-lg
-        +marginY($lg)
+        +transformerConstructor('margin')
+            +marginY($lg)
 
     &-xl
-        +marginY($xl)
+        +transformerConstructor('margin')
+            +marginY($xl)
 
     &-xxl
-        +marginY($xxl)
+        +transformerConstructor('margin')
+            +marginY($xxl)
 
     &-none
-        +marginY(0)
+        +transformerConstructor('margin')
+            +marginY(0)
 
     &-balance
-        +marginYBalance($standardSize)
+        +transformerConstructor('margin')
+            +marginYBalance($standardSize)
 
         &-xxs
-            +marginYBalance($xxs / 2)
+            +transformerConstructor('margin')
+                +marginYBalance($xxs / 2)
 
         &-xs
-            +marginYBalance($xs * (2 / 3))
+            +transformerConstructor('margin')
+                +marginYBalance($xs * (2 / 3))
 
         &-sm
-            +marginYBalance($sm)
+            +transformerConstructor('margin')
+                +marginYBalance($sm)
 
         &-md
-            +marginYBalance($md)
+            +transformerConstructor('margin')
+                +marginYBalance($md)
 
         &-lg
-            +marginYBalance($lg)
+            +transformerConstructor('margin')
+                +marginYBalance($lg)
 
         &-xl
-            +marginYBalance($xl)
+            +transformerConstructor('margin')
+                +marginYBalance($xl)
 
         &-xxl
-            +marginYBalance($xxl)
+            +transformerConstructor('margin')
+                +marginYBalance($xxl)
 
 .leto-mt, .leto-margin-top
-    +marginTop($standardSize)
+    +transformerConstructor('margin')
+        +marginTop($standardSize)
 
     &-xxs
-        +marginTop($xxs / 2)
+        +transformerConstructor('margin')
+            +marginTop($xxs / 2)
 
     &-xs
-        +marginTop($xs * (2 / 3))
+        +transformerConstructor('margin')
+            +marginTop($xs * (2 / 3))
 
     &-sm
-        +marginTop($sm)
+        +transformerConstructor('margin')
+            +marginTop($sm)
 
     &-md
-        +marginTop($md)
+        +transformerConstructor('margin')
+            +marginTop($md)
 
     &-lg
-        +marginTop($lg)
+        +transformerConstructor('margin')
+            +marginTop($lg)
 
     &-xl
-        +marginTop($xl)
+        +transformerConstructor('margin')
+            +marginTop($xl)
 
     &-xxl
-        +marginTop($xxl)
+        +transformerConstructor('margin')
+            +marginTop($xxl)
 
     &-none
-        +marginTop(0)
+        +transformerConstructor('margin')
+            +marginTop(0)
 
     &-balance
-        +marginTopBalance($standardSize)
+        +transformerConstructor('margin')
+            +marginTopBalance($standardSize)
 
         &-xxs
-            +marginTopBalance($xxs / 2)
+            +transformerConstructor('margin')
+                +marginTopBalance($xxs / 2)
 
         &-xs
-            +marginTopBalance($xs * (2 / 3))
+            +transformerConstructor('margin')
+                +marginTopBalance($xs * (2 / 3))
 
         &-sm
-            +marginTopBalance($sm)
+            +transformerConstructor('margin')
+                +marginTopBalance($sm)
 
         &-md
-            +marginTopBalance($md)
+            +transformerConstructor('margin')
+                +marginTopBalance($md)
 
         &-lg
-            +marginTopBalance($lg)
+            +transformerConstructor('margin')
+                +marginTopBalance($lg)
 
         &-xl
-            +marginTopBalance($xl)
+            +transformerConstructor('margin')
+                +marginTopBalance($xl)
 
         &-xxl
-            +marginTopBalance($xxl)
+            +transformerConstructor('margin')
+                +marginTopBalance($xxl)
 
 .leto-ml, .leto-margin-left
-    +marginLeft($standardSize)
+    +transformerConstructor('margin')
+        +marginLeft($standardSize)
 
     &-xxs
-        +marginLeft($xxs / 2)
+        +transformerConstructor('margin')
+            +marginLeft($xxs / 2)
 
     &-xs
-        +marginLeft($xs * (2 / 3))
+        +transformerConstructor('margin')
+            +marginLeft($xs * (2 / 3))
 
     &-sm
-        +marginLeft($sm)
+        +transformerConstructor('margin')
+            +marginLeft($sm)
 
     &-md
-        +marginLeft($md)
+        +transformerConstructor('margin')
+            +marginLeft($md)
 
     &-lg
-        +marginLeft($lg)
+        +transformerConstructor('margin')
+            +marginLeft($lg)
 
     &-xl
-        +marginLeft($xl)
+        +transformerConstructor('margin')
+            +marginLeft($xl)
 
     &-xxl
-        +marginLeft($xxl)
+        +transformerConstructor('margin')
+            +marginLeft($xxl)
 
     &-none
-        +marginLeft(0)
+        +transformerConstructor('margin')
+            +marginLeft(0)
 
     &-balance
-        +marginLeftBalance($standardSize)
+        +transformerConstructor('margin')
+            +marginLeftBalance($standardSize)
 
         &-xxs
-            +marginLeftBalance($xxs / 2)
+            +transformerConstructor('margin')
+                +marginLeftBalance($xxs / 2)
 
         &-xs
-            +marginLeftBalance($xs * (2 / 3))
+            +transformerConstructor('margin')
+                +marginLeftBalance($xs * (2 / 3))
 
         &-sm
-            +marginLeftBalance($sm)
+            +transformerConstructor('margin')
+                +marginLeftBalance($sm)
 
         &-md
-            +marginLeftBalance($md)
+            +transformerConstructor('margin')
+                +marginLeftBalance($md)
 
         &-lg
-            +marginLeftBalance($lg)
+            +transformerConstructor('margin')
+                +marginLeftBalance($lg)
 
         &-xl
-            +marginLeftBalance($xl)
+            +transformerConstructor('margin')
+                +marginLeftBalance($xl)
 
         &-xxl
-            +marginLeftBalance($xxl)
+            +transformerConstructor('margin')
+                +marginLeftBalance($xxl)
 
 
 .leto-mr, .leto-margin-right
-    +marginRight($standardSize)
+    +transformerConstructor('margin')
+        +marginRight($standardSize)
 
     &-xxs
-        +marginRight($xxs / 2)
+        +transformerConstructor('margin')
+            +marginRight($xxs / 2)
 
     &-xs
-        +marginRight($xs * (2 / 3))
+        +transformerConstructor('margin')
+            +marginRight($xs * (2 / 3))
 
     &-sm
-        +marginRight($sm)
+        +transformerConstructor('margin')
+            +marginRight($sm)
 
     &-md
-        +marginRight($md)
+        +transformerConstructor('margin')
+            +marginRight($md)
 
     &-lg
-        +marginRight($lg)
+        +transformerConstructor('margin')
+            +marginRight($lg)
 
     &-xl
-        +marginRight($xl)
+        +transformerConstructor('margin')
+            +marginRight($xl)
 
     &-xxl
-        +marginRight($xxl)
+        +transformerConstructor('margin')
+            +marginRight($xxl)
 
     &-none
-        +marginRight(0)
+        +transformerConstructor('margin')
+            +marginRight(0)
 
     &-balance
-        +marginRightBalance($standardSize)
+        +transformerConstructor('margin')
+            +marginRightBalance($standardSize)
 
         &-xxs
-            +marginRightBalance($xxs / 2)
+            +transformerConstructor('margin')
+                +marginRightBalance($xxs / 2)
 
         &-xs
-            +marginRightBalance($xs * (2 / 3))
+            +transformerConstructor('margin')
+                +marginRightBalance($xs * (2 / 3))
 
         &-sm
-            +marginRightBalance($sm)
+            +transformerConstructor('margin')
+                +marginRightBalance($sm)
 
         &-md
-            +marginRightBalance($md)
+            +transformerConstructor('margin')
+                +marginRightBalance($md)
 
         &-lg
-            +marginRightBalance($lg)
+            +transformerConstructor('margin')
+                +marginRightBalance($lg)
 
         &-xl
-            +marginRightBalance($xl)
+            +transformerConstructor('margin')
+                +marginRightBalance($xl)
 
         &-xxl
-            +marginRightBalance($xxl)
+            +transformerConstructor('margin')
+                +marginRightBalance($xxl)
 
 .leto-mb, .leto-margin-bottom
-    +marginBottom($standardSize)
+    +transformerConstructor('margin')
+        +marginBottom($standardSize)
 
     &-xxs
-        +marginBottom($xxs / 2)
+        +transformerConstructor('margin')
+            +marginBottom($xxs / 2)
 
     &-xs
-        +marginBottom($xs * (2 / 3))
+        +transformerConstructor('margin')
+            +marginBottom($xs * (2 / 3))
 
     &-sm
-        +marginBottom($sm)
+        +transformerConstructor('margin')
+            +marginBottom($sm)
 
     &-md
-        +marginBottom($md)
+        +transformerConstructor('margin')
+            +marginBottom($md)
 
     &-lg
-        +marginBottom($lg)
+        +transformerConstructor('margin')
+            +marginBottom($lg)
 
     &-xl
-        +marginBottom($xl)
+        +transformerConstructor('margin')
+            +marginBottom($xl)
 
     &-xxl
-        +marginBottom($xxl)
+        +transformerConstructor('margin')
+            +marginBottom($xxl)
 
     &-none
-        +marginBottom(0)
+        +transformerConstructor('margin')
+            +marginBottom(0)
 
     &-balance
-        +marginBottomBalance($standardSize)
+        +transformerConstructor('margin')
+            +marginBottomBalance($standardSize)
 
         &-xxs
-            +marginBottomBalance($xxs / 2)
+            +transformerConstructor('margin')
+                +marginBottomBalance($xxs / 2)
 
         &-xs
-            +marginBottomBalance($xs * (2 / 3))
+            +transformerConstructor('margin')
+                +marginBottomBalance($xs * (2 / 3))
 
         &-sm
-            +marginBottomBalance($sm)
+            +transformerConstructor('margin')
+                +marginBottomBalance($sm)
 
         &-md
-            +marginBottomBalance($md)
+            +transformerConstructor('margin')
+                +marginBottomBalance($md)
 
         &-lg
-            +marginBottomBalance($lg)
+            +transformerConstructor('margin')
+                +marginBottomBalance($lg)
 
         &-xl
-            +marginBottomBalance($xl)
+            +transformerConstructor('margin')
+                +marginBottomBalance($xl)
 
         &-xxl
-            +marginBottomBalance($xxl)
+            +transformerConstructor('margin')
+                +marginBottomBalance($xxl)
 
 
 // Padding
 
 .leto-p, .leto-padding
-    +padding($standardSize)
+    +transformerConstructor('padding')
+        +padding($standardSize)
 
     &-xxs
-        +padding($xxs / 2)
+        +transformerConstructor('padding')
+            +padding($xxs / 2)
 
     &-xs
-        +padding($xs * (2 / 3))
+        +transformerConstructor('padding')
+            +padding($xs * (2 / 3))
 
     &-sm
-        +padding($sm)
+        +transformerConstructor('padding')
+            +padding($sm)
 
     &-md
-        +padding($md)
+        +transformerConstructor('padding')
+            +padding($md)
 
     &-lg
-        +padding($lg)
+        +transformerConstructor('padding')
+            +padding($lg)
 
     &-xl
-        +padding($xl)
+        +transformerConstructor('padding')
+            +padding($xl)
 
     &-xxl
-        +padding($xxl)
+        +transformerConstructor('padding')
+            +padding($xxl)
 
     &-none
-        +padding(0)
+        +transformerConstructor('padding')
+            +padding(0)
 
 .leto-ph, .leto-padding-horizontal
-    +paddingX($standardSize)
+    +transformerConstructor('padding')
+        +paddingX($standardSize)
 
     &-xxs
-        +paddingX($xxs / 2)
+        +transformerConstructor('padding')
+            +paddingX($xxs / 2)
 
     &-xs
-        +paddingX($xs * (2 / 3))
+        +transformerConstructor('padding')
+            +paddingX($xs * (2 / 3))
 
     &-sm
-        +paddingX($sm)
+        +transformerConstructor('padding')
+            +paddingX($sm)
 
     &-md
-        +paddingX($md)
+        +transformerConstructor('padding')
+            +paddingX($md)
 
     &-lg
-        +paddingX($lg)
+        +transformerConstructor('padding')
+            +paddingX($lg)
 
     &-xl
-        +paddingX($xl)
+        +transformerConstructor('padding')
+            +paddingX($xl)
 
     &-xxl
-        +paddingX($xxl)
+        +transformerConstructor('padding')
+            +paddingX($xxl)
 
     &-none
-        +paddingX(0)
+        +transformerConstructor('padding')
+            +paddingX(0)
   
 .leto-pv, .leto-padding-vertical
-    +paddingY($standardSize)
+    +transformerConstructor('padding')
+        +paddingY($standardSize)
 
     &-xxs
-        +paddingY($xxs / 2)
+        +transformerConstructor('padding')
+            +paddingY($xxs / 2)
 
     &-xs
-        +paddingY($xs * (2 / 3))
+        +transformerConstructor('padding')
+            +paddingY($xs * (2 / 3))
 
     &-sm
-        +paddingY($sm)
+        +transformerConstructor('padding')
+            +paddingY($sm)
 
     &-md
-        +paddingY($md)
+        +transformerConstructor('padding')
+            +paddingY($md)
 
     &-lg
-        +paddingY($lg)
+        +transformerConstructor('padding')
+            +paddingY($lg)
 
     &-xl
-        +paddingY($xl)
+        +transformerConstructor('padding')
+            +paddingY($xl)
 
     &-xxl
-        +paddingY($xxl)
+        +transformerConstructor('padding')
+            +paddingY($xxl)
 
     &-none
-        +paddingY(0)
+        +transformerConstructor('padding')
+            +paddingY(0)
 
 .leto-pt, .leto-padding-top
-    +paddingTop($standardSize)
+    +transformerConstructor('padding')
+        +paddingTop($standardSize)
 
     &-xxs
-        +paddingTop($xxs / 2)
+        +transformerConstructor('padding')
+            +paddingTop($xxs / 2)
 
     &-xs
-        +paddingTop($xs * (2 / 3))
+        +transformerConstructor('padding')
+            +paddingTop($xs * (2 / 3))
 
     &-sm
-        +paddingTop($sm)
+        +transformerConstructor('padding')
+            +paddingTop($sm)
 
     &-md
-        +paddingTop($md)
+        +transformerConstructor('padding')
+            +paddingTop($md)
 
     &-lg
-        +paddingTop($lg)
+        +transformerConstructor('padding')
+            +paddingTop($lg)
 
     &-xl
-        +paddingTop($xl)
+        +transformerConstructor('padding')
+            +paddingTop($xl)
 
     &-xxl
-        +paddingTop($xxl)
+        +transformerConstructor('padding')
+            +paddingTop($xxl)
 
     &-none
-        +paddingTop(0)
+        +transformerConstructor('padding')
+            +paddingTop(0)
 
 .leto-pl, .leto-padding-left
-    +paddingLeft($standardSize)
+    +transformerConstructor('padding')
+        +paddingLeft($standardSize)
 
     &-xxs
-        +paddingLeft($xxs / 2)
+        +transformerConstructor('padding')
+            +paddingLeft($xxs / 2)
 
     &-xs
-        +paddingLeft($xs * (2 / 3))
+        +transformerConstructor('padding')
+            +paddingLeft($xs * (2 / 3))
 
     &-sm
-        +paddingLeft($sm)
+        +transformerConstructor('padding')
+            +paddingLeft($sm)
 
     &-md
-        +paddingLeft($md)
+        +transformerConstructor('padding')
+            +paddingLeft($md)
 
     &-lg
-        +paddingLeft($lg)
+        +transformerConstructor('padding')
+            +paddingLeft($lg)
 
     &-xl
-        +paddingLeft($xl)
+        +transformerConstructor('padding')
+            +paddingLeft($xl)
 
     &-xxl
-        +paddingLeft($xxl)
+        +transformerConstructor('padding')
+            +paddingLeft($xxl)
 
     &-none
-        +paddingLeft(0)
+        +transformerConstructor('padding')
+            +paddingLeft(0)
 
 .leto-pr, .leto-padding-right
-    +paddingRight($standardSize)
+    +transformerConstructor('padding')
+        +paddingRight($standardSize)
 
     &-xxs
-        +paddingRight($xxs / 2)
+        +transformerConstructor('padding')
+            +paddingRight($xxs / 2)
 
     &-xs
-        +paddingRight($xs * (2 / 3))
+        +transformerConstructor('padding')
+            +paddingRight($xs * (2 / 3))
 
     &-sm
-        +paddingRight($sm)
+        +transformerConstructor('padding')
+            +paddingRight($sm)
 
     &-md
-        +paddingRight($md)
+        +transformerConstructor('padding')
+            +paddingRight($md)
 
     &-lg
-        +paddingRight($lg)
+        +transformerConstructor('padding')
+            +paddingRight($lg)
 
     &-xl
-        +paddingRight($xl)
+        +transformerConstructor('padding')
+            +paddingRight($xl)
 
     &-xxl
-        +paddingRight($xxl)
+        +transformerConstructor('padding')
+            +paddingRight($xxl)
 
     &-none
-        +paddingRight(0)
+        +transformerConstructor('padding')
+            +paddingRight(0)
 
 .leto-pb, .leto-padding-bottom
-    +paddingBottom($standardSize)
+    +transformerConstructor('padding')
+        +paddingBottom($standardSize)
 
     &-xxs
-        +paddingBottom($xxs / 2)
+        +transformerConstructor('padding')
+            +paddingBottom($xxs / 2)
 
     &-xs
-        +paddingBottom($xs)
+        +transformerConstructor('padding')
+            +paddingBottom($xs)
 
     &-sm
-        +paddingBottom($sm)
+        +transformerConstructor('padding')
+            +paddingBottom($sm)
 
     &-md
-        +paddingBottom($md)
+        +transformerConstructor('padding')
+            +paddingBottom($md)
 
     &-lg
-        +paddingBottom($lg)
+        +transformerConstructor('padding')
+            +paddingBottom($lg)
 
     &-xl
-        +paddingBottom($xl)
+        +transformerConstructor('padding')
+            +paddingBottom($xl)
 
     &-xxl
-        +paddingBottom($xxl)
+        +transformerConstructor('padding')
+            +paddingBottom($xxl)
 
     &-none
-        +paddingBottom(0)
+        +transformerConstructor('padding')
+            +paddingBottom(0)
 
 
 // Overflow
 
 .leto-overflow-scroll
-    overflow: scroll
+    +transformerConstructor('overflow')
+        overflow: scroll
 
 .leto-overflow-hidden
-    overflow: hidden
+    +transformerConstructor('overflow')
+        overflow: hidden
 
 .leto-overflow-auto
-    overflow: auto
+    +transformerConstructor('overflow')
+        overflow: auto
 
 .leto-overflow-y-hidden
-    overflow-y: hidden
+    +transformerConstructor('overflow')
+        overflow-y: hidden
 
 .leto-overflow-y-scroll
-    overflow-y: scroll
+    +transformerConstructor('overflow')
+        overflow-y: scroll
 
 .leto-overflow-y-auto
-    overflow-y: auto
+    +transformerConstructor('overflow')
+        overflow-y: auto
 
 .leto-overflow-x-hidden
-    overflow-x: hidden
+    +transformerConstructor('overflow')
+        overflow-x: hidden
 
 .leto-overflow-x-scroll
-    overflow-x: scroll 
+    +transformerConstructor('overflow')
+        overflow-x: scroll 
 
 .leto-overflow-x-auto
-    overflow-x: auto
+    +transformerConstructor('overflow')
+        overflow-x: auto
 
 
 // Display
 
 .leto-block   
-    display: block
+    +transformerConstructor('display')
+        display: block
 
 .leto-inline-block   
-    display: inline-block
+    +transformerConstructor('display')
+        display: inline-block
 
 .leto-inline   
-    display: inline
+    +transformerConstructor('display')
+        display: inline
 
 .leto-flex   
-    display: flex
+    +transformerConstructor('display')
+        display: flex
 
 .leto-inline-flex
-    display: inline-flex
+    +transformerConstructor('display')
+        display: inline-flex
 
 .leto-hidden   
-    display: hidden
+    +transformerConstructor('display')
+        display: hidden
 
 
 // Index
@@ -1529,283 +1949,368 @@
 .leto-index // check
 
     &-1
-        z-index: 1
+        +transformerConstructor('index')
+            z-index: 1
 
     &-2
-        z-index: 2
+        +transformerConstructor('index')
+            z-index: 2
 
     &-3
-        z-index: 3
+        +transformerConstructor('index')
+            z-index: 3
 
     &-4
-        z-index: 4
+        +transformerConstructor('index')
+            z-index: 4
 
     &-5
-        z-index: 5
+        +transformerConstructor('index')
+            z-index: 5
 
     &-6
-        z-index: 6
+        +transformerConstructor('index')
+            z-index: 6
 
     &-7
-        z-index: 7
+        +transformerConstructor('index')
+            z-index: 7
 
     &-8
-        z-index: 8
+        +transformerConstructor('index')
+            z-index: 8
 
     &-9
-        z-index: 9
+        +transformerConstructor('index')
+            z-index: 9
 
     &-10
-        z-index: 10
+        +transformerConstructor('index')
+            z-index: 10
 
     &-11
-        z-index: 11
+        +transformerConstructor('index')
+            z-index: 11
 
     &-12
-        z-index: 12
+        +transformerConstructor('index')
+            z-index: 12
 
     &-13
-        z-index: 13
+        +transformerConstructor('index')
+            z-index: 13
 
     &-14
-        z-index: 14
+        +transformerConstructor('index')
+            z-index: 14
 
     &-15
-        z-index: 15
+        +transformerConstructor('index')
+            z-index: 15
 
     &-16
-        z-index: 16
+        +transformerConstructor('index')
+            z-index: 16
 
     &-17
-        z-index: 17
+        +transformerConstructor('index')
+            z-index: 17
 
     &-18
-        z-index: 18
+        +transformerConstructor('index')
+            z-index: 18
 
     &-19
-        z-index: 19
+        +transformerConstructor('index')
+            z-index: 19
 
     &-20
-        z-index: 20
+        +transformerConstructor('index')
+            z-index: 20
 
 
 // Disabled
 
 .leto-disabled
-    background-color: $colorLightGrey !important
-    border-color: $colorLightGrey !important
-    color: $colorDarkGrey !important
-    pointer-events: none
+    +transformerConstructor('disabled')
+        background-color: $colorLightGrey !important
+        border-color: $colorLightGrey !important
+        color: $colorDarkGrey !important
+        pointer-events: none
 
-    &::placeholder
-       color: $colorDarkGrey !important 
+        &::placeholder
+        color: $colorDarkGrey !important 
 
 
 // Click
 
 .leto-click
-    cursor: pointer
+    +transformerConstructor('click')
+        cursor: pointer
 
 
 // No Link
 
 .leto-no-link
-    color: $colorBlack
-    text-decoration: none
-    pointer-events: none
-
-    &-style
+    +transformerConstructor('noLink')
         color: $colorBlack
         text-decoration: none
+        pointer-events: none
+
+        &-style
+            color: $colorBlack
+            text-decoration: none
 
 
 // Active
 
 .leto-active
-    +active($colorGrey)
-
-    &-white
-        +active($colorWhite)
-   
-    &-dark-white
-        +active($colorDarkWhite)
-
-    &-lighter-grey
-        +active($colorLighterGrey)
-
-    &-light-grey
-        +active($colorLightGrey)
-
-    &-grey
+    +transformerConstructor('active')
         +active($colorGrey)
 
+    &-white
+        +transformerConstructor('active')
+            +active($colorWhite)
+   
+    &-dark-white
+        +transformerConstructor('active')
+            +active($colorDarkWhite)
+
+    &-lighter-grey
+        +transformerConstructor('active')
+            +active($colorLighterGrey)
+
+    &-light-grey
+        +transformerConstructor('active')
+            +active($colorLightGrey)
+
+    &-grey
+        +transformerConstructor('active')
+            +active($colorGrey)
+
     &-dark-grey
-        +active($colorDarkGrey)
+        +transformerConstructor('active')
+            +active($colorDarkGrey)
 
     &-darker-grey
-        +active($colorDarkerGrey)
+        +transformerConstructor('active')
+            +active($colorDarkerGrey)
 
     &-light-black
-        +active($colorLightBlack)
+        +transformerConstructor('active')
+            +active($colorLightBlack)
 
     &-black
-        +active($colorBlack)
+        +transformerConstructor('active')
+            +active($colorBlack)
 
     &-light-yellow
-        +active($colorLightYellow)
+        +transformerConstructor('active')
+            +active($colorLightYellow)
 
     &-yellow
-        +active($colorYellow)
+        +transformerConstructor('active')
+            +active($colorYellow)
 
     &-dark-yellow
-        +active($colorDarkYellow)
+        +transformerConstructor('active')
+            +active($colorDarkYellow)
 
     &-light-orange
-        +active($colorLightOrange)
+        +transformerConstructor('active')
+            +active($colorLightOrange)
 
     &-orange
-        +active($colorOrange)
+        +transformerConstructor('active')
+            +active($colorOrange)
 
     &-dark-orange
-        +active($colorDarkOrange)
+        +transformerConstructor('active')
+            +active($colorDarkOrange)
 
     &-light-red
-        +active($colorLightRed)
+        +transformerConstructor('active')
+            +active($colorLightRed)
 
     &-red
-        +active($colorRed)
+        +transformerConstructor('active')
+            +active($colorRed)
 
     &-dark-red
-        +active($colorDarkRed)
+        +transformerConstructor('active')
+            +active($colorDarkRed)
 
     &-light-purple
-        +active($colorLightPurple)
+        +transformerConstructor('active')
+            +active($colorLightPurple)
 
     &-purple
-        +active($colorPurple)
+        +transformerConstructor('active')
+            +active($colorPurple)
 
     &-dark-purple
-        +active($colorDarkPurple)
+        +transformerConstructor('active')
+            +active($colorDarkPurple)
 
     &-light-blue
-        +active($colorLightBlue)
+        +transformerConstructor('active')
+            +active($colorLightBlue)
 
     &-blue
-        +active($colorBlue)
+        +transformerConstructor('active')
+            +active($colorBlue)
 
     &-dark-blue
-        +active($colorDarkBlue)
+        +transformerConstructor('active')
+            +active($colorDarkBlue)
 
     &-light-mint
-        +active($colorLightMint)
+        +transformerConstructor('active')
+            +active($colorLightMint)
 
     &-mint
-        +active($colorMint)
+        +transformerConstructor('active')
+            +active($colorMint)
 
     &-dark-mint
-        +active($colorDarkMint)
+        +transformerConstructor('active')
+            +active($colorDarkMint)
 
     &-light-green
-        +active($colorLightGreen)
+        +transformerConstructor('active')
+            +active($colorLightGreen)
 
     &-green
-        +active($colorGreen)
+        +transformerConstructor('active')
+            +active($colorGreen)
 
     &-dark-green
-        +active($colorDarkGreen)
+        +transformerConstructor('active')
+            +active($colorDarkGreen)
 
 
 // Hover
 
 .leto-hover
-    +hover($colorGrey)
-
-    &-white
-        +hover($colorWhite)
-   
-    &-dark-white
-        +hover($colorDarkWhite)
-
-    &-lighter-grey
-        +hover($colorLighterGrey)
-
-    &-light-grey
-        +hover($colorLightGrey)
-
-    &-grey
+    +transformerConstructor('hover')
         +hover($colorGrey)
 
+    &-white
+        +transformerConstructor('hover')
+            +hover($colorWhite)
+   
+    &-dark-white
+        +transformerConstructor('hover')
+            +hover($colorDarkWhite)
+
+    &-lighter-grey
+        +transformerConstructor('hover')
+            +hover($colorLighterGrey)
+
+    &-light-grey
+        +transformerConstructor('hover')
+            +hover($colorLightGrey)
+
+    &-grey
+        +transformerConstructor('hover')
+            +hover($colorGrey)
+
     &-dark-grey
-        +hover($colorDarkGrey)
+        +transformerConstructor('hover')
+            +hover($colorDarkGrey)
 
     &-darker-grey
-        +hover($colorDarkerGrey)
+        +transformerConstructor('hover')
+            +hover($colorDarkerGrey)
 
     &-light-black
-        +hover($colorLightBlack)
+        +transformerConstructor('hover')
+            +hover($colorLightBlack)
 
     &-black
-        +hover($colorBlack)
+        +transformerConstructor('hover')
+            +hover($colorBlack)
 
     &-light-yellow
-        +hover($colorLightYellow)
+        +transformerConstructor('hover')
+            +hover($colorLightYellow)
 
     &-yellow
-        +hover($colorYellow)
+        +transformerConstructor('hover')
+            +hover($colorYellow)
 
     &-dark-yellow
-        +hover($colorDarkYellow)
+        +transformerConstructor('hover')
+            +hover($colorDarkYellow)
 
     &-light-orange
-        +hover($colorLightOrange)
+        +transformerConstructor('hover')
+            +hover($colorLightOrange)
 
     &-orange
-        +hover($colorOrange)
+        +transformerConstructor('hover')
+            +hover($colorOrange)
 
     &-dark-orange
-        +hover($colorDarkOrange)
+        +transformerConstructor('hover')
+            +hover($colorDarkOrange)
 
     &-light-red
-        +hover($colorLightRed)
+        +transformerConstructor('hover')
+            +hover($colorLightRed)
 
     &-red
-        +hover($colorRed)
+        +transformerConstructor('hover')
+            +hover($colorRed)
 
     &-dark-red
-        +hover($colorDarkRed)
+        +transformerConstructor('hover')
+            +hover($colorDarkRed)
 
     &-light-purple
-        +hover($colorLightPurple)
+        +transformerConstructor('hover')
+            +hover($colorLightPurple)
 
     &-purple
-        +hover($colorPurple)
+        +transformerConstructor('hover')
+            +hover($colorPurple)
 
     &-dark-purple
-        +hover($colorDarkPurple)
+        +transformerConstructor('hover')
+            +hover($colorDarkPurple)
 
     &-light-blue
-        +hover($colorLightBlue)
+        +transformerConstructor('hover')
+            +hover($colorLightBlue)
 
     &-blue
-        +hover($colorBlue)
+        +transformerConstructor('hover')
+            +hover($colorBlue)
 
     &-dark-blue
-        +hover($colorDarkBlue)
+        +transformerConstructor('hover')
+            +hover($colorDarkBlue)
 
     &-light-mint
-        +hover($colorLightMint)
+        +transformerConstructor('hover')
+            +hover($colorLightMint)
 
     &-mint
-        +hover($colorMint)
+        +transformerConstructor('hover')
+            +hover($colorMint)
 
     &-dark-mint
-        +hover($colorDarkMint)
+        +transformerConstructor('hover')
+            +hover($colorDarkMint)
 
     &-light-green
-        +hover($colorLightGreen)
+        +transformerConstructor('hover')
+            +hover($colorLightGreen)
 
     &-green
-        +hover($colorGreen)
+        +transformerConstructor('hover')
+            +hover($colorGreen)
 
     &-dark-green
-        +hover($colorDarkGreen)
+        +transformerConstructor('hover')
+            +hover($colorDarkGreen)

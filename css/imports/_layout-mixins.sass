@@ -1,40 +1,41 @@
 @import '_variables.sass'
-
+@import '_white-lists.sass'
 
 // Layout contructor
 
-=layoutConstructor()
+=layoutConstructor($elementName)
     @content
     
-    @media (min-width: $tablet)
+    @if checkLayoutMQList($elementName)
+        @media (min-width: $tablet)
 
-        &-tablet
-            @content
+            &-tablet
+                @content
 
-    @media (min-width: $tabletAndPC)
+        @media (min-width: $tabletAndPC)
 
-        &-tablet-pc
-            @content
+            &-tablet-pc
+                @content
 
-    @media (min-width: $tabletAndPC) and ($touchDevice)
+        @media (min-width: $tabletAndPC) and ($touchDevice)
 
-        &-tablet-pc
-            @content
+            &-tablet-pc
+                @content
 
-    @media (min-width: $pc)
+        @media (min-width: $pc)
 
-        &-pc
-            @content
+            &-pc
+                @content
 
-    @media (min-aspect-ratio: $ultrawideRatio) and (min-width: $ultrawide)
+        @media (min-aspect-ratio: $ultrawideRatio) and (min-width: $ultrawide)
 
-        &-ultrawide
-            @content
+            &-ultrawide
+                @content
 
-    @media (min-aspect-ratio: $superUltrawideRatio) and (min-width: $ultrawide)
-        
-        &-super-ultrawide
-            @content
+        @media (min-aspect-ratio: $superUltrawideRatio) and (min-width: $ultrawide)
+            
+            &-super-ultrawide
+                @content
 
 
 // Masonry
@@ -96,21 +97,6 @@
 =letoFlexAreas($width)
     width: $width
     padding: $basicPadding
-
-    @media (min-width: $tablet)
-
-        &-tablet
-            width: $width
-
-    @media (min-width: $pc)
-
-        &-pc
-            width: $width
-
-    @media (min-aspect-ratio: $ultrawideRatio) and (min-width: $ultrawide)
-
-        &-ultrawide
-            width: $width
 
     > *
         width: 100%

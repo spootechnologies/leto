@@ -2,14 +2,14 @@
 @use "sass:map";
 
 $themes: (
-        default: (
-                bg: $lightModeBgColor,
-                text: $lightModeColor,
-        ),
-        dark: (
-                bg: $darkModeBgColor,
-                text: $darkModeColor,
-        ),
+    default: (
+        bg: $lightModeBgColor,
+        text: $lightModeColor,
+    ),
+    dark: (
+        bg: $darkModeBgColor,
+        text: $darkModeColor,
+    ),
 );
 
 @mixin themed() {
