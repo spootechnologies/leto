@@ -1,14 +1,16 @@
 @import '_variables.sass'
 @use 'sass:map'
 
-$bubbleDefaultAttrVal: ('bg': transparent, 'color': $colorBlack, 'borderWidth': 1px, 'borderColor': $colorGrey, 'borderRadius': 100%)
-$cardDefaultAttrVal: ('bg': transparent, 'color': $colorBlack, 'borderWidth': 1px, 'borderColor': $colorGrey, 'borderRadius': $standardRoundness)
-$buttonDefaultAttrVal: ('bg': $colorWhite, 'color': $colorBlack, 'borderWidth': 1px, 'borderColor': $colorGrey, 'borderRadius': 128px)
-$badgeDefaultAttrVal: ('bg': $colorWhite, 'color': $colorBlack, 'borderWidth': 1px, 'borderColor': $colorGrey, 'borderRadius': 128px)
-$inputDefaultAttrVal: ('bg': $colorWhite, 'color': $colorBlack, 'borderWidth': 1px, 'borderColor': $colorGrey, 'borderRadius': $standardRoundness)
-$searchDefaultAttrVal: ('bg': $colorLightGrey, 'color': $colorBlack, 'borderWidth': 1px, 'borderColor': $colorGrey, 'borderRadius': $standardRoundness)
-$textareaDefaultAttrVal: ('bg': $colorWhite, 'color': $colorBlack, 'borderWidth': 1px, 'borderColor': $colorGrey, 'borderRadius': $standardRoundness)
-$selectDefaultAttrVal: ('bg': $colorWhite, 'color': $colorBlack, 'borderWidth': 1px, 'borderColor': $colorGrey, 'borderRadius': $standardRoundness)
+$bubbleDefaultAttrVal: ('bg': transparent, 'multiplier': 2.5, 'color': $colorBlack, 'borderWidth': 1px, 'borderColor': $colorGrey, 'borderRadius': 100%)
+$cardDefaultAttrVal: ('bg': transparent, 'multiplier': $elementSizeMultipier, 'color': $colorBlack, 'borderWidth': 1px, 'borderColor': $colorGrey, 'borderRadius': $standardRoundness)
+$buttonDefaultAttrVal: ('bg': $colorWhite, 'multiplier': $elementSizeMultipier, 'color': $colorBlack, 'borderWidth': 1px, 'borderColor': $colorGrey, 'borderRadius': 128px)
+$badgeDefaultAttrVal: ('bg': $colorWhite, 'multiplier': $elementSizeMultipier, 'color': $colorBlack, 'borderWidth': 1px, 'borderColor': $colorGrey, 'borderRadius': 128px)
+$inputDefaultAttrVal: ('bg': $colorWhite, 'multiplier': $elementSizeMultipier, 'color': $colorBlack, 'borderWidth': 1px, 'borderColor': $colorGrey, 'borderRadius': $standardRoundness)
+$radioDefaultAttrVal: ('bg': $colorWhite, 'multiplier': $elementSizeMultipier, 'color': $colorBlack, 'borderWidth': 1px, 'borderColor': $colorGrey, 'borderRadius': $standardRoundness)
+$checkboxDefaultAttrVal: ('bg': $colorWhite, 'multiplier': $elementSizeMultipier, 'color': $colorBlack, 'borderWidth': 1px, 'borderColor': $colorGrey, 'borderRadius': $standardRoundness)
+$searchDefaultAttrVal: ('bg': $colorLightGrey, 'multiplier': $elementSizeMultipier, 'color': $colorBlack, 'borderWidth': 1px, 'borderColor': $colorGrey, 'borderRadius': $standardRoundness)
+$textareaDefaultAttrVal: ('bg': $colorWhite, 'multiplier': $elementSizeMultipier, 'color': $colorBlack, 'borderWidth': 1px, 'borderColor': $colorGrey, 'borderRadius': $standardRoundness)
+$selectDefaultAttrVal: ('bg': $colorWhite, 'multiplier': $elementSizeMultipier, 'color': $colorBlack, 'borderWidth': 1px, 'borderColor': $colorGrey, 'borderRadius': $standardRoundness)
 $pileDefaultAttrVal: ('bg': transparent, 'color': $colorBlack, 'borderWidth': 1px, 'borderColor': $colorGrey, 'borderRadius': $standardRoundness)
 $formDefaultAttrVal: ('bg': $colorWhite, 'color': $colorBlack, 'borderWidth': 1px, 'borderColor': $colorGrey, 'borderRadius': 0)
 
@@ -25,7 +27,11 @@ $formDefaultAttrVal: ('bg': $colorWhite, 'color': $colorBlack, 'borderWidth': 1p
     @else if $elementName == 'badge'
         $value: map-get($badgeDefaultAttrVal, $attr)
     @else if $elementName == 'input'
-        $value: map-get($inputDefaultAttrVal, $attr)                
+        $value: map-get($inputDefaultAttrVal, $attr)   
+    @else if $elementName == 'radio'
+        $value: map-get($radioDefaultAttrVal, $attr)   
+    @else if $elementName == 'checkbox'
+        $value: map-get($radioDefaultAttrVal, $attr)               
     @else if $elementName == 'search'
         $value: map-get($searchDefaultAttrVal, $attr)
     @else if $elementName == 'textarea'

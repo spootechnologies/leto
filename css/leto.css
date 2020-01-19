@@ -7982,10 +7982,10 @@ p, b {
 
 .leto-input[type="radio"] {
   position: relative;
-  width: 24px;
-  height: 24px;
+  width: 48px;
+  height: 48px;
   cursor: pointer;
-  margin: calc(24px / 2 + 8px);
+  margin: calc((24px * 2) / 2 + 8px);
 }
 
 .leto-input[type="radio"]:before, .leto-input[type="radio"]:after {
@@ -7997,16 +7997,16 @@ p, b {
   width: 200%;
   height: 200%;
   background-color: #303030;
-  border: 1px solid #fdfdfd;
+  border: 1px solid #e1e1e1;
   border-radius: 100%;
-  margin: calc(-1 * 24px / 2);
+  margin: calc(-1 * (24px * 2) / 2);
 }
 
 .leto-input[type="radio"]:after {
   width: calc(200% - 16px);
   height: calc(200% - 16px);
   border-radius: 100%;
-  margin: calc(8px - 24px / 2);
+  margin: calc(8px - (24px * 2) / 2);
 }
 
 .leto-input[type="radio"]:checked:after {
@@ -8015,10 +8015,10 @@ p, b {
 
 .leto-input-xxs[type="radio"] {
   position: relative;
-  width: 8px;
-  height: 8px;
+  width: 16px;
+  height: 16px;
   cursor: pointer;
-  margin: calc(8px / 2 + 8px);
+  margin: calc((8px * 2) / 2 + 8px);
 }
 
 .leto-input-xxs[type="radio"]:before, .leto-input-xxs[type="radio"]:after {
@@ -8030,16 +8030,16 @@ p, b {
   width: 200%;
   height: 200%;
   background-color: #303030;
-  border: 1px solid #fdfdfd;
+  border: 1px solid #e1e1e1;
   border-radius: 100%;
-  margin: calc(-1 * 8px / 2);
+  margin: calc(-1 * (8px * 2) / 2);
 }
 
 .leto-input-xxs[type="radio"]:after {
   width: calc(200% - 16px);
   height: calc(200% - 16px);
   border-radius: 100%;
-  margin: calc(8px - 8px / 2);
+  margin: calc(8px - (8px * 2) / 2);
 }
 
 .leto-input-xxs[type="radio"]:checked:after {
@@ -8048,10 +8048,10 @@ p, b {
 
 .leto-input-xs[type="radio"] {
   position: relative;
-  width: 12px;
-  height: 12px;
+  width: 24px;
+  height: 24px;
   cursor: pointer;
-  margin: calc(12px / 2 + 8px);
+  margin: calc((12px * 2) / 2 + 8px);
 }
 
 .leto-input-xs[type="radio"]:before, .leto-input-xs[type="radio"]:after {
@@ -8063,16 +8063,16 @@ p, b {
   width: 200%;
   height: 200%;
   background-color: #303030;
-  border: 1px solid #fdfdfd;
+  border: 1px solid #e1e1e1;
   border-radius: 100%;
-  margin: calc(-1 * 12px / 2);
+  margin: calc(-1 * (12px * 2) / 2);
 }
 
 .leto-input-xs[type="radio"]:after {
   width: calc(200% - 16px);
   height: calc(200% - 16px);
   border-radius: 100%;
-  margin: calc(8px - 12px / 2);
+  margin: calc(8px - (12px * 2) / 2);
 }
 
 .leto-input-xs[type="radio"]:checked:after {
@@ -8081,10 +8081,10 @@ p, b {
 
 .leto-input-sm[type="radio"] {
   position: relative;
-  width: 16px;
-  height: 16px;
+  width: 32px;
+  height: 32px;
   cursor: pointer;
-  margin: calc(16px / 2 + 8px);
+  margin: calc((16px * 2) / 2 + 8px);
 }
 
 .leto-input-sm[type="radio"]:before, .leto-input-sm[type="radio"]:after {
@@ -8096,16 +8096,16 @@ p, b {
   width: 200%;
   height: 200%;
   background-color: #303030;
-  border: 1px solid #fdfdfd;
+  border: 1px solid #e1e1e1;
   border-radius: 100%;
-  margin: calc(-1 * 16px / 2);
+  margin: calc(-1 * (16px * 2) / 2);
 }
 
 .leto-input-sm[type="radio"]:after {
   width: calc(200% - 16px);
   height: calc(200% - 16px);
   border-radius: 100%;
-  margin: calc(8px - 16px / 2);
+  margin: calc(8px - (16px * 2) / 2);
 }
 
 .leto-input-sm[type="radio"]:checked:after {
@@ -8114,10 +8114,10 @@ p, b {
 
 .leto-input-md[type="radio"] {
   position: relative;
-  width: 24px;
-  height: 24px;
+  width: 48px;
+  height: 48px;
   cursor: pointer;
-  margin: calc(24px / 2 + 8px);
+  margin: calc((24px * 2) / 2 + 8px);
 }
 
 .leto-input-md[type="radio"]:before, .leto-input-md[type="radio"]:after {
@@ -8129,16 +8129,16 @@ p, b {
   width: 200%;
   height: 200%;
   background-color: #303030;
-  border: 1px solid #fdfdfd;
+  border: 1px solid #e1e1e1;
   border-radius: 100%;
-  margin: calc(-1 * 24px / 2);
+  margin: calc(-1 * (24px * 2) / 2);
 }
 
 .leto-input-md[type="radio"]:after {
   width: calc(200% - 16px);
   height: calc(200% - 16px);
   border-radius: 100%;
-  margin: calc(8px - 24px / 2);
+  margin: calc(8px - (24px * 2) / 2);
 }
 
 .leto-input-md[type="radio"]:checked:after {
@@ -8147,10 +8147,10 @@ p, b {
 
 .leto-input-lg[type="radio"] {
   position: relative;
-  width: 32px;
-  height: 32px;
+  width: 64px;
+  height: 64px;
   cursor: pointer;
-  margin: calc(32px / 2 + 8px);
+  margin: calc((32px * 2) / 2 + 8px);
 }
 
 .leto-input-lg[type="radio"]:before, .leto-input-lg[type="radio"]:after {
@@ -8162,16 +8162,16 @@ p, b {
   width: 200%;
   height: 200%;
   background-color: #303030;
-  border: 1px solid #fdfdfd;
+  border: 1px solid #e1e1e1;
   border-radius: 100%;
-  margin: calc(-1 * 32px / 2);
+  margin: calc(-1 * (32px * 2) / 2);
 }
 
 .leto-input-lg[type="radio"]:after {
   width: calc(200% - 16px);
   height: calc(200% - 16px);
   border-radius: 100%;
-  margin: calc(8px - 32px / 2);
+  margin: calc(8px - (32px * 2) / 2);
 }
 
 .leto-input-lg[type="radio"]:checked:after {
@@ -8180,10 +8180,10 @@ p, b {
 
 .leto-input-xl[type="radio"] {
   position: relative;
-  width: 48px;
-  height: 48px;
+  width: 96px;
+  height: 96px;
   cursor: pointer;
-  margin: calc(48px / 2 + 8px);
+  margin: calc((48px * 2) / 2 + 8px);
 }
 
 .leto-input-xl[type="radio"]:before, .leto-input-xl[type="radio"]:after {
@@ -8195,16 +8195,16 @@ p, b {
   width: 200%;
   height: 200%;
   background-color: #303030;
-  border: 1px solid #fdfdfd;
+  border: 1px solid #e1e1e1;
   border-radius: 100%;
-  margin: calc(-1 * 48px / 2);
+  margin: calc(-1 * (48px * 2) / 2);
 }
 
 .leto-input-xl[type="radio"]:after {
   width: calc(200% - 16px);
   height: calc(200% - 16px);
   border-radius: 100%;
-  margin: calc(8px - 48px / 2);
+  margin: calc(8px - (48px * 2) / 2);
 }
 
 .leto-input-xl[type="radio"]:checked:after {
@@ -8213,10 +8213,10 @@ p, b {
 
 .leto-input-xxl[type="radio"] {
   position: relative;
-  width: 64px;
-  height: 64px;
+  width: 128px;
+  height: 128px;
   cursor: pointer;
-  margin: calc(64px / 2 + 8px);
+  margin: calc((64px * 2) / 2 + 8px);
 }
 
 .leto-input-xxl[type="radio"]:before, .leto-input-xxl[type="radio"]:after {
@@ -8228,16 +8228,16 @@ p, b {
   width: 200%;
   height: 200%;
   background-color: #303030;
-  border: 1px solid #fdfdfd;
+  border: 1px solid #e1e1e1;
   border-radius: 100%;
-  margin: calc(-1 * 64px / 2);
+  margin: calc(-1 * (64px * 2) / 2);
 }
 
 .leto-input-xxl[type="radio"]:after {
   width: calc(200% - 16px);
   height: calc(200% - 16px);
   border-radius: 100%;
-  margin: calc(8px - 64px / 2);
+  margin: calc(8px - (64px * 2) / 2);
 }
 
 .leto-input-xxl[type="radio"]:checked:after {
@@ -8246,10 +8246,10 @@ p, b {
 
 .leto-input[type="checkbox"] {
   position: relative;
-  width: 24px;
-  height: 24px;
+  width: 48px;
+  height: 48px;
   cursor: pointer;
-  margin: calc(24px / 2 + 8px);
+  margin: calc((24px * 2) / 2 + 8px);
 }
 
 .leto-input[type="checkbox"]:before, .leto-input[type="checkbox"]:after {
@@ -8261,16 +8261,16 @@ p, b {
   width: 200%;
   height: 200%;
   background-color: #303030;
-  border: 1px solid #fdfdfd;
+  border: 1px solid #e1e1e1;
   border-radius: 100%;
-  margin: calc(-1 * 24px / 2);
+  margin: calc(-1 * (24px * 2) / 2);
 }
 
 .leto-input[type="checkbox"]:after {
   width: calc(200% - 16px);
   height: calc(200% - 16px);
   border-radius: 100%;
-  margin: calc(8px - 24px / 2);
+  margin: calc(8px - (24px * 2) / 2);
 }
 
 .leto-input[type="checkbox"]:checked:after {
@@ -8279,10 +8279,10 @@ p, b {
 
 .leto-input-xxs[type="checkbox"] {
   position: relative;
-  width: 8px;
-  height: 8px;
+  width: 16px;
+  height: 16px;
   cursor: pointer;
-  margin: calc(8px / 2 + 8px);
+  margin: calc((8px * 2) / 2 + 8px);
 }
 
 .leto-input-xxs[type="checkbox"]:before, .leto-input-xxs[type="checkbox"]:after {
@@ -8294,16 +8294,16 @@ p, b {
   width: 200%;
   height: 200%;
   background-color: #303030;
-  border: 1px solid #fdfdfd;
+  border: 1px solid #e1e1e1;
   border-radius: 100%;
-  margin: calc(-1 * 8px / 2);
+  margin: calc(-1 * (8px * 2) / 2);
 }
 
 .leto-input-xxs[type="checkbox"]:after {
   width: calc(200% - 16px);
   height: calc(200% - 16px);
   border-radius: 100%;
-  margin: calc(8px - 8px / 2);
+  margin: calc(8px - (8px * 2) / 2);
 }
 
 .leto-input-xxs[type="checkbox"]:checked:after {
@@ -8312,10 +8312,10 @@ p, b {
 
 .leto-input-xs[type="checkbox"] {
   position: relative;
-  width: 12px;
-  height: 12px;
+  width: 24px;
+  height: 24px;
   cursor: pointer;
-  margin: calc(12px / 2 + 8px);
+  margin: calc((12px * 2) / 2 + 8px);
 }
 
 .leto-input-xs[type="checkbox"]:before, .leto-input-xs[type="checkbox"]:after {
@@ -8327,16 +8327,16 @@ p, b {
   width: 200%;
   height: 200%;
   background-color: #303030;
-  border: 1px solid #fdfdfd;
+  border: 1px solid #e1e1e1;
   border-radius: 100%;
-  margin: calc(-1 * 12px / 2);
+  margin: calc(-1 * (12px * 2) / 2);
 }
 
 .leto-input-xs[type="checkbox"]:after {
   width: calc(200% - 16px);
   height: calc(200% - 16px);
   border-radius: 100%;
-  margin: calc(8px - 12px / 2);
+  margin: calc(8px - (12px * 2) / 2);
 }
 
 .leto-input-xs[type="checkbox"]:checked:after {
@@ -8345,10 +8345,10 @@ p, b {
 
 .leto-input-sm[type="checkbox"] {
   position: relative;
-  width: 16px;
-  height: 16px;
+  width: 32px;
+  height: 32px;
   cursor: pointer;
-  margin: calc(16px / 2 + 8px);
+  margin: calc((16px * 2) / 2 + 8px);
 }
 
 .leto-input-sm[type="checkbox"]:before, .leto-input-sm[type="checkbox"]:after {
@@ -8360,16 +8360,16 @@ p, b {
   width: 200%;
   height: 200%;
   background-color: #303030;
-  border: 1px solid #fdfdfd;
+  border: 1px solid #e1e1e1;
   border-radius: 100%;
-  margin: calc(-1 * 16px / 2);
+  margin: calc(-1 * (16px * 2) / 2);
 }
 
 .leto-input-sm[type="checkbox"]:after {
   width: calc(200% - 16px);
   height: calc(200% - 16px);
   border-radius: 100%;
-  margin: calc(8px - 16px / 2);
+  margin: calc(8px - (16px * 2) / 2);
 }
 
 .leto-input-sm[type="checkbox"]:checked:after {
@@ -8378,10 +8378,10 @@ p, b {
 
 .leto-input-md[type="checkbox"] {
   position: relative;
-  width: 24px;
-  height: 24px;
+  width: 48px;
+  height: 48px;
   cursor: pointer;
-  margin: calc(24px / 2 + 8px);
+  margin: calc((24px * 2) / 2 + 8px);
 }
 
 .leto-input-md[type="checkbox"]:before, .leto-input-md[type="checkbox"]:after {
@@ -8393,16 +8393,16 @@ p, b {
   width: 200%;
   height: 200%;
   background-color: #303030;
-  border: 1px solid #fdfdfd;
+  border: 1px solid #e1e1e1;
   border-radius: 100%;
-  margin: calc(-1 * 24px / 2);
+  margin: calc(-1 * (24px * 2) / 2);
 }
 
 .leto-input-md[type="checkbox"]:after {
   width: calc(200% - 16px);
   height: calc(200% - 16px);
   border-radius: 100%;
-  margin: calc(8px - 24px / 2);
+  margin: calc(8px - (24px * 2) / 2);
 }
 
 .leto-input-md[type="checkbox"]:checked:after {
@@ -8411,10 +8411,10 @@ p, b {
 
 .leto-input-lg[type="checkbox"] {
   position: relative;
-  width: 32px;
-  height: 32px;
+  width: 64px;
+  height: 64px;
   cursor: pointer;
-  margin: calc(32px / 2 + 8px);
+  margin: calc((32px * 2) / 2 + 8px);
 }
 
 .leto-input-lg[type="checkbox"]:before, .leto-input-lg[type="checkbox"]:after {
@@ -8426,16 +8426,16 @@ p, b {
   width: 200%;
   height: 200%;
   background-color: #303030;
-  border: 1px solid #fdfdfd;
+  border: 1px solid #e1e1e1;
   border-radius: 100%;
-  margin: calc(-1 * 32px / 2);
+  margin: calc(-1 * (32px * 2) / 2);
 }
 
 .leto-input-lg[type="checkbox"]:after {
   width: calc(200% - 16px);
   height: calc(200% - 16px);
   border-radius: 100%;
-  margin: calc(8px - 32px / 2);
+  margin: calc(8px - (32px * 2) / 2);
 }
 
 .leto-input-lg[type="checkbox"]:checked:after {
@@ -8444,10 +8444,10 @@ p, b {
 
 .leto-input-xl[type="checkbox"] {
   position: relative;
-  width: 48px;
-  height: 48px;
+  width: 96px;
+  height: 96px;
   cursor: pointer;
-  margin: calc(48px / 2 + 8px);
+  margin: calc((48px * 2) / 2 + 8px);
 }
 
 .leto-input-xl[type="checkbox"]:before, .leto-input-xl[type="checkbox"]:after {
@@ -8459,16 +8459,16 @@ p, b {
   width: 200%;
   height: 200%;
   background-color: #303030;
-  border: 1px solid #fdfdfd;
+  border: 1px solid #e1e1e1;
   border-radius: 100%;
-  margin: calc(-1 * 48px / 2);
+  margin: calc(-1 * (48px * 2) / 2);
 }
 
 .leto-input-xl[type="checkbox"]:after {
   width: calc(200% - 16px);
   height: calc(200% - 16px);
   border-radius: 100%;
-  margin: calc(8px - 48px / 2);
+  margin: calc(8px - (48px * 2) / 2);
 }
 
 .leto-input-xl[type="checkbox"]:checked:after {
@@ -8477,10 +8477,10 @@ p, b {
 
 .leto-input-xxl[type="checkbox"] {
   position: relative;
-  width: 64px;
-  height: 64px;
+  width: 128px;
+  height: 128px;
   cursor: pointer;
-  margin: calc(64px / 2 + 8px);
+  margin: calc((64px * 2) / 2 + 8px);
 }
 
 .leto-input-xxl[type="checkbox"]:before, .leto-input-xxl[type="checkbox"]:after {
@@ -8492,16 +8492,16 @@ p, b {
   width: 200%;
   height: 200%;
   background-color: #303030;
-  border: 1px solid #fdfdfd;
+  border: 1px solid #e1e1e1;
   border-radius: 100%;
-  margin: calc(-1 * 64px / 2);
+  margin: calc(-1 * (64px * 2) / 2);
 }
 
 .leto-input-xxl[type="checkbox"]:after {
   width: calc(200% - 16px);
   height: calc(200% - 16px);
   border-radius: 100%;
-  margin: calc(8px - 64px / 2);
+  margin: calc(8px - (64px * 2) / 2);
 }
 
 .leto-input-xxl[type="checkbox"]:checked:after {
@@ -12048,153 +12048,153 @@ select.leto-input-xxl:focus::-ms-value {
   }
 }
 
-.leto-seven-eighth {
+.leto-seven-eighths {
   width: 87.5%;
   padding: 8px;
 }
 
-.leto-seven-eighth > * {
+.leto-seven-eighths > * {
   width: 100%;
   margin: 0;
 }
 
 @media (min-width: 600px) {
-  .leto-seven-eighth-tablet {
+  .leto-seven-eighths-tablet {
     width: 87.5%;
     padding: 8px;
   }
-  .leto-seven-eighth-tablet > * {
+  .leto-seven-eighths-tablet > * {
     width: 100%;
     margin: 0;
   }
 }
 
 @media (min-width: 1024px) {
-  .leto-seven-eighth-tablet-pc {
+  .leto-seven-eighths-tablet-pc {
     width: 87.5%;
     padding: 8px;
   }
-  .leto-seven-eighth-tablet-pc > * {
+  .leto-seven-eighths-tablet-pc > * {
     width: 100%;
     margin: 0;
   }
 }
 
 @media (min-width: 1024px) and ((pointer: coarse)) {
-  .leto-seven-eighth-tablet-pc {
+  .leto-seven-eighths-tablet-pc {
     width: 87.5%;
     padding: 8px;
   }
-  .leto-seven-eighth-tablet-pc > * {
+  .leto-seven-eighths-tablet-pc > * {
     width: 100%;
     margin: 0;
   }
 }
 
 @media (min-width: 1440px) {
-  .leto-seven-eighth-pc {
+  .leto-seven-eighths-pc {
     width: 87.5%;
     padding: 8px;
   }
-  .leto-seven-eighth-pc > * {
+  .leto-seven-eighths-pc > * {
     width: 100%;
     margin: 0;
   }
 }
 
 @media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
-  .leto-seven-eighth-ultrawide {
+  .leto-seven-eighths-ultrawide {
     width: 87.5%;
     padding: 8px;
   }
-  .leto-seven-eighth-ultrawide > * {
+  .leto-seven-eighths-ultrawide > * {
     width: 100%;
     margin: 0;
   }
 }
 
 @media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
-  .leto-seven-eighth-super-ultrawide {
+  .leto-seven-eighths-super-ultrawide {
     width: 87.5%;
     padding: 8px;
   }
-  .leto-seven-eighth-super-ultrawide > * {
+  .leto-seven-eighths-super-ultrawide > * {
     width: 100%;
     margin: 0;
   }
 }
 
-.leto-five-sixth {
+.leto-five-sixths {
   width: calc((100% / 6) * 5);
   padding: 8px;
 }
 
-.leto-five-sixth > * {
+.leto-five-sixths > * {
   width: 100%;
   margin: 0;
 }
 
 @media (min-width: 600px) {
-  .leto-five-sixth-tablet {
+  .leto-five-sixths-tablet {
     width: calc((100% / 6) * 5);
     padding: 8px;
   }
-  .leto-five-sixth-tablet > * {
+  .leto-five-sixths-tablet > * {
     width: 100%;
     margin: 0;
   }
 }
 
 @media (min-width: 1024px) {
-  .leto-five-sixth-tablet-pc {
+  .leto-five-sixths-tablet-pc {
     width: calc((100% / 6) * 5);
     padding: 8px;
   }
-  .leto-five-sixth-tablet-pc > * {
+  .leto-five-sixths-tablet-pc > * {
     width: 100%;
     margin: 0;
   }
 }
 
 @media (min-width: 1024px) and ((pointer: coarse)) {
-  .leto-five-sixth-tablet-pc {
+  .leto-five-sixths-tablet-pc {
     width: calc((100% / 6) * 5);
     padding: 8px;
   }
-  .leto-five-sixth-tablet-pc > * {
+  .leto-five-sixths-tablet-pc > * {
     width: 100%;
     margin: 0;
   }
 }
 
 @media (min-width: 1440px) {
-  .leto-five-sixth-pc {
+  .leto-five-sixths-pc {
     width: calc((100% / 6) * 5);
     padding: 8px;
   }
-  .leto-five-sixth-pc > * {
+  .leto-five-sixths-pc > * {
     width: 100%;
     margin: 0;
   }
 }
 
 @media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
-  .leto-five-sixth-ultrawide {
+  .leto-five-sixths-ultrawide {
     width: calc((100% / 6) * 5);
     padding: 8px;
   }
-  .leto-five-sixth-ultrawide > * {
+  .leto-five-sixths-ultrawide > * {
     width: 100%;
     margin: 0;
   }
 }
 
 @media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
-  .leto-five-sixth-super-ultrawide {
+  .leto-five-sixths-super-ultrawide {
     width: calc((100% / 6) * 5);
     padding: 8px;
   }
-  .leto-five-sixth-super-ultrawide > * {
+  .leto-five-sixths-super-ultrawide > * {
     width: 100%;
     margin: 0;
   }
@@ -12428,153 +12428,153 @@ select.leto-input-xxl:focus::-ms-value {
   }
 }
 
-.leto-five-eighth {
+.leto-five-eighths {
   width: 62.5%;
   padding: 8px;
 }
 
-.leto-five-eighth > * {
+.leto-five-eighths > * {
   width: 100%;
   margin: 0;
 }
 
 @media (min-width: 600px) {
-  .leto-five-eighth-tablet {
+  .leto-five-eighths-tablet {
     width: 62.5%;
     padding: 8px;
   }
-  .leto-five-eighth-tablet > * {
+  .leto-five-eighths-tablet > * {
     width: 100%;
     margin: 0;
   }
 }
 
 @media (min-width: 1024px) {
-  .leto-five-eighth-tablet-pc {
+  .leto-five-eighths-tablet-pc {
     width: 62.5%;
     padding: 8px;
   }
-  .leto-five-eighth-tablet-pc > * {
+  .leto-five-eighths-tablet-pc > * {
     width: 100%;
     margin: 0;
   }
 }
 
 @media (min-width: 1024px) and ((pointer: coarse)) {
-  .leto-five-eighth-tablet-pc {
+  .leto-five-eighths-tablet-pc {
     width: 62.5%;
     padding: 8px;
   }
-  .leto-five-eighth-tablet-pc > * {
+  .leto-five-eighths-tablet-pc > * {
     width: 100%;
     margin: 0;
   }
 }
 
 @media (min-width: 1440px) {
-  .leto-five-eighth-pc {
+  .leto-five-eighths-pc {
     width: 62.5%;
     padding: 8px;
   }
-  .leto-five-eighth-pc > * {
+  .leto-five-eighths-pc > * {
     width: 100%;
     margin: 0;
   }
 }
 
 @media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
-  .leto-five-eighth-ultrawide {
+  .leto-five-eighths-ultrawide {
     width: 62.5%;
     padding: 8px;
   }
-  .leto-five-eighth-ultrawide > * {
+  .leto-five-eighths-ultrawide > * {
     width: 100%;
     margin: 0;
   }
 }
 
 @media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
-  .leto-five-eighth-super-ultrawide {
+  .leto-five-eighths-super-ultrawide {
     width: 62.5%;
     padding: 8px;
   }
-  .leto-five-eighth-super-ultrawide > * {
+  .leto-five-eighths-super-ultrawide > * {
     width: 100%;
     margin: 0;
   }
 }
 
-.leto-three-fifth {
+.leto-three-fifths {
   width: 60%;
   padding: 8px;
 }
 
-.leto-three-fifth > * {
+.leto-three-fifths > * {
   width: 100%;
   margin: 0;
 }
 
 @media (min-width: 600px) {
-  .leto-three-fifth-tablet {
+  .leto-three-fifths-tablet {
     width: 60%;
     padding: 8px;
   }
-  .leto-three-fifth-tablet > * {
+  .leto-three-fifths-tablet > * {
     width: 100%;
     margin: 0;
   }
 }
 
 @media (min-width: 1024px) {
-  .leto-three-fifth-tablet-pc {
+  .leto-three-fifths-tablet-pc {
     width: 60%;
     padding: 8px;
   }
-  .leto-three-fifth-tablet-pc > * {
+  .leto-three-fifths-tablet-pc > * {
     width: 100%;
     margin: 0;
   }
 }
 
 @media (min-width: 1024px) and ((pointer: coarse)) {
-  .leto-three-fifth-tablet-pc {
+  .leto-three-fifths-tablet-pc {
     width: 60%;
     padding: 8px;
   }
-  .leto-three-fifth-tablet-pc > * {
+  .leto-three-fifths-tablet-pc > * {
     width: 100%;
     margin: 0;
   }
 }
 
 @media (min-width: 1440px) {
-  .leto-three-fifth-pc {
+  .leto-three-fifths-pc {
     width: 60%;
     padding: 8px;
   }
-  .leto-three-fifth-pc > * {
+  .leto-three-fifths-pc > * {
     width: 100%;
     margin: 0;
   }
 }
 
 @media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
-  .leto-three-fifth-ultrawide {
+  .leto-three-fifths-ultrawide {
     width: 60%;
     padding: 8px;
   }
-  .leto-three-fifth-ultrawide > * {
+  .leto-three-fifths-ultrawide > * {
     width: 100%;
     margin: 0;
   }
 }
 
 @media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
-  .leto-three-fifth-super-ultrawide {
+  .leto-three-fifths-super-ultrawide {
     width: 60%;
     padding: 8px;
   }
-  .leto-three-fifth-super-ultrawide > * {
+  .leto-three-fifths-super-ultrawide > * {
     width: 100%;
     margin: 0;
   }
@@ -12656,229 +12656,229 @@ select.leto-input-xxl:focus::-ms-value {
   }
 }
 
-.leto-three-sixth {
+.leto-three-sixths {
   width: calc((100% / 6) * 3);
   padding: 8px;
 }
 
-.leto-three-sixth > * {
+.leto-three-sixths > * {
   width: 100%;
   margin: 0;
 }
 
 @media (min-width: 600px) {
-  .leto-three-sixth-tablet {
+  .leto-three-sixths-tablet {
     width: calc((100% / 6) * 3);
     padding: 8px;
   }
-  .leto-three-sixth-tablet > * {
+  .leto-three-sixths-tablet > * {
     width: 100%;
     margin: 0;
   }
 }
 
 @media (min-width: 1024px) {
-  .leto-three-sixth-tablet-pc {
+  .leto-three-sixths-tablet-pc {
     width: calc((100% / 6) * 3);
     padding: 8px;
   }
-  .leto-three-sixth-tablet-pc > * {
+  .leto-three-sixths-tablet-pc > * {
     width: 100%;
     margin: 0;
   }
 }
 
 @media (min-width: 1024px) and ((pointer: coarse)) {
-  .leto-three-sixth-tablet-pc {
+  .leto-three-sixths-tablet-pc {
     width: calc((100% / 6) * 3);
     padding: 8px;
   }
-  .leto-three-sixth-tablet-pc > * {
+  .leto-three-sixths-tablet-pc > * {
     width: 100%;
     margin: 0;
   }
 }
 
 @media (min-width: 1440px) {
-  .leto-three-sixth-pc {
+  .leto-three-sixths-pc {
     width: calc((100% / 6) * 3);
     padding: 8px;
   }
-  .leto-three-sixth-pc > * {
+  .leto-three-sixths-pc > * {
     width: 100%;
     margin: 0;
   }
 }
 
 @media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
-  .leto-three-sixth-ultrawide {
+  .leto-three-sixths-ultrawide {
     width: calc((100% / 6) * 3);
     padding: 8px;
   }
-  .leto-three-sixth-ultrawide > * {
+  .leto-three-sixths-ultrawide > * {
     width: 100%;
     margin: 0;
   }
 }
 
 @media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
-  .leto-three-sixth-super-ultrawide {
+  .leto-three-sixths-super-ultrawide {
     width: calc((100% / 6) * 3);
     padding: 8px;
   }
-  .leto-three-sixth-super-ultrawide > * {
+  .leto-three-sixths-super-ultrawide > * {
     width: 100%;
     margin: 0;
   }
 }
 
-.leto-two-fifth {
+.leto-two-fifths {
   width: 40%;
   padding: 8px;
 }
 
-.leto-two-fifth > * {
+.leto-two-fifths > * {
   width: 100%;
   margin: 0;
 }
 
 @media (min-width: 600px) {
-  .leto-two-fifth-tablet {
+  .leto-two-fifths-tablet {
     width: 40%;
     padding: 8px;
   }
-  .leto-two-fifth-tablet > * {
+  .leto-two-fifths-tablet > * {
     width: 100%;
     margin: 0;
   }
 }
 
 @media (min-width: 1024px) {
-  .leto-two-fifth-tablet-pc {
+  .leto-two-fifths-tablet-pc {
     width: 40%;
     padding: 8px;
   }
-  .leto-two-fifth-tablet-pc > * {
+  .leto-two-fifths-tablet-pc > * {
     width: 100%;
     margin: 0;
   }
 }
 
 @media (min-width: 1024px) and ((pointer: coarse)) {
-  .leto-two-fifth-tablet-pc {
+  .leto-two-fifths-tablet-pc {
     width: 40%;
     padding: 8px;
   }
-  .leto-two-fifth-tablet-pc > * {
+  .leto-two-fifths-tablet-pc > * {
     width: 100%;
     margin: 0;
   }
 }
 
 @media (min-width: 1440px) {
-  .leto-two-fifth-pc {
+  .leto-two-fifths-pc {
     width: 40%;
     padding: 8px;
   }
-  .leto-two-fifth-pc > * {
+  .leto-two-fifths-pc > * {
     width: 100%;
     margin: 0;
   }
 }
 
 @media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
-  .leto-two-fifth-ultrawide {
+  .leto-two-fifths-ultrawide {
     width: 40%;
     padding: 8px;
   }
-  .leto-two-fifth-ultrawide > * {
+  .leto-two-fifths-ultrawide > * {
     width: 100%;
     margin: 0;
   }
 }
 
 @media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
-  .leto-two-fifth-super-ultrawide {
+  .leto-two-fifths-super-ultrawide {
     width: 40%;
     padding: 8px;
   }
-  .leto-two-fifth-super-ultrawide > * {
+  .leto-two-fifths-super-ultrawide > * {
     width: 100%;
     margin: 0;
   }
 }
 
-.leto-three-eighth {
+.leto-three-eighths {
   width: 37.5%;
   padding: 8px;
 }
 
-.leto-three-eighth > * {
+.leto-three-eighths > * {
   width: 100%;
   margin: 0;
 }
 
 @media (min-width: 600px) {
-  .leto-three-eighth-tablet {
+  .leto-three-eighths-tablet {
     width: 37.5%;
     padding: 8px;
   }
-  .leto-three-eighth-tablet > * {
+  .leto-three-eighths-tablet > * {
     width: 100%;
     margin: 0;
   }
 }
 
 @media (min-width: 1024px) {
-  .leto-three-eighth-tablet-pc {
+  .leto-three-eighths-tablet-pc {
     width: 37.5%;
     padding: 8px;
   }
-  .leto-three-eighth-tablet-pc > * {
+  .leto-three-eighths-tablet-pc > * {
     width: 100%;
     margin: 0;
   }
 }
 
 @media (min-width: 1024px) and ((pointer: coarse)) {
-  .leto-three-eighth-tablet-pc {
+  .leto-three-eighths-tablet-pc {
     width: 37.5%;
     padding: 8px;
   }
-  .leto-three-eighth-tablet-pc > * {
+  .leto-three-eighths-tablet-pc > * {
     width: 100%;
     margin: 0;
   }
 }
 
 @media (min-width: 1440px) {
-  .leto-three-eighth-pc {
+  .leto-three-eighths-pc {
     width: 37.5%;
     padding: 8px;
   }
-  .leto-three-eighth-pc > * {
+  .leto-three-eighths-pc > * {
     width: 100%;
     margin: 0;
   }
 }
 
 @media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
-  .leto-three-eighth-ultrawide {
+  .leto-three-eighths-ultrawide {
     width: 37.5%;
     padding: 8px;
   }
-  .leto-three-eighth-ultrawide > * {
+  .leto-three-eighths-ultrawide > * {
     width: 100%;
     margin: 0;
   }
 }
 
 @media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
-  .leto-three-eighth-super-ultrawide {
+  .leto-three-eighths-super-ultrawide {
     width: 37.5%;
     padding: 8px;
   }
-  .leto-three-eighth-super-ultrawide > * {
+  .leto-three-eighths-super-ultrawide > * {
     width: 100%;
     margin: 0;
   }
@@ -13366,6 +13366,14 @@ select.leto-input-xxl:focus::-ms-value {
   min-width: calc(100% - (8px*2));
 }
 
+.leto-min-width-seven-eighths {
+  min-width: calc(87.5% - (8px*2));
+}
+
+.leto-min-width-five-sixths {
+  min-width: calc(((100% / 6) * 5) - (8px*2));
+}
+
 .leto-min-width-four-fifths {
   min-width: calc(80% - (8px*2));
 }
@@ -13378,8 +13386,28 @@ select.leto-input-xxl:focus::-ms-value {
   min-width: calc(66% - (8px*2));
 }
 
+.leto-min-width-five-eighths {
+  min-width: calc(62.5% - (8px*2));
+}
+
+.leto-min-width-three-fifths {
+  min-width: calc(60% - (8px*2));
+}
+
 .leto-min-width-half {
   min-width: calc(50% - (8px*2));
+}
+
+.leto-min-width-three-sixths {
+  min-width: calc(((100% / 6) * 3) - (8px*2));
+}
+
+.leto-min-width-two-fifths {
+  min-width: calc(40% - (8px*2));
+}
+
+.leto-min-width-three-eighths {
+  min-width: calc(37.5% - (8px*2));
 }
 
 .leto-min-width-third {
@@ -13438,6 +13466,14 @@ select.leto-input-xxl:focus::-ms-value {
   width: calc(100% - (8px*2));
 }
 
+.leto-width-seven-eighths {
+  width: calc(87.5% - (8px*2));
+}
+
+.leto-width-five-sixths {
+  width: calc(((100% / 6) * 5) - (8px*2));
+}
+
 .leto-width-four-fifths {
   width: calc(80% - (8px*2));
 }
@@ -13450,8 +13486,28 @@ select.leto-input-xxl:focus::-ms-value {
   width: calc(66% - (8px*2));
 }
 
+.leto-width-five-eighths {
+  width: calc(62.5% - (8px*2));
+}
+
+.leto-width-three-fifths {
+  width: calc(60% - (8px*2));
+}
+
 .leto-width-half {
   width: calc(50% - (8px*2));
+}
+
+.leto-width-three-sixths {
+  width: calc(((100% / 6) * 3) - (8px*2));
+}
+
+.leto-width-two-fifths {
+  width: calc(40% - (8px*2));
+}
+
+.leto-width-three-eighths {
+  width: calc(37.5% - (8px*2));
 }
 
 .leto-width-third {
@@ -13510,6 +13566,14 @@ select.leto-input-xxl:focus::-ms-value {
   max-width: calc(100% - (8px*2));
 }
 
+.leto-max-width-seven-eighths {
+  max-width: calc(87.5% - (8px*2));
+}
+
+.leto-max-width-five-sixths {
+  max-width: calc(((100% / 6) * 5) - (8px*2));
+}
+
 .leto-max-width-four-fifths {
   max-width: calc(80% - (8px*2));
 }
@@ -13522,8 +13586,28 @@ select.leto-input-xxl:focus::-ms-value {
   max-width: calc(66% - (8px*2));
 }
 
+.leto-max-width-five-eighths {
+  max-width: calc(62.5% - (8px*2));
+}
+
+.leto-max-width-three-fifths {
+  max-width: calc(60% - (8px*2));
+}
+
 .leto-max-width-half {
   max-width: calc(50% - (8px*2));
+}
+
+.leto-max-width-three-sixths {
+  max-width: calc(((100% / 6) * 3) - (8px*2));
+}
+
+.leto-max-width-two-fifths {
+  max-width: calc(40% - (8px*2));
+}
+
+.leto-max-width-three-eighths {
+  max-width: calc(37.5% - (8px*2));
 }
 
 .leto-max-width-third {
@@ -13579,43 +13663,71 @@ select.leto-input-xxl:focus::-ms-value {
 }
 
 .leto-min-height-full {
-  min-height: calc(100% - (8px));
+  min-height: calc(100% - (8px*2));
+}
+
+.leto-min-height-seven-eighths {
+  min-height: calc(87.5% - (8px*2));
+}
+
+.leto-min-height-five-sixths {
+  min-height: calc(((100% / 6) * 5) - (8px*2));
 }
 
 .leto-min-height-four-fifths {
-  min-height: calc(80% - (8px));
+  min-height: calc(80% - (8px*2));
 }
 
 .leto-min-height-three-quaters {
-  min-height: calc(75% - (8px));
+  min-height: calc(75% - (8px*2));
 }
 
 .leto-min-height-two-thirds {
-  min-height: calc(66% - (8px));
+  min-height: calc(66% - (8px*2));
+}
+
+.leto-min-height-five-eighths {
+  min-height: calc(62.5% - (8px*2));
+}
+
+.leto-min-height-three-fifths {
+  min-height: calc(60% - (8px*2));
 }
 
 .leto-min-height-half {
-  min-height: calc(50% - (8px));
+  min-height: calc(50% - (8px*2));
+}
+
+.leto-min-height-three-sixths {
+  min-height: calc(((100% / 6) * 3) - (8px*2));
+}
+
+.leto-min-height-two-fifths {
+  min-height: calc(40% - (8px*2));
+}
+
+.leto-min-height-three-eighths {
+  min-height: calc(37.5% - (8px*2));
 }
 
 .leto-min-height-third {
-  min-height: calc((100% / 3) - (8px));
+  min-height: calc((100% / 3) - (8px*2));
 }
 
 .leto-min-height-quater {
-  min-height: calc(25% - (8px));
+  min-height: calc(25% - (8px*2));
 }
 
 .leto-min-height-fifth {
-  min-height: calc(20% - (8px));
+  min-height: calc(20% - (8px*2));
 }
 
 .leto-min-height-sixth {
-  min-height: calc((100% / 6) - (8px));
+  min-height: calc((100% / 6) - (8px*2));
 }
 
 .leto-min-height-eighth {
-  min-height: calc(12.5% - (8px));
+  min-height: calc(12.5% - (8px*2));
 }
 
 .leto-height {
@@ -13651,43 +13763,71 @@ select.leto-input-xxl:focus::-ms-value {
 }
 
 .leto-height-full {
-  height: calc(100% - (8px));
+  height: calc(100% - (8px*2));
+}
+
+.leto-height-seven-eighths {
+  height: calc(87.5% - (8px*2));
+}
+
+.leto-height-five-sixths {
+  height: calc(((100% / 6) * 5) - (8px*2));
 }
 
 .leto-height-four-fifths {
-  height: calc(80% - (8px));
+  height: calc(80% - (8px*2));
 }
 
 .leto-height-three-quaters {
-  height: calc(75% - (8px));
+  height: calc(75% - (8px*2));
 }
 
 .leto-height-two-thirds {
-  height: calc(66% - (8px));
+  height: calc(66% - (8px*2));
+}
+
+.leto-height-five-eighths {
+  height: calc(62.5% - (8px*2));
+}
+
+.leto-height-three-fifths {
+  height: calc(60% - (8px*2));
 }
 
 .leto-height-half {
-  height: calc(50% - (8px));
+  height: calc(50% - (8px*2));
+}
+
+.leto-height-three-sixths {
+  height: calc(((100% / 6) * 3) - (8px*2));
+}
+
+.leto-height-two-fifths {
+  height: calc(40% - (8px*2));
+}
+
+.leto-height-three-eighths {
+  height: calc(37.5% - (8px*2));
 }
 
 .leto-height-third {
-  height: calc((100% / 3) - (8px));
+  height: calc((100% / 3) - (8px*2));
 }
 
 .leto-height-quater {
-  height: calc(25% - (8px));
+  height: calc(25% - (8px*2));
 }
 
 .leto-height-fifth {
-  height: calc(20% - (8px));
+  height: calc(20% - (8px*2));
 }
 
 .leto-height-sixth {
-  height: calc((100% / 6) - (8px));
+  height: calc((100% / 6) - (8px*2));
 }
 
 .leto-height-eighth {
-  height: calc(12.5% - (8px));
+  height: calc(12.5% - (8px*2));
 }
 
 .leto-max-height {
@@ -13723,43 +13863,71 @@ select.leto-input-xxl:focus::-ms-value {
 }
 
 .leto-max-height-full {
-  max-height: calc(100% - (8px));
+  max-height: calc(100% - (8px*2));
+}
+
+.leto-max-height-seven-eighths {
+  max-height: calc(87.5% - (8px*2));
+}
+
+.leto-max-height-five-sixths {
+  max-height: calc(((100% / 6) * 5) - (8px*2));
 }
 
 .leto-max-height-four-fifths {
-  max-height: calc(80% - (8px));
+  max-height: calc(80% - (8px*2));
 }
 
 .leto-max-height-three-quaters {
-  max-height: calc(75% - (8px));
+  max-height: calc(75% - (8px*2));
 }
 
 .leto-max-height-two-thirds {
-  max-height: calc(66% - (8px));
+  max-height: calc(66% - (8px*2));
+}
+
+.leto-max-height-five-eighths {
+  max-height: calc(62.5% - (8px*2));
+}
+
+.leto-max-height-three-fifths {
+  max-height: calc(60% - (8px*2));
 }
 
 .leto-max-height-half {
-  max-height: calc(50% - (8px));
+  max-height: calc(50% - (8px*2));
+}
+
+.leto-max-height-three-sixths {
+  max-height: calc(((100% / 6) * 3) - (8px*2));
+}
+
+.leto-max-height-two-fifths {
+  max-height: calc(40% - (8px*2));
+}
+
+.leto-max-height-three-eighths {
+  max-height: calc(37.5% - (8px*2));
 }
 
 .leto-max-height-third {
-  max-height: calc((100% / 3) - (8px));
+  max-height: calc((100% / 3) - (8px*2));
 }
 
 .leto-max-height-quater {
-  max-height: calc(25% - (8px));
+  max-height: calc(25% - (8px*2));
 }
 
 .leto-max-height-fifth {
-  max-height: calc(20% - (8px));
+  max-height: calc(20% - (8px*2));
 }
 
 .leto-max-height-sixth {
-  max-height: calc((100% / 6) - (8px));
+  max-height: calc((100% / 6) - (8px*2));
 }
 
 .leto-max-height-eighth {
-  max-height: calc(12.5% - (8px));
+  max-height: calc(12.5% - (8px*2));
 }
 
 .leto-bg-white {
@@ -23729,3 +23897,4 @@ select.leto-input-xxl:focus::-ms-value {
 .leto-hover-dark-green[class*=leto-text]:hover {
   color: #44ff34;
 }
+/*# sourceMappingURL=leto.css.map */

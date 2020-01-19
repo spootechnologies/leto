@@ -468,11 +468,16 @@
 // Input Radio
 
 =inputRadio($size)
+    $bgColor: getElementAttrVal('radio', 'bg')
+    $multiplier: getElementAttrVal('radio', 'multiplier')
+    $color: getElementAttrVal('radio', 'color')
+    $borderColor: getElementAttrVal('radio', 'borderColor')
+    
     position: relative
-    width: $size
-    height: $size
+    width: $size * $multiplier
+    height: $size * $multiplier
     cursor: pointer
-    margin: calc(#{$size} / 2 + #{$basicMargin})
+    margin: calc((#{$size} * #{ $multiplier}) / 2 + #{$basicMargin})
 
     &:before, &:after
         position: absolute
@@ -481,31 +486,39 @@
     &:before
         width: 200%
         height: 200%
-        background-color: $colorBlack
-        border: 1px solid $colorWhite
+        @if $bgColor == $lightModeBgColor
+            background-color: $darkModeBgColor
+        @else
+            background-color: $lightModeBgColor   
+        border: 1px solid $borderColor
         border-radius: 100%
-        margin: calc(-1 * #{$size} / 2)
+        margin: calc(-1 * (#{$size} * #{ $multiplier}) / 2)
 
     &:after
         width: calc(200% - 16px)
         height: calc(200% - 16px)
         border-radius: 100%
-        margin: calc(#{$basicMargin} - #{$size} / 2)
+        margin: calc(#{$basicMargin} - (#{$size} * #{ $multiplier}) / 2)
 
     &:checked
         
         &:after  
-            background: $colorWhite
+            background: $bgColor
 
 
 // Input Checkbox
 
 =inputCheckbox($size)
+    $bgColor: getElementAttrVal('checkbox', 'bg')
+    $multiplier: getElementAttrVal('checkbox', 'multiplier')
+    $color: getElementAttrVal('checkbox', 'color')
+    $borderColor: getElementAttrVal('checkbox', 'borderColor')
+    
     position: relative
-    width: $size
-    height: $size
+    width: $size * $multiplier
+    height: $size * $multiplier
     cursor: pointer
-    margin: calc(#{$size} / 2 + #{$basicMargin})
+    margin: calc((#{$size} * #{ $multiplier}) / 2 + #{$basicMargin})
 
     &:before, &:after
         position: absolute
@@ -514,27 +527,31 @@
     &:before
         width: 200%
         height: 200%
-        background-color: $colorBlack
-        border: 1px solid $colorWhite
+        @if $bgColor == $lightModeBgColor
+            background-color: $darkModeBgColor
+        @else
+            background-color: $lightModeBgColor   
+        border: 1px solid $borderColor
         border-radius: 100%
-        margin: calc(-1 * #{$size} / 2)
+        margin: calc(-1 * (#{$size} * #{ $multiplier}) / 2)
 
     &:after
         width: calc(200% - 16px)
         height: calc(200% - 16px)
         border-radius: 100%
-        margin: calc(#{$basicMargin} - #{$size} / 2)
+        margin: calc(#{$basicMargin} - (#{$size} * #{ $multiplier}) / 2)
 
     &:checked
         
         &:after  
-            background: $colorWhite
+            background: $bgColor
 
 
 // Input Color
 
 =inputColor($height)
-    height: $height * 2
+    $multiplier: getElementAttrVal('input', 'multiplier')
+    height: $height * $multiplier
     margin: $basicMargin
     padding: 4px
 
