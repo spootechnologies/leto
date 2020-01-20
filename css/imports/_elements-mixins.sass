@@ -410,6 +410,7 @@
 // Input
 
 =input($height)
+    min-width: 250px
     height: $height * 2
     font-size: $fontSizeMD
     margin: $basicMargin
@@ -424,6 +425,7 @@
 
 =inputWrapper()
     position: relative
+    width: fit-content
     margin: $basicMargin
 
     label
@@ -438,7 +440,6 @@
         padding-right: $basicPadding
 
     [class*=leto-input]
-        width: 100%
         border: 1px solid $colorLightGrey
         margin: 0
 
@@ -465,7 +466,7 @@
             display: none
 
 
-// Input Radio
+// Input Radio 
 
 =inputRadio($size)
     $bgColor: getElementAttrVal('radio', 'bg')
@@ -474,10 +475,10 @@
     $borderColor: getElementAttrVal('radio', 'borderColor')
     
     position: relative
-    width: $size * $multiplier
-    height: $size * $multiplier
+    width: ($size * $multiplier) / 2
+    height: ($size * $multiplier) / 2
     cursor: pointer
-    margin: calc((#{$size} * #{ $multiplier}) / 2 + #{$basicMargin})
+    margin: calc((#{$size} * #{ $multiplier}) / 4 + #{$basicMargin})
 
     &:before, &:after
         position: absolute
@@ -492,13 +493,13 @@
             background-color: $lightModeBgColor   
         border: 1px solid $borderColor
         border-radius: 100%
-        margin: calc(-1 * (#{$size} * #{ $multiplier}) / 2)
+        margin: calc(-1 * (#{$size} * #{ $multiplier}) / 4)
 
     &:after
         width: calc(200% - 16px)
         height: calc(200% - 16px)
         border-radius: 100%
-        margin: calc(#{$basicMargin} - (#{$size} * #{ $multiplier}) / 2)
+        margin: calc(#{$basicMargin} - (#{$size} * #{ $multiplier}) / 4)
 
     &:checked
         
@@ -509,16 +510,16 @@
 // Input Checkbox
 
 =inputCheckbox($size)
-    $bgColor: getElementAttrVal('checkbox', 'bg')
-    $multiplier: getElementAttrVal('checkbox', 'multiplier')
-    $color: getElementAttrVal('checkbox', 'color')
-    $borderColor: getElementAttrVal('checkbox', 'borderColor')
+    $bgColor: getElementAttrVal('radio', 'bg')
+    $multiplier: getElementAttrVal('radio', 'multiplier')
+    $color: getElementAttrVal('radio', 'color')
+    $borderColor: getElementAttrVal('radio', 'borderColor')
     
     position: relative
-    width: $size * $multiplier
-    height: $size * $multiplier
+    width: ($size * $multiplier) / 2
+    height: ($size * $multiplier) / 2
     cursor: pointer
-    margin: calc((#{$size} * #{ $multiplier}) / 2 + #{$basicMargin})
+    margin: calc((#{$size} * #{ $multiplier}) / 4 + #{$basicMargin})
 
     &:before, &:after
         position: absolute
@@ -533,13 +534,13 @@
             background-color: $lightModeBgColor   
         border: 1px solid $borderColor
         border-radius: 100%
-        margin: calc(-1 * (#{$size} * #{ $multiplier}) / 2)
+        margin: calc(-1 * (#{$size} * #{ $multiplier}) / 4)
 
     &:after
         width: calc(200% - 16px)
         height: calc(200% - 16px)
         border-radius: 100%
-        margin: calc(#{$basicMargin} - (#{$size} * #{ $multiplier}) / 2)
+        margin: calc(#{$basicMargin} - (#{$size} * #{ $multiplier}) / 4)
 
     &:checked
         
@@ -551,6 +552,7 @@
 
 =inputColor($height)
     $multiplier: getElementAttrVal('input', 'multiplier')
+    width: $height * $multiplier
     height: $height * $multiplier
     margin: $basicMargin
     padding: 4px
@@ -694,6 +696,7 @@
 // Search
 
 =search($height)
+    min-width: 250px
     height: $height * 2
     font-size: $fontSizeMD
     margin: $basicMargin
@@ -706,6 +709,7 @@
 // Textarea
 
 =textarea()
+    min-width: 250px
     height: auto
     font-size: $fontSizeMD
     margin: $basicMargin
@@ -719,6 +723,7 @@
 // Select
 
 =select($height)
+    min-width: 250px
     height: $height * 2
     font-size: $fontSizeMD
     margin: $basicMargin

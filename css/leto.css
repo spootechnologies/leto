@@ -329,1524 +329,1524 @@ p, b {
   max-width: 48px;
 }
 
-.leto-bubble-white {
-  background: transparent;
-  color: #fdfdfd;
-  border-color: #fdfdfd;
-}
-
-@media (min-width: 600px) {
-  .leto-bubble-white-tablet {
-    background: transparent;
-    color: #fdfdfd;
-    border-color: #fdfdfd;
-  }
-}
-
-@media (min-width: 1024px) {
-  .leto-bubble-white-tablet-pc {
-    background: transparent;
-    color: #fdfdfd;
-    border-color: #fdfdfd;
-  }
-}
-
-@media (min-width: 1024px) and ((pointer: coarse)) {
-  .leto-bubble-white-tablet-pc {
-    background: transparent;
-    color: #fdfdfd;
-    border-color: #fdfdfd;
-  }
-}
-
-@media (min-width: 1440px) {
-  .leto-bubble-white-pc {
-    background: transparent;
-    color: #fdfdfd;
-    border-color: #fdfdfd;
-  }
-}
-
-@media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
-  .leto-bubble-white-ultrawide {
-    background: transparent;
-    color: #fdfdfd;
-    border-color: #fdfdfd;
-  }
-}
-
-@media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
-  .leto-bubble-white-super-ultrawide {
-    background: transparent;
-    color: #fdfdfd;
-    border-color: #fdfdfd;
-  }
-}
-
-.leto-bubble-dark-white {
-  background: transparent;
-  color: #f0f0f0;
-  border-color: #f0f0f0;
-}
-
-@media (min-width: 600px) {
-  .leto-bubble-dark-white-tablet {
-    background: transparent;
-    color: #f0f0f0;
-    border-color: #f0f0f0;
-  }
-}
-
-@media (min-width: 1024px) {
-  .leto-bubble-dark-white-tablet-pc {
-    background: transparent;
-    color: #f0f0f0;
-    border-color: #f0f0f0;
-  }
-}
-
-@media (min-width: 1024px) and ((pointer: coarse)) {
-  .leto-bubble-dark-white-tablet-pc {
-    background: transparent;
-    color: #f0f0f0;
-    border-color: #f0f0f0;
-  }
-}
-
-@media (min-width: 1440px) {
-  .leto-bubble-dark-white-pc {
-    background: transparent;
-    color: #f0f0f0;
-    border-color: #f0f0f0;
-  }
-}
-
-@media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
-  .leto-bubble-dark-white-ultrawide {
-    background: transparent;
-    color: #f0f0f0;
-    border-color: #f0f0f0;
-  }
-}
-
-@media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
-  .leto-bubble-dark-white-super-ultrawide {
-    background: transparent;
-    color: #f0f0f0;
-    border-color: #f0f0f0;
-  }
-}
-
-.leto-bubble-grey {
-  background: transparent;
-  color: #e1e1e1;
-  border-color: #e1e1e1;
-}
-
-@media (min-width: 600px) {
-  .leto-bubble-grey-tablet {
-    background: transparent;
-    color: #e1e1e1;
-    border-color: #e1e1e1;
-  }
-}
-
-@media (min-width: 1024px) {
-  .leto-bubble-grey-tablet-pc {
-    background: transparent;
-    color: #e1e1e1;
-    border-color: #e1e1e1;
-  }
-}
-
-@media (min-width: 1024px) and ((pointer: coarse)) {
-  .leto-bubble-grey-tablet-pc {
-    background: transparent;
-    color: #e1e1e1;
-    border-color: #e1e1e1;
-  }
-}
-
-@media (min-width: 1440px) {
-  .leto-bubble-grey-pc {
-    background: transparent;
-    color: #e1e1e1;
-    border-color: #e1e1e1;
-  }
-}
-
-@media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
-  .leto-bubble-grey-ultrawide {
-    background: transparent;
-    color: #e1e1e1;
-    border-color: #e1e1e1;
-  }
-}
-
-@media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
-  .leto-bubble-grey-super-ultrawide {
-    background: transparent;
-    color: #e1e1e1;
-    border-color: #e1e1e1;
-  }
-}
-
-.leto-bubble-light-grey {
-  background: transparent;
-  color: #eeeeee;
-  border-color: #eeeeee;
-}
-
-@media (min-width: 600px) {
-  .leto-bubble-light-grey-tablet {
-    background: transparent;
-    color: #eeeeee;
-    border-color: #eeeeee;
-  }
-}
-
-@media (min-width: 1024px) {
-  .leto-bubble-light-grey-tablet-pc {
-    background: transparent;
-    color: #eeeeee;
-    border-color: #eeeeee;
-  }
-}
-
-@media (min-width: 1024px) and ((pointer: coarse)) {
-  .leto-bubble-light-grey-tablet-pc {
-    background: transparent;
-    color: #eeeeee;
-    border-color: #eeeeee;
-  }
-}
-
-@media (min-width: 1440px) {
-  .leto-bubble-light-grey-pc {
-    background: transparent;
-    color: #eeeeee;
-    border-color: #eeeeee;
-  }
-}
-
-@media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
-  .leto-bubble-light-grey-ultrawide {
-    background: transparent;
-    color: #eeeeee;
-    border-color: #eeeeee;
-  }
-}
-
-@media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
-  .leto-bubble-light-grey-super-ultrawide {
-    background: transparent;
-    color: #eeeeee;
-    border-color: #eeeeee;
-  }
-}
-
-.leto-bubble-lighter-grey {
-  background: transparent;
-  color: #fbfbfb;
-  border-color: #fbfbfb;
-}
-
-@media (min-width: 600px) {
-  .leto-bubble-lighter-grey-tablet {
-    background: transparent;
-    color: #fbfbfb;
-    border-color: #fbfbfb;
-  }
-}
-
-@media (min-width: 1024px) {
-  .leto-bubble-lighter-grey-tablet-pc {
-    background: transparent;
-    color: #fbfbfb;
-    border-color: #fbfbfb;
-  }
-}
-
-@media (min-width: 1024px) and ((pointer: coarse)) {
-  .leto-bubble-lighter-grey-tablet-pc {
-    background: transparent;
-    color: #fbfbfb;
-    border-color: #fbfbfb;
-  }
-}
-
-@media (min-width: 1440px) {
-  .leto-bubble-lighter-grey-pc {
-    background: transparent;
-    color: #fbfbfb;
-    border-color: #fbfbfb;
-  }
-}
-
-@media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
-  .leto-bubble-lighter-grey-ultrawide {
-    background: transparent;
-    color: #fbfbfb;
-    border-color: #fbfbfb;
-  }
-}
-
-@media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
-  .leto-bubble-lighter-grey-super-ultrawide {
-    background: transparent;
-    color: #fbfbfb;
-    border-color: #fbfbfb;
-  }
-}
-
-.leto-bubble-dark-grey {
-  background: transparent;
-  color: #c8c8c8;
-  border-color: #c8c8c8;
-}
-
-@media (min-width: 600px) {
-  .leto-bubble-dark-grey-tablet {
-    background: transparent;
-    color: #c8c8c8;
-    border-color: #c8c8c8;
-  }
-}
-
-@media (min-width: 1024px) {
-  .leto-bubble-dark-grey-tablet-pc {
-    background: transparent;
-    color: #c8c8c8;
-    border-color: #c8c8c8;
-  }
-}
-
-@media (min-width: 1024px) and ((pointer: coarse)) {
-  .leto-bubble-dark-grey-tablet-pc {
-    background: transparent;
-    color: #c8c8c8;
-    border-color: #c8c8c8;
-  }
-}
-
-@media (min-width: 1440px) {
-  .leto-bubble-dark-grey-pc {
-    background: transparent;
-    color: #c8c8c8;
-    border-color: #c8c8c8;
-  }
-}
-
-@media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
-  .leto-bubble-dark-grey-ultrawide {
-    background: transparent;
-    color: #c8c8c8;
-    border-color: #c8c8c8;
-  }
-}
-
-@media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
-  .leto-bubble-dark-grey-super-ultrawide {
-    background: transparent;
-    color: #c8c8c8;
-    border-color: #c8c8c8;
-  }
-}
-
-.leto-bubble-darker-grey {
-  background: transparent;
-  color: #aeaeae;
-  border-color: #aeaeae;
-}
-
-@media (min-width: 600px) {
-  .leto-bubble-darker-grey-tablet {
-    background: transparent;
-    color: #aeaeae;
-    border-color: #aeaeae;
-  }
-}
-
-@media (min-width: 1024px) {
-  .leto-bubble-darker-grey-tablet-pc {
-    background: transparent;
-    color: #aeaeae;
-    border-color: #aeaeae;
-  }
-}
-
-@media (min-width: 1024px) and ((pointer: coarse)) {
-  .leto-bubble-darker-grey-tablet-pc {
-    background: transparent;
-    color: #aeaeae;
-    border-color: #aeaeae;
-  }
-}
-
-@media (min-width: 1440px) {
-  .leto-bubble-darker-grey-pc {
-    background: transparent;
-    color: #aeaeae;
-    border-color: #aeaeae;
-  }
-}
-
-@media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
-  .leto-bubble-darker-grey-ultrawide {
-    background: transparent;
-    color: #aeaeae;
-    border-color: #aeaeae;
-  }
-}
-
-@media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
-  .leto-bubble-darker-grey-super-ultrawide {
-    background: transparent;
-    color: #aeaeae;
-    border-color: #aeaeae;
-  }
-}
-
-.leto-bubble-yellow {
-  background: transparent;
-  color: #ffff73;
-  border-color: #ffff73;
-}
-
-@media (min-width: 600px) {
-  .leto-bubble-yellow-tablet {
-    background: transparent;
-    color: #ffff73;
-    border-color: #ffff73;
-  }
-}
-
-@media (min-width: 1024px) {
-  .leto-bubble-yellow-tablet-pc {
-    background: transparent;
-    color: #ffff73;
-    border-color: #ffff73;
-  }
-}
-
-@media (min-width: 1024px) and ((pointer: coarse)) {
-  .leto-bubble-yellow-tablet-pc {
-    background: transparent;
-    color: #ffff73;
-    border-color: #ffff73;
-  }
-}
-
-@media (min-width: 1440px) {
-  .leto-bubble-yellow-pc {
-    background: transparent;
-    color: #ffff73;
-    border-color: #ffff73;
-  }
-}
-
-@media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
-  .leto-bubble-yellow-ultrawide {
-    background: transparent;
-    color: #ffff73;
-    border-color: #ffff73;
-  }
-}
-
-@media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
-  .leto-bubble-yellow-super-ultrawide {
-    background: transparent;
-    color: #ffff73;
-    border-color: #ffff73;
-  }
-}
-
-.leto-bubble-light-yellow {
-  background: transparent;
-  color: #ffffc0;
-  border-color: #ffffc0;
-}
-
-@media (min-width: 600px) {
-  .leto-bubble-light-yellow-tablet {
-    background: transparent;
-    color: #ffffc0;
-    border-color: #ffffc0;
-  }
-}
-
-@media (min-width: 1024px) {
-  .leto-bubble-light-yellow-tablet-pc {
-    background: transparent;
-    color: #ffffc0;
-    border-color: #ffffc0;
-  }
-}
-
-@media (min-width: 1024px) and ((pointer: coarse)) {
-  .leto-bubble-light-yellow-tablet-pc {
-    background: transparent;
-    color: #ffffc0;
-    border-color: #ffffc0;
-  }
-}
-
-@media (min-width: 1440px) {
-  .leto-bubble-light-yellow-pc {
-    background: transparent;
-    color: #ffffc0;
-    border-color: #ffffc0;
-  }
-}
-
-@media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
-  .leto-bubble-light-yellow-ultrawide {
-    background: transparent;
-    color: #ffffc0;
-    border-color: #ffffc0;
-  }
-}
-
-@media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
-  .leto-bubble-light-yellow-super-ultrawide {
-    background: transparent;
-    color: #ffffc0;
-    border-color: #ffffc0;
-  }
-}
-
-.leto-bubble-dark-yellow {
-  background: transparent;
-  color: #ffff27;
-  border-color: #ffff27;
-}
-
-@media (min-width: 600px) {
-  .leto-bubble-dark-yellow-tablet {
-    background: transparent;
-    color: #ffff27;
-    border-color: #ffff27;
-  }
-}
-
-@media (min-width: 1024px) {
-  .leto-bubble-dark-yellow-tablet-pc {
-    background: transparent;
-    color: #ffff27;
-    border-color: #ffff27;
-  }
-}
-
-@media (min-width: 1024px) and ((pointer: coarse)) {
-  .leto-bubble-dark-yellow-tablet-pc {
-    background: transparent;
-    color: #ffff27;
-    border-color: #ffff27;
-  }
-}
-
-@media (min-width: 1440px) {
-  .leto-bubble-dark-yellow-pc {
-    background: transparent;
-    color: #ffff27;
-    border-color: #ffff27;
-  }
-}
-
-@media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
-  .leto-bubble-dark-yellow-ultrawide {
-    background: transparent;
-    color: #ffff27;
-    border-color: #ffff27;
-  }
-}
-
-@media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
-  .leto-bubble-dark-yellow-super-ultrawide {
-    background: transparent;
-    color: #ffff27;
-    border-color: #ffff27;
-  }
-}
-
-.leto-bubble-orange {
-  background: transparent;
-  color: #ffac5a;
-  border-color: #ffac5a;
-}
-
-@media (min-width: 600px) {
-  .leto-bubble-orange-tablet {
-    background: transparent;
-    color: #ffac5a;
-    border-color: #ffac5a;
-  }
-}
-
-@media (min-width: 1024px) {
-  .leto-bubble-orange-tablet-pc {
-    background: transparent;
-    color: #ffac5a;
-    border-color: #ffac5a;
-  }
-}
-
-@media (min-width: 1024px) and ((pointer: coarse)) {
-  .leto-bubble-orange-tablet-pc {
-    background: transparent;
-    color: #ffac5a;
-    border-color: #ffac5a;
-  }
-}
-
-@media (min-width: 1440px) {
-  .leto-bubble-orange-pc {
-    background: transparent;
-    color: #ffac5a;
-    border-color: #ffac5a;
-  }
-}
-
-@media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
-  .leto-bubble-orange-ultrawide {
-    background: transparent;
-    color: #ffac5a;
-    border-color: #ffac5a;
-  }
-}
-
-@media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
-  .leto-bubble-orange-super-ultrawide {
-    background: transparent;
-    color: #ffac5a;
-    border-color: #ffac5a;
-  }
-}
-
-.leto-bubble-light-orange {
-  background: transparent;
-  color: #ffd2a7;
-  border-color: #ffd2a7;
-}
-
-@media (min-width: 600px) {
-  .leto-bubble-light-orange-tablet {
-    background: transparent;
-    color: #ffd2a7;
-    border-color: #ffd2a7;
-  }
-}
-
-@media (min-width: 1024px) {
-  .leto-bubble-light-orange-tablet-pc {
-    background: transparent;
-    color: #ffd2a7;
-    border-color: #ffd2a7;
-  }
-}
-
-@media (min-width: 1024px) and ((pointer: coarse)) {
-  .leto-bubble-light-orange-tablet-pc {
-    background: transparent;
-    color: #ffd2a7;
-    border-color: #ffd2a7;
-  }
-}
-
-@media (min-width: 1440px) {
-  .leto-bubble-light-orange-pc {
-    background: transparent;
-    color: #ffd2a7;
-    border-color: #ffd2a7;
-  }
-}
-
-@media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
-  .leto-bubble-light-orange-ultrawide {
-    background: transparent;
-    color: #ffd2a7;
-    border-color: #ffd2a7;
-  }
-}
-
-@media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
-  .leto-bubble-light-orange-super-ultrawide {
-    background: transparent;
-    color: #ffd2a7;
-    border-color: #ffd2a7;
-  }
-}
-
-.leto-bubble-dark-orange {
-  background: transparent;
-  color: #ff860e;
-  border-color: #ff860e;
-}
-
-@media (min-width: 600px) {
-  .leto-bubble-dark-orange-tablet {
-    background: transparent;
-    color: #ff860e;
-    border-color: #ff860e;
-  }
-}
-
-@media (min-width: 1024px) {
-  .leto-bubble-dark-orange-tablet-pc {
-    background: transparent;
-    color: #ff860e;
-    border-color: #ff860e;
-  }
-}
-
-@media (min-width: 1024px) and ((pointer: coarse)) {
-  .leto-bubble-dark-orange-tablet-pc {
-    background: transparent;
-    color: #ff860e;
-    border-color: #ff860e;
-  }
-}
-
-@media (min-width: 1440px) {
-  .leto-bubble-dark-orange-pc {
-    background: transparent;
-    color: #ff860e;
-    border-color: #ff860e;
-  }
-}
-
-@media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
-  .leto-bubble-dark-orange-ultrawide {
-    background: transparent;
-    color: #ff860e;
-    border-color: #ff860e;
-  }
-}
-
-@media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
-  .leto-bubble-dark-orange-super-ultrawide {
-    background: transparent;
-    color: #ff860e;
-    border-color: #ff860e;
-  }
-}
-
-.leto-bubble-red {
-  background: transparent;
-  color: #ff6666;
-  border-color: #ff6666;
-}
-
-@media (min-width: 600px) {
-  .leto-bubble-red-tablet {
-    background: transparent;
-    color: #ff6666;
-    border-color: #ff6666;
-  }
-}
-
-@media (min-width: 1024px) {
-  .leto-bubble-red-tablet-pc {
-    background: transparent;
-    color: #ff6666;
-    border-color: #ff6666;
-  }
-}
-
-@media (min-width: 1024px) and ((pointer: coarse)) {
-  .leto-bubble-red-tablet-pc {
-    background: transparent;
-    color: #ff6666;
-    border-color: #ff6666;
-  }
-}
-
-@media (min-width: 1440px) {
-  .leto-bubble-red-pc {
-    background: transparent;
-    color: #ff6666;
-    border-color: #ff6666;
-  }
-}
-
-@media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
-  .leto-bubble-red-ultrawide {
-    background: transparent;
-    color: #ff6666;
-    border-color: #ff6666;
-  }
-}
-
-@media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
-  .leto-bubble-red-super-ultrawide {
-    background: transparent;
-    color: #ff6666;
-    border-color: #ff6666;
-  }
-}
-
-.leto-bubble-light-red {
-  background: transparent;
-  color: #ffb3b3;
-  border-color: #ffb3b3;
-}
-
-@media (min-width: 600px) {
-  .leto-bubble-light-red-tablet {
-    background: transparent;
-    color: #ffb3b3;
-    border-color: #ffb3b3;
-  }
-}
-
-@media (min-width: 1024px) {
-  .leto-bubble-light-red-tablet-pc {
-    background: transparent;
-    color: #ffb3b3;
-    border-color: #ffb3b3;
-  }
-}
-
-@media (min-width: 1024px) and ((pointer: coarse)) {
-  .leto-bubble-light-red-tablet-pc {
-    background: transparent;
-    color: #ffb3b3;
-    border-color: #ffb3b3;
-  }
-}
-
-@media (min-width: 1440px) {
-  .leto-bubble-light-red-pc {
-    background: transparent;
-    color: #ffb3b3;
-    border-color: #ffb3b3;
-  }
-}
-
-@media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
-  .leto-bubble-light-red-ultrawide {
-    background: transparent;
-    color: #ffb3b3;
-    border-color: #ffb3b3;
-  }
-}
-
-@media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
-  .leto-bubble-light-red-super-ultrawide {
-    background: transparent;
-    color: #ffb3b3;
-    border-color: #ffb3b3;
-  }
-}
-
-.leto-bubble-dark-red {
-  background: transparent;
-  color: #ff1a1a;
-  border-color: #ff1a1a;
-}
-
-@media (min-width: 600px) {
-  .leto-bubble-dark-red-tablet {
-    background: transparent;
-    color: #ff1a1a;
-    border-color: #ff1a1a;
-  }
-}
-
-@media (min-width: 1024px) {
-  .leto-bubble-dark-red-tablet-pc {
-    background: transparent;
-    color: #ff1a1a;
-    border-color: #ff1a1a;
-  }
-}
-
-@media (min-width: 1024px) and ((pointer: coarse)) {
-  .leto-bubble-dark-red-tablet-pc {
-    background: transparent;
-    color: #ff1a1a;
-    border-color: #ff1a1a;
-  }
-}
-
-@media (min-width: 1440px) {
-  .leto-bubble-dark-red-pc {
-    background: transparent;
-    color: #ff1a1a;
-    border-color: #ff1a1a;
-  }
-}
-
-@media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
-  .leto-bubble-dark-red-ultrawide {
-    background: transparent;
-    color: #ff1a1a;
-    border-color: #ff1a1a;
-  }
-}
-
-@media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
-  .leto-bubble-dark-red-super-ultrawide {
-    background: transparent;
-    color: #ff1a1a;
-    border-color: #ff1a1a;
-  }
-}
-
-.leto-bubble-purple {
-  background: transparent;
-  color: #ca7fff;
-  border-color: #ca7fff;
-}
-
-@media (min-width: 600px) {
-  .leto-bubble-purple-tablet {
-    background: transparent;
-    color: #ca7fff;
-    border-color: #ca7fff;
-  }
-}
-
-@media (min-width: 1024px) {
-  .leto-bubble-purple-tablet-pc {
-    background: transparent;
-    color: #ca7fff;
-    border-color: #ca7fff;
-  }
-}
-
-@media (min-width: 1024px) and ((pointer: coarse)) {
-  .leto-bubble-purple-tablet-pc {
-    background: transparent;
-    color: #ca7fff;
-    border-color: #ca7fff;
-  }
-}
-
-@media (min-width: 1440px) {
-  .leto-bubble-purple-pc {
-    background: transparent;
-    color: #ca7fff;
-    border-color: #ca7fff;
-  }
-}
-
-@media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
-  .leto-bubble-purple-ultrawide {
-    background: transparent;
-    color: #ca7fff;
-    border-color: #ca7fff;
-  }
-}
-
-@media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
-  .leto-bubble-purple-super-ultrawide {
-    background: transparent;
-    color: #ca7fff;
-    border-color: #ca7fff;
-  }
-}
-
-.leto-bubble-light-purple {
-  background: transparent;
-  color: #eaccff;
-  border-color: #eaccff;
-}
-
-@media (min-width: 600px) {
-  .leto-bubble-light-purple-tablet {
-    background: transparent;
-    color: #eaccff;
-    border-color: #eaccff;
-  }
-}
-
-@media (min-width: 1024px) {
-  .leto-bubble-light-purple-tablet-pc {
-    background: transparent;
-    color: #eaccff;
-    border-color: #eaccff;
-  }
-}
-
-@media (min-width: 1024px) and ((pointer: coarse)) {
-  .leto-bubble-light-purple-tablet-pc {
-    background: transparent;
-    color: #eaccff;
-    border-color: #eaccff;
-  }
-}
-
-@media (min-width: 1440px) {
-  .leto-bubble-light-purple-pc {
-    background: transparent;
-    color: #eaccff;
-    border-color: #eaccff;
-  }
-}
-
-@media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
-  .leto-bubble-light-purple-ultrawide {
-    background: transparent;
-    color: #eaccff;
-    border-color: #eaccff;
-  }
-}
-
-@media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
-  .leto-bubble-light-purple-super-ultrawide {
-    background: transparent;
-    color: #eaccff;
-    border-color: #eaccff;
-  }
-}
-
-.leto-bubble-dark-purple {
-  background: transparent;
-  color: #aa33ff;
-  border-color: #aa33ff;
-}
-
-@media (min-width: 600px) {
-  .leto-bubble-dark-purple-tablet {
-    background: transparent;
-    color: #aa33ff;
-    border-color: #aa33ff;
-  }
-}
-
-@media (min-width: 1024px) {
-  .leto-bubble-dark-purple-tablet-pc {
-    background: transparent;
-    color: #aa33ff;
-    border-color: #aa33ff;
-  }
-}
-
-@media (min-width: 1024px) and ((pointer: coarse)) {
-  .leto-bubble-dark-purple-tablet-pc {
-    background: transparent;
-    color: #aa33ff;
-    border-color: #aa33ff;
-  }
-}
-
-@media (min-width: 1440px) {
-  .leto-bubble-dark-purple-pc {
-    background: transparent;
-    color: #aa33ff;
-    border-color: #aa33ff;
-  }
-}
-
-@media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
-  .leto-bubble-dark-purple-ultrawide {
-    background: transparent;
-    color: #aa33ff;
-    border-color: #aa33ff;
-  }
-}
-
-@media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
-  .leto-bubble-dark-purple-super-ultrawide {
-    background: transparent;
-    color: #aa33ff;
-    border-color: #aa33ff;
-  }
-}
-
-.leto-bubble-blue {
-  background: transparent;
-  color: #738aff;
-  border-color: #738aff;
-}
-
-@media (min-width: 600px) {
-  .leto-bubble-blue-tablet {
-    background: transparent;
-    color: #738aff;
-    border-color: #738aff;
-  }
-}
-
-@media (min-width: 1024px) {
-  .leto-bubble-blue-tablet-pc {
-    background: transparent;
-    color: #738aff;
-    border-color: #738aff;
-  }
-}
-
-@media (min-width: 1024px) and ((pointer: coarse)) {
-  .leto-bubble-blue-tablet-pc {
-    background: transparent;
-    color: #738aff;
-    border-color: #738aff;
-  }
-}
-
-@media (min-width: 1440px) {
-  .leto-bubble-blue-pc {
-    background: transparent;
-    color: #738aff;
-    border-color: #738aff;
-  }
-}
-
-@media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
-  .leto-bubble-blue-ultrawide {
-    background: transparent;
-    color: #738aff;
-    border-color: #738aff;
-  }
-}
-
-@media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
-  .leto-bubble-blue-super-ultrawide {
-    background: transparent;
-    color: #738aff;
-    border-color: #738aff;
-  }
-}
-
-.leto-bubble-light-blue {
-  background: transparent;
-  color: #c0caff;
-  border-color: #c0caff;
-}
-
-@media (min-width: 600px) {
-  .leto-bubble-light-blue-tablet {
-    background: transparent;
-    color: #c0caff;
-    border-color: #c0caff;
-  }
-}
-
-@media (min-width: 1024px) {
-  .leto-bubble-light-blue-tablet-pc {
-    background: transparent;
-    color: #c0caff;
-    border-color: #c0caff;
-  }
-}
-
-@media (min-width: 1024px) and ((pointer: coarse)) {
-  .leto-bubble-light-blue-tablet-pc {
-    background: transparent;
-    color: #c0caff;
-    border-color: #c0caff;
-  }
-}
-
-@media (min-width: 1440px) {
-  .leto-bubble-light-blue-pc {
-    background: transparent;
-    color: #c0caff;
-    border-color: #c0caff;
-  }
-}
-
-@media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
-  .leto-bubble-light-blue-ultrawide {
-    background: transparent;
-    color: #c0caff;
-    border-color: #c0caff;
-  }
-}
-
-@media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
-  .leto-bubble-light-blue-super-ultrawide {
-    background: transparent;
-    color: #c0caff;
-    border-color: #c0caff;
-  }
-}
-
-.leto-bubble-dark-blue {
-  background: transparent;
-  color: #274aff;
-  border-color: #274aff;
-}
-
-@media (min-width: 600px) {
-  .leto-bubble-dark-blue-tablet {
-    background: transparent;
-    color: #274aff;
-    border-color: #274aff;
-  }
-}
-
-@media (min-width: 1024px) {
-  .leto-bubble-dark-blue-tablet-pc {
-    background: transparent;
-    color: #274aff;
-    border-color: #274aff;
-  }
-}
-
-@media (min-width: 1024px) and ((pointer: coarse)) {
-  .leto-bubble-dark-blue-tablet-pc {
-    background: transparent;
-    color: #274aff;
-    border-color: #274aff;
-  }
-}
-
-@media (min-width: 1440px) {
-  .leto-bubble-dark-blue-pc {
-    background: transparent;
-    color: #274aff;
-    border-color: #274aff;
-  }
-}
-
-@media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
-  .leto-bubble-dark-blue-ultrawide {
-    background: transparent;
-    color: #274aff;
-    border-color: #274aff;
-  }
-}
-
-@media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
-  .leto-bubble-dark-blue-super-ultrawide {
-    background: transparent;
-    color: #274aff;
-    border-color: #274aff;
-  }
-}
-
-.leto-bubble-mint {
-  background: transparent;
-  color: #59ffc8;
-  border-color: #59ffc8;
-}
-
-@media (min-width: 600px) {
-  .leto-bubble-mint-tablet {
-    background: transparent;
-    color: #59ffc8;
-    border-color: #59ffc8;
-  }
-}
-
-@media (min-width: 1024px) {
-  .leto-bubble-mint-tablet-pc {
-    background: transparent;
-    color: #59ffc8;
-    border-color: #59ffc8;
-  }
-}
-
-@media (min-width: 1024px) and ((pointer: coarse)) {
-  .leto-bubble-mint-tablet-pc {
-    background: transparent;
-    color: #59ffc8;
-    border-color: #59ffc8;
-  }
-}
-
-@media (min-width: 1440px) {
-  .leto-bubble-mint-pc {
-    background: transparent;
-    color: #59ffc8;
-    border-color: #59ffc8;
-  }
-}
-
-@media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
-  .leto-bubble-mint-ultrawide {
-    background: transparent;
-    color: #59ffc8;
-    border-color: #59ffc8;
-  }
-}
-
-@media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
-  .leto-bubble-mint-super-ultrawide {
-    background: transparent;
-    color: #59ffc8;
-    border-color: #59ffc8;
-  }
-}
-
-.leto-bubble-light-mint {
-  background: transparent;
-  color: #a6ffe1;
-  border-color: #a6ffe1;
-}
-
-@media (min-width: 600px) {
-  .leto-bubble-light-mint-tablet {
-    background: transparent;
-    color: #a6ffe1;
-    border-color: #a6ffe1;
-  }
-}
-
-@media (min-width: 1024px) {
-  .leto-bubble-light-mint-tablet-pc {
-    background: transparent;
-    color: #a6ffe1;
-    border-color: #a6ffe1;
-  }
-}
-
-@media (min-width: 1024px) and ((pointer: coarse)) {
-  .leto-bubble-light-mint-tablet-pc {
-    background: transparent;
-    color: #a6ffe1;
-    border-color: #a6ffe1;
-  }
-}
-
-@media (min-width: 1440px) {
-  .leto-bubble-light-mint-pc {
-    background: transparent;
-    color: #a6ffe1;
-    border-color: #a6ffe1;
-  }
-}
-
-@media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
-  .leto-bubble-light-mint-ultrawide {
-    background: transparent;
-    color: #a6ffe1;
-    border-color: #a6ffe1;
-  }
-}
-
-@media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
-  .leto-bubble-light-mint-super-ultrawide {
-    background: transparent;
-    color: #a6ffe1;
-    border-color: #a6ffe1;
-  }
-}
-
-.leto-bubble-dark-mint {
-  background: transparent;
-  color: #0dffaf;
-  border-color: #0dffaf;
-}
-
-@media (min-width: 600px) {
-  .leto-bubble-dark-mint-tablet {
-    background: transparent;
-    color: #0dffaf;
-    border-color: #0dffaf;
-  }
-}
-
-@media (min-width: 1024px) {
-  .leto-bubble-dark-mint-tablet-pc {
-    background: transparent;
-    color: #0dffaf;
-    border-color: #0dffaf;
-  }
-}
-
-@media (min-width: 1024px) and ((pointer: coarse)) {
-  .leto-bubble-dark-mint-tablet-pc {
-    background: transparent;
-    color: #0dffaf;
-    border-color: #0dffaf;
-  }
-}
-
-@media (min-width: 1440px) {
-  .leto-bubble-dark-mint-pc {
-    background: transparent;
-    color: #0dffaf;
-    border-color: #0dffaf;
-  }
-}
-
-@media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
-  .leto-bubble-dark-mint-ultrawide {
-    background: transparent;
-    color: #0dffaf;
-    border-color: #0dffaf;
-  }
-}
-
-@media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
-  .leto-bubble-dark-mint-super-ultrawide {
-    background: transparent;
-    color: #0dffaf;
-    border-color: #0dffaf;
-  }
-}
-
-.leto-bubble-mint {
-  background: transparent;
-  color: #8aff80;
-  border-color: #8aff80;
-}
-
-@media (min-width: 600px) {
-  .leto-bubble-mint-tablet {
-    background: transparent;
-    color: #8aff80;
-    border-color: #8aff80;
-  }
-}
-
-@media (min-width: 1024px) {
-  .leto-bubble-mint-tablet-pc {
-    background: transparent;
-    color: #8aff80;
-    border-color: #8aff80;
-  }
-}
-
-@media (min-width: 1024px) and ((pointer: coarse)) {
-  .leto-bubble-mint-tablet-pc {
-    background: transparent;
-    color: #8aff80;
-    border-color: #8aff80;
-  }
-}
-
-@media (min-width: 1440px) {
-  .leto-bubble-mint-pc {
-    background: transparent;
-    color: #8aff80;
-    border-color: #8aff80;
-  }
-}
-
-@media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
-  .leto-bubble-mint-ultrawide {
-    background: transparent;
-    color: #8aff80;
-    border-color: #8aff80;
-  }
-}
-
-@media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
-  .leto-bubble-mint-super-ultrawide {
-    background: transparent;
-    color: #8aff80;
-    border-color: #8aff80;
-  }
-}
-
-.leto-bubble-light-mint {
-  background: transparent;
-  color: #d0ffcd;
-  border-color: #d0ffcd;
-}
-
-@media (min-width: 600px) {
-  .leto-bubble-light-mint-tablet {
-    background: transparent;
-    color: #d0ffcd;
-    border-color: #d0ffcd;
-  }
-}
-
-@media (min-width: 1024px) {
-  .leto-bubble-light-mint-tablet-pc {
-    background: transparent;
-    color: #d0ffcd;
-    border-color: #d0ffcd;
-  }
-}
-
-@media (min-width: 1024px) and ((pointer: coarse)) {
-  .leto-bubble-light-mint-tablet-pc {
-    background: transparent;
-    color: #d0ffcd;
-    border-color: #d0ffcd;
-  }
-}
-
-@media (min-width: 1440px) {
-  .leto-bubble-light-mint-pc {
-    background: transparent;
-    color: #d0ffcd;
-    border-color: #d0ffcd;
-  }
-}
-
-@media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
-  .leto-bubble-light-mint-ultrawide {
-    background: transparent;
-    color: #d0ffcd;
-    border-color: #d0ffcd;
-  }
-}
-
-@media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
-  .leto-bubble-light-mint-super-ultrawide {
-    background: transparent;
-    color: #d0ffcd;
-    border-color: #d0ffcd;
-  }
-}
-
-.leto-bubble-dark-mint {
-  background: transparent;
-  color: #44ff34;
-  border-color: #44ff34;
-}
-
-@media (min-width: 600px) {
-  .leto-bubble-dark-mint-tablet {
-    background: transparent;
-    color: #44ff34;
-    border-color: #44ff34;
-  }
-}
-
-@media (min-width: 1024px) {
-  .leto-bubble-dark-mint-tablet-pc {
-    background: transparent;
-    color: #44ff34;
-    border-color: #44ff34;
-  }
-}
-
-@media (min-width: 1024px) and ((pointer: coarse)) {
-  .leto-bubble-dark-mint-tablet-pc {
-    background: transparent;
-    color: #44ff34;
-    border-color: #44ff34;
-  }
-}
-
-@media (min-width: 1440px) {
-  .leto-bubble-dark-mint-pc {
-    background: transparent;
-    color: #44ff34;
-    border-color: #44ff34;
-  }
-}
-
-@media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
-  .leto-bubble-dark-mint-ultrawide {
-    background: transparent;
-    color: #44ff34;
-    border-color: #44ff34;
-  }
-}
-
-@media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
-  .leto-bubble-dark-mint-super-ultrawide {
-    background: transparent;
-    color: #44ff34;
-    border-color: #44ff34;
-  }
-}
-
 .leto-frame-default [class*="leto-bubble"] {
   color: #303030;
 }
 
 .leto-frame-dark [class*="leto-bubble"] {
   color: #fdfdfd;
+}
+
+[class*="leto-frame"] .leto-bubble-white {
+  background: transparent;
+  color: #fdfdfd;
+  border-color: #fdfdfd;
+}
+
+@media (min-width: 600px) {
+  [class*="leto-frame"] .leto-bubble-white-tablet {
+    background: transparent;
+    color: #fdfdfd;
+    border-color: #fdfdfd;
+  }
+}
+
+@media (min-width: 1024px) {
+  [class*="leto-frame"] .leto-bubble-white-tablet-pc {
+    background: transparent;
+    color: #fdfdfd;
+    border-color: #fdfdfd;
+  }
+}
+
+@media (min-width: 1024px) and ((pointer: coarse)) {
+  [class*="leto-frame"] .leto-bubble-white-tablet-pc {
+    background: transparent;
+    color: #fdfdfd;
+    border-color: #fdfdfd;
+  }
+}
+
+@media (min-width: 1440px) {
+  [class*="leto-frame"] .leto-bubble-white-pc {
+    background: transparent;
+    color: #fdfdfd;
+    border-color: #fdfdfd;
+  }
+}
+
+@media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
+  [class*="leto-frame"] .leto-bubble-white-ultrawide {
+    background: transparent;
+    color: #fdfdfd;
+    border-color: #fdfdfd;
+  }
+}
+
+@media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
+  [class*="leto-frame"] .leto-bubble-white-super-ultrawide {
+    background: transparent;
+    color: #fdfdfd;
+    border-color: #fdfdfd;
+  }
+}
+
+[class*="leto-frame"] .leto-bubble-dark-white {
+  background: transparent;
+  color: #f0f0f0;
+  border-color: #f0f0f0;
+}
+
+@media (min-width: 600px) {
+  [class*="leto-frame"] .leto-bubble-dark-white-tablet {
+    background: transparent;
+    color: #f0f0f0;
+    border-color: #f0f0f0;
+  }
+}
+
+@media (min-width: 1024px) {
+  [class*="leto-frame"] .leto-bubble-dark-white-tablet-pc {
+    background: transparent;
+    color: #f0f0f0;
+    border-color: #f0f0f0;
+  }
+}
+
+@media (min-width: 1024px) and ((pointer: coarse)) {
+  [class*="leto-frame"] .leto-bubble-dark-white-tablet-pc {
+    background: transparent;
+    color: #f0f0f0;
+    border-color: #f0f0f0;
+  }
+}
+
+@media (min-width: 1440px) {
+  [class*="leto-frame"] .leto-bubble-dark-white-pc {
+    background: transparent;
+    color: #f0f0f0;
+    border-color: #f0f0f0;
+  }
+}
+
+@media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
+  [class*="leto-frame"] .leto-bubble-dark-white-ultrawide {
+    background: transparent;
+    color: #f0f0f0;
+    border-color: #f0f0f0;
+  }
+}
+
+@media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
+  [class*="leto-frame"] .leto-bubble-dark-white-super-ultrawide {
+    background: transparent;
+    color: #f0f0f0;
+    border-color: #f0f0f0;
+  }
+}
+
+[class*="leto-frame"] .leto-bubble-grey {
+  background: transparent;
+  color: #e1e1e1;
+  border-color: #e1e1e1;
+}
+
+@media (min-width: 600px) {
+  [class*="leto-frame"] .leto-bubble-grey-tablet {
+    background: transparent;
+    color: #e1e1e1;
+    border-color: #e1e1e1;
+  }
+}
+
+@media (min-width: 1024px) {
+  [class*="leto-frame"] .leto-bubble-grey-tablet-pc {
+    background: transparent;
+    color: #e1e1e1;
+    border-color: #e1e1e1;
+  }
+}
+
+@media (min-width: 1024px) and ((pointer: coarse)) {
+  [class*="leto-frame"] .leto-bubble-grey-tablet-pc {
+    background: transparent;
+    color: #e1e1e1;
+    border-color: #e1e1e1;
+  }
+}
+
+@media (min-width: 1440px) {
+  [class*="leto-frame"] .leto-bubble-grey-pc {
+    background: transparent;
+    color: #e1e1e1;
+    border-color: #e1e1e1;
+  }
+}
+
+@media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
+  [class*="leto-frame"] .leto-bubble-grey-ultrawide {
+    background: transparent;
+    color: #e1e1e1;
+    border-color: #e1e1e1;
+  }
+}
+
+@media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
+  [class*="leto-frame"] .leto-bubble-grey-super-ultrawide {
+    background: transparent;
+    color: #e1e1e1;
+    border-color: #e1e1e1;
+  }
+}
+
+[class*="leto-frame"] .leto-bubble-light-grey {
+  background: transparent;
+  color: #eeeeee;
+  border-color: #eeeeee;
+}
+
+@media (min-width: 600px) {
+  [class*="leto-frame"] .leto-bubble-light-grey-tablet {
+    background: transparent;
+    color: #eeeeee;
+    border-color: #eeeeee;
+  }
+}
+
+@media (min-width: 1024px) {
+  [class*="leto-frame"] .leto-bubble-light-grey-tablet-pc {
+    background: transparent;
+    color: #eeeeee;
+    border-color: #eeeeee;
+  }
+}
+
+@media (min-width: 1024px) and ((pointer: coarse)) {
+  [class*="leto-frame"] .leto-bubble-light-grey-tablet-pc {
+    background: transparent;
+    color: #eeeeee;
+    border-color: #eeeeee;
+  }
+}
+
+@media (min-width: 1440px) {
+  [class*="leto-frame"] .leto-bubble-light-grey-pc {
+    background: transparent;
+    color: #eeeeee;
+    border-color: #eeeeee;
+  }
+}
+
+@media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
+  [class*="leto-frame"] .leto-bubble-light-grey-ultrawide {
+    background: transparent;
+    color: #eeeeee;
+    border-color: #eeeeee;
+  }
+}
+
+@media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
+  [class*="leto-frame"] .leto-bubble-light-grey-super-ultrawide {
+    background: transparent;
+    color: #eeeeee;
+    border-color: #eeeeee;
+  }
+}
+
+[class*="leto-frame"] .leto-bubble-lighter-grey {
+  background: transparent;
+  color: #fbfbfb;
+  border-color: #fbfbfb;
+}
+
+@media (min-width: 600px) {
+  [class*="leto-frame"] .leto-bubble-lighter-grey-tablet {
+    background: transparent;
+    color: #fbfbfb;
+    border-color: #fbfbfb;
+  }
+}
+
+@media (min-width: 1024px) {
+  [class*="leto-frame"] .leto-bubble-lighter-grey-tablet-pc {
+    background: transparent;
+    color: #fbfbfb;
+    border-color: #fbfbfb;
+  }
+}
+
+@media (min-width: 1024px) and ((pointer: coarse)) {
+  [class*="leto-frame"] .leto-bubble-lighter-grey-tablet-pc {
+    background: transparent;
+    color: #fbfbfb;
+    border-color: #fbfbfb;
+  }
+}
+
+@media (min-width: 1440px) {
+  [class*="leto-frame"] .leto-bubble-lighter-grey-pc {
+    background: transparent;
+    color: #fbfbfb;
+    border-color: #fbfbfb;
+  }
+}
+
+@media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
+  [class*="leto-frame"] .leto-bubble-lighter-grey-ultrawide {
+    background: transparent;
+    color: #fbfbfb;
+    border-color: #fbfbfb;
+  }
+}
+
+@media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
+  [class*="leto-frame"] .leto-bubble-lighter-grey-super-ultrawide {
+    background: transparent;
+    color: #fbfbfb;
+    border-color: #fbfbfb;
+  }
+}
+
+[class*="leto-frame"] .leto-bubble-dark-grey {
+  background: transparent;
+  color: #c8c8c8;
+  border-color: #c8c8c8;
+}
+
+@media (min-width: 600px) {
+  [class*="leto-frame"] .leto-bubble-dark-grey-tablet {
+    background: transparent;
+    color: #c8c8c8;
+    border-color: #c8c8c8;
+  }
+}
+
+@media (min-width: 1024px) {
+  [class*="leto-frame"] .leto-bubble-dark-grey-tablet-pc {
+    background: transparent;
+    color: #c8c8c8;
+    border-color: #c8c8c8;
+  }
+}
+
+@media (min-width: 1024px) and ((pointer: coarse)) {
+  [class*="leto-frame"] .leto-bubble-dark-grey-tablet-pc {
+    background: transparent;
+    color: #c8c8c8;
+    border-color: #c8c8c8;
+  }
+}
+
+@media (min-width: 1440px) {
+  [class*="leto-frame"] .leto-bubble-dark-grey-pc {
+    background: transparent;
+    color: #c8c8c8;
+    border-color: #c8c8c8;
+  }
+}
+
+@media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
+  [class*="leto-frame"] .leto-bubble-dark-grey-ultrawide {
+    background: transparent;
+    color: #c8c8c8;
+    border-color: #c8c8c8;
+  }
+}
+
+@media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
+  [class*="leto-frame"] .leto-bubble-dark-grey-super-ultrawide {
+    background: transparent;
+    color: #c8c8c8;
+    border-color: #c8c8c8;
+  }
+}
+
+[class*="leto-frame"] .leto-bubble-darker-grey {
+  background: transparent;
+  color: #aeaeae;
+  border-color: #aeaeae;
+}
+
+@media (min-width: 600px) {
+  [class*="leto-frame"] .leto-bubble-darker-grey-tablet {
+    background: transparent;
+    color: #aeaeae;
+    border-color: #aeaeae;
+  }
+}
+
+@media (min-width: 1024px) {
+  [class*="leto-frame"] .leto-bubble-darker-grey-tablet-pc {
+    background: transparent;
+    color: #aeaeae;
+    border-color: #aeaeae;
+  }
+}
+
+@media (min-width: 1024px) and ((pointer: coarse)) {
+  [class*="leto-frame"] .leto-bubble-darker-grey-tablet-pc {
+    background: transparent;
+    color: #aeaeae;
+    border-color: #aeaeae;
+  }
+}
+
+@media (min-width: 1440px) {
+  [class*="leto-frame"] .leto-bubble-darker-grey-pc {
+    background: transparent;
+    color: #aeaeae;
+    border-color: #aeaeae;
+  }
+}
+
+@media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
+  [class*="leto-frame"] .leto-bubble-darker-grey-ultrawide {
+    background: transparent;
+    color: #aeaeae;
+    border-color: #aeaeae;
+  }
+}
+
+@media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
+  [class*="leto-frame"] .leto-bubble-darker-grey-super-ultrawide {
+    background: transparent;
+    color: #aeaeae;
+    border-color: #aeaeae;
+  }
+}
+
+[class*="leto-frame"] .leto-bubble-yellow {
+  background: transparent;
+  color: #ffff73;
+  border-color: #ffff73;
+}
+
+@media (min-width: 600px) {
+  [class*="leto-frame"] .leto-bubble-yellow-tablet {
+    background: transparent;
+    color: #ffff73;
+    border-color: #ffff73;
+  }
+}
+
+@media (min-width: 1024px) {
+  [class*="leto-frame"] .leto-bubble-yellow-tablet-pc {
+    background: transparent;
+    color: #ffff73;
+    border-color: #ffff73;
+  }
+}
+
+@media (min-width: 1024px) and ((pointer: coarse)) {
+  [class*="leto-frame"] .leto-bubble-yellow-tablet-pc {
+    background: transparent;
+    color: #ffff73;
+    border-color: #ffff73;
+  }
+}
+
+@media (min-width: 1440px) {
+  [class*="leto-frame"] .leto-bubble-yellow-pc {
+    background: transparent;
+    color: #ffff73;
+    border-color: #ffff73;
+  }
+}
+
+@media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
+  [class*="leto-frame"] .leto-bubble-yellow-ultrawide {
+    background: transparent;
+    color: #ffff73;
+    border-color: #ffff73;
+  }
+}
+
+@media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
+  [class*="leto-frame"] .leto-bubble-yellow-super-ultrawide {
+    background: transparent;
+    color: #ffff73;
+    border-color: #ffff73;
+  }
+}
+
+[class*="leto-frame"] .leto-bubble-light-yellow {
+  background: transparent;
+  color: #ffffc0;
+  border-color: #ffffc0;
+}
+
+@media (min-width: 600px) {
+  [class*="leto-frame"] .leto-bubble-light-yellow-tablet {
+    background: transparent;
+    color: #ffffc0;
+    border-color: #ffffc0;
+  }
+}
+
+@media (min-width: 1024px) {
+  [class*="leto-frame"] .leto-bubble-light-yellow-tablet-pc {
+    background: transparent;
+    color: #ffffc0;
+    border-color: #ffffc0;
+  }
+}
+
+@media (min-width: 1024px) and ((pointer: coarse)) {
+  [class*="leto-frame"] .leto-bubble-light-yellow-tablet-pc {
+    background: transparent;
+    color: #ffffc0;
+    border-color: #ffffc0;
+  }
+}
+
+@media (min-width: 1440px) {
+  [class*="leto-frame"] .leto-bubble-light-yellow-pc {
+    background: transparent;
+    color: #ffffc0;
+    border-color: #ffffc0;
+  }
+}
+
+@media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
+  [class*="leto-frame"] .leto-bubble-light-yellow-ultrawide {
+    background: transparent;
+    color: #ffffc0;
+    border-color: #ffffc0;
+  }
+}
+
+@media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
+  [class*="leto-frame"] .leto-bubble-light-yellow-super-ultrawide {
+    background: transparent;
+    color: #ffffc0;
+    border-color: #ffffc0;
+  }
+}
+
+[class*="leto-frame"] .leto-bubble-dark-yellow {
+  background: transparent;
+  color: #ffff27;
+  border-color: #ffff27;
+}
+
+@media (min-width: 600px) {
+  [class*="leto-frame"] .leto-bubble-dark-yellow-tablet {
+    background: transparent;
+    color: #ffff27;
+    border-color: #ffff27;
+  }
+}
+
+@media (min-width: 1024px) {
+  [class*="leto-frame"] .leto-bubble-dark-yellow-tablet-pc {
+    background: transparent;
+    color: #ffff27;
+    border-color: #ffff27;
+  }
+}
+
+@media (min-width: 1024px) and ((pointer: coarse)) {
+  [class*="leto-frame"] .leto-bubble-dark-yellow-tablet-pc {
+    background: transparent;
+    color: #ffff27;
+    border-color: #ffff27;
+  }
+}
+
+@media (min-width: 1440px) {
+  [class*="leto-frame"] .leto-bubble-dark-yellow-pc {
+    background: transparent;
+    color: #ffff27;
+    border-color: #ffff27;
+  }
+}
+
+@media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
+  [class*="leto-frame"] .leto-bubble-dark-yellow-ultrawide {
+    background: transparent;
+    color: #ffff27;
+    border-color: #ffff27;
+  }
+}
+
+@media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
+  [class*="leto-frame"] .leto-bubble-dark-yellow-super-ultrawide {
+    background: transparent;
+    color: #ffff27;
+    border-color: #ffff27;
+  }
+}
+
+[class*="leto-frame"] .leto-bubble-orange {
+  background: transparent;
+  color: #ffac5a;
+  border-color: #ffac5a;
+}
+
+@media (min-width: 600px) {
+  [class*="leto-frame"] .leto-bubble-orange-tablet {
+    background: transparent;
+    color: #ffac5a;
+    border-color: #ffac5a;
+  }
+}
+
+@media (min-width: 1024px) {
+  [class*="leto-frame"] .leto-bubble-orange-tablet-pc {
+    background: transparent;
+    color: #ffac5a;
+    border-color: #ffac5a;
+  }
+}
+
+@media (min-width: 1024px) and ((pointer: coarse)) {
+  [class*="leto-frame"] .leto-bubble-orange-tablet-pc {
+    background: transparent;
+    color: #ffac5a;
+    border-color: #ffac5a;
+  }
+}
+
+@media (min-width: 1440px) {
+  [class*="leto-frame"] .leto-bubble-orange-pc {
+    background: transparent;
+    color: #ffac5a;
+    border-color: #ffac5a;
+  }
+}
+
+@media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
+  [class*="leto-frame"] .leto-bubble-orange-ultrawide {
+    background: transparent;
+    color: #ffac5a;
+    border-color: #ffac5a;
+  }
+}
+
+@media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
+  [class*="leto-frame"] .leto-bubble-orange-super-ultrawide {
+    background: transparent;
+    color: #ffac5a;
+    border-color: #ffac5a;
+  }
+}
+
+[class*="leto-frame"] .leto-bubble-light-orange {
+  background: transparent;
+  color: #ffd2a7;
+  border-color: #ffd2a7;
+}
+
+@media (min-width: 600px) {
+  [class*="leto-frame"] .leto-bubble-light-orange-tablet {
+    background: transparent;
+    color: #ffd2a7;
+    border-color: #ffd2a7;
+  }
+}
+
+@media (min-width: 1024px) {
+  [class*="leto-frame"] .leto-bubble-light-orange-tablet-pc {
+    background: transparent;
+    color: #ffd2a7;
+    border-color: #ffd2a7;
+  }
+}
+
+@media (min-width: 1024px) and ((pointer: coarse)) {
+  [class*="leto-frame"] .leto-bubble-light-orange-tablet-pc {
+    background: transparent;
+    color: #ffd2a7;
+    border-color: #ffd2a7;
+  }
+}
+
+@media (min-width: 1440px) {
+  [class*="leto-frame"] .leto-bubble-light-orange-pc {
+    background: transparent;
+    color: #ffd2a7;
+    border-color: #ffd2a7;
+  }
+}
+
+@media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
+  [class*="leto-frame"] .leto-bubble-light-orange-ultrawide {
+    background: transparent;
+    color: #ffd2a7;
+    border-color: #ffd2a7;
+  }
+}
+
+@media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
+  [class*="leto-frame"] .leto-bubble-light-orange-super-ultrawide {
+    background: transparent;
+    color: #ffd2a7;
+    border-color: #ffd2a7;
+  }
+}
+
+[class*="leto-frame"] .leto-bubble-dark-orange {
+  background: transparent;
+  color: #ff860e;
+  border-color: #ff860e;
+}
+
+@media (min-width: 600px) {
+  [class*="leto-frame"] .leto-bubble-dark-orange-tablet {
+    background: transparent;
+    color: #ff860e;
+    border-color: #ff860e;
+  }
+}
+
+@media (min-width: 1024px) {
+  [class*="leto-frame"] .leto-bubble-dark-orange-tablet-pc {
+    background: transparent;
+    color: #ff860e;
+    border-color: #ff860e;
+  }
+}
+
+@media (min-width: 1024px) and ((pointer: coarse)) {
+  [class*="leto-frame"] .leto-bubble-dark-orange-tablet-pc {
+    background: transparent;
+    color: #ff860e;
+    border-color: #ff860e;
+  }
+}
+
+@media (min-width: 1440px) {
+  [class*="leto-frame"] .leto-bubble-dark-orange-pc {
+    background: transparent;
+    color: #ff860e;
+    border-color: #ff860e;
+  }
+}
+
+@media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
+  [class*="leto-frame"] .leto-bubble-dark-orange-ultrawide {
+    background: transparent;
+    color: #ff860e;
+    border-color: #ff860e;
+  }
+}
+
+@media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
+  [class*="leto-frame"] .leto-bubble-dark-orange-super-ultrawide {
+    background: transparent;
+    color: #ff860e;
+    border-color: #ff860e;
+  }
+}
+
+[class*="leto-frame"] .leto-bubble-red {
+  background: transparent;
+  color: #ff6666;
+  border-color: #ff6666;
+}
+
+@media (min-width: 600px) {
+  [class*="leto-frame"] .leto-bubble-red-tablet {
+    background: transparent;
+    color: #ff6666;
+    border-color: #ff6666;
+  }
+}
+
+@media (min-width: 1024px) {
+  [class*="leto-frame"] .leto-bubble-red-tablet-pc {
+    background: transparent;
+    color: #ff6666;
+    border-color: #ff6666;
+  }
+}
+
+@media (min-width: 1024px) and ((pointer: coarse)) {
+  [class*="leto-frame"] .leto-bubble-red-tablet-pc {
+    background: transparent;
+    color: #ff6666;
+    border-color: #ff6666;
+  }
+}
+
+@media (min-width: 1440px) {
+  [class*="leto-frame"] .leto-bubble-red-pc {
+    background: transparent;
+    color: #ff6666;
+    border-color: #ff6666;
+  }
+}
+
+@media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
+  [class*="leto-frame"] .leto-bubble-red-ultrawide {
+    background: transparent;
+    color: #ff6666;
+    border-color: #ff6666;
+  }
+}
+
+@media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
+  [class*="leto-frame"] .leto-bubble-red-super-ultrawide {
+    background: transparent;
+    color: #ff6666;
+    border-color: #ff6666;
+  }
+}
+
+[class*="leto-frame"] .leto-bubble-light-red {
+  background: transparent;
+  color: #ffb3b3;
+  border-color: #ffb3b3;
+}
+
+@media (min-width: 600px) {
+  [class*="leto-frame"] .leto-bubble-light-red-tablet {
+    background: transparent;
+    color: #ffb3b3;
+    border-color: #ffb3b3;
+  }
+}
+
+@media (min-width: 1024px) {
+  [class*="leto-frame"] .leto-bubble-light-red-tablet-pc {
+    background: transparent;
+    color: #ffb3b3;
+    border-color: #ffb3b3;
+  }
+}
+
+@media (min-width: 1024px) and ((pointer: coarse)) {
+  [class*="leto-frame"] .leto-bubble-light-red-tablet-pc {
+    background: transparent;
+    color: #ffb3b3;
+    border-color: #ffb3b3;
+  }
+}
+
+@media (min-width: 1440px) {
+  [class*="leto-frame"] .leto-bubble-light-red-pc {
+    background: transparent;
+    color: #ffb3b3;
+    border-color: #ffb3b3;
+  }
+}
+
+@media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
+  [class*="leto-frame"] .leto-bubble-light-red-ultrawide {
+    background: transparent;
+    color: #ffb3b3;
+    border-color: #ffb3b3;
+  }
+}
+
+@media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
+  [class*="leto-frame"] .leto-bubble-light-red-super-ultrawide {
+    background: transparent;
+    color: #ffb3b3;
+    border-color: #ffb3b3;
+  }
+}
+
+[class*="leto-frame"] .leto-bubble-dark-red {
+  background: transparent;
+  color: #ff1a1a;
+  border-color: #ff1a1a;
+}
+
+@media (min-width: 600px) {
+  [class*="leto-frame"] .leto-bubble-dark-red-tablet {
+    background: transparent;
+    color: #ff1a1a;
+    border-color: #ff1a1a;
+  }
+}
+
+@media (min-width: 1024px) {
+  [class*="leto-frame"] .leto-bubble-dark-red-tablet-pc {
+    background: transparent;
+    color: #ff1a1a;
+    border-color: #ff1a1a;
+  }
+}
+
+@media (min-width: 1024px) and ((pointer: coarse)) {
+  [class*="leto-frame"] .leto-bubble-dark-red-tablet-pc {
+    background: transparent;
+    color: #ff1a1a;
+    border-color: #ff1a1a;
+  }
+}
+
+@media (min-width: 1440px) {
+  [class*="leto-frame"] .leto-bubble-dark-red-pc {
+    background: transparent;
+    color: #ff1a1a;
+    border-color: #ff1a1a;
+  }
+}
+
+@media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
+  [class*="leto-frame"] .leto-bubble-dark-red-ultrawide {
+    background: transparent;
+    color: #ff1a1a;
+    border-color: #ff1a1a;
+  }
+}
+
+@media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
+  [class*="leto-frame"] .leto-bubble-dark-red-super-ultrawide {
+    background: transparent;
+    color: #ff1a1a;
+    border-color: #ff1a1a;
+  }
+}
+
+[class*="leto-frame"] .leto-bubble-purple {
+  background: transparent;
+  color: #ca7fff;
+  border-color: #ca7fff;
+}
+
+@media (min-width: 600px) {
+  [class*="leto-frame"] .leto-bubble-purple-tablet {
+    background: transparent;
+    color: #ca7fff;
+    border-color: #ca7fff;
+  }
+}
+
+@media (min-width: 1024px) {
+  [class*="leto-frame"] .leto-bubble-purple-tablet-pc {
+    background: transparent;
+    color: #ca7fff;
+    border-color: #ca7fff;
+  }
+}
+
+@media (min-width: 1024px) and ((pointer: coarse)) {
+  [class*="leto-frame"] .leto-bubble-purple-tablet-pc {
+    background: transparent;
+    color: #ca7fff;
+    border-color: #ca7fff;
+  }
+}
+
+@media (min-width: 1440px) {
+  [class*="leto-frame"] .leto-bubble-purple-pc {
+    background: transparent;
+    color: #ca7fff;
+    border-color: #ca7fff;
+  }
+}
+
+@media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
+  [class*="leto-frame"] .leto-bubble-purple-ultrawide {
+    background: transparent;
+    color: #ca7fff;
+    border-color: #ca7fff;
+  }
+}
+
+@media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
+  [class*="leto-frame"] .leto-bubble-purple-super-ultrawide {
+    background: transparent;
+    color: #ca7fff;
+    border-color: #ca7fff;
+  }
+}
+
+[class*="leto-frame"] .leto-bubble-light-purple {
+  background: transparent;
+  color: #eaccff;
+  border-color: #eaccff;
+}
+
+@media (min-width: 600px) {
+  [class*="leto-frame"] .leto-bubble-light-purple-tablet {
+    background: transparent;
+    color: #eaccff;
+    border-color: #eaccff;
+  }
+}
+
+@media (min-width: 1024px) {
+  [class*="leto-frame"] .leto-bubble-light-purple-tablet-pc {
+    background: transparent;
+    color: #eaccff;
+    border-color: #eaccff;
+  }
+}
+
+@media (min-width: 1024px) and ((pointer: coarse)) {
+  [class*="leto-frame"] .leto-bubble-light-purple-tablet-pc {
+    background: transparent;
+    color: #eaccff;
+    border-color: #eaccff;
+  }
+}
+
+@media (min-width: 1440px) {
+  [class*="leto-frame"] .leto-bubble-light-purple-pc {
+    background: transparent;
+    color: #eaccff;
+    border-color: #eaccff;
+  }
+}
+
+@media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
+  [class*="leto-frame"] .leto-bubble-light-purple-ultrawide {
+    background: transparent;
+    color: #eaccff;
+    border-color: #eaccff;
+  }
+}
+
+@media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
+  [class*="leto-frame"] .leto-bubble-light-purple-super-ultrawide {
+    background: transparent;
+    color: #eaccff;
+    border-color: #eaccff;
+  }
+}
+
+[class*="leto-frame"] .leto-bubble-dark-purple {
+  background: transparent;
+  color: #aa33ff;
+  border-color: #aa33ff;
+}
+
+@media (min-width: 600px) {
+  [class*="leto-frame"] .leto-bubble-dark-purple-tablet {
+    background: transparent;
+    color: #aa33ff;
+    border-color: #aa33ff;
+  }
+}
+
+@media (min-width: 1024px) {
+  [class*="leto-frame"] .leto-bubble-dark-purple-tablet-pc {
+    background: transparent;
+    color: #aa33ff;
+    border-color: #aa33ff;
+  }
+}
+
+@media (min-width: 1024px) and ((pointer: coarse)) {
+  [class*="leto-frame"] .leto-bubble-dark-purple-tablet-pc {
+    background: transparent;
+    color: #aa33ff;
+    border-color: #aa33ff;
+  }
+}
+
+@media (min-width: 1440px) {
+  [class*="leto-frame"] .leto-bubble-dark-purple-pc {
+    background: transparent;
+    color: #aa33ff;
+    border-color: #aa33ff;
+  }
+}
+
+@media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
+  [class*="leto-frame"] .leto-bubble-dark-purple-ultrawide {
+    background: transparent;
+    color: #aa33ff;
+    border-color: #aa33ff;
+  }
+}
+
+@media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
+  [class*="leto-frame"] .leto-bubble-dark-purple-super-ultrawide {
+    background: transparent;
+    color: #aa33ff;
+    border-color: #aa33ff;
+  }
+}
+
+[class*="leto-frame"] .leto-bubble-blue {
+  background: transparent;
+  color: #738aff;
+  border-color: #738aff;
+}
+
+@media (min-width: 600px) {
+  [class*="leto-frame"] .leto-bubble-blue-tablet {
+    background: transparent;
+    color: #738aff;
+    border-color: #738aff;
+  }
+}
+
+@media (min-width: 1024px) {
+  [class*="leto-frame"] .leto-bubble-blue-tablet-pc {
+    background: transparent;
+    color: #738aff;
+    border-color: #738aff;
+  }
+}
+
+@media (min-width: 1024px) and ((pointer: coarse)) {
+  [class*="leto-frame"] .leto-bubble-blue-tablet-pc {
+    background: transparent;
+    color: #738aff;
+    border-color: #738aff;
+  }
+}
+
+@media (min-width: 1440px) {
+  [class*="leto-frame"] .leto-bubble-blue-pc {
+    background: transparent;
+    color: #738aff;
+    border-color: #738aff;
+  }
+}
+
+@media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
+  [class*="leto-frame"] .leto-bubble-blue-ultrawide {
+    background: transparent;
+    color: #738aff;
+    border-color: #738aff;
+  }
+}
+
+@media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
+  [class*="leto-frame"] .leto-bubble-blue-super-ultrawide {
+    background: transparent;
+    color: #738aff;
+    border-color: #738aff;
+  }
+}
+
+[class*="leto-frame"] .leto-bubble-light-blue {
+  background: transparent;
+  color: #c0caff;
+  border-color: #c0caff;
+}
+
+@media (min-width: 600px) {
+  [class*="leto-frame"] .leto-bubble-light-blue-tablet {
+    background: transparent;
+    color: #c0caff;
+    border-color: #c0caff;
+  }
+}
+
+@media (min-width: 1024px) {
+  [class*="leto-frame"] .leto-bubble-light-blue-tablet-pc {
+    background: transparent;
+    color: #c0caff;
+    border-color: #c0caff;
+  }
+}
+
+@media (min-width: 1024px) and ((pointer: coarse)) {
+  [class*="leto-frame"] .leto-bubble-light-blue-tablet-pc {
+    background: transparent;
+    color: #c0caff;
+    border-color: #c0caff;
+  }
+}
+
+@media (min-width: 1440px) {
+  [class*="leto-frame"] .leto-bubble-light-blue-pc {
+    background: transparent;
+    color: #c0caff;
+    border-color: #c0caff;
+  }
+}
+
+@media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
+  [class*="leto-frame"] .leto-bubble-light-blue-ultrawide {
+    background: transparent;
+    color: #c0caff;
+    border-color: #c0caff;
+  }
+}
+
+@media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
+  [class*="leto-frame"] .leto-bubble-light-blue-super-ultrawide {
+    background: transparent;
+    color: #c0caff;
+    border-color: #c0caff;
+  }
+}
+
+[class*="leto-frame"] .leto-bubble-dark-blue {
+  background: transparent;
+  color: #274aff;
+  border-color: #274aff;
+}
+
+@media (min-width: 600px) {
+  [class*="leto-frame"] .leto-bubble-dark-blue-tablet {
+    background: transparent;
+    color: #274aff;
+    border-color: #274aff;
+  }
+}
+
+@media (min-width: 1024px) {
+  [class*="leto-frame"] .leto-bubble-dark-blue-tablet-pc {
+    background: transparent;
+    color: #274aff;
+    border-color: #274aff;
+  }
+}
+
+@media (min-width: 1024px) and ((pointer: coarse)) {
+  [class*="leto-frame"] .leto-bubble-dark-blue-tablet-pc {
+    background: transparent;
+    color: #274aff;
+    border-color: #274aff;
+  }
+}
+
+@media (min-width: 1440px) {
+  [class*="leto-frame"] .leto-bubble-dark-blue-pc {
+    background: transparent;
+    color: #274aff;
+    border-color: #274aff;
+  }
+}
+
+@media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
+  [class*="leto-frame"] .leto-bubble-dark-blue-ultrawide {
+    background: transparent;
+    color: #274aff;
+    border-color: #274aff;
+  }
+}
+
+@media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
+  [class*="leto-frame"] .leto-bubble-dark-blue-super-ultrawide {
+    background: transparent;
+    color: #274aff;
+    border-color: #274aff;
+  }
+}
+
+[class*="leto-frame"] .leto-bubble-mint {
+  background: transparent;
+  color: #59ffc8;
+  border-color: #59ffc8;
+}
+
+@media (min-width: 600px) {
+  [class*="leto-frame"] .leto-bubble-mint-tablet {
+    background: transparent;
+    color: #59ffc8;
+    border-color: #59ffc8;
+  }
+}
+
+@media (min-width: 1024px) {
+  [class*="leto-frame"] .leto-bubble-mint-tablet-pc {
+    background: transparent;
+    color: #59ffc8;
+    border-color: #59ffc8;
+  }
+}
+
+@media (min-width: 1024px) and ((pointer: coarse)) {
+  [class*="leto-frame"] .leto-bubble-mint-tablet-pc {
+    background: transparent;
+    color: #59ffc8;
+    border-color: #59ffc8;
+  }
+}
+
+@media (min-width: 1440px) {
+  [class*="leto-frame"] .leto-bubble-mint-pc {
+    background: transparent;
+    color: #59ffc8;
+    border-color: #59ffc8;
+  }
+}
+
+@media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
+  [class*="leto-frame"] .leto-bubble-mint-ultrawide {
+    background: transparent;
+    color: #59ffc8;
+    border-color: #59ffc8;
+  }
+}
+
+@media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
+  [class*="leto-frame"] .leto-bubble-mint-super-ultrawide {
+    background: transparent;
+    color: #59ffc8;
+    border-color: #59ffc8;
+  }
+}
+
+[class*="leto-frame"] .leto-bubble-light-mint {
+  background: transparent;
+  color: #a6ffe1;
+  border-color: #a6ffe1;
+}
+
+@media (min-width: 600px) {
+  [class*="leto-frame"] .leto-bubble-light-mint-tablet {
+    background: transparent;
+    color: #a6ffe1;
+    border-color: #a6ffe1;
+  }
+}
+
+@media (min-width: 1024px) {
+  [class*="leto-frame"] .leto-bubble-light-mint-tablet-pc {
+    background: transparent;
+    color: #a6ffe1;
+    border-color: #a6ffe1;
+  }
+}
+
+@media (min-width: 1024px) and ((pointer: coarse)) {
+  [class*="leto-frame"] .leto-bubble-light-mint-tablet-pc {
+    background: transparent;
+    color: #a6ffe1;
+    border-color: #a6ffe1;
+  }
+}
+
+@media (min-width: 1440px) {
+  [class*="leto-frame"] .leto-bubble-light-mint-pc {
+    background: transparent;
+    color: #a6ffe1;
+    border-color: #a6ffe1;
+  }
+}
+
+@media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
+  [class*="leto-frame"] .leto-bubble-light-mint-ultrawide {
+    background: transparent;
+    color: #a6ffe1;
+    border-color: #a6ffe1;
+  }
+}
+
+@media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
+  [class*="leto-frame"] .leto-bubble-light-mint-super-ultrawide {
+    background: transparent;
+    color: #a6ffe1;
+    border-color: #a6ffe1;
+  }
+}
+
+[class*="leto-frame"] .leto-bubble-dark-mint {
+  background: transparent;
+  color: #0dffaf;
+  border-color: #0dffaf;
+}
+
+@media (min-width: 600px) {
+  [class*="leto-frame"] .leto-bubble-dark-mint-tablet {
+    background: transparent;
+    color: #0dffaf;
+    border-color: #0dffaf;
+  }
+}
+
+@media (min-width: 1024px) {
+  [class*="leto-frame"] .leto-bubble-dark-mint-tablet-pc {
+    background: transparent;
+    color: #0dffaf;
+    border-color: #0dffaf;
+  }
+}
+
+@media (min-width: 1024px) and ((pointer: coarse)) {
+  [class*="leto-frame"] .leto-bubble-dark-mint-tablet-pc {
+    background: transparent;
+    color: #0dffaf;
+    border-color: #0dffaf;
+  }
+}
+
+@media (min-width: 1440px) {
+  [class*="leto-frame"] .leto-bubble-dark-mint-pc {
+    background: transparent;
+    color: #0dffaf;
+    border-color: #0dffaf;
+  }
+}
+
+@media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
+  [class*="leto-frame"] .leto-bubble-dark-mint-ultrawide {
+    background: transparent;
+    color: #0dffaf;
+    border-color: #0dffaf;
+  }
+}
+
+@media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
+  [class*="leto-frame"] .leto-bubble-dark-mint-super-ultrawide {
+    background: transparent;
+    color: #0dffaf;
+    border-color: #0dffaf;
+  }
+}
+
+[class*="leto-frame"] .leto-bubble-mint {
+  background: transparent;
+  color: #8aff80;
+  border-color: #8aff80;
+}
+
+@media (min-width: 600px) {
+  [class*="leto-frame"] .leto-bubble-mint-tablet {
+    background: transparent;
+    color: #8aff80;
+    border-color: #8aff80;
+  }
+}
+
+@media (min-width: 1024px) {
+  [class*="leto-frame"] .leto-bubble-mint-tablet-pc {
+    background: transparent;
+    color: #8aff80;
+    border-color: #8aff80;
+  }
+}
+
+@media (min-width: 1024px) and ((pointer: coarse)) {
+  [class*="leto-frame"] .leto-bubble-mint-tablet-pc {
+    background: transparent;
+    color: #8aff80;
+    border-color: #8aff80;
+  }
+}
+
+@media (min-width: 1440px) {
+  [class*="leto-frame"] .leto-bubble-mint-pc {
+    background: transparent;
+    color: #8aff80;
+    border-color: #8aff80;
+  }
+}
+
+@media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
+  [class*="leto-frame"] .leto-bubble-mint-ultrawide {
+    background: transparent;
+    color: #8aff80;
+    border-color: #8aff80;
+  }
+}
+
+@media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
+  [class*="leto-frame"] .leto-bubble-mint-super-ultrawide {
+    background: transparent;
+    color: #8aff80;
+    border-color: #8aff80;
+  }
+}
+
+[class*="leto-frame"] .leto-bubble-light-mint {
+  background: transparent;
+  color: #d0ffcd;
+  border-color: #d0ffcd;
+}
+
+@media (min-width: 600px) {
+  [class*="leto-frame"] .leto-bubble-light-mint-tablet {
+    background: transparent;
+    color: #d0ffcd;
+    border-color: #d0ffcd;
+  }
+}
+
+@media (min-width: 1024px) {
+  [class*="leto-frame"] .leto-bubble-light-mint-tablet-pc {
+    background: transparent;
+    color: #d0ffcd;
+    border-color: #d0ffcd;
+  }
+}
+
+@media (min-width: 1024px) and ((pointer: coarse)) {
+  [class*="leto-frame"] .leto-bubble-light-mint-tablet-pc {
+    background: transparent;
+    color: #d0ffcd;
+    border-color: #d0ffcd;
+  }
+}
+
+@media (min-width: 1440px) {
+  [class*="leto-frame"] .leto-bubble-light-mint-pc {
+    background: transparent;
+    color: #d0ffcd;
+    border-color: #d0ffcd;
+  }
+}
+
+@media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
+  [class*="leto-frame"] .leto-bubble-light-mint-ultrawide {
+    background: transparent;
+    color: #d0ffcd;
+    border-color: #d0ffcd;
+  }
+}
+
+@media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
+  [class*="leto-frame"] .leto-bubble-light-mint-super-ultrawide {
+    background: transparent;
+    color: #d0ffcd;
+    border-color: #d0ffcd;
+  }
+}
+
+[class*="leto-frame"] .leto-bubble-dark-mint {
+  background: transparent;
+  color: #44ff34;
+  border-color: #44ff34;
+}
+
+@media (min-width: 600px) {
+  [class*="leto-frame"] .leto-bubble-dark-mint-tablet {
+    background: transparent;
+    color: #44ff34;
+    border-color: #44ff34;
+  }
+}
+
+@media (min-width: 1024px) {
+  [class*="leto-frame"] .leto-bubble-dark-mint-tablet-pc {
+    background: transparent;
+    color: #44ff34;
+    border-color: #44ff34;
+  }
+}
+
+@media (min-width: 1024px) and ((pointer: coarse)) {
+  [class*="leto-frame"] .leto-bubble-dark-mint-tablet-pc {
+    background: transparent;
+    color: #44ff34;
+    border-color: #44ff34;
+  }
+}
+
+@media (min-width: 1440px) {
+  [class*="leto-frame"] .leto-bubble-dark-mint-pc {
+    background: transparent;
+    color: #44ff34;
+    border-color: #44ff34;
+  }
+}
+
+@media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
+  [class*="leto-frame"] .leto-bubble-dark-mint-ultrawide {
+    background: transparent;
+    color: #44ff34;
+    border-color: #44ff34;
+  }
+}
+
+@media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
+  [class*="leto-frame"] .leto-bubble-dark-mint-super-ultrawide {
+    background: transparent;
+    color: #44ff34;
+    border-color: #44ff34;
+  }
 }
 
 .leto-bubble-wrapper {
@@ -5476,1524 +5476,1524 @@ p, b {
   }
 }
 
-.leto-card-white {
-  background: transparent;
-  color: #fdfdfd;
-  border-color: #fdfdfd;
-}
-
-@media (min-width: 600px) {
-  .leto-card-white-tablet {
-    background: transparent;
-    color: #fdfdfd;
-    border-color: #fdfdfd;
-  }
-}
-
-@media (min-width: 1024px) {
-  .leto-card-white-tablet-pc {
-    background: transparent;
-    color: #fdfdfd;
-    border-color: #fdfdfd;
-  }
-}
-
-@media (min-width: 1024px) and ((pointer: coarse)) {
-  .leto-card-white-tablet-pc {
-    background: transparent;
-    color: #fdfdfd;
-    border-color: #fdfdfd;
-  }
-}
-
-@media (min-width: 1440px) {
-  .leto-card-white-pc {
-    background: transparent;
-    color: #fdfdfd;
-    border-color: #fdfdfd;
-  }
-}
-
-@media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
-  .leto-card-white-ultrawide {
-    background: transparent;
-    color: #fdfdfd;
-    border-color: #fdfdfd;
-  }
-}
-
-@media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
-  .leto-card-white-super-ultrawide {
-    background: transparent;
-    color: #fdfdfd;
-    border-color: #fdfdfd;
-  }
-}
-
-.leto-card-dark-white {
-  background: transparent;
-  color: #f0f0f0;
-  border-color: #f0f0f0;
-}
-
-@media (min-width: 600px) {
-  .leto-card-dark-white-tablet {
-    background: transparent;
-    color: #f0f0f0;
-    border-color: #f0f0f0;
-  }
-}
-
-@media (min-width: 1024px) {
-  .leto-card-dark-white-tablet-pc {
-    background: transparent;
-    color: #f0f0f0;
-    border-color: #f0f0f0;
-  }
-}
-
-@media (min-width: 1024px) and ((pointer: coarse)) {
-  .leto-card-dark-white-tablet-pc {
-    background: transparent;
-    color: #f0f0f0;
-    border-color: #f0f0f0;
-  }
-}
-
-@media (min-width: 1440px) {
-  .leto-card-dark-white-pc {
-    background: transparent;
-    color: #f0f0f0;
-    border-color: #f0f0f0;
-  }
-}
-
-@media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
-  .leto-card-dark-white-ultrawide {
-    background: transparent;
-    color: #f0f0f0;
-    border-color: #f0f0f0;
-  }
-}
-
-@media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
-  .leto-card-dark-white-super-ultrawide {
-    background: transparent;
-    color: #f0f0f0;
-    border-color: #f0f0f0;
-  }
-}
-
-.leto-card-grey {
-  background: transparent;
-  color: #e1e1e1;
-  border-color: #e1e1e1;
-}
-
-@media (min-width: 600px) {
-  .leto-card-grey-tablet {
-    background: transparent;
-    color: #e1e1e1;
-    border-color: #e1e1e1;
-  }
-}
-
-@media (min-width: 1024px) {
-  .leto-card-grey-tablet-pc {
-    background: transparent;
-    color: #e1e1e1;
-    border-color: #e1e1e1;
-  }
-}
-
-@media (min-width: 1024px) and ((pointer: coarse)) {
-  .leto-card-grey-tablet-pc {
-    background: transparent;
-    color: #e1e1e1;
-    border-color: #e1e1e1;
-  }
-}
-
-@media (min-width: 1440px) {
-  .leto-card-grey-pc {
-    background: transparent;
-    color: #e1e1e1;
-    border-color: #e1e1e1;
-  }
-}
-
-@media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
-  .leto-card-grey-ultrawide {
-    background: transparent;
-    color: #e1e1e1;
-    border-color: #e1e1e1;
-  }
-}
-
-@media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
-  .leto-card-grey-super-ultrawide {
-    background: transparent;
-    color: #e1e1e1;
-    border-color: #e1e1e1;
-  }
-}
-
-.leto-card-light-grey {
-  background: transparent;
-  color: #eeeeee;
-  border-color: #eeeeee;
-}
-
-@media (min-width: 600px) {
-  .leto-card-light-grey-tablet {
-    background: transparent;
-    color: #eeeeee;
-    border-color: #eeeeee;
-  }
-}
-
-@media (min-width: 1024px) {
-  .leto-card-light-grey-tablet-pc {
-    background: transparent;
-    color: #eeeeee;
-    border-color: #eeeeee;
-  }
-}
-
-@media (min-width: 1024px) and ((pointer: coarse)) {
-  .leto-card-light-grey-tablet-pc {
-    background: transparent;
-    color: #eeeeee;
-    border-color: #eeeeee;
-  }
-}
-
-@media (min-width: 1440px) {
-  .leto-card-light-grey-pc {
-    background: transparent;
-    color: #eeeeee;
-    border-color: #eeeeee;
-  }
-}
-
-@media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
-  .leto-card-light-grey-ultrawide {
-    background: transparent;
-    color: #eeeeee;
-    border-color: #eeeeee;
-  }
-}
-
-@media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
-  .leto-card-light-grey-super-ultrawide {
-    background: transparent;
-    color: #eeeeee;
-    border-color: #eeeeee;
-  }
-}
-
-.leto-card-lighter-grey {
-  background: transparent;
-  color: #fbfbfb;
-  border-color: #fbfbfb;
-}
-
-@media (min-width: 600px) {
-  .leto-card-lighter-grey-tablet {
-    background: transparent;
-    color: #fbfbfb;
-    border-color: #fbfbfb;
-  }
-}
-
-@media (min-width: 1024px) {
-  .leto-card-lighter-grey-tablet-pc {
-    background: transparent;
-    color: #fbfbfb;
-    border-color: #fbfbfb;
-  }
-}
-
-@media (min-width: 1024px) and ((pointer: coarse)) {
-  .leto-card-lighter-grey-tablet-pc {
-    background: transparent;
-    color: #fbfbfb;
-    border-color: #fbfbfb;
-  }
-}
-
-@media (min-width: 1440px) {
-  .leto-card-lighter-grey-pc {
-    background: transparent;
-    color: #fbfbfb;
-    border-color: #fbfbfb;
-  }
-}
-
-@media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
-  .leto-card-lighter-grey-ultrawide {
-    background: transparent;
-    color: #fbfbfb;
-    border-color: #fbfbfb;
-  }
-}
-
-@media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
-  .leto-card-lighter-grey-super-ultrawide {
-    background: transparent;
-    color: #fbfbfb;
-    border-color: #fbfbfb;
-  }
-}
-
-.leto-card-dark-grey {
-  background: transparent;
-  color: #c8c8c8;
-  border-color: #c8c8c8;
-}
-
-@media (min-width: 600px) {
-  .leto-card-dark-grey-tablet {
-    background: transparent;
-    color: #c8c8c8;
-    border-color: #c8c8c8;
-  }
-}
-
-@media (min-width: 1024px) {
-  .leto-card-dark-grey-tablet-pc {
-    background: transparent;
-    color: #c8c8c8;
-    border-color: #c8c8c8;
-  }
-}
-
-@media (min-width: 1024px) and ((pointer: coarse)) {
-  .leto-card-dark-grey-tablet-pc {
-    background: transparent;
-    color: #c8c8c8;
-    border-color: #c8c8c8;
-  }
-}
-
-@media (min-width: 1440px) {
-  .leto-card-dark-grey-pc {
-    background: transparent;
-    color: #c8c8c8;
-    border-color: #c8c8c8;
-  }
-}
-
-@media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
-  .leto-card-dark-grey-ultrawide {
-    background: transparent;
-    color: #c8c8c8;
-    border-color: #c8c8c8;
-  }
-}
-
-@media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
-  .leto-card-dark-grey-super-ultrawide {
-    background: transparent;
-    color: #c8c8c8;
-    border-color: #c8c8c8;
-  }
-}
-
-.leto-card-darker-grey {
-  background: transparent;
-  color: #aeaeae;
-  border-color: #aeaeae;
-}
-
-@media (min-width: 600px) {
-  .leto-card-darker-grey-tablet {
-    background: transparent;
-    color: #aeaeae;
-    border-color: #aeaeae;
-  }
-}
-
-@media (min-width: 1024px) {
-  .leto-card-darker-grey-tablet-pc {
-    background: transparent;
-    color: #aeaeae;
-    border-color: #aeaeae;
-  }
-}
-
-@media (min-width: 1024px) and ((pointer: coarse)) {
-  .leto-card-darker-grey-tablet-pc {
-    background: transparent;
-    color: #aeaeae;
-    border-color: #aeaeae;
-  }
-}
-
-@media (min-width: 1440px) {
-  .leto-card-darker-grey-pc {
-    background: transparent;
-    color: #aeaeae;
-    border-color: #aeaeae;
-  }
-}
-
-@media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
-  .leto-card-darker-grey-ultrawide {
-    background: transparent;
-    color: #aeaeae;
-    border-color: #aeaeae;
-  }
-}
-
-@media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
-  .leto-card-darker-grey-super-ultrawide {
-    background: transparent;
-    color: #aeaeae;
-    border-color: #aeaeae;
-  }
-}
-
-.leto-card-yellow {
-  background: transparent;
-  color: #ffff73;
-  border-color: #ffff73;
-}
-
-@media (min-width: 600px) {
-  .leto-card-yellow-tablet {
-    background: transparent;
-    color: #ffff73;
-    border-color: #ffff73;
-  }
-}
-
-@media (min-width: 1024px) {
-  .leto-card-yellow-tablet-pc {
-    background: transparent;
-    color: #ffff73;
-    border-color: #ffff73;
-  }
-}
-
-@media (min-width: 1024px) and ((pointer: coarse)) {
-  .leto-card-yellow-tablet-pc {
-    background: transparent;
-    color: #ffff73;
-    border-color: #ffff73;
-  }
-}
-
-@media (min-width: 1440px) {
-  .leto-card-yellow-pc {
-    background: transparent;
-    color: #ffff73;
-    border-color: #ffff73;
-  }
-}
-
-@media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
-  .leto-card-yellow-ultrawide {
-    background: transparent;
-    color: #ffff73;
-    border-color: #ffff73;
-  }
-}
-
-@media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
-  .leto-card-yellow-super-ultrawide {
-    background: transparent;
-    color: #ffff73;
-    border-color: #ffff73;
-  }
-}
-
-.leto-card-light-yellow {
-  background: transparent;
-  color: #ffffc0;
-  border-color: #ffffc0;
-}
-
-@media (min-width: 600px) {
-  .leto-card-light-yellow-tablet {
-    background: transparent;
-    color: #ffffc0;
-    border-color: #ffffc0;
-  }
-}
-
-@media (min-width: 1024px) {
-  .leto-card-light-yellow-tablet-pc {
-    background: transparent;
-    color: #ffffc0;
-    border-color: #ffffc0;
-  }
-}
-
-@media (min-width: 1024px) and ((pointer: coarse)) {
-  .leto-card-light-yellow-tablet-pc {
-    background: transparent;
-    color: #ffffc0;
-    border-color: #ffffc0;
-  }
-}
-
-@media (min-width: 1440px) {
-  .leto-card-light-yellow-pc {
-    background: transparent;
-    color: #ffffc0;
-    border-color: #ffffc0;
-  }
-}
-
-@media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
-  .leto-card-light-yellow-ultrawide {
-    background: transparent;
-    color: #ffffc0;
-    border-color: #ffffc0;
-  }
-}
-
-@media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
-  .leto-card-light-yellow-super-ultrawide {
-    background: transparent;
-    color: #ffffc0;
-    border-color: #ffffc0;
-  }
-}
-
-.leto-card-dark-yellow {
-  background: transparent;
-  color: #ffff27;
-  border-color: #ffff27;
-}
-
-@media (min-width: 600px) {
-  .leto-card-dark-yellow-tablet {
-    background: transparent;
-    color: #ffff27;
-    border-color: #ffff27;
-  }
-}
-
-@media (min-width: 1024px) {
-  .leto-card-dark-yellow-tablet-pc {
-    background: transparent;
-    color: #ffff27;
-    border-color: #ffff27;
-  }
-}
-
-@media (min-width: 1024px) and ((pointer: coarse)) {
-  .leto-card-dark-yellow-tablet-pc {
-    background: transparent;
-    color: #ffff27;
-    border-color: #ffff27;
-  }
-}
-
-@media (min-width: 1440px) {
-  .leto-card-dark-yellow-pc {
-    background: transparent;
-    color: #ffff27;
-    border-color: #ffff27;
-  }
-}
-
-@media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
-  .leto-card-dark-yellow-ultrawide {
-    background: transparent;
-    color: #ffff27;
-    border-color: #ffff27;
-  }
-}
-
-@media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
-  .leto-card-dark-yellow-super-ultrawide {
-    background: transparent;
-    color: #ffff27;
-    border-color: #ffff27;
-  }
-}
-
-.leto-card-orange {
-  background: transparent;
-  color: #ffac5a;
-  border-color: #ffac5a;
-}
-
-@media (min-width: 600px) {
-  .leto-card-orange-tablet {
-    background: transparent;
-    color: #ffac5a;
-    border-color: #ffac5a;
-  }
-}
-
-@media (min-width: 1024px) {
-  .leto-card-orange-tablet-pc {
-    background: transparent;
-    color: #ffac5a;
-    border-color: #ffac5a;
-  }
-}
-
-@media (min-width: 1024px) and ((pointer: coarse)) {
-  .leto-card-orange-tablet-pc {
-    background: transparent;
-    color: #ffac5a;
-    border-color: #ffac5a;
-  }
-}
-
-@media (min-width: 1440px) {
-  .leto-card-orange-pc {
-    background: transparent;
-    color: #ffac5a;
-    border-color: #ffac5a;
-  }
-}
-
-@media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
-  .leto-card-orange-ultrawide {
-    background: transparent;
-    color: #ffac5a;
-    border-color: #ffac5a;
-  }
-}
-
-@media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
-  .leto-card-orange-super-ultrawide {
-    background: transparent;
-    color: #ffac5a;
-    border-color: #ffac5a;
-  }
-}
-
-.leto-card-light-orange {
-  background: transparent;
-  color: #ffd2a7;
-  border-color: #ffd2a7;
-}
-
-@media (min-width: 600px) {
-  .leto-card-light-orange-tablet {
-    background: transparent;
-    color: #ffd2a7;
-    border-color: #ffd2a7;
-  }
-}
-
-@media (min-width: 1024px) {
-  .leto-card-light-orange-tablet-pc {
-    background: transparent;
-    color: #ffd2a7;
-    border-color: #ffd2a7;
-  }
-}
-
-@media (min-width: 1024px) and ((pointer: coarse)) {
-  .leto-card-light-orange-tablet-pc {
-    background: transparent;
-    color: #ffd2a7;
-    border-color: #ffd2a7;
-  }
-}
-
-@media (min-width: 1440px) {
-  .leto-card-light-orange-pc {
-    background: transparent;
-    color: #ffd2a7;
-    border-color: #ffd2a7;
-  }
-}
-
-@media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
-  .leto-card-light-orange-ultrawide {
-    background: transparent;
-    color: #ffd2a7;
-    border-color: #ffd2a7;
-  }
-}
-
-@media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
-  .leto-card-light-orange-super-ultrawide {
-    background: transparent;
-    color: #ffd2a7;
-    border-color: #ffd2a7;
-  }
-}
-
-.leto-card-dark-orange {
-  background: transparent;
-  color: #ff860e;
-  border-color: #ff860e;
-}
-
-@media (min-width: 600px) {
-  .leto-card-dark-orange-tablet {
-    background: transparent;
-    color: #ff860e;
-    border-color: #ff860e;
-  }
-}
-
-@media (min-width: 1024px) {
-  .leto-card-dark-orange-tablet-pc {
-    background: transparent;
-    color: #ff860e;
-    border-color: #ff860e;
-  }
-}
-
-@media (min-width: 1024px) and ((pointer: coarse)) {
-  .leto-card-dark-orange-tablet-pc {
-    background: transparent;
-    color: #ff860e;
-    border-color: #ff860e;
-  }
-}
-
-@media (min-width: 1440px) {
-  .leto-card-dark-orange-pc {
-    background: transparent;
-    color: #ff860e;
-    border-color: #ff860e;
-  }
-}
-
-@media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
-  .leto-card-dark-orange-ultrawide {
-    background: transparent;
-    color: #ff860e;
-    border-color: #ff860e;
-  }
-}
-
-@media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
-  .leto-card-dark-orange-super-ultrawide {
-    background: transparent;
-    color: #ff860e;
-    border-color: #ff860e;
-  }
-}
-
-.leto-card-red {
-  background: transparent;
-  color: #ff6666;
-  border-color: #ff6666;
-}
-
-@media (min-width: 600px) {
-  .leto-card-red-tablet {
-    background: transparent;
-    color: #ff6666;
-    border-color: #ff6666;
-  }
-}
-
-@media (min-width: 1024px) {
-  .leto-card-red-tablet-pc {
-    background: transparent;
-    color: #ff6666;
-    border-color: #ff6666;
-  }
-}
-
-@media (min-width: 1024px) and ((pointer: coarse)) {
-  .leto-card-red-tablet-pc {
-    background: transparent;
-    color: #ff6666;
-    border-color: #ff6666;
-  }
-}
-
-@media (min-width: 1440px) {
-  .leto-card-red-pc {
-    background: transparent;
-    color: #ff6666;
-    border-color: #ff6666;
-  }
-}
-
-@media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
-  .leto-card-red-ultrawide {
-    background: transparent;
-    color: #ff6666;
-    border-color: #ff6666;
-  }
-}
-
-@media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
-  .leto-card-red-super-ultrawide {
-    background: transparent;
-    color: #ff6666;
-    border-color: #ff6666;
-  }
-}
-
-.leto-card-light-red {
-  background: transparent;
-  color: #ffb3b3;
-  border-color: #ffb3b3;
-}
-
-@media (min-width: 600px) {
-  .leto-card-light-red-tablet {
-    background: transparent;
-    color: #ffb3b3;
-    border-color: #ffb3b3;
-  }
-}
-
-@media (min-width: 1024px) {
-  .leto-card-light-red-tablet-pc {
-    background: transparent;
-    color: #ffb3b3;
-    border-color: #ffb3b3;
-  }
-}
-
-@media (min-width: 1024px) and ((pointer: coarse)) {
-  .leto-card-light-red-tablet-pc {
-    background: transparent;
-    color: #ffb3b3;
-    border-color: #ffb3b3;
-  }
-}
-
-@media (min-width: 1440px) {
-  .leto-card-light-red-pc {
-    background: transparent;
-    color: #ffb3b3;
-    border-color: #ffb3b3;
-  }
-}
-
-@media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
-  .leto-card-light-red-ultrawide {
-    background: transparent;
-    color: #ffb3b3;
-    border-color: #ffb3b3;
-  }
-}
-
-@media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
-  .leto-card-light-red-super-ultrawide {
-    background: transparent;
-    color: #ffb3b3;
-    border-color: #ffb3b3;
-  }
-}
-
-.leto-card-dark-red {
-  background: transparent;
-  color: #ff1a1a;
-  border-color: #ff1a1a;
-}
-
-@media (min-width: 600px) {
-  .leto-card-dark-red-tablet {
-    background: transparent;
-    color: #ff1a1a;
-    border-color: #ff1a1a;
-  }
-}
-
-@media (min-width: 1024px) {
-  .leto-card-dark-red-tablet-pc {
-    background: transparent;
-    color: #ff1a1a;
-    border-color: #ff1a1a;
-  }
-}
-
-@media (min-width: 1024px) and ((pointer: coarse)) {
-  .leto-card-dark-red-tablet-pc {
-    background: transparent;
-    color: #ff1a1a;
-    border-color: #ff1a1a;
-  }
-}
-
-@media (min-width: 1440px) {
-  .leto-card-dark-red-pc {
-    background: transparent;
-    color: #ff1a1a;
-    border-color: #ff1a1a;
-  }
-}
-
-@media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
-  .leto-card-dark-red-ultrawide {
-    background: transparent;
-    color: #ff1a1a;
-    border-color: #ff1a1a;
-  }
-}
-
-@media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
-  .leto-card-dark-red-super-ultrawide {
-    background: transparent;
-    color: #ff1a1a;
-    border-color: #ff1a1a;
-  }
-}
-
-.leto-card-purple {
-  background: transparent;
-  color: #ca7fff;
-  border-color: #ca7fff;
-}
-
-@media (min-width: 600px) {
-  .leto-card-purple-tablet {
-    background: transparent;
-    color: #ca7fff;
-    border-color: #ca7fff;
-  }
-}
-
-@media (min-width: 1024px) {
-  .leto-card-purple-tablet-pc {
-    background: transparent;
-    color: #ca7fff;
-    border-color: #ca7fff;
-  }
-}
-
-@media (min-width: 1024px) and ((pointer: coarse)) {
-  .leto-card-purple-tablet-pc {
-    background: transparent;
-    color: #ca7fff;
-    border-color: #ca7fff;
-  }
-}
-
-@media (min-width: 1440px) {
-  .leto-card-purple-pc {
-    background: transparent;
-    color: #ca7fff;
-    border-color: #ca7fff;
-  }
-}
-
-@media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
-  .leto-card-purple-ultrawide {
-    background: transparent;
-    color: #ca7fff;
-    border-color: #ca7fff;
-  }
-}
-
-@media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
-  .leto-card-purple-super-ultrawide {
-    background: transparent;
-    color: #ca7fff;
-    border-color: #ca7fff;
-  }
-}
-
-.leto-card-light-purple {
-  background: transparent;
-  color: #eaccff;
-  border-color: #eaccff;
-}
-
-@media (min-width: 600px) {
-  .leto-card-light-purple-tablet {
-    background: transparent;
-    color: #eaccff;
-    border-color: #eaccff;
-  }
-}
-
-@media (min-width: 1024px) {
-  .leto-card-light-purple-tablet-pc {
-    background: transparent;
-    color: #eaccff;
-    border-color: #eaccff;
-  }
-}
-
-@media (min-width: 1024px) and ((pointer: coarse)) {
-  .leto-card-light-purple-tablet-pc {
-    background: transparent;
-    color: #eaccff;
-    border-color: #eaccff;
-  }
-}
-
-@media (min-width: 1440px) {
-  .leto-card-light-purple-pc {
-    background: transparent;
-    color: #eaccff;
-    border-color: #eaccff;
-  }
-}
-
-@media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
-  .leto-card-light-purple-ultrawide {
-    background: transparent;
-    color: #eaccff;
-    border-color: #eaccff;
-  }
-}
-
-@media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
-  .leto-card-light-purple-super-ultrawide {
-    background: transparent;
-    color: #eaccff;
-    border-color: #eaccff;
-  }
-}
-
-.leto-card-dark-purple {
-  background: transparent;
-  color: #aa33ff;
-  border-color: #aa33ff;
-}
-
-@media (min-width: 600px) {
-  .leto-card-dark-purple-tablet {
-    background: transparent;
-    color: #aa33ff;
-    border-color: #aa33ff;
-  }
-}
-
-@media (min-width: 1024px) {
-  .leto-card-dark-purple-tablet-pc {
-    background: transparent;
-    color: #aa33ff;
-    border-color: #aa33ff;
-  }
-}
-
-@media (min-width: 1024px) and ((pointer: coarse)) {
-  .leto-card-dark-purple-tablet-pc {
-    background: transparent;
-    color: #aa33ff;
-    border-color: #aa33ff;
-  }
-}
-
-@media (min-width: 1440px) {
-  .leto-card-dark-purple-pc {
-    background: transparent;
-    color: #aa33ff;
-    border-color: #aa33ff;
-  }
-}
-
-@media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
-  .leto-card-dark-purple-ultrawide {
-    background: transparent;
-    color: #aa33ff;
-    border-color: #aa33ff;
-  }
-}
-
-@media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
-  .leto-card-dark-purple-super-ultrawide {
-    background: transparent;
-    color: #aa33ff;
-    border-color: #aa33ff;
-  }
-}
-
-.leto-card-blue {
-  background: transparent;
-  color: #738aff;
-  border-color: #738aff;
-}
-
-@media (min-width: 600px) {
-  .leto-card-blue-tablet {
-    background: transparent;
-    color: #738aff;
-    border-color: #738aff;
-  }
-}
-
-@media (min-width: 1024px) {
-  .leto-card-blue-tablet-pc {
-    background: transparent;
-    color: #738aff;
-    border-color: #738aff;
-  }
-}
-
-@media (min-width: 1024px) and ((pointer: coarse)) {
-  .leto-card-blue-tablet-pc {
-    background: transparent;
-    color: #738aff;
-    border-color: #738aff;
-  }
-}
-
-@media (min-width: 1440px) {
-  .leto-card-blue-pc {
-    background: transparent;
-    color: #738aff;
-    border-color: #738aff;
-  }
-}
-
-@media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
-  .leto-card-blue-ultrawide {
-    background: transparent;
-    color: #738aff;
-    border-color: #738aff;
-  }
-}
-
-@media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
-  .leto-card-blue-super-ultrawide {
-    background: transparent;
-    color: #738aff;
-    border-color: #738aff;
-  }
-}
-
-.leto-card-light-blue {
-  background: transparent;
-  color: #c0caff;
-  border-color: #c0caff;
-}
-
-@media (min-width: 600px) {
-  .leto-card-light-blue-tablet {
-    background: transparent;
-    color: #c0caff;
-    border-color: #c0caff;
-  }
-}
-
-@media (min-width: 1024px) {
-  .leto-card-light-blue-tablet-pc {
-    background: transparent;
-    color: #c0caff;
-    border-color: #c0caff;
-  }
-}
-
-@media (min-width: 1024px) and ((pointer: coarse)) {
-  .leto-card-light-blue-tablet-pc {
-    background: transparent;
-    color: #c0caff;
-    border-color: #c0caff;
-  }
-}
-
-@media (min-width: 1440px) {
-  .leto-card-light-blue-pc {
-    background: transparent;
-    color: #c0caff;
-    border-color: #c0caff;
-  }
-}
-
-@media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
-  .leto-card-light-blue-ultrawide {
-    background: transparent;
-    color: #c0caff;
-    border-color: #c0caff;
-  }
-}
-
-@media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
-  .leto-card-light-blue-super-ultrawide {
-    background: transparent;
-    color: #c0caff;
-    border-color: #c0caff;
-  }
-}
-
-.leto-card-dark-blue {
-  background: transparent;
-  color: #274aff;
-  border-color: #274aff;
-}
-
-@media (min-width: 600px) {
-  .leto-card-dark-blue-tablet {
-    background: transparent;
-    color: #274aff;
-    border-color: #274aff;
-  }
-}
-
-@media (min-width: 1024px) {
-  .leto-card-dark-blue-tablet-pc {
-    background: transparent;
-    color: #274aff;
-    border-color: #274aff;
-  }
-}
-
-@media (min-width: 1024px) and ((pointer: coarse)) {
-  .leto-card-dark-blue-tablet-pc {
-    background: transparent;
-    color: #274aff;
-    border-color: #274aff;
-  }
-}
-
-@media (min-width: 1440px) {
-  .leto-card-dark-blue-pc {
-    background: transparent;
-    color: #274aff;
-    border-color: #274aff;
-  }
-}
-
-@media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
-  .leto-card-dark-blue-ultrawide {
-    background: transparent;
-    color: #274aff;
-    border-color: #274aff;
-  }
-}
-
-@media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
-  .leto-card-dark-blue-super-ultrawide {
-    background: transparent;
-    color: #274aff;
-    border-color: #274aff;
-  }
-}
-
-.leto-card-mint {
-  background: transparent;
-  color: #59ffc8;
-  border-color: #59ffc8;
-}
-
-@media (min-width: 600px) {
-  .leto-card-mint-tablet {
-    background: transparent;
-    color: #59ffc8;
-    border-color: #59ffc8;
-  }
-}
-
-@media (min-width: 1024px) {
-  .leto-card-mint-tablet-pc {
-    background: transparent;
-    color: #59ffc8;
-    border-color: #59ffc8;
-  }
-}
-
-@media (min-width: 1024px) and ((pointer: coarse)) {
-  .leto-card-mint-tablet-pc {
-    background: transparent;
-    color: #59ffc8;
-    border-color: #59ffc8;
-  }
-}
-
-@media (min-width: 1440px) {
-  .leto-card-mint-pc {
-    background: transparent;
-    color: #59ffc8;
-    border-color: #59ffc8;
-  }
-}
-
-@media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
-  .leto-card-mint-ultrawide {
-    background: transparent;
-    color: #59ffc8;
-    border-color: #59ffc8;
-  }
-}
-
-@media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
-  .leto-card-mint-super-ultrawide {
-    background: transparent;
-    color: #59ffc8;
-    border-color: #59ffc8;
-  }
-}
-
-.leto-card-light-mint {
-  background: transparent;
-  color: #a6ffe1;
-  border-color: #a6ffe1;
-}
-
-@media (min-width: 600px) {
-  .leto-card-light-mint-tablet {
-    background: transparent;
-    color: #a6ffe1;
-    border-color: #a6ffe1;
-  }
-}
-
-@media (min-width: 1024px) {
-  .leto-card-light-mint-tablet-pc {
-    background: transparent;
-    color: #a6ffe1;
-    border-color: #a6ffe1;
-  }
-}
-
-@media (min-width: 1024px) and ((pointer: coarse)) {
-  .leto-card-light-mint-tablet-pc {
-    background: transparent;
-    color: #a6ffe1;
-    border-color: #a6ffe1;
-  }
-}
-
-@media (min-width: 1440px) {
-  .leto-card-light-mint-pc {
-    background: transparent;
-    color: #a6ffe1;
-    border-color: #a6ffe1;
-  }
-}
-
-@media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
-  .leto-card-light-mint-ultrawide {
-    background: transparent;
-    color: #a6ffe1;
-    border-color: #a6ffe1;
-  }
-}
-
-@media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
-  .leto-card-light-mint-super-ultrawide {
-    background: transparent;
-    color: #a6ffe1;
-    border-color: #a6ffe1;
-  }
-}
-
-.leto-card-dark-mint {
-  background: transparent;
-  color: #0dffaf;
-  border-color: #0dffaf;
-}
-
-@media (min-width: 600px) {
-  .leto-card-dark-mint-tablet {
-    background: transparent;
-    color: #0dffaf;
-    border-color: #0dffaf;
-  }
-}
-
-@media (min-width: 1024px) {
-  .leto-card-dark-mint-tablet-pc {
-    background: transparent;
-    color: #0dffaf;
-    border-color: #0dffaf;
-  }
-}
-
-@media (min-width: 1024px) and ((pointer: coarse)) {
-  .leto-card-dark-mint-tablet-pc {
-    background: transparent;
-    color: #0dffaf;
-    border-color: #0dffaf;
-  }
-}
-
-@media (min-width: 1440px) {
-  .leto-card-dark-mint-pc {
-    background: transparent;
-    color: #0dffaf;
-    border-color: #0dffaf;
-  }
-}
-
-@media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
-  .leto-card-dark-mint-ultrawide {
-    background: transparent;
-    color: #0dffaf;
-    border-color: #0dffaf;
-  }
-}
-
-@media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
-  .leto-card-dark-mint-super-ultrawide {
-    background: transparent;
-    color: #0dffaf;
-    border-color: #0dffaf;
-  }
-}
-
-.leto-card-mint {
-  background: transparent;
-  color: #8aff80;
-  border-color: #8aff80;
-}
-
-@media (min-width: 600px) {
-  .leto-card-mint-tablet {
-    background: transparent;
-    color: #8aff80;
-    border-color: #8aff80;
-  }
-}
-
-@media (min-width: 1024px) {
-  .leto-card-mint-tablet-pc {
-    background: transparent;
-    color: #8aff80;
-    border-color: #8aff80;
-  }
-}
-
-@media (min-width: 1024px) and ((pointer: coarse)) {
-  .leto-card-mint-tablet-pc {
-    background: transparent;
-    color: #8aff80;
-    border-color: #8aff80;
-  }
-}
-
-@media (min-width: 1440px) {
-  .leto-card-mint-pc {
-    background: transparent;
-    color: #8aff80;
-    border-color: #8aff80;
-  }
-}
-
-@media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
-  .leto-card-mint-ultrawide {
-    background: transparent;
-    color: #8aff80;
-    border-color: #8aff80;
-  }
-}
-
-@media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
-  .leto-card-mint-super-ultrawide {
-    background: transparent;
-    color: #8aff80;
-    border-color: #8aff80;
-  }
-}
-
-.leto-card-light-mint {
-  background: transparent;
-  color: #d0ffcd;
-  border-color: #d0ffcd;
-}
-
-@media (min-width: 600px) {
-  .leto-card-light-mint-tablet {
-    background: transparent;
-    color: #d0ffcd;
-    border-color: #d0ffcd;
-  }
-}
-
-@media (min-width: 1024px) {
-  .leto-card-light-mint-tablet-pc {
-    background: transparent;
-    color: #d0ffcd;
-    border-color: #d0ffcd;
-  }
-}
-
-@media (min-width: 1024px) and ((pointer: coarse)) {
-  .leto-card-light-mint-tablet-pc {
-    background: transparent;
-    color: #d0ffcd;
-    border-color: #d0ffcd;
-  }
-}
-
-@media (min-width: 1440px) {
-  .leto-card-light-mint-pc {
-    background: transparent;
-    color: #d0ffcd;
-    border-color: #d0ffcd;
-  }
-}
-
-@media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
-  .leto-card-light-mint-ultrawide {
-    background: transparent;
-    color: #d0ffcd;
-    border-color: #d0ffcd;
-  }
-}
-
-@media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
-  .leto-card-light-mint-super-ultrawide {
-    background: transparent;
-    color: #d0ffcd;
-    border-color: #d0ffcd;
-  }
-}
-
-.leto-card-dark-mint {
-  background: transparent;
-  color: #44ff34;
-  border-color: #44ff34;
-}
-
-@media (min-width: 600px) {
-  .leto-card-dark-mint-tablet {
-    background: transparent;
-    color: #44ff34;
-    border-color: #44ff34;
-  }
-}
-
-@media (min-width: 1024px) {
-  .leto-card-dark-mint-tablet-pc {
-    background: transparent;
-    color: #44ff34;
-    border-color: #44ff34;
-  }
-}
-
-@media (min-width: 1024px) and ((pointer: coarse)) {
-  .leto-card-dark-mint-tablet-pc {
-    background: transparent;
-    color: #44ff34;
-    border-color: #44ff34;
-  }
-}
-
-@media (min-width: 1440px) {
-  .leto-card-dark-mint-pc {
-    background: transparent;
-    color: #44ff34;
-    border-color: #44ff34;
-  }
-}
-
-@media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
-  .leto-card-dark-mint-ultrawide {
-    background: transparent;
-    color: #44ff34;
-    border-color: #44ff34;
-  }
-}
-
-@media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
-  .leto-card-dark-mint-super-ultrawide {
-    background: transparent;
-    color: #44ff34;
-    border-color: #44ff34;
-  }
-}
-
 .leto-frame-default [class*="leto-card"] {
   color: #303030;
 }
 
 .leto-frame-dark [class*="leto-card"] {
   color: #fdfdfd;
+}
+
+[class*="leto-frame"] .leto-card-white {
+  background: transparent;
+  color: #fdfdfd;
+  border-color: #fdfdfd;
+}
+
+@media (min-width: 600px) {
+  [class*="leto-frame"] .leto-card-white-tablet {
+    background: transparent;
+    color: #fdfdfd;
+    border-color: #fdfdfd;
+  }
+}
+
+@media (min-width: 1024px) {
+  [class*="leto-frame"] .leto-card-white-tablet-pc {
+    background: transparent;
+    color: #fdfdfd;
+    border-color: #fdfdfd;
+  }
+}
+
+@media (min-width: 1024px) and ((pointer: coarse)) {
+  [class*="leto-frame"] .leto-card-white-tablet-pc {
+    background: transparent;
+    color: #fdfdfd;
+    border-color: #fdfdfd;
+  }
+}
+
+@media (min-width: 1440px) {
+  [class*="leto-frame"] .leto-card-white-pc {
+    background: transparent;
+    color: #fdfdfd;
+    border-color: #fdfdfd;
+  }
+}
+
+@media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
+  [class*="leto-frame"] .leto-card-white-ultrawide {
+    background: transparent;
+    color: #fdfdfd;
+    border-color: #fdfdfd;
+  }
+}
+
+@media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
+  [class*="leto-frame"] .leto-card-white-super-ultrawide {
+    background: transparent;
+    color: #fdfdfd;
+    border-color: #fdfdfd;
+  }
+}
+
+[class*="leto-frame"] .leto-card-dark-white {
+  background: transparent;
+  color: #f0f0f0;
+  border-color: #f0f0f0;
+}
+
+@media (min-width: 600px) {
+  [class*="leto-frame"] .leto-card-dark-white-tablet {
+    background: transparent;
+    color: #f0f0f0;
+    border-color: #f0f0f0;
+  }
+}
+
+@media (min-width: 1024px) {
+  [class*="leto-frame"] .leto-card-dark-white-tablet-pc {
+    background: transparent;
+    color: #f0f0f0;
+    border-color: #f0f0f0;
+  }
+}
+
+@media (min-width: 1024px) and ((pointer: coarse)) {
+  [class*="leto-frame"] .leto-card-dark-white-tablet-pc {
+    background: transparent;
+    color: #f0f0f0;
+    border-color: #f0f0f0;
+  }
+}
+
+@media (min-width: 1440px) {
+  [class*="leto-frame"] .leto-card-dark-white-pc {
+    background: transparent;
+    color: #f0f0f0;
+    border-color: #f0f0f0;
+  }
+}
+
+@media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
+  [class*="leto-frame"] .leto-card-dark-white-ultrawide {
+    background: transparent;
+    color: #f0f0f0;
+    border-color: #f0f0f0;
+  }
+}
+
+@media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
+  [class*="leto-frame"] .leto-card-dark-white-super-ultrawide {
+    background: transparent;
+    color: #f0f0f0;
+    border-color: #f0f0f0;
+  }
+}
+
+[class*="leto-frame"] .leto-card-grey {
+  background: transparent;
+  color: #e1e1e1;
+  border-color: #e1e1e1;
+}
+
+@media (min-width: 600px) {
+  [class*="leto-frame"] .leto-card-grey-tablet {
+    background: transparent;
+    color: #e1e1e1;
+    border-color: #e1e1e1;
+  }
+}
+
+@media (min-width: 1024px) {
+  [class*="leto-frame"] .leto-card-grey-tablet-pc {
+    background: transparent;
+    color: #e1e1e1;
+    border-color: #e1e1e1;
+  }
+}
+
+@media (min-width: 1024px) and ((pointer: coarse)) {
+  [class*="leto-frame"] .leto-card-grey-tablet-pc {
+    background: transparent;
+    color: #e1e1e1;
+    border-color: #e1e1e1;
+  }
+}
+
+@media (min-width: 1440px) {
+  [class*="leto-frame"] .leto-card-grey-pc {
+    background: transparent;
+    color: #e1e1e1;
+    border-color: #e1e1e1;
+  }
+}
+
+@media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
+  [class*="leto-frame"] .leto-card-grey-ultrawide {
+    background: transparent;
+    color: #e1e1e1;
+    border-color: #e1e1e1;
+  }
+}
+
+@media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
+  [class*="leto-frame"] .leto-card-grey-super-ultrawide {
+    background: transparent;
+    color: #e1e1e1;
+    border-color: #e1e1e1;
+  }
+}
+
+[class*="leto-frame"] .leto-card-light-grey {
+  background: transparent;
+  color: #eeeeee;
+  border-color: #eeeeee;
+}
+
+@media (min-width: 600px) {
+  [class*="leto-frame"] .leto-card-light-grey-tablet {
+    background: transparent;
+    color: #eeeeee;
+    border-color: #eeeeee;
+  }
+}
+
+@media (min-width: 1024px) {
+  [class*="leto-frame"] .leto-card-light-grey-tablet-pc {
+    background: transparent;
+    color: #eeeeee;
+    border-color: #eeeeee;
+  }
+}
+
+@media (min-width: 1024px) and ((pointer: coarse)) {
+  [class*="leto-frame"] .leto-card-light-grey-tablet-pc {
+    background: transparent;
+    color: #eeeeee;
+    border-color: #eeeeee;
+  }
+}
+
+@media (min-width: 1440px) {
+  [class*="leto-frame"] .leto-card-light-grey-pc {
+    background: transparent;
+    color: #eeeeee;
+    border-color: #eeeeee;
+  }
+}
+
+@media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
+  [class*="leto-frame"] .leto-card-light-grey-ultrawide {
+    background: transparent;
+    color: #eeeeee;
+    border-color: #eeeeee;
+  }
+}
+
+@media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
+  [class*="leto-frame"] .leto-card-light-grey-super-ultrawide {
+    background: transparent;
+    color: #eeeeee;
+    border-color: #eeeeee;
+  }
+}
+
+[class*="leto-frame"] .leto-card-lighter-grey {
+  background: transparent;
+  color: #fbfbfb;
+  border-color: #fbfbfb;
+}
+
+@media (min-width: 600px) {
+  [class*="leto-frame"] .leto-card-lighter-grey-tablet {
+    background: transparent;
+    color: #fbfbfb;
+    border-color: #fbfbfb;
+  }
+}
+
+@media (min-width: 1024px) {
+  [class*="leto-frame"] .leto-card-lighter-grey-tablet-pc {
+    background: transparent;
+    color: #fbfbfb;
+    border-color: #fbfbfb;
+  }
+}
+
+@media (min-width: 1024px) and ((pointer: coarse)) {
+  [class*="leto-frame"] .leto-card-lighter-grey-tablet-pc {
+    background: transparent;
+    color: #fbfbfb;
+    border-color: #fbfbfb;
+  }
+}
+
+@media (min-width: 1440px) {
+  [class*="leto-frame"] .leto-card-lighter-grey-pc {
+    background: transparent;
+    color: #fbfbfb;
+    border-color: #fbfbfb;
+  }
+}
+
+@media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
+  [class*="leto-frame"] .leto-card-lighter-grey-ultrawide {
+    background: transparent;
+    color: #fbfbfb;
+    border-color: #fbfbfb;
+  }
+}
+
+@media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
+  [class*="leto-frame"] .leto-card-lighter-grey-super-ultrawide {
+    background: transparent;
+    color: #fbfbfb;
+    border-color: #fbfbfb;
+  }
+}
+
+[class*="leto-frame"] .leto-card-dark-grey {
+  background: transparent;
+  color: #c8c8c8;
+  border-color: #c8c8c8;
+}
+
+@media (min-width: 600px) {
+  [class*="leto-frame"] .leto-card-dark-grey-tablet {
+    background: transparent;
+    color: #c8c8c8;
+    border-color: #c8c8c8;
+  }
+}
+
+@media (min-width: 1024px) {
+  [class*="leto-frame"] .leto-card-dark-grey-tablet-pc {
+    background: transparent;
+    color: #c8c8c8;
+    border-color: #c8c8c8;
+  }
+}
+
+@media (min-width: 1024px) and ((pointer: coarse)) {
+  [class*="leto-frame"] .leto-card-dark-grey-tablet-pc {
+    background: transparent;
+    color: #c8c8c8;
+    border-color: #c8c8c8;
+  }
+}
+
+@media (min-width: 1440px) {
+  [class*="leto-frame"] .leto-card-dark-grey-pc {
+    background: transparent;
+    color: #c8c8c8;
+    border-color: #c8c8c8;
+  }
+}
+
+@media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
+  [class*="leto-frame"] .leto-card-dark-grey-ultrawide {
+    background: transparent;
+    color: #c8c8c8;
+    border-color: #c8c8c8;
+  }
+}
+
+@media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
+  [class*="leto-frame"] .leto-card-dark-grey-super-ultrawide {
+    background: transparent;
+    color: #c8c8c8;
+    border-color: #c8c8c8;
+  }
+}
+
+[class*="leto-frame"] .leto-card-darker-grey {
+  background: transparent;
+  color: #aeaeae;
+  border-color: #aeaeae;
+}
+
+@media (min-width: 600px) {
+  [class*="leto-frame"] .leto-card-darker-grey-tablet {
+    background: transparent;
+    color: #aeaeae;
+    border-color: #aeaeae;
+  }
+}
+
+@media (min-width: 1024px) {
+  [class*="leto-frame"] .leto-card-darker-grey-tablet-pc {
+    background: transparent;
+    color: #aeaeae;
+    border-color: #aeaeae;
+  }
+}
+
+@media (min-width: 1024px) and ((pointer: coarse)) {
+  [class*="leto-frame"] .leto-card-darker-grey-tablet-pc {
+    background: transparent;
+    color: #aeaeae;
+    border-color: #aeaeae;
+  }
+}
+
+@media (min-width: 1440px) {
+  [class*="leto-frame"] .leto-card-darker-grey-pc {
+    background: transparent;
+    color: #aeaeae;
+    border-color: #aeaeae;
+  }
+}
+
+@media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
+  [class*="leto-frame"] .leto-card-darker-grey-ultrawide {
+    background: transparent;
+    color: #aeaeae;
+    border-color: #aeaeae;
+  }
+}
+
+@media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
+  [class*="leto-frame"] .leto-card-darker-grey-super-ultrawide {
+    background: transparent;
+    color: #aeaeae;
+    border-color: #aeaeae;
+  }
+}
+
+[class*="leto-frame"] .leto-card-yellow {
+  background: transparent;
+  color: #ffff73;
+  border-color: #ffff73;
+}
+
+@media (min-width: 600px) {
+  [class*="leto-frame"] .leto-card-yellow-tablet {
+    background: transparent;
+    color: #ffff73;
+    border-color: #ffff73;
+  }
+}
+
+@media (min-width: 1024px) {
+  [class*="leto-frame"] .leto-card-yellow-tablet-pc {
+    background: transparent;
+    color: #ffff73;
+    border-color: #ffff73;
+  }
+}
+
+@media (min-width: 1024px) and ((pointer: coarse)) {
+  [class*="leto-frame"] .leto-card-yellow-tablet-pc {
+    background: transparent;
+    color: #ffff73;
+    border-color: #ffff73;
+  }
+}
+
+@media (min-width: 1440px) {
+  [class*="leto-frame"] .leto-card-yellow-pc {
+    background: transparent;
+    color: #ffff73;
+    border-color: #ffff73;
+  }
+}
+
+@media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
+  [class*="leto-frame"] .leto-card-yellow-ultrawide {
+    background: transparent;
+    color: #ffff73;
+    border-color: #ffff73;
+  }
+}
+
+@media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
+  [class*="leto-frame"] .leto-card-yellow-super-ultrawide {
+    background: transparent;
+    color: #ffff73;
+    border-color: #ffff73;
+  }
+}
+
+[class*="leto-frame"] .leto-card-light-yellow {
+  background: transparent;
+  color: #ffffc0;
+  border-color: #ffffc0;
+}
+
+@media (min-width: 600px) {
+  [class*="leto-frame"] .leto-card-light-yellow-tablet {
+    background: transparent;
+    color: #ffffc0;
+    border-color: #ffffc0;
+  }
+}
+
+@media (min-width: 1024px) {
+  [class*="leto-frame"] .leto-card-light-yellow-tablet-pc {
+    background: transparent;
+    color: #ffffc0;
+    border-color: #ffffc0;
+  }
+}
+
+@media (min-width: 1024px) and ((pointer: coarse)) {
+  [class*="leto-frame"] .leto-card-light-yellow-tablet-pc {
+    background: transparent;
+    color: #ffffc0;
+    border-color: #ffffc0;
+  }
+}
+
+@media (min-width: 1440px) {
+  [class*="leto-frame"] .leto-card-light-yellow-pc {
+    background: transparent;
+    color: #ffffc0;
+    border-color: #ffffc0;
+  }
+}
+
+@media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
+  [class*="leto-frame"] .leto-card-light-yellow-ultrawide {
+    background: transparent;
+    color: #ffffc0;
+    border-color: #ffffc0;
+  }
+}
+
+@media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
+  [class*="leto-frame"] .leto-card-light-yellow-super-ultrawide {
+    background: transparent;
+    color: #ffffc0;
+    border-color: #ffffc0;
+  }
+}
+
+[class*="leto-frame"] .leto-card-dark-yellow {
+  background: transparent;
+  color: #ffff27;
+  border-color: #ffff27;
+}
+
+@media (min-width: 600px) {
+  [class*="leto-frame"] .leto-card-dark-yellow-tablet {
+    background: transparent;
+    color: #ffff27;
+    border-color: #ffff27;
+  }
+}
+
+@media (min-width: 1024px) {
+  [class*="leto-frame"] .leto-card-dark-yellow-tablet-pc {
+    background: transparent;
+    color: #ffff27;
+    border-color: #ffff27;
+  }
+}
+
+@media (min-width: 1024px) and ((pointer: coarse)) {
+  [class*="leto-frame"] .leto-card-dark-yellow-tablet-pc {
+    background: transparent;
+    color: #ffff27;
+    border-color: #ffff27;
+  }
+}
+
+@media (min-width: 1440px) {
+  [class*="leto-frame"] .leto-card-dark-yellow-pc {
+    background: transparent;
+    color: #ffff27;
+    border-color: #ffff27;
+  }
+}
+
+@media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
+  [class*="leto-frame"] .leto-card-dark-yellow-ultrawide {
+    background: transparent;
+    color: #ffff27;
+    border-color: #ffff27;
+  }
+}
+
+@media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
+  [class*="leto-frame"] .leto-card-dark-yellow-super-ultrawide {
+    background: transparent;
+    color: #ffff27;
+    border-color: #ffff27;
+  }
+}
+
+[class*="leto-frame"] .leto-card-orange {
+  background: transparent;
+  color: #ffac5a;
+  border-color: #ffac5a;
+}
+
+@media (min-width: 600px) {
+  [class*="leto-frame"] .leto-card-orange-tablet {
+    background: transparent;
+    color: #ffac5a;
+    border-color: #ffac5a;
+  }
+}
+
+@media (min-width: 1024px) {
+  [class*="leto-frame"] .leto-card-orange-tablet-pc {
+    background: transparent;
+    color: #ffac5a;
+    border-color: #ffac5a;
+  }
+}
+
+@media (min-width: 1024px) and ((pointer: coarse)) {
+  [class*="leto-frame"] .leto-card-orange-tablet-pc {
+    background: transparent;
+    color: #ffac5a;
+    border-color: #ffac5a;
+  }
+}
+
+@media (min-width: 1440px) {
+  [class*="leto-frame"] .leto-card-orange-pc {
+    background: transparent;
+    color: #ffac5a;
+    border-color: #ffac5a;
+  }
+}
+
+@media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
+  [class*="leto-frame"] .leto-card-orange-ultrawide {
+    background: transparent;
+    color: #ffac5a;
+    border-color: #ffac5a;
+  }
+}
+
+@media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
+  [class*="leto-frame"] .leto-card-orange-super-ultrawide {
+    background: transparent;
+    color: #ffac5a;
+    border-color: #ffac5a;
+  }
+}
+
+[class*="leto-frame"] .leto-card-light-orange {
+  background: transparent;
+  color: #ffd2a7;
+  border-color: #ffd2a7;
+}
+
+@media (min-width: 600px) {
+  [class*="leto-frame"] .leto-card-light-orange-tablet {
+    background: transparent;
+    color: #ffd2a7;
+    border-color: #ffd2a7;
+  }
+}
+
+@media (min-width: 1024px) {
+  [class*="leto-frame"] .leto-card-light-orange-tablet-pc {
+    background: transparent;
+    color: #ffd2a7;
+    border-color: #ffd2a7;
+  }
+}
+
+@media (min-width: 1024px) and ((pointer: coarse)) {
+  [class*="leto-frame"] .leto-card-light-orange-tablet-pc {
+    background: transparent;
+    color: #ffd2a7;
+    border-color: #ffd2a7;
+  }
+}
+
+@media (min-width: 1440px) {
+  [class*="leto-frame"] .leto-card-light-orange-pc {
+    background: transparent;
+    color: #ffd2a7;
+    border-color: #ffd2a7;
+  }
+}
+
+@media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
+  [class*="leto-frame"] .leto-card-light-orange-ultrawide {
+    background: transparent;
+    color: #ffd2a7;
+    border-color: #ffd2a7;
+  }
+}
+
+@media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
+  [class*="leto-frame"] .leto-card-light-orange-super-ultrawide {
+    background: transparent;
+    color: #ffd2a7;
+    border-color: #ffd2a7;
+  }
+}
+
+[class*="leto-frame"] .leto-card-dark-orange {
+  background: transparent;
+  color: #ff860e;
+  border-color: #ff860e;
+}
+
+@media (min-width: 600px) {
+  [class*="leto-frame"] .leto-card-dark-orange-tablet {
+    background: transparent;
+    color: #ff860e;
+    border-color: #ff860e;
+  }
+}
+
+@media (min-width: 1024px) {
+  [class*="leto-frame"] .leto-card-dark-orange-tablet-pc {
+    background: transparent;
+    color: #ff860e;
+    border-color: #ff860e;
+  }
+}
+
+@media (min-width: 1024px) and ((pointer: coarse)) {
+  [class*="leto-frame"] .leto-card-dark-orange-tablet-pc {
+    background: transparent;
+    color: #ff860e;
+    border-color: #ff860e;
+  }
+}
+
+@media (min-width: 1440px) {
+  [class*="leto-frame"] .leto-card-dark-orange-pc {
+    background: transparent;
+    color: #ff860e;
+    border-color: #ff860e;
+  }
+}
+
+@media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
+  [class*="leto-frame"] .leto-card-dark-orange-ultrawide {
+    background: transparent;
+    color: #ff860e;
+    border-color: #ff860e;
+  }
+}
+
+@media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
+  [class*="leto-frame"] .leto-card-dark-orange-super-ultrawide {
+    background: transparent;
+    color: #ff860e;
+    border-color: #ff860e;
+  }
+}
+
+[class*="leto-frame"] .leto-card-red {
+  background: transparent;
+  color: #ff6666;
+  border-color: #ff6666;
+}
+
+@media (min-width: 600px) {
+  [class*="leto-frame"] .leto-card-red-tablet {
+    background: transparent;
+    color: #ff6666;
+    border-color: #ff6666;
+  }
+}
+
+@media (min-width: 1024px) {
+  [class*="leto-frame"] .leto-card-red-tablet-pc {
+    background: transparent;
+    color: #ff6666;
+    border-color: #ff6666;
+  }
+}
+
+@media (min-width: 1024px) and ((pointer: coarse)) {
+  [class*="leto-frame"] .leto-card-red-tablet-pc {
+    background: transparent;
+    color: #ff6666;
+    border-color: #ff6666;
+  }
+}
+
+@media (min-width: 1440px) {
+  [class*="leto-frame"] .leto-card-red-pc {
+    background: transparent;
+    color: #ff6666;
+    border-color: #ff6666;
+  }
+}
+
+@media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
+  [class*="leto-frame"] .leto-card-red-ultrawide {
+    background: transparent;
+    color: #ff6666;
+    border-color: #ff6666;
+  }
+}
+
+@media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
+  [class*="leto-frame"] .leto-card-red-super-ultrawide {
+    background: transparent;
+    color: #ff6666;
+    border-color: #ff6666;
+  }
+}
+
+[class*="leto-frame"] .leto-card-light-red {
+  background: transparent;
+  color: #ffb3b3;
+  border-color: #ffb3b3;
+}
+
+@media (min-width: 600px) {
+  [class*="leto-frame"] .leto-card-light-red-tablet {
+    background: transparent;
+    color: #ffb3b3;
+    border-color: #ffb3b3;
+  }
+}
+
+@media (min-width: 1024px) {
+  [class*="leto-frame"] .leto-card-light-red-tablet-pc {
+    background: transparent;
+    color: #ffb3b3;
+    border-color: #ffb3b3;
+  }
+}
+
+@media (min-width: 1024px) and ((pointer: coarse)) {
+  [class*="leto-frame"] .leto-card-light-red-tablet-pc {
+    background: transparent;
+    color: #ffb3b3;
+    border-color: #ffb3b3;
+  }
+}
+
+@media (min-width: 1440px) {
+  [class*="leto-frame"] .leto-card-light-red-pc {
+    background: transparent;
+    color: #ffb3b3;
+    border-color: #ffb3b3;
+  }
+}
+
+@media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
+  [class*="leto-frame"] .leto-card-light-red-ultrawide {
+    background: transparent;
+    color: #ffb3b3;
+    border-color: #ffb3b3;
+  }
+}
+
+@media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
+  [class*="leto-frame"] .leto-card-light-red-super-ultrawide {
+    background: transparent;
+    color: #ffb3b3;
+    border-color: #ffb3b3;
+  }
+}
+
+[class*="leto-frame"] .leto-card-dark-red {
+  background: transparent;
+  color: #ff1a1a;
+  border-color: #ff1a1a;
+}
+
+@media (min-width: 600px) {
+  [class*="leto-frame"] .leto-card-dark-red-tablet {
+    background: transparent;
+    color: #ff1a1a;
+    border-color: #ff1a1a;
+  }
+}
+
+@media (min-width: 1024px) {
+  [class*="leto-frame"] .leto-card-dark-red-tablet-pc {
+    background: transparent;
+    color: #ff1a1a;
+    border-color: #ff1a1a;
+  }
+}
+
+@media (min-width: 1024px) and ((pointer: coarse)) {
+  [class*="leto-frame"] .leto-card-dark-red-tablet-pc {
+    background: transparent;
+    color: #ff1a1a;
+    border-color: #ff1a1a;
+  }
+}
+
+@media (min-width: 1440px) {
+  [class*="leto-frame"] .leto-card-dark-red-pc {
+    background: transparent;
+    color: #ff1a1a;
+    border-color: #ff1a1a;
+  }
+}
+
+@media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
+  [class*="leto-frame"] .leto-card-dark-red-ultrawide {
+    background: transparent;
+    color: #ff1a1a;
+    border-color: #ff1a1a;
+  }
+}
+
+@media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
+  [class*="leto-frame"] .leto-card-dark-red-super-ultrawide {
+    background: transparent;
+    color: #ff1a1a;
+    border-color: #ff1a1a;
+  }
+}
+
+[class*="leto-frame"] .leto-card-purple {
+  background: transparent;
+  color: #ca7fff;
+  border-color: #ca7fff;
+}
+
+@media (min-width: 600px) {
+  [class*="leto-frame"] .leto-card-purple-tablet {
+    background: transparent;
+    color: #ca7fff;
+    border-color: #ca7fff;
+  }
+}
+
+@media (min-width: 1024px) {
+  [class*="leto-frame"] .leto-card-purple-tablet-pc {
+    background: transparent;
+    color: #ca7fff;
+    border-color: #ca7fff;
+  }
+}
+
+@media (min-width: 1024px) and ((pointer: coarse)) {
+  [class*="leto-frame"] .leto-card-purple-tablet-pc {
+    background: transparent;
+    color: #ca7fff;
+    border-color: #ca7fff;
+  }
+}
+
+@media (min-width: 1440px) {
+  [class*="leto-frame"] .leto-card-purple-pc {
+    background: transparent;
+    color: #ca7fff;
+    border-color: #ca7fff;
+  }
+}
+
+@media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
+  [class*="leto-frame"] .leto-card-purple-ultrawide {
+    background: transparent;
+    color: #ca7fff;
+    border-color: #ca7fff;
+  }
+}
+
+@media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
+  [class*="leto-frame"] .leto-card-purple-super-ultrawide {
+    background: transparent;
+    color: #ca7fff;
+    border-color: #ca7fff;
+  }
+}
+
+[class*="leto-frame"] .leto-card-light-purple {
+  background: transparent;
+  color: #eaccff;
+  border-color: #eaccff;
+}
+
+@media (min-width: 600px) {
+  [class*="leto-frame"] .leto-card-light-purple-tablet {
+    background: transparent;
+    color: #eaccff;
+    border-color: #eaccff;
+  }
+}
+
+@media (min-width: 1024px) {
+  [class*="leto-frame"] .leto-card-light-purple-tablet-pc {
+    background: transparent;
+    color: #eaccff;
+    border-color: #eaccff;
+  }
+}
+
+@media (min-width: 1024px) and ((pointer: coarse)) {
+  [class*="leto-frame"] .leto-card-light-purple-tablet-pc {
+    background: transparent;
+    color: #eaccff;
+    border-color: #eaccff;
+  }
+}
+
+@media (min-width: 1440px) {
+  [class*="leto-frame"] .leto-card-light-purple-pc {
+    background: transparent;
+    color: #eaccff;
+    border-color: #eaccff;
+  }
+}
+
+@media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
+  [class*="leto-frame"] .leto-card-light-purple-ultrawide {
+    background: transparent;
+    color: #eaccff;
+    border-color: #eaccff;
+  }
+}
+
+@media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
+  [class*="leto-frame"] .leto-card-light-purple-super-ultrawide {
+    background: transparent;
+    color: #eaccff;
+    border-color: #eaccff;
+  }
+}
+
+[class*="leto-frame"] .leto-card-dark-purple {
+  background: transparent;
+  color: #aa33ff;
+  border-color: #aa33ff;
+}
+
+@media (min-width: 600px) {
+  [class*="leto-frame"] .leto-card-dark-purple-tablet {
+    background: transparent;
+    color: #aa33ff;
+    border-color: #aa33ff;
+  }
+}
+
+@media (min-width: 1024px) {
+  [class*="leto-frame"] .leto-card-dark-purple-tablet-pc {
+    background: transparent;
+    color: #aa33ff;
+    border-color: #aa33ff;
+  }
+}
+
+@media (min-width: 1024px) and ((pointer: coarse)) {
+  [class*="leto-frame"] .leto-card-dark-purple-tablet-pc {
+    background: transparent;
+    color: #aa33ff;
+    border-color: #aa33ff;
+  }
+}
+
+@media (min-width: 1440px) {
+  [class*="leto-frame"] .leto-card-dark-purple-pc {
+    background: transparent;
+    color: #aa33ff;
+    border-color: #aa33ff;
+  }
+}
+
+@media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
+  [class*="leto-frame"] .leto-card-dark-purple-ultrawide {
+    background: transparent;
+    color: #aa33ff;
+    border-color: #aa33ff;
+  }
+}
+
+@media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
+  [class*="leto-frame"] .leto-card-dark-purple-super-ultrawide {
+    background: transparent;
+    color: #aa33ff;
+    border-color: #aa33ff;
+  }
+}
+
+[class*="leto-frame"] .leto-card-blue {
+  background: transparent;
+  color: #738aff;
+  border-color: #738aff;
+}
+
+@media (min-width: 600px) {
+  [class*="leto-frame"] .leto-card-blue-tablet {
+    background: transparent;
+    color: #738aff;
+    border-color: #738aff;
+  }
+}
+
+@media (min-width: 1024px) {
+  [class*="leto-frame"] .leto-card-blue-tablet-pc {
+    background: transparent;
+    color: #738aff;
+    border-color: #738aff;
+  }
+}
+
+@media (min-width: 1024px) and ((pointer: coarse)) {
+  [class*="leto-frame"] .leto-card-blue-tablet-pc {
+    background: transparent;
+    color: #738aff;
+    border-color: #738aff;
+  }
+}
+
+@media (min-width: 1440px) {
+  [class*="leto-frame"] .leto-card-blue-pc {
+    background: transparent;
+    color: #738aff;
+    border-color: #738aff;
+  }
+}
+
+@media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
+  [class*="leto-frame"] .leto-card-blue-ultrawide {
+    background: transparent;
+    color: #738aff;
+    border-color: #738aff;
+  }
+}
+
+@media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
+  [class*="leto-frame"] .leto-card-blue-super-ultrawide {
+    background: transparent;
+    color: #738aff;
+    border-color: #738aff;
+  }
+}
+
+[class*="leto-frame"] .leto-card-light-blue {
+  background: transparent;
+  color: #c0caff;
+  border-color: #c0caff;
+}
+
+@media (min-width: 600px) {
+  [class*="leto-frame"] .leto-card-light-blue-tablet {
+    background: transparent;
+    color: #c0caff;
+    border-color: #c0caff;
+  }
+}
+
+@media (min-width: 1024px) {
+  [class*="leto-frame"] .leto-card-light-blue-tablet-pc {
+    background: transparent;
+    color: #c0caff;
+    border-color: #c0caff;
+  }
+}
+
+@media (min-width: 1024px) and ((pointer: coarse)) {
+  [class*="leto-frame"] .leto-card-light-blue-tablet-pc {
+    background: transparent;
+    color: #c0caff;
+    border-color: #c0caff;
+  }
+}
+
+@media (min-width: 1440px) {
+  [class*="leto-frame"] .leto-card-light-blue-pc {
+    background: transparent;
+    color: #c0caff;
+    border-color: #c0caff;
+  }
+}
+
+@media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
+  [class*="leto-frame"] .leto-card-light-blue-ultrawide {
+    background: transparent;
+    color: #c0caff;
+    border-color: #c0caff;
+  }
+}
+
+@media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
+  [class*="leto-frame"] .leto-card-light-blue-super-ultrawide {
+    background: transparent;
+    color: #c0caff;
+    border-color: #c0caff;
+  }
+}
+
+[class*="leto-frame"] .leto-card-dark-blue {
+  background: transparent;
+  color: #274aff;
+  border-color: #274aff;
+}
+
+@media (min-width: 600px) {
+  [class*="leto-frame"] .leto-card-dark-blue-tablet {
+    background: transparent;
+    color: #274aff;
+    border-color: #274aff;
+  }
+}
+
+@media (min-width: 1024px) {
+  [class*="leto-frame"] .leto-card-dark-blue-tablet-pc {
+    background: transparent;
+    color: #274aff;
+    border-color: #274aff;
+  }
+}
+
+@media (min-width: 1024px) and ((pointer: coarse)) {
+  [class*="leto-frame"] .leto-card-dark-blue-tablet-pc {
+    background: transparent;
+    color: #274aff;
+    border-color: #274aff;
+  }
+}
+
+@media (min-width: 1440px) {
+  [class*="leto-frame"] .leto-card-dark-blue-pc {
+    background: transparent;
+    color: #274aff;
+    border-color: #274aff;
+  }
+}
+
+@media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
+  [class*="leto-frame"] .leto-card-dark-blue-ultrawide {
+    background: transparent;
+    color: #274aff;
+    border-color: #274aff;
+  }
+}
+
+@media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
+  [class*="leto-frame"] .leto-card-dark-blue-super-ultrawide {
+    background: transparent;
+    color: #274aff;
+    border-color: #274aff;
+  }
+}
+
+[class*="leto-frame"] .leto-card-mint {
+  background: transparent;
+  color: #59ffc8;
+  border-color: #59ffc8;
+}
+
+@media (min-width: 600px) {
+  [class*="leto-frame"] .leto-card-mint-tablet {
+    background: transparent;
+    color: #59ffc8;
+    border-color: #59ffc8;
+  }
+}
+
+@media (min-width: 1024px) {
+  [class*="leto-frame"] .leto-card-mint-tablet-pc {
+    background: transparent;
+    color: #59ffc8;
+    border-color: #59ffc8;
+  }
+}
+
+@media (min-width: 1024px) and ((pointer: coarse)) {
+  [class*="leto-frame"] .leto-card-mint-tablet-pc {
+    background: transparent;
+    color: #59ffc8;
+    border-color: #59ffc8;
+  }
+}
+
+@media (min-width: 1440px) {
+  [class*="leto-frame"] .leto-card-mint-pc {
+    background: transparent;
+    color: #59ffc8;
+    border-color: #59ffc8;
+  }
+}
+
+@media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
+  [class*="leto-frame"] .leto-card-mint-ultrawide {
+    background: transparent;
+    color: #59ffc8;
+    border-color: #59ffc8;
+  }
+}
+
+@media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
+  [class*="leto-frame"] .leto-card-mint-super-ultrawide {
+    background: transparent;
+    color: #59ffc8;
+    border-color: #59ffc8;
+  }
+}
+
+[class*="leto-frame"] .leto-card-light-mint {
+  background: transparent;
+  color: #a6ffe1;
+  border-color: #a6ffe1;
+}
+
+@media (min-width: 600px) {
+  [class*="leto-frame"] .leto-card-light-mint-tablet {
+    background: transparent;
+    color: #a6ffe1;
+    border-color: #a6ffe1;
+  }
+}
+
+@media (min-width: 1024px) {
+  [class*="leto-frame"] .leto-card-light-mint-tablet-pc {
+    background: transparent;
+    color: #a6ffe1;
+    border-color: #a6ffe1;
+  }
+}
+
+@media (min-width: 1024px) and ((pointer: coarse)) {
+  [class*="leto-frame"] .leto-card-light-mint-tablet-pc {
+    background: transparent;
+    color: #a6ffe1;
+    border-color: #a6ffe1;
+  }
+}
+
+@media (min-width: 1440px) {
+  [class*="leto-frame"] .leto-card-light-mint-pc {
+    background: transparent;
+    color: #a6ffe1;
+    border-color: #a6ffe1;
+  }
+}
+
+@media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
+  [class*="leto-frame"] .leto-card-light-mint-ultrawide {
+    background: transparent;
+    color: #a6ffe1;
+    border-color: #a6ffe1;
+  }
+}
+
+@media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
+  [class*="leto-frame"] .leto-card-light-mint-super-ultrawide {
+    background: transparent;
+    color: #a6ffe1;
+    border-color: #a6ffe1;
+  }
+}
+
+[class*="leto-frame"] .leto-card-dark-mint {
+  background: transparent;
+  color: #0dffaf;
+  border-color: #0dffaf;
+}
+
+@media (min-width: 600px) {
+  [class*="leto-frame"] .leto-card-dark-mint-tablet {
+    background: transparent;
+    color: #0dffaf;
+    border-color: #0dffaf;
+  }
+}
+
+@media (min-width: 1024px) {
+  [class*="leto-frame"] .leto-card-dark-mint-tablet-pc {
+    background: transparent;
+    color: #0dffaf;
+    border-color: #0dffaf;
+  }
+}
+
+@media (min-width: 1024px) and ((pointer: coarse)) {
+  [class*="leto-frame"] .leto-card-dark-mint-tablet-pc {
+    background: transparent;
+    color: #0dffaf;
+    border-color: #0dffaf;
+  }
+}
+
+@media (min-width: 1440px) {
+  [class*="leto-frame"] .leto-card-dark-mint-pc {
+    background: transparent;
+    color: #0dffaf;
+    border-color: #0dffaf;
+  }
+}
+
+@media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
+  [class*="leto-frame"] .leto-card-dark-mint-ultrawide {
+    background: transparent;
+    color: #0dffaf;
+    border-color: #0dffaf;
+  }
+}
+
+@media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
+  [class*="leto-frame"] .leto-card-dark-mint-super-ultrawide {
+    background: transparent;
+    color: #0dffaf;
+    border-color: #0dffaf;
+  }
+}
+
+[class*="leto-frame"] .leto-card-mint {
+  background: transparent;
+  color: #8aff80;
+  border-color: #8aff80;
+}
+
+@media (min-width: 600px) {
+  [class*="leto-frame"] .leto-card-mint-tablet {
+    background: transparent;
+    color: #8aff80;
+    border-color: #8aff80;
+  }
+}
+
+@media (min-width: 1024px) {
+  [class*="leto-frame"] .leto-card-mint-tablet-pc {
+    background: transparent;
+    color: #8aff80;
+    border-color: #8aff80;
+  }
+}
+
+@media (min-width: 1024px) and ((pointer: coarse)) {
+  [class*="leto-frame"] .leto-card-mint-tablet-pc {
+    background: transparent;
+    color: #8aff80;
+    border-color: #8aff80;
+  }
+}
+
+@media (min-width: 1440px) {
+  [class*="leto-frame"] .leto-card-mint-pc {
+    background: transparent;
+    color: #8aff80;
+    border-color: #8aff80;
+  }
+}
+
+@media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
+  [class*="leto-frame"] .leto-card-mint-ultrawide {
+    background: transparent;
+    color: #8aff80;
+    border-color: #8aff80;
+  }
+}
+
+@media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
+  [class*="leto-frame"] .leto-card-mint-super-ultrawide {
+    background: transparent;
+    color: #8aff80;
+    border-color: #8aff80;
+  }
+}
+
+[class*="leto-frame"] .leto-card-light-mint {
+  background: transparent;
+  color: #d0ffcd;
+  border-color: #d0ffcd;
+}
+
+@media (min-width: 600px) {
+  [class*="leto-frame"] .leto-card-light-mint-tablet {
+    background: transparent;
+    color: #d0ffcd;
+    border-color: #d0ffcd;
+  }
+}
+
+@media (min-width: 1024px) {
+  [class*="leto-frame"] .leto-card-light-mint-tablet-pc {
+    background: transparent;
+    color: #d0ffcd;
+    border-color: #d0ffcd;
+  }
+}
+
+@media (min-width: 1024px) and ((pointer: coarse)) {
+  [class*="leto-frame"] .leto-card-light-mint-tablet-pc {
+    background: transparent;
+    color: #d0ffcd;
+    border-color: #d0ffcd;
+  }
+}
+
+@media (min-width: 1440px) {
+  [class*="leto-frame"] .leto-card-light-mint-pc {
+    background: transparent;
+    color: #d0ffcd;
+    border-color: #d0ffcd;
+  }
+}
+
+@media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
+  [class*="leto-frame"] .leto-card-light-mint-ultrawide {
+    background: transparent;
+    color: #d0ffcd;
+    border-color: #d0ffcd;
+  }
+}
+
+@media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
+  [class*="leto-frame"] .leto-card-light-mint-super-ultrawide {
+    background: transparent;
+    color: #d0ffcd;
+    border-color: #d0ffcd;
+  }
+}
+
+[class*="leto-frame"] .leto-card-dark-mint {
+  background: transparent;
+  color: #44ff34;
+  border-color: #44ff34;
+}
+
+@media (min-width: 600px) {
+  [class*="leto-frame"] .leto-card-dark-mint-tablet {
+    background: transparent;
+    color: #44ff34;
+    border-color: #44ff34;
+  }
+}
+
+@media (min-width: 1024px) {
+  [class*="leto-frame"] .leto-card-dark-mint-tablet-pc {
+    background: transparent;
+    color: #44ff34;
+    border-color: #44ff34;
+  }
+}
+
+@media (min-width: 1024px) and ((pointer: coarse)) {
+  [class*="leto-frame"] .leto-card-dark-mint-tablet-pc {
+    background: transparent;
+    color: #44ff34;
+    border-color: #44ff34;
+  }
+}
+
+@media (min-width: 1440px) {
+  [class*="leto-frame"] .leto-card-dark-mint-pc {
+    background: transparent;
+    color: #44ff34;
+    border-color: #44ff34;
+  }
+}
+
+@media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
+  [class*="leto-frame"] .leto-card-dark-mint-ultrawide {
+    background: transparent;
+    color: #44ff34;
+    border-color: #44ff34;
+  }
+}
+
+@media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
+  [class*="leto-frame"] .leto-card-dark-mint-super-ultrawide {
+    background: transparent;
+    color: #44ff34;
+    border-color: #44ff34;
+  }
 }
 
 .leto-card-wrapper {
@@ -7766,6 +7766,7 @@ p, b {
 }
 
 .leto-input[type="text"], .leto-input[type="date"], .leto-input[type="datetime-local"], .leto-input[type="email"], .leto-input[type="month"], .leto-input[type="number"], .leto-input[type="password"], .leto-input[type="tel"], .leto-input[type="time"], .leto-input[type="url"], .leto-input[type="week"] {
+  min-width: 250px;
   height: 48px;
   font-size: 16px;
   margin: 8px;
@@ -7782,6 +7783,7 @@ p, b {
 }
 
 .leto-input-xxs[type="text"], .leto-input-xxs[type="date"], .leto-input-xxs[type="datetime-local"], .leto-input-xxs[type="email"], .leto-input-xxs[type="month"], .leto-input-xxs[type="number"], .leto-input-xxs[type="password"], .leto-input-xxs[type="tel"], .leto-input-xxs[type="time"], .leto-input-xxs[type="url"], .leto-input-xxs[type="week"] {
+  min-width: 250px;
   height: 16px;
   font-size: 16px;
   margin: 8px;
@@ -7798,6 +7800,7 @@ p, b {
 }
 
 .leto-input-xs[type="text"], .leto-input-xs[type="date"], .leto-input-xs[type="datetime-local"], .leto-input-xs[type="email"], .leto-input-xs[type="month"], .leto-input-xs[type="number"], .leto-input-xs[type="password"], .leto-input-xs[type="tel"], .leto-input-xs[type="time"], .leto-input-xs[type="url"], .leto-input-xs[type="week"] {
+  min-width: 250px;
   height: 24px;
   font-size: 16px;
   margin: 8px;
@@ -7814,6 +7817,7 @@ p, b {
 }
 
 .leto-input-sm[type="text"], .leto-input-sm[type="date"], .leto-input-sm[type="datetime-local"], .leto-input-sm[type="email"], .leto-input-sm[type="month"], .leto-input-sm[type="number"], .leto-input-sm[type="password"], .leto-input-sm[type="tel"], .leto-input-sm[type="time"], .leto-input-sm[type="url"], .leto-input-sm[type="week"] {
+  min-width: 250px;
   height: 32px;
   font-size: 16px;
   margin: 8px;
@@ -7830,6 +7834,7 @@ p, b {
 }
 
 .leto-input-md[type="text"], .leto-input-md[type="date"], .leto-input-md[type="datetime-local"], .leto-input-md[type="email"], .leto-input-md[type="month"], .leto-input-md[type="number"], .leto-input-md[type="password"], .leto-input-md[type="tel"], .leto-input-md[type="time"], .leto-input-md[type="url"], .leto-input-md[type="week"] {
+  min-width: 250px;
   height: 48px;
   font-size: 16px;
   margin: 8px;
@@ -7846,6 +7851,7 @@ p, b {
 }
 
 .leto-input-lg[type="text"], .leto-input-lg[type="date"], .leto-input-lg[type="datetime-local"], .leto-input-lg[type="email"], .leto-input-lg[type="month"], .leto-input-lg[type="number"], .leto-input-lg[type="password"], .leto-input-lg[type="tel"], .leto-input-lg[type="time"], .leto-input-lg[type="url"], .leto-input-lg[type="week"] {
+  min-width: 250px;
   height: 64px;
   font-size: 16px;
   margin: 8px;
@@ -7862,6 +7868,7 @@ p, b {
 }
 
 .leto-input-xl[type="text"], .leto-input-xl[type="date"], .leto-input-xl[type="datetime-local"], .leto-input-xl[type="email"], .leto-input-xl[type="month"], .leto-input-xl[type="number"], .leto-input-xl[type="password"], .leto-input-xl[type="tel"], .leto-input-xl[type="time"], .leto-input-xl[type="url"], .leto-input-xl[type="week"] {
+  min-width: 250px;
   height: 96px;
   font-size: 16px;
   margin: 8px;
@@ -7878,6 +7885,7 @@ p, b {
 }
 
 .leto-input-xxl[type="text"], .leto-input-xxl[type="date"], .leto-input-xxl[type="datetime-local"], .leto-input-xxl[type="email"], .leto-input-xxl[type="month"], .leto-input-xxl[type="number"], .leto-input-xxl[type="password"], .leto-input-xxl[type="tel"], .leto-input-xxl[type="time"], .leto-input-xxl[type="url"], .leto-input-xxl[type="week"] {
+  min-width: 250px;
   height: 128px;
   font-size: 16px;
   margin: 8px;
@@ -7911,6 +7919,9 @@ p, b {
 
 .leto-input-wrapper {
   position: relative;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
   margin: 8px;
 }
 
@@ -7933,7 +7944,6 @@ p, b {
 }
 
 .leto-input-wrapper [class*=leto-input] {
-  width: 100%;
   border: 1px solid #eeeeee;
   margin: 0;
 }
@@ -7982,10 +7992,10 @@ p, b {
 
 .leto-input[type="radio"] {
   position: relative;
-  width: 48px;
-  height: 48px;
+  width: 24px;
+  height: 24px;
   cursor: pointer;
-  margin: calc((24px * 2) / 2 + 8px);
+  margin: calc((24px * 2) / 4 + 8px);
 }
 
 .leto-input[type="radio"]:before, .leto-input[type="radio"]:after {
@@ -7999,14 +8009,14 @@ p, b {
   background-color: #303030;
   border: 1px solid #e1e1e1;
   border-radius: 100%;
-  margin: calc(-1 * (24px * 2) / 2);
+  margin: calc(-1 * (24px * 2) / 4);
 }
 
 .leto-input[type="radio"]:after {
   width: calc(200% - 16px);
   height: calc(200% - 16px);
   border-radius: 100%;
-  margin: calc(8px - (24px * 2) / 2);
+  margin: calc(8px - (24px * 2) / 4);
 }
 
 .leto-input[type="radio"]:checked:after {
@@ -8015,10 +8025,10 @@ p, b {
 
 .leto-input-xxs[type="radio"] {
   position: relative;
-  width: 16px;
-  height: 16px;
+  width: 8px;
+  height: 8px;
   cursor: pointer;
-  margin: calc((8px * 2) / 2 + 8px);
+  margin: calc((8px * 2) / 4 + 8px);
 }
 
 .leto-input-xxs[type="radio"]:before, .leto-input-xxs[type="radio"]:after {
@@ -8032,14 +8042,14 @@ p, b {
   background-color: #303030;
   border: 1px solid #e1e1e1;
   border-radius: 100%;
-  margin: calc(-1 * (8px * 2) / 2);
+  margin: calc(-1 * (8px * 2) / 4);
 }
 
 .leto-input-xxs[type="radio"]:after {
   width: calc(200% - 16px);
   height: calc(200% - 16px);
   border-radius: 100%;
-  margin: calc(8px - (8px * 2) / 2);
+  margin: calc(8px - (8px * 2) / 4);
 }
 
 .leto-input-xxs[type="radio"]:checked:after {
@@ -8048,10 +8058,10 @@ p, b {
 
 .leto-input-xs[type="radio"] {
   position: relative;
-  width: 24px;
-  height: 24px;
+  width: 12px;
+  height: 12px;
   cursor: pointer;
-  margin: calc((12px * 2) / 2 + 8px);
+  margin: calc((12px * 2) / 4 + 8px);
 }
 
 .leto-input-xs[type="radio"]:before, .leto-input-xs[type="radio"]:after {
@@ -8065,14 +8075,14 @@ p, b {
   background-color: #303030;
   border: 1px solid #e1e1e1;
   border-radius: 100%;
-  margin: calc(-1 * (12px * 2) / 2);
+  margin: calc(-1 * (12px * 2) / 4);
 }
 
 .leto-input-xs[type="radio"]:after {
   width: calc(200% - 16px);
   height: calc(200% - 16px);
   border-radius: 100%;
-  margin: calc(8px - (12px * 2) / 2);
+  margin: calc(8px - (12px * 2) / 4);
 }
 
 .leto-input-xs[type="radio"]:checked:after {
@@ -8081,10 +8091,10 @@ p, b {
 
 .leto-input-sm[type="radio"] {
   position: relative;
-  width: 32px;
-  height: 32px;
+  width: 16px;
+  height: 16px;
   cursor: pointer;
-  margin: calc((16px * 2) / 2 + 8px);
+  margin: calc((16px * 2) / 4 + 8px);
 }
 
 .leto-input-sm[type="radio"]:before, .leto-input-sm[type="radio"]:after {
@@ -8098,14 +8108,14 @@ p, b {
   background-color: #303030;
   border: 1px solid #e1e1e1;
   border-radius: 100%;
-  margin: calc(-1 * (16px * 2) / 2);
+  margin: calc(-1 * (16px * 2) / 4);
 }
 
 .leto-input-sm[type="radio"]:after {
   width: calc(200% - 16px);
   height: calc(200% - 16px);
   border-radius: 100%;
-  margin: calc(8px - (16px * 2) / 2);
+  margin: calc(8px - (16px * 2) / 4);
 }
 
 .leto-input-sm[type="radio"]:checked:after {
@@ -8114,10 +8124,10 @@ p, b {
 
 .leto-input-md[type="radio"] {
   position: relative;
-  width: 48px;
-  height: 48px;
+  width: 24px;
+  height: 24px;
   cursor: pointer;
-  margin: calc((24px * 2) / 2 + 8px);
+  margin: calc((24px * 2) / 4 + 8px);
 }
 
 .leto-input-md[type="radio"]:before, .leto-input-md[type="radio"]:after {
@@ -8131,14 +8141,14 @@ p, b {
   background-color: #303030;
   border: 1px solid #e1e1e1;
   border-radius: 100%;
-  margin: calc(-1 * (24px * 2) / 2);
+  margin: calc(-1 * (24px * 2) / 4);
 }
 
 .leto-input-md[type="radio"]:after {
   width: calc(200% - 16px);
   height: calc(200% - 16px);
   border-radius: 100%;
-  margin: calc(8px - (24px * 2) / 2);
+  margin: calc(8px - (24px * 2) / 4);
 }
 
 .leto-input-md[type="radio"]:checked:after {
@@ -8147,10 +8157,10 @@ p, b {
 
 .leto-input-lg[type="radio"] {
   position: relative;
-  width: 64px;
-  height: 64px;
+  width: 32px;
+  height: 32px;
   cursor: pointer;
-  margin: calc((32px * 2) / 2 + 8px);
+  margin: calc((32px * 2) / 4 + 8px);
 }
 
 .leto-input-lg[type="radio"]:before, .leto-input-lg[type="radio"]:after {
@@ -8164,14 +8174,14 @@ p, b {
   background-color: #303030;
   border: 1px solid #e1e1e1;
   border-radius: 100%;
-  margin: calc(-1 * (32px * 2) / 2);
+  margin: calc(-1 * (32px * 2) / 4);
 }
 
 .leto-input-lg[type="radio"]:after {
   width: calc(200% - 16px);
   height: calc(200% - 16px);
   border-radius: 100%;
-  margin: calc(8px - (32px * 2) / 2);
+  margin: calc(8px - (32px * 2) / 4);
 }
 
 .leto-input-lg[type="radio"]:checked:after {
@@ -8180,10 +8190,10 @@ p, b {
 
 .leto-input-xl[type="radio"] {
   position: relative;
-  width: 96px;
-  height: 96px;
+  width: 48px;
+  height: 48px;
   cursor: pointer;
-  margin: calc((48px * 2) / 2 + 8px);
+  margin: calc((48px * 2) / 4 + 8px);
 }
 
 .leto-input-xl[type="radio"]:before, .leto-input-xl[type="radio"]:after {
@@ -8197,14 +8207,14 @@ p, b {
   background-color: #303030;
   border: 1px solid #e1e1e1;
   border-radius: 100%;
-  margin: calc(-1 * (48px * 2) / 2);
+  margin: calc(-1 * (48px * 2) / 4);
 }
 
 .leto-input-xl[type="radio"]:after {
   width: calc(200% - 16px);
   height: calc(200% - 16px);
   border-radius: 100%;
-  margin: calc(8px - (48px * 2) / 2);
+  margin: calc(8px - (48px * 2) / 4);
 }
 
 .leto-input-xl[type="radio"]:checked:after {
@@ -8213,10 +8223,10 @@ p, b {
 
 .leto-input-xxl[type="radio"] {
   position: relative;
-  width: 128px;
-  height: 128px;
+  width: 64px;
+  height: 64px;
   cursor: pointer;
-  margin: calc((64px * 2) / 2 + 8px);
+  margin: calc((64px * 2) / 4 + 8px);
 }
 
 .leto-input-xxl[type="radio"]:before, .leto-input-xxl[type="radio"]:after {
@@ -8230,14 +8240,14 @@ p, b {
   background-color: #303030;
   border: 1px solid #e1e1e1;
   border-radius: 100%;
-  margin: calc(-1 * (64px * 2) / 2);
+  margin: calc(-1 * (64px * 2) / 4);
 }
 
 .leto-input-xxl[type="radio"]:after {
   width: calc(200% - 16px);
   height: calc(200% - 16px);
   border-radius: 100%;
-  margin: calc(8px - (64px * 2) / 2);
+  margin: calc(8px - (64px * 2) / 4);
 }
 
 .leto-input-xxl[type="radio"]:checked:after {
@@ -8246,10 +8256,10 @@ p, b {
 
 .leto-input[type="checkbox"] {
   position: relative;
-  width: 48px;
-  height: 48px;
+  width: 24px;
+  height: 24px;
   cursor: pointer;
-  margin: calc((24px * 2) / 2 + 8px);
+  margin: calc((24px * 2) / 4 + 8px);
 }
 
 .leto-input[type="checkbox"]:before, .leto-input[type="checkbox"]:after {
@@ -8263,14 +8273,14 @@ p, b {
   background-color: #303030;
   border: 1px solid #e1e1e1;
   border-radius: 100%;
-  margin: calc(-1 * (24px * 2) / 2);
+  margin: calc(-1 * (24px * 2) / 4);
 }
 
 .leto-input[type="checkbox"]:after {
   width: calc(200% - 16px);
   height: calc(200% - 16px);
   border-radius: 100%;
-  margin: calc(8px - (24px * 2) / 2);
+  margin: calc(8px - (24px * 2) / 4);
 }
 
 .leto-input[type="checkbox"]:checked:after {
@@ -8279,10 +8289,10 @@ p, b {
 
 .leto-input-xxs[type="checkbox"] {
   position: relative;
-  width: 16px;
-  height: 16px;
+  width: 8px;
+  height: 8px;
   cursor: pointer;
-  margin: calc((8px * 2) / 2 + 8px);
+  margin: calc((8px * 2) / 4 + 8px);
 }
 
 .leto-input-xxs[type="checkbox"]:before, .leto-input-xxs[type="checkbox"]:after {
@@ -8296,14 +8306,14 @@ p, b {
   background-color: #303030;
   border: 1px solid #e1e1e1;
   border-radius: 100%;
-  margin: calc(-1 * (8px * 2) / 2);
+  margin: calc(-1 * (8px * 2) / 4);
 }
 
 .leto-input-xxs[type="checkbox"]:after {
   width: calc(200% - 16px);
   height: calc(200% - 16px);
   border-radius: 100%;
-  margin: calc(8px - (8px * 2) / 2);
+  margin: calc(8px - (8px * 2) / 4);
 }
 
 .leto-input-xxs[type="checkbox"]:checked:after {
@@ -8312,10 +8322,10 @@ p, b {
 
 .leto-input-xs[type="checkbox"] {
   position: relative;
-  width: 24px;
-  height: 24px;
+  width: 12px;
+  height: 12px;
   cursor: pointer;
-  margin: calc((12px * 2) / 2 + 8px);
+  margin: calc((12px * 2) / 4 + 8px);
 }
 
 .leto-input-xs[type="checkbox"]:before, .leto-input-xs[type="checkbox"]:after {
@@ -8329,14 +8339,14 @@ p, b {
   background-color: #303030;
   border: 1px solid #e1e1e1;
   border-radius: 100%;
-  margin: calc(-1 * (12px * 2) / 2);
+  margin: calc(-1 * (12px * 2) / 4);
 }
 
 .leto-input-xs[type="checkbox"]:after {
   width: calc(200% - 16px);
   height: calc(200% - 16px);
   border-radius: 100%;
-  margin: calc(8px - (12px * 2) / 2);
+  margin: calc(8px - (12px * 2) / 4);
 }
 
 .leto-input-xs[type="checkbox"]:checked:after {
@@ -8345,10 +8355,10 @@ p, b {
 
 .leto-input-sm[type="checkbox"] {
   position: relative;
-  width: 32px;
-  height: 32px;
+  width: 16px;
+  height: 16px;
   cursor: pointer;
-  margin: calc((16px * 2) / 2 + 8px);
+  margin: calc((16px * 2) / 4 + 8px);
 }
 
 .leto-input-sm[type="checkbox"]:before, .leto-input-sm[type="checkbox"]:after {
@@ -8362,14 +8372,14 @@ p, b {
   background-color: #303030;
   border: 1px solid #e1e1e1;
   border-radius: 100%;
-  margin: calc(-1 * (16px * 2) / 2);
+  margin: calc(-1 * (16px * 2) / 4);
 }
 
 .leto-input-sm[type="checkbox"]:after {
   width: calc(200% - 16px);
   height: calc(200% - 16px);
   border-radius: 100%;
-  margin: calc(8px - (16px * 2) / 2);
+  margin: calc(8px - (16px * 2) / 4);
 }
 
 .leto-input-sm[type="checkbox"]:checked:after {
@@ -8378,10 +8388,10 @@ p, b {
 
 .leto-input-md[type="checkbox"] {
   position: relative;
-  width: 48px;
-  height: 48px;
+  width: 24px;
+  height: 24px;
   cursor: pointer;
-  margin: calc((24px * 2) / 2 + 8px);
+  margin: calc((24px * 2) / 4 + 8px);
 }
 
 .leto-input-md[type="checkbox"]:before, .leto-input-md[type="checkbox"]:after {
@@ -8395,14 +8405,14 @@ p, b {
   background-color: #303030;
   border: 1px solid #e1e1e1;
   border-radius: 100%;
-  margin: calc(-1 * (24px * 2) / 2);
+  margin: calc(-1 * (24px * 2) / 4);
 }
 
 .leto-input-md[type="checkbox"]:after {
   width: calc(200% - 16px);
   height: calc(200% - 16px);
   border-radius: 100%;
-  margin: calc(8px - (24px * 2) / 2);
+  margin: calc(8px - (24px * 2) / 4);
 }
 
 .leto-input-md[type="checkbox"]:checked:after {
@@ -8411,10 +8421,10 @@ p, b {
 
 .leto-input-lg[type="checkbox"] {
   position: relative;
-  width: 64px;
-  height: 64px;
+  width: 32px;
+  height: 32px;
   cursor: pointer;
-  margin: calc((32px * 2) / 2 + 8px);
+  margin: calc((32px * 2) / 4 + 8px);
 }
 
 .leto-input-lg[type="checkbox"]:before, .leto-input-lg[type="checkbox"]:after {
@@ -8428,14 +8438,14 @@ p, b {
   background-color: #303030;
   border: 1px solid #e1e1e1;
   border-radius: 100%;
-  margin: calc(-1 * (32px * 2) / 2);
+  margin: calc(-1 * (32px * 2) / 4);
 }
 
 .leto-input-lg[type="checkbox"]:after {
   width: calc(200% - 16px);
   height: calc(200% - 16px);
   border-radius: 100%;
-  margin: calc(8px - (32px * 2) / 2);
+  margin: calc(8px - (32px * 2) / 4);
 }
 
 .leto-input-lg[type="checkbox"]:checked:after {
@@ -8444,10 +8454,10 @@ p, b {
 
 .leto-input-xl[type="checkbox"] {
   position: relative;
-  width: 96px;
-  height: 96px;
+  width: 48px;
+  height: 48px;
   cursor: pointer;
-  margin: calc((48px * 2) / 2 + 8px);
+  margin: calc((48px * 2) / 4 + 8px);
 }
 
 .leto-input-xl[type="checkbox"]:before, .leto-input-xl[type="checkbox"]:after {
@@ -8461,14 +8471,14 @@ p, b {
   background-color: #303030;
   border: 1px solid #e1e1e1;
   border-radius: 100%;
-  margin: calc(-1 * (48px * 2) / 2);
+  margin: calc(-1 * (48px * 2) / 4);
 }
 
 .leto-input-xl[type="checkbox"]:after {
   width: calc(200% - 16px);
   height: calc(200% - 16px);
   border-radius: 100%;
-  margin: calc(8px - (48px * 2) / 2);
+  margin: calc(8px - (48px * 2) / 4);
 }
 
 .leto-input-xl[type="checkbox"]:checked:after {
@@ -8477,10 +8487,10 @@ p, b {
 
 .leto-input-xxl[type="checkbox"] {
   position: relative;
-  width: 128px;
-  height: 128px;
+  width: 64px;
+  height: 64px;
   cursor: pointer;
-  margin: calc((64px * 2) / 2 + 8px);
+  margin: calc((64px * 2) / 4 + 8px);
 }
 
 .leto-input-xxl[type="checkbox"]:before, .leto-input-xxl[type="checkbox"]:after {
@@ -8494,14 +8504,14 @@ p, b {
   background-color: #303030;
   border: 1px solid #e1e1e1;
   border-radius: 100%;
-  margin: calc(-1 * (64px * 2) / 2);
+  margin: calc(-1 * (64px * 2) / 4);
 }
 
 .leto-input-xxl[type="checkbox"]:after {
   width: calc(200% - 16px);
   height: calc(200% - 16px);
   border-radius: 100%;
-  margin: calc(8px - (64px * 2) / 2);
+  margin: calc(8px - (64px * 2) / 4);
 }
 
 .leto-input-xxl[type="checkbox"]:checked:after {
@@ -8509,6 +8519,7 @@ p, b {
 }
 
 .leto-input[type="color"] {
+  width: 48px;
   height: 48px;
   margin: 8px;
   padding: 4px;
@@ -8519,6 +8530,7 @@ p, b {
 }
 
 .leto-input-xxs[type="color"] {
+  width: 16px;
   height: 16px;
   margin: 8px;
   padding: 4px;
@@ -8529,6 +8541,7 @@ p, b {
 }
 
 .leto-input-xs[type="color"] {
+  width: 24px;
   height: 24px;
   margin: 8px;
   padding: 4px;
@@ -8539,6 +8552,7 @@ p, b {
 }
 
 .leto-input-sm[type="color"] {
+  width: 32px;
   height: 32px;
   margin: 8px;
   padding: 4px;
@@ -8549,6 +8563,7 @@ p, b {
 }
 
 .leto-input-md[type="color"] {
+  width: 48px;
   height: 48px;
   margin: 8px;
   padding: 4px;
@@ -8559,6 +8574,7 @@ p, b {
 }
 
 .leto-input-lg[type="color"] {
+  width: 64px;
   height: 64px;
   margin: 8px;
   padding: 4px;
@@ -8569,6 +8585,7 @@ p, b {
 }
 
 .leto-input-xl[type="color"] {
+  width: 96px;
   height: 96px;
   margin: 8px;
   padding: 4px;
@@ -8579,6 +8596,7 @@ p, b {
 }
 
 .leto-input-xxl[type="color"] {
+  width: 128px;
   height: 128px;
   margin: 8px;
   padding: 4px;
@@ -8763,6 +8781,7 @@ p, b {
 }
 
 .leto-input[type="search"] {
+  min-width: 250px;
   height: 48px;
   font-size: 16px;
   margin: 8px;
@@ -8780,6 +8799,7 @@ p, b {
 }
 
 .leto-input-xxs[type="search"] {
+  min-width: 250px;
   height: 16px;
   font-size: 16px;
   margin: 8px;
@@ -8797,6 +8817,7 @@ p, b {
 }
 
 .leto-input-xs[type="search"] {
+  min-width: 250px;
   height: 24px;
   font-size: 16px;
   margin: 8px;
@@ -8814,6 +8835,7 @@ p, b {
 }
 
 .leto-input-sm[type="search"] {
+  min-width: 250px;
   height: 32px;
   font-size: 16px;
   margin: 8px;
@@ -8831,6 +8853,7 @@ p, b {
 }
 
 .leto-input-md[type="search"] {
+  min-width: 250px;
   height: 48px;
   font-size: 16px;
   margin: 8px;
@@ -8848,6 +8871,7 @@ p, b {
 }
 
 .leto-input-lg[type="search"] {
+  min-width: 250px;
   height: 64px;
   font-size: 16px;
   margin: 8px;
@@ -8865,6 +8889,7 @@ p, b {
 }
 
 .leto-input-xl[type="search"] {
+  min-width: 250px;
   height: 96px;
   font-size: 16px;
   margin: 8px;
@@ -8882,6 +8907,7 @@ p, b {
 }
 
 .leto-input-xxl[type="search"] {
+  min-width: 250px;
   height: 128px;
   font-size: 16px;
   margin: 8px;
@@ -8907,6 +8933,7 @@ p, b {
 }
 
 textarea[class*="leto-input"], .leto-textarea {
+  min-width: 250px;
   height: auto;
   font-size: 16px;
   margin: 8px;
@@ -8939,6 +8966,7 @@ textarea[class*="leto-input"]:focus, .leto-textarea:focus {
 }
 
 select.leto-input {
+  min-width: 250px;
   height: 48px;
   font-size: 16px;
   margin: 8px;
@@ -8966,6 +8994,7 @@ select.leto-input:focus::-ms-value {
 }
 
 select.leto-input-xxs {
+  min-width: 250px;
   height: 16px;
   font-size: 16px;
   margin: 8px;
@@ -8993,6 +9022,7 @@ select.leto-input-xxs:focus::-ms-value {
 }
 
 select.leto-input-xs {
+  min-width: 250px;
   height: 24px;
   font-size: 16px;
   margin: 8px;
@@ -9020,6 +9050,7 @@ select.leto-input-xs:focus::-ms-value {
 }
 
 select.leto-input-sm {
+  min-width: 250px;
   height: 32px;
   font-size: 16px;
   margin: 8px;
@@ -9047,6 +9078,7 @@ select.leto-input-sm:focus::-ms-value {
 }
 
 select.leto-input-md {
+  min-width: 250px;
   height: 48px;
   font-size: 16px;
   margin: 8px;
@@ -9074,6 +9106,7 @@ select.leto-input-md:focus::-ms-value {
 }
 
 select.leto-input-lg {
+  min-width: 250px;
   height: 64px;
   font-size: 16px;
   margin: 8px;
@@ -9101,6 +9134,7 @@ select.leto-input-lg:focus::-ms-value {
 }
 
 select.leto-input-xl {
+  min-width: 250px;
   height: 96px;
   font-size: 16px;
   margin: 8px;
@@ -9128,6 +9162,7 @@ select.leto-input-xl:focus::-ms-value {
 }
 
 select.leto-input-xxl {
+  min-width: 250px;
   height: 128px;
   font-size: 16px;
   margin: 8px;
@@ -13930,281 +13965,281 @@ select.leto-input-xxl:focus::-ms-value {
   max-height: calc(12.5% - (8px*2));
 }
 
-.leto-bg-white {
+.leto-bg-white, [class*="leto-frame"] .leto-bg-white {
   background-color: #fdfdfd;
 }
 
-.leto-bg-dark-white {
+.leto-bg-dark-white, [class*="leto-frame"] .leto-bg-dark-white {
   background-color: #f0f0f0;
 }
 
-.leto-bg-lighter-grey {
+.leto-bg-lighter-grey, [class*="leto-frame"] .leto-bg-lighter-grey {
   background-color: #fbfbfb;
 }
 
-.leto-bg-light-grey {
+.leto-bg-light-grey, [class*="leto-frame"] .leto-bg-light-grey {
   background-color: #eeeeee;
 }
 
-.leto-bg-grey {
+.leto-bg-grey, [class*="leto-frame"] .leto-bg-grey {
   background-color: #e1e1e1;
 }
 
-.leto-bg-dark-grey {
+.leto-bg-dark-grey, [class*="leto-frame"] .leto-bg-dark-grey {
   background-color: #c8c8c8;
 }
 
-.leto-bg-darker-grey {
+.leto-bg-darker-grey, [class*="leto-frame"] .leto-bg-darker-grey {
   background-color: #aeaeae;
 }
 
-.leto-bg-light-black {
+.leto-bg-light-black, [class*="leto-frame"] .leto-bg-light-black {
   background-color: #4a4a4a;
 }
 
-.leto-bg-black {
+.leto-bg-black, [class*="leto-frame"] .leto-bg-black {
   background-color: #303030;
 }
 
-.leto-bg-light-yellow {
+.leto-bg-light-yellow, [class*="leto-frame"] .leto-bg-light-yellow {
   background-color: #ffffc0;
 }
 
-.leto-bg-yellow {
+.leto-bg-yellow, [class*="leto-frame"] .leto-bg-yellow {
   background-color: #ffff73;
 }
 
-.leto-bg-dark-yellow {
+.leto-bg-dark-yellow, [class*="leto-frame"] .leto-bg-dark-yellow {
   background-color: #ffff27;
 }
 
-.leto-bg-light-orange {
+.leto-bg-light-orange, [class*="leto-frame"] .leto-bg-light-orange {
   background-color: #ffd2a7;
 }
 
-.leto-bg-orange {
+.leto-bg-orange, [class*="leto-frame"] .leto-bg-orange {
   background-color: #ffac5a;
 }
 
-.leto-bg-dark-orange {
+.leto-bg-dark-orange, [class*="leto-frame"] .leto-bg-dark-orange {
   background-color: #ff860e;
 }
 
-.leto-bg-light-red {
+.leto-bg-light-red, [class*="leto-frame"] .leto-bg-light-red {
   background-color: #ffb3b3;
 }
 
-.leto-bg-red {
+.leto-bg-red, [class*="leto-frame"] .leto-bg-red {
   background-color: #ff6666;
 }
 
-.leto-bg-dark-red {
+.leto-bg-dark-red, [class*="leto-frame"] .leto-bg-dark-red {
   background-color: #ff1a1a;
 }
 
-.leto-bg-light-purple {
+.leto-bg-light-purple, [class*="leto-frame"] .leto-bg-light-purple {
   background-color: #eaccff;
 }
 
-.leto-bg-purple {
+.leto-bg-purple, [class*="leto-frame"] .leto-bg-purple {
   background-color: #ca7fff;
 }
 
-.leto-bg-dark-purple {
+.leto-bg-dark-purple, [class*="leto-frame"] .leto-bg-dark-purple {
   background-color: #aa33ff;
 }
 
-.leto-bg-light-blue {
+.leto-bg-light-blue, [class*="leto-frame"] .leto-bg-light-blue {
   background-color: #c0caff;
 }
 
-.leto-bg-blue {
+.leto-bg-blue, [class*="leto-frame"] .leto-bg-blue {
   background-color: #738aff;
 }
 
-.leto-bg-dark-blue {
+.leto-bg-dark-blue, [class*="leto-frame"] .leto-bg-dark-blue {
   background-color: #274aff;
 }
 
-.leto-bg-light-mint {
+.leto-bg-light-mint, [class*="leto-frame"] .leto-bg-light-mint {
   background-color: #a6ffe1;
 }
 
-.leto-bg-mint {
+.leto-bg-mint, [class*="leto-frame"] .leto-bg-mint {
   background-color: #59ffc8;
 }
 
-.leto-bg-dark-mint {
+.leto-bg-dark-mint, [class*="leto-frame"] .leto-bg-dark-mint {
   background-color: #0dffaf;
 }
 
-.leto-bg-light-green {
+.leto-bg-light-green, [class*="leto-frame"] .leto-bg-light-green {
   background-color: #d0ffcd;
 }
 
-.leto-bg-green {
+.leto-bg-green, [class*="leto-frame"] .leto-bg-green {
   background-color: #8aff80;
 }
 
-.leto-bg-dark-green {
+.leto-bg-dark-green, [class*="leto-frame"] .leto-bg-dark-green {
   background-color: #44ff34;
 }
 
-.leto-bg-none {
+.leto-bg-none, [class*="leto-frame"] .leto-bg-none {
   background-color: transparent;
 }
 
-.leto-border {
+.leto-border, [class*="leto-frame"] .leto-border {
   border: 1px solid #e1e1e1;
 }
 
-.leto-border-horizontal {
+.leto-border-horizontal, [class*="leto-frame"] .leto-border-horizontal {
   border-top: 1px solid #e1e1e1;
   border-bottom: 1px solid #e1e1e1;
 }
 
-.leto-border-vertical {
+.leto-border-vertical, [class*="leto-frame"] .leto-border-vertical {
   border-left: 1px solid #e1e1e1;
   border-right: 1px solid #e1e1e1;
 }
 
-.leto-border-top {
+.leto-border-top, [class*="leto-frame"] .leto-border-top {
   border-top: 1px solid #e1e1e1;
 }
 
-.leto-border-left {
+.leto-border-left, [class*="leto-frame"] .leto-border-left {
   border-left: 1px solid #e1e1e1;
 }
 
-.leto-border-right {
+.leto-border-right, [class*="leto-frame"] .leto-border-right {
   border-right: 1px solid #e1e1e1;
 }
 
-.leto-border-bottom {
+.leto-border-bottom, [class*="leto-frame"] .leto-border-bottom {
   border-bottom: 1px solid #e1e1e1;
 }
 
-.leto-border-white {
+.leto-border-white, [class*="leto-frame"] .leto-border-white {
   border-color: #fdfdfd;
 }
 
-.leto-border-dark-white {
+.leto-border-dark-white, [class*="leto-frame"] .leto-border-dark-white {
   border-color: #f0f0f0;
 }
 
-.leto-border-lighter-grey {
+.leto-border-lighter-grey, [class*="leto-frame"] .leto-border-lighter-grey {
   border-color: #fbfbfb;
 }
 
-.leto-border-light-grey {
+.leto-border-light-grey, [class*="leto-frame"] .leto-border-light-grey {
   border-color: #eeeeee;
 }
 
-.leto-border-grey {
+.leto-border-grey, [class*="leto-frame"] .leto-border-grey {
   border-color: #e1e1e1;
 }
 
-.leto-border-dark-grey {
+.leto-border-dark-grey, [class*="leto-frame"] .leto-border-dark-grey {
   border-color: #c8c8c8;
 }
 
-.leto-border-darker-grey {
+.leto-border-darker-grey, [class*="leto-frame"] .leto-border-darker-grey {
   border-color: #aeaeae;
 }
 
-.leto-border-light-black {
+.leto-border-light-black, [class*="leto-frame"] .leto-border-light-black {
   border-color: #4a4a4a;
 }
 
-.leto-border-black {
+.leto-border-black, [class*="leto-frame"] .leto-border-black {
   border-color: #303030;
 }
 
-.leto-border-light-yellow {
+.leto-border-light-yellow, [class*="leto-frame"] .leto-border-light-yellow {
   border-color: #ffffc0;
 }
 
-.leto-border-yellow {
+.leto-border-yellow, [class*="leto-frame"] .leto-border-yellow {
   border-color: #ffff73;
 }
 
-.leto-border-dark-yellow {
+.leto-border-dark-yellow, [class*="leto-frame"] .leto-border-dark-yellow {
   border-color: #ffff27;
 }
 
-.leto-border-light-orange {
+.leto-border-light-orange, [class*="leto-frame"] .leto-border-light-orange {
   border-color: #ffd2a7;
 }
 
-.leto-border-orange {
+.leto-border-orange, [class*="leto-frame"] .leto-border-orange {
   border-color: #ffac5a;
 }
 
-.leto-border-dark-orange {
+.leto-border-dark-orange, [class*="leto-frame"] .leto-border-dark-orange {
   border-color: #ff860e;
 }
 
-.leto-border-light-red {
+.leto-border-light-red, [class*="leto-frame"] .leto-border-light-red {
   border-color: #ffb3b3;
 }
 
-.leto-border-red {
+.leto-border-red, [class*="leto-frame"] .leto-border-red {
   border-color: #ff6666;
 }
 
-.leto-border-dark-red {
+.leto-border-dark-red, [class*="leto-frame"] .leto-border-dark-red {
   border-color: #ff1a1a;
 }
 
-.leto-border-light-purple {
+.leto-border-light-purple, [class*="leto-frame"] .leto-border-light-purple {
   border-color: #eaccff;
 }
 
-.leto-border-purple {
+.leto-border-purple, [class*="leto-frame"] .leto-border-purple {
   border-color: #ca7fff;
 }
 
-.leto-border-dark-purple {
+.leto-border-dark-purple, [class*="leto-frame"] .leto-border-dark-purple {
   border-color: #aa33ff;
 }
 
-.leto-border-light-blue {
+.leto-border-light-blue, [class*="leto-frame"] .leto-border-light-blue {
   border-color: #c0caff;
 }
 
-.leto-border-blue {
+.leto-border-blue, [class*="leto-frame"] .leto-border-blue {
   border-color: #738aff;
 }
 
-.leto-border-dark-blue {
+.leto-border-dark-blue, [class*="leto-frame"] .leto-border-dark-blue {
   border-color: #274aff;
 }
 
-.leto-border-light-mint {
+.leto-border-light-mint, [class*="leto-frame"] .leto-border-light-mint {
   border-color: #a6ffe1;
 }
 
-.leto-border-mint {
+.leto-border-mint, [class*="leto-frame"] .leto-border-mint {
   border-color: #59ffc8;
 }
 
-.leto-border-dark-mint {
+.leto-border-dark-mint, [class*="leto-frame"] .leto-border-dark-mint {
   border-color: #0dffaf;
 }
 
-.leto-border-light-green {
+.leto-border-light-green, [class*="leto-frame"] .leto-border-light-green {
   border-color: #d0ffcd;
 }
 
-.leto-border-green {
+.leto-border-green, [class*="leto-frame"] .leto-border-green {
   border-color: #8aff80;
 }
 
-.leto-border-dark-green {
+.leto-border-dark-green, [class*="leto-frame"] .leto-border-dark-green {
   border-color: #44ff34;
 }
 
-.leto-border-none {
+.leto-border-none, [class*="leto-frame"] .leto-border-none {
   border: none;
 }
 
@@ -14388,214 +14423,214 @@ select.leto-input-xxl:focus::-ms-value {
   border-radius: 0 0 1000px 1000px;
 }
 
-.leto-text {
+.leto-text, [class*="leto-frame"] .leto-text {
   font-size: 16px;
 }
 
-.leto-text-xxs {
+.leto-text-xxs, [class*="leto-frame"] .leto-text-xxs {
   font-size: 10px;
 }
 
-.leto-text-xs {
+.leto-text-xs, [class*="leto-frame"] .leto-text-xs {
   font-size: 12px;
 }
 
-.leto-text-sm {
+.leto-text-sm, [class*="leto-frame"] .leto-text-sm {
   font-size: 14px;
 }
 
-.leto-text-md {
+.leto-text-md, [class*="leto-frame"] .leto-text-md {
   font-size: 16px;
 }
 
-.leto-text-lg {
+.leto-text-lg, [class*="leto-frame"] .leto-text-lg {
   font-size: 20px;
 }
 
-.leto-text-xl {
+.leto-text-xl, [class*="leto-frame"] .leto-text-xl {
   font-size: 24px;
 }
 
-.leto-text-xxl {
+.leto-text-xxl, [class*="leto-frame"] .leto-text-xxl {
   font-size: 32px;
 }
 
-.leto-text-light {
+.leto-text-light, [class*="leto-frame"] .leto-text-light {
   font-weight: 300;
 }
 
-.leto-text-regular {
+.leto-text-regular, [class*="leto-frame"] .leto-text-regular {
   font-weight: 400;
 }
 
-.leto-text-medium {
+.leto-text-medium, [class*="leto-frame"] .leto-text-medium {
   font-weight: 600;
 }
 
-.leto-text-bold {
+.leto-text-bold, [class*="leto-frame"] .leto-text-bold {
   font-weight: 700;
 }
 
-.leto-text-bolder {
+.leto-text-bolder, [class*="leto-frame"] .leto-text-bolder {
   font-weight: 800;
 }
 
-.leto-text-italic {
+.leto-text-italic, [class*="leto-frame"] .leto-text-italic {
   font-style: italic;
 }
 
-.leto-text-uppercase {
+.leto-text-uppercase, [class*="leto-frame"] .leto-text-uppercase {
   text-transform: uppercase;
 }
 
-.leto-text-ellipsis {
+.leto-text-ellipsis, [class*="leto-frame"] .leto-text-ellipsis {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
 
-.leto-text-link {
+.leto-text-link, [class*="leto-frame"] .leto-text-link {
   color: #738aff;
   cursor: pointer;
 }
 
-.leto-text-link:hover {
+.leto-text-link:hover, [class*="leto-frame"] .leto-text-link:hover {
   color: #274aff;
 }
 
-.leto-text-left {
+.leto-text-left, [class*="leto-frame"] .leto-text-left {
   text-align: left;
 }
 
-.leto-text-center {
+.leto-text-center, [class*="leto-frame"] .leto-text-center {
   text-align: center;
 }
 
-.leto-text-right {
+.leto-text-right, [class*="leto-frame"] .leto-text-right {
   text-align: right;
 }
 
-.leto-text-white {
+.leto-text-white, [class*="leto-frame"] .leto-text-white {
   color: #fdfdfd;
 }
 
-.leto-text-dark-white {
+.leto-text-dark-white, [class*="leto-frame"] .leto-text-dark-white {
   color: #f0f0f0;
 }
 
-.leto-text-lighter-grey {
+.leto-text-lighter-grey, [class*="leto-frame"] .leto-text-lighter-grey {
   color: #fbfbfb;
 }
 
-.leto-text-light-grey {
+.leto-text-light-grey, [class*="leto-frame"] .leto-text-light-grey {
   color: #eeeeee;
 }
 
-.leto-text-grey {
+.leto-text-grey, [class*="leto-frame"] .leto-text-grey {
   color: #e1e1e1;
 }
 
-.leto-text-dark-grey {
+.leto-text-dark-grey, [class*="leto-frame"] .leto-text-dark-grey {
   color: #c8c8c8;
 }
 
-.leto-text-darker-grey {
+.leto-text-darker-grey, [class*="leto-frame"] .leto-text-darker-grey {
   color: #aeaeae;
 }
 
-.leto-text-light-black {
+.leto-text-light-black, [class*="leto-frame"] .leto-text-light-black {
   color: #4a4a4a;
 }
 
-.leto-text-black {
+.leto-text-black, [class*="leto-frame"] .leto-text-black {
   color: #303030;
 }
 
-.leto-text-light-yellow {
+.leto-text-light-yellow, [class*="leto-frame"] .leto-text-light-yellow {
   color: #ffffc0;
 }
 
-.leto-text-yellow {
+.leto-text-yellow, [class*="leto-frame"] .leto-text-yellow {
   color: #ffff73;
 }
 
-.leto-text-dark-yellow {
+.leto-text-dark-yellow, [class*="leto-frame"] .leto-text-dark-yellow {
   color: #ffff27;
 }
 
-.leto-text-light-orange {
+.leto-text-light-orange, [class*="leto-frame"] .leto-text-light-orange {
   color: #ffd2a7;
 }
 
-.leto-text-orange {
+.leto-text-orange, [class*="leto-frame"] .leto-text-orange {
   color: #ffac5a;
 }
 
-.leto-text-dark-orange {
+.leto-text-dark-orange, [class*="leto-frame"] .leto-text-dark-orange {
   color: #ff860e;
 }
 
-.leto-text-light-red {
+.leto-text-light-red, [class*="leto-frame"] .leto-text-light-red {
   color: #ffb3b3;
 }
 
-.leto-text-red {
+.leto-text-red, [class*="leto-frame"] .leto-text-red {
   color: #ff6666;
 }
 
-.leto-text-dark-red {
+.leto-text-dark-red, [class*="leto-frame"] .leto-text-dark-red {
   color: #ff1a1a;
 }
 
-.leto-text-light-purple {
+.leto-text-light-purple, [class*="leto-frame"] .leto-text-light-purple {
   color: #eaccff;
 }
 
-.leto-text-purple {
+.leto-text-purple, [class*="leto-frame"] .leto-text-purple {
   color: #ca7fff;
 }
 
-.leto-text-dark-purple {
+.leto-text-dark-purple, [class*="leto-frame"] .leto-text-dark-purple {
   color: #aa33ff;
 }
 
-.leto-text-light-blue {
+.leto-text-light-blue, [class*="leto-frame"] .leto-text-light-blue {
   color: #c0caff;
 }
 
-.leto-text-blue {
+.leto-text-blue, [class*="leto-frame"] .leto-text-blue {
   color: #738aff;
 }
 
-.leto-text-dark-blue {
+.leto-text-dark-blue, [class*="leto-frame"] .leto-text-dark-blue {
   color: #274aff;
 }
 
-.leto-text-light-mint {
+.leto-text-light-mint, [class*="leto-frame"] .leto-text-light-mint {
   color: #a6ffe1;
 }
 
-.leto-text-mint {
+.leto-text-mint, [class*="leto-frame"] .leto-text-mint {
   color: #59ffc8;
 }
 
-.leto-text-dark-mint {
+.leto-text-dark-mint, [class*="leto-frame"] .leto-text-dark-mint {
   color: #0dffaf;
 }
 
-.leto-text-light-green {
+.leto-text-light-green, [class*="leto-frame"] .leto-text-light-green {
   color: #d0ffcd;
 }
 
-.leto-text-green {
+.leto-text-green, [class*="leto-frame"] .leto-text-green {
   color: #8aff80;
 }
 
-.leto-text-dark-green {
+.leto-text-dark-green, [class*="leto-frame"] .leto-text-dark-green {
   color: #44ff34;
 }
 
-.leto-text-none {
+.leto-text-none, [class*="leto-frame"] .leto-text-none {
   color: transparent;
 }
 
@@ -23897,4 +23932,3 @@ select.leto-input-xxl:focus::-ms-value {
 .leto-hover-dark-green[class*=leto-text]:hover {
   color: #44ff34;
 }
-/*# sourceMappingURL=leto.css.map */

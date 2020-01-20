@@ -36,10 +36,11 @@
         +elementConstructor('bubble')
             +bubble($xxl)
 
-    +presetConstructor('bubble')
-
 [class*="leto-bubble"]
     +elementThemeColors('bubble')
+
+[class*="leto-frame"] .leto-bubble
+    +presetConstructor('bubble')
 
     
 // Bubble wrapper
@@ -135,10 +136,11 @@
             +elementConstructor('card')  
                 +cardSquare($xxl) 
 
-    +presetConstructor('card')
-
 [class*="leto-card"]
     +elementThemeColors('card')
+
+[class*="leto-frame"] .leto-card
+    +presetConstructor('card')
 
 
 // Card wrapper
@@ -213,10 +215,11 @@
             +elementConstructor('button')
                 +buttonFull($xxl)
 
-    +presetConstructor('button')
-
 [class*="leto-button"]
     +elementThemeColors('button')
+
+[class*="leto-frame"] .leto-button
+    +presetConstructor('button')
 
 
 // Badge
@@ -253,10 +256,11 @@
         +elementConstructor('badge')
             +badge($xxl)
 
-    +presetConstructor('badge')
-
 [class*="leto-badge"]
     +elementThemeColors('badge')
+
+[class*="leto-frame"] .leto-badge
+    +presetConstructor('badge')
 
 
 // Input
@@ -295,13 +299,15 @@
         +elementConstructor('input')
             +input($xxl)
 
-    &[type="text"], &[type="date"], &[type="datetime-local"], &[type="email"], &[type="month"], &[type="number"], &[type="password"], &[type="tel"], &[type="time"], &[type="url"], &[type="week"]
-        +presetConstructor('input')
-
 [class*="leto-input"]
 
     &[type="text"], &[type="date"], &[type="datetime-local"], &[type="email"], &[type="month"], &[type="number"], &[type="password"], &[type="tel"], &[type="time"], &[type="url"], &[type="week"]
         +elementThemeColors('input')
+
+[class*="leto-frame"] .leto-input
+
+    &[type="text"], &[type="date"], &[type="datetime-local"], &[type="email"], &[type="month"], &[type="number"], &[type="password"], &[type="tel"], &[type="time"], &[type="url"], &[type="week"]
+        +presetConstructor('input')
 
 
 // Input Wrapper
@@ -338,6 +344,11 @@
     &-xxl[type="radio"]
         +inputRadio($xxl)
 
+[class*="leto-frame"] .leto-input
+    
+    &[type="radio"]
+        +presetConstructor('radio')
+
 
 // Input Checkbox
 
@@ -366,6 +377,11 @@
 
     &-xxl[type="checkbox"]
         +inputCheckbox($xxl)
+
+[class*="leto-frame"] .leto-input
+    
+    &[type="checkbox"]
+        +presetConstructor('checkbox')
 
 
 // Input Color
@@ -403,13 +419,16 @@
     &-xxl[type="color"]
         +elementConstructor('input')
             +inputColor($xxl)
-
-    +presetConstructor('input')
     
 [class*="leto-input"]
 
     &[type="color"]
         +elementThemeColors('input')
+
+[class*="leto-frame"] .leto-input
+    
+    &[type="color"]
+        +presetConstructor('color')
 
 
 // Input Image
@@ -469,12 +488,15 @@
         +elementConstructor('search')
             +search($xxl)
 
-    +presetConstructor('search')
-
 [class*="leto-input"]
 
     &[type="search"]
         +elementThemeColors('search')
+
+[class*="leto-frame"] .leto-input
+    
+    &[type="search"]
+        +presetConstructor('search')
 
 
 // Textarea
@@ -483,10 +505,11 @@ textarea[class*="leto-input"], .leto-textarea
     +elementConstructor('textarea')
         +textarea()
 
-    +presetConstructor('textarea')
-
 textarea[class*="leto-input"]
     +elementThemeColors('textarea')
+
+[class*="leto-frame"] textarea[class*="leto-input"]
+    +presetConstructor('textarea')
 
 
 // Select
@@ -523,10 +546,11 @@ select.leto-input
         +elementConstructor('select')
             +select($xxl)
 
-    +presetConstructor('select')
-
 select[class*="leto-input"]
     +elementThemeColors('select')
+
+[class*="leto-frame"] select[class*="leto-input"]
+    +presetConstructor('select')
 
 
 // Table
@@ -578,10 +602,11 @@ select[class*="leto-input"]
             padding: $basicPadding
             display: block
 
-    +presetConstructor('pile')
-
 [class*="leto-pile"]
     +elementThemeColors('pile')
+
+[class*="leto-frame"] .leto-pile
+    +presetConstructor('pile')
 
 
 // Form
@@ -625,8 +650,6 @@ select[class*="leto-input"]
             overflow-y: scroll
             z-index: 2
 
-    +presetConstructor('form')
-
     @media (min-width: $pc)
         width: 50vw
         left: 50%
@@ -637,6 +660,9 @@ select[class*="leto-input"]
 
 [class*="leto-form"]
     +elementThemeColors('form')
+
+[class*="leto-frame"] .leto-form
+    +presetConstructor('form')
 
 
 // Backdrop

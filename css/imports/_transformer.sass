@@ -630,7 +630,7 @@
 
 // Background
 
-.leto-bg
+.leto-bg, [class*="leto-frame"] .leto-bg
 
     &-white
         +transformerConstructor('background')
@@ -759,7 +759,7 @@
 
 // Border
 
-.leto-border
+.leto-border, [class*="leto-frame"] .leto-border
     +transformerConstructor('border')
         border: 1px solid $colorGrey
 
@@ -1098,7 +1098,7 @@
 
 // Text        
 
-.leto-text
+.leto-text, [class*="leto-frame"] .leto-text
     +transformerConstructor('text')
         font-size: $fontSizeMD
 
