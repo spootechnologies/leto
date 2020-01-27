@@ -225,8 +225,9 @@
 // Bubble
 
 =bubble($value)
-    height: $value * 2.5
-    width: $value * 2.5
+    $multiplier: getElementAttrVal('bubble', 'multiplier')
+    height: $value * $multiplier
+    width: $value * $multiplier
     font-size: $value * 0.75
     text-align: center
     margin: $basicMargin
@@ -243,17 +244,18 @@
 // Bubble wrapper
 
 =bubbleWrapper($value)
-    width: $value * 2.5
+    $multiplier: getElementAttrVal('bubble', 'multiplier')
+    width: $value * $multiplier
     margin: $basicMargin
     justify-content: center
     flex-direction: column
     display: inline-flex
 
     > .leto-bubble
-        height: $value * 2.5
-        width: $value * 2.5
+        height: $value * $multiplier
+        width: $value * $multiplier
         font-size: $value * .75
-        border-radius: $value * 2.5
+        border-radius: $value * $multiplier
 
         img
             max-width: $value * .75 
@@ -277,8 +279,9 @@
 // Card
 
 =card($value)
+    $multiplier: getElementAttrVal('card', 'multiplier')
     position: relative
-    width: $value*10
+    width: $value * $multiplier
     min-height: 50px
     border: 1px solid $colorGrey
     border-radius: 12px
@@ -310,9 +313,10 @@
         width: calc(100% + 16px)
 
 =cardSquare($value)
+    $multiplier: getElementAttrVal('card', 'multiplier')
     position: relative
-    width: $value*10
-    height: $value*10
+    width: $value * $multiplier
+    height: $value * $multiplier
     margin: $basicMargin
     flex-direction: column
     display: inline-flex
@@ -352,7 +356,8 @@
 // Button
 
 =button($value)
-    height: $value * 2
+    $multiplier: getElementAttrVal('button', 'multiplier')
+    height: $value * $multiplier
     text-decoration: none
     margin: $basicMargin
     padding: $basicPadding $basicPadding * 2
@@ -370,8 +375,9 @@
 
 
 =buttonFull($value)
+    $multiplier: getElementAttrVal('button', 'multiplier')
     width: 100%
-    height: $value * 2
+    height: $value * $multiplier
     text-decoration: none
     margin: $basicMargin
     padding: $basicPadding $basicPadding * 2
@@ -410,8 +416,9 @@
 // Input
 
 =input($height)
+    $multiplier: getElementAttrVal('input', 'multiplier')
     min-width: 250px
-    height: $height * 2
+    height: $height * $multiplier
     font-size: $fontSizeMD
     margin: $basicMargin
     padding: $basicPadding $basicPadding * 2
@@ -696,8 +703,9 @@
 // Search
 
 =search($height)
+    $multiplier: getElementAttrVal('search', 'multiplier')
     min-width: 250px
-    height: $height * 2
+    height: $height * $multiplier
     font-size: $fontSizeMD
     margin: $basicMargin
     padding: $basicPadding $basicPadding * 2
@@ -723,8 +731,9 @@
 // Select
 
 =select($height)
+    $multiplier: getElementAttrVal('select', 'multiplier')
     min-width: 250px
-    height: $height * 2
+    height: $height * $multiplier
     font-size: $fontSizeMD
     margin: $basicMargin
     padding: $basicPadding $basicPadding * 3 $basicPadding $basicPadding * 2
@@ -746,12 +755,10 @@
 
 // Table
 
-=table()
+=table($size)
     border-collapse: separate
-    border-spacing: 0 15px
+    border-spacing: 0 $size / 1.5
     width: 100%
-    +themed() 
-        color: t('text')
 
     th
         font-weight: $fontWeightBold
@@ -760,12 +767,13 @@
     .leto-table-header
 
     td, th
-        padding-left: $sm
+        padding-left: $size / 1.5
+
 
     tr:not(.leto-table-header)
 
         td
-            padding: $sm
+            padding: $size / 1.5
 
     tr:not(.leto-table-header)
 
@@ -777,13 +785,14 @@
 
         td:first-child
             border-left: 1px solid $colorGrey
-            border-top-left-radius: $xs
-            border-bottom-left-radius: $xs
+            border-top-left-radius: $size / 1.5
+            border-bottom-left-radius: $size / 1.5
 
         td:last-child
             border-right: 1px solid $colorGrey
-            border-top-right-radius: $xs
-            border-bottom-right-radius: $xs
+            border-top-right-radius: $size / 1.5
+            border-bottom-right-radius: $size / 1.5
+
 
 // Toast
 

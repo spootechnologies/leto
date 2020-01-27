@@ -556,7 +556,28 @@ select[class*="leto-input"]
 // Table
 
 .leto-table
-    +table()
+    +table($md)
+
+    &-xxs
+        +table($xxs)
+
+    &-xs
+        +table($xs)
+
+    &-sm
+        +table($sm)
+
+    &-md
+        +table($md)
+
+    &-lg
+        +table($lg)
+
+    &-xl
+        +table($xl)
+
+    &-xxl
+        +table($xxl)
 
 
 // Wrapper
@@ -592,9 +613,6 @@ select[class*="leto-input"]
         padding: $basicPadding
         flex-direction: column
         display: flex
-
-        > *
-            display: block
 
         &-empty // NOT USED
             min-width: 300px
