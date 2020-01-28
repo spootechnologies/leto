@@ -98,7 +98,7 @@ p, b {
   border-style: solid;
   border-radius: 100%;
   background: transparent;
-  border-color: #e1e1e1;
+  border-color: #d4d4d4;
 }
 
 .leto-bubble img {
@@ -130,7 +130,7 @@ p, b {
   border-style: solid;
   border-radius: 100%;
   background: transparent;
-  border-color: #e1e1e1;
+  border-color: #d4d4d4;
 }
 
 .leto-bubble-xxs img {
@@ -162,7 +162,7 @@ p, b {
   border-style: solid;
   border-radius: 100%;
   background: transparent;
-  border-color: #e1e1e1;
+  border-color: #d4d4d4;
 }
 
 .leto-bubble-xs img {
@@ -194,7 +194,7 @@ p, b {
   border-style: solid;
   border-radius: 100%;
   background: transparent;
-  border-color: #e1e1e1;
+  border-color: #d4d4d4;
 }
 
 .leto-bubble-sm img {
@@ -226,7 +226,7 @@ p, b {
   border-style: solid;
   border-radius: 100%;
   background: transparent;
-  border-color: #e1e1e1;
+  border-color: #d4d4d4;
 }
 
 .leto-bubble-md img {
@@ -258,7 +258,7 @@ p, b {
   border-style: solid;
   border-radius: 100%;
   background: transparent;
-  border-color: #e1e1e1;
+  border-color: #d4d4d4;
 }
 
 .leto-bubble-lg img {
@@ -290,7 +290,7 @@ p, b {
   border-style: solid;
   border-radius: 100%;
   background: transparent;
-  border-color: #e1e1e1;
+  border-color: #d4d4d4;
 }
 
 .leto-bubble-xl img {
@@ -322,7 +322,7 @@ p, b {
   border-style: solid;
   border-radius: 100%;
   background: transparent;
-  border-color: #e1e1e1;
+  border-color: #d4d4d4;
 }
 
 .leto-bubble-xxl img {
@@ -447,271 +447,271 @@ p, b {
 
 [class*="leto-frame"] .leto-bubble-grey {
   background: transparent;
-  color: #e1e1e1;
-  border-color: #e1e1e1;
+  color: #d4d4d4;
+  border-color: #d4d4d4;
 }
 
 @media (min-width: 600px) {
   [class*="leto-frame"] .leto-bubble-grey-tablet {
     background: transparent;
-    color: #e1e1e1;
-    border-color: #e1e1e1;
+    color: #d4d4d4;
+    border-color: #d4d4d4;
   }
 }
 
 @media (min-width: 1024px) {
   [class*="leto-frame"] .leto-bubble-grey-tablet-pc {
     background: transparent;
-    color: #e1e1e1;
-    border-color: #e1e1e1;
+    color: #d4d4d4;
+    border-color: #d4d4d4;
   }
 }
 
 @media (min-width: 1024px) and ((pointer: coarse)) {
   [class*="leto-frame"] .leto-bubble-grey-tablet-pc {
     background: transparent;
-    color: #e1e1e1;
-    border-color: #e1e1e1;
+    color: #d4d4d4;
+    border-color: #d4d4d4;
   }
 }
 
 @media (min-width: 1440px) {
   [class*="leto-frame"] .leto-bubble-grey-pc {
     background: transparent;
-    color: #e1e1e1;
-    border-color: #e1e1e1;
+    color: #d4d4d4;
+    border-color: #d4d4d4;
   }
 }
 
 @media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
   [class*="leto-frame"] .leto-bubble-grey-ultrawide {
     background: transparent;
-    color: #e1e1e1;
-    border-color: #e1e1e1;
+    color: #d4d4d4;
+    border-color: #d4d4d4;
   }
 }
 
 @media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
   [class*="leto-frame"] .leto-bubble-grey-super-ultrawide {
     background: transparent;
-    color: #e1e1e1;
-    border-color: #e1e1e1;
+    color: #d4d4d4;
+    border-color: #d4d4d4;
   }
 }
 
 [class*="leto-frame"] .leto-bubble-light-grey {
   background: transparent;
-  color: #eeeeee;
-  border-color: #eeeeee;
+  color: #e1e1e1;
+  border-color: #e1e1e1;
 }
 
 @media (min-width: 600px) {
   [class*="leto-frame"] .leto-bubble-light-grey-tablet {
     background: transparent;
-    color: #eeeeee;
-    border-color: #eeeeee;
+    color: #e1e1e1;
+    border-color: #e1e1e1;
   }
 }
 
 @media (min-width: 1024px) {
   [class*="leto-frame"] .leto-bubble-light-grey-tablet-pc {
     background: transparent;
-    color: #eeeeee;
-    border-color: #eeeeee;
+    color: #e1e1e1;
+    border-color: #e1e1e1;
   }
 }
 
 @media (min-width: 1024px) and ((pointer: coarse)) {
   [class*="leto-frame"] .leto-bubble-light-grey-tablet-pc {
     background: transparent;
-    color: #eeeeee;
-    border-color: #eeeeee;
+    color: #e1e1e1;
+    border-color: #e1e1e1;
   }
 }
 
 @media (min-width: 1440px) {
   [class*="leto-frame"] .leto-bubble-light-grey-pc {
     background: transparent;
-    color: #eeeeee;
-    border-color: #eeeeee;
+    color: #e1e1e1;
+    border-color: #e1e1e1;
   }
 }
 
 @media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
   [class*="leto-frame"] .leto-bubble-light-grey-ultrawide {
     background: transparent;
-    color: #eeeeee;
-    border-color: #eeeeee;
+    color: #e1e1e1;
+    border-color: #e1e1e1;
   }
 }
 
 @media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
   [class*="leto-frame"] .leto-bubble-light-grey-super-ultrawide {
     background: transparent;
-    color: #eeeeee;
-    border-color: #eeeeee;
+    color: #e1e1e1;
+    border-color: #e1e1e1;
   }
 }
 
 [class*="leto-frame"] .leto-bubble-lighter-grey {
   background: transparent;
-  color: #fbfbfb;
-  border-color: #fbfbfb;
+  color: #eeeeee;
+  border-color: #eeeeee;
 }
 
 @media (min-width: 600px) {
   [class*="leto-frame"] .leto-bubble-lighter-grey-tablet {
     background: transparent;
-    color: #fbfbfb;
-    border-color: #fbfbfb;
+    color: #eeeeee;
+    border-color: #eeeeee;
   }
 }
 
 @media (min-width: 1024px) {
   [class*="leto-frame"] .leto-bubble-lighter-grey-tablet-pc {
     background: transparent;
-    color: #fbfbfb;
-    border-color: #fbfbfb;
+    color: #eeeeee;
+    border-color: #eeeeee;
   }
 }
 
 @media (min-width: 1024px) and ((pointer: coarse)) {
   [class*="leto-frame"] .leto-bubble-lighter-grey-tablet-pc {
     background: transparent;
-    color: #fbfbfb;
-    border-color: #fbfbfb;
+    color: #eeeeee;
+    border-color: #eeeeee;
   }
 }
 
 @media (min-width: 1440px) {
   [class*="leto-frame"] .leto-bubble-lighter-grey-pc {
     background: transparent;
-    color: #fbfbfb;
-    border-color: #fbfbfb;
+    color: #eeeeee;
+    border-color: #eeeeee;
   }
 }
 
 @media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
   [class*="leto-frame"] .leto-bubble-lighter-grey-ultrawide {
     background: transparent;
-    color: #fbfbfb;
-    border-color: #fbfbfb;
+    color: #eeeeee;
+    border-color: #eeeeee;
   }
 }
 
 @media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
   [class*="leto-frame"] .leto-bubble-lighter-grey-super-ultrawide {
     background: transparent;
-    color: #fbfbfb;
-    border-color: #fbfbfb;
+    color: #eeeeee;
+    border-color: #eeeeee;
   }
 }
 
 [class*="leto-frame"] .leto-bubble-dark-grey {
   background: transparent;
-  color: #c8c8c8;
-  border-color: #c8c8c8;
+  color: #bbbbbb;
+  border-color: #bbbbbb;
 }
 
 @media (min-width: 600px) {
   [class*="leto-frame"] .leto-bubble-dark-grey-tablet {
     background: transparent;
-    color: #c8c8c8;
-    border-color: #c8c8c8;
+    color: #bbbbbb;
+    border-color: #bbbbbb;
   }
 }
 
 @media (min-width: 1024px) {
   [class*="leto-frame"] .leto-bubble-dark-grey-tablet-pc {
     background: transparent;
-    color: #c8c8c8;
-    border-color: #c8c8c8;
+    color: #bbbbbb;
+    border-color: #bbbbbb;
   }
 }
 
 @media (min-width: 1024px) and ((pointer: coarse)) {
   [class*="leto-frame"] .leto-bubble-dark-grey-tablet-pc {
     background: transparent;
-    color: #c8c8c8;
-    border-color: #c8c8c8;
+    color: #bbbbbb;
+    border-color: #bbbbbb;
   }
 }
 
 @media (min-width: 1440px) {
   [class*="leto-frame"] .leto-bubble-dark-grey-pc {
     background: transparent;
-    color: #c8c8c8;
-    border-color: #c8c8c8;
+    color: #bbbbbb;
+    border-color: #bbbbbb;
   }
 }
 
 @media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
   [class*="leto-frame"] .leto-bubble-dark-grey-ultrawide {
     background: transparent;
-    color: #c8c8c8;
-    border-color: #c8c8c8;
+    color: #bbbbbb;
+    border-color: #bbbbbb;
   }
 }
 
 @media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
   [class*="leto-frame"] .leto-bubble-dark-grey-super-ultrawide {
     background: transparent;
-    color: #c8c8c8;
-    border-color: #c8c8c8;
+    color: #bbbbbb;
+    border-color: #bbbbbb;
   }
 }
 
 [class*="leto-frame"] .leto-bubble-darker-grey {
   background: transparent;
-  color: #aeaeae;
-  border-color: #aeaeae;
+  color: #a1a1a1;
+  border-color: #a1a1a1;
 }
 
 @media (min-width: 600px) {
   [class*="leto-frame"] .leto-bubble-darker-grey-tablet {
     background: transparent;
-    color: #aeaeae;
-    border-color: #aeaeae;
+    color: #a1a1a1;
+    border-color: #a1a1a1;
   }
 }
 
 @media (min-width: 1024px) {
   [class*="leto-frame"] .leto-bubble-darker-grey-tablet-pc {
     background: transparent;
-    color: #aeaeae;
-    border-color: #aeaeae;
+    color: #a1a1a1;
+    border-color: #a1a1a1;
   }
 }
 
 @media (min-width: 1024px) and ((pointer: coarse)) {
   [class*="leto-frame"] .leto-bubble-darker-grey-tablet-pc {
     background: transparent;
-    color: #aeaeae;
-    border-color: #aeaeae;
+    color: #a1a1a1;
+    border-color: #a1a1a1;
   }
 }
 
 @media (min-width: 1440px) {
   [class*="leto-frame"] .leto-bubble-darker-grey-pc {
     background: transparent;
-    color: #aeaeae;
-    border-color: #aeaeae;
+    color: #a1a1a1;
+    border-color: #a1a1a1;
   }
 }
 
 @media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
   [class*="leto-frame"] .leto-bubble-darker-grey-ultrawide {
     background: transparent;
-    color: #aeaeae;
-    border-color: #aeaeae;
+    color: #a1a1a1;
+    border-color: #a1a1a1;
   }
 }
 
 @media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
   [class*="leto-frame"] .leto-bubble-darker-grey-super-ultrawide {
     background: transparent;
-    color: #aeaeae;
-    border-color: #aeaeae;
+    color: #a1a1a1;
+    border-color: #a1a1a1;
   }
 }
 
@@ -2226,7 +2226,7 @@ p, b {
   border-style: solid;
   border-radius: 12px;
   background: transparent;
-  border-color: #e1e1e1;
+  border-color: #d4d4d4;
 }
 
 .leto-card > .leto-image-full {
@@ -2254,7 +2254,7 @@ p, b {
     border-style: solid;
     border-radius: 12px;
     background: transparent;
-    border-color: #e1e1e1;
+    border-color: #d4d4d4;
   }
   .leto-card-tablet > .leto-image-full {
     margin-top: -8px;
@@ -2282,7 +2282,7 @@ p, b {
     border-style: solid;
     border-radius: 12px;
     background: transparent;
-    border-color: #e1e1e1;
+    border-color: #d4d4d4;
   }
   .leto-card-tablet-pc > .leto-image-full {
     margin-top: -8px;
@@ -2310,7 +2310,7 @@ p, b {
     border-style: solid;
     border-radius: 12px;
     background: transparent;
-    border-color: #e1e1e1;
+    border-color: #d4d4d4;
   }
   .leto-card-tablet-pc > .leto-image-full {
     margin-top: -8px;
@@ -2338,7 +2338,7 @@ p, b {
     border-style: solid;
     border-radius: 12px;
     background: transparent;
-    border-color: #e1e1e1;
+    border-color: #d4d4d4;
   }
   .leto-card-pc > .leto-image-full {
     margin-top: -8px;
@@ -2366,7 +2366,7 @@ p, b {
     border-style: solid;
     border-radius: 12px;
     background: transparent;
-    border-color: #e1e1e1;
+    border-color: #d4d4d4;
   }
   .leto-card-ultrawide > .leto-image-full {
     margin-top: -8px;
@@ -2394,7 +2394,7 @@ p, b {
     border-style: solid;
     border-radius: 12px;
     background: transparent;
-    border-color: #e1e1e1;
+    border-color: #d4d4d4;
   }
   .leto-card-super-ultrawide > .leto-image-full {
     margin-top: -8px;
@@ -2408,7 +2408,7 @@ p, b {
   position: relative;
   width: 80px;
   min-height: 50px;
-  border: 1px solid #e1e1e1;
+  border: 1px solid #d4d4d4;
   border-radius: 12px;
   margin: 8px;
   padding: 8px;
@@ -2424,7 +2424,7 @@ p, b {
   border-style: solid;
   border-radius: 12px;
   background: transparent;
-  border-color: #e1e1e1;
+  border-color: #d4d4d4;
 }
 
 .leto-card-xxs > .leto-image-full {
@@ -2439,7 +2439,7 @@ p, b {
     position: relative;
     width: 80px;
     min-height: 50px;
-    border: 1px solid #e1e1e1;
+    border: 1px solid #d4d4d4;
     border-radius: 12px;
     margin: 8px;
     padding: 8px;
@@ -2455,7 +2455,7 @@ p, b {
     border-style: solid;
     border-radius: 12px;
     background: transparent;
-    border-color: #e1e1e1;
+    border-color: #d4d4d4;
   }
   .leto-card-xxs-tablet > .leto-image-full {
     margin-top: -8px;
@@ -2470,7 +2470,7 @@ p, b {
     position: relative;
     width: 80px;
     min-height: 50px;
-    border: 1px solid #e1e1e1;
+    border: 1px solid #d4d4d4;
     border-radius: 12px;
     margin: 8px;
     padding: 8px;
@@ -2486,7 +2486,7 @@ p, b {
     border-style: solid;
     border-radius: 12px;
     background: transparent;
-    border-color: #e1e1e1;
+    border-color: #d4d4d4;
   }
   .leto-card-xxs-tablet-pc > .leto-image-full {
     margin-top: -8px;
@@ -2501,7 +2501,7 @@ p, b {
     position: relative;
     width: 80px;
     min-height: 50px;
-    border: 1px solid #e1e1e1;
+    border: 1px solid #d4d4d4;
     border-radius: 12px;
     margin: 8px;
     padding: 8px;
@@ -2517,7 +2517,7 @@ p, b {
     border-style: solid;
     border-radius: 12px;
     background: transparent;
-    border-color: #e1e1e1;
+    border-color: #d4d4d4;
   }
   .leto-card-xxs-tablet-pc > .leto-image-full {
     margin-top: -8px;
@@ -2532,7 +2532,7 @@ p, b {
     position: relative;
     width: 80px;
     min-height: 50px;
-    border: 1px solid #e1e1e1;
+    border: 1px solid #d4d4d4;
     border-radius: 12px;
     margin: 8px;
     padding: 8px;
@@ -2548,7 +2548,7 @@ p, b {
     border-style: solid;
     border-radius: 12px;
     background: transparent;
-    border-color: #e1e1e1;
+    border-color: #d4d4d4;
   }
   .leto-card-xxs-pc > .leto-image-full {
     margin-top: -8px;
@@ -2563,7 +2563,7 @@ p, b {
     position: relative;
     width: 80px;
     min-height: 50px;
-    border: 1px solid #e1e1e1;
+    border: 1px solid #d4d4d4;
     border-radius: 12px;
     margin: 8px;
     padding: 8px;
@@ -2579,7 +2579,7 @@ p, b {
     border-style: solid;
     border-radius: 12px;
     background: transparent;
-    border-color: #e1e1e1;
+    border-color: #d4d4d4;
   }
   .leto-card-xxs-ultrawide > .leto-image-full {
     margin-top: -8px;
@@ -2594,7 +2594,7 @@ p, b {
     position: relative;
     width: 80px;
     min-height: 50px;
-    border: 1px solid #e1e1e1;
+    border: 1px solid #d4d4d4;
     border-radius: 12px;
     margin: 8px;
     padding: 8px;
@@ -2610,7 +2610,7 @@ p, b {
     border-style: solid;
     border-radius: 12px;
     background: transparent;
-    border-color: #e1e1e1;
+    border-color: #d4d4d4;
   }
   .leto-card-xxs-super-ultrawide > .leto-image-full {
     margin-top: -8px;
@@ -2624,7 +2624,7 @@ p, b {
   position: relative;
   width: 120px;
   min-height: 50px;
-  border: 1px solid #e1e1e1;
+  border: 1px solid #d4d4d4;
   border-radius: 12px;
   margin: 8px;
   padding: 8px;
@@ -2640,7 +2640,7 @@ p, b {
   border-style: solid;
   border-radius: 12px;
   background: transparent;
-  border-color: #e1e1e1;
+  border-color: #d4d4d4;
 }
 
 .leto-card-xs > .leto-image-full {
@@ -2655,7 +2655,7 @@ p, b {
     position: relative;
     width: 120px;
     min-height: 50px;
-    border: 1px solid #e1e1e1;
+    border: 1px solid #d4d4d4;
     border-radius: 12px;
     margin: 8px;
     padding: 8px;
@@ -2671,7 +2671,7 @@ p, b {
     border-style: solid;
     border-radius: 12px;
     background: transparent;
-    border-color: #e1e1e1;
+    border-color: #d4d4d4;
   }
   .leto-card-xs-tablet > .leto-image-full {
     margin-top: -8px;
@@ -2686,7 +2686,7 @@ p, b {
     position: relative;
     width: 120px;
     min-height: 50px;
-    border: 1px solid #e1e1e1;
+    border: 1px solid #d4d4d4;
     border-radius: 12px;
     margin: 8px;
     padding: 8px;
@@ -2702,7 +2702,7 @@ p, b {
     border-style: solid;
     border-radius: 12px;
     background: transparent;
-    border-color: #e1e1e1;
+    border-color: #d4d4d4;
   }
   .leto-card-xs-tablet-pc > .leto-image-full {
     margin-top: -8px;
@@ -2717,7 +2717,7 @@ p, b {
     position: relative;
     width: 120px;
     min-height: 50px;
-    border: 1px solid #e1e1e1;
+    border: 1px solid #d4d4d4;
     border-radius: 12px;
     margin: 8px;
     padding: 8px;
@@ -2733,7 +2733,7 @@ p, b {
     border-style: solid;
     border-radius: 12px;
     background: transparent;
-    border-color: #e1e1e1;
+    border-color: #d4d4d4;
   }
   .leto-card-xs-tablet-pc > .leto-image-full {
     margin-top: -8px;
@@ -2748,7 +2748,7 @@ p, b {
     position: relative;
     width: 120px;
     min-height: 50px;
-    border: 1px solid #e1e1e1;
+    border: 1px solid #d4d4d4;
     border-radius: 12px;
     margin: 8px;
     padding: 8px;
@@ -2764,7 +2764,7 @@ p, b {
     border-style: solid;
     border-radius: 12px;
     background: transparent;
-    border-color: #e1e1e1;
+    border-color: #d4d4d4;
   }
   .leto-card-xs-pc > .leto-image-full {
     margin-top: -8px;
@@ -2779,7 +2779,7 @@ p, b {
     position: relative;
     width: 120px;
     min-height: 50px;
-    border: 1px solid #e1e1e1;
+    border: 1px solid #d4d4d4;
     border-radius: 12px;
     margin: 8px;
     padding: 8px;
@@ -2795,7 +2795,7 @@ p, b {
     border-style: solid;
     border-radius: 12px;
     background: transparent;
-    border-color: #e1e1e1;
+    border-color: #d4d4d4;
   }
   .leto-card-xs-ultrawide > .leto-image-full {
     margin-top: -8px;
@@ -2810,7 +2810,7 @@ p, b {
     position: relative;
     width: 120px;
     min-height: 50px;
-    border: 1px solid #e1e1e1;
+    border: 1px solid #d4d4d4;
     border-radius: 12px;
     margin: 8px;
     padding: 8px;
@@ -2826,7 +2826,7 @@ p, b {
     border-style: solid;
     border-radius: 12px;
     background: transparent;
-    border-color: #e1e1e1;
+    border-color: #d4d4d4;
   }
   .leto-card-xs-super-ultrawide > .leto-image-full {
     margin-top: -8px;
@@ -2840,7 +2840,7 @@ p, b {
   position: relative;
   width: 160px;
   min-height: 50px;
-  border: 1px solid #e1e1e1;
+  border: 1px solid #d4d4d4;
   border-radius: 12px;
   margin: 8px;
   padding: 8px;
@@ -2856,7 +2856,7 @@ p, b {
   border-style: solid;
   border-radius: 12px;
   background: transparent;
-  border-color: #e1e1e1;
+  border-color: #d4d4d4;
 }
 
 .leto-card-sm > .leto-image-full {
@@ -2871,7 +2871,7 @@ p, b {
     position: relative;
     width: 160px;
     min-height: 50px;
-    border: 1px solid #e1e1e1;
+    border: 1px solid #d4d4d4;
     border-radius: 12px;
     margin: 8px;
     padding: 8px;
@@ -2887,7 +2887,7 @@ p, b {
     border-style: solid;
     border-radius: 12px;
     background: transparent;
-    border-color: #e1e1e1;
+    border-color: #d4d4d4;
   }
   .leto-card-sm-tablet > .leto-image-full {
     margin-top: -8px;
@@ -2902,7 +2902,7 @@ p, b {
     position: relative;
     width: 160px;
     min-height: 50px;
-    border: 1px solid #e1e1e1;
+    border: 1px solid #d4d4d4;
     border-radius: 12px;
     margin: 8px;
     padding: 8px;
@@ -2918,7 +2918,7 @@ p, b {
     border-style: solid;
     border-radius: 12px;
     background: transparent;
-    border-color: #e1e1e1;
+    border-color: #d4d4d4;
   }
   .leto-card-sm-tablet-pc > .leto-image-full {
     margin-top: -8px;
@@ -2933,7 +2933,7 @@ p, b {
     position: relative;
     width: 160px;
     min-height: 50px;
-    border: 1px solid #e1e1e1;
+    border: 1px solid #d4d4d4;
     border-radius: 12px;
     margin: 8px;
     padding: 8px;
@@ -2949,7 +2949,7 @@ p, b {
     border-style: solid;
     border-radius: 12px;
     background: transparent;
-    border-color: #e1e1e1;
+    border-color: #d4d4d4;
   }
   .leto-card-sm-tablet-pc > .leto-image-full {
     margin-top: -8px;
@@ -2964,7 +2964,7 @@ p, b {
     position: relative;
     width: 160px;
     min-height: 50px;
-    border: 1px solid #e1e1e1;
+    border: 1px solid #d4d4d4;
     border-radius: 12px;
     margin: 8px;
     padding: 8px;
@@ -2980,7 +2980,7 @@ p, b {
     border-style: solid;
     border-radius: 12px;
     background: transparent;
-    border-color: #e1e1e1;
+    border-color: #d4d4d4;
   }
   .leto-card-sm-pc > .leto-image-full {
     margin-top: -8px;
@@ -2995,7 +2995,7 @@ p, b {
     position: relative;
     width: 160px;
     min-height: 50px;
-    border: 1px solid #e1e1e1;
+    border: 1px solid #d4d4d4;
     border-radius: 12px;
     margin: 8px;
     padding: 8px;
@@ -3011,7 +3011,7 @@ p, b {
     border-style: solid;
     border-radius: 12px;
     background: transparent;
-    border-color: #e1e1e1;
+    border-color: #d4d4d4;
   }
   .leto-card-sm-ultrawide > .leto-image-full {
     margin-top: -8px;
@@ -3026,7 +3026,7 @@ p, b {
     position: relative;
     width: 160px;
     min-height: 50px;
-    border: 1px solid #e1e1e1;
+    border: 1px solid #d4d4d4;
     border-radius: 12px;
     margin: 8px;
     padding: 8px;
@@ -3042,7 +3042,7 @@ p, b {
     border-style: solid;
     border-radius: 12px;
     background: transparent;
-    border-color: #e1e1e1;
+    border-color: #d4d4d4;
   }
   .leto-card-sm-super-ultrawide > .leto-image-full {
     margin-top: -8px;
@@ -3056,7 +3056,7 @@ p, b {
   position: relative;
   width: 240px;
   min-height: 50px;
-  border: 1px solid #e1e1e1;
+  border: 1px solid #d4d4d4;
   border-radius: 12px;
   margin: 8px;
   padding: 8px;
@@ -3072,7 +3072,7 @@ p, b {
   border-style: solid;
   border-radius: 12px;
   background: transparent;
-  border-color: #e1e1e1;
+  border-color: #d4d4d4;
 }
 
 .leto-card-md > .leto-image-full {
@@ -3087,7 +3087,7 @@ p, b {
     position: relative;
     width: 240px;
     min-height: 50px;
-    border: 1px solid #e1e1e1;
+    border: 1px solid #d4d4d4;
     border-radius: 12px;
     margin: 8px;
     padding: 8px;
@@ -3103,7 +3103,7 @@ p, b {
     border-style: solid;
     border-radius: 12px;
     background: transparent;
-    border-color: #e1e1e1;
+    border-color: #d4d4d4;
   }
   .leto-card-md-tablet > .leto-image-full {
     margin-top: -8px;
@@ -3118,7 +3118,7 @@ p, b {
     position: relative;
     width: 240px;
     min-height: 50px;
-    border: 1px solid #e1e1e1;
+    border: 1px solid #d4d4d4;
     border-radius: 12px;
     margin: 8px;
     padding: 8px;
@@ -3134,7 +3134,7 @@ p, b {
     border-style: solid;
     border-radius: 12px;
     background: transparent;
-    border-color: #e1e1e1;
+    border-color: #d4d4d4;
   }
   .leto-card-md-tablet-pc > .leto-image-full {
     margin-top: -8px;
@@ -3149,7 +3149,7 @@ p, b {
     position: relative;
     width: 240px;
     min-height: 50px;
-    border: 1px solid #e1e1e1;
+    border: 1px solid #d4d4d4;
     border-radius: 12px;
     margin: 8px;
     padding: 8px;
@@ -3165,7 +3165,7 @@ p, b {
     border-style: solid;
     border-radius: 12px;
     background: transparent;
-    border-color: #e1e1e1;
+    border-color: #d4d4d4;
   }
   .leto-card-md-tablet-pc > .leto-image-full {
     margin-top: -8px;
@@ -3180,7 +3180,7 @@ p, b {
     position: relative;
     width: 240px;
     min-height: 50px;
-    border: 1px solid #e1e1e1;
+    border: 1px solid #d4d4d4;
     border-radius: 12px;
     margin: 8px;
     padding: 8px;
@@ -3196,7 +3196,7 @@ p, b {
     border-style: solid;
     border-radius: 12px;
     background: transparent;
-    border-color: #e1e1e1;
+    border-color: #d4d4d4;
   }
   .leto-card-md-pc > .leto-image-full {
     margin-top: -8px;
@@ -3211,7 +3211,7 @@ p, b {
     position: relative;
     width: 240px;
     min-height: 50px;
-    border: 1px solid #e1e1e1;
+    border: 1px solid #d4d4d4;
     border-radius: 12px;
     margin: 8px;
     padding: 8px;
@@ -3227,7 +3227,7 @@ p, b {
     border-style: solid;
     border-radius: 12px;
     background: transparent;
-    border-color: #e1e1e1;
+    border-color: #d4d4d4;
   }
   .leto-card-md-ultrawide > .leto-image-full {
     margin-top: -8px;
@@ -3242,7 +3242,7 @@ p, b {
     position: relative;
     width: 240px;
     min-height: 50px;
-    border: 1px solid #e1e1e1;
+    border: 1px solid #d4d4d4;
     border-radius: 12px;
     margin: 8px;
     padding: 8px;
@@ -3258,7 +3258,7 @@ p, b {
     border-style: solid;
     border-radius: 12px;
     background: transparent;
-    border-color: #e1e1e1;
+    border-color: #d4d4d4;
   }
   .leto-card-md-super-ultrawide > .leto-image-full {
     margin-top: -8px;
@@ -3272,7 +3272,7 @@ p, b {
   position: relative;
   width: 320px;
   min-height: 50px;
-  border: 1px solid #e1e1e1;
+  border: 1px solid #d4d4d4;
   border-radius: 12px;
   margin: 8px;
   padding: 8px;
@@ -3288,7 +3288,7 @@ p, b {
   border-style: solid;
   border-radius: 12px;
   background: transparent;
-  border-color: #e1e1e1;
+  border-color: #d4d4d4;
 }
 
 .leto-card-lg > .leto-image-full {
@@ -3303,7 +3303,7 @@ p, b {
     position: relative;
     width: 320px;
     min-height: 50px;
-    border: 1px solid #e1e1e1;
+    border: 1px solid #d4d4d4;
     border-radius: 12px;
     margin: 8px;
     padding: 8px;
@@ -3319,7 +3319,7 @@ p, b {
     border-style: solid;
     border-radius: 12px;
     background: transparent;
-    border-color: #e1e1e1;
+    border-color: #d4d4d4;
   }
   .leto-card-lg-tablet > .leto-image-full {
     margin-top: -8px;
@@ -3334,7 +3334,7 @@ p, b {
     position: relative;
     width: 320px;
     min-height: 50px;
-    border: 1px solid #e1e1e1;
+    border: 1px solid #d4d4d4;
     border-radius: 12px;
     margin: 8px;
     padding: 8px;
@@ -3350,7 +3350,7 @@ p, b {
     border-style: solid;
     border-radius: 12px;
     background: transparent;
-    border-color: #e1e1e1;
+    border-color: #d4d4d4;
   }
   .leto-card-lg-tablet-pc > .leto-image-full {
     margin-top: -8px;
@@ -3365,7 +3365,7 @@ p, b {
     position: relative;
     width: 320px;
     min-height: 50px;
-    border: 1px solid #e1e1e1;
+    border: 1px solid #d4d4d4;
     border-radius: 12px;
     margin: 8px;
     padding: 8px;
@@ -3381,7 +3381,7 @@ p, b {
     border-style: solid;
     border-radius: 12px;
     background: transparent;
-    border-color: #e1e1e1;
+    border-color: #d4d4d4;
   }
   .leto-card-lg-tablet-pc > .leto-image-full {
     margin-top: -8px;
@@ -3396,7 +3396,7 @@ p, b {
     position: relative;
     width: 320px;
     min-height: 50px;
-    border: 1px solid #e1e1e1;
+    border: 1px solid #d4d4d4;
     border-radius: 12px;
     margin: 8px;
     padding: 8px;
@@ -3412,7 +3412,7 @@ p, b {
     border-style: solid;
     border-radius: 12px;
     background: transparent;
-    border-color: #e1e1e1;
+    border-color: #d4d4d4;
   }
   .leto-card-lg-pc > .leto-image-full {
     margin-top: -8px;
@@ -3427,7 +3427,7 @@ p, b {
     position: relative;
     width: 320px;
     min-height: 50px;
-    border: 1px solid #e1e1e1;
+    border: 1px solid #d4d4d4;
     border-radius: 12px;
     margin: 8px;
     padding: 8px;
@@ -3443,7 +3443,7 @@ p, b {
     border-style: solid;
     border-radius: 12px;
     background: transparent;
-    border-color: #e1e1e1;
+    border-color: #d4d4d4;
   }
   .leto-card-lg-ultrawide > .leto-image-full {
     margin-top: -8px;
@@ -3458,7 +3458,7 @@ p, b {
     position: relative;
     width: 320px;
     min-height: 50px;
-    border: 1px solid #e1e1e1;
+    border: 1px solid #d4d4d4;
     border-radius: 12px;
     margin: 8px;
     padding: 8px;
@@ -3474,7 +3474,7 @@ p, b {
     border-style: solid;
     border-radius: 12px;
     background: transparent;
-    border-color: #e1e1e1;
+    border-color: #d4d4d4;
   }
   .leto-card-lg-super-ultrawide > .leto-image-full {
     margin-top: -8px;
@@ -3488,7 +3488,7 @@ p, b {
   position: relative;
   width: 480px;
   min-height: 50px;
-  border: 1px solid #e1e1e1;
+  border: 1px solid #d4d4d4;
   border-radius: 12px;
   margin: 8px;
   padding: 8px;
@@ -3504,7 +3504,7 @@ p, b {
   border-style: solid;
   border-radius: 12px;
   background: transparent;
-  border-color: #e1e1e1;
+  border-color: #d4d4d4;
 }
 
 .leto-card-xl > .leto-image-full {
@@ -3519,7 +3519,7 @@ p, b {
     position: relative;
     width: 480px;
     min-height: 50px;
-    border: 1px solid #e1e1e1;
+    border: 1px solid #d4d4d4;
     border-radius: 12px;
     margin: 8px;
     padding: 8px;
@@ -3535,7 +3535,7 @@ p, b {
     border-style: solid;
     border-radius: 12px;
     background: transparent;
-    border-color: #e1e1e1;
+    border-color: #d4d4d4;
   }
   .leto-card-xl-tablet > .leto-image-full {
     margin-top: -8px;
@@ -3550,7 +3550,7 @@ p, b {
     position: relative;
     width: 480px;
     min-height: 50px;
-    border: 1px solid #e1e1e1;
+    border: 1px solid #d4d4d4;
     border-radius: 12px;
     margin: 8px;
     padding: 8px;
@@ -3566,7 +3566,7 @@ p, b {
     border-style: solid;
     border-radius: 12px;
     background: transparent;
-    border-color: #e1e1e1;
+    border-color: #d4d4d4;
   }
   .leto-card-xl-tablet-pc > .leto-image-full {
     margin-top: -8px;
@@ -3581,7 +3581,7 @@ p, b {
     position: relative;
     width: 480px;
     min-height: 50px;
-    border: 1px solid #e1e1e1;
+    border: 1px solid #d4d4d4;
     border-radius: 12px;
     margin: 8px;
     padding: 8px;
@@ -3597,7 +3597,7 @@ p, b {
     border-style: solid;
     border-radius: 12px;
     background: transparent;
-    border-color: #e1e1e1;
+    border-color: #d4d4d4;
   }
   .leto-card-xl-tablet-pc > .leto-image-full {
     margin-top: -8px;
@@ -3612,7 +3612,7 @@ p, b {
     position: relative;
     width: 480px;
     min-height: 50px;
-    border: 1px solid #e1e1e1;
+    border: 1px solid #d4d4d4;
     border-radius: 12px;
     margin: 8px;
     padding: 8px;
@@ -3628,7 +3628,7 @@ p, b {
     border-style: solid;
     border-radius: 12px;
     background: transparent;
-    border-color: #e1e1e1;
+    border-color: #d4d4d4;
   }
   .leto-card-xl-pc > .leto-image-full {
     margin-top: -8px;
@@ -3643,7 +3643,7 @@ p, b {
     position: relative;
     width: 480px;
     min-height: 50px;
-    border: 1px solid #e1e1e1;
+    border: 1px solid #d4d4d4;
     border-radius: 12px;
     margin: 8px;
     padding: 8px;
@@ -3659,7 +3659,7 @@ p, b {
     border-style: solid;
     border-radius: 12px;
     background: transparent;
-    border-color: #e1e1e1;
+    border-color: #d4d4d4;
   }
   .leto-card-xl-ultrawide > .leto-image-full {
     margin-top: -8px;
@@ -3674,7 +3674,7 @@ p, b {
     position: relative;
     width: 480px;
     min-height: 50px;
-    border: 1px solid #e1e1e1;
+    border: 1px solid #d4d4d4;
     border-radius: 12px;
     margin: 8px;
     padding: 8px;
@@ -3690,7 +3690,7 @@ p, b {
     border-style: solid;
     border-radius: 12px;
     background: transparent;
-    border-color: #e1e1e1;
+    border-color: #d4d4d4;
   }
   .leto-card-xl-super-ultrawide > .leto-image-full {
     margin-top: -8px;
@@ -3704,7 +3704,7 @@ p, b {
   position: relative;
   width: 640px;
   min-height: 50px;
-  border: 1px solid #e1e1e1;
+  border: 1px solid #d4d4d4;
   border-radius: 12px;
   margin: 8px;
   padding: 8px;
@@ -3720,7 +3720,7 @@ p, b {
   border-style: solid;
   border-radius: 12px;
   background: transparent;
-  border-color: #e1e1e1;
+  border-color: #d4d4d4;
 }
 
 .leto-card-xxl > .leto-image-full {
@@ -3735,7 +3735,7 @@ p, b {
     position: relative;
     width: 640px;
     min-height: 50px;
-    border: 1px solid #e1e1e1;
+    border: 1px solid #d4d4d4;
     border-radius: 12px;
     margin: 8px;
     padding: 8px;
@@ -3751,7 +3751,7 @@ p, b {
     border-style: solid;
     border-radius: 12px;
     background: transparent;
-    border-color: #e1e1e1;
+    border-color: #d4d4d4;
   }
   .leto-card-xxl-tablet > .leto-image-full {
     margin-top: -8px;
@@ -3766,7 +3766,7 @@ p, b {
     position: relative;
     width: 640px;
     min-height: 50px;
-    border: 1px solid #e1e1e1;
+    border: 1px solid #d4d4d4;
     border-radius: 12px;
     margin: 8px;
     padding: 8px;
@@ -3782,7 +3782,7 @@ p, b {
     border-style: solid;
     border-radius: 12px;
     background: transparent;
-    border-color: #e1e1e1;
+    border-color: #d4d4d4;
   }
   .leto-card-xxl-tablet-pc > .leto-image-full {
     margin-top: -8px;
@@ -3797,7 +3797,7 @@ p, b {
     position: relative;
     width: 640px;
     min-height: 50px;
-    border: 1px solid #e1e1e1;
+    border: 1px solid #d4d4d4;
     border-radius: 12px;
     margin: 8px;
     padding: 8px;
@@ -3813,7 +3813,7 @@ p, b {
     border-style: solid;
     border-radius: 12px;
     background: transparent;
-    border-color: #e1e1e1;
+    border-color: #d4d4d4;
   }
   .leto-card-xxl-tablet-pc > .leto-image-full {
     margin-top: -8px;
@@ -3828,7 +3828,7 @@ p, b {
     position: relative;
     width: 640px;
     min-height: 50px;
-    border: 1px solid #e1e1e1;
+    border: 1px solid #d4d4d4;
     border-radius: 12px;
     margin: 8px;
     padding: 8px;
@@ -3844,7 +3844,7 @@ p, b {
     border-style: solid;
     border-radius: 12px;
     background: transparent;
-    border-color: #e1e1e1;
+    border-color: #d4d4d4;
   }
   .leto-card-xxl-pc > .leto-image-full {
     margin-top: -8px;
@@ -3859,7 +3859,7 @@ p, b {
     position: relative;
     width: 640px;
     min-height: 50px;
-    border: 1px solid #e1e1e1;
+    border: 1px solid #d4d4d4;
     border-radius: 12px;
     margin: 8px;
     padding: 8px;
@@ -3875,7 +3875,7 @@ p, b {
     border-style: solid;
     border-radius: 12px;
     background: transparent;
-    border-color: #e1e1e1;
+    border-color: #d4d4d4;
   }
   .leto-card-xxl-ultrawide > .leto-image-full {
     margin-top: -8px;
@@ -3890,7 +3890,7 @@ p, b {
     position: relative;
     width: 640px;
     min-height: 50px;
-    border: 1px solid #e1e1e1;
+    border: 1px solid #d4d4d4;
     border-radius: 12px;
     margin: 8px;
     padding: 8px;
@@ -3906,7 +3906,7 @@ p, b {
     border-style: solid;
     border-radius: 12px;
     background: transparent;
-    border-color: #e1e1e1;
+    border-color: #d4d4d4;
   }
   .leto-card-xxl-super-ultrawide > .leto-image-full {
     margin-top: -8px;
@@ -3933,7 +3933,7 @@ p, b {
   border-style: solid;
   border-radius: 12px;
   background: transparent;
-  border-color: #e1e1e1;
+  border-color: #d4d4d4;
 }
 
 .leto-card-square > .leto-image-full {
@@ -3961,7 +3961,7 @@ p, b {
     border-style: solid;
     border-radius: 12px;
     background: transparent;
-    border-color: #e1e1e1;
+    border-color: #d4d4d4;
   }
   .leto-card-square-tablet > .leto-image-full {
     margin-top: -8px;
@@ -3989,7 +3989,7 @@ p, b {
     border-style: solid;
     border-radius: 12px;
     background: transparent;
-    border-color: #e1e1e1;
+    border-color: #d4d4d4;
   }
   .leto-card-square-tablet-pc > .leto-image-full {
     margin-top: -8px;
@@ -4017,7 +4017,7 @@ p, b {
     border-style: solid;
     border-radius: 12px;
     background: transparent;
-    border-color: #e1e1e1;
+    border-color: #d4d4d4;
   }
   .leto-card-square-tablet-pc > .leto-image-full {
     margin-top: -8px;
@@ -4045,7 +4045,7 @@ p, b {
     border-style: solid;
     border-radius: 12px;
     background: transparent;
-    border-color: #e1e1e1;
+    border-color: #d4d4d4;
   }
   .leto-card-square-pc > .leto-image-full {
     margin-top: -8px;
@@ -4073,7 +4073,7 @@ p, b {
     border-style: solid;
     border-radius: 12px;
     background: transparent;
-    border-color: #e1e1e1;
+    border-color: #d4d4d4;
   }
   .leto-card-square-ultrawide > .leto-image-full {
     margin-top: -8px;
@@ -4101,7 +4101,7 @@ p, b {
     border-style: solid;
     border-radius: 12px;
     background: transparent;
-    border-color: #e1e1e1;
+    border-color: #d4d4d4;
   }
   .leto-card-square-super-ultrawide > .leto-image-full {
     margin-top: -8px;
@@ -4128,7 +4128,7 @@ p, b {
   border-style: solid;
   border-radius: 12px;
   background: transparent;
-  border-color: #e1e1e1;
+  border-color: #d4d4d4;
 }
 
 .leto-card-square-xxs > .leto-image-full {
@@ -4156,7 +4156,7 @@ p, b {
     border-style: solid;
     border-radius: 12px;
     background: transparent;
-    border-color: #e1e1e1;
+    border-color: #d4d4d4;
   }
   .leto-card-square-xxs-tablet > .leto-image-full {
     margin-top: -8px;
@@ -4184,7 +4184,7 @@ p, b {
     border-style: solid;
     border-radius: 12px;
     background: transparent;
-    border-color: #e1e1e1;
+    border-color: #d4d4d4;
   }
   .leto-card-square-xxs-tablet-pc > .leto-image-full {
     margin-top: -8px;
@@ -4212,7 +4212,7 @@ p, b {
     border-style: solid;
     border-radius: 12px;
     background: transparent;
-    border-color: #e1e1e1;
+    border-color: #d4d4d4;
   }
   .leto-card-square-xxs-tablet-pc > .leto-image-full {
     margin-top: -8px;
@@ -4240,7 +4240,7 @@ p, b {
     border-style: solid;
     border-radius: 12px;
     background: transparent;
-    border-color: #e1e1e1;
+    border-color: #d4d4d4;
   }
   .leto-card-square-xxs-pc > .leto-image-full {
     margin-top: -8px;
@@ -4268,7 +4268,7 @@ p, b {
     border-style: solid;
     border-radius: 12px;
     background: transparent;
-    border-color: #e1e1e1;
+    border-color: #d4d4d4;
   }
   .leto-card-square-xxs-ultrawide > .leto-image-full {
     margin-top: -8px;
@@ -4296,7 +4296,7 @@ p, b {
     border-style: solid;
     border-radius: 12px;
     background: transparent;
-    border-color: #e1e1e1;
+    border-color: #d4d4d4;
   }
   .leto-card-square-xxs-super-ultrawide > .leto-image-full {
     margin-top: -8px;
@@ -4323,7 +4323,7 @@ p, b {
   border-style: solid;
   border-radius: 12px;
   background: transparent;
-  border-color: #e1e1e1;
+  border-color: #d4d4d4;
 }
 
 .leto-card-square-xs > .leto-image-full {
@@ -4351,7 +4351,7 @@ p, b {
     border-style: solid;
     border-radius: 12px;
     background: transparent;
-    border-color: #e1e1e1;
+    border-color: #d4d4d4;
   }
   .leto-card-square-xs-tablet > .leto-image-full {
     margin-top: -8px;
@@ -4379,7 +4379,7 @@ p, b {
     border-style: solid;
     border-radius: 12px;
     background: transparent;
-    border-color: #e1e1e1;
+    border-color: #d4d4d4;
   }
   .leto-card-square-xs-tablet-pc > .leto-image-full {
     margin-top: -8px;
@@ -4407,7 +4407,7 @@ p, b {
     border-style: solid;
     border-radius: 12px;
     background: transparent;
-    border-color: #e1e1e1;
+    border-color: #d4d4d4;
   }
   .leto-card-square-xs-tablet-pc > .leto-image-full {
     margin-top: -8px;
@@ -4435,7 +4435,7 @@ p, b {
     border-style: solid;
     border-radius: 12px;
     background: transparent;
-    border-color: #e1e1e1;
+    border-color: #d4d4d4;
   }
   .leto-card-square-xs-pc > .leto-image-full {
     margin-top: -8px;
@@ -4463,7 +4463,7 @@ p, b {
     border-style: solid;
     border-radius: 12px;
     background: transparent;
-    border-color: #e1e1e1;
+    border-color: #d4d4d4;
   }
   .leto-card-square-xs-ultrawide > .leto-image-full {
     margin-top: -8px;
@@ -4491,7 +4491,7 @@ p, b {
     border-style: solid;
     border-radius: 12px;
     background: transparent;
-    border-color: #e1e1e1;
+    border-color: #d4d4d4;
   }
   .leto-card-square-xs-super-ultrawide > .leto-image-full {
     margin-top: -8px;
@@ -4518,7 +4518,7 @@ p, b {
   border-style: solid;
   border-radius: 12px;
   background: transparent;
-  border-color: #e1e1e1;
+  border-color: #d4d4d4;
 }
 
 .leto-card-square-sm > .leto-image-full {
@@ -4546,7 +4546,7 @@ p, b {
     border-style: solid;
     border-radius: 12px;
     background: transparent;
-    border-color: #e1e1e1;
+    border-color: #d4d4d4;
   }
   .leto-card-square-sm-tablet > .leto-image-full {
     margin-top: -8px;
@@ -4574,7 +4574,7 @@ p, b {
     border-style: solid;
     border-radius: 12px;
     background: transparent;
-    border-color: #e1e1e1;
+    border-color: #d4d4d4;
   }
   .leto-card-square-sm-tablet-pc > .leto-image-full {
     margin-top: -8px;
@@ -4602,7 +4602,7 @@ p, b {
     border-style: solid;
     border-radius: 12px;
     background: transparent;
-    border-color: #e1e1e1;
+    border-color: #d4d4d4;
   }
   .leto-card-square-sm-tablet-pc > .leto-image-full {
     margin-top: -8px;
@@ -4630,7 +4630,7 @@ p, b {
     border-style: solid;
     border-radius: 12px;
     background: transparent;
-    border-color: #e1e1e1;
+    border-color: #d4d4d4;
   }
   .leto-card-square-sm-pc > .leto-image-full {
     margin-top: -8px;
@@ -4658,7 +4658,7 @@ p, b {
     border-style: solid;
     border-radius: 12px;
     background: transparent;
-    border-color: #e1e1e1;
+    border-color: #d4d4d4;
   }
   .leto-card-square-sm-ultrawide > .leto-image-full {
     margin-top: -8px;
@@ -4686,7 +4686,7 @@ p, b {
     border-style: solid;
     border-radius: 12px;
     background: transparent;
-    border-color: #e1e1e1;
+    border-color: #d4d4d4;
   }
   .leto-card-square-sm-super-ultrawide > .leto-image-full {
     margin-top: -8px;
@@ -4713,7 +4713,7 @@ p, b {
   border-style: solid;
   border-radius: 12px;
   background: transparent;
-  border-color: #e1e1e1;
+  border-color: #d4d4d4;
 }
 
 .leto-card-square-md > .leto-image-full {
@@ -4741,7 +4741,7 @@ p, b {
     border-style: solid;
     border-radius: 12px;
     background: transparent;
-    border-color: #e1e1e1;
+    border-color: #d4d4d4;
   }
   .leto-card-square-md-tablet > .leto-image-full {
     margin-top: -8px;
@@ -4769,7 +4769,7 @@ p, b {
     border-style: solid;
     border-radius: 12px;
     background: transparent;
-    border-color: #e1e1e1;
+    border-color: #d4d4d4;
   }
   .leto-card-square-md-tablet-pc > .leto-image-full {
     margin-top: -8px;
@@ -4797,7 +4797,7 @@ p, b {
     border-style: solid;
     border-radius: 12px;
     background: transparent;
-    border-color: #e1e1e1;
+    border-color: #d4d4d4;
   }
   .leto-card-square-md-tablet-pc > .leto-image-full {
     margin-top: -8px;
@@ -4825,7 +4825,7 @@ p, b {
     border-style: solid;
     border-radius: 12px;
     background: transparent;
-    border-color: #e1e1e1;
+    border-color: #d4d4d4;
   }
   .leto-card-square-md-pc > .leto-image-full {
     margin-top: -8px;
@@ -4853,7 +4853,7 @@ p, b {
     border-style: solid;
     border-radius: 12px;
     background: transparent;
-    border-color: #e1e1e1;
+    border-color: #d4d4d4;
   }
   .leto-card-square-md-ultrawide > .leto-image-full {
     margin-top: -8px;
@@ -4881,7 +4881,7 @@ p, b {
     border-style: solid;
     border-radius: 12px;
     background: transparent;
-    border-color: #e1e1e1;
+    border-color: #d4d4d4;
   }
   .leto-card-square-md-super-ultrawide > .leto-image-full {
     margin-top: -8px;
@@ -4908,7 +4908,7 @@ p, b {
   border-style: solid;
   border-radius: 12px;
   background: transparent;
-  border-color: #e1e1e1;
+  border-color: #d4d4d4;
 }
 
 .leto-card-square-lg > .leto-image-full {
@@ -4936,7 +4936,7 @@ p, b {
     border-style: solid;
     border-radius: 12px;
     background: transparent;
-    border-color: #e1e1e1;
+    border-color: #d4d4d4;
   }
   .leto-card-square-lg-tablet > .leto-image-full {
     margin-top: -8px;
@@ -4964,7 +4964,7 @@ p, b {
     border-style: solid;
     border-radius: 12px;
     background: transparent;
-    border-color: #e1e1e1;
+    border-color: #d4d4d4;
   }
   .leto-card-square-lg-tablet-pc > .leto-image-full {
     margin-top: -8px;
@@ -4992,7 +4992,7 @@ p, b {
     border-style: solid;
     border-radius: 12px;
     background: transparent;
-    border-color: #e1e1e1;
+    border-color: #d4d4d4;
   }
   .leto-card-square-lg-tablet-pc > .leto-image-full {
     margin-top: -8px;
@@ -5020,7 +5020,7 @@ p, b {
     border-style: solid;
     border-radius: 12px;
     background: transparent;
-    border-color: #e1e1e1;
+    border-color: #d4d4d4;
   }
   .leto-card-square-lg-pc > .leto-image-full {
     margin-top: -8px;
@@ -5048,7 +5048,7 @@ p, b {
     border-style: solid;
     border-radius: 12px;
     background: transparent;
-    border-color: #e1e1e1;
+    border-color: #d4d4d4;
   }
   .leto-card-square-lg-ultrawide > .leto-image-full {
     margin-top: -8px;
@@ -5076,7 +5076,7 @@ p, b {
     border-style: solid;
     border-radius: 12px;
     background: transparent;
-    border-color: #e1e1e1;
+    border-color: #d4d4d4;
   }
   .leto-card-square-lg-super-ultrawide > .leto-image-full {
     margin-top: -8px;
@@ -5103,7 +5103,7 @@ p, b {
   border-style: solid;
   border-radius: 12px;
   background: transparent;
-  border-color: #e1e1e1;
+  border-color: #d4d4d4;
 }
 
 .leto-card-square-xl > .leto-image-full {
@@ -5131,7 +5131,7 @@ p, b {
     border-style: solid;
     border-radius: 12px;
     background: transparent;
-    border-color: #e1e1e1;
+    border-color: #d4d4d4;
   }
   .leto-card-square-xl-tablet > .leto-image-full {
     margin-top: -8px;
@@ -5159,7 +5159,7 @@ p, b {
     border-style: solid;
     border-radius: 12px;
     background: transparent;
-    border-color: #e1e1e1;
+    border-color: #d4d4d4;
   }
   .leto-card-square-xl-tablet-pc > .leto-image-full {
     margin-top: -8px;
@@ -5187,7 +5187,7 @@ p, b {
     border-style: solid;
     border-radius: 12px;
     background: transparent;
-    border-color: #e1e1e1;
+    border-color: #d4d4d4;
   }
   .leto-card-square-xl-tablet-pc > .leto-image-full {
     margin-top: -8px;
@@ -5215,7 +5215,7 @@ p, b {
     border-style: solid;
     border-radius: 12px;
     background: transparent;
-    border-color: #e1e1e1;
+    border-color: #d4d4d4;
   }
   .leto-card-square-xl-pc > .leto-image-full {
     margin-top: -8px;
@@ -5243,7 +5243,7 @@ p, b {
     border-style: solid;
     border-radius: 12px;
     background: transparent;
-    border-color: #e1e1e1;
+    border-color: #d4d4d4;
   }
   .leto-card-square-xl-ultrawide > .leto-image-full {
     margin-top: -8px;
@@ -5271,7 +5271,7 @@ p, b {
     border-style: solid;
     border-radius: 12px;
     background: transparent;
-    border-color: #e1e1e1;
+    border-color: #d4d4d4;
   }
   .leto-card-square-xl-super-ultrawide > .leto-image-full {
     margin-top: -8px;
@@ -5298,7 +5298,7 @@ p, b {
   border-style: solid;
   border-radius: 12px;
   background: transparent;
-  border-color: #e1e1e1;
+  border-color: #d4d4d4;
 }
 
 .leto-card-square-xxl > .leto-image-full {
@@ -5326,7 +5326,7 @@ p, b {
     border-style: solid;
     border-radius: 12px;
     background: transparent;
-    border-color: #e1e1e1;
+    border-color: #d4d4d4;
   }
   .leto-card-square-xxl-tablet > .leto-image-full {
     margin-top: -8px;
@@ -5354,7 +5354,7 @@ p, b {
     border-style: solid;
     border-radius: 12px;
     background: transparent;
-    border-color: #e1e1e1;
+    border-color: #d4d4d4;
   }
   .leto-card-square-xxl-tablet-pc > .leto-image-full {
     margin-top: -8px;
@@ -5382,7 +5382,7 @@ p, b {
     border-style: solid;
     border-radius: 12px;
     background: transparent;
-    border-color: #e1e1e1;
+    border-color: #d4d4d4;
   }
   .leto-card-square-xxl-tablet-pc > .leto-image-full {
     margin-top: -8px;
@@ -5410,7 +5410,7 @@ p, b {
     border-style: solid;
     border-radius: 12px;
     background: transparent;
-    border-color: #e1e1e1;
+    border-color: #d4d4d4;
   }
   .leto-card-square-xxl-pc > .leto-image-full {
     margin-top: -8px;
@@ -5438,7 +5438,7 @@ p, b {
     border-style: solid;
     border-radius: 12px;
     background: transparent;
-    border-color: #e1e1e1;
+    border-color: #d4d4d4;
   }
   .leto-card-square-xxl-ultrawide > .leto-image-full {
     margin-top: -8px;
@@ -5466,7 +5466,7 @@ p, b {
     border-style: solid;
     border-radius: 12px;
     background: transparent;
-    border-color: #e1e1e1;
+    border-color: #d4d4d4;
   }
   .leto-card-square-xxl-super-ultrawide > .leto-image-full {
     margin-top: -8px;
@@ -5594,271 +5594,271 @@ p, b {
 
 [class*="leto-frame"] .leto-card-grey {
   background: transparent;
-  color: #e1e1e1;
-  border-color: #e1e1e1;
+  color: #d4d4d4;
+  border-color: #d4d4d4;
 }
 
 @media (min-width: 600px) {
   [class*="leto-frame"] .leto-card-grey-tablet {
     background: transparent;
-    color: #e1e1e1;
-    border-color: #e1e1e1;
+    color: #d4d4d4;
+    border-color: #d4d4d4;
   }
 }
 
 @media (min-width: 1024px) {
   [class*="leto-frame"] .leto-card-grey-tablet-pc {
     background: transparent;
-    color: #e1e1e1;
-    border-color: #e1e1e1;
+    color: #d4d4d4;
+    border-color: #d4d4d4;
   }
 }
 
 @media (min-width: 1024px) and ((pointer: coarse)) {
   [class*="leto-frame"] .leto-card-grey-tablet-pc {
     background: transparent;
-    color: #e1e1e1;
-    border-color: #e1e1e1;
+    color: #d4d4d4;
+    border-color: #d4d4d4;
   }
 }
 
 @media (min-width: 1440px) {
   [class*="leto-frame"] .leto-card-grey-pc {
     background: transparent;
-    color: #e1e1e1;
-    border-color: #e1e1e1;
+    color: #d4d4d4;
+    border-color: #d4d4d4;
   }
 }
 
 @media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
   [class*="leto-frame"] .leto-card-grey-ultrawide {
     background: transparent;
-    color: #e1e1e1;
-    border-color: #e1e1e1;
+    color: #d4d4d4;
+    border-color: #d4d4d4;
   }
 }
 
 @media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
   [class*="leto-frame"] .leto-card-grey-super-ultrawide {
     background: transparent;
-    color: #e1e1e1;
-    border-color: #e1e1e1;
+    color: #d4d4d4;
+    border-color: #d4d4d4;
   }
 }
 
 [class*="leto-frame"] .leto-card-light-grey {
   background: transparent;
-  color: #eeeeee;
-  border-color: #eeeeee;
+  color: #e1e1e1;
+  border-color: #e1e1e1;
 }
 
 @media (min-width: 600px) {
   [class*="leto-frame"] .leto-card-light-grey-tablet {
     background: transparent;
-    color: #eeeeee;
-    border-color: #eeeeee;
+    color: #e1e1e1;
+    border-color: #e1e1e1;
   }
 }
 
 @media (min-width: 1024px) {
   [class*="leto-frame"] .leto-card-light-grey-tablet-pc {
     background: transparent;
-    color: #eeeeee;
-    border-color: #eeeeee;
+    color: #e1e1e1;
+    border-color: #e1e1e1;
   }
 }
 
 @media (min-width: 1024px) and ((pointer: coarse)) {
   [class*="leto-frame"] .leto-card-light-grey-tablet-pc {
     background: transparent;
-    color: #eeeeee;
-    border-color: #eeeeee;
+    color: #e1e1e1;
+    border-color: #e1e1e1;
   }
 }
 
 @media (min-width: 1440px) {
   [class*="leto-frame"] .leto-card-light-grey-pc {
     background: transparent;
-    color: #eeeeee;
-    border-color: #eeeeee;
+    color: #e1e1e1;
+    border-color: #e1e1e1;
   }
 }
 
 @media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
   [class*="leto-frame"] .leto-card-light-grey-ultrawide {
     background: transparent;
-    color: #eeeeee;
-    border-color: #eeeeee;
+    color: #e1e1e1;
+    border-color: #e1e1e1;
   }
 }
 
 @media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
   [class*="leto-frame"] .leto-card-light-grey-super-ultrawide {
     background: transparent;
-    color: #eeeeee;
-    border-color: #eeeeee;
+    color: #e1e1e1;
+    border-color: #e1e1e1;
   }
 }
 
 [class*="leto-frame"] .leto-card-lighter-grey {
   background: transparent;
-  color: #fbfbfb;
-  border-color: #fbfbfb;
+  color: #eeeeee;
+  border-color: #eeeeee;
 }
 
 @media (min-width: 600px) {
   [class*="leto-frame"] .leto-card-lighter-grey-tablet {
     background: transparent;
-    color: #fbfbfb;
-    border-color: #fbfbfb;
+    color: #eeeeee;
+    border-color: #eeeeee;
   }
 }
 
 @media (min-width: 1024px) {
   [class*="leto-frame"] .leto-card-lighter-grey-tablet-pc {
     background: transparent;
-    color: #fbfbfb;
-    border-color: #fbfbfb;
+    color: #eeeeee;
+    border-color: #eeeeee;
   }
 }
 
 @media (min-width: 1024px) and ((pointer: coarse)) {
   [class*="leto-frame"] .leto-card-lighter-grey-tablet-pc {
     background: transparent;
-    color: #fbfbfb;
-    border-color: #fbfbfb;
+    color: #eeeeee;
+    border-color: #eeeeee;
   }
 }
 
 @media (min-width: 1440px) {
   [class*="leto-frame"] .leto-card-lighter-grey-pc {
     background: transparent;
-    color: #fbfbfb;
-    border-color: #fbfbfb;
+    color: #eeeeee;
+    border-color: #eeeeee;
   }
 }
 
 @media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
   [class*="leto-frame"] .leto-card-lighter-grey-ultrawide {
     background: transparent;
-    color: #fbfbfb;
-    border-color: #fbfbfb;
+    color: #eeeeee;
+    border-color: #eeeeee;
   }
 }
 
 @media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
   [class*="leto-frame"] .leto-card-lighter-grey-super-ultrawide {
     background: transparent;
-    color: #fbfbfb;
-    border-color: #fbfbfb;
+    color: #eeeeee;
+    border-color: #eeeeee;
   }
 }
 
 [class*="leto-frame"] .leto-card-dark-grey {
   background: transparent;
-  color: #c8c8c8;
-  border-color: #c8c8c8;
+  color: #bbbbbb;
+  border-color: #bbbbbb;
 }
 
 @media (min-width: 600px) {
   [class*="leto-frame"] .leto-card-dark-grey-tablet {
     background: transparent;
-    color: #c8c8c8;
-    border-color: #c8c8c8;
+    color: #bbbbbb;
+    border-color: #bbbbbb;
   }
 }
 
 @media (min-width: 1024px) {
   [class*="leto-frame"] .leto-card-dark-grey-tablet-pc {
     background: transparent;
-    color: #c8c8c8;
-    border-color: #c8c8c8;
+    color: #bbbbbb;
+    border-color: #bbbbbb;
   }
 }
 
 @media (min-width: 1024px) and ((pointer: coarse)) {
   [class*="leto-frame"] .leto-card-dark-grey-tablet-pc {
     background: transparent;
-    color: #c8c8c8;
-    border-color: #c8c8c8;
+    color: #bbbbbb;
+    border-color: #bbbbbb;
   }
 }
 
 @media (min-width: 1440px) {
   [class*="leto-frame"] .leto-card-dark-grey-pc {
     background: transparent;
-    color: #c8c8c8;
-    border-color: #c8c8c8;
+    color: #bbbbbb;
+    border-color: #bbbbbb;
   }
 }
 
 @media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
   [class*="leto-frame"] .leto-card-dark-grey-ultrawide {
     background: transparent;
-    color: #c8c8c8;
-    border-color: #c8c8c8;
+    color: #bbbbbb;
+    border-color: #bbbbbb;
   }
 }
 
 @media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
   [class*="leto-frame"] .leto-card-dark-grey-super-ultrawide {
     background: transparent;
-    color: #c8c8c8;
-    border-color: #c8c8c8;
+    color: #bbbbbb;
+    border-color: #bbbbbb;
   }
 }
 
 [class*="leto-frame"] .leto-card-darker-grey {
   background: transparent;
-  color: #aeaeae;
-  border-color: #aeaeae;
+  color: #a1a1a1;
+  border-color: #a1a1a1;
 }
 
 @media (min-width: 600px) {
   [class*="leto-frame"] .leto-card-darker-grey-tablet {
     background: transparent;
-    color: #aeaeae;
-    border-color: #aeaeae;
+    color: #a1a1a1;
+    border-color: #a1a1a1;
   }
 }
 
 @media (min-width: 1024px) {
   [class*="leto-frame"] .leto-card-darker-grey-tablet-pc {
     background: transparent;
-    color: #aeaeae;
-    border-color: #aeaeae;
+    color: #a1a1a1;
+    border-color: #a1a1a1;
   }
 }
 
 @media (min-width: 1024px) and ((pointer: coarse)) {
   [class*="leto-frame"] .leto-card-darker-grey-tablet-pc {
     background: transparent;
-    color: #aeaeae;
-    border-color: #aeaeae;
+    color: #a1a1a1;
+    border-color: #a1a1a1;
   }
 }
 
 @media (min-width: 1440px) {
   [class*="leto-frame"] .leto-card-darker-grey-pc {
     background: transparent;
-    color: #aeaeae;
-    border-color: #aeaeae;
+    color: #a1a1a1;
+    border-color: #a1a1a1;
   }
 }
 
 @media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
   [class*="leto-frame"] .leto-card-darker-grey-ultrawide {
     background: transparent;
-    color: #aeaeae;
-    border-color: #aeaeae;
+    color: #a1a1a1;
+    border-color: #a1a1a1;
   }
 }
 
 @media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
   [class*="leto-frame"] .leto-card-darker-grey-super-ultrawide {
     background: transparent;
-    color: #aeaeae;
-    border-color: #aeaeae;
+    color: #a1a1a1;
+    border-color: #a1a1a1;
   }
 }
 
@@ -7047,7 +7047,7 @@ p, b {
   border-width: 1px;
   border-style: solid;
   border-radius: 128px;
-  border-color: #e1e1e1;
+  border-color: #d4d4d4;
 }
 
 .leto-button > * {
@@ -7077,7 +7077,7 @@ p, b {
   border-width: 1px;
   border-style: solid;
   border-radius: 128px;
-  border-color: #e1e1e1;
+  border-color: #d4d4d4;
 }
 
 .leto-button-xxs > * {
@@ -7107,7 +7107,7 @@ p, b {
   border-width: 1px;
   border-style: solid;
   border-radius: 128px;
-  border-color: #e1e1e1;
+  border-color: #d4d4d4;
 }
 
 .leto-button-xs > * {
@@ -7137,7 +7137,7 @@ p, b {
   border-width: 1px;
   border-style: solid;
   border-radius: 128px;
-  border-color: #e1e1e1;
+  border-color: #d4d4d4;
 }
 
 .leto-button-sm > * {
@@ -7167,7 +7167,7 @@ p, b {
   border-width: 1px;
   border-style: solid;
   border-radius: 128px;
-  border-color: #e1e1e1;
+  border-color: #d4d4d4;
 }
 
 .leto-button-md > * {
@@ -7197,7 +7197,7 @@ p, b {
   border-width: 1px;
   border-style: solid;
   border-radius: 128px;
-  border-color: #e1e1e1;
+  border-color: #d4d4d4;
 }
 
 .leto-button-lg > * {
@@ -7227,7 +7227,7 @@ p, b {
   border-width: 1px;
   border-style: solid;
   border-radius: 128px;
-  border-color: #e1e1e1;
+  border-color: #d4d4d4;
 }
 
 .leto-button-xl > * {
@@ -7257,7 +7257,7 @@ p, b {
   border-width: 1px;
   border-style: solid;
   border-radius: 128px;
-  border-color: #e1e1e1;
+  border-color: #d4d4d4;
 }
 
 .leto-button-xxl > * {
@@ -7288,7 +7288,7 @@ p, b {
   border-width: 1px;
   border-style: solid;
   border-radius: 128px;
-  border-color: #e1e1e1;
+  border-color: #d4d4d4;
 }
 
 .leto-button-full > * {
@@ -7319,7 +7319,7 @@ p, b {
   border-width: 1px;
   border-style: solid;
   border-radius: 128px;
-  border-color: #e1e1e1;
+  border-color: #d4d4d4;
 }
 
 .leto-button-full-xxs > * {
@@ -7350,7 +7350,7 @@ p, b {
   border-width: 1px;
   border-style: solid;
   border-radius: 128px;
-  border-color: #e1e1e1;
+  border-color: #d4d4d4;
 }
 
 .leto-button-full-xs > * {
@@ -7381,7 +7381,7 @@ p, b {
   border-width: 1px;
   border-style: solid;
   border-radius: 128px;
-  border-color: #e1e1e1;
+  border-color: #d4d4d4;
 }
 
 .leto-button-full-sm > * {
@@ -7412,7 +7412,7 @@ p, b {
   border-width: 1px;
   border-style: solid;
   border-radius: 128px;
-  border-color: #e1e1e1;
+  border-color: #d4d4d4;
 }
 
 .leto-button-full-md > * {
@@ -7443,7 +7443,7 @@ p, b {
   border-width: 1px;
   border-style: solid;
   border-radius: 128px;
-  border-color: #e1e1e1;
+  border-color: #d4d4d4;
 }
 
 .leto-button-full-lg > * {
@@ -7474,7 +7474,7 @@ p, b {
   border-width: 1px;
   border-style: solid;
   border-radius: 128px;
-  border-color: #e1e1e1;
+  border-color: #d4d4d4;
 }
 
 .leto-button-full-xl > * {
@@ -7505,7 +7505,7 @@ p, b {
   border-width: 1px;
   border-style: solid;
   border-radius: 128px;
-  border-color: #e1e1e1;
+  border-color: #d4d4d4;
 }
 
 .leto-button-full-xxl > * {
@@ -7548,7 +7548,7 @@ p, b {
   border-width: 1px;
   border-style: solid;
   border-radius: 128px;
-  border-color: #e1e1e1;
+  border-color: #d4d4d4;
 }
 
 .leto-badge > * {
@@ -7575,7 +7575,7 @@ p, b {
   border-width: 1px;
   border-style: solid;
   border-radius: 128px;
-  border-color: #e1e1e1;
+  border-color: #d4d4d4;
 }
 
 .leto-badge-xxs > * {
@@ -7602,7 +7602,7 @@ p, b {
   border-width: 1px;
   border-style: solid;
   border-radius: 128px;
-  border-color: #e1e1e1;
+  border-color: #d4d4d4;
 }
 
 .leto-badge-xs > * {
@@ -7629,7 +7629,7 @@ p, b {
   border-width: 1px;
   border-style: solid;
   border-radius: 128px;
-  border-color: #e1e1e1;
+  border-color: #d4d4d4;
 }
 
 .leto-badge-sm > * {
@@ -7656,7 +7656,7 @@ p, b {
   border-width: 1px;
   border-style: solid;
   border-radius: 128px;
-  border-color: #e1e1e1;
+  border-color: #d4d4d4;
 }
 
 .leto-badge-md > * {
@@ -7683,7 +7683,7 @@ p, b {
   border-width: 1px;
   border-style: solid;
   border-radius: 128px;
-  border-color: #e1e1e1;
+  border-color: #d4d4d4;
 }
 
 .leto-badge-lg > * {
@@ -7710,7 +7710,7 @@ p, b {
   border-width: 1px;
   border-style: solid;
   border-radius: 128px;
-  border-color: #e1e1e1;
+  border-color: #d4d4d4;
 }
 
 .leto-badge-xl > * {
@@ -7737,7 +7737,7 @@ p, b {
   border-width: 1px;
   border-style: solid;
   border-radius: 128px;
-  border-color: #e1e1e1;
+  border-color: #d4d4d4;
 }
 
 .leto-badge-xxl > * {
@@ -7774,12 +7774,12 @@ p, b {
   border-width: 1px;
   border-style: solid;
   border-radius: 12px;
-  border-color: #e1e1e1;
+  border-color: #d4d4d4;
 }
 
 .leto-input[type="text"]:focus, .leto-input[type="date"]:focus, .leto-input[type="datetime-local"]:focus, .leto-input[type="email"]:focus, .leto-input[type="month"]:focus, .leto-input[type="number"]:focus, .leto-input[type="password"]:focus, .leto-input[type="tel"]:focus, .leto-input[type="time"]:focus, .leto-input[type="url"]:focus, .leto-input[type="week"]:focus {
-  background-color: #eeeeee;
-  border-color: #eeeeee;
+  background-color: #e1e1e1;
+  border-color: #e1e1e1;
 }
 
 .leto-input-xxs[type="text"], .leto-input-xxs[type="date"], .leto-input-xxs[type="datetime-local"], .leto-input-xxs[type="email"], .leto-input-xxs[type="month"], .leto-input-xxs[type="number"], .leto-input-xxs[type="password"], .leto-input-xxs[type="tel"], .leto-input-xxs[type="time"], .leto-input-xxs[type="url"], .leto-input-xxs[type="week"] {
@@ -7791,12 +7791,12 @@ p, b {
   border-width: 1px;
   border-style: solid;
   border-radius: 12px;
-  border-color: #e1e1e1;
+  border-color: #d4d4d4;
 }
 
 .leto-input-xxs[type="text"]:focus, .leto-input-xxs[type="date"]:focus, .leto-input-xxs[type="datetime-local"]:focus, .leto-input-xxs[type="email"]:focus, .leto-input-xxs[type="month"]:focus, .leto-input-xxs[type="number"]:focus, .leto-input-xxs[type="password"]:focus, .leto-input-xxs[type="tel"]:focus, .leto-input-xxs[type="time"]:focus, .leto-input-xxs[type="url"]:focus, .leto-input-xxs[type="week"]:focus {
-  background-color: #eeeeee;
-  border-color: #eeeeee;
+  background-color: #e1e1e1;
+  border-color: #e1e1e1;
 }
 
 .leto-input-xs[type="text"], .leto-input-xs[type="date"], .leto-input-xs[type="datetime-local"], .leto-input-xs[type="email"], .leto-input-xs[type="month"], .leto-input-xs[type="number"], .leto-input-xs[type="password"], .leto-input-xs[type="tel"], .leto-input-xs[type="time"], .leto-input-xs[type="url"], .leto-input-xs[type="week"] {
@@ -7808,12 +7808,12 @@ p, b {
   border-width: 1px;
   border-style: solid;
   border-radius: 12px;
-  border-color: #e1e1e1;
+  border-color: #d4d4d4;
 }
 
 .leto-input-xs[type="text"]:focus, .leto-input-xs[type="date"]:focus, .leto-input-xs[type="datetime-local"]:focus, .leto-input-xs[type="email"]:focus, .leto-input-xs[type="month"]:focus, .leto-input-xs[type="number"]:focus, .leto-input-xs[type="password"]:focus, .leto-input-xs[type="tel"]:focus, .leto-input-xs[type="time"]:focus, .leto-input-xs[type="url"]:focus, .leto-input-xs[type="week"]:focus {
-  background-color: #eeeeee;
-  border-color: #eeeeee;
+  background-color: #e1e1e1;
+  border-color: #e1e1e1;
 }
 
 .leto-input-sm[type="text"], .leto-input-sm[type="date"], .leto-input-sm[type="datetime-local"], .leto-input-sm[type="email"], .leto-input-sm[type="month"], .leto-input-sm[type="number"], .leto-input-sm[type="password"], .leto-input-sm[type="tel"], .leto-input-sm[type="time"], .leto-input-sm[type="url"], .leto-input-sm[type="week"] {
@@ -7825,12 +7825,12 @@ p, b {
   border-width: 1px;
   border-style: solid;
   border-radius: 12px;
-  border-color: #e1e1e1;
+  border-color: #d4d4d4;
 }
 
 .leto-input-sm[type="text"]:focus, .leto-input-sm[type="date"]:focus, .leto-input-sm[type="datetime-local"]:focus, .leto-input-sm[type="email"]:focus, .leto-input-sm[type="month"]:focus, .leto-input-sm[type="number"]:focus, .leto-input-sm[type="password"]:focus, .leto-input-sm[type="tel"]:focus, .leto-input-sm[type="time"]:focus, .leto-input-sm[type="url"]:focus, .leto-input-sm[type="week"]:focus {
-  background-color: #eeeeee;
-  border-color: #eeeeee;
+  background-color: #e1e1e1;
+  border-color: #e1e1e1;
 }
 
 .leto-input-md[type="text"], .leto-input-md[type="date"], .leto-input-md[type="datetime-local"], .leto-input-md[type="email"], .leto-input-md[type="month"], .leto-input-md[type="number"], .leto-input-md[type="password"], .leto-input-md[type="tel"], .leto-input-md[type="time"], .leto-input-md[type="url"], .leto-input-md[type="week"] {
@@ -7842,12 +7842,12 @@ p, b {
   border-width: 1px;
   border-style: solid;
   border-radius: 12px;
-  border-color: #e1e1e1;
+  border-color: #d4d4d4;
 }
 
 .leto-input-md[type="text"]:focus, .leto-input-md[type="date"]:focus, .leto-input-md[type="datetime-local"]:focus, .leto-input-md[type="email"]:focus, .leto-input-md[type="month"]:focus, .leto-input-md[type="number"]:focus, .leto-input-md[type="password"]:focus, .leto-input-md[type="tel"]:focus, .leto-input-md[type="time"]:focus, .leto-input-md[type="url"]:focus, .leto-input-md[type="week"]:focus {
-  background-color: #eeeeee;
-  border-color: #eeeeee;
+  background-color: #e1e1e1;
+  border-color: #e1e1e1;
 }
 
 .leto-input-lg[type="text"], .leto-input-lg[type="date"], .leto-input-lg[type="datetime-local"], .leto-input-lg[type="email"], .leto-input-lg[type="month"], .leto-input-lg[type="number"], .leto-input-lg[type="password"], .leto-input-lg[type="tel"], .leto-input-lg[type="time"], .leto-input-lg[type="url"], .leto-input-lg[type="week"] {
@@ -7859,12 +7859,12 @@ p, b {
   border-width: 1px;
   border-style: solid;
   border-radius: 12px;
-  border-color: #e1e1e1;
+  border-color: #d4d4d4;
 }
 
 .leto-input-lg[type="text"]:focus, .leto-input-lg[type="date"]:focus, .leto-input-lg[type="datetime-local"]:focus, .leto-input-lg[type="email"]:focus, .leto-input-lg[type="month"]:focus, .leto-input-lg[type="number"]:focus, .leto-input-lg[type="password"]:focus, .leto-input-lg[type="tel"]:focus, .leto-input-lg[type="time"]:focus, .leto-input-lg[type="url"]:focus, .leto-input-lg[type="week"]:focus {
-  background-color: #eeeeee;
-  border-color: #eeeeee;
+  background-color: #e1e1e1;
+  border-color: #e1e1e1;
 }
 
 .leto-input-xl[type="text"], .leto-input-xl[type="date"], .leto-input-xl[type="datetime-local"], .leto-input-xl[type="email"], .leto-input-xl[type="month"], .leto-input-xl[type="number"], .leto-input-xl[type="password"], .leto-input-xl[type="tel"], .leto-input-xl[type="time"], .leto-input-xl[type="url"], .leto-input-xl[type="week"] {
@@ -7876,12 +7876,12 @@ p, b {
   border-width: 1px;
   border-style: solid;
   border-radius: 12px;
-  border-color: #e1e1e1;
+  border-color: #d4d4d4;
 }
 
 .leto-input-xl[type="text"]:focus, .leto-input-xl[type="date"]:focus, .leto-input-xl[type="datetime-local"]:focus, .leto-input-xl[type="email"]:focus, .leto-input-xl[type="month"]:focus, .leto-input-xl[type="number"]:focus, .leto-input-xl[type="password"]:focus, .leto-input-xl[type="tel"]:focus, .leto-input-xl[type="time"]:focus, .leto-input-xl[type="url"]:focus, .leto-input-xl[type="week"]:focus {
-  background-color: #eeeeee;
-  border-color: #eeeeee;
+  background-color: #e1e1e1;
+  border-color: #e1e1e1;
 }
 
 .leto-input-xxl[type="text"], .leto-input-xxl[type="date"], .leto-input-xxl[type="datetime-local"], .leto-input-xxl[type="email"], .leto-input-xxl[type="month"], .leto-input-xxl[type="number"], .leto-input-xxl[type="password"], .leto-input-xxl[type="tel"], .leto-input-xxl[type="time"], .leto-input-xxl[type="url"], .leto-input-xxl[type="week"] {
@@ -7893,12 +7893,12 @@ p, b {
   border-width: 1px;
   border-style: solid;
   border-radius: 12px;
-  border-color: #e1e1e1;
+  border-color: #d4d4d4;
 }
 
 .leto-input-xxl[type="text"]:focus, .leto-input-xxl[type="date"]:focus, .leto-input-xxl[type="datetime-local"]:focus, .leto-input-xxl[type="email"]:focus, .leto-input-xxl[type="month"]:focus, .leto-input-xxl[type="number"]:focus, .leto-input-xxl[type="password"]:focus, .leto-input-xxl[type="tel"]:focus, .leto-input-xxl[type="time"]:focus, .leto-input-xxl[type="url"]:focus, .leto-input-xxl[type="week"]:focus {
-  background-color: #eeeeee;
-  border-color: #eeeeee;
+  background-color: #e1e1e1;
+  border-color: #e1e1e1;
 }
 
 .leto-frame-default [class*="leto-input"][type="text"], .leto-frame-default [class*="leto-input"][type="date"], .leto-frame-default [class*="leto-input"][type="datetime-local"], .leto-frame-default [class*="leto-input"][type="email"], .leto-frame-default [class*="leto-input"][type="month"], .leto-frame-default [class*="leto-input"][type="number"], .leto-frame-default [class*="leto-input"][type="password"], .leto-frame-default [class*="leto-input"][type="tel"], .leto-frame-default [class*="leto-input"][type="time"], .leto-frame-default [class*="leto-input"][type="url"], .leto-frame-default [class*="leto-input"][type="week"] {
@@ -7927,6 +7927,7 @@ p, b {
 
 .leto-input-wrapper label {
   position: absolute;
+  background-color: #fdfdfd;
   font-size: 14px;
   font-weight: 600;
   top: -10px;
@@ -7944,7 +7945,9 @@ p, b {
 }
 
 .leto-input-wrapper [class*=leto-input] {
-  border: 1px solid #eeeeee;
+  min-width: 0;
+  width: 100%;
+  border: 1px solid #e1e1e1;
   margin: 0;
 }
 
@@ -7970,7 +7973,7 @@ p, b {
 
 .leto-input-wrapper [class*=leto-input]:focus {
   background-color: transparent;
-  border: 1px solid #c8c8c8;
+  border: 1px solid #bbbbbb;
 }
 
 .leto-input-wrapper > i {
@@ -8006,8 +8009,8 @@ p, b {
 .leto-input[type="radio"]:before {
   width: 200%;
   height: 200%;
-  background-color: #303030;
-  border: 1px solid #e1e1e1;
+  background-color: #fdfdfd;
+  border: 1px solid #d4d4d4;
   border-radius: 100%;
   margin: calc(-1 * (24px * 2) / 4);
 }
@@ -8020,7 +8023,7 @@ p, b {
 }
 
 .leto-input[type="radio"]:checked:after {
-  background: #fdfdfd;
+  background-color: #303030;
 }
 
 .leto-input-xxs[type="radio"] {
@@ -8039,8 +8042,8 @@ p, b {
 .leto-input-xxs[type="radio"]:before {
   width: 200%;
   height: 200%;
-  background-color: #303030;
-  border: 1px solid #e1e1e1;
+  background-color: #fdfdfd;
+  border: 1px solid #d4d4d4;
   border-radius: 100%;
   margin: calc(-1 * (8px * 2) / 4);
 }
@@ -8053,7 +8056,7 @@ p, b {
 }
 
 .leto-input-xxs[type="radio"]:checked:after {
-  background: #fdfdfd;
+  background-color: #303030;
 }
 
 .leto-input-xs[type="radio"] {
@@ -8072,8 +8075,8 @@ p, b {
 .leto-input-xs[type="radio"]:before {
   width: 200%;
   height: 200%;
-  background-color: #303030;
-  border: 1px solid #e1e1e1;
+  background-color: #fdfdfd;
+  border: 1px solid #d4d4d4;
   border-radius: 100%;
   margin: calc(-1 * (12px * 2) / 4);
 }
@@ -8086,7 +8089,7 @@ p, b {
 }
 
 .leto-input-xs[type="radio"]:checked:after {
-  background: #fdfdfd;
+  background-color: #303030;
 }
 
 .leto-input-sm[type="radio"] {
@@ -8105,8 +8108,8 @@ p, b {
 .leto-input-sm[type="radio"]:before {
   width: 200%;
   height: 200%;
-  background-color: #303030;
-  border: 1px solid #e1e1e1;
+  background-color: #fdfdfd;
+  border: 1px solid #d4d4d4;
   border-radius: 100%;
   margin: calc(-1 * (16px * 2) / 4);
 }
@@ -8119,7 +8122,7 @@ p, b {
 }
 
 .leto-input-sm[type="radio"]:checked:after {
-  background: #fdfdfd;
+  background-color: #303030;
 }
 
 .leto-input-md[type="radio"] {
@@ -8138,8 +8141,8 @@ p, b {
 .leto-input-md[type="radio"]:before {
   width: 200%;
   height: 200%;
-  background-color: #303030;
-  border: 1px solid #e1e1e1;
+  background-color: #fdfdfd;
+  border: 1px solid #d4d4d4;
   border-radius: 100%;
   margin: calc(-1 * (24px * 2) / 4);
 }
@@ -8152,7 +8155,7 @@ p, b {
 }
 
 .leto-input-md[type="radio"]:checked:after {
-  background: #fdfdfd;
+  background-color: #303030;
 }
 
 .leto-input-lg[type="radio"] {
@@ -8171,8 +8174,8 @@ p, b {
 .leto-input-lg[type="radio"]:before {
   width: 200%;
   height: 200%;
-  background-color: #303030;
-  border: 1px solid #e1e1e1;
+  background-color: #fdfdfd;
+  border: 1px solid #d4d4d4;
   border-radius: 100%;
   margin: calc(-1 * (32px * 2) / 4);
 }
@@ -8185,7 +8188,7 @@ p, b {
 }
 
 .leto-input-lg[type="radio"]:checked:after {
-  background: #fdfdfd;
+  background-color: #303030;
 }
 
 .leto-input-xl[type="radio"] {
@@ -8204,8 +8207,8 @@ p, b {
 .leto-input-xl[type="radio"]:before {
   width: 200%;
   height: 200%;
-  background-color: #303030;
-  border: 1px solid #e1e1e1;
+  background-color: #fdfdfd;
+  border: 1px solid #d4d4d4;
   border-radius: 100%;
   margin: calc(-1 * (48px * 2) / 4);
 }
@@ -8218,7 +8221,7 @@ p, b {
 }
 
 .leto-input-xl[type="radio"]:checked:after {
-  background: #fdfdfd;
+  background-color: #303030;
 }
 
 .leto-input-xxl[type="radio"] {
@@ -8237,8 +8240,8 @@ p, b {
 .leto-input-xxl[type="radio"]:before {
   width: 200%;
   height: 200%;
-  background-color: #303030;
-  border: 1px solid #e1e1e1;
+  background-color: #fdfdfd;
+  border: 1px solid #d4d4d4;
   border-radius: 100%;
   margin: calc(-1 * (64px * 2) / 4);
 }
@@ -8251,6 +8254,18 @@ p, b {
 }
 
 .leto-input-xxl[type="radio"]:checked:after {
+  background-color: #303030;
+}
+
+.leto-frame-default [class*="leto-input"][type="radio"]:before {
+  background: #fdfdfd;
+}
+
+.leto-frame-dark [class*="leto-input"][type="radio"]:before {
+  background: #303030;
+}
+
+.leto-frame-dark [class*="leto-input"][type="radio"]:checked:after {
   background: #fdfdfd;
 }
 
@@ -8270,8 +8285,8 @@ p, b {
 .leto-input[type="checkbox"]:before {
   width: 200%;
   height: 200%;
-  background-color: #303030;
-  border: 1px solid #e1e1e1;
+  background-color: #fdfdfd;
+  border: 1px solid #d4d4d4;
   border-radius: 100%;
   margin: calc(-1 * (24px * 2) / 4);
 }
@@ -8284,7 +8299,7 @@ p, b {
 }
 
 .leto-input[type="checkbox"]:checked:after {
-  background: #fdfdfd;
+  background-color: #303030;
 }
 
 .leto-input-xxs[type="checkbox"] {
@@ -8303,8 +8318,8 @@ p, b {
 .leto-input-xxs[type="checkbox"]:before {
   width: 200%;
   height: 200%;
-  background-color: #303030;
-  border: 1px solid #e1e1e1;
+  background-color: #fdfdfd;
+  border: 1px solid #d4d4d4;
   border-radius: 100%;
   margin: calc(-1 * (8px * 2) / 4);
 }
@@ -8317,7 +8332,7 @@ p, b {
 }
 
 .leto-input-xxs[type="checkbox"]:checked:after {
-  background: #fdfdfd;
+  background-color: #303030;
 }
 
 .leto-input-xs[type="checkbox"] {
@@ -8336,8 +8351,8 @@ p, b {
 .leto-input-xs[type="checkbox"]:before {
   width: 200%;
   height: 200%;
-  background-color: #303030;
-  border: 1px solid #e1e1e1;
+  background-color: #fdfdfd;
+  border: 1px solid #d4d4d4;
   border-radius: 100%;
   margin: calc(-1 * (12px * 2) / 4);
 }
@@ -8350,7 +8365,7 @@ p, b {
 }
 
 .leto-input-xs[type="checkbox"]:checked:after {
-  background: #fdfdfd;
+  background-color: #303030;
 }
 
 .leto-input-sm[type="checkbox"] {
@@ -8369,8 +8384,8 @@ p, b {
 .leto-input-sm[type="checkbox"]:before {
   width: 200%;
   height: 200%;
-  background-color: #303030;
-  border: 1px solid #e1e1e1;
+  background-color: #fdfdfd;
+  border: 1px solid #d4d4d4;
   border-radius: 100%;
   margin: calc(-1 * (16px * 2) / 4);
 }
@@ -8383,7 +8398,7 @@ p, b {
 }
 
 .leto-input-sm[type="checkbox"]:checked:after {
-  background: #fdfdfd;
+  background-color: #303030;
 }
 
 .leto-input-md[type="checkbox"] {
@@ -8402,8 +8417,8 @@ p, b {
 .leto-input-md[type="checkbox"]:before {
   width: 200%;
   height: 200%;
-  background-color: #303030;
-  border: 1px solid #e1e1e1;
+  background-color: #fdfdfd;
+  border: 1px solid #d4d4d4;
   border-radius: 100%;
   margin: calc(-1 * (24px * 2) / 4);
 }
@@ -8416,7 +8431,7 @@ p, b {
 }
 
 .leto-input-md[type="checkbox"]:checked:after {
-  background: #fdfdfd;
+  background-color: #303030;
 }
 
 .leto-input-lg[type="checkbox"] {
@@ -8435,8 +8450,8 @@ p, b {
 .leto-input-lg[type="checkbox"]:before {
   width: 200%;
   height: 200%;
-  background-color: #303030;
-  border: 1px solid #e1e1e1;
+  background-color: #fdfdfd;
+  border: 1px solid #d4d4d4;
   border-radius: 100%;
   margin: calc(-1 * (32px * 2) / 4);
 }
@@ -8449,7 +8464,7 @@ p, b {
 }
 
 .leto-input-lg[type="checkbox"]:checked:after {
-  background: #fdfdfd;
+  background-color: #303030;
 }
 
 .leto-input-xl[type="checkbox"] {
@@ -8468,8 +8483,8 @@ p, b {
 .leto-input-xl[type="checkbox"]:before {
   width: 200%;
   height: 200%;
-  background-color: #303030;
-  border: 1px solid #e1e1e1;
+  background-color: #fdfdfd;
+  border: 1px solid #d4d4d4;
   border-radius: 100%;
   margin: calc(-1 * (48px * 2) / 4);
 }
@@ -8482,7 +8497,7 @@ p, b {
 }
 
 .leto-input-xl[type="checkbox"]:checked:after {
-  background: #fdfdfd;
+  background-color: #303030;
 }
 
 .leto-input-xxl[type="checkbox"] {
@@ -8501,8 +8516,8 @@ p, b {
 .leto-input-xxl[type="checkbox"]:before {
   width: 200%;
   height: 200%;
-  background-color: #303030;
-  border: 1px solid #e1e1e1;
+  background-color: #fdfdfd;
+  border: 1px solid #d4d4d4;
   border-radius: 100%;
   margin: calc(-1 * (64px * 2) / 4);
 }
@@ -8515,6 +8530,18 @@ p, b {
 }
 
 .leto-input-xxl[type="checkbox"]:checked:after {
+  background-color: #303030;
+}
+
+.leto-frame-default [class*="leto-input"][type="checkbox"]:before {
+  background: #fdfdfd;
+}
+
+.leto-frame-dark [class*="leto-input"][type="checkbox"]:before {
+  background: #303030;
+}
+
+.leto-frame-dark [class*="leto-input"][type="checkbox"]:checked:after {
   background: #fdfdfd;
 }
 
@@ -8526,7 +8553,7 @@ p, b {
   border-width: 1px;
   border-style: solid;
   border-radius: 12px;
-  border-color: #e1e1e1;
+  border-color: #d4d4d4;
 }
 
 .leto-input-xxs[type="color"] {
@@ -8537,7 +8564,7 @@ p, b {
   border-width: 1px;
   border-style: solid;
   border-radius: 12px;
-  border-color: #e1e1e1;
+  border-color: #d4d4d4;
 }
 
 .leto-input-xs[type="color"] {
@@ -8548,7 +8575,7 @@ p, b {
   border-width: 1px;
   border-style: solid;
   border-radius: 12px;
-  border-color: #e1e1e1;
+  border-color: #d4d4d4;
 }
 
 .leto-input-sm[type="color"] {
@@ -8559,7 +8586,7 @@ p, b {
   border-width: 1px;
   border-style: solid;
   border-radius: 12px;
-  border-color: #e1e1e1;
+  border-color: #d4d4d4;
 }
 
 .leto-input-md[type="color"] {
@@ -8570,7 +8597,7 @@ p, b {
   border-width: 1px;
   border-style: solid;
   border-radius: 12px;
-  border-color: #e1e1e1;
+  border-color: #d4d4d4;
 }
 
 .leto-input-lg[type="color"] {
@@ -8581,7 +8608,7 @@ p, b {
   border-width: 1px;
   border-style: solid;
   border-radius: 12px;
-  border-color: #e1e1e1;
+  border-color: #d4d4d4;
 }
 
 .leto-input-xl[type="color"] {
@@ -8592,7 +8619,7 @@ p, b {
   border-width: 1px;
   border-style: solid;
   border-radius: 12px;
-  border-color: #e1e1e1;
+  border-color: #d4d4d4;
 }
 
 .leto-input-xxl[type="color"] {
@@ -8603,7 +8630,7 @@ p, b {
   border-width: 1px;
   border-style: solid;
   border-radius: 12px;
-  border-color: #e1e1e1;
+  border-color: #d4d4d4;
 }
 
 .leto-frame-default [class*="leto-input"][type="color"] {
@@ -8645,7 +8672,7 @@ p, b {
   animate: 0.2s;
   -webkit-box-shadow: 0px 0px 0px #000000;
           box-shadow: 0px 0px 0px #000000;
-  background: #e1e1e1;
+  background: #d4d4d4;
   border-radius: 6px;
   border: 0px solid #000000;
 }
@@ -8657,14 +8684,14 @@ p, b {
   height: 40px;
   width: 20px;
   border-radius: 50px;
-  background: #aeaeae;
+  background: #a1a1a1;
   cursor: pointer;
   -webkit-appearance: none;
   margin-top: -16px;
 }
 
 .leto-input[type=range]:focus::-webkit-slider-runnable-track {
-  background: #e1e1e1;
+  background: #d4d4d4;
 }
 
 .leto-input[type=range]::-moz-range-track {
@@ -8673,7 +8700,7 @@ p, b {
   cursor: pointer;
   animate: 0.2s;
   box-shadow: 0px 0px 0px #000000;
-  background: #e1e1e1;
+  background: #d4d4d4;
   border-radius: 6px;
   border: 0px solid #000000;
 }
@@ -8684,7 +8711,7 @@ p, b {
   height: 40px;
   width: 20px;
   border-radius: 50px;
-  background: #aeaeae;
+  background: #a1a1a1;
   cursor: pointer;
 }
 
@@ -8699,7 +8726,7 @@ p, b {
 }
 
 .leto-input[type=range]::-ms-fill-lower, .leto-input[type=range]::-ms-fill-upper {
-  background: #e1e1e1;
+  background: #d4d4d4;
   border: 0px solid #000000;
   border-radius: 12px;
   box-shadow: 0px 0px 0px #000000;
@@ -8712,12 +8739,12 @@ p, b {
   height: 40px;
   width: 20px;
   border-radius: 50px;
-  background: #aeaeae;
+  background: #a1a1a1;
   cursor: pointer;
 }
 
 .leto-input[type=range]:focus {
-  background: #e1e1e1;
+  background: #d4d4d4;
 }
 
 .leto-file {
@@ -8789,13 +8816,13 @@ p, b {
   border-width: 1px;
   border-style: solid;
   border-radius: 12px;
-  background: #eeeeee;
-  border-color: #e1e1e1;
+  background: #e1e1e1;
+  border-color: #d4d4d4;
 }
 
 .leto-input[type="search"]:focus {
   background-color: transparent;
-  border-color: #e1e1e1;
+  border-color: #d4d4d4;
 }
 
 .leto-input-xxs[type="search"] {
@@ -8807,13 +8834,13 @@ p, b {
   border-width: 1px;
   border-style: solid;
   border-radius: 12px;
-  background: #eeeeee;
-  border-color: #e1e1e1;
+  background: #e1e1e1;
+  border-color: #d4d4d4;
 }
 
 .leto-input-xxs[type="search"]:focus {
   background-color: transparent;
-  border-color: #e1e1e1;
+  border-color: #d4d4d4;
 }
 
 .leto-input-xs[type="search"] {
@@ -8825,13 +8852,13 @@ p, b {
   border-width: 1px;
   border-style: solid;
   border-radius: 12px;
-  background: #eeeeee;
-  border-color: #e1e1e1;
+  background: #e1e1e1;
+  border-color: #d4d4d4;
 }
 
 .leto-input-xs[type="search"]:focus {
   background-color: transparent;
-  border-color: #e1e1e1;
+  border-color: #d4d4d4;
 }
 
 .leto-input-sm[type="search"] {
@@ -8843,13 +8870,13 @@ p, b {
   border-width: 1px;
   border-style: solid;
   border-radius: 12px;
-  background: #eeeeee;
-  border-color: #e1e1e1;
+  background: #e1e1e1;
+  border-color: #d4d4d4;
 }
 
 .leto-input-sm[type="search"]:focus {
   background-color: transparent;
-  border-color: #e1e1e1;
+  border-color: #d4d4d4;
 }
 
 .leto-input-md[type="search"] {
@@ -8861,13 +8888,13 @@ p, b {
   border-width: 1px;
   border-style: solid;
   border-radius: 12px;
-  background: #eeeeee;
-  border-color: #e1e1e1;
+  background: #e1e1e1;
+  border-color: #d4d4d4;
 }
 
 .leto-input-md[type="search"]:focus {
   background-color: transparent;
-  border-color: #e1e1e1;
+  border-color: #d4d4d4;
 }
 
 .leto-input-lg[type="search"] {
@@ -8879,13 +8906,13 @@ p, b {
   border-width: 1px;
   border-style: solid;
   border-radius: 12px;
-  background: #eeeeee;
-  border-color: #e1e1e1;
+  background: #e1e1e1;
+  border-color: #d4d4d4;
 }
 
 .leto-input-lg[type="search"]:focus {
   background-color: transparent;
-  border-color: #e1e1e1;
+  border-color: #d4d4d4;
 }
 
 .leto-input-xl[type="search"] {
@@ -8897,13 +8924,13 @@ p, b {
   border-width: 1px;
   border-style: solid;
   border-radius: 12px;
-  background: #eeeeee;
-  border-color: #e1e1e1;
+  background: #e1e1e1;
+  border-color: #d4d4d4;
 }
 
 .leto-input-xl[type="search"]:focus {
   background-color: transparent;
-  border-color: #e1e1e1;
+  border-color: #d4d4d4;
 }
 
 .leto-input-xxl[type="search"] {
@@ -8915,13 +8942,13 @@ p, b {
   border-width: 1px;
   border-style: solid;
   border-radius: 12px;
-  background: #eeeeee;
-  border-color: #e1e1e1;
+  background: #e1e1e1;
+  border-color: #d4d4d4;
 }
 
 .leto-input-xxl[type="search"]:focus {
   background-color: transparent;
-  border-color: #e1e1e1;
+  border-color: #d4d4d4;
 }
 
 .leto-frame-default [class*="leto-input"][type="search"] {
@@ -8941,12 +8968,12 @@ textarea[class*="leto-input"], .leto-textarea {
   border-width: 1px;
   border-style: solid;
   border-radius: 12px;
-  border-color: #e1e1e1;
+  border-color: #d4d4d4;
 }
 
 textarea[class*="leto-input"]:focus, .leto-textarea:focus {
-  background-color: #eeeeee;
-  border-color: #eeeeee;
+  background-color: #e1e1e1;
+  border-color: #e1e1e1;
 }
 
 .leto-frame-default textarea[class*="leto-input"] {
@@ -8975,17 +9002,17 @@ select.leto-input {
   border-width: 1px;
   border-style: solid;
   border-radius: 12px;
-  border-color: #e1e1e1;
+  border-color: #d4d4d4;
 }
 
 select.leto-input option {
-  background-color: #eeeeee;
+  background-color: #e1e1e1;
   outline: 0;
 }
 
 select.leto-input:focus {
   background-color: #fdfdfd;
-  border: 1px solid #e1e1e1;
+  border: 1px solid #d4d4d4;
   border-radius: 12px 12px 0 0;
 }
 
@@ -9003,17 +9030,17 @@ select.leto-input-xxs {
   border-width: 1px;
   border-style: solid;
   border-radius: 12px;
-  border-color: #e1e1e1;
+  border-color: #d4d4d4;
 }
 
 select.leto-input-xxs option {
-  background-color: #eeeeee;
+  background-color: #e1e1e1;
   outline: 0;
 }
 
 select.leto-input-xxs:focus {
   background-color: #fdfdfd;
-  border: 1px solid #e1e1e1;
+  border: 1px solid #d4d4d4;
   border-radius: 12px 12px 0 0;
 }
 
@@ -9031,17 +9058,17 @@ select.leto-input-xs {
   border-width: 1px;
   border-style: solid;
   border-radius: 12px;
-  border-color: #e1e1e1;
+  border-color: #d4d4d4;
 }
 
 select.leto-input-xs option {
-  background-color: #eeeeee;
+  background-color: #e1e1e1;
   outline: 0;
 }
 
 select.leto-input-xs:focus {
   background-color: #fdfdfd;
-  border: 1px solid #e1e1e1;
+  border: 1px solid #d4d4d4;
   border-radius: 12px 12px 0 0;
 }
 
@@ -9059,17 +9086,17 @@ select.leto-input-sm {
   border-width: 1px;
   border-style: solid;
   border-radius: 12px;
-  border-color: #e1e1e1;
+  border-color: #d4d4d4;
 }
 
 select.leto-input-sm option {
-  background-color: #eeeeee;
+  background-color: #e1e1e1;
   outline: 0;
 }
 
 select.leto-input-sm:focus {
   background-color: #fdfdfd;
-  border: 1px solid #e1e1e1;
+  border: 1px solid #d4d4d4;
   border-radius: 12px 12px 0 0;
 }
 
@@ -9087,17 +9114,17 @@ select.leto-input-md {
   border-width: 1px;
   border-style: solid;
   border-radius: 12px;
-  border-color: #e1e1e1;
+  border-color: #d4d4d4;
 }
 
 select.leto-input-md option {
-  background-color: #eeeeee;
+  background-color: #e1e1e1;
   outline: 0;
 }
 
 select.leto-input-md:focus {
   background-color: #fdfdfd;
-  border: 1px solid #e1e1e1;
+  border: 1px solid #d4d4d4;
   border-radius: 12px 12px 0 0;
 }
 
@@ -9115,17 +9142,17 @@ select.leto-input-lg {
   border-width: 1px;
   border-style: solid;
   border-radius: 12px;
-  border-color: #e1e1e1;
+  border-color: #d4d4d4;
 }
 
 select.leto-input-lg option {
-  background-color: #eeeeee;
+  background-color: #e1e1e1;
   outline: 0;
 }
 
 select.leto-input-lg:focus {
   background-color: #fdfdfd;
-  border: 1px solid #e1e1e1;
+  border: 1px solid #d4d4d4;
   border-radius: 12px 12px 0 0;
 }
 
@@ -9143,17 +9170,17 @@ select.leto-input-xl {
   border-width: 1px;
   border-style: solid;
   border-radius: 12px;
-  border-color: #e1e1e1;
+  border-color: #d4d4d4;
 }
 
 select.leto-input-xl option {
-  background-color: #eeeeee;
+  background-color: #e1e1e1;
   outline: 0;
 }
 
 select.leto-input-xl:focus {
   background-color: #fdfdfd;
-  border: 1px solid #e1e1e1;
+  border: 1px solid #d4d4d4;
   border-radius: 12px 12px 0 0;
 }
 
@@ -9171,17 +9198,17 @@ select.leto-input-xxl {
   border-width: 1px;
   border-style: solid;
   border-radius: 12px;
-  border-color: #e1e1e1;
+  border-color: #d4d4d4;
 }
 
 select.leto-input-xxl option {
-  background-color: #eeeeee;
+  background-color: #e1e1e1;
   outline: 0;
 }
 
 select.leto-input-xxl:focus {
   background-color: #fdfdfd;
-  border: 1px solid #e1e1e1;
+  border: 1px solid #d4d4d4;
   border-radius: 12px 12px 0 0;
 }
 
@@ -9225,18 +9252,18 @@ select.leto-input-xxl:focus::-ms-value {
 }
 
 .leto-table tr:not(.leto-table-header) td {
-  border-top: 1px solid #e1e1e1;
-  border-bottom: 1px solid #e1e1e1;
+  border-top: 1px solid #d4d4d4;
+  border-bottom: 1px solid #d4d4d4;
 }
 
 .leto-table tr:not(.leto-table-header) td:first-child {
-  border-left: 1px solid #e1e1e1;
+  border-left: 1px solid #d4d4d4;
   border-top-left-radius: 16px;
   border-bottom-left-radius: 16px;
 }
 
 .leto-table tr:not(.leto-table-header) td:last-child {
-  border-right: 1px solid #e1e1e1;
+  border-right: 1px solid #d4d4d4;
   border-top-right-radius: 16px;
   border-bottom-right-radius: 16px;
 }
@@ -9261,18 +9288,18 @@ select.leto-input-xxl:focus::-ms-value {
 }
 
 .leto-table-xxs tr:not(.leto-table-header) td {
-  border-top: 1px solid #e1e1e1;
-  border-bottom: 1px solid #e1e1e1;
+  border-top: 1px solid #d4d4d4;
+  border-bottom: 1px solid #d4d4d4;
 }
 
 .leto-table-xxs tr:not(.leto-table-header) td:first-child {
-  border-left: 1px solid #e1e1e1;
+  border-left: 1px solid #d4d4d4;
   border-top-left-radius: 5.33333px;
   border-bottom-left-radius: 5.33333px;
 }
 
 .leto-table-xxs tr:not(.leto-table-header) td:last-child {
-  border-right: 1px solid #e1e1e1;
+  border-right: 1px solid #d4d4d4;
   border-top-right-radius: 5.33333px;
   border-bottom-right-radius: 5.33333px;
 }
@@ -9297,18 +9324,18 @@ select.leto-input-xxl:focus::-ms-value {
 }
 
 .leto-table-xs tr:not(.leto-table-header) td {
-  border-top: 1px solid #e1e1e1;
-  border-bottom: 1px solid #e1e1e1;
+  border-top: 1px solid #d4d4d4;
+  border-bottom: 1px solid #d4d4d4;
 }
 
 .leto-table-xs tr:not(.leto-table-header) td:first-child {
-  border-left: 1px solid #e1e1e1;
+  border-left: 1px solid #d4d4d4;
   border-top-left-radius: 8px;
   border-bottom-left-radius: 8px;
 }
 
 .leto-table-xs tr:not(.leto-table-header) td:last-child {
-  border-right: 1px solid #e1e1e1;
+  border-right: 1px solid #d4d4d4;
   border-top-right-radius: 8px;
   border-bottom-right-radius: 8px;
 }
@@ -9333,18 +9360,18 @@ select.leto-input-xxl:focus::-ms-value {
 }
 
 .leto-table-sm tr:not(.leto-table-header) td {
-  border-top: 1px solid #e1e1e1;
-  border-bottom: 1px solid #e1e1e1;
+  border-top: 1px solid #d4d4d4;
+  border-bottom: 1px solid #d4d4d4;
 }
 
 .leto-table-sm tr:not(.leto-table-header) td:first-child {
-  border-left: 1px solid #e1e1e1;
+  border-left: 1px solid #d4d4d4;
   border-top-left-radius: 10.66667px;
   border-bottom-left-radius: 10.66667px;
 }
 
 .leto-table-sm tr:not(.leto-table-header) td:last-child {
-  border-right: 1px solid #e1e1e1;
+  border-right: 1px solid #d4d4d4;
   border-top-right-radius: 10.66667px;
   border-bottom-right-radius: 10.66667px;
 }
@@ -9369,18 +9396,18 @@ select.leto-input-xxl:focus::-ms-value {
 }
 
 .leto-table-md tr:not(.leto-table-header) td {
-  border-top: 1px solid #e1e1e1;
-  border-bottom: 1px solid #e1e1e1;
+  border-top: 1px solid #d4d4d4;
+  border-bottom: 1px solid #d4d4d4;
 }
 
 .leto-table-md tr:not(.leto-table-header) td:first-child {
-  border-left: 1px solid #e1e1e1;
+  border-left: 1px solid #d4d4d4;
   border-top-left-radius: 16px;
   border-bottom-left-radius: 16px;
 }
 
 .leto-table-md tr:not(.leto-table-header) td:last-child {
-  border-right: 1px solid #e1e1e1;
+  border-right: 1px solid #d4d4d4;
   border-top-right-radius: 16px;
   border-bottom-right-radius: 16px;
 }
@@ -9405,18 +9432,18 @@ select.leto-input-xxl:focus::-ms-value {
 }
 
 .leto-table-lg tr:not(.leto-table-header) td {
-  border-top: 1px solid #e1e1e1;
-  border-bottom: 1px solid #e1e1e1;
+  border-top: 1px solid #d4d4d4;
+  border-bottom: 1px solid #d4d4d4;
 }
 
 .leto-table-lg tr:not(.leto-table-header) td:first-child {
-  border-left: 1px solid #e1e1e1;
+  border-left: 1px solid #d4d4d4;
   border-top-left-radius: 21.33333px;
   border-bottom-left-radius: 21.33333px;
 }
 
 .leto-table-lg tr:not(.leto-table-header) td:last-child {
-  border-right: 1px solid #e1e1e1;
+  border-right: 1px solid #d4d4d4;
   border-top-right-radius: 21.33333px;
   border-bottom-right-radius: 21.33333px;
 }
@@ -9441,18 +9468,18 @@ select.leto-input-xxl:focus::-ms-value {
 }
 
 .leto-table-xl tr:not(.leto-table-header) td {
-  border-top: 1px solid #e1e1e1;
-  border-bottom: 1px solid #e1e1e1;
+  border-top: 1px solid #d4d4d4;
+  border-bottom: 1px solid #d4d4d4;
 }
 
 .leto-table-xl tr:not(.leto-table-header) td:first-child {
-  border-left: 1px solid #e1e1e1;
+  border-left: 1px solid #d4d4d4;
   border-top-left-radius: 32px;
   border-bottom-left-radius: 32px;
 }
 
 .leto-table-xl tr:not(.leto-table-header) td:last-child {
-  border-right: 1px solid #e1e1e1;
+  border-right: 1px solid #d4d4d4;
   border-top-right-radius: 32px;
   border-bottom-right-radius: 32px;
 }
@@ -9477,18 +9504,18 @@ select.leto-input-xxl:focus::-ms-value {
 }
 
 .leto-table-xxl tr:not(.leto-table-header) td {
-  border-top: 1px solid #e1e1e1;
-  border-bottom: 1px solid #e1e1e1;
+  border-top: 1px solid #d4d4d4;
+  border-bottom: 1px solid #d4d4d4;
 }
 
 .leto-table-xxl tr:not(.leto-table-header) td:first-child {
-  border-left: 1px solid #e1e1e1;
+  border-left: 1px solid #d4d4d4;
   border-top-left-radius: 42.66667px;
   border-bottom-left-radius: 42.66667px;
 }
 
 .leto-table-xxl tr:not(.leto-table-header) td:last-child {
-  border-right: 1px solid #e1e1e1;
+  border-right: 1px solid #d4d4d4;
   border-top-right-radius: 42.66667px;
   border-bottom-right-radius: 42.66667px;
 }
@@ -9536,7 +9563,7 @@ select.leto-input-xxl:focus::-ms-value {
   border-style: solid;
   border-radius: 12px;
   background: transparent;
-  border-color: #e1e1e1;
+  border-color: #d4d4d4;
 }
 
 .leto-pile-empty {
@@ -9561,7 +9588,7 @@ select.leto-input-xxl:focus::-ms-value {
     border-style: solid;
     border-radius: 12px;
     background: transparent;
-    border-color: #e1e1e1;
+    border-color: #d4d4d4;
   }
   .leto-pile-tablet-empty {
     min-width: 300px;
@@ -9586,7 +9613,7 @@ select.leto-input-xxl:focus::-ms-value {
     border-style: solid;
     border-radius: 12px;
     background: transparent;
-    border-color: #e1e1e1;
+    border-color: #d4d4d4;
   }
   .leto-pile-tablet-pc-empty {
     min-width: 300px;
@@ -9611,7 +9638,7 @@ select.leto-input-xxl:focus::-ms-value {
     border-style: solid;
     border-radius: 12px;
     background: transparent;
-    border-color: #e1e1e1;
+    border-color: #d4d4d4;
   }
   .leto-pile-tablet-pc-empty {
     min-width: 300px;
@@ -9636,7 +9663,7 @@ select.leto-input-xxl:focus::-ms-value {
     border-style: solid;
     border-radius: 12px;
     background: transparent;
-    border-color: #e1e1e1;
+    border-color: #d4d4d4;
   }
   .leto-pile-pc-empty {
     min-width: 300px;
@@ -9661,7 +9688,7 @@ select.leto-input-xxl:focus::-ms-value {
     border-style: solid;
     border-radius: 12px;
     background: transparent;
-    border-color: #e1e1e1;
+    border-color: #d4d4d4;
   }
   .leto-pile-ultrawide-empty {
     min-width: 300px;
@@ -9686,7 +9713,7 @@ select.leto-input-xxl:focus::-ms-value {
     border-style: solid;
     border-radius: 12px;
     background: transparent;
-    border-color: #e1e1e1;
+    border-color: #d4d4d4;
   }
   .leto-pile-super-ultrawide-empty {
     min-width: 300px;
@@ -9723,7 +9750,7 @@ select.leto-input-xxl:focus::-ms-value {
   border-width: 1px;
   border-style: solid;
   border-radius: 0;
-  border-color: #e1e1e1;
+  border-color: #d4d4d4;
 }
 
 .leto-form-left {
@@ -9745,7 +9772,7 @@ select.leto-input-xxl:focus::-ms-value {
   border-width: 1px;
   border-style: solid;
   border-radius: 0;
-  border-color: #e1e1e1;
+  border-color: #d4d4d4;
 }
 
 .leto-form-right {
@@ -9767,7 +9794,7 @@ select.leto-input-xxl:focus::-ms-value {
   border-width: 1px;
   border-style: solid;
   border-radius: 0;
-  border-color: #e1e1e1;
+  border-color: #d4d4d4;
 }
 
 @media (min-width: 1440px) {
@@ -14196,23 +14223,23 @@ select.leto-input-xxl:focus::-ms-value {
 }
 
 .leto-bg-lighter-grey, [class*="leto-frame"] .leto-bg-lighter-grey {
-  background-color: #fbfbfb;
-}
-
-.leto-bg-light-grey, [class*="leto-frame"] .leto-bg-light-grey {
   background-color: #eeeeee;
 }
 
-.leto-bg-grey, [class*="leto-frame"] .leto-bg-grey {
+.leto-bg-light-grey, [class*="leto-frame"] .leto-bg-light-grey {
   background-color: #e1e1e1;
 }
 
+.leto-bg-grey, [class*="leto-frame"] .leto-bg-grey {
+  background-color: #d4d4d4;
+}
+
 .leto-bg-dark-grey, [class*="leto-frame"] .leto-bg-dark-grey {
-  background-color: #c8c8c8;
+  background-color: #bbbbbb;
 }
 
 .leto-bg-darker-grey, [class*="leto-frame"] .leto-bg-darker-grey {
-  background-color: #aeaeae;
+  background-color: #a1a1a1;
 }
 
 .leto-bg-light-black, [class*="leto-frame"] .leto-bg-light-black {
@@ -14312,33 +14339,33 @@ select.leto-input-xxl:focus::-ms-value {
 }
 
 .leto-border, [class*="leto-frame"] .leto-border {
-  border: 1px solid #e1e1e1;
+  border: 1px solid #d4d4d4;
 }
 
 .leto-border-horizontal, [class*="leto-frame"] .leto-border-horizontal {
-  border-top: 1px solid #e1e1e1;
-  border-bottom: 1px solid #e1e1e1;
+  border-top: 1px solid #d4d4d4;
+  border-bottom: 1px solid #d4d4d4;
 }
 
 .leto-border-vertical, [class*="leto-frame"] .leto-border-vertical {
-  border-left: 1px solid #e1e1e1;
-  border-right: 1px solid #e1e1e1;
+  border-left: 1px solid #d4d4d4;
+  border-right: 1px solid #d4d4d4;
 }
 
 .leto-border-top, [class*="leto-frame"] .leto-border-top {
-  border-top: 1px solid #e1e1e1;
+  border-top: 1px solid #d4d4d4;
 }
 
 .leto-border-left, [class*="leto-frame"] .leto-border-left {
-  border-left: 1px solid #e1e1e1;
+  border-left: 1px solid #d4d4d4;
 }
 
 .leto-border-right, [class*="leto-frame"] .leto-border-right {
-  border-right: 1px solid #e1e1e1;
+  border-right: 1px solid #d4d4d4;
 }
 
 .leto-border-bottom, [class*="leto-frame"] .leto-border-bottom {
-  border-bottom: 1px solid #e1e1e1;
+  border-bottom: 1px solid #d4d4d4;
 }
 
 .leto-border-white, [class*="leto-frame"] .leto-border-white {
@@ -14350,23 +14377,23 @@ select.leto-input-xxl:focus::-ms-value {
 }
 
 .leto-border-lighter-grey, [class*="leto-frame"] .leto-border-lighter-grey {
-  border-color: #fbfbfb;
-}
-
-.leto-border-light-grey, [class*="leto-frame"] .leto-border-light-grey {
   border-color: #eeeeee;
 }
 
-.leto-border-grey, [class*="leto-frame"] .leto-border-grey {
+.leto-border-light-grey, [class*="leto-frame"] .leto-border-light-grey {
   border-color: #e1e1e1;
 }
 
+.leto-border-grey, [class*="leto-frame"] .leto-border-grey {
+  border-color: #d4d4d4;
+}
+
 .leto-border-dark-grey, [class*="leto-frame"] .leto-border-dark-grey {
-  border-color: #c8c8c8;
+  border-color: #bbbbbb;
 }
 
 .leto-border-darker-grey, [class*="leto-frame"] .leto-border-darker-grey {
-  border-color: #aeaeae;
+  border-color: #a1a1a1;
 }
 
 .leto-border-light-black, [class*="leto-frame"] .leto-border-light-black {
@@ -14741,23 +14768,23 @@ select.leto-input-xxl:focus::-ms-value {
 }
 
 .leto-text-lighter-grey, [class*="leto-frame"] .leto-text-lighter-grey {
-  color: #fbfbfb;
-}
-
-.leto-text-light-grey, [class*="leto-frame"] .leto-text-light-grey {
   color: #eeeeee;
 }
 
-.leto-text-grey, [class*="leto-frame"] .leto-text-grey {
+.leto-text-light-grey, [class*="leto-frame"] .leto-text-light-grey {
   color: #e1e1e1;
 }
 
+.leto-text-grey, [class*="leto-frame"] .leto-text-grey {
+  color: #d4d4d4;
+}
+
 .leto-text-dark-grey, [class*="leto-frame"] .leto-text-dark-grey {
-  color: #c8c8c8;
+  color: #bbbbbb;
 }
 
 .leto-text-darker-grey, [class*="leto-frame"] .leto-text-darker-grey {
-  color: #aeaeae;
+  color: #a1a1a1;
 }
 
 .leto-text-light-black, [class*="leto-frame"] .leto-text-light-black {
@@ -22645,11 +22672,11 @@ select.leto-input-xxl:focus::-ms-value {
 }
 
 .leto-disabled {
-  background-color: #eeeeee !important;
-  border-color: #eeeeee !important;
-  color: #c8c8c8 !important;
+  background-color: #e1e1e1 !important;
+  border-color: #e1e1e1 !important;
+  color: #bbbbbb !important;
   pointer-events: none;
-  color: #c8c8c8 !important;
+  color: #bbbbbb !important;
 }
 
 .leto-click {
@@ -22668,7 +22695,7 @@ select.leto-input-xxl:focus::-ms-value {
 }
 
 .leto-active {
-  background-color: #e1e1e1;
+  background-color: #d4d4d4;
 }
 
 .leto-active[class*=leto-bubble] {
@@ -22688,7 +22715,7 @@ select.leto-input-xxl:focus::-ms-value {
 }
 
 .leto-active[class*=leto-text] {
-  color: #e1e1e1;
+  color: #d4d4d4;
 }
 
 .leto-active-white {
@@ -22740,7 +22767,7 @@ select.leto-input-xxl:focus::-ms-value {
 }
 
 .leto-active-lighter-grey {
-  background-color: #fbfbfb;
+  background-color: #eeeeee;
 }
 
 .leto-active-lighter-grey[class*=leto-bubble] {
@@ -22760,11 +22787,11 @@ select.leto-input-xxl:focus::-ms-value {
 }
 
 .leto-active-lighter-grey[class*=leto-text] {
-  color: #fbfbfb;
+  color: #eeeeee;
 }
 
 .leto-active-light-grey {
-  background-color: #eeeeee;
+  background-color: #e1e1e1;
 }
 
 .leto-active-light-grey[class*=leto-bubble] {
@@ -22784,11 +22811,11 @@ select.leto-input-xxl:focus::-ms-value {
 }
 
 .leto-active-light-grey[class*=leto-text] {
-  color: #eeeeee;
+  color: #e1e1e1;
 }
 
 .leto-active-grey {
-  background-color: #e1e1e1;
+  background-color: #d4d4d4;
 }
 
 .leto-active-grey[class*=leto-bubble] {
@@ -22808,11 +22835,11 @@ select.leto-input-xxl:focus::-ms-value {
 }
 
 .leto-active-grey[class*=leto-text] {
-  color: #e1e1e1;
+  color: #d4d4d4;
 }
 
 .leto-active-dark-grey {
-  background-color: #c8c8c8;
+  background-color: #bbbbbb;
 }
 
 .leto-active-dark-grey[class*=leto-bubble] {
@@ -22832,11 +22859,11 @@ select.leto-input-xxl:focus::-ms-value {
 }
 
 .leto-active-dark-grey[class*=leto-text] {
-  color: #c8c8c8;
+  color: #bbbbbb;
 }
 
 .leto-active-darker-grey {
-  background-color: #aeaeae;
+  background-color: #a1a1a1;
 }
 
 .leto-active-darker-grey[class*=leto-bubble] {
@@ -22856,7 +22883,7 @@ select.leto-input-xxl:focus::-ms-value {
 }
 
 .leto-active-darker-grey[class*=leto-text] {
-  color: #aeaeae;
+  color: #a1a1a1;
 }
 
 .leto-active-light-black {
@@ -23412,7 +23439,7 @@ select.leto-input-xxl:focus::-ms-value {
 }
 
 .leto-hover:hover {
-  background-color: #e1e1e1;
+  background-color: #d4d4d4;
 }
 
 .leto-hover[class*=leto-bubble]:hover {
@@ -23432,7 +23459,7 @@ select.leto-input-xxl:focus::-ms-value {
 }
 
 .leto-hover[class*=leto-text]:hover {
-  color: #e1e1e1;
+  color: #d4d4d4;
 }
 
 .leto-hover-white:hover {
@@ -23484,7 +23511,7 @@ select.leto-input-xxl:focus::-ms-value {
 }
 
 .leto-hover-lighter-grey:hover {
-  background-color: #fbfbfb;
+  background-color: #eeeeee;
 }
 
 .leto-hover-lighter-grey[class*=leto-bubble]:hover {
@@ -23504,11 +23531,11 @@ select.leto-input-xxl:focus::-ms-value {
 }
 
 .leto-hover-lighter-grey[class*=leto-text]:hover {
-  color: #fbfbfb;
+  color: #eeeeee;
 }
 
 .leto-hover-light-grey:hover {
-  background-color: #eeeeee;
+  background-color: #e1e1e1;
 }
 
 .leto-hover-light-grey[class*=leto-bubble]:hover {
@@ -23528,11 +23555,11 @@ select.leto-input-xxl:focus::-ms-value {
 }
 
 .leto-hover-light-grey[class*=leto-text]:hover {
-  color: #eeeeee;
+  color: #e1e1e1;
 }
 
 .leto-hover-grey:hover {
-  background-color: #e1e1e1;
+  background-color: #d4d4d4;
 }
 
 .leto-hover-grey[class*=leto-bubble]:hover {
@@ -23552,11 +23579,11 @@ select.leto-input-xxl:focus::-ms-value {
 }
 
 .leto-hover-grey[class*=leto-text]:hover {
-  color: #e1e1e1;
+  color: #d4d4d4;
 }
 
 .leto-hover-dark-grey:hover {
-  background-color: #c8c8c8;
+  background-color: #bbbbbb;
 }
 
 .leto-hover-dark-grey[class*=leto-bubble]:hover {
@@ -23576,11 +23603,11 @@ select.leto-input-xxl:focus::-ms-value {
 }
 
 .leto-hover-dark-grey[class*=leto-text]:hover {
-  color: #c8c8c8;
+  color: #bbbbbb;
 }
 
 .leto-hover-darker-grey:hover {
-  background-color: #aeaeae;
+  background-color: #a1a1a1;
 }
 
 .leto-hover-darker-grey[class*=leto-bubble]:hover {
@@ -23600,7 +23627,7 @@ select.leto-input-xxl:focus::-ms-value {
 }
 
 .leto-hover-darker-grey[class*=leto-text]:hover {
-  color: #aeaeae;
+  color: #a1a1a1;
 }
 
 .leto-hover-light-black:hover {

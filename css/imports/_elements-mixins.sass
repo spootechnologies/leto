@@ -431,14 +431,18 @@
 // Input Wrapper
 
 =inputWrapper()
+    $bgColor: getElementAttrVal('input', 'bg');
+
     position: relative
     width: fit-content
     margin: $basicMargin
 
     label
         position: absolute
-        +themed()  
-            background-color: t('bg')
+        background-color: $bgColor
+        @if $bgColor == $lightModeBgColor
+            +themed()  
+                background-color: t('bg')
         font-size: $fontSizeSM
         font-weight: $fontWeightMedium
         top: -10px
@@ -447,6 +451,8 @@
         padding-right: $basicPadding
 
     [class*=leto-input]
+        min-width: 0
+        width: 100%
         border: 1px solid $colorLightGrey
         margin: 0
 
@@ -495,9 +501,9 @@
         width: 200%
         height: 200%
         @if $bgColor == $lightModeBgColor
-            background-color: $darkModeBgColor
+            background-color: $lightModeBgColor
         @else
-            background-color: $lightModeBgColor   
+            background-color: $darkModeBgColor   
         border: 1px solid $borderColor
         border-radius: 100%
         margin: calc(-1 * (#{$size} * #{ $multiplier}) / 4)
@@ -511,7 +517,10 @@
     &:checked
         
         &:after  
-            background: $bgColor
+            @if $bgColor == $lightModeBgColor
+                background-color: $darkModeBgColor
+            @else
+                background-color: $lightModeBgColor 
 
 
 // Input Checkbox
@@ -535,10 +544,7 @@
     &:before
         width: 200%
         height: 200%
-        @if $bgColor == $lightModeBgColor
-            background-color: $darkModeBgColor
-        @else
-            background-color: $lightModeBgColor   
+        background-color: $lightModeBgColor  
         border: 1px solid $borderColor
         border-radius: 100%
         margin: calc(-1 * (#{$size} * #{ $multiplier}) / 4)
@@ -552,7 +558,8 @@
     &:checked
         
         &:after  
-            background: $bgColor
+            @if $bgColor == $lightModeBgColor
+                background-color: $darkModeBgColor
 
 
 // Input Color

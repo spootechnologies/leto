@@ -349,6 +349,28 @@
     &[type="radio"]
         +presetConstructor('radio')
 
+[class*="leto-input"]
+
+    &[type="radio"]
+        $bgColor: getElementAttrVal('radio', 'bg');
+        $color: getElementAttrVal('radio', 'color');
+        $borderColor: getElementAttrVal('radio', 'borderColor');
+
+        &:before
+            @if $bgColor == $lightModeBgColor
+                +themed() 
+                    background: t('bg')
+
+        &:checked
+            
+            &:after 
+                @if $bgColor == $lightModeBgColor
+                    +themed() 
+                        $tempBgColor: t('bg') 
+                        
+                        @if $tempBgColor == $darkModeBgColor
+                            background: $lightModeBgColor
+
 
 // Input Checkbox
 
@@ -382,6 +404,28 @@
     
     &[type="checkbox"]
         +presetConstructor('checkbox')
+
+[class*="leto-input"]
+
+    &[type="checkbox"]
+        $bgColor: getElementAttrVal('checkbox', 'bg');
+        $color: getElementAttrVal('checkbox', 'color');
+        $borderColor: getElementAttrVal('checkbox', 'borderColor');
+
+        &:before
+            @if $bgColor == $lightModeBgColor
+                +themed() 
+                    background: t('bg')
+
+        &:checked
+            
+            &:after 
+                @if $bgColor == $lightModeBgColor
+                    +themed() 
+                        $tempBgColor: t('bg') 
+                        
+                        @if $tempBgColor == $darkModeBgColor
+                            background: $lightModeBgColor
 
 
 // Input Color
