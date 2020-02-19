@@ -7766,7 +7766,7 @@ p, b {
 }
 
 .leto-input[type="text"], .leto-input[type="date"], .leto-input[type="datetime-local"], .leto-input[type="email"], .leto-input[type="month"], .leto-input[type="number"], .leto-input[type="password"], .leto-input[type="tel"], .leto-input[type="time"], .leto-input[type="url"], .leto-input[type="week"] {
-  min-width: 250px;
+  min-width: auto;
   height: 48px;
   font-size: 16px;
   margin: 8px;
@@ -7783,7 +7783,7 @@ p, b {
 }
 
 .leto-input-xxs[type="text"], .leto-input-xxs[type="date"], .leto-input-xxs[type="datetime-local"], .leto-input-xxs[type="email"], .leto-input-xxs[type="month"], .leto-input-xxs[type="number"], .leto-input-xxs[type="password"], .leto-input-xxs[type="tel"], .leto-input-xxs[type="time"], .leto-input-xxs[type="url"], .leto-input-xxs[type="week"] {
-  min-width: 250px;
+  min-width: auto;
   height: 16px;
   font-size: 16px;
   margin: 8px;
@@ -7800,7 +7800,7 @@ p, b {
 }
 
 .leto-input-xs[type="text"], .leto-input-xs[type="date"], .leto-input-xs[type="datetime-local"], .leto-input-xs[type="email"], .leto-input-xs[type="month"], .leto-input-xs[type="number"], .leto-input-xs[type="password"], .leto-input-xs[type="tel"], .leto-input-xs[type="time"], .leto-input-xs[type="url"], .leto-input-xs[type="week"] {
-  min-width: 250px;
+  min-width: auto;
   height: 24px;
   font-size: 16px;
   margin: 8px;
@@ -7817,7 +7817,7 @@ p, b {
 }
 
 .leto-input-sm[type="text"], .leto-input-sm[type="date"], .leto-input-sm[type="datetime-local"], .leto-input-sm[type="email"], .leto-input-sm[type="month"], .leto-input-sm[type="number"], .leto-input-sm[type="password"], .leto-input-sm[type="tel"], .leto-input-sm[type="time"], .leto-input-sm[type="url"], .leto-input-sm[type="week"] {
-  min-width: 250px;
+  min-width: auto;
   height: 32px;
   font-size: 16px;
   margin: 8px;
@@ -7834,7 +7834,7 @@ p, b {
 }
 
 .leto-input-md[type="text"], .leto-input-md[type="date"], .leto-input-md[type="datetime-local"], .leto-input-md[type="email"], .leto-input-md[type="month"], .leto-input-md[type="number"], .leto-input-md[type="password"], .leto-input-md[type="tel"], .leto-input-md[type="time"], .leto-input-md[type="url"], .leto-input-md[type="week"] {
-  min-width: 250px;
+  min-width: auto;
   height: 48px;
   font-size: 16px;
   margin: 8px;
@@ -7851,7 +7851,7 @@ p, b {
 }
 
 .leto-input-lg[type="text"], .leto-input-lg[type="date"], .leto-input-lg[type="datetime-local"], .leto-input-lg[type="email"], .leto-input-lg[type="month"], .leto-input-lg[type="number"], .leto-input-lg[type="password"], .leto-input-lg[type="tel"], .leto-input-lg[type="time"], .leto-input-lg[type="url"], .leto-input-lg[type="week"] {
-  min-width: 250px;
+  min-width: auto;
   height: 64px;
   font-size: 16px;
   margin: 8px;
@@ -7868,7 +7868,7 @@ p, b {
 }
 
 .leto-input-xl[type="text"], .leto-input-xl[type="date"], .leto-input-xl[type="datetime-local"], .leto-input-xl[type="email"], .leto-input-xl[type="month"], .leto-input-xl[type="number"], .leto-input-xl[type="password"], .leto-input-xl[type="tel"], .leto-input-xl[type="time"], .leto-input-xl[type="url"], .leto-input-xl[type="week"] {
-  min-width: 250px;
+  min-width: auto;
   height: 96px;
   font-size: 16px;
   margin: 8px;
@@ -7885,7 +7885,7 @@ p, b {
 }
 
 .leto-input-xxl[type="text"], .leto-input-xxl[type="date"], .leto-input-xxl[type="datetime-local"], .leto-input-xxl[type="email"], .leto-input-xxl[type="month"], .leto-input-xxl[type="number"], .leto-input-xxl[type="password"], .leto-input-xxl[type="tel"], .leto-input-xxl[type="time"], .leto-input-xxl[type="url"], .leto-input-xxl[type="week"] {
-  min-width: 250px;
+  min-width: auto;
   height: 128px;
   font-size: 16px;
   margin: 8px;
@@ -8808,7 +8808,7 @@ p, b {
 }
 
 .leto-input[type="search"] {
-  min-width: 250px;
+  min-width: auto;
   height: 48px;
   font-size: 16px;
   margin: 8px;
@@ -8826,7 +8826,7 @@ p, b {
 }
 
 .leto-input-xxs[type="search"] {
-  min-width: 250px;
+  min-width: auto;
   height: 16px;
   font-size: 16px;
   margin: 8px;
@@ -8844,7 +8844,7 @@ p, b {
 }
 
 .leto-input-xs[type="search"] {
-  min-width: 250px;
+  min-width: auto;
   height: 24px;
   font-size: 16px;
   margin: 8px;
@@ -8862,7 +8862,7 @@ p, b {
 }
 
 .leto-input-sm[type="search"] {
-  min-width: 250px;
+  min-width: auto;
   height: 32px;
   font-size: 16px;
   margin: 8px;
@@ -8880,7 +8880,7 @@ p, b {
 }
 
 .leto-input-md[type="search"] {
-  min-width: 250px;
+  min-width: auto;
   height: 48px;
   font-size: 16px;
   margin: 8px;
@@ -8898,7 +8898,7 @@ p, b {
 }
 
 .leto-input-lg[type="search"] {
-  min-width: 250px;
+  min-width: auto;
   height: 64px;
   font-size: 16px;
   margin: 8px;
@@ -8916,7 +8916,7 @@ p, b {
 }
 
 .leto-input-xl[type="search"] {
-  min-width: 250px;
+  min-width: auto;
   height: 96px;
   font-size: 16px;
   margin: 8px;
@@ -8934,7 +8934,7 @@ p, b {
 }
 
 .leto-input-xxl[type="search"] {
-  min-width: 250px;
+  min-width: auto;
   height: 128px;
   font-size: 16px;
   margin: 8px;
@@ -8960,7 +8960,7 @@ p, b {
 }
 
 textarea[class*="leto-input"], .leto-textarea {
-  min-width: 250px;
+  min-width: auto;
   height: auto;
   font-size: 16px;
   margin: 8px;
@@ -8993,7 +8993,7 @@ textarea[class*="leto-input"]:focus, .leto-textarea:focus {
 }
 
 select.leto-input {
-  min-width: 250px;
+  min-width: auto;
   height: 48px;
   font-size: 16px;
   margin: 8px;
@@ -9021,7 +9021,7 @@ select.leto-input:focus::-ms-value {
 }
 
 select.leto-input-xxs {
-  min-width: 250px;
+  min-width: auto;
   height: 16px;
   font-size: 16px;
   margin: 8px;
@@ -9049,7 +9049,7 @@ select.leto-input-xxs:focus::-ms-value {
 }
 
 select.leto-input-xs {
-  min-width: 250px;
+  min-width: auto;
   height: 24px;
   font-size: 16px;
   margin: 8px;
@@ -9077,7 +9077,7 @@ select.leto-input-xs:focus::-ms-value {
 }
 
 select.leto-input-sm {
-  min-width: 250px;
+  min-width: auto;
   height: 32px;
   font-size: 16px;
   margin: 8px;
@@ -9105,7 +9105,7 @@ select.leto-input-sm:focus::-ms-value {
 }
 
 select.leto-input-md {
-  min-width: 250px;
+  min-width: auto;
   height: 48px;
   font-size: 16px;
   margin: 8px;
@@ -9133,7 +9133,7 @@ select.leto-input-md:focus::-ms-value {
 }
 
 select.leto-input-lg {
-  min-width: 250px;
+  min-width: auto;
   height: 64px;
   font-size: 16px;
   margin: 8px;
@@ -9161,7 +9161,7 @@ select.leto-input-lg:focus::-ms-value {
 }
 
 select.leto-input-xl {
-  min-width: 250px;
+  min-width: auto;
   height: 96px;
   font-size: 16px;
   margin: 8px;
@@ -9189,7 +9189,7 @@ select.leto-input-xl:focus::-ms-value {
 }
 
 select.leto-input-xxl {
-  min-width: 250px;
+  min-width: auto;
   height: 128px;
   font-size: 16px;
   margin: 8px;
