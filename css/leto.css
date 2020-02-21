@@ -11178,6 +11178,13 @@ select.leto-input-xxl:focus::-ms-value {
           flex-direction: row;
 }
 
+.leto-row-reverse {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
 .leto-column {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
