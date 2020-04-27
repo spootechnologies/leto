@@ -988,6 +988,10 @@
             +transformerConstructor('roundness')
                 border-radius: 1000px 1000px 0 0
 
+        &-none
+            border-top-left-radius: 0
+            border-top-right-radius: 0
+
     &-left
         +transformerConstructor('roundness')
             border-radius: $standardSize 0 0 0 
@@ -1022,6 +1026,9 @@
 
         &-full
             border-radius: 1000px 0 0 0
+
+        &-none
+            border-top-left-radius: 0
     
     &-right
         +transformerConstructor('roundness')
@@ -1059,6 +1066,9 @@
             +transformerConstructor('roundness')
                 border-radius: 0 1000px 0 0
 
+        &-none
+            border-top-right-radius: 0
+
     &-bottom
         +transformerConstructor('roundness')
             border-radius: 0 0 $standardSize $standardSize 
@@ -1094,6 +1104,13 @@
         &-full
             +transformerConstructor('roundness')
                 border-radius: 0 0 1000px 1000px
+
+        &-none
+            border-bottom-left-radius: 0 
+            border-bottom-right-radius: 0
+
+    &-none
+        border-radius: 0
 
 
 // Text        
@@ -2081,6 +2098,12 @@
 .leto-overflow-x-auto
     +transformerConstructor('overflow')
         overflow-x: auto
+
+
+// Opacity
+
+.leto-invisible
+    opacity: 0
 
 
 // Display

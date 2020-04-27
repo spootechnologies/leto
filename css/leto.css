@@ -7770,7 +7770,7 @@ p, b {
   height: 48px;
   font-size: 16px;
   margin: 8px;
-  padding: 8px 16px;
+  padding: 0 16px;
   border-width: 1px;
   border-style: solid;
   border-radius: 12px;
@@ -7787,7 +7787,7 @@ p, b {
   height: 16px;
   font-size: 16px;
   margin: 8px;
-  padding: 8px 16px;
+  padding: 0 16px;
   border-width: 1px;
   border-style: solid;
   border-radius: 12px;
@@ -7804,7 +7804,7 @@ p, b {
   height: 24px;
   font-size: 16px;
   margin: 8px;
-  padding: 8px 16px;
+  padding: 0 16px;
   border-width: 1px;
   border-style: solid;
   border-radius: 12px;
@@ -7821,7 +7821,7 @@ p, b {
   height: 32px;
   font-size: 16px;
   margin: 8px;
-  padding: 8px 16px;
+  padding: 0 16px;
   border-width: 1px;
   border-style: solid;
   border-radius: 12px;
@@ -7838,7 +7838,7 @@ p, b {
   height: 48px;
   font-size: 16px;
   margin: 8px;
-  padding: 8px 16px;
+  padding: 0 16px;
   border-width: 1px;
   border-style: solid;
   border-radius: 12px;
@@ -7855,7 +7855,7 @@ p, b {
   height: 64px;
   font-size: 16px;
   margin: 8px;
-  padding: 8px 16px;
+  padding: 0 16px;
   border-width: 1px;
   border-style: solid;
   border-radius: 12px;
@@ -7872,7 +7872,7 @@ p, b {
   height: 96px;
   font-size: 16px;
   margin: 8px;
-  padding: 8px 16px;
+  padding: 0 16px;
   border-width: 1px;
   border-style: solid;
   border-radius: 12px;
@@ -7889,7 +7889,7 @@ p, b {
   height: 128px;
   font-size: 16px;
   margin: 8px;
-  padding: 8px 16px;
+  padding: 0 16px;
   border-width: 1px;
   border-style: solid;
   border-radius: 12px;
@@ -14571,6 +14571,11 @@ select.leto-input-xxl:focus::-ms-value {
   border-radius: 1000px 1000px 0 0;
 }
 
+.leto-roundness-top-none {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
 .leto-roundness-left {
   border-radius: 24px 0 0 0;
 }
@@ -14605,6 +14610,10 @@ select.leto-input-xxl:focus::-ms-value {
 
 .leto-roundness-left-full {
   border-radius: 1000px 0 0 0;
+}
+
+.leto-roundness-left-none {
+  border-top-left-radius: 0;
 }
 
 .leto-roundness-right {
@@ -14643,6 +14652,10 @@ select.leto-input-xxl:focus::-ms-value {
   border-radius: 0 1000px 0 0;
 }
 
+.leto-roundness-right-none {
+  border-top-right-radius: 0;
+}
+
 .leto-roundness-bottom {
   border-radius: 0 0 24px 24px;
 }
@@ -14677,6 +14690,15 @@ select.leto-input-xxl:focus::-ms-value {
 
 .leto-roundness-bottom-full {
   border-radius: 0 0 1000px 1000px;
+}
+
+.leto-roundness-bottom-none {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.leto-roundness-none {
+  border-radius: 0;
 }
 
 .leto-text, [class*="leto-frame"] .leto-text {
@@ -22568,6 +22590,10 @@ select.leto-input-xxl:focus::-ms-value {
 
 .leto-overflow-x-auto {
   overflow-x: auto;
+}
+
+.leto-invisible {
+  opacity: 0;
 }
 
 .leto-block {
