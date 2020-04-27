@@ -633,98 +633,128 @@
 .leto-bg, [class*="leto-frame"] .leto-bg
 
     &-white
-        +colorTransformerConstructor('background', $colorWhite)
+        +transformerConstructor('background')
+            background-color: $colorWhite
    
     &-dark-white
-        +colorTransformerConstructor('background', $colorDarkWhite)
+        +transformerConstructor('background')
+            background-color: $colorDarkWhite
 
     &-lighter-grey
-        +colorTransformerConstructor('background', $colorLighterGrey)
+        +transformerConstructor('background')
+            background-color: $colorLighterGrey
 
     &-light-grey
-        +colorTransformerConstructor('background', $colorLightGrey)
+        +transformerConstructor('background')
+            background-color: $colorLightGrey
 
     &-grey
-        +colorTransformerConstructor('background', $colorGrey)
+        +transformerConstructor('background')
+            background-color: $colorGrey
 
     &-dark-grey
-        +colorTransformerConstructor('background', $colorDarkGrey)
+        +transformerConstructor('background')
+            background-color: $colorDarkGrey
 
     &-darker-grey
-        +colorTransformerConstructor('background', $colorDarkerGrey)
+        +transformerConstructor('background')
+            background-color: $colorDarkerGrey
 
     &-light-black
-        +colorTransformerConstructor('background', $colorLightBlack)
+        +transformerConstructor('background')
+            background-color: $colorLightBlack
 
     &-black
-        +colorTransformerConstructor('background', $colorBlack)
+        +transformerConstructor('background')
+            background-color: $colorBlack
 
     &-light-yellow
-        +colorTransformerConstructor('background', $colorLightYellow)
+        +transformerConstructor('background')
+            background-color: $colorLightYellow
 
     &-yellow
-        +colorTransformerConstructor('background', $colorYellow)
+        +transformerConstructor('background')
+            background-color: $colorYellow
 
     &-dark-yellow
-        +colorTransformerConstructor('background', $colorDarkYellow)
+        +transformerConstructor('background')
+            background-color: $colorDarkYellow
 
     &-light-orange
-        +colorTransformerConstructor('background', $colorLightOrange)
+        +transformerConstructor('background')
+            background-color: $colorLightOrange
 
     &-orange
-        +colorTransformerConstructor('background', $colorLightOrange)
+        +transformerConstructor('background')
+            background-color: $colorOrange
 
     &-dark-orange
-        +colorTransformerConstructor('background', $colorDarkOrange)
+        +transformerConstructor('background')
+            background-color: $colorDarkOrange
 
     &-light-red
-        +colorTransformerConstructor('background', $colorLightRed)
+        +transformerConstructor('background')
+            background-color: $colorLightRed
 
     &-red
-        +colorTransformerConstructor('background', $colorRed)
+        +transformerConstructor('background')
+            background-color: $colorRed
 
     &-dark-red
-        +colorTransformerConstructor('background', $colorDarkRed)
+        +transformerConstructor('background')
+            background-color: $colorDarkRed
 
     &-light-purple
-        +colorTransformerConstructor('background', $colorLightPurple)
+        +transformerConstructor('background')
+            background-color: $colorLightPurple
 
     &-purple
-        +colorTransformerConstructor('background', $colorPurple)
+        +transformerConstructor('background')
+            background-color: $colorPurple
 
     &-dark-purple
-        +colorTransformerConstructor('background', $colorDarkPurple)
+        +transformerConstructor('background')
+            background-color: $colorDarkPurple
 
     &-light-blue
-        +colorTransformerConstructor('background', $colorLightBlue)
+        +transformerConstructor('background')
+            background-color: $colorLightBlue
 
     &-blue
-        +colorTransformerConstructor('background', $colorBlue)
+        +transformerConstructor('background')
+            background-color: $colorBlue
 
     &-dark-blue
-        +colorTransformerConstructor('background', $colorDarkBlue)
+        +transformerConstructor('background')
+            background-color: $colorDarkBlue
 
     &-light-mint
-        +colorTransformerConstructor('background', $colorLightMint)
+        +transformerConstructor('background')
+            background-color: $colorLightMint
 
     &-mint
-        +colorTransformerConstructor('background', $colorMint)
+        +transformerConstructor('background')
+            background-color: $colorMint
 
     &-dark-mint
-        +colorTransformerConstructor('background', $colorDarkMint)
+        +transformerConstructor('background')
+            background-color: $colorDarkMint
 
     &-light-green
-        +colorTransformerConstructor('background', $colorLightGreen)
+        +transformerConstructor('background')
+            background-color: $colorLightGreen
 
     &-green
-        +colorTransformerConstructor('background', $colorGreen)
+        +transformerConstructor('background')
+            background-color: $colorGreen
 
     &-dark-green
-        +colorTransformerConstructor('background', $colorDarkGreen)
+        +transformerConstructor('background')
+            background-color: $colorDarkGreen
     
     &-none
         +transformerConstructor('background')
-            background: transparent
+            background-color: transparent
 
 
 // Border
@@ -2169,7 +2199,7 @@
 
 .leto-disabled
     +transformerConstructor('disabled')
-        background: $colorLightGrey !important
+        background-color: $colorLightGrey !important
         border-color: $colorLightGrey !important
         color: $colorDarkGrey !important
         pointer-events: none
