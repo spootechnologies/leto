@@ -62,4 +62,52 @@
             border-color: t('text')
 
     @else
-        border-color: $borderColor
+        border-color: $borderColor 
+
+=inputWrapper()
+    $bgColor: getElementAttrVal('input', 'bg');
+
+    position: relative
+    width: fit-content
+    margin: $basicMargin
+
+    label
+        position: absolute
+        background-color: $bgColor
+        @if $bgColor == $lightModeBgColor
+            +themed()  
+                background-color: t('bg') 
+        font-size: $fontSizeSM
+        font-weight: $fontWeightMedium
+        top: -10px
+        left: $basicPadding
+        padding-left: $basicPadding
+        padding-right: $basicPadding 
+
+    [class*=leto-input]
+        min-width: 0
+        width: 100%
+        border: 1px solid $colorLightGrey 
+        margin: 0
+
+    [class*=leto-input]:focus::placeholder 
+        opacity: 0
+
+    [class*=leto-input]:focus ~ label 
+        opacity: 1 
+
+    [class*=leto-input]:focus
+        background-color: transparent
+        border: 1px solid $colorDarkGrey
+
+    > i
+        position: absolute
+        top: 50%
+        margin-top: -8px
+        right: 8px
+
+    > select[class*=leto-input]
+        appearance: none
+
+        &::-ms-expand
+            display: none

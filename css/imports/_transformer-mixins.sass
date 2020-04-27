@@ -1,5 +1,6 @@
 @import '_variables.sass'
 @import '_white-lists.sass'
+@import '_theme-functions.scss'
 
 // Transformer contructor
 
@@ -37,6 +38,17 @@
             &-super-ultrawide
                 @content
 
+
+=colorTransformerConstructor($elementName, $color)
+    +transformerConstructor($elementName)
+        @if $elementName == 'background' 
+        
+            @if $color != $lightModeBgColor
+                background: $color
+
+            @else        
+                +themed() 
+                    background: t('bg')
 
 
 // Margin
@@ -117,7 +129,7 @@
 // Active
 
 =active($color)
-    background-color: $color
+    background: $color
 
     &[class*=leto-bubble]
         border-width: 3px
@@ -140,7 +152,7 @@
 =hover($color)
 
     &:hover
-        background-color: $color
+        background: $color
 
     &[class*=leto-bubble]:hover
         border-width: 3px

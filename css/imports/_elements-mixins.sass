@@ -432,6 +432,7 @@
 
 =inputWrapper()
     $bgColor: getElementAttrVal('input', 'bg');
+    $borderRadius: getElementAttrVal('input', 'borderRadius');
 
     position: relative
     width: fit-content
@@ -439,22 +440,52 @@
 
     label
         position: absolute
-        background-color: $bgColor
+        background: $bgColor 
         @if $bgColor == $lightModeBgColor
             +themed()  
-                background-color: t('bg')
+                background: t('bg')
         font-size: $fontSizeSM
         font-weight: $fontWeightMedium
-        top: -10px
-        left: $basicPadding
-        padding-left: $basicPadding
-        padding-right: $basicPadding
+        top: 0
+        left: 0
+        right: 0
+        bottom: 0
+        display: flex
+
+        &:before
+            content: ''
+            height: 100%
+            border-top-left-radius: $borderRadius
+            border-bottom-left-radius: $borderRadius
+            border-top: 1px solid $colorLightGrey
+            border-left: 1px solid $colorLightGrey
+            border-bottom: 1px solid $colorLightGrey
+            flex: 1
+
+        &:after 
+            content: ''
+            height: 100%
+            border-top-right-radius: $borderRadius
+            border-bottom-right-radius: $borderRadius
+            border-top: 1px solid $colorLightGrey
+            border-right: 1px solid $colorLightGrey
+            border-bottom: 1px solid $colorLightGrey
+            flex: 10
+
+        span
+            border-bottom: 1px solid $colorLightGrey   
+            margin-top: -10px
+            padding: 0 $basicPadding
+
 
     [class*=leto-input]
+        position: relative
         min-width: 0
         width: 100%
-        border: 1px solid $colorLightGrey
+        border: 0px solid $colorLightGrey
         margin: 0
+        background: transparent !important
+        z-index: 1
 
     [class*=leto-input]:focus::placeholder
         opacity: 0
@@ -463,7 +494,7 @@
         opacity: 1
 
     [class*=leto-input]:focus
-        background-color: transparent
+        background: transparent
         border: 1px solid $colorDarkGrey
 
     > i
