@@ -8739,7 +8739,7 @@
   height: 48px;
   font-size: 16px;
   margin: 8px;
-  padding: 8px 16px;
+  padding: 0 16px;
   border-width: 1px;
   border-style: solid;
   border-radius: 12px;
@@ -8757,7 +8757,7 @@
   height: 16px;
   font-size: 16px;
   margin: 8px;
-  padding: 8px 16px;
+  padding: 0 16px;
   border-width: 1px;
   border-style: solid;
   border-radius: 12px;
@@ -8775,7 +8775,7 @@
   height: 24px;
   font-size: 16px;
   margin: 8px;
-  padding: 8px 16px;
+  padding: 0 16px;
   border-width: 1px;
   border-style: solid;
   border-radius: 12px;
@@ -8793,7 +8793,7 @@
   height: 32px;
   font-size: 16px;
   margin: 8px;
-  padding: 8px 16px;
+  padding: 0 16px;
   border-width: 1px;
   border-style: solid;
   border-radius: 12px;
@@ -8811,7 +8811,7 @@
   height: 48px;
   font-size: 16px;
   margin: 8px;
-  padding: 8px 16px;
+  padding: 0 16px;
   border-width: 1px;
   border-style: solid;
   border-radius: 12px;
@@ -8829,7 +8829,7 @@
   height: 64px;
   font-size: 16px;
   margin: 8px;
-  padding: 8px 16px;
+  padding: 0 16px;
   border-width: 1px;
   border-style: solid;
   border-radius: 12px;
@@ -8847,7 +8847,7 @@
   height: 96px;
   font-size: 16px;
   margin: 8px;
-  padding: 8px 16px;
+  padding: 0 16px;
   border-width: 1px;
   border-style: solid;
   border-radius: 12px;
@@ -8865,7 +8865,7 @@
   height: 128px;
   font-size: 16px;
   margin: 8px;
-  padding: 8px 16px;
+  padding: 0 16px;
   border-width: 1px;
   border-style: solid;
   border-radius: 12px;
@@ -8891,7 +8891,7 @@ textarea[class*="leto-input"], .leto-textarea {
   height: auto;
   font-size: 16px;
   margin: 8px;
-  padding: 8px 16px;
+  padding: 0 16px;
   border-width: 1px;
   border-style: solid;
   border-radius: 12px;
@@ -8924,7 +8924,7 @@ select.leto-input {
   height: 48px;
   font-size: 16px;
   margin: 8px;
-  padding: 8px 24px 8px 16px;
+  padding: 0 24px 0 16px;
   cursor: pointer;
   border-width: 1px;
   border-style: solid;
@@ -8952,7 +8952,7 @@ select.leto-input-xxs {
   height: 16px;
   font-size: 16px;
   margin: 8px;
-  padding: 8px 24px 8px 16px;
+  padding: 0 24px 0 16px;
   cursor: pointer;
   border-width: 1px;
   border-style: solid;
@@ -8980,7 +8980,7 @@ select.leto-input-xs {
   height: 24px;
   font-size: 16px;
   margin: 8px;
-  padding: 8px 24px 8px 16px;
+  padding: 0 24px 0 16px;
   cursor: pointer;
   border-width: 1px;
   border-style: solid;
@@ -9008,7 +9008,7 @@ select.leto-input-sm {
   height: 32px;
   font-size: 16px;
   margin: 8px;
-  padding: 8px 24px 8px 16px;
+  padding: 0 24px 0 16px;
   cursor: pointer;
   border-width: 1px;
   border-style: solid;
@@ -9036,7 +9036,7 @@ select.leto-input-md {
   height: 48px;
   font-size: 16px;
   margin: 8px;
-  padding: 8px 24px 8px 16px;
+  padding: 0 24px 0 16px;
   cursor: pointer;
   border-width: 1px;
   border-style: solid;
@@ -9064,7 +9064,7 @@ select.leto-input-lg {
   height: 64px;
   font-size: 16px;
   margin: 8px;
-  padding: 8px 24px 8px 16px;
+  padding: 0 24px 0 16px;
   cursor: pointer;
   border-width: 1px;
   border-style: solid;
@@ -9092,7 +9092,7 @@ select.leto-input-xl {
   height: 96px;
   font-size: 16px;
   margin: 8px;
-  padding: 8px 24px 8px 16px;
+  padding: 0 24px 0 16px;
   cursor: pointer;
   border-width: 1px;
   border-style: solid;
@@ -9120,7 +9120,7 @@ select.leto-input-xxl {
   height: 128px;
   font-size: 16px;
   margin: 8px;
-  padding: 8px 24px 8px 16px;
+  padding: 0 24px 0 16px;
   cursor: pointer;
   border-width: 1px;
   border-style: solid;
