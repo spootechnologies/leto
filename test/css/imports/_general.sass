@@ -1,0 +1,59 @@
+@import '_variables.sass'
+    
+// GENERAL
+
+*, ::after, ::before 
+    box-sizing: border-box
+
+body
+    background-color: $colorWhite
+    font-family: $fontFamily
+    font-size: $fontSizeMD
+    color: $colorBlack
+    margin: 0
+    padding: 0
+
+.leto-frame-dark
+    background-color: $darkModeBgColor
+    color: $darkModeColor
+
+button
+    background: none
+    border: none
+
+    &:focus
+        outline: none
+
+textarea
+    border: 1px solid rgba(0, 0, 0, 0)
+    
+    &:focus
+        outline: 0
+
+input
+    border: 1px solid rgba(0, 0, 0, 0)
+
+    &:focus
+        outline: 0
+
+select
+    border: 1px solid rgba(0, 0, 0, 0)
+    
+    &:focus
+        outline: 0
+
+a
+    color: $colorBlue
+    text-decoration: none
+
+h1
+    margin: $basicMargin
+
+h2, h3
+    margin: $basicMargin
+
+h4, h5
+    margin: $basicMargin
+
+p, b,
+    margin: $basicMargin

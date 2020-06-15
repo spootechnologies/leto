@@ -1,0 +1,845 @@
+@import '_elements-mixins.sass'
+
+// Elements
+
+// Bubble
+
+.leto-bubble
+    +elementConstructor('bubble')
+        +bubble()
+
+    +elementConstructorDy('bubble')
+        +bubbleDy($standardSize)
+
+    &-xxs, &-xs, &-sm, &-md, &-lg, &-xl, &-xxl
+        +elementConstructor('bubble')
+            +bubble()
+        
+    &-xxs
+        +elementConstructorDy('bubble')
+            +bubbleDy($xxs)
+
+    &-xs
+
+        +elementConstructorDy('bubble')
+            +bubbleDy($xs)
+
+    &-sm
+
+        +elementConstructorDy('bubble')
+            +bubbleDy($sm)
+
+    &-md
+
+        +elementConstructorDy('bubble')
+            +bubbleDy($md)
+
+    &-lg
+
+        +elementConstructorDy('bubble')
+            +bubbleDy($lg)
+
+    &-xl
+        +elementConstructorDy('bubble')
+            +bubbleDy($xl)
+
+    &-xxl
+        +elementConstructorDy('bubble')
+            +bubbleDy($xxl)
+
+[class*="leto-bubble"]
+    +elementThemeColors('bubble')
+
+[class*="leto-frame"] .leto-bubble
+    +presetConstructor('bubble')
+
+    
+// Bubble wrapper
+
+.leto-bubble-wrapper
+    +bubbleWrapper()
+    
+    +bubbleWrapperDy($standardSize)
+
+    &-xxs, &-xs, &-sm, &-md, &-lg, &-xl, &-xxl
+        +bubbleWrapper()
+
+    &-xxs
+        +bubbleWrapperDy($xxs)
+        
+    &-xs
+        +bubbleWrapperDy($xs)
+
+    &-sm
+        +bubbleWrapperDy($sm)
+
+    &-md
+        +bubbleWrapperDy($md)
+        
+    &-lg
+        +bubbleWrapperDy($lg)
+
+    &-xl
+        +bubbleWrapperDy($xl)
+
+    &-xxl
+        +bubbleWrapperDy($xxl)
+
+
+// Card
+
+.leto-card
+    +elementConstructor('card')
+        +cardAutoWidth()
+
+    &-xxs, &-xs, &-sm, &-md, &-lg, &-xl, &-xxl
+        +elementConstructor('card')
+            +card()
+
+    &-xxs    
+        +elementConstructorDy('card')
+            +cardDy($xxs)
+
+    &-xs
+        +elementConstructorDy('card')
+            +cardDy($xs)
+
+    &-sm
+        +elementConstructorDy('card')
+            +cardDy($sm) 
+
+    &-md
+        +elementConstructorDy('card')
+            +cardDy($md)
+
+    &-lg
+        +elementConstructorDy('card')
+            +cardDy($lg)
+
+    &-xl
+        +elementConstructorDy('card')
+            +cardDy($xl)
+
+    &-xxl
+        +elementConstructorDy('card')
+            +cardDy($xxl) 
+
+    &-square
+        +elementConstructor('card') 
+            +cardSquare()
+
+        +elementConstructorDy('card') 
+            +cardSquareDy($md)
+
+        &-xxs, &-xs, &-sm, &-md, &-lg, &-xl, &-xxl
+            +elementConstructor('card') 
+                +cardSquare()
+
+        &-xxs      
+            +elementConstructorDy('card')  
+                +cardSquareDy($xxs)
+
+        &-xs
+            +elementConstructorDy('card')  
+                +cardSquareDy($xs)
+
+        &-sm
+            +elementConstructorDy('card')  
+                +cardSquareDy($sm)
+
+        &-md
+            +elementConstructorDy('card')  
+                +cardSquareDy($md)
+
+        &-lg
+            +elementConstructorDy('card')  
+                +cardSquareDy($lg)
+
+        &-xl
+            +elementConstructorDy('card')  
+                +cardSquareDy($xl)
+
+        &-xxl
+            +elementConstructorDy('card')  
+                +cardSquareDy($xxl) 
+
+[class*="leto-card"]
+    +elementThemeColors('card')
+
+[class*="leto-frame"] .leto-card
+    +presetConstructor('card')
+
+
+// Card wrapper
+
+.leto-card-wrapper
+    +cardWrapper()
+
+
+// Button
+
+.leto-button 
+    +elementConstructor('button')
+        +button()
+
+    +elementConstructorDy('button')
+        +buttonDy($standardSize)
+
+    &-xxs, &-xs, &-sm, &-md, &-lg, &-xl, &-xxl
+        +button()
+
+    &-xxs
+        +elementConstructorDy('button')
+            +buttonDy($xxs)
+
+    &-xs
+        +elementConstructorDy('button')
+            +buttonDy($xs)
+
+    &-sm
+        +elementConstructorDy('button')
+            +buttonDy($sm)
+
+    &-md
+        +elementConstructorDy('button')
+            +buttonDy($md)
+
+    &-lg
+        +elementConstructorDy('button')
+            +buttonDy($lg)
+
+    &-xl
+        +elementConstructorDy('button')
+            +buttonDy($xl)
+
+    &-xxl
+        +elementConstructorDy('button')
+            +buttonDy($xxl)
+
+    &-full
+        +elementConstructor('button')
+            +buttonFull()
+
+        +elementConstructorDy('button')
+            +buttonFullDy($standardSize)
+
+        &-xxs, &-xs, &-sm, &-md, &-lg, &-xl, &-xxl
+            +buttonFull()
+
+        &-xxs
+            +elementConstructorDy('button')
+                +buttonFullDy($xxs)
+
+        &-xs
+            +elementConstructorDy('button')
+                +buttonFullDy($xs)
+
+        &-sm
+            +elementConstructorDy('button')
+                +buttonFullDy($sm)
+
+        &-md
+            +elementConstructorDy('button')
+                +buttonFullDy($md)
+
+        &-lg
+            +elementConstructorDy('button')
+                +buttonFullDy($lg)
+
+        &-xl
+            +elementConstructorDy('button')
+                +buttonFullDy($xl)
+
+        &-xxl
+            +elementConstructorDy('button')
+                +buttonFullDy($xxl)
+
+[class*="leto-button"]
+    +elementThemeColors('button')
+
+[class*="leto-frame"] .leto-button
+    +presetConstructor('button')
+
+
+// Badge
+
+.leto-badge
+    +elementConstructor('badge')
+        +badge()
+
+    +elementConstructorDy('badge')
+        +badgeDy($standardSize)
+
+    &-xxs, &-xs, &-sm, &-md, &-lg, &-xl, &-xxl
+        +badge()
+
+    &-xxs
+        +elementConstructorDy('badge')
+            +badgeDy($xxs)
+
+    &-xs
+        +elementConstructorDy('badge')
+            +badgeDy($xs)
+
+    &-sm
+        +elementConstructorDy('badge')
+            +badgeDy($sm)
+
+    &-md
+        +elementConstructorDy('badge')
+            +badgeDy($sm)
+
+    &-lg
+        +elementConstructorDy('badge')
+            +badgeDy($lg)
+
+    &-xl
+        +elementConstructorDy('badge')
+            +badgeDy($xl)
+
+    &-xxl
+        +elementConstructorDy('badge') 
+            +badgeDy($xxl)
+
+[class*="leto-badge"]
+    +elementThemeColors('badge')
+
+[class*="leto-frame"] .leto-badge
+    +presetConstructor('badge')
+
+=inputType()
+    &[type="text"], &[type="date"], &[type="datetime-local"], &[type="email"], &[type="month"], &[type="number"], &[type="password"], &[type="tel"], &[type="time"], &[type="url"], &[type="week"]
+        @content
+
+// Input
+
+.leto-input
+
+    +elementInputConstructor('input')
+        +input()
+
+    +elementInputConstructorDy('input')
+        +inputDy($standardSize) 
+
+    &-xxs, &-xs, &-sm, &-md, &-lg, &-xl, &-xxl
+        +elementInputConstructor('input')
+            +input()
+
+    &-xxs
+        +elementInputConstructorDy('input')
+            +inputDy($xxs)
+
+    &-xs
+        +elementInputConstructorDy('input')
+            +inputDy($xs)
+
+    &-sm
+        +elementInputConstructorDy('input')
+            +inputDy($sm)
+
+    &-md
+        +elementInputConstructorDy('input')
+            +inputDy($md)
+
+    &-lg
+        +elementInputConstructorDy('input')
+            +inputDy($lg)
+
+    &-xl
+        +elementInputConstructorDy('input')
+            +inputDy($xl)
+
+    &-xxl
+        +elementInputConstructorDy('input')
+            +inputDy($xxl)
+
+[class*="leto-input"]
+
+    &[type="text"], &[type="date"], &[type="datetime-local"], &[type="email"], &[type="month"], &[type="number"], &[type="password"], &[type="tel"], &[type="time"], &[type="url"], &[type="week"]
+        +elementThemeColors('input')
+
+[class*="leto-frame"] .leto-input
+
+    &[type="text"], &[type="date"], &[type="datetime-local"], &[type="email"], &[type="month"], &[type="number"], &[type="password"], &[type="tel"], &[type="time"], &[type="url"], &[type="week"]
+        +presetConstructor('input')
+
+
+// Input Wrapper
+
+.leto-input-wrapper
+    +inputWrapper()
+
+
+// Input Radio
+
+.leto-input
+
+    &[type="radio"]
+        +inputRadio()
+
+    &[type="radio"]
+        +inputRadioDy($standardSize)
+
+    &-xxs[type="radio"], &-xs[type="radio"], &-sm[type="radio"], &-md[type="radio"], &-lg[type="radio"], &-xl[type="radio"], &-xxl[type="radio"]
+        inputRadio()
+
+    &-xxs[type="radio"]
+        +inputRadioDy($xxs)
+
+    &-xs[type="radio"]
+        +inputRadioDy($xs)
+
+    &-sm[type="radio"]
+        +inputRadioDy($sm)
+
+    &-md[type="radio"]
+        +inputRadioDy($md)
+
+    &-lg[type="radio"]
+        +inputRadioDy($lg)
+
+    &-xl[type="radio"]
+        +inputRadioDy($xl)
+
+    &-xxl[type="radio"]
+        +inputRadioDy($xxl)
+
+[class*="leto-frame"] .leto-input
+    
+    &[type="radio"]
+        +presetConstructor('radio')
+
+[class*="leto-input"]
+
+    &[type="radio"]
+        $bgColor: getElementAttrVal('radio', 'bg');
+        $color: getElementAttrVal('radio', 'color');
+        $borderColor: getElementAttrVal('radio', 'borderColor');
+
+        &:before
+            @if $bgColor == $lightModeBgColor
+                +themed() 
+                    background: t('bg')
+
+        &:checked
+            
+            &:after 
+                @if $bgColor == $lightModeBgColor
+                    +themed() 
+                        $tempBgColor: t('bg') 
+                        
+                        @if $tempBgColor == $darkModeBgColor
+                            background: $lightModeBgColor
+
+
+// Input Checkbox
+
+.leto-input
+
+    &[type="checkbox"]
+        +inputCheckbox()
+
+    &[type="checkbox"]
+        +inputCheckboxDy($standardSize)
+
+    &-xxs[type="checkbox"], &-xs[type="checkbox"], &-sm[type="checkbox"], &-md[type="checkbox"], &-lg[type="checkbox"], &-xl[type="checkbox"], &-xxl[type="checkbox"]
+        +inputCheckbox()
+
+    &-xxs[type="checkbox"]
+        +inputCheckboxDy($xxs)
+
+    &-xs[type="checkbox"]
+        +inputCheckboxDy($xs)
+
+    &-sm[type="checkbox"]
+        +inputCheckboxDy($sm)
+
+    &-md[type="checkbox"]
+        +inputCheckboxDy($md)
+
+    &-lg[type="checkbox"]
+        +inputCheckboxDy($lg)
+
+    &-xl[type="checkbox"]
+        +inputCheckboxDy($xl)
+
+    &-xxl[type="checkbox"]
+        +inputCheckboxDy($xxl)
+
+[class*="leto-frame"] .leto-input
+    
+    &[type="checkbox"]
+        +presetConstructor('checkbox')
+
+[class*="leto-input"]
+
+    &[type="checkbox"]
+        $bgColor: getElementAttrVal('checkbox', 'bg');
+        $color: getElementAttrVal('checkbox', 'color');
+        $borderColor: getElementAttrVal('checkbox', 'borderColor');
+
+        &:before
+            @if $bgColor == $lightModeBgColor
+                +themed() 
+                    background: t('bg')
+
+        &:checked
+            
+            &:after 
+                @if $bgColor == $lightModeBgColor
+                    +themed() 
+                        $tempBgColor: t('bg') 
+                        
+                        @if $tempBgColor == $darkModeBgColor
+                            background: $lightModeBgColor
+
+
+// Input Color
+
+.leto-input
+
+    +elementInputConstructor('color')
+        +inputColor()
+
+    +elementInputConstructorDy('color')
+        +inputColorDy($standardSize)
+
+    &-xxs, &-xs, &-sm, &-md, &-lg, &-xl, &-xxl
+        +elementInputConstructor('color')
+            +inputColor()
+
+    &-xxs
+        +elementInputConstructorDy('color')
+            +inputColorDy($xxs)
+
+    &-xs
+        +elementInputConstructorDy('color')
+            +inputColorDy($xs)
+
+    &-sm
+        +elementInputConstructorDy('color')
+            +inputColorDy($sm)
+
+    &-md
+        +elementInputConstructorDy('color')
+            +inputColorDy($md)
+
+    &-lg
+        +elementInputConstructorDy('color')
+            +inputColorDy($lg)
+
+    &-xl
+        +elementInputConstructorDy('color')
+            +inputColorDy($xl)
+
+    &-xxl
+        +elementInputConstructorDy('color')
+            +inputColorDy($xxl)
+    
+[class*="leto-input"]
+
+    &[type="color"]
+        +elementThemeColors('input')
+
+[class*="leto-frame"] .leto-input
+    
+    &[type="color"]
+        +presetConstructor('color')
+
+
+// Input Image
+
+.leto-input // NOT USED
+
+    &[type="image"]
+        +inputImage()
+
+    
+// Range
+
+.leto-input // NOT USED
+
+    &[type=range]
+        +range()
+
+
+// Input File
+
+.leto-file // NOT USED
+    +inputFile()  
+
+// Search
+
+.leto-input
+    
+    +elementInputConstructor('search')
+        +search()
+
+    +elementInputConstructorDy('search')
+        +searchDy($standardSize)
+
+    &-xxs, &-xs, &-sm, &-md, &-lg, &-xl, &-xxl
+        +elementInputConstructor('search')
+            +search()
+
+    &-xxs
+        +elementInputConstructorDy('search')
+            +searchDy($xxs)
+
+    &-xs
+        +elementInputConstructorDy('search')
+            +searchDy($xs)
+
+    &-sm
+        +elementInputConstructorDy('search')
+            +searchDy($sm)
+
+    &-md
+        +elementInputConstructorDy('search')
+            +searchDy($md)
+
+    &-lg
+        +elementInputConstructorDy('search')
+            +searchDy($lg)
+
+    &-xl
+        +elementInputConstructorDy('search')
+            +searchDy($xl)
+
+    &-xxl
+        +elementInputConstructorDy('search')
+            +searchDy($xxl)
+
+[class*="leto-input"]
+
+    &[type="search"]
+        +elementThemeColors('search')
+
+[class*="leto-frame"] .leto-input
+    
+    &[type="search"]
+        +presetConstructor('search')
+
+
+// Textarea
+
+textarea[class*="leto-input"], .leto-textarea
+    +elementConstructor('textarea')
+        +textarea()
+
+textarea[class*="leto-input"]
+    +elementThemeColors('textarea')
+
+[class*="leto-frame"] textarea[class*="leto-input"]
+    +presetConstructor('textarea')
+
+
+// Select
+
+select.leto-input
+    +elementConstructor('select')
+        +select()
+
+    +elementConstructorDy('select')
+        +selectDy($standardSize)
+
+    &-xxs, &-xs, &-sm, &-md, &-lg, &-xl, &-xxl
+        +elementConstructor('select')
+            +select()
+
+    &-xxs
+        +elementConstructorDy('select')
+            +selectDy($xxs)
+
+    &-xs
+        +elementConstructorDy('select')
+            +selectDy($xs)
+
+    &-sm
+        +elementConstructorDy('select')
+            +selectDy($sm)
+
+    &-md
+        +elementConstructorDy('select')
+            +selectDy($md)
+
+    &-lg
+        +elementConstructorDy('select')
+            +selectDy($lg)
+
+    &-xl
+        +elementConstructorDy('select')
+            +selectDy($xl)
+
+    &-xxl
+        +elementConstructorDy('select')
+            +selectDy($xxl)
+
+select[class*="leto-input"]
+    +elementThemeColors('select')
+
+[class*="leto-frame"] select[class*="leto-input"]
+    +presetConstructor('select')
+
+
+// Table
+
+.leto-table
+    +table()
+
+    +tableDy($standardSize)
+
+    &-xxs, &-xs, &-sm, &-md, &-lg, &-xl, &-xxl
+        +table()
+
+    &-xxs
+        +tableDy($xxs)
+
+    &-xs
+        +tableDy($xs)
+
+    &-sm
+        +tableDy($sm)
+
+    &-md
+        +tableDy($md)
+
+    &-lg
+        +tableDy($lg)
+
+    &-xl
+        +tableDy($xl)
+
+    &-xxl
+        +tableDy($xxl)
+
+
+// Wrapper
+
+.leto-wrapper // Not Used
+    flex-direction: column
+    display: inline-flex
+
+
+// Header 
+    
+.leto-header // Not Used
+    font-weight: $fontWeightMedium
+    align-items: center
+    flex-direction: row
+    display: flex
+
+
+// Image
+
+.leto-image
+
+    &-full
+        max-height: auto
+        width: 100%
+
+
+// Pile
+
+.leto-pile
+    +elementConstructor('pile')
+        margin: $basicMargin
+        padding: $basicPadding
+        flex-direction: column
+        display: flex
+
+        &-empty // NOT USED
+            min-width: 300px
+            width: 100%
+            padding: $basicPadding
+            display: block
+
+[class*="leto-pile"]
+    +elementThemeColors('pile')
+
+[class*="leto-frame"] .leto-pile
+    +presetConstructor('pile')
+
+
+// Form
+ 
+.leto-form
+    +elementConstructor('form')
+        position: fixed
+        width: calc(100% - #{$basicPadding})
+        height: 100%
+        top: 0
+        left: 0
+        padding: $basicPadding
+        flex-direction: column
+        display: flex
+        overflow-y: scroll
+        z-index: 2
+
+    &-left
+        +elementConstructor('form')
+            position: fixed
+            width: calc(100% - #{$basicPadding})
+            height: 100%
+            top: 0
+            left: 0
+            padding: $basicPadding
+            flex-direction: column
+            display: flex
+            overflow-y: scroll
+            z-index: 2
+
+    &-right
+        +elementConstructor('form')
+            position: fixed
+            width: calc(100% - #{$basicPadding})
+            height: 100%
+            top: 0
+            right: 0
+            padding: $basicPadding
+            flex-direction: column
+            display: flex
+            overflow-y: scroll
+            z-index: 2
+
+    @media (min-width: $pc)
+        width: 50vw
+        left: 50%
+        margin-left: -25vw
+
+        &-left, &-right
+            width: 50vw
+
+[class*="leto-form"]
+    +elementThemeColors('form')
+
+[class*="leto-frame"] .leto-form
+    +presetConstructor('form')
+
+
+// Backdrop
+
+.leto-backdrop
+    position: fixed
+    left: 0
+    top: 0
+    display: block
+    height: 100%
+    width: 100%
+    background-color: rgba(0, 0, 0, .25)
+    z-index: 1
+
+
+// Toast
+
+.leto-toast
+    +toastPos($toastColor, $colorWhite)
+
+.leto-toast-success
+    +toastPos($colorGreen, $colorBlack)
+
+.leto-toast-warning
+    +toastPos($colorOrange, $colorBlack)
+
+.leto-toast-error
+    +toastPos($colorRed, $colorBlack)

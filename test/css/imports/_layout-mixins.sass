@@ -1,0 +1,103 @@
+@import '_variables.sass'
+@import '_white-lists.sass'
+
+// Layout contructor
+
+=layoutConstructor($elementName)
+    @content
+    
+    @if checkLayoutMQList($elementName)
+        @media (min-width: $tablet)
+
+            &-tablet
+                @content
+
+        @media (min-width: $tabletAndPC)
+
+            &-tablet-pc
+                @content
+
+        @media (min-width: $tabletAndPC) and ($touchDevice)
+
+            &-tablet-pc
+                @content
+
+        @media (min-width: $pc)
+
+            &-pc
+                @content
+
+        @media (min-aspect-ratio: $ultrawideRatio) and (min-width: $ultrawide)
+
+            &-ultrawide
+                @content
+
+        @media (min-aspect-ratio: $superUltrawideRatio) and (min-width: $ultrawide)
+            
+            &-super-ultrawide
+                @content
+
+
+// Masonry
+
+=masonry($value)
+    column-count: 1
+    column-gap: 0
+
+    @media (min-width: $tablet)
+        column-count: 2
+
+    @media (min-width: $pc)
+        column-count: $value
+
+    > * 
+        break-inside: avoid
+        counter-increment: item-counter
+
+
+// Justify-content
+
+=justifyContent()
+
+    &-left
+        justify-content: flex-start
+
+    &-center
+        justify-content: center
+
+    &-right
+        justify-content: flex-end
+
+    &-between
+        justify-content: space-between
+
+    &-around
+        justify-content: space-around
+
+    &-evenly
+        justify-content: space-evenly
+
+
+// Align-items
+
+=alignItems()
+
+    &-top
+        align-items: flex-start
+
+    &-center
+        align-items: center
+
+    &-bottom
+        align-items: flex-end
+
+
+// Flex areas    
+
+=letoFlexAreas($width)
+    width: $width
+    padding: $basicPadding
+
+    > *
+        width: 100%
+        margin: 0

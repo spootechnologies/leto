@@ -1,0 +1,65 @@
+@import 'imports/_font.sass'
+@import 'imports/_variables.sass'
+@import 'imports/_general.sass'
+@import 'imports/_elements.sass'
+@import 'imports/_layout.sass'
+@import 'imports/_transformer.sass'
+
+=constructor()
+    @content
+    
+    @media (min-width: $tablet)
+
+        &-tablet
+            @content
+
+    @media (min-width: $tabletAndPC)
+
+        &-tablet-pc
+            @content
+
+    @media (min-width: $tabletAndPC) and ($touchDevice)
+
+        &-tablet-pc
+            @content
+
+    @media (min-width: $pc)
+
+        &-pc
+            @content
+
+    @media (min-aspect-ratio: $ultrawideRatio) and (min-width: $ultrawide)
+
+        &-ultrawide
+            @content
+
+    @media (min-aspect-ratio: $superUltrawideRatio) and (min-width: $ultrawide)
+        
+        &-super-ultrawide
+            @content
+
+=basicElementStylesAlt($bgColor, $color, $borderWidth, $borderColor, $borderRadius)
+    border-width: $borderWidth
+    border-style: solid
+    border-radius: $borderRadius
+
+    @if $bgColor == $lightModeBgColor
+        +themed() 
+            background: t('bg')
+
+    @else 
+       background: $bgColor 
+
+    @if $color == $lightModeColor
+        +themed() 
+            color: t('text')
+
+    @else 
+       color: $color
+
+    @if $borderColor == $lightModeColor
+        +themed() 
+            border-color: t('text')
+
+    @else
+        border-color: $borderColor  

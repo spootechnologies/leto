@@ -1,0 +1,3000 @@
+@import 'leto-variables-backup.sass'
+    
+// GENERAL
+
+*, ::after, ::before 
+    box-sizing: border-box
+
+body
+    background-color: $colorWhite
+    font-family: $fontFamily
+    font-size: $fontSizeMD
+    color: $colorBlack
+    margin: 0
+    padding: 0
+
+button
+    background: none
+    border: none
+
+    &:focus
+        outline: none
+
+textarea
+    border: 1px solid rgba(0, 0, 0, 0)
+    
+    &:focus
+        outline: 0
+
+input
+    border: 1px solid rgba(0, 0, 0, 0)
+
+    &[type="text"]:focus, &[type="password"]:focus, &[type="datetime"]:focus, &[type="datetime-local"]:focus, &[type="date"]:focus, &[type="month"]:focus, &[type="time"]:focus, &[type="week"]:focus, &[type="number"]:focus, &[type="email"]:focus, &[type="url"]:focus, &[type="search"]:focus, &[type="tel"]:focus, &[type="color"]:focus
+        outline: 0
+
+select
+    border: 1px solid rgba(0, 0, 0, 0)
+    
+    &:focus
+        outline: 0
+
+a
+    color: $colorBlack
+    text-decoration: none
+
+
+// Leto with default theme
+
+h1
+    margin: $basicMargin
+
+h2, h3
+    margin: $basicMargin
+
+h4, h5
+    margin: $basicMargin
+
+p, b,
+    margin: $basicMargin
+
+a
+    color: $colorBlue
+    text-decoration: none
+
+    
+// Leto with spoo theme
+
+=bubble($value, $multi, $fontSizeMulti)
+    height: $value * $multi
+    width: $value * $multi
+    font-size: $value * $fontSizeMulti
+    border: 1px solid $colorGrey
+    border-radius: $value * $multi 
+    margin: $basicMargin
+    text-align: center
+    flex-direction: column
+    align-items: center
+    justify-content: center
+    flex-shrink: 0
+    display: inline-flex
+
+    img
+        max-width: $value * $fontSizeMulti  
+
+.leto-bubble
+    +bubble($md, 2.5, 0.75)
+
+    &-xxs
+        +bubble($xxs, 2.5, 0.75)
+
+    &-xs
+        +bubble($xs, 2.5, 0.75)
+
+    &-sm
+        +bubble($sm, 2.5, 0.75)
+
+    &-md
+        +bubble($md, 2.5, 0.75)
+
+    &-lg
+        +bubble($lg, 2.5, 0.75)
+
+    &-xl
+        +bubble($xl, 2.5, 0.75)
+
+    &-xxl
+        +bubble($xxl, 2.5, 0.75)
+
+
+// Card
+
+=card($value)
+    position: relative
+    width: $value*10
+    min-height: 50px
+    border: 1px solid $colorGrey
+    border-radius: 12px
+    margin: $basicMargin
+    padding: $basicPadding
+    flex-direction: column
+    display: inline-flex
+    overflow: hidden
+
+    > .leto-image-full
+        margin-top: -$basicMargin
+        margin-left: -$basicMargin
+        margin-right: -$basicMargin
+        width: calc(100% + 16px)
+
+=cardAutoWidth()
+    position: relative
+    min-height: 50px
+    border: 1px solid $colorGrey
+    border-radius: 12px
+    margin: $basicMargin
+    padding: $basicPadding
+    flex-direction: column
+    display: inline-flex
+    overflow: hidden
+
+    > .leto-image-full
+        margin-top: -$basicMargin
+        margin-left: -$basicMargin
+        margin-right: -$basicMargin
+        width: calc(100% + 16px)
+
+=cardSquare($value)
+    position: relative
+    width: $value*10
+    height: $value*10
+    border: 1px solid $colorGrey
+    border-radius: 12px
+    margin: $basicMargin
+    flex-direction: column
+    display: inline-flex
+    overflow: hidden 
+
+    > .leto-image-full
+        margin-top: -$basicMargin
+        margin-left: -$basicMargin
+        margin-right: -$basicMargin
+        width: calc(100% + 16px)
+
+.leto-card
+    +cardAutoWidth()
+
+    &-xxs
+        +card($xxs)  
+
+    &-xs
+        +card($xs)
+
+    &-sm
+        +card($sm)  
+
+    &-md
+        +card($md) 
+
+    &-lg
+        +card($lg)
+
+    &-xl
+        +card($xl) 
+
+    &-xxl
+        +card($xxl)    
+
+    &-square
+        +cardSquare($md) 
+
+        &-xxs
+            +cardSquare($xxs)  
+
+        &-xs
+            +cardSquare($xs)
+
+        &-sm
+            +cardSquare($sm)  
+
+        &-md
+            +cardSquare($md) 
+
+        &-lg
+            +cardSquare($lg)
+
+        &-xl
+            +cardSquare($xl) 
+
+        &-xxl
+            +cardSquare($xxl)         
+
+
+// Button
+
+=button($value)
+    background-color: $colorWhite
+    height: $value * 2
+    text-decoration: none
+    border: 1px solid $colorGrey
+    border-radius: 100px
+    margin: $basicMargin
+    padding: $basicPadding $basicPadding * 2
+    justify-content: center
+    align-items: center
+    cursor: pointer
+    display: inline-flex
+
+    > *
+        margin: 0
+        margin-right: $basicMargin / 2
+
+    > *:last-child
+        margin-right: 0
+
+
+=buttonFull($value)
+    background-color: $colorWhite
+    width: 100%
+    height: $value * 2
+    text-decoration: none
+    border: 1px solid $colorGrey
+    border-radius: 100px
+    margin: $basicMargin
+    padding: $basicPadding $basicPadding * 2
+    justify-content: center
+    align-items: center
+    cursor: pointer
+    display: inline-flex
+
+    > *
+        margin: 0
+        margin-right: $basicMargin / 2
+
+    > *:last-child
+        margin-right: 0
+
+
+
+.leto-button
+    +button($md)
+
+    &-xxs
+        +button($xxs)
+
+    &-xs
+        +button($xs)
+
+    &-sm
+        +button($sm)
+
+    &-md
+        +button($md)
+
+    &-lg
+        +button($lg)
+
+    &-xl
+        +button($xl)
+
+    &-xxl
+        +button($xxl)
+
+    &-full
+        +buttonFull($md)
+
+        &-xxs
+            +buttonFull($xxs)
+
+        &-xs
+            +buttonFull($xs)
+
+        &-sm
+            +buttonFull($sm)
+
+        &-md
+            +buttonFull($md)
+
+        &-lg
+            +buttonFull($lg)
+
+        &-xl
+            +buttonFull($xl)
+
+        &-xxl
+            +buttonFull($xxl)
+
+
+
+// Badge
+
+=badge($value)
+    background-color: transparent
+    height: $value
+    font-size: $fontSizeXS
+    border: 1px solid $colorGrey
+    border-radius: 100px
+    padding: $xxs $xs
+    margin: $basicMargin
+    white-space: nowrap
+    align-items: center
+    display: inline-flex
+
+    > *
+        margin: 0
+        margin-right: $basicMargin / 2
+
+    > *:last-child
+        margin-right: 0
+
+
+.leto-badge
+    +badge($md)
+
+    &-xxs
+        +badge($xxs)
+
+    &-xs
+        +badge($xs)
+
+    &-sm
+        +badge($sm)
+
+    &-md
+        +badge($md)
+
+    &-lg
+        +badge($lg)
+
+    &-xl
+        +badge($xl)
+
+    &-xxl
+        +badge($xxl)
+
+// Input
+
+=input($height)
+    background-color: $colorWhite
+    height: $height * 2
+    font-size: $fontSizeMD
+    border: 1px solid $colorGrey
+    border-radius: 12px
+    margin: $basicMargin
+    padding: $basicPadding $basicPadding * 2
+
+    &:focus
+        background-color: $colorLightGrey
+        border-color: $colorLightGrey
+
+
+    &[type="search"]
+        background-color: $colorLightGrey
+        height: $height * 2
+        font-size: $fontSizeMD
+        border-radius: 12px
+        margin: $basicMargin
+        padding: $basicPadding $basicPadding * 2
+
+        &:focus
+            background-color: transparent
+            border-color: $colorGrey
+
+.leto-input
+    +input($md)
+
+    &-xxs
+        +input($xxs)
+
+    &-xs
+        +input($xs)
+
+    &-sm
+        +input($sm)
+
+    &-md
+        +input($md)
+
+    &-lg
+        +input($lg)
+
+    &-xl
+        +input($xl)
+
+    &-xxl
+        +input($xxl)
+
+.leto-input-wrapper
+    position: relative
+    margin: $basicMargin
+
+    label
+        position: absolute 
+        background-color: $colorWhite
+        font-size: $fontSizeSM
+        font-weight: $fontWeightMedium
+        top: -10px
+        left: $basicPadding
+        padding-left: $basicPadding
+        padding-right: $basicPadding
+
+    [class*=leto-input]
+        width: 100%
+        border: 1px solid $colorLightGrey
+        margin: 0
+
+    [class*=leto-input]:focus::placeholder
+        opacity: 0
+
+    [class*=leto-input]:focus ~ label
+        opacity: 1
+
+    [class*=leto-input]:focus
+        background-color: transparent
+        border: 1px solid $colorDarkGrey
+
+    > i
+        position: absolute
+        top: 50%
+        margin-top: -8px
+        right: 8px
+
+    > select[class*=leto-input]
+        appearance: none
+
+        &::-ms-expand
+            display: none
+
+
+// Search
+
+=search($height)
+    background-color: $colorLightGrey
+    height: $height * 2
+    font-size: $fontSizeMD
+    border-radius: 12px
+    margin: $basicMargin
+    padding: $basicPadding $basicPadding * 2
+
+    &:focus
+        background-color: transparent
+        border-color: $colorGrey
+
+.leto-search
+    +search($md)
+
+    &-xxs
+        +search($xxs)
+
+    &-xs
+        +search($xs)
+
+    &-sm
+        +search($sm)
+
+    &-md
+        +search($md)
+
+    &-lg
+        +search($lg)
+
+    &-xl
+        +search($xl)
+
+    &-xxl
+        +search($xxl)
+
+
+// Textarea
+
+=textarea()
+    background-color: rgba(255, 255, 255, 0)
+    height: auto
+    font-size: $fontSizeMD
+    border: 1px solid $colorGrey
+    border-radius: 12px
+    margin: $basicMargin
+    padding: $basicPadding $basicPadding * 2
+
+    &:focus
+        background-color: $colorLightGrey
+        border-color: $colorLightGrey
+
+textarea[class*="leto-input"], .leto-textarea
+    +textarea()
+
+=select($height)
+    background-color: $colorWhite
+    height: $height * 2
+    font-size: $fontSizeMD
+    border: 1px solid $colorGrey
+    border-radius: 12px
+    margin: $basicMargin
+    padding: $basicPadding $basicPadding * 3 $basicPadding $basicPadding * 2
+    cursor: pointer
+
+    & option 
+        background-color: $colorLightGrey
+        outline: 0
+
+
+    &:focus
+        background-color: $colorWhite
+        border: 1px solid $colorGrey
+        border-radius: 12px 12px 0 0
+
+        &::-ms-value
+            background-color: transparent
+
+
+select.leto-input
+    +select($md)
+
+    &-xxs
+        +select($xxs)
+
+    &-xs
+        +select($xs)
+
+    &-sm
+        +select($sm)
+
+    &-md
+        +select($md)
+
+    &-lg
+        +select($lg)
+
+    &-xl
+        +select($xl)
+
+    &-xxl
+        +select($xxl)
+
+
+
+// Table
+
+.leto-table
+    border-collapse: separate
+    border-spacing: 0 15px
+    width: 100%
+
+    th
+        font-weight: $fontWeightBold
+        text-align: left
+
+    .leto-table-header
+
+    td, th
+        padding-left: $sm
+
+    tr:not(.leto-table-header)
+
+        td
+            padding: $sm
+
+    tr:not(.leto-table-header)
+
+        td
+            border-top: 1px solid $colorGrey
+            border-bottom: 1px solid $colorGrey
+
+    tr:not(.leto-table-header)
+
+        td:first-child
+            border-left: 1px solid $colorGrey
+            border-top-left-radius: $xs
+            border-bottom-left-radius: $xs
+
+        td:last-child
+            border-right: 1px solid $colorGrey
+            border-top-right-radius: $xs
+            border-bottom-right-radius: $xs
+
+
+// Leto core
+
+// Bubble
+
+=bubbleWrapper($value)
+    width: $value * 2.5
+    margin: $basicMargin
+    justify-content: center
+    flex-direction: column
+    display: inline-flex
+
+    > .leto-bubble
+        height: $value * 2.5
+        width: $value * 2.5
+        font-size: $value * .75
+        border-radius: $value * 2.5
+
+        img
+            max-width: $value * .75 
+
+    > [class*=leto-bubble]
+        margin-top: 0
+        margin-left: auto
+        margin-right: auto
+        margin-bottom: 0
+
+    > label
+        text-align: center
+
+    > [class*=leto-bubble] ~ label
+        margin-top: $basicMargin
+
+    > label ~ [class*=leto-bubble]
+        margin-top: $basicMargin
+
+.leto-bubble-wrapper
+    +bubbleWrapper($md)
+
+    &-xxs
+        +bubbleWrapper($xxs)
+        
+    &-xs
+        +bubbleWrapper($xs)
+
+    &-sm
+        +bubbleWrapper($sm)
+
+    &-md
+        +bubbleWrapper($md)
+        
+    &-lg
+        +bubbleWrapper($lg)
+
+    &-xl
+        +bubbleWrapper($xl)
+
+    &-xxl
+        +bubbleWrapper($xxl)
+
+// Card
+
+=cardWrapper($value)
+    margin: $basicMargin
+    justify-content: center
+    flex-direction: column
+    display: inline-flex
+
+    > [class*=leto-card]
+        margin-top: 0
+        margin-left: auto
+        margin-right: auto
+        margin-bottom: 0
+
+    > label
+        text-align: center
+
+    > [class*=leto-card] ~ label
+        margin-top: $basicMargin
+
+    > label ~ [class*=leto-card]
+        margin-top: $basicMargin
+
+.leto-card-wrapper
+    +cardWrapper($md)
+
+// Leto Core Styles
+
+.leto-wrapper
+    flex-direction: column
+    display: inline-flex
+
+.leto-header
+    font-weight: $fontWeightMedium
+    align-items: center
+    flex-direction: row
+    display: flex
+
+.leto-image
+
+    &-full
+        max-height: auto
+        width: 100%
+
+
+
+// Pile
+
+.leto-pile
+    border: 1px solid $colorGrey
+    border-radius: 12px
+    margin: $basicMargin
+    padding: $basicPadding
+    flex-direction: column
+    display: flex
+    
+
+
+    > *
+        display: block
+
+    &-empty
+        min-width: 300px
+        width: 100%
+        padding: $basicPadding
+        display: block
+
+
+// Form
+ 
+.leto-form
+    background-color: $colorWhite
+    position: fixed
+    width: calc(100% - #{$basicPadding})
+    height: 100%
+    top: 0
+    left: 0
+    padding: $basicPadding
+    flex-direction: column
+    display: flex
+    overflow-y: scroll
+    z-index: 2
+
+    &-left
+        background-color: $colorWhite
+        position: fixed
+        width: calc(100% - #{$basicPadding})
+        height: 100%
+        top: 0
+        left: 0
+        padding: $basicPadding
+        flex-direction: column
+        display: flex
+        overflow-y: scroll
+        z-index: 2
+
+    &-right
+        background-color: $colorWhite
+        position: fixed
+        width: calc(100% - #{$basicPadding})
+        height: 100%
+        top: 0
+        right: 0
+        padding: $basicPadding
+        flex-direction: column
+        display: flex
+        overflow-y: scroll
+        z-index: 2
+
+    @media (min-width: $pc)
+        width: 50vw
+        left: 50%
+        margin-left: -25vw
+
+        &-left, &-right
+            width: 50vw
+
+    
+// Frame
+
+.leto-frame
+    width: 100%
+
+// Container
+
+.leto-container
+    position: relative
+    width: 100%
+    margin-left: auto
+    margin-right: auto
+    padding: $basicPadding
+
+    &[class*="leto-scrollable"]
+        position: relative
+        width: 100%
+        height: 100%
+        max-height: 100vh
+        margin-left: auto
+        margin-right: auto
+        padding: $basicPadding
+        overflow-y: scroll    
+
+    &-full
+        position: relative
+        width: 100%
+        padding: $basicPadding
+
+        &[class*="leto-scrollable"]
+            position: relative
+            width: 100%
+            height: 100%
+            max-height: 100vh
+            padding: $basicPadding
+            overflow-y: scroll     
+
+@media (min-width: $pc)
+
+    .leto-container
+        position: relative
+        max-width: 1280px
+        margin-left: auto
+        margin-right: auto
+        padding: $basicPadding
+
+@media (min-aspect-ratio: $ultrawide) and (min-width: $pcLarge)
+
+    .leto-container
+        max-width: 1680px
+    
+.leto-edge
+
+    &-horizontal
+        width: 100%
+        flex-direction: row
+        display: flex
+
+    &-vertical
+        height: 100%
+        flex-direction: column
+        display: flex
+
+    &-top
+        position: sticky
+        width: 100%
+        top: 0
+        left: 0
+        flex-direction: row
+        display: flex
+
+    &-left
+        position: fixed
+        height: 100%
+        top: 0
+        left: 0
+        flex-direction: column
+        display: flex
+
+    &-right
+        position: fixed
+        height: 100%
+        top: 0
+        right: 0
+        flex-direction: column
+        display: flex
+
+    &-bottom
+        position: fixed
+        width: 100%
+        bottom: 0
+        left: 0
+        flex-direction: row
+        display: flex
+
+[class*=leto-frame]
+
+    > .leto-group
+
+        > .leto-container
+
+            > .leto-edge-top
+                margin-top: -$basicPadding
+
+@media (max-width: $pc)
+
+    [class*=leto-frame]
+
+        > .leto-group
+
+           > .leto-edge-left, > .leto-edge-right
+                position: sticky
+
+.leto-subedge
+
+    &-top
+        position: fixed
+        width: 100%
+        height: 100%
+        flex-direction: row
+        display: flex
+    
+    &-left
+        position: fixed
+        width: 100%
+        height: 100%
+        flex-direction: column
+        display: flex
+
+    &-right
+        position: fixed
+        width: 100%
+        height: 100%
+        flex-direction: column
+        display: flex
+
+    &-bottom
+        position: fixed
+        width: 100%
+        height: 100%
+        flex-direction: row
+        display: flex
+
+@media (min-width: $pc)   
+
+    .leto-subedge
+
+        &-top, &-bottom
+            min-height: 300px
+            height: 25vh
+            
+        &-left, &-right
+            min-width: 300px
+            width: 25vw
+
+
+// Toast
+
+=toast($bgColor, $textColor)
+    position: fixed
+    background-color: $bgColor
+    min-width: 200px
+    max-width: 400px
+    min-height: 50px
+    max-height: 100px
+    color: $textColor
+    border-radius: 12px
+    padding: $basicPadding
+    align-items: center
+    justify-content: center
+    display: flex
+    z-index: 21
+
+=toastPos($bgColor, $textColor)
+    +toast($bgColor, $textColor)
+    left: 50%
+    bottom: 20px
+    margin-left: -125px
+
+    &-left-top
+        +toast($bgColor, $textColor)
+        left: 20px
+        top: 20px
+
+    &-center-top
+        +toast($bgColor, $textColor)
+        left: 50%
+        top: 20px
+        margin-left: -125px
+
+    &-right-top
+        +toast($bgColor, $textColor)
+        right: 20px
+        top: 20px
+
+    &-left-center
+        +toast($bgColor, $textColor)
+        left: 20px
+        top: 50%
+        margin-top: -37.5px
+
+    &-center
+        +toast($bgColor, $textColor)
+        left: 50%
+        top: 50%
+        margin-top: -37.5px
+        margin-left: -125px
+
+    &-right-center
+        +toast($bgColor, $textColor)
+        right: 20px
+        top: 50%
+        margin-top: -37.5px
+
+    &-left-bottom
+        +toast($bgColor, $textColor)
+        left: 20px
+        bottom: 20px
+
+    &-center-bottom
+        +toast($bgColor, $textColor)
+        left: 50%
+        bottom: 20px
+        margin-left: -125px
+
+    &-right-bottom
+        +toast($bgColor, $textColor)
+        right: 20px
+        bottom: 20px
+
+.leto-toast
+    +toastPos($colorBlack, $colorWhite)
+
+.leto-toast-success
+    +toastPos($colorGreen, $colorBlack)
+
+.leto-toast-warning
+    +toastPos($colorOrange, $colorBlack)
+
+.leto-toast-error
+    +toastPos($colorRed, $colorBlack)
+
+// Backdrop
+
+.leto-backdrop
+    position: fixed
+    left: 0
+    top: 0
+    display: block
+    height: 100%
+    width: 100%
+    background-color: rgba(0, 0, 0, .25)
+    z-index: 1
+
+
+// Layout
+
+=masonry($value)
+    column-count: 1
+    column-gap: 0
+
+    @media (min-width: $tablet)
+        column-count: 2
+
+    @media (min-width: $pc)
+        column-count: $value
+
+    > * 
+        break-inside: avoid
+        counter-increment: item-counter
+
+.leto-group
+    display: flex
+
+.leto-row
+    flex-direction: row
+
+.leto-column
+    flex-direction: column
+
+.leto-column-reverse
+    flex-direction: column-reverse
+
+.leto-nowrap
+    flex-wrap: nowrap
+
+.leto-wrap
+    flex-wrap: wrap
+
+.leto-wrap-reverse
+    flex-wrap: wrap-reverse
+
+.leto-masonry
+    +masonry(4)
+
+    &-2
+        +masonry(2)
+
+    &-3
+        +masonry(3)
+
+    &-4
+        +masonry(4) 
+
+    &-5
+        +masonry(5)
+
+
+// Position
+
+=justifyContent()
+
+    &-left
+        justify-content: flex-start
+
+    &-center
+        justify-content: center
+
+    &-right
+        justify-content: flex-end
+
+    &-between
+        justify-content: space-between
+
+    &-around
+        justify-content: space-around
+
+    &-evenly
+        justify-content: space-evenly
+
+=alignItems()
+
+    &-top
+        align-items: flex-start
+
+    &-center
+        align-items: center
+
+    &-bottom
+        align-items: flex-end
+
+
+.leto-group.leto
+
+    &-horizontal
+
+        +justifyContent()
+
+    &-vertical
+
+        +alignItems()
+        
+
+.leto-column.leto
+
+    &-horizontal
+
+        +alignItems()
+
+    &-vertical
+
+        +justifyContent()
+
+
+.leto-left
+    margin-left: auto
+
+.leto-center
+    margin-left: auto
+    margin-right: auto
+
+.leto-right
+    margin-right: auto
+
+.leto-group
+
+    .leto-left
+        margin-left: 0
+        margin-right: auto
+
+    .leto-center
+        margin-left: auto
+        margin-right: auto
+
+    .leto-right
+        margin-left: auto
+        margin-right: 0
+
+
+=letoWidth($width)
+    width: $width
+    padding: $basicPadding
+
+    @media (min-width: $tablet)
+
+        &-tablet
+            width: $width
+
+    @media (min-width: $pc)
+
+        &-pc
+            width: $width
+
+    @media (min-aspect-ratio: $ultrawide) and (min-width: $pcLarge)
+
+        &-ultrawide
+            width: $width
+
+    > *
+        width: 100%
+        margin: 0
+
+// Flexbox Areas
+
+.leto-full 
+    +letoWidth(100%)  
+
+.leto-fourfifths
+    +letoWidth(80%)
+
+.leto-threequaters
+    +letoWidth(75%)  
+
+.leto-twothirds
+    +letoWidth(calc((100% / 3) * 2))       
+
+.leto-half
+    +letoWidth(50%)
+    
+.leto-third
+    +letoWidth(calc(100% / 3))
+
+.leto-quater
+    +letoWidth(25%)   
+
+.leto-fifth
+    +letoWidth(20%)   
+
+.leto-sixth
+    +letoWidth(calc(100% / 6))   
+
+.leto-eighth
+    +letoWidth(12.5%)
+    
+
+// Sizes
+
+.leto-min-width
+    min-width: $md * 4
+
+    &-xxs
+        min-width: $xxs * 4
+
+    &-xs
+        min-width: $xs * 4
+
+    &-sm
+        max-width: $sm * 4
+
+    &-md
+        min-width: $md * 4
+
+    &-lg
+        min-width: $lg * 4
+
+    &-xl
+        min-width: $xl * 4
+
+    &-xxl
+        min-width: $xxl * 4
+
+    &-full
+        min-width: calc(100% - (#{$basicMargin}*2))
+
+    &-fourfifths
+        min-width: calc(80% - (#{$basicMargin}*2))
+
+    &-threequaters
+        min-width: calc(75% - (#{$basicMargin}*2))
+
+    &-twothirds
+        min-width: calc(66% - (#{$basicMargin}*2))
+
+    &-half
+        min-width: calc(50% - (#{$basicMargin}*2))
+
+    &-third
+        min-width: calc((100% / 3) - (#{$basicMargin}*2))
+
+    &-quater
+        min-width: calc(25% - (#{$basicMargin}*2))
+
+    &-fifth
+        min-width: calc(20% - (#{$basicMargin}*2))
+
+    &-sixth
+        min-width: calc((100% / 6) - (#{$basicMargin}*2))
+
+    &-eighth
+        min-width: calc(12.5% - (#{$basicMargin}*2))
+
+.leto-width
+    width: $md * 4
+
+    &-xxs
+        width: $xxs * 4
+
+    &-xs
+        width: $xs * 4
+
+    &-sm
+        width: $sm * 4
+
+    &-md
+        width: $md * 4
+
+    &-lg
+        width: $lg * 4
+
+    &-xl
+        width: $xl * 4
+
+    &-xxl
+        width: $xxl * 4
+
+    &-full
+        width: calc(100% - (#{$basicMargin}*2))
+
+    &-fourfifths
+        width: calc(80% - (#{$basicMargin}*2))
+
+    &-threequaters
+        width: calc(75% - (#{$basicMargin}*2))
+
+    &-twothirds
+        width: calc(66% - (#{$basicMargin}*2))
+
+    &-half
+        width: calc(50% - (#{$basicMargin}*2))
+
+    &-third
+        width: calc((100% / 3) - (#{$basicMargin}*2))
+
+    &-quater
+        width: calc(25% - (#{$basicMargin}*2))
+
+    &-fifth
+        width: calc(20% - (#{$basicMargin}*2))
+
+    &-sixth
+        width: calc((100% / 6) - (#{$basicMargin}*2))
+
+    &-eighth
+        width: calc(12.5% - (#{$basicMargin}*2))
+
+.leto-max-width
+    max-width: $md * 4
+
+    &-xxs
+        max-width: $xxs * 4
+
+    &-xs
+        max-width: $xs * 4
+
+    &-sm
+        max-width: $sm * 4
+
+    &-md
+        max-width: $md * 4
+
+    &-lg
+        max-width: $lg * 4
+
+    &-xl
+        max-width: $xl * 4
+
+    &-xxl
+        max-width: $xxl * 4
+
+    &-full
+        max-width: calc(100% - (#{$basicMargin}*2))
+
+    &-fourfifths
+        max-width: calc(80% - (#{$basicMargin}*2))
+
+    &-threequaters
+        max-width: calc(75% - (#{$basicMargin}*2))
+
+    &-twothirds
+        max-width: calc(66% - (#{$basicMargin}*2))
+
+    &-half
+        max-width: calc(50% - (#{$basicMargin}*2))
+
+    &-third
+        max-width: calc((100% / 3) - (#{$basicMargin}*2))
+
+    &-quater
+        max-width: calc(25% - (#{$basicMargin}*2))
+
+    &-fifth
+        max-width: calc(20% - (#{$basicMargin}*2))
+
+    &-sixth
+        max-width: calc((100% / 6) - (#{$basicMargin}*2))
+
+    &-eighth
+        max-width: calc(12.5% - (#{$basicMargin}*2))
+
+
+.leto-min-height
+    min-height: $md * 4
+
+    &-xxs
+        min-height: $xxs * 4
+
+    &-xs
+        min-height: $xs * 4
+
+    &-sm
+        min-height: $sm * 4
+
+    &-md
+        min-height: $md * 4
+
+    &-lg
+        min-height: $lg * 4
+
+    &-xl
+        min-height: $xl * 4
+
+    &-xxl
+        min-height: $xxl * 4
+
+    &-full
+        min-height: calc(100% - #{$basicMargin})
+
+    &-fourfifths
+        min-height: calc(80% - #{$basicMargin})
+
+    &-threequaters
+        min-height: calc(75% - #{$basicMargin})
+
+    &-twothirds
+        min-height: calc(66% - #{$basicMargin})
+    
+    &-half
+        min-height: calc(50% - #{$basicMargin})
+
+    &-third
+        min-height: calc((100% / 3) - #{$basicMargin})
+
+    &-quater
+        min-height: calc(25% - #{$basicMargin})
+
+    &-fifth
+        min-height: calc(20% - #{$basicMargin})
+
+    &-sixth
+        min-height: calc((100% / 6) - #{$basicMargin})
+
+    &-eighth
+        min-height: calc(12.5% - #{$basicMargin})
+
+.leto-height
+    height: $md * 4
+
+    &-xxs
+        height: $xxs * 4
+
+    &-xs
+        height: $xs * 4
+
+    &-sm
+        height: $sm * 4
+
+    &-md
+        height: $md * 4
+
+    &-lg
+        height: $lg * 4
+
+    &-xl
+        height: $xl * 4
+
+    &-xxl
+        height: $xxl * 4
+
+    &-full
+        height: calc(100% - #{$basicMargin})
+
+    &-fourfifths
+        height: calc(80% - #{$basicMargin})
+
+    &-threequaters
+        height: calc(75% - #{$basicMargin})
+
+    &-twothirds
+        height: calc(66% - #{$basicMargin})
+
+    &-half
+        height: calc(50% - #{$basicMargin})
+
+    &-third
+        height: calc((100% / 3) - #{$basicMargin})
+
+    &-quater
+        height: calc(25% - #{$basicMargin})
+
+    &-fifth
+        height: calc(20% - #{$basicMargin})
+
+    &-sixth
+        height: calc((100% / 6) - #{$basicMargin})
+
+    &-eighth
+        height: calc(12.5% - #{$basicMargin})
+
+.leto-max-height
+    max-height: $md * 4
+
+    &-xxs
+        max-height: $xxs * 4
+
+    &-xs
+        max-height: $xs * 4
+
+    &-sm
+        max-height: $sm * 4
+
+    &-md
+        max-height: $md * 4
+
+    &-lg
+        max-height: $lg * 4
+
+    &-xl
+        max-height: $xl * 4
+
+    &-xxl
+        max-height: $xxl * 4
+
+    &-full
+        max-height: calc(100% - #{$basicMargin})
+
+    &-fourfifths
+        max-height: calc(80% - #{$basicMargin})
+
+    &-threequaters
+        max-height: calc(75% - #{$basicMargin})
+
+    &-twothirds
+        max-height: calc(66% - #{$basicMargin})
+
+    &-half
+        max-height: calc(50% - #{$basicMargin})
+
+    &-third
+        max-height: calc((100% / 3) - #{$basicMargin})
+
+    &-quater
+        max-height: calc(25% - #{$basicMargin})
+
+    &-fifth
+        max-height: calc(20% - #{$basicMargin})
+
+    &-sixth
+        max-height: calc((100% / 6) - #{$basicMargin})
+
+    &-eighth
+        max-height: calc(12.5% - #{$basicMargin})
+
+
+// Position
+
+.leto-static
+    position: static
+
+.leto-relative
+    position: relative
+
+.leto-fixed
+    position: fixed
+
+.leto-sticky
+    position: sticky
+
+.leto-absolute
+    position: absolute
+
+
+// Display
+
+.leto-block   
+    display: block
+
+.leto-inline-block   
+    display: inline-block
+
+.leto-inline   
+    display: inline
+
+.leto-flex   
+    display: flex
+
+.leto-inline-flex
+    display: inline-flex
+
+.leto-hidden   
+    display: hidden
+
+
+// Overflow
+
+.leto-overflow-scroll
+    overflow: scroll
+
+.leto-overflow-hidden
+    overflow: hidden
+
+.leto-overflow-y-hidden
+    overflow-y: hidden
+
+.leto-overflow-y-scroll
+    overflow-y: scroll
+
+.leto-overflow-x-hidden
+    overflow-x: hidden
+
+.leto-overflow-x-scroll
+    overflow-x: scroll
+
+
+// Shrink
+
+.leto-no-shrink
+    flex-shrink: 0
+
+
+// Space
+
+.leto-space
+    width: 100%
+    height: calc($md * 2)
+
+    &-xxs
+        width: 100%
+        height: calc($xxs * 2)    
+
+    &-xs
+        width: 100%
+        height: calc($xs * 2)    
+
+    &-sm
+        width: 100%
+        height: calc($sm * 2)    
+
+    &-md
+        width: 100%
+        height: calc($md * 2)  
+
+    &-lg
+        width: 100%
+        height: calc($lg * 2)    
+
+    &-xl
+        width: 100%
+        height: calc($xl * 2)    
+
+    &-xxl
+        width: 100%
+        height: calc($xxl * 2)  
+
+
+// Margin
+
+=margin($value)
+    margin: $value
+
+=marginBalance($value)
+    margin: -$value
+
+=marginX($value)
+    margin-left: $value
+    margin-right: $value
+
+=marginY($value)
+    margin-top: $value
+    margin-bottom: $value
+
+=marginTop($value)
+    margin-top: $value
+
+=marginLeft($value)
+    margin-left: $value
+
+=marginRight($value)
+    margin-right: $value
+
+=marginBottom($value)
+    margin-bottom: $value
+
+.leto-m, .leto-margin
+    +margin($md)
+
+    &-xxs
+        +margin($xxs / 2)
+
+    &-xs
+        +margin($xs * (2 / 3))
+
+    &-sm
+        +margin($sm)
+
+    &-md
+        +margin($md)
+
+    &-lg
+        +margin($lg)
+
+    &-xl
+        +margin($xl)
+
+    &-xxl
+        +margin($xxl)
+
+    &-none
+        +margin(0)
+
+    &-balance
+        +marginBalance($md)
+
+        &-xxs
+            +marginBalance($xxs / 2)
+
+        &-xs
+            +marginBalance($xs * (2 / 3))
+
+        &-sm
+            +marginBalance($sm)
+
+        &-md
+            +marginBalance($md)
+
+        &-lg
+            +marginBalance($lg)
+
+        &-xl
+            +marginBalance($xl)
+
+        &-xxl
+            +marginBalance($xxl)
+
+.leto-mh, .leto-margin-horizontal
+    +marginX($md)
+
+    &-xxs
+        +marginX($xxs / 2)
+
+    &-xs
+        +marginX($xs * (2 / 3))
+
+    &-sm
+        +marginX($sm)
+
+    &-md
+        +marginX($md)
+
+    &-lg
+        +marginX($lg)
+
+    &-xl
+        +marginX($xl)
+
+    &-xxl
+        +marginX($xxl)
+
+    &-none
+        +marginX(0)
+  
+.leto-mv, .leto-margin-vertical
+    +marginY($md)
+
+    &-xxs
+        +marginY($xxs / 2)
+
+    &-xs
+        +marginY($xs * (2 / 3))
+
+    &-sm
+        +marginY($sm)
+
+    &-md
+        +marginY($md)
+
+    &-lg
+        +marginY($lg)
+
+    &-xl
+        +marginY($xl)
+
+    &-xxl
+        +marginY($xxl)
+
+    &-none
+        +marginY(0)
+
+.leto-mt, .leto-margin-top
+    +marginTop($md)
+
+    &-xxs
+        +marginTop($xxs / 2)
+
+    &-xs
+        +marginTop($xs * (2 / 3))
+
+    &-sm
+        +marginTop($sm)
+
+    &-md
+        +marginTop($md)
+
+    &-lg
+        +marginTop($lg)
+
+    &-xl
+        +marginTop($xl)
+
+    &-xxl
+        +marginTop($xxl)
+
+    &-none
+        +marginTop(0)
+
+.leto-ml, .leto-margin-left
+    +marginLeft($md)
+
+    &-xxs
+        +marginLeft($xxs / 2)
+
+    &-xs
+        +marginLeft($xs * (2 / 3))
+
+    &-sm
+        +marginLeft($sm)
+
+    &-md
+        +marginLeft($md)
+
+    &-lg
+        +marginLeft($lg)
+
+    &-xl
+        +marginLeft($xl)
+
+    &-xxl
+        +marginLeft($xxl)
+
+    &-none
+        +marginLeft(0)
+
+.leto-mr, .leto-margin-right
+    +marginRight($md)
+
+    &-xxs
+        +marginRight($xxs / 2)
+
+    &-xs
+        +marginRight($xs * (2 / 3))
+
+    &-sm
+        +marginRight($sm)
+
+    &-md
+        +marginRight($md)
+
+    &-lg
+        +marginRight($lg)
+
+    &-xl
+        +marginRight($xl)
+
+    &-xxl
+        +marginRight($xxl)
+
+    &-none
+        +marginRight(0)
+
+.leto-mb, .leto-margin-bottom
+    +marginBottom($md)
+
+    &-xxs
+        +marginBottom($xxs / 2)
+
+    &-xs
+        +marginBottom($xs * (2 / 3))
+
+    &-sm
+        +marginBottom($sm)
+
+    &-md
+        +marginBottom($md)
+
+    &-lg
+        +marginBottom($lg)
+
+    &-xl
+        +marginBottom($xl)
+
+    &-xxl
+        +marginBottom($xxl)
+
+    &-none
+        +marginBottom(0)
+
+
+// Padding
+
+=padding($value)
+    padding: $value
+
+=paddingX($value)
+    padding-left: $value
+    padding-right: $value
+
+=paddingY($value)
+    padding-top: $value
+    padding-bottom: $value
+
+=paddingTop($value)
+    padding-top: $value
+
+=paddingLeft($value)
+    padding-left: $value
+
+=paddingRight($value)
+    padding-right: $value
+
+=paddingBottom($value)
+    padding-bottom: $value
+
+.leto-p, .leto-padding
+    +padding($md)
+
+    &-xxs
+        +padding($xxs / 2)
+
+    &-xs
+        +padding($xs * (2 / 3))
+
+    &-sm
+        +padding($sm)
+
+    &-md
+        +padding($md)
+
+    &-lg
+        +padding($lg)
+
+    &-xl
+        +padding($xl)
+
+    &-xxl
+        +padding($xxl)
+
+    &-none
+        +padding(0)
+
+.leto-ph, .leto-padding-horizontal
+    +paddingX($md)
+
+    &-xxs
+        +paddingX($xxs / 2)
+
+    &-xs
+        +paddingX($xs * (2 / 3))
+
+    &-sm
+        +paddingX($sm)
+
+    &-md
+        +paddingX($md)
+
+    &-lg
+        +paddingX($lg)
+
+    &-xl
+        +paddingX($xl)
+
+    &-xxl
+        +paddingX($xxl)
+
+    &-none
+        +paddingX(0)
+  
+.leto-pv, .leto-padding-vertical
+    +paddingY($md)
+
+    &-xxs
+        +paddingY($xxs / 2)
+
+    &-xs
+        +paddingY($xs * (2 / 3))
+
+    &-sm
+        +paddingY($sm)
+
+    &-md
+        +paddingY($md)
+
+    &-lg
+        +paddingY($lg)
+
+    &-xl
+        +paddingY($xl)
+
+    &-xxl
+        +paddingY($xxl)
+
+    &-none
+        +paddingY(0)
+
+.leto-pt, .leto-padding-top
+    +paddingTop($md)
+
+    &-xxs
+        +paddingTop($xxs / 2)
+
+    &-xs
+        +paddingTop($xs * (2 / 3))
+
+    &-sm
+        +paddingTop($sm)
+
+    &-md
+        +paddingTop($md)
+
+    &-lg
+        +paddingTop($lg)
+
+    &-xl
+        +paddingTop($xl)
+
+    &-xxl
+        +paddingTop($xxl)
+
+    &-none
+        +paddingTop(0)
+
+.leto-pl, .leto-padding-left
+    +paddingLeft($md)
+
+    &-xxs
+        +paddingLeft($xxs / 2)
+
+    &-xs
+        +paddingLeft($xs * (2 / 3))
+
+    &-sm
+        +paddingLeft($sm)
+
+    &-md
+        +paddingLeft($md)
+
+    &-lg
+        +paddingLeft($lg)
+
+    &-xl
+        +paddingLeft($xl)
+
+    &-xxl
+        +paddingLeft($xxl)
+
+    &-none
+        +paddingLeft(0)
+
+.leto-pr, .leto-padding-right
+    +paddingRight($md)
+
+    &-xxs
+        +paddingRight($xxs / 2)
+
+    &-xs
+        +paddingRight($xs * (2 / 3))
+
+    &-sm
+        +paddingRight($sm)
+
+    &-md
+        +paddingRight($md)
+
+    &-lg
+        +paddingRight($lg)
+
+    &-xl
+        +paddingRight($xl)
+
+    &-xxl
+        +paddingRight($xxl)
+
+    &-none
+        +paddingRight(0)
+
+.leto-pb, .leto-padding-bottom
+    +paddingBottom($md)
+
+    &-xxs
+        +paddingBottom($xxs / 2)
+
+    &-xs
+        +paddingBottom($xs)
+
+    &-sm
+        +paddingBottom($sm)
+
+    &-md
+        +paddingBottom($md)
+
+    &-lg
+        +paddingBottom($lg)
+
+    &-xl
+        +paddingBottom($xl)
+
+    &-xxl
+        +paddingBottom($xxl)
+
+    &-none
+        +paddingBottom(0)
+
+
+// Index
+
+.leto-index // check
+
+    &-1
+        z-index: 1
+
+    &-2
+        z-index: 2
+
+    &-3
+        z-index: 3
+
+    &-4
+        z-index: 4
+
+    &-5
+        z-index: 5
+
+    &-6
+        z-index: 6
+
+    &-7
+        z-index: 7
+
+    &-8
+        z-index: 8
+
+    &-9
+        z-index: 9
+
+    &-10
+        z-index: 10
+
+    &-11
+        z-index: 11
+
+    &-12
+        z-index: 12
+
+    &-13
+        z-index: 13
+
+    &-14
+        z-index: 14
+
+    &-15
+        z-index: 15
+
+    &-16
+        z-index: 16
+
+    &-17
+        z-index: 17
+
+    &-18
+        z-index: 18
+
+    &-19
+        z-index: 19
+
+    &-20
+        z-index: 20
+
+
+// Roundness
+
+.leto-roundness
+    border-radius: $md
+
+    &-xxs
+        border-radius: $xxs 
+
+    &-xs
+        border-radius: $xs
+
+    &-sm
+        border-radius: $sm
+
+    &-md
+        border-radius: $md
+
+    &-lg
+        border-radius: $lg
+
+    &-xl
+        border-radius: $xl
+
+    &-xxl
+        border-radius: $xxl
+
+    &-full
+        border-radius: 1000px
+
+    &-top
+        border-radius: $md $md 0 0 
+
+        &-xxs
+            border-radius: $xxs $xxs 0 0 
+
+        &-xs
+            border-radius: $xs $xs 0 0
+
+        &-sm
+            border-radius: $sm $sm 0 0
+
+        &-md
+            border-radius: $md $md 0 0
+
+        &-lg
+            border-radius: $lg $lg 0 0
+
+        &-xl
+            border-radius: $xl $xl 0 0
+
+        &-xxl
+            border-radius: $xxl $xxl 0 0
+
+        &-full
+            border-radius: 1000px 1000px 0 0
+
+        &-left
+            border-radius: $md 0 0 0 
+
+            &-xxs
+                border-radius: $xxs 0 0 0 
+
+            &-xs
+                border-radius: $xs 0 0 0
+
+            &-sm
+                border-radius: $sm 0 0 0
+
+            &-md
+                border-radius: $md 0 0 0
+
+            &-lg
+                border-radius: $lg 0 0 0
+
+            &-xl
+                border-radius: $xl 0 0 0
+
+            &-xxl
+                border-radius: $xxl 0 0 0
+
+            &-full
+                border-radius: 1000px 0 0 0
+        
+        &-right
+            border-radius: 0 $md 0 0 
+
+            &-xxs
+                border-radius: 0 $xxs 0 0
+
+            &-xs
+                border-radius: 0 $xs 0 0
+
+            &-sm
+                border-radius: 0 $sm 0 0
+
+            &-md
+                border-radius: 0 $md 0 0
+
+            &-lg
+                border-radius: 0 $lg 0 0
+
+            &-xl
+                border-radius: 0 $xl 0 0
+
+            &-xxl
+                border-radius: 0 $xxl 0 0
+
+            &-full
+                border-radius: 0 1000px 0 0
+
+    &-bottom
+        border-radius: 0 0 $md $md 
+
+        &-xxs
+            border-radius: 0 0 $xxs $xxs
+
+        &-xs
+            border-radius: 0 0 $xs $xs 
+
+        &-sm
+            border-radius: 0 0 $sm $sm
+
+        &-md
+            border-radius: 0 0 $md $md
+
+        &-lg
+            border-radius: 0 0 $lg $lg 
+
+        &-xl
+            border-radius: 0 0 $xl $xl 
+
+        &-xxl
+            border-radius: 0 0 $xxl $xxl
+
+        &-full
+            border-radius: 0 0 1000px 1000px
+
+        &-right
+            border-radius: 0 0 $md 0 
+
+            &-xxs
+                border-radius: 0 0 $xxs 0 
+
+            &-xs
+                border-radius: 0 0 $xs 0 
+
+            &-sm
+                border-radius: 0 0 $sm 0 
+
+            &-md
+                border-radius: 0 0 $md 0 
+
+            &-lg
+                border-radius: 0 0 $lg 0 
+
+            &-xl
+                border-radius: 0 0 $xl 0 
+
+            &-xxl
+                border-radius: 0 0 $xxl 0
+
+            &-full
+                border-radius: 0 0 1000px 0
+        
+        &-left
+            border-radius: 0 0 0 $md 0 
+
+            &-xxs
+                border-radius: 0 0 0 $xxs 
+
+            &-xs
+                border-radius: 0 0 0 $xs
+
+            &-sm
+                border-radius: 0 0 0 $sm
+
+            &-md
+                border-radius: 0 0 0 $md 
+
+            &-lg
+                border-radius: 0 0 0 $lg
+
+            &-xl
+                border-radius: 0 0 0 $xl
+
+            &-xxl
+                border-radius: 0 0 0 $xxl
+
+            &-full
+                border-radius: 0 0 0 1000px
+
+
+
+
+// Border
+
+.leto-border
+    border: 1px solid $colorGrey
+
+    &-horizontal
+        border-top: 1px solid $colorGrey
+        border-bottom: 1px solid $colorGrey
+
+    &-vertical
+        border-left: 1px solid $colorGrey
+        border-right: 1px solid $colorGrey
+
+    &-top
+        border-top: 1px solid $colorGrey
+
+    &-left
+        border-left: 1px solid $colorGrey
+
+    &-right
+        border-right: 1px solid $colorGrey
+
+    &-bottom
+        border-bottom: 1px solid $colorGrey
+
+    &-white
+        border-color: $colorWhite
+   
+    &-darkwhite
+        border-color: $colorDarkWhite
+
+    &-lightergrey
+        border-color: $colorLighterGrey
+
+    &-lightgrey
+        border-color: $colorLightGrey
+
+    &-grey
+        border-color: $colorGrey
+
+    &-darkgrey
+        border-color: $colorDarkGrey
+
+    &-darkergrey
+        border-color: $colorDarkerGrey
+
+    &-lightblack
+        border-color: $colorLightBlack
+
+    &-black
+        border-color: $colorBlack
+
+    &-lightyellow
+        border-color: $colorLightYellow
+
+    &-yellow
+        border-color: $colorYellow
+
+    &-darkyellow
+        border-color: $colorDarkYellow
+
+    &-lightorange
+        border-color: $colorLightOrange
+
+    &-orange
+        border-color: $colorOrange
+
+    &-darkorange
+        border-color: $colorDarkOrange
+
+    &-lightred
+        border-color: $colorLightRed
+
+    &-red
+        border-color: $colorRed
+
+    &-darkred
+        border-color: $colorDarkRed
+
+    &-lightpurple
+        border-color: $colorLightPurple
+
+    &-purple
+        border-color: $colorPurple
+
+    &-darkpurple
+        border-color: $colorDarkPurple
+
+    &-lightblue
+        border-color: $colorLightBlue
+
+    &-blue
+        border-color: $colorBlue
+
+    &-darkblue
+        border-color: $colorDarkBlue
+
+    &-lightmint
+        border-color: $colorLightMint
+
+    &-mint
+        border-color: $colorMint
+
+    &-darkmint
+        border-color: $colorDarkMint
+
+    &-lightgreen
+        border-color: $colorLightGreen
+
+    &-green
+        border-color: $colorGreen
+
+    &-darkgreen
+        border-color: $colorDarkGreen
+
+    &-none
+        border: none
+
+
+// Text        
+
+.leto-text
+    font-size: $fontSizeMD
+
+    &-xxs
+        font-size: $fontSizeXXS
+
+    &-xs
+        font-size: $fontSizeXS
+
+    &-sm
+        font-size: $fontSizeSM
+
+    &-md
+        font-size: $fontSizeMD
+
+    &-lg
+        font-size: $fontSizeLG
+
+    &-xl
+        font-size: $fontSizeXL
+
+    &-xxl
+        font-size: $fontSizeXXL
+
+    &-light
+        font-weight: $fontWeightLight
+
+    &-regular
+        font-weight: $fontWeightRegular
+
+    &-medium
+        font-weight: $fontWeightMedium
+
+    &-bold
+        font-weight: $fontWeightBold
+
+    &-bolder
+        font-weight: $fontWeightBlack
+
+    &-italic
+        font-style: italic
+
+    &-uppercase
+        text-transform: uppercase
+
+    &-ellipsis
+        white-space: nowrap
+        overflow: hidden
+        text-overflow: ellipsis
+
+    &-link
+        color: $colorBlue
+        cursor: pointer
+
+        &:hover
+            color: $colorDarkBlue
+
+    &-left
+        text-align: left
+
+    &-center
+        text-align: center
+        
+    &-right
+        text-align: right
+
+    &-white
+        color: $colorWhite
+   
+    &-darkwhite
+        color: $colorDarkWhite
+
+    &-lightergrey
+        color: $colorLighterGrey
+
+    &-lightgrey
+        color: $colorLightGrey
+
+    &-grey
+        color: $colorGrey
+
+    &-darkgrey
+        color: $colorDarkGrey
+
+    &-darkergrey
+        color: $colorDarkerGrey
+
+    &-lightblack
+        color: $colorLightBlack
+
+    &-black
+        color: $colorBlack
+
+    &-lightyellow
+        color: $colorLightYellow
+
+    &-yellow
+        color: $colorYellow
+
+    &-darkyellow
+        color: $colorDarkYellow
+
+    &-lightorange
+        color: $colorLightOrange
+
+    &-orange
+        color: $colorOrange
+
+    &-darkorange
+        color: $colorDarkOrange
+
+    &-lightred
+        color: $colorLightRed
+
+    &-red
+        color: $colorRed
+
+    &-darkred
+        color: $colorDarkRed
+
+    &-lightpurple
+        color: $colorLightPurple
+
+    &-purple
+        color: $colorPurple
+
+    &-darkpurple
+        color: $colorDarkPurple
+
+    &-lightblue
+        color: $colorLightBlue
+
+    &-blue
+        color: $colorBlue
+
+    &-darkblue
+        color: $colorDarkBlue
+
+    &-lightmint
+        color: $colorLightMint
+
+    &-mint
+        color: $colorMint
+
+    &-darkmint
+        color: $colorDarkMint
+
+    &-lightgreen
+        color: $colorLightGreen
+
+    &-green
+        color: $colorGreen
+
+    &-darkgreen
+        color: $colorDarkGreen
+
+    &-none
+        color: transparent
+
+
+// Focus
+
+=active($color)
+    background-color: $color
+
+    &[class*=leto-bubble]
+        border-width: 3px
+
+    &[class*=leto-card]
+        border-width: 3px
+
+    &[class*=leto-button]
+        border-width: 3px
+
+    &[class*=leto-badge]
+        border-width: 3px
+
+    &[class*=leto-text]
+        color: $color
+
+
+.leto-active
+    +active($colorGrey)
+
+    &-white
+        +active($colorWhite)
+   
+    &-darkwhite
+        +active($colorDarkWhite)
+
+    &-lightergrey
+        +active($colorLighterGrey)
+
+    &-lightgrey
+        +active($colorLightGrey)
+
+    &-grey
+        +active($colorGrey)
+
+    &-darkgrey
+        +active($colorDarkGrey)
+
+    &-darkergrey
+        +active($colorDarkerGrey)
+
+    &-lightblack
+        +active($colorLightBlack)
+
+    &-black
+        +active($colorBlack)
+
+    &-lightyellow
+        +active($colorLightYellow)
+
+    &-yellow
+        +active($colorYellow)
+
+    &-darkyellow
+        +active($colorDarkYellow)
+
+    &-lightorange
+        +active($colorLightOrange)
+
+    &-orange
+        +active($colorOrange)
+
+    &-darkorange
+        +active($colorDarkOrange)
+
+    &-lightred
+        +active($colorLightRed)
+
+    &-red
+        +active($colorRed)
+
+    &-darkred
+        +active($colorDarkRed)
+
+    &-lightpurple
+        +active($colorLightPurple)
+
+    &-purple
+        +active($colorPurple)
+
+    &-darkpurple
+        +active($colorDarkPurple)
+
+    &-lightblue
+        +active($colorLightBlue)
+
+    &-blue
+        +active($colorBlue)
+
+    &-darkblue
+        +active($colorDarkBlue)
+
+    &-lightmint
+        +active($colorLightMint)
+
+    &-mint
+        +active($colorMint)
+
+    &-darkmint
+        +active($colorDarkMint)
+
+    &-lightgreen
+        +active($colorLightGreen)
+
+    &-green
+        +active($colorGreen)
+
+    &-darkgreen
+        +active($colorDarkGreen)
+
+
+// Hover
+
+
+=hover($color)
+
+    &:hover
+        background-color: $color
+
+    &[class*=leto-bubble]:hover
+        border-width: 3px
+
+    &[class*=leto-card]:hover
+        border-width: 3px
+
+    &[class*=leto-button]:hover
+        border-width: 3px
+
+    &[class*=leto-badge]:hover
+        border-width: 3px
+
+    &[class*=leto-text]:hover
+        color: $color
+
+
+.leto-hover
+    +hover($colorGrey)
+
+    &-white
+        +hover($colorWhite)
+   
+    &-darkwhite
+        +hover($colorDarkWhite)
+
+    &-lightergrey
+        +hover($colorLighterGrey)
+
+    &-lightgrey
+        +hover($colorLightGrey)
+
+    &-grey
+        +hover($colorGrey)
+
+    &-darkgrey
+        +hover($colorDarkGrey)
+
+    &-darkergrey
+        +hover($colorDarkerGrey)
+
+    &-lightblack
+        +hover($colorLightBlack)
+
+    &-black
+        +hover($colorBlack)
+
+    &-lightyellow
+        +hover($colorLightYellow)
+
+    &-yellow
+        +hover($colorYellow)
+
+    &-darkyellow
+        +hover($colorDarkYellow)
+
+    &-lightorange
+        +hover($colorLightOrange)
+
+    &-orange
+        +hover($colorOrange)
+
+    &-darkorange
+        +hover($colorDarkOrange)
+
+    &-lightred
+        +hover($colorLightRed)
+
+    &-red
+        +hover($colorRed)
+
+    &-darkred
+        +hover($colorDarkRed)
+
+    &-lightpurple
+        +hover($colorLightPurple)
+
+    &-purple
+        +hover($colorPurple)
+
+    &-darkpurple
+        +hover($colorDarkPurple)
+
+    &-lightblue
+        +hover($colorLightBlue)
+
+    &-blue
+        +hover($colorBlue)
+
+    &-darkblue
+        +hover($colorDarkBlue)
+
+    &-lightmint
+        +hover($colorLightMint)
+
+    &-mint
+        +hover($colorMint)
+
+    &-darkmint
+        +hover($colorDarkMint)
+
+    &-lightgreen
+        +hover($colorLightGreen)
+
+    &-green
+        +hover($colorGreen)
+
+    &-darkgreen
+        +hover($colorDarkGreen)
+
+
+// Disabled
+
+.leto-disabled
+    background-color: $colorLightGrey !important
+    border-color: $colorLightGrey !important
+    color: $colorDarkGrey !important
+    pointer-events: none
+
+    &::placeholder
+       color: $colorDarkGrey !important 
+
+
+// Click
+
+.leto-click
+    cursor: pointer
+
+
+// No Link
+
+.leto-no-link
+    color: $colorBlack
+    text-decoration: none
+    pointer-events: none
+
+.leto-no-link-style
+    color: $colorBlack
+    text-decoration: none
+
+// Bg
+
+.leto-bg
+
+    &-white
+        background-color: $colorWhite
+   
+    &-darkwhite
+        background-color: $colorDarkWhite
+
+    &-lightergrey
+        background-color: $colorLighterGrey
+
+    &-lightgrey
+        background-color: $colorLightGrey
+
+    &-grey
+        background-color: $colorGrey
+
+    &-darkgrey
+        background-color: $colorDarkGrey
+
+    &-darkergrey
+        background-color: $colorDarkerGrey
+
+    &-lightblack
+        background-color: $colorLightBlack
+
+    &-black
+        background-color: $colorBlack
+
+    &-lightyellow
+        background-color: $colorLightYellow
+
+    &-yellow
+        background-color: $colorYellow
+
+    &-darkyellow
+        background-color: $colorDarkYellow
+
+    &-lightorange
+        background-color: $colorLightOrange
+
+    &-orange
+        background-color: $colorOrange
+
+    &-darkorange
+        background-color: $colorDarkOrange
+
+    &-lightred
+        background-color: $colorLightRed
+
+    &-red
+        background-color: $colorRed
+
+    &-darkred
+        background-color: $colorDarkRed
+
+    &-lightpurple
+        background-color: $colorLightPurple
+
+    &-purple
+        background-color: $colorPurple
+
+    &-darkpurple
+        background-color: $colorDarkPurple
+
+    &-lightblue
+        background-color: $colorLightBlue
+
+    &-blue
+        background-color: $colorBlue
+
+    &-darkblue
+        background-color: $colorDarkBlue
+
+    &-lightmint
+        background-color: $colorLightMint
+
+    &-mint
+        background-color: $colorMint
+
+    &-darkmint
+        background-color: $colorDarkMint
+
+    &-lightgreen
+        background-color: $colorLightGreen
+
+    &-green
+        background-color: $colorGreen
+
+    &-darkgreen
+        background-color: $colorDarkGreen
+    
+    &-none
+        background-color: transparent
