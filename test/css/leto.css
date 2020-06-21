@@ -6316,82 +6316,6 @@ p, b {
   color: #fdfdfd;
 }
 
-.leto-input-wrapper {
-  position: relative;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  margin: 8px;
-}
-
-.leto-input-wrapper label {
-  position: absolute;
-  background-color: #fdfdfd;
-  font-size: 14px;
-  font-weight: 600;
-  top: -10px;
-  left: 8px;
-  padding-left: 8px;
-  padding-right: 8px;
-}
-
-.leto-frame-default .leto-input-wrapper label {
-  background-color: #fdfdfd;
-}
-
-.leto-frame-dark .leto-input-wrapper label {
-  background-color: #303030;
-}
-
-.leto-input-wrapper [class*=leto-input] {
-  min-width: 0;
-  width: 100%;
-  border: 1px solid #e1e1e1;
-  margin: 0;
-}
-
-.leto-input-wrapper [class*=leto-input]:focus::-webkit-input-placeholder {
-  opacity: 0;
-}
-
-.leto-input-wrapper [class*=leto-input]:focus:-ms-input-placeholder {
-  opacity: 0;
-}
-
-.leto-input-wrapper [class*=leto-input]:focus::-ms-input-placeholder {
-  opacity: 0;
-}
-
-.leto-input-wrapper [class*=leto-input]:focus::placeholder {
-  opacity: 0;
-}
-
-.leto-input-wrapper [class*=leto-input]:focus ~ label {
-  opacity: 1;
-}
-
-.leto-input-wrapper [class*=leto-input]:focus {
-  background-color: transparent;
-  border: 1px solid #bbbbbb;
-}
-
-.leto-input-wrapper > i {
-  position: absolute;
-  top: 50%;
-  margin-top: -8px;
-  right: 8px;
-}
-
-.leto-input-wrapper > select[class*=leto-input] {
-  -webkit-appearance: none;
-     -moz-appearance: none;
-          appearance: none;
-}
-
-.leto-input-wrapper > select[class*=leto-input]::-ms-expand {
-  display: none;
-}
-
 .leto-input[type="radio"] {
   position: relative;
   cursor: pointer;
@@ -8072,6 +7996,82 @@ select.leto-input-xxl {
 
 .leto-frame-dark select[class*="leto-input"] {
   color: #fdfdfd;
+}
+
+.leto-input-wrapper {
+  position: relative;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 8px;
+}
+
+.leto-input-wrapper label {
+  position: absolute;
+  background-color: #fdfdfd;
+  font-size: 14px;
+  font-weight: 600;
+  top: -10px;
+  left: 8px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.leto-frame-default .leto-input-wrapper label {
+  background-color: #fdfdfd;
+}
+
+.leto-frame-dark .leto-input-wrapper label {
+  background-color: #303030;
+}
+
+.leto-input-wrapper [class*=leto-input] {
+  min-width: 0;
+  width: 100%;
+  border: 1px solid #e1e1e1;
+  margin: 0;
+}
+
+.leto-input-wrapper [class*=leto-input]:focus::-webkit-input-placeholder {
+  opacity: 0;
+}
+
+.leto-input-wrapper [class*=leto-input]:focus:-ms-input-placeholder {
+  opacity: 0;
+}
+
+.leto-input-wrapper [class*=leto-input]:focus::-ms-input-placeholder {
+  opacity: 0;
+}
+
+.leto-input-wrapper [class*=leto-input]:focus::placeholder {
+  opacity: 0;
+}
+
+.leto-input-wrapper [class*=leto-input]:focus ~ label {
+  opacity: 1;
+}
+
+.leto-input-wrapper [class*=leto-input]:focus {
+  background-color: transparent;
+  border: 1px solid #bbbbbb;
+}
+
+.leto-input-wrapper > i {
+  position: absolute;
+  top: 50%;
+  margin-top: -8px;
+  right: 8px;
+}
+
+.leto-input-wrapper > select[class*=leto-input] {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+}
+
+.leto-input-wrapper > select[class*=leto-input]::-ms-expand {
+  display: none;
 }
 
 .leto-table {
