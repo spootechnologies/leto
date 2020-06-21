@@ -62,4 +62,95 @@
             border-color: t('text')
 
     @else
-        border-color: $borderColor 
+        border-color: $borderColor
+
+=placeHolderInput()
+    label
+        position: absolute
+        background-color: $bgColor
+        @if $bgColor == $lightModeBgColor
+            +themed()  
+                background-color: t('bg')
+
+    &:focus::placeholder
+    opacity: 0
+
+    &:focus ~ label 
+        opacity: 1
+
+    &:focus
+        background-color: transparent
+        border: 1px solid $colorDarkGrey
+
+=inputWrapper()
+    $bgColor: getElementAttrVal('input', 'bg');
+
+    position: relative
+    width: fit-content
+    margin: $basicMargin
+    display: flex
+    flex-direction: column 
+
+    label
+        position: absolute
+        font-size: $fontSizeSM
+        font-weight: $fontWeightMedium
+        top: 0
+        right: 0
+        bottom: 0
+        left: 0
+        display: flex
+
+        &:before
+            content: ""
+            width: 12 * 2
+            height: 100%
+            border-top-left-radius: 12px
+            border-bottom-left-radius: 12px
+            border-top: 1px solid $borderColor
+            border-bottom: 1px solid $borderColor
+            border-left: 1px solid $borderColor
+
+        &:after
+            content: ""
+            flex: 8
+            height: 100%
+            border-top-right-radius: 12px
+            border-bottom-right-radius: 12px
+            border-top: 1px solid $borderColor
+            border-right: 1px solid $borderColor
+            border-bottom: 1px solid $borderColor
+
+    label span
+        margin-top: -10px
+        padding: 0 8px
+        border-bottom: 1px solid $borderColor
+    //    overflow: hidden;
+    //    text-indent: -9999px;
+        z-index: 0
+
+    [class*=leto-input]
+        background-color: transparent !important
+        border: 0
+        min-width: 0
+        width: 100%  
+        margin: 0
+        z-index: 1
+
+    //[class*=leto-input]:not(:placeholder-shown) + label span
+    //    opacity: 1
+    //    text-indent: 0
+
+    > i
+        position: absolute
+        top: 50%
+        margin-top: -8px
+        right: 8px
+
+    > select[class*=leto-input]
+        appearance: none
+        background-color: transparent !important
+        border: 0
+
+        &::-ms-expand
+            display: none
