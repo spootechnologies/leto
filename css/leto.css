@@ -12223,6 +12223,7 @@ select.leto-input-xxl {
   height: calc($xxl * 8);
 }
 
+@use "sass:map";
 .leto-static {
   position: static;
 }
@@ -12844,7 +12845,15 @@ select.leto-input-xxl {
   max-height: calc(12.5% - (8px*2));
 }
 
-.leto-bg-white, [class*="leto-frame"] .leto-bg-white {
+.leto-bg, [class*="leto-frame"] .leto-bg {
+  background-color: #fdfdfd;
+}
+
+.leto-frame-default .leto-bg [class*='leto-bg-white-themed'], .leto-frame-default [class*="leto-frame"] .leto-bg [class*='leto-bg-white-themed'] {
+  background-color: #fdfdfd;
+}
+
+.leto-frame-dark .leto-bg [class*='leto-bg-white-themed'], .leto-frame-dark [class*="leto-frame"] .leto-bg [class*='leto-bg-white-themed'] {
   background-color: #fdfdfd;
 }
 

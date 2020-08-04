@@ -37,6 +37,15 @@
             &-super-ultrawide
                 @content
 
+=transformerColorConstructor($elementName, $class, $color)
+    &, &-themed
+    +transformerConstructor('background')
+        @content
+
+    [class*='#{$class}-themed']
+        @if $color == $lightModeBgColor
+            +themed() 
+                @content
 
 
 // Margin
