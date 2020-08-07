@@ -12845,19 +12845,11 @@ select.leto-input-xxl {
   max-height: calc(12.5% - (8px*2));
 }
 
-.leto-bg, [class*="leto-frame"] .leto-bg {
+.leto-bg-white, .leto-bg-white-themed, [class*="leto-frame"] .leto-bg-white, [class*="leto-frame"] .leto-bg-white-themed {
   background-color: #fdfdfd;
 }
 
-.leto-frame-default .leto-bg [class*='leto-bg-white-themed'], .leto-frame-default [class*="leto-frame"] .leto-bg [class*='leto-bg-white-themed'] {
-  background-color: #fdfdfd;
-}
-
-.leto-frame-dark .leto-bg [class*='leto-bg-white-themed'], .leto-frame-dark [class*="leto-frame"] .leto-bg [class*='leto-bg-white-themed'] {
-  background-color: #fdfdfd;
-}
-
-.leto-bg-dark-white, [class*="leto-frame"] .leto-bg-dark-white {
+.leto-bg-dark-white, .leto-bg-dark-white-themed, [class*="leto-frame"] .leto-bg-dark-white, [class*="leto-frame"] .leto-bg-dark-white-themed {
   background-color: #f0f0f0;
 }
 
@@ -12975,6 +12967,14 @@ select.leto-input-xxl {
 
 .leto-bg-none, [class*="leto-frame"] .leto-bg-none {
   background-color: transparent;
+}
+
+.leto-frame-default [class*='leto-bg-white-themed'], .leto-frame-default [class*="leto-frame"] [class*='leto-bg-white-themed'] {
+  background: #fdfdfd;
+}
+
+.leto-frame-dark [class*='leto-bg-white-themed'], .leto-frame-dark [class*="leto-frame"] [class*='leto-bg-white-themed'] {
+  background: #303030;
 }
 
 .leto-border, [class*="leto-frame"] .leto-border {
