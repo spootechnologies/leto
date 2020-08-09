@@ -1,18 +1,18 @@
 @import '_variables.sass'
 @use 'sass:map'
 
-$bubbleDefaultAttrVal: ('bg': transparent, 'multiplier': 2.5, 'color': $colorBlack, 'borderWidth': 1px, 'borderColor': $colorGrey, 'borderRadius': 100%)
-$cardDefaultAttrVal: ('bg': transparent, 'multiplier': 10, 'color': $colorBlack, 'borderWidth': 1px, 'borderColor': $colorGrey, 'borderRadius': $standardRoundness)
-$buttonDefaultAttrVal: ('bg': $colorWhite, 'multiplier': $elementSizeMultipier, 'color': $colorBlack, 'borderWidth': 1px, 'borderColor': $colorGrey, 'borderRadius': 128px)
-$badgeDefaultAttrVal: ('bg': $colorWhite, 'multiplier': $elementSizeMultipier, 'color': $colorBlack, 'borderWidth': 1px, 'borderColor': $colorGrey, 'borderRadius': 128px)
-$inputDefaultAttrVal: ('bg': $colorWhite, 'multiplier': $elementSizeMultipier, 'color': $colorBlack, 'borderWidth': 1px, 'borderColor': $colorGrey, 'borderRadius': $standardRoundness)
-$radioDefaultAttrVal: ('bg': $colorWhite, 'multiplier': $elementSizeMultipier, 'color': $colorBlack, 'borderWidth': 1px, 'borderColor': $colorGrey, 'borderRadius': $standardRoundness)
-$checkboxDefaultAttrVal: ('bg': $colorWhite, 'multiplier': $elementSizeMultipier, 'color': $colorBlack, 'borderWidth': 1px, 'borderColor': $colorGrey, 'borderRadius': $standardRoundness)
-$searchDefaultAttrVal: ('bg': $colorLightGrey, 'multiplier': $elementSizeMultipier, 'color': $colorBlack, 'borderWidth': 1px, 'borderColor': $colorGrey, 'borderRadius': $standardRoundness)
+$bubbleDefaultAttrVal: ('bg': transparent, 'multiplier': 2.5, 'color': $colorBlack, 'borderWidth': 1px, 'borderColor': $colorGrey, 'borderRadius': 100%, 'outlineWidth': 0, 'outtlineColor': $colorGrey, 'outlineOffset': 0, 'outlineStyle': none, 'boxShadow': none)
+$cardDefaultAttrVal: ('bg': transparent, 'multiplier': 10, 'color': $colorBlack, 'borderWidth': 1px, 'borderColor': $colorGrey, 'borderRadius': $standardRoundness, 'outlineWidth': 0, 'outtlineColor': $colorGrey, 'outlineOffset': 0, 'outlineStyle': none, 'boxShadow': none)
+$buttonDefaultAttrVal: ('bg': $colorWhite, 'multiplier': $elementSizeMultipier, 'color': $colorBlack, 'borderWidth': 1px, 'borderColor': $colorGrey, 'borderRadius': 128px, 'outlineWidth': 0, 'outtlineColor': $colorGrey, 'outlineOffset': 0, 'outlineStyle': none, 'boxShadow': none)
+$badgeDefaultAttrVal: ('bg': $colorWhite, 'multiplier': $elementSizeMultipier, 'color': $colorBlack, 'borderWidth': 1px, 'borderColor': $colorGrey, 'borderRadius': 128px, 'outlineWidth': 0, 'outtlineColor': $colorGrey, 'outlineOffset': 0, 'outlineStyle': none, 'boxShadow': none)
+$inputDefaultAttrVal: ('bg': $colorWhite, 'multiplier': $elementSizeMultipier, 'color': $colorBlack, 'borderWidth': 1px, 'borderColor': $colorGrey, 'borderRadius': $standardRoundness, 'outlineWidth': 0, 'outtlineColor': $colorGrey, 'outlineOffset': 0, 'outlineStyle': none, 'boxShadow': none)
+$radioDefaultAttrVal: ('bg': $colorWhite, 'multiplier': $elementSizeMultipier, 'color': $colorBlack, 'borderWidth': 1px, 'borderColor': $colorGrey, 'borderRadius': $standardRoundness, 'outlineWidth': 0, 'outtlineColor': $colorGrey, 'outlineOffset': 0, 'outlineStyle': none, 'boxShadow': none)
+$checkboxDefaultAttrVal: ('bg': $colorWhite, 'multiplier': $elementSizeMultipier, 'color': $colorBlack, 'borderWidth': 1px, 'borderColor': $colorGrey, 'borderRadius': $standardRoundness, 'outlineWidth': 0, 'outtlineColor': $colorGrey, 'outlineOffset': 0, 'outlineStyle': none, 'boxShadow': none)
+$searchDefaultAttrVal: ('bg': $colorLightGrey, 'multiplier': $elementSizeMultipier, 'color': $colorBlack, 'borderWidth': 1px, 'borderColor': $colorGrey, 'borderRadius': $standardRoundness, 'outlineWidth': 0, 'outtlineColor': $colorGrey, 'outlineOffset': 0, 'outlineStyle': none, 'boxShadow': none)
 $textareaDefaultAttrVal: ('bg': $colorWhite, 'color': $colorBlack, 'borderWidth': 1px, 'borderColor': $colorGrey, 'borderRadius': $standardRoundness)
-$selectDefaultAttrVal: ('bg': $colorWhite, 'multiplier': $elementSizeMultipier, 'color': $colorBlack, 'borderWidth': 1px, 'borderColor': $colorGrey, 'borderRadius': $standardRoundness)
-$pileDefaultAttrVal: ('bg': transparent, 'color': $colorBlack, 'borderWidth': 1px, 'borderColor': $colorGrey, 'borderRadius': $standardRoundness)
-$formDefaultAttrVal: ('bg': $colorWhite, 'color': $colorBlack, 'borderWidth': 1px, 'borderColor': $colorGrey, 'borderRadius': 0)
+$selectDefaultAttrVal: ('bg': $colorWhite, 'multiplier': $elementSizeMultipier, 'color': $colorBlack, 'borderWidth': 1px, 'borderColor': $colorGrey, 'borderRadius': $standardRoundness, 'outlineWidth': 0, 'outtlineColor': $colorGrey, 'outlineOffset': 0, 'outlineStyle': none, 'boxShadow': none)
+$pileDefaultAttrVal: ('bg': transparent, 'color': $colorBlack, 'borderWidth': 1px, 'borderColor': $colorGrey, 'borderRadius': $standardRoundness, 'outlineWidth': 0, 'outtlineColor': $colorGrey, 'outlineOffset': 0, 'outlineStyle': none, 'boxShadow': none)
+$formDefaultAttrVal: ('bg': $colorWhite, 'color': $colorBlack, 'borderWidth': 1px, 'borderColor': $colorGrey, 'borderRadius': 0, 'outlineWidth': 0, 'outtlineColor': $colorGrey, 'outlineOffset': 0, 'outlineStyle': none, 'boxShadow': none)
 
 
 @function getElementAttrVal($elementName, $attr) 

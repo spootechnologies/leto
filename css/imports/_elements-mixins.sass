@@ -6,10 +6,14 @@
 
 // Elements base mixins
     
-=basicElementStyles($bgColor, $color, $borderWidth, $borderColor, $borderRadius)
+=basicElementStyles($bgColor, $color, $borderWidth, $borderColor, $borderRadius, $outlineWidth, $outlineColor, $outlineOffset, $outlineStyle, $boxShadow)
     border-width: $borderWidth
     border-style: solid
     border-radius: $borderRadius
+    outline-width: $outlineWidth
+    outline-offset: $outlineOffset
+    outline-style: $outlineStyle
+    box-shadow: $boxShadow
 
     @if $bgColor != $lightModeBgColor
        background: $bgColor 
@@ -20,15 +24,20 @@
     @if $borderColor != $lightModeColor
         border-color: $borderColor
 
-=basicElementColors($bgColor, $color, $borderColor) 
+    @if $outlineColor != $lightModeColor
+        outline-color: $outlineColor
+
+=basicElementColors($bgColor, $color, $borderColor, $outlineColor) 
     background: $bgColor 
     color: $color
     border-color: $borderColor
+    outline-color: $outlineColor
 
 =elementThemeColors($elementName)
     $bgColor: getElementAttrVal($elementName, 'bg');
     $color: getElementAttrVal($elementName, 'color');
     $borderColor: getElementAttrVal($elementName, 'borderColor');
+    $outlineColor: getElementAttrVal($elementName, 'outlineColor');
 
     @if $bgColor == $lightModeBgColor
         +themed() 
@@ -42,40 +51,44 @@
         +themed() 
             border-color: t('text')
 
+    @if $outlineColor == $lightModeColor
+        +themed() 
+            outline-color: t('text')
+
 // Presets
 
-=preset($bgColor, $color, $borderWidth, $borderColor, $borderRadius)
-    +basicElementColors($bgColor, $color, $borderColor)
+=preset($bgColor, $color, $borderWidth, $borderColor, $borderRadius, $outlineColor)
+    +basicElementColors($bgColor, $color, $borderColor, $outlineColor)
     
     @media (min-width: $tablet)
 
         &-tablet
-            +basicElementColors($bgColor, $color, $borderColor)
+            +basicElementColors($bgColor, $color, $borderColor, $outlineColor)
 
     @media (min-width: $tabletAndPC)
 
         &-tablet-pc
-            +basicElementColors($bgColor, $color, $borderColor)
+            +basicElementColors($bgColor, $color, $borderColor, $outlineColor)
 
     @media (min-width: $tabletAndPC) and ($touchDevice)
 
         &-tablet-pc
-            +basicElementColors($bgColor, $color, $borderColor)
+            +basicElementColors($bgColor, $color, $borderColor, $outlineColor)
 
     @media (min-width: $pc)
 
         &-pc
-            +basicElementColors($bgColor, $color, $borderColor)
+            +basicElementColors($bgColor, $color, $borderColor, $outlineColor)
 
     @media (min-aspect-ratio: $ultrawideRatio) and (min-width: $ultrawide)
 
         &-ultrawide
-            +basicElementColors($bgColor, $color, $borderColor)
+            +basicElementColors($bgColor, $color, $borderColor, $outlineColor)
 
     @media (min-aspect-ratio: $superUltrawideRatio) and (min-width: $ultrawide)
         
         &-super-ultrawide
-            +basicElementColors($bgColor, $color, $borderColor)
+            +basicElementColors($bgColor, $color, $borderColor, $outlineColor)
 
 =presetConstructor($elementName)
     $bgColor: getElementAttrVal($elementName, 'bg');
@@ -83,91 +96,92 @@
     $borderWidth: getElementAttrVal($elementName, 'borderWidth');
     $borderColor: getElementAttrVal($elementName, 'borderColor');
     $borderRadius: getElementAttrVal($elementName, 'borderRadius');
+    $outlineColor: getElementAttrVal($elementName, 'outlineColor');
 
     @if checkElementPresetsList($elementName)
         &-white
-            +preset(transparent, $colorWhite, 1px, $colorWhite, $borderRadius)
+            +preset(transparent, $colorWhite, $borderWidth, $colorWhite, $borderRadius, $outlineColor)
 
         &-dark-white
-            +preset(transparent, $colorDarkWhite, 1px, $colorDarkWhite, $borderRadius)
+            +preset(transparent, $colorDarkWhite, $borderWidth, $colorDarkWhite, $borderRadius, $outlineColor)
 
         &-grey
-            +preset(transparent, $colorGrey, 1px, $colorGrey, $borderRadius)
+            +preset(transparent, $colorGrey, $borderWidth, $colorGrey, $borderRadius, $outlineColor)
 
         &-light-grey
-            +preset(transparent, $colorLightGrey, 1px, $colorLightGrey, $borderRadius)
+            +preset(transparent, $colorLightGrey, $borderWidth, $colorLightGrey, $borderRadius, $outlineColor)
 
         &-lighter-grey
-            +preset(transparent, $colorLighterGrey, 1px, $colorLighterGrey, $borderRadius)
+            +preset(transparent, $colorLighterGrey, $borderWidth, $colorLighterGrey, $borderRadius, $outlineColor)
 
         &-dark-grey
-            +preset(transparent, $colorDarkGrey, 1px, $colorDarkGrey, $borderRadius)
+            +preset(transparent, $colorDarkGrey, $borderWidth, $colorDarkGrey, $borderRadius, $outlineColor)
 
         &-darker-grey
-            +preset(transparent, $colorDarkerGrey, 1px, $colorDarkerGrey, $borderRadius)
+            +preset(transparent, $colorDarkerGrey, $borderWidth, $colorDarkerGrey, $borderRadius, $outlineColor)
 
         &-yellow
-            +preset(transparent, $colorYellow, 1px, $colorYellow, $borderRadius)
+            +preset(transparent, $colorYellow, $borderWidth, $colorYellow, $borderRadius, $outlineColor)
 
         &-light-yellow
-            +preset(transparent, $colorLightYellow, 1px, $colorLightYellow, $borderRadius)
+            +preset(transparent, $colorLightYellow, $borderWidth, $colorLightYellow, $borderRadius, $outlineColor)
 
         &-dark-yellow
-            +preset(transparent, $colorDarkYellow, 1px, $colorDarkYellow, $borderRadius)
+            +preset(transparent, $colorDarkYellow, $borderWidth, $colorDarkYellow, $borderRadius, $outlineColor)
 
         &-orange
-            +preset(transparent, $colorOrange, 1px, $colorOrange, $borderRadius)
+            +preset(transparent, $colorOrange, $borderWidth, $colorOrange, $borderRadius, $outlineColor)
 
         &-light-orange
-            +preset(transparent, $colorLightOrange, 1px, $colorLightOrange, $borderRadius)
+            +preset(transparent, $colorLightOrange, $borderWidth, $colorLightOrange, $borderRadius, $outlineColor)
 
         &-dark-orange
-            +preset(transparent, $colorDarkOrange, 1px, $colorDarkOrange, $borderRadius)
+            +preset(transparent, $colorDarkOrange, $borderWidth, $colorDarkOrange, $borderRadius, $outlineColor)
 
         &-red
-            +preset(transparent, $colorRed, 1px, $colorRed, $borderRadius)
+            +preset(transparent, $colorRed, $borderWidth, $colorRed, $borderRadius, $outlineColor)
 
         &-light-red
-            +preset(transparent, $colorLightRed, 1px, $colorLightRed, $borderRadius)
+            +preset(transparent, $colorLightRed, $borderWidth, $colorLightRed, $borderRadius, $outlineColor)
 
         &-dark-red
-            +preset(transparent, $colorDarkRed, 1px, $colorDarkRed, $borderRadius)
+            +preset(transparent, $colorDarkRed, $borderWidth, $colorDarkRed, $borderRadius, $outlineColor)
 
         &-purple
-            +preset(transparent, $colorPurple, 1px, $colorPurple, $borderRadius)
+            +preset(transparent, $colorPurple, $borderWidth, $colorPurple, $borderRadius, $outlineColor)
 
         &-light-purple
-            +preset(transparent, $colorLightPurple, 1px, $colorLightPurple, $borderRadius)
+            +preset(transparent, $colorLightPurple, $borderWidth, $colorLightPurple, $borderRadius, $outlineColor)
 
         &-dark-purple
-            +preset(transparent, $colorDarkPurple, 1px, $colorDarkPurple, $borderRadius)
+            +preset(transparent, $colorDarkPurple, $borderWidth, $colorDarkPurple, $borderRadius, $outlineColor)
 
         &-blue
-            +preset(transparent, $colorBlue, 1px, $colorBlue, $borderRadius)           
+            +preset(transparent, $colorBlue, $borderWidth, $colorBlue, $borderRadius, $outlineColor)           
 
         &-light-blue
-            +preset(transparent, $colorLightBlue, 1px, $colorLightBlue, $borderRadius)          
+            +preset(transparent, $colorLightBlue, $borderWidth, $colorLightBlue, $borderRadius, $outlineColor)          
 
         &-dark-blue
-            +preset(transparent, $colorDarkBlue, 1px, $colorDarkBlue, $borderRadius)           
+            +preset(transparent, $colorDarkBlue, $borderWidth, $colorDarkBlue, $borderRadius, $outlineColor)           
 
         &-mint
-            +preset(transparent, $colorMint, 1px, $colorMint, $borderRadius)          
+            +preset(transparent, $colorMint, $borderWidth, $colorMint, $borderRadius, $outlineColor)          
 
         &-light-mint
-            +preset(transparent, $colorLightMint, 1px, $colorLightMint, $borderRadius)          
+            +preset(transparent, $colorLightMint, $borderWidth, $colorLightMint, $borderRadius, $outlineColor)          
 
         &-dark-mint
-            +preset(transparent, $colorDarkMint, 1px, $colorDarkMint, $borderRadius)
+            +preset(transparent, $colorDarkMint, $borderWidth, $colorDarkMint, $borderRadius, $outlineColor)
                 
         &-mint
-            +preset(transparent, $colorGreen, 1px, $colorGreen, $borderRadius)
+            +preset(transparent, $colorGreen, $borderWidth, $colorGreen, $borderRadius, $outlineColor)
                 
         &-light-mint
-            +preset(transparent, $colorLightGreen, 1px, $colorLightGreen, $borderRadius)
+            +preset(transparent, $colorLightGreen, $borderWidth, $colorLightGreen, $borderRadius, $outlineColor)
                 
         &-dark-mint
-            +preset(transparent, $colorDarkGreen, 1px, $colorDarkGreen, $borderRadius)
+            +preset(transparent, $colorDarkGreen, $borderWidth, $colorDarkGreen, $borderRadius, $outlineColor)
             
 
 // Element constructor
@@ -178,18 +192,17 @@
     $borderWidth: getElementAttrVal($elementName, 'borderWidth');
     $borderColor: getElementAttrVal($elementName, 'borderColor');
     $borderRadius: getElementAttrVal($elementName, 'borderRadius');
+    $outlineWidth: getElementAttrVal($elementName, 'outlineWidth');
+    $outlineColor: getElementAttrVal($elementName, 'outlineColor');
+    $outlineOffset: getElementAttrVal($elementName, 'outlineOffset');
+    $outlineStyle: getElementAttrVal($elementName, 'outlineStyle');
+    $boxShadow: getElementAttrVal($elementName, 'boxShadow');
 
     &, &-tablet, &-tablet-pc, &-pc, &-ultrawide, &-super-ultrawide
         @content
-        +basicElementStyles($bgColor, $color, $borderWidth, $borderColor, $borderRadius)
+        +basicElementStyles($bgColor, $color, $borderWidth, $borderColor, $borderRadius, $outlineWidth, $outlineColor, $outlineOffset, $outlineStyle, $boxShadow)
 
 =elementConstructorDy($elementName)
-    $bgColor: getElementAttrVal($elementName, 'bg');
-    $color: getElementAttrVal($elementName, 'color');
-    $borderWidth: getElementAttrVal($elementName, 'borderWidth');
-    $borderColor: getElementAttrVal($elementName, 'borderColor');
-    $borderRadius: getElementAttrVal($elementName, 'borderRadius');
-    
     @content
     
     @if checkElementMQList($elementName)
@@ -197,37 +210,31 @@
 
             &-tablet
                 @content
-                //+basicElementStyles($bgColor, $color, $borderWidth, $borderColor, $borderRadius)
 
         @media (min-width: $tabletAndPC)
 
             &-tablet-pc
                 @content
-                //+basicElementStyles($bgColor, $color, $borderWidth, $borderColor, $borderRadius)
 
         @media (min-width: $tabletAndPC) and ($touchDevice)
 
             &-tablet-pc
                 @content
-                //+basicElementStyles($bgColor, $color, $borderWidth, $borderColor, $borderRadius)
 
         @media (min-width: $pc)
 
             &-pc
                 @content
-                //+basicElementStyles($bgColor, $color, $borderWidth, $borderColor, $borderRadius)
 
         @media (min-aspect-ratio: $ultrawideRatio) and (min-width: $ultrawide)
 
             &-ultrawide
                 @content
-                //+basicElementStyles($bgColor, $color, $borderWidth, $borderColor, $borderRadius)
 
         @media (min-aspect-ratio: $superUltrawideRatio) and (min-width: $ultrawide)
             
             &-super-ultrawide
                 @content
-                //+basicElementStyles($bgColor, $color, $borderWidth, $borderColor, $borderRadius)
 
 =elementInputConstructor($elementName)
     $realElementName: ''
@@ -243,11 +250,16 @@
     $borderWidth: getElementAttrVal($realElementName, 'borderWidth')
     $borderColor: getElementAttrVal($realElementName, 'borderColor')
     $borderRadius: getElementAttrVal($realElementName, 'borderRadius')
+    $outlineWidth: getElementAttrVal($realElementName, 'outlineWidth');
+    $outlineColor: getElementAttrVal($realElementName, 'outlineColor');
+    $outlineOffset: getElementAttrVal($realElementName, 'outlineOffset');
+    $outlineStyle: getElementAttrVal($realElementName, 'outlineStyle');
+    $boxShadow: getElementAttrVal($realElementName, 'boxShadow');
 
     @if $elementName != 'input'
         &[type="#{$elementName}"], &-tablet[type="#{$elementName}"], &-tablet-pc[type="#{$elementName}"], &-pc[type="#{$elementName}"], &-ultrawide[type="#{$elementName}"], &-super-ultrawide[type="#{$elementName}"]
             @content
-            +basicElementStyles($bgColor, $color, $borderWidth, $borderColor, $borderRadius)
+            +basicElementStyles($bgColor, $color, $borderWidth, $borderColor, $borderRadius, $outlineWidth, $outlineColor, $outlineOffset, $outlineStyle, $boxShadow)
 
     @else 
         &[type="text"], &-tablet[type="text"], &-tablet-pc[type="text"], &-pc[type="text"], &-ultrawide[type="text"], &-super-ultrawide[type="text"], 
@@ -262,7 +274,7 @@
         &[type="url"], &-tablet[type="url"], &-tablet-pc[type="url"], &-pc[type="url"], &-ultrawide[type="url"], &-super-ultrawide[type="url"], 
         &[type="week"], &-tablet[type="week"], &-tablet-pc[type="week"], &-pc[type="week"], &-ultrawide[type="week"], &-super-ultrawide[type="week"],
             @content
-            +basicElementStyles($bgColor, $color, $borderWidth, $borderColor, $borderRadius)
+            +basicElementStyles($bgColor, $color, $borderWidth, $borderColor, $borderRadius, $outlineWidth, $outlineColor, $outlineOffset, $outlineStyle, $boxShadow)
 
 =elementInputConstructorDy($elementName)
     @if $elementName != 'input'
@@ -567,51 +579,77 @@
 
 =inputWrapper()
     $bgColor: getElementAttrVal('input', 'bg');
+    $borderColor: getElementAttrVal('input', 'border');
 
     position: relative
     width: fit-content
     margin: $basicMargin
+    display: flex
+    flex-direction: column 
 
     label
         position: absolute
-        background-color: $bgColor
-        @if $bgColor == $lightModeBgColor
-            +themed()  
-                background-color: t('bg')
         font-size: $fontSizeSM
         font-weight: $fontWeightMedium
-        top: -10px
-        left: $basicPadding
-        padding-left: $basicPadding
-        padding-right: $basicPadding
+        top: 0
+        right: 0
+        bottom: 0
+        left: 0
+        display: flex
+
+        &:before
+            content: "" 
+            width: 16px
+            height: 100%
+            border-top-left-radius: 12px
+            border-bottom-left-radius: 12px
+            border-top: 1px solid $borderColor
+            border-bottom: 1px solid $borderColor
+            border-left: 1px solid $borderColor 
+
+        &:after  
+            content: ""
+            flex: 8
+            height: 100%
+            border-top-right-radius: 12px
+            border-bottom-right-radius: 12px
+            border-top: 1px solid $borderColor
+            border-right: 1px solid $borderColor
+            border-bottom: 1px solid $borderColor
+
+    label span
+        margin-top: -10px
+        padding: 0 8px 
+        border-bottom: 1px solid $borderColor
+    //    overflow: hidden;
+    //    text-indent: -9999px;
+        z-index: 0
 
     [class*=leto-input]
+        background-color: transparent !important
+        border: 0
         min-width: 0
-        width: 100%
-        border: 1px solid $colorLightGrey
+        width: 100%  
         margin: 0
+        z-index: 1
 
-    [class*=leto-input]:focus::placeholder
-        opacity: 0
-
-    [class*=leto-input]:focus ~ label
-        opacity: 1
-
-    [class*=leto-input]:focus
-        background-color: transparent
-        border: 1px solid $colorDarkGrey
+    //[class*=leto-input]:not(:placeholder-shown) + label span
+    //    opacity: 1
+    //    text-indent: 0
 
     > i
         position: absolute
         top: 50%
         margin-top: -8px
         right: 8px
-
+ 
     > select[class*=leto-input]
         appearance: none
+        background-color: transparent !important
+        border: 0
 
         &::-ms-expand
-            display: none
+            display: none 
 
 
 // Input Radio 
