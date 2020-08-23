@@ -6,29 +6,38 @@
 
 // Elements base mixins
     
-=basicElementStyles($bgColor, $color, $borderWidth, $borderColor, $borderRadius)
+=basicElementStyles($bgColor, $color, $borderWidth, $borderColor, $borderRadius, $outlineWidth, $outlineColor, $outlineOffset, $outlineStyle, $boxShadow)
     border-width: $borderWidth
     border-style: solid
     border-radius: $borderRadius
+    outline-width: $outlineWidth
+    outline-offset: $outlineOffset
+    outline-style: $outlineStyle
+    box-shadow: $boxShadow
 
     @if $bgColor != $lightModeBgColor
-       background: $bgColor 
+        background: $bgColor 
 
     @if $color != $lightModeColor
-       color: $color
+        color: $color
 
     @if $borderColor != $lightModeColor
         border-color: $borderColor
 
-=basicElementColors($bgColor, $color, $borderColor)
+    @if $outlineColor != $lightModeColor
+        outline-color: $outlineColor
+
+=basicElementColors($bgColor, $color, $borderColor, $outlineColor) 
     background: $bgColor 
     color: $color
     border-color: $borderColor
+    outline-color: $outlineColor
 
 =elementThemeColors($elementName)
     $bgColor: getElementAttrVal($elementName, 'bg');
     $color: getElementAttrVal($elementName, 'color');
     $borderColor: getElementAttrVal($elementName, 'borderColor');
+    $outlineColor: getElementAttrVal($elementName, 'outlineColor');
 
     @if $bgColor == $lightModeBgColor
         +themed() 
@@ -42,40 +51,44 @@
         +themed() 
             border-color: t('text')
 
+    @if $outlineColor == $lightModeColor
+        +themed() 
+            outline-color: t('text')
+
 // Presets
 
-=preset($bgColor, $color, $borderWidth, $borderColor, $borderRadius)
-    +basicElementColors($bgColor, $color, $borderColor)
+=preset($bgColor, $color, $borderWidth, $borderColor, $borderRadius, $outlineColor)
+    +basicElementColors($bgColor, $color, $borderColor, $outlineColor)
     
     @media (min-width: $tablet)
 
         &-tablet
-            +basicElementColors($bgColor, $color, $borderColor)
+            +basicElementColors($bgColor, $color, $borderColor, $outlineColor)
 
     @media (min-width: $tabletAndPC)
 
         &-tablet-pc
-            +basicElementColors($bgColor, $color, $borderColor)
+            +basicElementColors($bgColor, $color, $borderColor, $outlineColor)
 
     @media (min-width: $tabletAndPC) and ($touchDevice)
 
         &-tablet-pc
-            +basicElementColors($bgColor, $color, $borderColor)
+            +basicElementColors($bgColor, $color, $borderColor, $outlineColor)
 
     @media (min-width: $pc)
 
         &-pc
-            +basicElementColors($bgColor, $color, $borderColor)
+            +basicElementColors($bgColor, $color, $borderColor, $outlineColor)
 
     @media (min-aspect-ratio: $ultrawideRatio) and (min-width: $ultrawide)
 
         &-ultrawide
-            +basicElementColors($bgColor, $color, $borderColor)
+            +basicElementColors($bgColor, $color, $borderColor, $outlineColor)
 
     @media (min-aspect-ratio: $superUltrawideRatio) and (min-width: $ultrawide)
-         
+        
         &-super-ultrawide
-            +basicElementColors($bgColor, $color, $borderColor)
+            +basicElementColors($bgColor, $color, $borderColor, $outlineColor)
 
 =presetConstructor($elementName)
     $bgColor: getElementAttrVal($elementName, 'bg');
@@ -83,91 +96,92 @@
     $borderWidth: getElementAttrVal($elementName, 'borderWidth');
     $borderColor: getElementAttrVal($elementName, 'borderColor');
     $borderRadius: getElementAttrVal($elementName, 'borderRadius');
+    $outlineColor: getElementAttrVal($elementName, 'outlineColor');
 
     @if checkElementPresetsList($elementName)
         &-white
-            +preset(transparent, $colorWhite, 1px, $colorWhite, $borderRadius)
+            +preset(transparent, $colorWhite, $borderWidth, $colorWhite, $borderRadius, $outlineColor)
 
         &-dark-white
-            +preset(transparent, $colorDarkWhite, 1px, $colorDarkWhite, $borderRadius)
+            +preset(transparent, $colorDarkWhite, $borderWidth, $colorDarkWhite, $borderRadius, $outlineColor)
 
         &-grey
-            +preset(transparent, $colorGrey, 1px, $colorGrey, $borderRadius)
+            +preset(transparent, $colorGrey, $borderWidth, $colorGrey, $borderRadius, $outlineColor)
 
         &-light-grey
-            +preset(transparent, $colorLightGrey, 1px, $colorLightGrey, $borderRadius)
+            +preset(transparent, $colorLightGrey, $borderWidth, $colorLightGrey, $borderRadius, $outlineColor)
 
         &-lighter-grey
-            +preset(transparent, $colorLighterGrey, 1px, $colorLighterGrey, $borderRadius)
+            +preset(transparent, $colorLighterGrey, $borderWidth, $colorLighterGrey, $borderRadius, $outlineColor)
 
         &-dark-grey
-            +preset(transparent, $colorDarkGrey, 1px, $colorDarkGrey, $borderRadius)
+            +preset(transparent, $colorDarkGrey, $borderWidth, $colorDarkGrey, $borderRadius, $outlineColor)
 
         &-darker-grey
-            +preset(transparent, $colorDarkerGrey, 1px, $colorDarkerGrey, $borderRadius)
+            +preset(transparent, $colorDarkerGrey, $borderWidth, $colorDarkerGrey, $borderRadius, $outlineColor)
 
         &-yellow
-            +preset(transparent, $colorYellow, 1px, $colorYellow, $borderRadius)
+            +preset(transparent, $colorYellow, $borderWidth, $colorYellow, $borderRadius, $outlineColor)
 
         &-light-yellow
-            +preset(transparent, $colorLightYellow, 1px, $colorLightYellow, $borderRadius)
+            +preset(transparent, $colorLightYellow, $borderWidth, $colorLightYellow, $borderRadius, $outlineColor)
 
         &-dark-yellow
-            +preset(transparent, $colorDarkYellow, 1px, $colorDarkYellow, $borderRadius)
+            +preset(transparent, $colorDarkYellow, $borderWidth, $colorDarkYellow, $borderRadius, $outlineColor)
 
         &-orange
-            +preset(transparent, $colorOrange, 1px, $colorOrange, $borderRadius)
+            +preset(transparent, $colorOrange, $borderWidth, $colorOrange, $borderRadius, $outlineColor)
 
         &-light-orange
-            +preset(transparent, $colorLightOrange, 1px, $colorLightOrange, $borderRadius)
+            +preset(transparent, $colorLightOrange, $borderWidth, $colorLightOrange, $borderRadius, $outlineColor)
 
         &-dark-orange
-            +preset(transparent, $colorDarkOrange, 1px, $colorDarkOrange, $borderRadius)
+            +preset(transparent, $colorDarkOrange, $borderWidth, $colorDarkOrange, $borderRadius, $outlineColor)
 
         &-red
-            +preset(transparent, $colorRed, 1px, $colorRed, $borderRadius)
+            +preset(transparent, $colorRed, $borderWidth, $colorRed, $borderRadius, $outlineColor)
 
         &-light-red
-            +preset(transparent, $colorLightRed, 1px, $colorLightRed, $borderRadius)
+            +preset(transparent, $colorLightRed, $borderWidth, $colorLightRed, $borderRadius, $outlineColor)
 
         &-dark-red
-            +preset(transparent, $colorDarkRed, 1px, $colorDarkRed, $borderRadius)
+            +preset(transparent, $colorDarkRed, $borderWidth, $colorDarkRed, $borderRadius, $outlineColor)
 
         &-purple
-            +preset(transparent, $colorPurple, 1px, $colorPurple, $borderRadius)
+            +preset(transparent, $colorPurple, $borderWidth, $colorPurple, $borderRadius, $outlineColor)
 
         &-light-purple
-            +preset(transparent, $colorLightPurple, 1px, $colorLightPurple, $borderRadius)
+            +preset(transparent, $colorLightPurple, $borderWidth, $colorLightPurple, $borderRadius, $outlineColor)
 
         &-dark-purple
-            +preset(transparent, $colorDarkPurple, 1px, $colorDarkPurple, $borderRadius)
+            +preset(transparent, $colorDarkPurple, $borderWidth, $colorDarkPurple, $borderRadius, $outlineColor)
 
         &-blue
-            +preset(transparent, $colorBlue, 1px, $colorBlue, $borderRadius)           
+            +preset(transparent, $colorBlue, $borderWidth, $colorBlue, $borderRadius, $outlineColor)           
 
         &-light-blue
-            +preset(transparent, $colorLightBlue, 1px, $colorLightBlue, $borderRadius)          
+            +preset(transparent, $colorLightBlue, $borderWidth, $colorLightBlue, $borderRadius, $outlineColor)          
 
         &-dark-blue
-            +preset(transparent, $colorDarkBlue, 1px, $colorDarkBlue, $borderRadius)           
+            +preset(transparent, $colorDarkBlue, $borderWidth, $colorDarkBlue, $borderRadius, $outlineColor)           
 
         &-mint
-            +preset(transparent, $colorMint, 1px, $colorMint, $borderRadius)          
+            +preset(transparent, $colorMint, $borderWidth, $colorMint, $borderRadius, $outlineColor)          
 
         &-light-mint
-            +preset(transparent, $colorLightMint, 1px, $colorLightMint, $borderRadius)          
+            +preset(transparent, $colorLightMint, $borderWidth, $colorLightMint, $borderRadius, $outlineColor)          
 
         &-dark-mint
-            +preset(transparent, $colorDarkMint, 1px, $colorDarkMint, $borderRadius)
+            +preset(transparent, $colorDarkMint, $borderWidth, $colorDarkMint, $borderRadius, $outlineColor)
                 
         &-mint
-            +preset(transparent, $colorGreen, 1px, $colorGreen, $borderRadius)
+            +preset(transparent, $colorGreen, $borderWidth, $colorGreen, $borderRadius, $outlineColor)
                 
         &-light-mint
-            +preset(transparent, $colorLightGreen, 1px, $colorLightGreen, $borderRadius)
+            +preset(transparent, $colorLightGreen, $borderWidth, $colorLightGreen, $borderRadius, $outlineColor)
                 
         &-dark-mint
-            +preset(transparent, $colorDarkGreen, 1px, $colorDarkGreen, $borderRadius)
+            +preset(transparent, $colorDarkGreen, $borderWidth, $colorDarkGreen, $borderRadius, $outlineColor)
             
 
 // Element constructor
@@ -178,57 +192,169 @@
     $borderWidth: getElementAttrVal($elementName, 'borderWidth');
     $borderColor: getElementAttrVal($elementName, 'borderColor');
     $borderRadius: getElementAttrVal($elementName, 'borderRadius');
-    
+    $outlineWidth: getElementAttrVal($elementName, 'outlineWidth');
+    $outlineColor: getElementAttrVal($elementName, 'outlineColor');
+    $outlineOffset: getElementAttrVal($elementName, 'outlineOffset');
+    $outlineStyle: getElementAttrVal($elementName, 'outlineStyle');
+    $boxShadow: getElementAttrVal($elementName, 'boxShadow');
+
+    &, &-tablet, &-tablet-pc, &-pc, &-ultrawide, &-super-ultrawide
+        @content
+        +basicElementStyles($bgColor, $color, $borderWidth, $borderColor, $borderRadius, $outlineWidth, $outlineColor, $outlineOffset, $outlineStyle, $boxShadow)
+
+=elementConstructorDy($elementName)
     @content
-    +basicElementStyles($bgColor, $color, $borderWidth, $borderColor, $borderRadius)
     
     @if checkElementMQList($elementName)
         @media (min-width: $tablet)
 
             &-tablet
                 @content
-                +basicElementStyles($bgColor, $color, $borderWidth, $borderColor, $borderRadius)
 
         @media (min-width: $tabletAndPC)
 
             &-tablet-pc
                 @content
-                +basicElementStyles($bgColor, $color, $borderWidth, $borderColor, $borderRadius)
 
         @media (min-width: $tabletAndPC) and ($touchDevice)
 
             &-tablet-pc
                 @content
-                +basicElementStyles($bgColor, $color, $borderWidth, $borderColor, $borderRadius)
 
         @media (min-width: $pc)
 
             &-pc
                 @content
-                +basicElementStyles($bgColor, $color, $borderWidth, $borderColor, $borderRadius)
 
         @media (min-aspect-ratio: $ultrawideRatio) and (min-width: $ultrawide)
 
             &-ultrawide
                 @content
-                +basicElementStyles($bgColor, $color, $borderWidth, $borderColor, $borderRadius)
 
         @media (min-aspect-ratio: $superUltrawideRatio) and (min-width: $ultrawide)
             
             &-super-ultrawide
                 @content
-                +basicElementStyles($bgColor, $color, $borderWidth, $borderColor, $borderRadius)
 
+=elementInputConstructor($elementName)
+    $realElementName: ''
+
+    @if $elementName != 'color'
+        $realElementName: $elementName
+    
+    @else 
+        $realElementName: 'input'
+
+    $bgColor: getElementAttrVal($realElementName, 'bg')
+    $color: getElementAttrVal($realElementName, 'color')
+    $borderWidth: getElementAttrVal($realElementName, 'borderWidth')
+    $borderColor: getElementAttrVal($realElementName, 'borderColor')
+    $borderRadius: getElementAttrVal($realElementName, 'borderRadius')
+    $outlineWidth: getElementAttrVal($realElementName, 'outlineWidth');
+    $outlineColor: getElementAttrVal($realElementName, 'outlineColor');
+    $outlineOffset: getElementAttrVal($realElementName, 'outlineOffset');
+    $outlineStyle: getElementAttrVal($realElementName, 'outlineStyle');
+    $boxShadow: getElementAttrVal($realElementName, 'boxShadow');
+
+    @if $elementName != 'input'
+        &[type="#{$elementName}"], &-tablet[type="#{$elementName}"], &-tablet-pc[type="#{$elementName}"], &-pc[type="#{$elementName}"], &-ultrawide[type="#{$elementName}"], &-super-ultrawide[type="#{$elementName}"]
+            @content
+            +basicElementStyles($bgColor, $color, $borderWidth, $borderColor, $borderRadius, $outlineWidth, $outlineColor, $outlineOffset, $outlineStyle, $boxShadow)
+
+    @else 
+        &[type="text"], &-tablet[type="text"], &-tablet-pc[type="text"], &-pc[type="text"], &-ultrawide[type="text"], &-super-ultrawide[type="text"], 
+        &[type="date"], &-tablet[type="date"], &-tablet-pc[type="date"], &-pc[type="date"], &-ultrawide[type="date"], &-super-ultrawide[type="date"],
+        &[type="datetime-local"], &-tablet[type="datetime-local"], &-tablet-pc[type="datetime-local"], &-pc[type="datetime-local"], &-ultrawide[type="datetime-local"], &-super-ultrawide[type="datetime-local"],
+        &[type="email"], &-tablet[type="email"], &-tablet-pc[type="email"], &-pc[type="email"], &-ultrawide[type="email"], &-super-ultrawide[type="email"],
+        &[type="month"], &-tablet[type="month"], &-tablet-pc[type="month"], &-pc[type="month"], &-ultrawide[type="month"], &-super-ultrawide[type="month"], 
+        &[type="number"], &-tablet[type="number"], &-tablet-pc[type="number"], &-pc[type="number"], &-ultrawide[type="number"], &-super-ultrawide[type="number"],
+        &[type="password"], &-tablet[type="password"], &-tablet-pc[type="password"], &-pc[type="password"], &-ultrawide[type="password"], &-super-ultrawide[type="password"],
+        &[type="tel"], &-tablet[type="tel"], &-tablet-pc[type="tel"], &-pc[type="tel"], &-ultrawide[type="tel"], &-super-ultrawide[type="tel"], 
+        &[type="time"], &-tablet[type="time"], &-tablet-pc[type="time"], &-pc[type="time"], &-ultrawide[type="time"], &-super-ultrawide[type="time"],
+        &[type="url"], &-tablet[type="url"], &-tablet-pc[type="url"], &-pc[type="url"], &-ultrawide[type="url"], &-super-ultrawide[type="url"], 
+        &[type="week"], &-tablet[type="week"], &-tablet-pc[type="week"], &-pc[type="week"], &-ultrawide[type="week"], &-super-ultrawide[type="week"],
+            @content
+            +basicElementStyles($bgColor, $color, $borderWidth, $borderColor, $borderRadius, $outlineWidth, $outlineColor, $outlineOffset, $outlineStyle, $boxShadow)
+
+=elementInputConstructorDy($elementName)
+    @if $elementName != 'input'
+        &[type="#{$elementName}"]
+            @content
+
+    @else
+        &[type="text"], &[type="date"], &[type="datetime-local"], &[type="email"], &[type="month"], &[type="number"], &[type="password"], &[type="tel"], &[type="time"], &[type="url"], &[type="week"]
+            @content
+
+    @if checkElementMQList($elementName)
+        @if $elementName != 'input'
+
+            @media (min-width: $tablet)
+
+                &-tablet[type="#{$elementName}"]
+                    @content
+
+            @media (min-width: $tabletAndPC)
+
+                &-tablet-pc[type="#{$elementName}"]
+                    @content
+
+            @media (min-width: $tabletAndPC) and ($touchDevice)
+
+                &-tablet-pc[type="#{$elementName}"]
+                    @content
+
+            @media (min-width: $pc)
+
+                &-pc[type="#{$elementName}"]
+                    @content
+
+            @media (min-aspect-ratio: $ultrawideRatio) and (min-width: $ultrawide)
+
+                &-ultrawide[type="#{$elementName}"]
+                    @content
+
+            @media (min-aspect-ratio: $superUltrawideRatio) and (min-width: $ultrawide)
+                
+                &-super-ultrawide[type="#{$elementName}"]
+                    @content
+
+        @else 
+
+            @media (min-width: $tablet)
+
+                &-tablet[type="text"], &-tablet[type="date"], &-tablet[type="datetime-local"], &-tablet[type="email"], &-tablet[type="month"], &-tablet[type="number"], &-tablet[type="password"], &-tablet[type="tel"], &-tablet[type="time"], &-tablet[type="url"], &-tablet[type="week"]
+                    @content
+
+            @media (min-width: $tabletAndPC)
+
+                &-tablet-pc[type="text"], &-tablet-pc[type="date"], &-tablet-pc[type="datetime-local"], &-tablet-pc[type="email"], &-tablet-pc[type="month"], &-tablet-pc[type="number"], &-tablet-pc[type="password"], &-tablet-pc[type="tel"], &-tablet-pc[type="time"], &-tablet-pc[type="url"], &-tablet-pc[type="week"]
+                    @content
+
+            @media (min-width: $tabletAndPC) and ($touchDevice)
+
+                &-tablet-pc[type="text"], &-tablet-pc[type="date"], &-tablet-pc[type="datetime-local"], &-tablet-pc[type="email"], &-tablet-pc[type="month"], &-tablet-pc[type="number"], &-tablet-pc[type="password"], &-tablet-pc[type="tel"], &-tablet-pc[type="time"], &-tablet-pc[type="url"], &-tablet-pc[type="week"]
+                    @content
+
+            @media (min-width: $pc)
+
+                &-pc[type="text"], &-pc[type="date"], &-pc[type="datetime-local"], &-pc[type="email"], &-pc[type="month"], &-pc[type="number"], &-pc[type="password"], &-pc[type="tel"], &-pc[type="time"], &-pc[type="url"], &-pc[type="week"]
+                    @content
+
+            @media (min-aspect-ratio: $ultrawideRatio) and (min-width: $ultrawide)
+
+                &-ultrawide[type="text"], &-ultrawide[type="date"], &-ultrawide[type="datetime-local"], &-ultrawide[type="email"], &-ultrawide[type="month"], &-ultrawide[type="number"], &-ultrawide[type="password"], &-ultrawide[type="tel"], &-ultrawide[type="time"], &-ultrawide[type="url"], &-ultrawide[type="week"]
+                    @content
+
+            @media (min-aspect-ratio: $superUltrawideRatio) and (min-width: $ultrawide)
+                
+                &-super-ultrawide[type="text"], &-super-ultrawide[type="date"], &-super-ultrawide[type="datetime-local"], &-super-ultrawide[type="email"], &-super-ultrawide[type="month"], &-super-ultrawide[type="number"], &-super-ultrawide[type="password"], &-super-ultrawide[type="tel"], &-super-ultrawide[type="time"], &-super-ultrawide[type="url"], &-super-ultrawide[type="week"]
+                    @content
 
 // Elements mixins
 
 // Bubble
 
-=bubble($value)
-    $multiplier: getElementAttrVal('bubble', 'multiplier')
-    height: $value * $multiplier
-    width: $value * $multiplier
-    font-size: $value * 0.75
+=bubble()
     text-align: center
     margin: $basicMargin
     flex-direction: column
@@ -237,28 +363,23 @@
     flex-shrink: 0
     display: inline-flex
 
+=bubbleDy($value)
+    $multiplier: getElementAttrVal('bubble', 'multiplier')
+    height: $value * $multiplier
+    width: $value * $multiplier
+    font-size: $value * 0.75
+
     img
         max-width: $value * 0.75
 
-
+    
 // Bubble wrapper
 
-=bubbleWrapper($value)
-    $multiplier: getElementAttrVal('bubble', 'multiplier')
-    width: $value * $multiplier
+=bubbleWrapper()
     margin: $basicMargin
     justify-content: center
     flex-direction: column
     display: inline-flex
-
-    > .leto-bubble
-        height: $value * $multiplier
-        width: $value * $multiplier
-        font-size: $value * .75
-        border-radius: $value * $multiplier
-
-        img
-            max-width: $value * .75 
 
     > [class*=leto-bubble]
         margin-top: 0
@@ -275,13 +396,24 @@
     > label ~ [class*=leto-bubble]
         margin-top: $basicMargin
 
+=bubbleWrapperDy($value)
+    $multiplier: getElementAttrVal('bubble', 'multiplier')
+    width: $value * $multiplier
+
+    > .leto-bubble
+        height: $value * $multiplier
+        width: $value * $multiplier
+        font-size: $value * .75
+        border-radius: $value * $multiplier
+
+        img
+            max-width: $value * .75 
+
 
 // Card
 
-=card($value)
-    $multiplier: getElementAttrVal('card', 'multiplier')
+=card()
     position: relative
-    width: $value * $multiplier
     min-height: 50px
     border: 1px solid $colorGrey
     border-radius: 12px
@@ -296,6 +428,11 @@
         margin-left: -$basicMargin
         margin-right: -$basicMargin
         width: calc(100% + 16px)
+
+=cardDy($value)
+    $multiplier: getElementAttrVal('card', 'multiplier')
+    width: $value * $multiplier
+    min-height: 50px
 
 =cardAutoWidth()
     position: relative
@@ -312,11 +449,8 @@
         margin-right: -$basicMargin
         width: calc(100% + 16px)
 
-=cardSquare($value)
-    $multiplier: getElementAttrVal('card', 'multiplier')
+=cardSquare()
     position: relative
-    width: $value * $multiplier
-    height: $value * $multiplier
     margin: $basicMargin
     flex-direction: column
     display: inline-flex
@@ -328,10 +462,15 @@
         margin-right: -$basicMargin
         width: calc(100% + 16px)
 
+=cardSquareDy($value)
+    $multiplier: getElementAttrVal('card', 'multiplier')
+    width: $value * $multiplier
+    height: $value * $multiplier
+
 
 // Card wrapper
 
-=cardWrapper($value)
+=cardWrapper()
     margin: $basicMargin
     justify-content: center
     flex-direction: column
@@ -350,14 +489,12 @@
         margin-top: $basicMargin
 
     > label ~ [class*=leto-card]
-        margin-top: $basicMargin    
+        margin-top: $basicMargin   
 
 
 // Button
 
-=button($value)
-    $multiplier: getElementAttrVal('button', 'multiplier')
-    height: $value * $multiplier
+=button()
     text-decoration: none
     margin: $basicMargin
     padding: $basicPadding $basicPadding * 2
@@ -373,11 +510,13 @@
     > *:last-child
         margin-right: 0
 
-
-=buttonFull($value)
+=buttonDy($value)
     $multiplier: getElementAttrVal('button', 'multiplier')
+    height: $value * $multiplier
+
+
+=buttonFull()
     width: 100%
-    height: $value * $multiplier
     text-decoration: none
     margin: $basicMargin
     padding: $basicPadding $basicPadding * 2
@@ -392,12 +531,15 @@
 
     > *:last-child
         margin-right: 0
+
+=buttonFullDy($value)
+    $multiplier: getElementAttrVal('button', 'multiplier')
+    height: $value * $multiplier
 
 
 // Badge
 
-=badge($value)
-    height: $value
+=badge()
     font-size: $fontSizeXS
     padding: $xxs $xs
     margin: $basicMargin
@@ -412,13 +554,14 @@
     > *:last-child
         margin-right: 0
 
+=badgeDy($value)
+    height: $value
+
 
 // Input
 
-=input($height)
-    $multiplier: getElementAttrVal('input', 'multiplier')
+=input()
     min-width: auto
-    height: $height * $multiplier
     font-size: $fontSizeMD
     margin: $basicMargin
     padding: 0 $basicPadding * 2
@@ -427,71 +570,98 @@
         background-color: $colorLightGrey
         border-color: $colorLightGrey
 
+=inputDy($height)
+    $multiplier: getElementAttrVal('input', 'multiplier')
+    height: $height * $multiplier
+
 
 // Input Wrapper
 
 =inputWrapper()
     $bgColor: getElementAttrVal('input', 'bg');
+    $borderColor: getElementAttrVal('input', 'borderColor');  
 
     position: relative
     width: fit-content
     margin: $basicMargin
+    display: flex
+    flex-direction: column
 
     label
         position: absolute
-        background-color: $bgColor
-        @if $bgColor == $lightModeBgColor
-            +themed()  
-                background-color: t('bg')
         font-size: $fontSizeSM
         font-weight: $fontWeightMedium
-        top: -10px
-        left: $basicPadding
-        padding-left: $basicPadding
-        padding-right: $basicPadding
+        top: 0
+        right: 0
+        bottom: 0
+        left: 0
+        display: flex
+
+        &:before
+            content: "" 
+            width: 14px
+            height: 100%
+            border-top-left-radius: 12px
+            border-bottom-left-radius: 12px
+            border-top: 1px solid $borderColor
+            border-bottom: 1px solid $borderColor
+            border-left: 1px solid $borderColor 
+
+        &:after  
+            content: ""
+            flex: 8
+            height: 100%
+            border-top-right-radius: 12px
+            border-bottom-right-radius: 12px
+            border-top: 1px solid $borderColor
+            border-right: 1px solid $borderColor
+            border-bottom: 1px solid $borderColor
+
+    label span
+        margin-top: -10px
+        padding: 0 8px 
+        border-bottom: 1px solid $borderColor
+    //    overflow: hidden;
+    //    text-indent: -9999px;
+        z-index: 0
 
     [class*=leto-input]
+        background-color: transparent !important
+        border: 0
         min-width: 0
-        width: 100%
-        border: 1px solid $colorLightGrey
+        width: 100%  
         margin: 0
+        padding-left: 24px
+        z-index: 1
 
-    [class*=leto-input]:focus::placeholder
-        opacity: 0
-
-    [class*=leto-input]:focus ~ label
-        opacity: 1
-
-    [class*=leto-input]:focus
-        background-color: transparent
-        border: 1px solid $colorDarkGrey
+    //[class*=leto-input]:not(:placeholder-shown) + label span
+    //    opacity: 1
+    //    text-indent: 0
 
     > i
         position: absolute
         top: 50%
         margin-top: -8px
         right: 8px
-
+ 
     > select[class*=leto-input]
         appearance: none
+        background-color: transparent !important
+        border: 0
 
         &::-ms-expand
-            display: none
+            display: none 
 
 
 // Input Radio 
 
-=inputRadio($size)
+=inputRadio()
     $bgColor: getElementAttrVal('radio', 'bg')
-    $multiplier: getElementAttrVal('radio', 'multiplier')
     $color: getElementAttrVal('radio', 'color')
     $borderColor: getElementAttrVal('radio', 'borderColor')
     
     position: relative
-    width: ($size * $multiplier) / 2
-    height: ($size * $multiplier) / 2
     cursor: pointer
-    margin: calc((#{$size} * #{ $multiplier}) / 4 + #{$basicMargin})
 
     &:before, &:after
         position: absolute
@@ -506,13 +676,11 @@
             background-color: $darkModeBgColor   
         border: 1px solid $borderColor
         border-radius: 100%
-        margin: calc(-1 * (#{$size} * #{ $multiplier}) / 4)
 
     &:after
         width: calc(200% - 16px)
         height: calc(200% - 16px)
         border-radius: 100%
-        margin: calc(#{$basicMargin} - (#{$size} * #{ $multiplier}) / 4)
 
     &:checked
         
@@ -523,19 +691,29 @@
                 background-color: $lightModeBgColor 
 
 
+=inputRadioDy($size)
+    $multiplier: getElementAttrVal('radio', 'multiplier')
+    
+    width: ($size * $multiplier) / 2
+    height: ($size * $multiplier) / 2
+    margin: calc((#{$size} * #{ $multiplier}) / 4 + #{$basicMargin})
+
+    &:before
+        margin: calc(-1 * (#{$size} * #{ $multiplier}) / 4)
+
+    &:after
+        margin: calc(#{$basicMargin} - (#{$size} * #{ $multiplier}) / 4)
+
+
 // Input Checkbox
 
-=inputCheckbox($size)
+=inputCheckbox()
     $bgColor: getElementAttrVal('radio', 'bg')
-    $multiplier: getElementAttrVal('radio', 'multiplier')
     $color: getElementAttrVal('radio', 'color')
     $borderColor: getElementAttrVal('radio', 'borderColor')
     
     position: relative
-    width: ($size * $multiplier) / 2
-    height: ($size * $multiplier) / 2
     cursor: pointer
-    margin: calc((#{$size} * #{ $multiplier}) / 4 + #{$basicMargin})
 
     &:before, &:after
         position: absolute
@@ -547,13 +725,11 @@
         background-color: $lightModeBgColor  
         border: 1px solid $borderColor
         border-radius: 100%
-        margin: calc(-1 * (#{$size} * #{ $multiplier}) / 4)
 
     &:after
         width: calc(200% - 16px)
         height: calc(200% - 16px)
         border-radius: 100%
-        margin: calc(#{$basicMargin} - (#{$size} * #{ $multiplier}) / 4)
 
     &:checked
         
@@ -561,24 +737,41 @@
             @if $bgColor == $lightModeBgColor
                 background-color: $darkModeBgColor
 
+=inputCheckboxDy($size)
+    $multiplier: getElementAttrVal('radio', 'multiplier')
+    
+    width: ($size * $multiplier) / 2
+    height: ($size * $multiplier) / 2
+    margin: calc((#{$size} * #{ $multiplier}) / 4 + #{$basicMargin})
+
+    &:before
+        margin: calc(-1 * (#{$size} * #{ $multiplier}) / 4)
+
+    &:after
+        margin: calc(#{$basicMargin} - (#{$size} * #{ $multiplier}) / 4)
+
 
 // Input Color
 
-=inputColor($height)
+=inputColor()
+    margin: $basicMargin
+    padding: 4px
+
+=inputColorDy($height)
     $multiplier: getElementAttrVal('input', 'multiplier')
     width: $height * $multiplier
     height: $height * $multiplier
-    margin: $basicMargin
-    padding: 4px
+
 
 // Input Image
 
 =inputImage()
     margin: $basicMargin
 
+
 // Range
 
-=range($height)
+=range()
     background: transparent
     height: 48px
     -webkit-appearance: none
@@ -663,7 +856,7 @@
 
 // Input File Wrapper
 
-=inputFile($height)    
+=inputFile()    
     margin: $basicMargin
     align-items: center
     display: flex
@@ -671,7 +864,6 @@
 
     input[type="file"]
         width: 200px
-        height: $height * 2
         opacity: 0
         cursor: pointer
 
@@ -687,7 +879,6 @@
         position: absolute
         content: ''
         width: 200px
-        height: $height * 2
         border: 1px solid $colorWhite
         border-radius: 128px
         margin-left: -210px
@@ -697,7 +888,6 @@
         position: absolute
         content: 'Upload file'
         width: 200px
-        height: $height * 2
         color: $colorWhite
         margin-left: -210px
         top: 0
@@ -706,13 +896,22 @@
         display: flex
         cursor: pointer
 
+=inputFileDy($height)    
+
+    input[type="file"]
+        height: $height * 2
+
+    label:before
+        height: $height * 2
+
+    label:after
+        height: $height * 2
+
 
 // Search
 
-=search($height)
-    $multiplier: getElementAttrVal('search', 'multiplier')
+=search()
     min-width: auto
-    height: $height * $multiplier
     font-size: $fontSizeMD
     margin: $basicMargin
     padding: 0 $basicPadding * 2
@@ -720,6 +919,11 @@
     &:focus
         background-color: transparent
         border-color: $colorGrey 
+
+=searchDy($height)
+    $multiplier: getElementAttrVal('search', 'multiplier')
+    height: $height * $multiplier
+
 
 // Textarea
 
@@ -737,10 +941,8 @@
 
 // Select
 
-=select($height)
-    $multiplier: getElementAttrVal('select', 'multiplier')
+=select()
     min-width: auto
-    height: $height * $multiplier
     font-size: $fontSizeMD
     margin: $basicMargin
     padding: 0 $basicPadding * 3 0 $basicPadding * 2
@@ -759,28 +961,20 @@
         &::-ms-value
             background-color: transparent
 
+=selectDy($height)
+    $multiplier: getElementAttrVal('select', 'multiplier')
+    height: $height * $multiplier
+
 
 // Table
 
-=table($size)
+=table()
     border-collapse: separate
-    border-spacing: 0 $size / 1.5
     width: 100%
 
     th
         font-weight: $fontWeightBold
         text-align: left
-
-    .leto-table-header
-
-    td, th
-        padding-left: $size / 1.5
-
-
-    tr:not(.leto-table-header)
-
-        td
-            padding: $size / 1.5
 
     tr:not(.leto-table-header)
 
@@ -792,14 +986,30 @@
 
         td:first-child
             border-left: 1px solid $colorGrey
+
+        td:last-child
+            border-right: 1px solid $colorGrey
+
+=tableDy($size)
+    border-spacing: 0 $size / 1.5
+
+    td, th
+        padding-left: $size / 1.5
+
+    tr:not(.leto-table-header)
+
+        td
+            padding: $size / 1.5
+
+    tr:not(.leto-table-header)
+
+        td:first-child
             border-top-left-radius: $size / 1.5
             border-bottom-left-radius: $size / 1.5
 
         td:last-child
-            border-right: 1px solid $colorGrey
             border-top-right-radius: $size / 1.5
             border-bottom-right-radius: $size / 1.5
-
 
 // Toast
 

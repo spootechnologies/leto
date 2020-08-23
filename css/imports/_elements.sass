@@ -6,35 +6,46 @@
 
 .leto-bubble
     +elementConstructor('bubble')
-        +bubble($standardSize)
-    
-    &-xxs
+        +bubble()
+
+    +elementConstructorDy('bubble')
+        +bubbleDy($standardSize)
+
+    &-xxs, &-xs, &-sm, &-md, &-lg, &-xl, &-xxl
         +elementConstructor('bubble')
-            +bubble($xxs)
+            +bubble()
+        
+    &-xxs
+        +elementConstructorDy('bubble')
+            +bubbleDy($xxs)
 
     &-xs
-        +elementConstructor('bubble')
-            +bubble($xs)
+
+        +elementConstructorDy('bubble')
+            +bubbleDy($xs)
 
     &-sm
-        +elementConstructor('bubble')
-            +bubble($sm)
+
+        +elementConstructorDy('bubble')
+            +bubbleDy($sm)
 
     &-md
-        +elementConstructor('bubble')
-            +bubble($md)
+
+        +elementConstructorDy('bubble')
+            +bubbleDy($md)
 
     &-lg
-        +elementConstructor('bubble')
-            +bubble($lg)
+
+        +elementConstructorDy('bubble')
+            +bubbleDy($lg)
 
     &-xl
-        +elementConstructor('bubble')
-            +bubble($xl)
+        +elementConstructorDy('bubble')
+            +bubbleDy($xl)
 
     &-xxl
-        +elementConstructor('bubble')
-            +bubble($xxl)
+        +elementConstructorDy('bubble')
+            +bubbleDy($xxl)
 
 [class*="leto-bubble"]
     +elementThemeColors('bubble')
@@ -46,28 +57,33 @@
 // Bubble wrapper
 
 .leto-bubble-wrapper
-    +bubbleWrapper($md)
+    +bubbleWrapper()
+    
+    +bubbleWrapperDy($standardSize)
+
+    &-xxs, &-xs, &-sm, &-md, &-lg, &-xl, &-xxl
+        +bubbleWrapper()
 
     &-xxs
-        +bubbleWrapper($xxs)
+        +bubbleWrapperDy($xxs)
         
     &-xs
-        +bubbleWrapper($xs)
+        +bubbleWrapperDy($xs)
 
     &-sm
-        +bubbleWrapper($sm)
+        +bubbleWrapperDy($sm)
 
     &-md
-        +bubbleWrapper($md)
+        +bubbleWrapperDy($md)
         
     &-lg
-        +bubbleWrapper($lg)
+        +bubbleWrapperDy($lg)
 
     &-xl
-        +bubbleWrapper($xl)
+        +bubbleWrapperDy($xl)
 
     &-xxl
-        +bubbleWrapper($xxl)
+        +bubbleWrapperDy($xxl)
 
 
 // Card
@@ -76,65 +92,76 @@
     +elementConstructor('card')
         +cardAutoWidth()
 
-    &-xxs    
+    &-xxs, &-xs, &-sm, &-md, &-lg, &-xl, &-xxl
         +elementConstructor('card')
-            +card($xxs)
+            +card()
+
+    &-xxs    
+        +elementConstructorDy('card')
+            +cardDy($xxs)
 
     &-xs
-        +elementConstructor('card')
-            +card($xs)
+        +elementConstructorDy('card')
+            +cardDy($xs)
 
     &-sm
-        +elementConstructor('card')
-            +card($sm) 
+        +elementConstructorDy('card')
+            +cardDy($sm) 
 
     &-md
-        +elementConstructor('card')
-            +card($md)
+        +elementConstructorDy('card')
+            +cardDy($md)
 
     &-lg
-        +elementConstructor('card')
-            +card($lg)
+        +elementConstructorDy('card')
+            +cardDy($lg)
 
     &-xl
-        +elementConstructor('card')
-            +card($xl)
+        +elementConstructorDy('card')
+            +cardDy($xl)
 
     &-xxl
-        +elementConstructor('card')
-            +card($xxl) 
+        +elementConstructorDy('card')
+            +cardDy($xxl) 
 
     &-square
         +elementConstructor('card') 
-            +cardSquare($md)
+            +cardSquare()
+
+        +elementConstructorDy('card') 
+            +cardSquareDy($md)
+
+        &-xxs, &-xs, &-sm, &-md, &-lg, &-xl, &-xxl
+            +elementConstructor('card') 
+                +cardSquare()
 
         &-xxs      
-            +elementConstructor('card')  
-                +cardSquare($xxs)
+            +elementConstructorDy('card')  
+                +cardSquareDy($xxs)
 
         &-xs
-            +elementConstructor('card')  
-                +cardSquare($xs)
+            +elementConstructorDy('card')  
+                +cardSquareDy($xs)
 
         &-sm
-            +elementConstructor('card')  
-                +cardSquare($sm)
+            +elementConstructorDy('card')  
+                +cardSquareDy($sm)
 
         &-md
-            +elementConstructor('card')  
-                +cardSquare($md)
+            +elementConstructorDy('card')  
+                +cardSquareDy($md)
 
         &-lg
-            +elementConstructor('card')  
-                +cardSquare($lg)
+            +elementConstructorDy('card')  
+                +cardSquareDy($lg)
 
         &-xl
-            +elementConstructor('card')  
-                +cardSquare($xl)
+            +elementConstructorDy('card')  
+                +cardSquareDy($xl)
 
         &-xxl
-            +elementConstructor('card')  
-                +cardSquare($xxl) 
+            +elementConstructorDy('card')  
+                +cardSquareDy($xxl) 
 
 [class*="leto-card"]
     +elementThemeColors('card')
@@ -146,74 +173,88 @@
 // Card wrapper
 
 .leto-card-wrapper
-    +cardWrapper($md)
+    +cardWrapper()
 
 
 // Button
 
 .leto-button 
     +elementConstructor('button')
-        +button($standardSize)
+        +button()
+
+    +elementConstructorDy('button')
+        +buttonDy($standardSize)
+
+    &-xxs, &-xs, &-sm, &-md, &-lg, &-xl, &-xxl
+        +elementConstructorDy('button')
+            +button()
 
     &-xxs
-        +elementConstructor('button')
-            +button($xxs)
+        +elementConstructorDy('button')
+            +buttonDy($xxs)
 
     &-xs
-        +elementConstructor('button')
-            +button($xs)
+        +elementConstructorDy('button')
+            +buttonDy($xs)
 
     &-sm
-        +elementConstructor('button')
-            +button($sm)
+        +elementConstructorDy('button')
+            +buttonDy($sm)
 
     &-md
-        +elementConstructor('button')
-            +button($md)
+        +elementConstructorDy('button')
+            +buttonDy($md)
 
     &-lg
-        +elementConstructor('button')
-            +button($lg)
+        +elementConstructorDy('button')
+            +buttonDy($lg)
 
     &-xl
-        +elementConstructor('button')
-            +button($xl)
+        +elementConstructorDy('button')
+            +buttonDy($xl)
 
     &-xxl
-        +elementConstructor('button')
-            +button($xxl)
+        +elementConstructorDy('button')
+            +buttonDy($xxl)
 
     &-full
         +elementConstructor('button')
-            +buttonFull($standardSize)
+            +buttonFull()
+
+        +elementConstructorDy('button')
+            +buttonFullDy($standardSize)
+
+        &-xxs, &-xs, &-sm, &-md, &-lg, &-xl, &-xxl
+            +elementConstructorDy('button')
+                +buttonFull()
 
         &-xxs
-            +elementConstructor('button')
-                +buttonFull($xxs)
+            +elementConstructorDy('button')
+                +buttonFullDy($xxs)
 
         &-xs
-            +elementConstructor('button')
-                +buttonFull($xs)
+            +elementConstructorDy('button')
+                +buttonFullDy($xs)
 
         &-sm
-            +elementConstructor('button')
-                +buttonFull($sm)
+            +elementConstructorDy('button')
+                +buttonFullDy($sm)
 
         &-md
-            +elementConstructor('button')
-                +buttonFull($md)
+            +elementConstructorDy('button')
+                +buttonFullDy($md)
 
         &-lg
-            +elementConstructor('button')
-                +buttonFull($lg)
+            +elementConstructorDy('button')
+                +buttonFullDy($lg)
 
         &-xl
-            +elementConstructor('button')
-                +buttonFull($xl)
+            +elementConstructorDy('button')
+                +buttonFullDy($xl)
 
         &-xxl
-            +elementConstructor('button')
-                +buttonFull($xxl)
+            +elementConstructorDy('button')
+                +buttonFullDy($xxl)
 
 [class*="leto-button"]
     +elementThemeColors('button')
@@ -226,35 +267,42 @@
 
 .leto-badge
     +elementConstructor('badge')
-        +badge($standardSize)
+        +badge()
+
+    +elementConstructorDy('badge')
+        +badgeDy($standardSize)
+
+    &-xxs, &-xs, &-sm, &-md, &-lg, &-xl, &-xxl
+        +elementConstructor('badge')
+            +badge()
 
     &-xxs
-        +elementConstructor('badge')
-            +badge($xxs)
+        +elementConstructorDy('badge')
+            +badgeDy($xxs)
 
     &-xs
-        +elementConstructor('badge')
-            +badge($xs)
+        +elementConstructorDy('badge')
+            +badgeDy($xs)
 
     &-sm
-        +elementConstructor('badge')
-            +badge($sm)
+        +elementConstructorDy('badge')
+            +badgeDy($sm)
 
     &-md
-        +elementConstructor('badge')
-            +badge($sm)
+        +elementConstructorDy('badge')
+            +badgeDy($sm)
 
     &-lg
-        +elementConstructor('badge')
-            +badge($lg)
+        +elementConstructorDy('badge')
+            +badgeDy($lg)
 
     &-xl
-        +elementConstructor('badge')
-            +badge($xl)
+        +elementConstructorDy('badge')
+            +badgeDy($xl)
 
     &-xxl
-        +elementConstructor('badge') 
-            +badge($xxl)
+        +elementConstructorDy('badge') 
+            +badgeDy($xxl)
 
 [class*="leto-badge"]
     +elementThemeColors('badge')
@@ -262,42 +310,51 @@
 [class*="leto-frame"] .leto-badge
     +presetConstructor('badge')
 
+=inputType()
+    &[type="text"], &[type="date"], &[type="datetime-local"], &[type="email"], &[type="month"], &[type="number"], &[type="password"], &[type="tel"], &[type="time"], &[type="url"], &[type="week"]
+        @content
 
 // Input
 
 .leto-input
 
-    &[type="text"], &[type="date"], &[type="datetime-local"], &[type="email"], &[type="month"], &[type="number"], &[type="password"], &[type="tel"], &[type="time"], &[type="url"], &[type="week"]
-        +elementConstructor('input')
-            +input($standardSize)
+    +elementInputConstructor('input')
+        +input()
 
-    &-xxs[type="text"], &-xxs[type="date"], &-xxs[type="datetime-local"], &-xxs[type="email"], &-xxs[type="month"], &-xxs[type="number"], &-xxs[type="password"], &-xxs[type="tel"], &-xxs[type="time"], &-xxs[type="url"], &-xxs[type="week"]
-        +elementConstructor('input')
-            +input($xxs)
+    +elementInputConstructorDy('input')
+        +inputDy($standardSize) 
 
-    &-xs[type="text"], &-xs[type="date"], &-xs[type="datetime-local"], &-xs[type="email"], &-xs[type="month"], &-xs[type="number"], &-xs[type="password"], &-xs[type="tel"], &-xs[type="time"], &-xs[type="url"], &-xs[type="week"]
-        +elementConstructor('input')
-            +input($xs)
+    &-xxs, &-xs, &-sm, &-md, &-lg, &-xl, &-xxl
+        +elementInputConstructor('input')
+            +input()
 
-    &-sm[type="text"], &-sm[type="date"], &-sm[type="datetime-local"], &-sm[type="email"], &-sm[type="month"], &-sm[type="number"], &-sm[type="password"], &-sm[type="tel"], &-sm[type="time"], &-sm[type="url"], &-sm[type="week"]
-        +elementConstructor('input')
-            +input($sm)
+    &-xxs
+        +elementInputConstructorDy('input')
+            +inputDy($xxs)
 
-    &-md[type="text"], &-md[type="date"], &-md[type="datetime-local"], &-md[type="email"], &-md[type="month"], &-md[type="number"], &-md[type="password"], &-md[type="tel"], &-md[type="time"], &-md[type="url"], &-md[type="week"]
-        +elementConstructor('input')
-            +input($md)
+    &-xs
+        +elementInputConstructorDy('input')
+            +inputDy($xs)
 
-    &-lg[type="text"], &-lg[type="date"], &-lg[type="datetime-local"], &-lg[type="email"], &-lg[type="month"], &-lg[type="number"], &-lg[type="password"], &-lg[type="tel"], &-lg[type="time"], &-lg[type="url"], &-lg[type="week"]
-        +elementConstructor('input')
-            +input($lg)
+    &-sm
+        +elementInputConstructorDy('input')
+            +inputDy($sm)
 
-    &-xl[type="text"], &-xl[type="date"], &-xl[type="datetime-local"], &-xl[type="email"], &-xl[type="month"], &-xl[type="number"], &-xl[type="password"], &-xl[type="tel"], &-xl[type="time"], &-xl[type="url"], &-xl[type="week"]
-        +elementConstructor('input')
-            +input($xl)
+    &-md
+        +elementInputConstructorDy('input')
+            +inputDy($md)
 
-    &-xxl[type="text"], &-xxl[type="date"], &-xxl[type="datetime-local"], &-xxl[type="email"], &-xxl[type="month"], &-xxl[type="number"], &-xxl[type="password"], &-xxl[type="tel"], &-xxl[type="time"], &-xxl[type="url"], &-xxl[type="week"]
-        +elementConstructor('input')
-            +input($xxl)
+    &-lg
+        +elementInputConstructorDy('input')
+            +inputDy($lg)
+
+    &-xl
+        +elementInputConstructorDy('input')
+            +inputDy($xl)
+
+    &-xxl
+        +elementInputConstructorDy('input')
+            +inputDy($xxl)
 
 [class*="leto-input"]
 
@@ -310,39 +367,39 @@
         +presetConstructor('input')
 
 
-// Input Wrapper
-
-.leto-input-wrapper
-    +inputWrapper()
-
-
 // Input Radio
 
 .leto-input
 
     &[type="radio"]
-        +inputRadio($standardSize)
+        +inputRadio()
+
+    &[type="radio"]
+        +inputRadioDy($standardSize)
+
+    &-xxs[type="radio"], &-xs[type="radio"], &-sm[type="radio"], &-md[type="radio"], &-lg[type="radio"], &-xl[type="radio"], &-xxl[type="radio"]
+        inputRadio()
 
     &-xxs[type="radio"]
-        +inputRadio($xxs)
+        +inputRadioDy($xxs)
 
     &-xs[type="radio"]
-        +inputRadio($xs)
+        +inputRadioDy($xs)
 
     &-sm[type="radio"]
-        +inputRadio($sm)
+        +inputRadioDy($sm)
 
     &-md[type="radio"]
-        +inputRadio($md)
+        +inputRadioDy($md)
 
     &-lg[type="radio"]
-        +inputRadio($lg)
+        +inputRadioDy($lg)
 
     &-xl[type="radio"]
-        +inputRadio($xl)
+        +inputRadioDy($xl)
 
     &-xxl[type="radio"]
-        +inputRadio($xxl)
+        +inputRadioDy($xxl)
 
 [class*="leto-frame"] .leto-input
     
@@ -377,28 +434,34 @@
 .leto-input
 
     &[type="checkbox"]
-        +inputCheckbox($standardSize)
+        +inputCheckbox()
+
+    &[type="checkbox"]
+        +inputCheckboxDy($standardSize)
+
+    &-xxs[type="checkbox"], &-xs[type="checkbox"], &-sm[type="checkbox"], &-md[type="checkbox"], &-lg[type="checkbox"], &-xl[type="checkbox"], &-xxl[type="checkbox"]
+        +inputCheckbox()
 
     &-xxs[type="checkbox"]
-        +inputCheckbox($xxs)
+        +inputCheckboxDy($xxs)
 
     &-xs[type="checkbox"]
-        +inputCheckbox($xs)
+        +inputCheckboxDy($xs)
 
     &-sm[type="checkbox"]
-        +inputCheckbox($sm)
+        +inputCheckboxDy($sm)
 
     &-md[type="checkbox"]
-        +inputCheckbox($md)
+        +inputCheckboxDy($md)
 
     &-lg[type="checkbox"]
-        +inputCheckbox($lg)
+        +inputCheckboxDy($lg)
 
     &-xl[type="checkbox"]
-        +inputCheckbox($xl)
+        +inputCheckboxDy($xl)
 
     &-xxl[type="checkbox"]
-        +inputCheckbox($xxl)
+        +inputCheckboxDy($xxl)
 
 [class*="leto-frame"] .leto-input
     
@@ -432,37 +495,43 @@
 
 .leto-input
 
-    &[type="color"]
-        +elementConstructor('input')
-            +inputColor($standardSize)
+    +elementInputConstructor('color')
+        +inputColor()
 
-    &-xxs[type="color"]
-        +elementConstructor('input')
-            +inputColor($xxs)
+    +elementInputConstructorDy('color')
+        +inputColorDy($standardSize)
 
-    &-xs[type="color"]
-        +elementConstructor('input')
-            +inputColor($xs)
+    &-xxs, &-xs, &-sm, &-md, &-lg, &-xl, &-xxl
+        +elementInputConstructor('color')
+            +inputColor()
 
-    &-sm[type="color"]
-        +elementConstructor('input')
-            +inputColor($sm)
+    &-xxs
+        +elementInputConstructorDy('color')
+            +inputColorDy($xxs)
 
-    &-md[type="color"]
-        +elementConstructor('input')
-            +inputColor($md)
+    &-xs
+        +elementInputConstructorDy('color')
+            +inputColorDy($xs)
 
-    &-lg[type="color"]
-        +elementConstructor('input')
-            +inputColor($lg)
+    &-sm
+        +elementInputConstructorDy('color')
+            +inputColorDy($sm)
 
-    &-xl[type="color"]
-        +elementConstructor('input')
-            +inputColor($xl)
+    &-md
+        +elementInputConstructorDy('color')
+            +inputColorDy($md)
 
-    &-xxl[type="color"]
-        +elementConstructor('input')
-            +inputColor($xxl)
+    &-lg
+        +elementInputConstructorDy('color')
+            +inputColorDy($lg)
+
+    &-xl
+        +elementInputConstructorDy('color')
+            +inputColorDy($xl)
+
+    &-xxl
+        +elementInputConstructorDy('color')
+            +inputColorDy($xxl)
     
 [class*="leto-input"]
 
@@ -488,49 +557,55 @@
 .leto-input // NOT USED
 
     &[type=range]
-        +range($standardSize)
+        +range()
 
 
 // Input File
 
 .leto-file // NOT USED
-    +inputFile($standardSize)  
+    +inputFile()  
 
 // Search
 
 .leto-input
     
-    &[type="search"]
-        +elementConstructor('search')
-            +search($standardSize)
+    +elementInputConstructor('search')
+        +search()
 
-    &-xxs[type="search"]
-        +elementConstructor('search')
-            +search($xxs)
+    +elementInputConstructorDy('search')
+        +searchDy($standardSize)
 
-    &-xs[type="search"]
-        +elementConstructor('search')
-            +search($xs)
+    &-xxs, &-xs, &-sm, &-md, &-lg, &-xl, &-xxl
+        +elementInputConstructor('search')
+            +search()
 
-    &-sm[type="search"]
-        +elementConstructor('search')
-            +search($sm)
+    &-xxs
+        +elementInputConstructorDy('search')
+            +searchDy($xxs)
 
-    &-md[type="search"]
-        +elementConstructor('search')
-            +search($md)
+    &-xs
+        +elementInputConstructorDy('search')
+            +searchDy($xs)
 
-    &-lg[type="search"]
-        +elementConstructor('search')
-            +search($lg)
+    &-sm
+        +elementInputConstructorDy('search')
+            +searchDy($sm)
 
-    &-xl[type="search"]
-        +elementConstructor('search')
-            +search($xl)
+    &-md
+        +elementInputConstructorDy('search')
+            +searchDy($md)
 
-    &-xxl[type="search"]
-        +elementConstructor('search')
-            +search($xxl)
+    &-lg
+        +elementInputConstructorDy('search')
+            +searchDy($lg)
+
+    &-xl
+        +elementInputConstructorDy('search')
+            +searchDy($xl)
+
+    &-xxl
+        +elementInputConstructorDy('search')
+            +searchDy($xxl)
 
 [class*="leto-input"]
 
@@ -560,35 +635,42 @@ textarea[class*="leto-input"]
 
 select.leto-input
     +elementConstructor('select')
-        +select($standardSize)
+        +select()
+
+    +elementConstructorDy('select')
+        +selectDy($standardSize)
+
+    &-xxs, &-xs, &-sm, &-md, &-lg, &-xl, &-xxl
+        +elementConstructor('select')
+            +select()
 
     &-xxs
-        +elementConstructor('select')
-            +select($xxs)
+        +elementConstructorDy('select')
+            +selectDy($xxs)
 
     &-xs
-        +elementConstructor('select')
-            +select($xs)
+        +elementConstructorDy('select')
+            +selectDy($xs)
 
     &-sm
-        +elementConstructor('select')
-            +select($sm)
+        +elementConstructorDy('select')
+            +selectDy($sm)
 
     &-md
-        +elementConstructor('select')
-            +select($md)
+        +elementConstructorDy('select')
+            +selectDy($md)
 
     &-lg
-        +elementConstructor('select')
-            +select($lg)
+        +elementConstructorDy('select')
+            +selectDy($lg)
 
     &-xl
-        +elementConstructor('select')
-            +select($xl)
+        +elementConstructorDy('select')
+            +selectDy($xl)
 
     &-xxl
-        +elementConstructor('select')
-            +select($xxl)
+        +elementConstructorDy('select')
+            +selectDy($xxl)
 
 select[class*="leto-input"]
     +elementThemeColors('select')
@@ -596,32 +678,43 @@ select[class*="leto-input"]
 [class*="leto-frame"] select[class*="leto-input"]
     +presetConstructor('select')
 
+    
+// Input Wrapper
+
+.leto-input-wrapper
+    +inputWrapper()
+
 
 // Table
 
 .leto-table
-    +table($md)
+    +table()
+
+    +tableDy($standardSize)
+
+    &-xxs, &-xs, &-sm, &-md, &-lg, &-xl, &-xxl
+        +table()
 
     &-xxs
-        +table($xxs)
+        +tableDy($xxs)
 
     &-xs
-        +table($xs)
+        +tableDy($xs)
 
     &-sm
-        +table($sm)
+        +tableDy($sm)
 
     &-md
-        +table($md)
+        +tableDy($md)
 
     &-lg
-        +table($lg)
+        +tableDy($lg)
 
     &-xl
-        +table($xl)
+        +tableDy($xl)
 
     &-xxl
-        +table($xxl)
+        +tableDy($xxl)
 
 
 // Wrapper

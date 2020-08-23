@@ -5,10 +5,14 @@ $themes: (
     default: (
         bg: $lightModeBgColor,
         text: $lightModeColor,
+        invertedBg: $darkModeBgColor,
+        invertedText: $darkModeColor,
     ),
     dark: (
         bg: $darkModeBgColor,
         text: $darkModeColor,
+        invertedBg: $lightModeBgColor,
+        invertedText: $lightModeColor,
     ),
 );
 
