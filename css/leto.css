@@ -4927,6 +4927,156 @@ p, b {
   margin-right: 0;
 }
 
+@media (min-width: 600px) {
+  .leto-button-xxs-tablet, .leto-button-xs-tablet, .leto-button-sm-tablet, .leto-button-md-tablet, .leto-button-lg-tablet, .leto-button-xl-tablet, .leto-button-xxl-tablet {
+    text-decoration: none;
+    margin: 8px;
+    padding: 8px 16px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    cursor: pointer;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+  }
+  .leto-button-xxs-tablet > *, .leto-button-xs-tablet > *, .leto-button-sm-tablet > *, .leto-button-md-tablet > *, .leto-button-lg-tablet > *, .leto-button-xl-tablet > *, .leto-button-xxl-tablet > * {
+    margin: 0;
+    margin-right: 4px;
+  }
+  .leto-button-xxs-tablet > *:last-child, .leto-button-xs-tablet > *:last-child, .leto-button-sm-tablet > *:last-child, .leto-button-md-tablet > *:last-child, .leto-button-lg-tablet > *:last-child, .leto-button-xl-tablet > *:last-child, .leto-button-xxl-tablet > *:last-child {
+    margin-right: 0;
+  }
+}
+
+@media (min-width: 1024px) {
+  .leto-button-xxs-tablet-pc, .leto-button-xs-tablet-pc, .leto-button-sm-tablet-pc, .leto-button-md-tablet-pc, .leto-button-lg-tablet-pc, .leto-button-xl-tablet-pc, .leto-button-xxl-tablet-pc {
+    text-decoration: none;
+    margin: 8px;
+    padding: 8px 16px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    cursor: pointer;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+  }
+  .leto-button-xxs-tablet-pc > *, .leto-button-xs-tablet-pc > *, .leto-button-sm-tablet-pc > *, .leto-button-md-tablet-pc > *, .leto-button-lg-tablet-pc > *, .leto-button-xl-tablet-pc > *, .leto-button-xxl-tablet-pc > * {
+    margin: 0;
+    margin-right: 4px;
+  }
+  .leto-button-xxs-tablet-pc > *:last-child, .leto-button-xs-tablet-pc > *:last-child, .leto-button-sm-tablet-pc > *:last-child, .leto-button-md-tablet-pc > *:last-child, .leto-button-lg-tablet-pc > *:last-child, .leto-button-xl-tablet-pc > *:last-child, .leto-button-xxl-tablet-pc > *:last-child {
+    margin-right: 0;
+  }
+}
+
+@media (min-width: 1024px) and ((pointer: coarse)) {
+  .leto-button-xxs-tablet-pc, .leto-button-xs-tablet-pc, .leto-button-sm-tablet-pc, .leto-button-md-tablet-pc, .leto-button-lg-tablet-pc, .leto-button-xl-tablet-pc, .leto-button-xxl-tablet-pc {
+    text-decoration: none;
+    margin: 8px;
+    padding: 8px 16px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    cursor: pointer;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+  }
+  .leto-button-xxs-tablet-pc > *, .leto-button-xs-tablet-pc > *, .leto-button-sm-tablet-pc > *, .leto-button-md-tablet-pc > *, .leto-button-lg-tablet-pc > *, .leto-button-xl-tablet-pc > *, .leto-button-xxl-tablet-pc > * {
+    margin: 0;
+    margin-right: 4px;
+  }
+  .leto-button-xxs-tablet-pc > *:last-child, .leto-button-xs-tablet-pc > *:last-child, .leto-button-sm-tablet-pc > *:last-child, .leto-button-md-tablet-pc > *:last-child, .leto-button-lg-tablet-pc > *:last-child, .leto-button-xl-tablet-pc > *:last-child, .leto-button-xxl-tablet-pc > *:last-child {
+    margin-right: 0;
+  }
+}
+
+@media (min-width: 1440px) {
+  .leto-button-xxs-pc, .leto-button-xs-pc, .leto-button-sm-pc, .leto-button-md-pc, .leto-button-lg-pc, .leto-button-xl-pc, .leto-button-xxl-pc {
+    text-decoration: none;
+    margin: 8px;
+    padding: 8px 16px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    cursor: pointer;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+  }
+  .leto-button-xxs-pc > *, .leto-button-xs-pc > *, .leto-button-sm-pc > *, .leto-button-md-pc > *, .leto-button-lg-pc > *, .leto-button-xl-pc > *, .leto-button-xxl-pc > * {
+    margin: 0;
+    margin-right: 4px;
+  }
+  .leto-button-xxs-pc > *:last-child, .leto-button-xs-pc > *:last-child, .leto-button-sm-pc > *:last-child, .leto-button-md-pc > *:last-child, .leto-button-lg-pc > *:last-child, .leto-button-xl-pc > *:last-child, .leto-button-xxl-pc > *:last-child {
+    margin-right: 0;
+  }
+}
+
+@media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
+  .leto-button-xxs-ultrawide, .leto-button-xs-ultrawide, .leto-button-sm-ultrawide, .leto-button-md-ultrawide, .leto-button-lg-ultrawide, .leto-button-xl-ultrawide, .leto-button-xxl-ultrawide {
+    text-decoration: none;
+    margin: 8px;
+    padding: 8px 16px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    cursor: pointer;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+  }
+  .leto-button-xxs-ultrawide > *, .leto-button-xs-ultrawide > *, .leto-button-sm-ultrawide > *, .leto-button-md-ultrawide > *, .leto-button-lg-ultrawide > *, .leto-button-xl-ultrawide > *, .leto-button-xxl-ultrawide > * {
+    margin: 0;
+    margin-right: 4px;
+  }
+  .leto-button-xxs-ultrawide > *:last-child, .leto-button-xs-ultrawide > *:last-child, .leto-button-sm-ultrawide > *:last-child, .leto-button-md-ultrawide > *:last-child, .leto-button-lg-ultrawide > *:last-child, .leto-button-xl-ultrawide > *:last-child, .leto-button-xxl-ultrawide > *:last-child {
+    margin-right: 0;
+  }
+}
+
+@media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
+  .leto-button-xxs-super-ultrawide, .leto-button-xs-super-ultrawide, .leto-button-sm-super-ultrawide, .leto-button-md-super-ultrawide, .leto-button-lg-super-ultrawide, .leto-button-xl-super-ultrawide, .leto-button-xxl-super-ultrawide {
+    text-decoration: none;
+    margin: 8px;
+    padding: 8px 16px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    cursor: pointer;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+  }
+  .leto-button-xxs-super-ultrawide > *, .leto-button-xs-super-ultrawide > *, .leto-button-sm-super-ultrawide > *, .leto-button-md-super-ultrawide > *, .leto-button-lg-super-ultrawide > *, .leto-button-xl-super-ultrawide > *, .leto-button-xxl-super-ultrawide > * {
+    margin: 0;
+    margin-right: 4px;
+  }
+  .leto-button-xxs-super-ultrawide > *:last-child, .leto-button-xs-super-ultrawide > *:last-child, .leto-button-sm-super-ultrawide > *:last-child, .leto-button-md-super-ultrawide > *:last-child, .leto-button-lg-super-ultrawide > *:last-child, .leto-button-xl-super-ultrawide > *:last-child, .leto-button-xxl-super-ultrawide > *:last-child {
+    margin-right: 0;
+  }
+}
+
 .leto-button-xxs {
   height: 16px;
 }
@@ -5308,6 +5458,162 @@ p, b {
   margin-right: 0;
 }
 
+@media (min-width: 600px) {
+  .leto-button-full-xxs-tablet, .leto-button-full-xs-tablet, .leto-button-full-sm-tablet, .leto-button-full-md-tablet, .leto-button-full-lg-tablet, .leto-button-full-xl-tablet, .leto-button-full-xxl-tablet {
+    width: 100%;
+    text-decoration: none;
+    margin: 8px;
+    padding: 8px 16px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    cursor: pointer;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+  }
+  .leto-button-full-xxs-tablet > *, .leto-button-full-xs-tablet > *, .leto-button-full-sm-tablet > *, .leto-button-full-md-tablet > *, .leto-button-full-lg-tablet > *, .leto-button-full-xl-tablet > *, .leto-button-full-xxl-tablet > * {
+    margin: 0;
+    margin-right: 4px;
+  }
+  .leto-button-full-xxs-tablet > *:last-child, .leto-button-full-xs-tablet > *:last-child, .leto-button-full-sm-tablet > *:last-child, .leto-button-full-md-tablet > *:last-child, .leto-button-full-lg-tablet > *:last-child, .leto-button-full-xl-tablet > *:last-child, .leto-button-full-xxl-tablet > *:last-child {
+    margin-right: 0;
+  }
+}
+
+@media (min-width: 1024px) {
+  .leto-button-full-xxs-tablet-pc, .leto-button-full-xs-tablet-pc, .leto-button-full-sm-tablet-pc, .leto-button-full-md-tablet-pc, .leto-button-full-lg-tablet-pc, .leto-button-full-xl-tablet-pc, .leto-button-full-xxl-tablet-pc {
+    width: 100%;
+    text-decoration: none;
+    margin: 8px;
+    padding: 8px 16px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    cursor: pointer;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+  }
+  .leto-button-full-xxs-tablet-pc > *, .leto-button-full-xs-tablet-pc > *, .leto-button-full-sm-tablet-pc > *, .leto-button-full-md-tablet-pc > *, .leto-button-full-lg-tablet-pc > *, .leto-button-full-xl-tablet-pc > *, .leto-button-full-xxl-tablet-pc > * {
+    margin: 0;
+    margin-right: 4px;
+  }
+  .leto-button-full-xxs-tablet-pc > *:last-child, .leto-button-full-xs-tablet-pc > *:last-child, .leto-button-full-sm-tablet-pc > *:last-child, .leto-button-full-md-tablet-pc > *:last-child, .leto-button-full-lg-tablet-pc > *:last-child, .leto-button-full-xl-tablet-pc > *:last-child, .leto-button-full-xxl-tablet-pc > *:last-child {
+    margin-right: 0;
+  }
+}
+
+@media (min-width: 1024px) and ((pointer: coarse)) {
+  .leto-button-full-xxs-tablet-pc, .leto-button-full-xs-tablet-pc, .leto-button-full-sm-tablet-pc, .leto-button-full-md-tablet-pc, .leto-button-full-lg-tablet-pc, .leto-button-full-xl-tablet-pc, .leto-button-full-xxl-tablet-pc {
+    width: 100%;
+    text-decoration: none;
+    margin: 8px;
+    padding: 8px 16px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    cursor: pointer;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+  }
+  .leto-button-full-xxs-tablet-pc > *, .leto-button-full-xs-tablet-pc > *, .leto-button-full-sm-tablet-pc > *, .leto-button-full-md-tablet-pc > *, .leto-button-full-lg-tablet-pc > *, .leto-button-full-xl-tablet-pc > *, .leto-button-full-xxl-tablet-pc > * {
+    margin: 0;
+    margin-right: 4px;
+  }
+  .leto-button-full-xxs-tablet-pc > *:last-child, .leto-button-full-xs-tablet-pc > *:last-child, .leto-button-full-sm-tablet-pc > *:last-child, .leto-button-full-md-tablet-pc > *:last-child, .leto-button-full-lg-tablet-pc > *:last-child, .leto-button-full-xl-tablet-pc > *:last-child, .leto-button-full-xxl-tablet-pc > *:last-child {
+    margin-right: 0;
+  }
+}
+
+@media (min-width: 1440px) {
+  .leto-button-full-xxs-pc, .leto-button-full-xs-pc, .leto-button-full-sm-pc, .leto-button-full-md-pc, .leto-button-full-lg-pc, .leto-button-full-xl-pc, .leto-button-full-xxl-pc {
+    width: 100%;
+    text-decoration: none;
+    margin: 8px;
+    padding: 8px 16px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    cursor: pointer;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+  }
+  .leto-button-full-xxs-pc > *, .leto-button-full-xs-pc > *, .leto-button-full-sm-pc > *, .leto-button-full-md-pc > *, .leto-button-full-lg-pc > *, .leto-button-full-xl-pc > *, .leto-button-full-xxl-pc > * {
+    margin: 0;
+    margin-right: 4px;
+  }
+  .leto-button-full-xxs-pc > *:last-child, .leto-button-full-xs-pc > *:last-child, .leto-button-full-sm-pc > *:last-child, .leto-button-full-md-pc > *:last-child, .leto-button-full-lg-pc > *:last-child, .leto-button-full-xl-pc > *:last-child, .leto-button-full-xxl-pc > *:last-child {
+    margin-right: 0;
+  }
+}
+
+@media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
+  .leto-button-full-xxs-ultrawide, .leto-button-full-xs-ultrawide, .leto-button-full-sm-ultrawide, .leto-button-full-md-ultrawide, .leto-button-full-lg-ultrawide, .leto-button-full-xl-ultrawide, .leto-button-full-xxl-ultrawide {
+    width: 100%;
+    text-decoration: none;
+    margin: 8px;
+    padding: 8px 16px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    cursor: pointer;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+  }
+  .leto-button-full-xxs-ultrawide > *, .leto-button-full-xs-ultrawide > *, .leto-button-full-sm-ultrawide > *, .leto-button-full-md-ultrawide > *, .leto-button-full-lg-ultrawide > *, .leto-button-full-xl-ultrawide > *, .leto-button-full-xxl-ultrawide > * {
+    margin: 0;
+    margin-right: 4px;
+  }
+  .leto-button-full-xxs-ultrawide > *:last-child, .leto-button-full-xs-ultrawide > *:last-child, .leto-button-full-sm-ultrawide > *:last-child, .leto-button-full-md-ultrawide > *:last-child, .leto-button-full-lg-ultrawide > *:last-child, .leto-button-full-xl-ultrawide > *:last-child, .leto-button-full-xxl-ultrawide > *:last-child {
+    margin-right: 0;
+  }
+}
+
+@media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
+  .leto-button-full-xxs-super-ultrawide, .leto-button-full-xs-super-ultrawide, .leto-button-full-sm-super-ultrawide, .leto-button-full-md-super-ultrawide, .leto-button-full-lg-super-ultrawide, .leto-button-full-xl-super-ultrawide, .leto-button-full-xxl-super-ultrawide {
+    width: 100%;
+    text-decoration: none;
+    margin: 8px;
+    padding: 8px 16px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    cursor: pointer;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+  }
+  .leto-button-full-xxs-super-ultrawide > *, .leto-button-full-xs-super-ultrawide > *, .leto-button-full-sm-super-ultrawide > *, .leto-button-full-md-super-ultrawide > *, .leto-button-full-lg-super-ultrawide > *, .leto-button-full-xl-super-ultrawide > *, .leto-button-full-xxl-super-ultrawide > * {
+    margin: 0;
+    margin-right: 4px;
+  }
+  .leto-button-full-xxs-super-ultrawide > *:last-child, .leto-button-full-xs-super-ultrawide > *:last-child, .leto-button-full-sm-super-ultrawide > *:last-child, .leto-button-full-md-super-ultrawide > *:last-child, .leto-button-full-lg-super-ultrawide > *:last-child, .leto-button-full-xl-super-ultrawide > *:last-child, .leto-button-full-xxl-super-ultrawide > *:last-child {
+    margin-right: 0;
+  }
+}
+
 .leto-button-full-xxs {
   height: 16px;
 }
@@ -5675,7 +5981,7 @@ p, b {
   }
 }
 
-.leto-badge-xxs, .leto-badge-xs, .leto-badge-sm, .leto-badge-md, .leto-badge-lg, .leto-badge-xl, .leto-badge-xxl {
+.leto-badge-xxs, .leto-badge-xxs-tablet, .leto-badge-xxs-tablet-pc, .leto-badge-xxs-pc, .leto-badge-xxs-ultrawide, .leto-badge-xxs-super-ultrawide, .leto-badge-xs, .leto-badge-xs-tablet, .leto-badge-xs-tablet-pc, .leto-badge-xs-pc, .leto-badge-xs-ultrawide, .leto-badge-xs-super-ultrawide, .leto-badge-sm, .leto-badge-sm-tablet, .leto-badge-sm-tablet-pc, .leto-badge-sm-pc, .leto-badge-sm-ultrawide, .leto-badge-sm-super-ultrawide, .leto-badge-md, .leto-badge-md-tablet, .leto-badge-md-tablet-pc, .leto-badge-md-pc, .leto-badge-md-ultrawide, .leto-badge-md-super-ultrawide, .leto-badge-lg, .leto-badge-lg-tablet, .leto-badge-lg-tablet-pc, .leto-badge-lg-pc, .leto-badge-lg-ultrawide, .leto-badge-lg-super-ultrawide, .leto-badge-xl, .leto-badge-xl-tablet, .leto-badge-xl-tablet-pc, .leto-badge-xl-pc, .leto-badge-xl-ultrawide, .leto-badge-xl-super-ultrawide, .leto-badge-xxl, .leto-badge-xxl-tablet, .leto-badge-xxl-tablet-pc, .leto-badge-xxl-pc, .leto-badge-xxl-ultrawide, .leto-badge-xxl-super-ultrawide {
   font-size: 12px;
   padding: 8px 12px;
   margin: 8px;
@@ -5686,14 +5992,23 @@ p, b {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 128px;
+  outline-width: 0;
+  outline-offset: 0;
+  outline-style: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border-color: #d4d4d4;
 }
 
-.leto-badge-xxs > *, .leto-badge-xs > *, .leto-badge-sm > *, .leto-badge-md > *, .leto-badge-lg > *, .leto-badge-xl > *, .leto-badge-xxl > * {
+.leto-badge-xxs > *, .leto-badge-xxs-tablet > *, .leto-badge-xxs-tablet-pc > *, .leto-badge-xxs-pc > *, .leto-badge-xxs-ultrawide > *, .leto-badge-xxs-super-ultrawide > *, .leto-badge-xs > *, .leto-badge-xs-tablet > *, .leto-badge-xs-tablet-pc > *, .leto-badge-xs-pc > *, .leto-badge-xs-ultrawide > *, .leto-badge-xs-super-ultrawide > *, .leto-badge-sm > *, .leto-badge-sm-tablet > *, .leto-badge-sm-tablet-pc > *, .leto-badge-sm-pc > *, .leto-badge-sm-ultrawide > *, .leto-badge-sm-super-ultrawide > *, .leto-badge-md > *, .leto-badge-md-tablet > *, .leto-badge-md-tablet-pc > *, .leto-badge-md-pc > *, .leto-badge-md-ultrawide > *, .leto-badge-md-super-ultrawide > *, .leto-badge-lg > *, .leto-badge-lg-tablet > *, .leto-badge-lg-tablet-pc > *, .leto-badge-lg-pc > *, .leto-badge-lg-ultrawide > *, .leto-badge-lg-super-ultrawide > *, .leto-badge-xl > *, .leto-badge-xl-tablet > *, .leto-badge-xl-tablet-pc > *, .leto-badge-xl-pc > *, .leto-badge-xl-ultrawide > *, .leto-badge-xl-super-ultrawide > *, .leto-badge-xxl > *, .leto-badge-xxl-tablet > *, .leto-badge-xxl-tablet-pc > *, .leto-badge-xxl-pc > *, .leto-badge-xxl-ultrawide > *, .leto-badge-xxl-super-ultrawide > * {
   margin: 0;
   margin-right: 4px;
 }
 
-.leto-badge-xxs > *:last-child, .leto-badge-xs > *:last-child, .leto-badge-sm > *:last-child, .leto-badge-md > *:last-child, .leto-badge-lg > *:last-child, .leto-badge-xl > *:last-child, .leto-badge-xxl > *:last-child {
+.leto-badge-xxs > *:last-child, .leto-badge-xxs-tablet > *:last-child, .leto-badge-xxs-tablet-pc > *:last-child, .leto-badge-xxs-pc > *:last-child, .leto-badge-xxs-ultrawide > *:last-child, .leto-badge-xxs-super-ultrawide > *:last-child, .leto-badge-xs > *:last-child, .leto-badge-xs-tablet > *:last-child, .leto-badge-xs-tablet-pc > *:last-child, .leto-badge-xs-pc > *:last-child, .leto-badge-xs-ultrawide > *:last-child, .leto-badge-xs-super-ultrawide > *:last-child, .leto-badge-sm > *:last-child, .leto-badge-sm-tablet > *:last-child, .leto-badge-sm-tablet-pc > *:last-child, .leto-badge-sm-pc > *:last-child, .leto-badge-sm-ultrawide > *:last-child, .leto-badge-sm-super-ultrawide > *:last-child, .leto-badge-md > *:last-child, .leto-badge-md-tablet > *:last-child, .leto-badge-md-tablet-pc > *:last-child, .leto-badge-md-pc > *:last-child, .leto-badge-md-ultrawide > *:last-child, .leto-badge-md-super-ultrawide > *:last-child, .leto-badge-lg > *:last-child, .leto-badge-lg-tablet > *:last-child, .leto-badge-lg-tablet-pc > *:last-child, .leto-badge-lg-pc > *:last-child, .leto-badge-lg-ultrawide > *:last-child, .leto-badge-lg-super-ultrawide > *:last-child, .leto-badge-xl > *:last-child, .leto-badge-xl-tablet > *:last-child, .leto-badge-xl-tablet-pc > *:last-child, .leto-badge-xl-pc > *:last-child, .leto-badge-xl-ultrawide > *:last-child, .leto-badge-xl-super-ultrawide > *:last-child, .leto-badge-xxl > *:last-child, .leto-badge-xxl-tablet > *:last-child, .leto-badge-xxl-tablet-pc > *:last-child, .leto-badge-xxl-pc > *:last-child, .leto-badge-xxl-ultrawide > *:last-child, .leto-badge-xxl-super-ultrawide > *:last-child {
   margin-right: 0;
 }
 

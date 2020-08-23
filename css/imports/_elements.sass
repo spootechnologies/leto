@@ -186,7 +186,8 @@
         +buttonDy($standardSize)
 
     &-xxs, &-xs, &-sm, &-md, &-lg, &-xl, &-xxl
-        +button()
+        +elementConstructorDy('button')
+            +button()
 
     &-xxs
         +elementConstructorDy('button')
@@ -224,7 +225,8 @@
             +buttonFullDy($standardSize)
 
         &-xxs, &-xs, &-sm, &-md, &-lg, &-xl, &-xxl
-            +buttonFull()
+            +elementConstructorDy('button')
+                +buttonFull()
 
         &-xxs
             +elementConstructorDy('button')
@@ -271,7 +273,8 @@
         +badgeDy($standardSize)
 
     &-xxs, &-xs, &-sm, &-md, &-lg, &-xl, &-xxl
-        +badge()
+        +elementConstructor('badge')
+            +badge()
 
     &-xxs
         +elementConstructorDy('badge')
