@@ -16,10 +16,10 @@
     box-shadow: $boxShadow
 
     @if $bgColor != $lightModeBgColor
-       background: $bgColor 
+        background: $bgColor 
 
     @if $color != $lightModeColor
-       color: $color
+        color: $color
 
     @if $borderColor != $lightModeColor
         border-color: $borderColor
@@ -579,13 +579,13 @@
 
 =inputWrapper()
     $bgColor: getElementAttrVal('input', 'bg');
-    $borderColor: getElementAttrVal('input', 'border');
+    $borderColor: getElementAttrVal('input', 'borderColor');  
 
     position: relative
     width: fit-content
     margin: $basicMargin
     display: flex
-    flex-direction: column 
+    flex-direction: column
 
     label
         position: absolute
@@ -599,7 +599,7 @@
 
         &:before
             content: "" 
-            width: 16px
+            width: 14px
             height: 100%
             border-top-left-radius: 12px
             border-bottom-left-radius: 12px
@@ -631,6 +631,7 @@
         min-width: 0
         width: 100%  
         margin: 0
+        padding-left: 24px
         z-index: 1
 
     //[class*=leto-input]:not(:placeholder-shown) + label span

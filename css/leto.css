@@ -8113,13 +8113,13 @@ select.leto-input-xxl {
 
 .leto-input-wrapper label:before {
   content: "";
-  width: 16px;
+  width: 14px;
   height: 100%;
   border-top-left-radius: 12px;
   border-bottom-left-radius: 12px;
-  border-top: 1px solid;
-  border-bottom: 1px solid;
-  border-left: 1px solid;
+  border-top: 1px solid #d4d4d4;
+  border-bottom: 1px solid #d4d4d4;
+  border-left: 1px solid #d4d4d4;
 }
 
 .leto-input-wrapper label:after {
@@ -8130,15 +8130,15 @@ select.leto-input-xxl {
   height: 100%;
   border-top-right-radius: 12px;
   border-bottom-right-radius: 12px;
-  border-top: 1px solid;
-  border-right: 1px solid;
-  border-bottom: 1px solid;
+  border-top: 1px solid #d4d4d4;
+  border-right: 1px solid #d4d4d4;
+  border-bottom: 1px solid #d4d4d4;
 }
 
 .leto-input-wrapper label span {
   margin-top: -10px;
   padding: 0 8px;
-  border-bottom: 1px solid;
+  border-bottom: 1px solid #d4d4d4;
 }
 
 .leto-input-wrapper [class*=leto-input] {
@@ -8147,6 +8147,7 @@ select.leto-input-xxl {
   min-width: 0;
   width: 100%;
   margin: 0;
+  padding-left: 24px;
   z-index: 1;
 }
 
