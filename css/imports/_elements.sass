@@ -92,6 +92,9 @@
     +elementConstructor('card')
         +cardAutoWidth()
 
+    +elementConstructorDy('card')
+        +cardDy($standardSize)
+
     &-xxs, &-xs, &-sm, &-md, &-lg, &-xl, &-xxl
         +elementConstructor('card')
             +card()
@@ -182,11 +185,11 @@
     +elementConstructor('button')
         +button()
 
-    +elementConstructorDy('button')
+    +elementConstructorDy('button') 
         +buttonDy($standardSize)
 
     &-xxs, &-xs, &-sm, &-md, &-lg, &-xl, &-xxl
-        +elementConstructorDy('button')
+        +elementConstructor('button')
             +button()
 
     &-xxs
