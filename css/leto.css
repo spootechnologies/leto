@@ -13161,6 +13161,10 @@ select.leto-input-xxl {
   background-color: #e1e1e1;
 }
 
+.leto-frame .leto-bg-lighter-grey, .leto-frame .leto-bg-lighter-grey-themed {
+  background-color: #eeeeee;
+}
+
 .leto-frame .leto-bg-dark-white, .leto-frame .leto-bg-dark-white-themed {
   background-color: #f0f0f0;
 }
@@ -13275,6 +13279,10 @@ select.leto-input-xxl {
 
 .leto-frame-dark .leto-bg-light-grey, .leto-frame-dark .leto-bg-light-grey-themed {
   background-color: #e1e1e1;
+}
+
+.leto-frame-dark .leto-bg-lighter-grey, .leto-frame-dark .leto-bg-lighter-grey-themed {
+  background-color: #eeeeee;
 }
 
 .leto-frame-dark .leto-bg-dark-white, .leto-frame-dark .leto-bg-dark-white-themed {
@@ -13409,6 +13417,10 @@ select.leto-input-xxl {
   background-color: #e1e1e1;
 }
 
+.leto-frame .leto-bg-lighter-grey-lm {
+  background-color: #eeeeee;
+}
+
 .leto-frame .leto-bg-dark-white-lm {
   background-color: #f0f0f0;
 }
@@ -13523,6 +13535,10 @@ select.leto-input-xxl {
 
 .leto-frame-dark .leto-bg-light-grey-dm {
   background-color: #e1e1e1;
+}
+
+.leto-frame-dark .leto-bg-lighter-grey-dm {
+  background-color: #eeeeee;
 }
 
 .leto-frame-dark .leto-bg-dark-white-dm {
@@ -13675,6 +13691,10 @@ select.leto-input-xxl {
   border-color: #e1e1e1;
 }
 
+.leto-frame .leto-border-lighter-grey, .leto-frame .leto-border-lighter-grey-themed {
+  border-color: #eeeeee;
+}
+
 .leto-frame .leto-border-dark-white, .leto-frame .leto-border-dark-white-themed {
   border-color: #f0f0f0;
 }
@@ -13789,6 +13809,10 @@ select.leto-input-xxl {
 
 .leto-frame-dark .leto-border-light-grey, .leto-frame-dark .leto-border-light-grey-themed {
   border-color: #e1e1e1;
+}
+
+.leto-frame-dark .leto-border-lighter-grey, .leto-frame-dark .leto-border-lighter-grey-themed {
+  border-color: #eeeeee;
 }
 
 .leto-frame-dark .leto-border-dark-white, .leto-frame-dark .leto-border-dark-white-themed {
@@ -13923,6 +13947,10 @@ select.leto-input-xxl {
   border-color: #e1e1e1;
 }
 
+.leto-frame .leto-border-lighter-grey-lm {
+  border-color: #eeeeee;
+}
+
 .leto-frame .leto-border-dark-white-lm {
   border-color: #f0f0f0;
 }
@@ -14037,6 +14065,10 @@ select.leto-input-xxl {
 
 .leto-frame-dark .leto-border-light-grey-dm {
   border-color: #e1e1e1;
+}
+
+.leto-frame-dark .leto-border-lighter-grey-dm {
+  border-color: #eeeeee;
 }
 
 .leto-frame-dark .leto-border-dark-white-dm {
@@ -14448,6 +14480,10 @@ select.leto-input-xxl {
   color: #e1e1e1;
 }
 
+.leto-frame .leto-text-lighter-grey, .leto-frame .leto-text-lighter-grey-themed {
+  color: #eeeeee;
+}
+
 .leto-frame .leto-text-dark-white, .leto-frame .leto-text-dark-white-themed {
   color: #f0f0f0;
 }
@@ -14562,6 +14598,10 @@ select.leto-input-xxl {
 
 .leto-frame-dark .leto-text-light-grey, .leto-frame-dark .leto-text-light-grey-themed {
   color: #e1e1e1;
+}
+
+.leto-frame-dark .leto-text-lighter-grey, .leto-frame-dark .leto-text-lighter-grey-themed {
+  color: #eeeeee;
 }
 
 .leto-frame-dark .leto-text-dark-white, .leto-frame-dark .leto-text-dark-white-themed {
@@ -14696,6 +14736,10 @@ select.leto-input-xxl {
   color: #e1e1e1;
 }
 
+.leto-frame .leto-text-lighter-grey-lm {
+  color: #eeeeee;
+}
+
 .leto-frame .leto-text-dark-white-lm {
   color: #f0f0f0;
 }
@@ -14810,6 +14854,10 @@ select.leto-input-xxl {
 
 .leto-frame-dark .leto-text-light-grey-dm {
   color: #e1e1e1;
+}
+
+.leto-frame-dark .leto-text-lighter-grey-dm {
+  color: #eeeeee;
 }
 
 .leto-frame-dark .leto-text-dark-white-dm {
