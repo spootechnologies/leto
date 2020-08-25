@@ -1,32 +1,6 @@
-=elementConstructor()
+@import 'imports/_colors-functions.scss' 
 
-    & ,&-tablet, &-tablet-pc, &-pc, &-ultrawide, &-super-ultrawide
-        @content
+.leto-bg
+    +colors('background')
 
-    &-tablet
-        height: 32px * 1.5
-
-    &-tablet-pc
-        height: 32px * 1.5
-
-    &-pc
-        height: 32px * 1.75
-
-    &-ultrawide
-        height: 32px * 2
-
-    &-super-ultrawide
-        height: 32px * 2.25
-
-.leto-bubble
-    +elementConstructor()
-        height: 32px * 1
-        width: 32px * 1
-        font-size: 32px * 0.75
-        text-align: center
-        margin: 8px
-        flex-direction: column
-        align-items: center
-        justify-content: center
-        flex-shrink: 0
-        display: inline-flex
++colorsThemed('background', 'leto-bg')

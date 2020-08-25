@@ -1,0 +1,144 @@
+@import '_variables.sass';
+@import 'transformer-mixins.sass';
+
+$colors: (
+    '': (
+        'black': $colorBlack,
+        'light-black': $colorLightBlack,
+        'darker-grey': $colorDarkerGrey,
+        'dark-grey': $colorDarkGrey,
+        'grey': $colorGrey,
+        'light-grey': $colorLightGrey,
+        'dark-white': $colorDarkWhite,
+        'white': $colorWhite,
+        'light-yellow': $colorLightYellow,
+        'yellow': $colorYellow,
+        'dark-yellow': $colorDarkYellow,
+        'light-orange': $colorLightOrange,
+        'orange': $colorOrange,
+        'dark-orange': $colorDarkOrange,
+        'light-red': $colorLightRed,
+        'red': $colorRed,
+        'dark-red': $colorDarkRed,
+        'light-purple': $colorLightPurple,
+        'purple': $colorPurple,
+        'dark-purple': $colorDarkPurple,
+        'light-blue': $colorLightBlue,
+        'blue': $colorBlue,
+        'dark-blue': $colorDarkBlue,
+        'light-mint': $colorLightMint,
+        'mint': $colorMint,
+        'dark-mint': $colorDarkMint,
+        'light-green': $colorLightGreen,
+        'green': $colorGreen,
+        'dark-green': $colorDarkGreen,        
+    ),
+    '-dark': (
+        'black': $colorBlackDM,
+        'light-black': $colorLightBlackDM,
+        'darker-grey': $colorDarkerGreyDM,
+        'dark-grey': $colorDarkGreyDM,
+        'grey': $colorGreyDM,
+        'light-grey': $colorLightGreyDM,
+        'dark-white': $colorDarkWhiteDM,
+        'white': $colorWhiteDM,
+        'light-yellow': $colorLightYellowDM,
+        'yellow': $colorYellowDM,
+        'dark-yellow': $colorDarkYellowDM,
+        'light-orange': $colorLightOrangeDM,
+        'orange': $colorOrangeDM,
+        'dark-orange': $colorDarkOrangeDM,
+        'light-red': $colorLightRedDM,
+        'red': $colorRedDM,
+        'dark-red': $colorDarkRedDM,
+        'light-purple': $colorLightPurpleDM,
+        'purple': $colorPurpleDM,
+        'dark-purple': $colorDarkPurpleDM,
+        'light-blue': $colorLightBlueDM,
+        'blue': $colorBlueDM,
+        'dark-blue': $colorDarkBlueDM,
+        'light-mint': $colorLightMintDM,
+        'mint': $colorMintDM,
+        'dark-mint': $colorDarkMintDM,
+        'light-green': $colorLightGreenDM,
+        'green': $colorGreenDM,
+        'dark-green': $colorDarkGreenDM,        
+    )
+); 
+
+$themes: (
+    '': (
+        bg: $lightModeBgColor,
+        text: $lightModeColor,
+        invertedBg: $darkModeBgColor,
+        invertedText: $darkModeColor,
+    ),
+    '-dark': (
+        bg: $darkModeBgColor,
+        text: $darkModeColor,
+        invertedBg: $lightModeBgColor,
+        invertedText: $lightModeColor,
+    ),
+); 
+
+@mixin colors($type, $attributeName){
+    @each $theme, $map in $colors {
+        @each $color, $cMap in $map {
+            @if $theme == '' {
+                .leto-frame#{$theme} &-#{$color}, .leto-frame#{$theme} &-#{$color}-themed {
+                    $value: map-get(map-get($colors, $theme), '#{$color}');
+                    @include transformerConstructor($type){
+                        #{$attributeName}: $value;     
+                    }
+                }
+            }
+            @if $theme == '-dark' {
+                .leto-frame#{$theme} &-#{$color}, .leto-frame#{$theme} &-#{$color}-themed {
+                    $value: map-get(map-get($colors, $theme), '#{$color}');
+                    @include transformerConstructor($type){
+                        #{$attributeName}: $value;     
+                    }
+                }
+            }
+        }
+    }
+}
+
+@mixin colorsThemeModes($type, $attributeName){
+    @each $theme, $map in $colors {
+        @each $color, $cMap in $map {
+            @if $theme == '' {
+                .leto-frame#{$theme} &-#{$color}-lm{
+                    $value: map-get(map-get($colors, $theme), '#{$color}');
+                    @include transformerConstructor($type){
+                        #{$attributeName}: $value;     
+                    }
+                }
+            }
+            @if $theme == '-dark' {
+                .leto-frame#{$theme} &-#{$color}-dm{
+                    $value: map-get(map-get($colors, $theme), '#{$color}');
+                    @include transformerConstructor($type){
+                        #{$attributeName}: $value;     
+                    }
+                }
+            }
+        }
+    }
+}
+
+@mixin colorsThemed($type, $class){
+    @each $theme, $map in $colors {
+        @each $color, $cMap in $map {
+            @if $theme == '' {
+                [class*='#{$class}-#{$color}-themed']{
+                    $value: map-get(map-get($colors, $theme), '#{$color}');
+                    @include transformerColorConstructor($type, $value);
+                }
+            }
+            @if $theme == '-dark' {
+
+            }
+        }
+    }
+}

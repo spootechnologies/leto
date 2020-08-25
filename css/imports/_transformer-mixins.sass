@@ -1,12 +1,13 @@
 @import '_variables.sass'
 @import '_white-lists.sass'
+@import '_theme-functions.scss'
 
 // Transformer contructor
 
-=transformerConstructor($elementName)
+=transformerConstructor($elementName) 
     @content
     
-    @if checkTransformerMQList($elementName)
+    @if checkTransformerMQList($elementName) 
         @media (min-width: $tablet)
 
             &-tablet
@@ -22,7 +23,7 @@
             &-tablet-pc
                 @content
 
-        @media (min-width: $pc)
+        @media (min-width: $pc) 
 
             &-pc
                 @content
@@ -36,6 +37,7 @@
             
             &-super-ultrawide
                 @content
+
 
 =transformerColorConstructor($elementName, $color)
     @if $elementName == 'background'
