@@ -754,11 +754,14 @@
 // Input Color
 
 =inputColor()
+    $bgColor: getElementAttrVal('radio', 'bg')
+
+    background-color: $bgColor
     margin: $basicMargin
     padding: 4px
 
 =inputColorDy($height)
-    $multiplier: getElementAttrVal('input', 'multiplier')
+    $multiplier: getElementAttrVal('radio', 'multiplier')
     width: $height * $multiplier
     height: $height * $multiplier
 

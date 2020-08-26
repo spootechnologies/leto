@@ -6877,6 +6877,7 @@ p, b {
 }
 
 .leto-input[type="color"], .leto-input-tablet[type="color"], .leto-input-tablet-pc[type="color"], .leto-input-pc[type="color"], .leto-input-ultrawide[type="color"], .leto-input-super-ultrawide[type="color"] {
+  background-color: #fdfdfd;
   margin: 8px;
   padding: 4px;
   border-width: 1px;
@@ -6938,6 +6939,7 @@ p, b {
 }
 
 .leto-input-xxs[type="color"], .leto-input-xxs-tablet[type="color"], .leto-input-xxs-tablet-pc[type="color"], .leto-input-xxs-pc[type="color"], .leto-input-xxs-ultrawide[type="color"], .leto-input-xxs-super-ultrawide[type="color"], .leto-input-xs[type="color"], .leto-input-xs-tablet[type="color"], .leto-input-xs-tablet-pc[type="color"], .leto-input-xs-pc[type="color"], .leto-input-xs-ultrawide[type="color"], .leto-input-xs-super-ultrawide[type="color"], .leto-input-sm[type="color"], .leto-input-sm-tablet[type="color"], .leto-input-sm-tablet-pc[type="color"], .leto-input-sm-pc[type="color"], .leto-input-sm-ultrawide[type="color"], .leto-input-sm-super-ultrawide[type="color"], .leto-input-md[type="color"], .leto-input-md-tablet[type="color"], .leto-input-md-tablet-pc[type="color"], .leto-input-md-pc[type="color"], .leto-input-md-ultrawide[type="color"], .leto-input-md-super-ultrawide[type="color"], .leto-input-lg[type="color"], .leto-input-lg-tablet[type="color"], .leto-input-lg-tablet-pc[type="color"], .leto-input-lg-pc[type="color"], .leto-input-lg-ultrawide[type="color"], .leto-input-lg-super-ultrawide[type="color"], .leto-input-xl[type="color"], .leto-input-xl-tablet[type="color"], .leto-input-xl-tablet-pc[type="color"], .leto-input-xl-pc[type="color"], .leto-input-xl-ultrawide[type="color"], .leto-input-xl-super-ultrawide[type="color"], .leto-input-xxl[type="color"], .leto-input-xxl-tablet[type="color"], .leto-input-xxl-tablet-pc[type="color"], .leto-input-xxl-pc[type="color"], .leto-input-xxl-ultrawide[type="color"], .leto-input-xxl-super-ultrawide[type="color"] {
+  background-color: #fdfdfd;
   margin: 8px;
   padding: 4px;
   border-width: 1px;
