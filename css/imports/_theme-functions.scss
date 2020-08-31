@@ -1,17 +1,83 @@
 @import '_variables.sass';
 
+$colors: (
+    '$colorBlack': $colorBlack,
+    '$colorLightBlack': $colorLightBlack,
+    '$colorDarkerGrey': $colorDarkerGrey,
+    '$colorDarkGrey': $colorDarkGrey,
+    '$colorGrey': $colorGrey,
+    '$colorLightGrey': $colorLightGrey,
+    '$colorLighterGrey': $colorLighterGrey,
+    '$colorDarkWhite': $colorDarkWhite,
+    '$colorWhite': $colorWhite,
+    '$colorLightYellow': $colorLightYellow,
+    '$colorYellow': $colorYellow,
+    '$colorDarkYellow': $colorDarkYellow,
+    '$colorLightOrange': $colorLightOrange,
+    '$colorOrange': $colorOrange,
+    '$colorDarkOrange': $colorDarkOrange,
+    '$colorLightRed': $colorLightRed,
+    '$colorRed': $colorRed,
+    '$colorDarkRed': $colorDarkRed,
+    '$colorLightPurple': $colorLightPurple,
+    '$colorPurple': $colorPurple, 
+    '$colorDarkPurple': $colorDarkPurple,
+    '$colorLightBlue': $colorLightBlue,
+    '$colorBlue': $colorBlue,
+    '$colorDarkBlue': $colorDarkBlue,
+    '$colorLightMint': $colorLightMint,
+    '$colorMint': $colorMint,
+    '$colorDarkMint': $colorDarkMint,
+    '$colorLightGreen': $colorLightGreen,
+    '$colorGreen': $colorGreen,
+    '$colorDarkGreen': $colorDarkGreen, 
+);
+
+$colorsDM: (
+    '$colorBlack': $colorBlackDM,
+    '$colorLightBlack': $colorLightBlackDM,
+    '$colorDarkerGrey': $colorDarkerGreyDM,
+    '$colorDarkGrey': $colorDarkGreyDM,
+    '$colorGrey': $colorGreyDM,
+    '$colorLightGrey': $colorLightGreyDM,
+    '$colorLighterGrey': $colorLighterGreyDM,
+    '$colorDarkWhite': $colorDarkWhiteDM,
+    '$colorWhite': $colorWhiteDM,
+    '$colorLightYellow': $colorLightYellowDM,
+    '$colorYellow': $colorYellowDM,
+    '$colorDarkYellow': $colorDarkYellowDM,
+    '$colorLightOrange': $colorLightOrangeDM,
+    '$colorOrange': $colorOrangeDM,
+    '$colorDarkOrange': $colorDarkOrangeDM,
+    '$colorLightRed': $colorLightRedDM,
+    '$colorRed': $colorRedDM,
+    '$colorDarkRed': $colorDarkRedDM,
+    '$colorLightPurple': $colorLightPurpleDM,
+    '$colorPurple': $colorPurpleDM, 
+    '$colorDarkPurple': $colorDarkPurpleDM,
+    '$colorLightBlue': $colorLightBlueDM,
+    '$colorBlue': $colorBlueDM,
+    '$colorDarkBlue': $colorDarkBlueDM,
+    '$colorLightMint': $colorLightMintDM,
+    '$colorMint': $colorMintDM,
+    '$colorDarkMint': $colorDarkMintDM,
+    '$colorLightGreen': $colorLightGreenDM,
+    '$colorGreen': $colorGreenDM,
+    '$colorDarkGreen': $colorDarkGreenDM, 
+);
+
 $themes: (
     '': (
         bg: $lightModeBgColor,
-        text: $lightModeColor,
+        color: $lightModeColor,
         invertedBg: $darkModeBgColor,
-        invertedText: $darkModeColor,
+        invertedColor: $darkModeColor,
     ),
     '-dark': (
-        bg: $darkModeBgColor,
-        text: $darkModeColor,
-        invertedBg: $lightModeBgColor,
-        invertedText: $lightModeColor,
+        bg: $darkModeBgColorDM, 
+        color: $darkModeColorDM,
+        invertedBg: $lightModeBgColorDM,
+        invertedColor: $lightModeColorDM,
     ),
 );
 
@@ -31,4 +97,16 @@ $themes: (
 
 @function t($key) {
   @return map-get($theme-map, $key);  
+}
+
+@mixin themedColor($color, $attributeName){
+    .leto-frame-dark & {
+        @each $colorKey, $compareColor in $colors {
+            @if $color == $compareColor {
+                $value: map-get($colorsDM, '#{$colorKey}');
+                #{$attributeName}: $value; 
+            }
+
+        }
+    }
 }

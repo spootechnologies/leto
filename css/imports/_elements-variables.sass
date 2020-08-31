@@ -8,7 +8,7 @@ $badgeDefaultAttrVal: ('bg': $colorWhite, 'multiplier': $elementSizeMultipier, '
 $inputDefaultAttrVal: ('bg': $colorWhite, 'multiplier': $elementSizeMultipier, 'color': $colorBlack, 'borderWidth': 1px, 'borderColor': $colorGrey, 'borderRadius': $standardRoundness, 'outlineWidth': 0, 'outtlineColor': $colorGrey, 'outlineOffset': 0, 'outlineStyle': none, 'boxShadow': none)
 $radioDefaultAttrVal: ('bg': $colorWhite, 'multiplier': $elementSizeMultipier, 'color': $colorBlack, 'borderWidth': 1px, 'borderColor': $colorGrey, 'borderRadius': $standardRoundness, 'outlineWidth': 0, 'outtlineColor': $colorGrey, 'outlineOffset': 0, 'outlineStyle': none, 'boxShadow': none)
 $checkboxDefaultAttrVal: ('bg': $colorWhite, 'multiplier': $elementSizeMultipier, 'color': $colorBlack, 'borderWidth': 1px, 'borderColor': $colorGrey, 'borderRadius': $standardRoundness, 'outlineWidth': 0, 'outtlineColor': $colorGrey, 'outlineOffset': 0, 'outlineStyle': none, 'boxShadow': none)
-$searchDefaultAttrVal: ('bg': $colorLightGrey, 'multiplier': $elementSizeMultipier, 'color': $colorBlack, 'borderWidth': 1px, 'borderColor': $colorGrey, 'borderRadius': $standardRoundness, 'outlineWidth': 0, 'outtlineColor': $colorGrey, 'outlineOffset': 0, 'outlineStyle': none, 'boxShadow': none)
+$searchDefaultAttrVal: ('bg': $colorGrey, 'multiplier': $elementSizeMultipier, 'color': $colorBlack, 'borderWidth': 1px, 'borderColor': $colorGrey, 'borderRadius': $standardRoundness, 'outlineWidth': 0, 'outtlineColor': $colorGrey, 'outlineOffset': 0, 'outlineStyle': none, 'boxShadow': none)
 $textareaDefaultAttrVal: ('bg': $colorWhite, 'color': $colorBlack, 'borderWidth': 1px, 'borderColor': $colorGrey, 'borderRadius': $standardRoundness)
 $selectDefaultAttrVal: ('bg': $colorWhite, 'multiplier': $elementSizeMultipier, 'color': $colorBlack, 'borderWidth': 1px, 'borderColor': $colorGrey, 'borderRadius': $standardRoundness, 'outlineWidth': 0, 'outtlineColor': $colorGrey, 'outlineOffset': 0, 'outlineStyle': none, 'boxShadow': none)
 $pileDefaultAttrVal: ('bg': transparent, 'color': $colorBlack, 'borderWidth': 1px, 'borderColor': $colorGrey, 'borderRadius': $standardRoundness, 'outlineWidth': 0, 'outtlineColor': $colorGrey, 'outlineOffset': 0, 'outlineStyle': none, 'boxShadow': none)
@@ -42,4 +42,4 @@ $formDefaultAttrVal: ('bg': $colorWhite, 'color': $colorBlack, 'borderWidth': 1p
         $value: map-get($pileDefaultAttrVal, $attr)   
     @else if $elementName == 'form'
         $value: map-get($formDefaultAttrVal, $attr)                      
-    @return $value
+    @return $value 

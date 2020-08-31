@@ -47,26 +47,26 @@
 
         @if $color == $darkModeBgColor
             +themed()
-                background: t('invertedBg')
+                background: t('invertedBg') 
 
     @if $elementName == 'border'
         @if $color == $lightModeColor
             +themed()
-                border-color: t('text')
+                border-color: t('color')
 
         @if $color == $darkModeColor
             +themed()
-                border-color: t('invertedText')
+                border-color: t('invertedColor')
 
 
     @if $elementName == 'text'
         @if $color == $lightModeColor
             +themed()
-                color: t('text')
+                color: t('color')
 
         @if $color == $darkModeColor
             +themed()
-                color: t('invertedText')
+                color: t('invertedColor')
 
 
 // Margin

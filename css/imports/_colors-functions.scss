@@ -1,5 +1,5 @@
 @import '_variables.sass';
-@import 'transformer-mixins.sass';
+@import '_transformer-mixins.sass';
 
 $colors: (
     '': (
@@ -66,21 +66,6 @@ $colors: (
         'green': $colorGreenDM,
         'dark-green': $colorDarkGreenDM,        
     )
-); 
-
-$themes: (
-    '': (
-        bg: $lightModeBgColor,
-        text: $lightModeColor,
-        invertedBg: $darkModeBgColor,
-        invertedText: $darkModeColor,
-    ),
-    '-dark': (
-        bg: $darkModeBgColor,
-        text: $darkModeColor,
-        invertedBg: $lightModeBgColor,
-        invertedText: $lightModeColor,
-    ),
 ); 
 
 @mixin colors($type, $attributeName){

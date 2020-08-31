@@ -42,18 +42,26 @@
     @if $bgColor == $lightModeBgColor
         +themed() 
             background: t('bg')
+    @else 
+        +themedColor($bgColor, 'background')
 
-    @if $color == $lightModeColor
+    @if $color == $lightModeColor 
         +themed() 
-            color: t('text')
+            color: t('color')
+    @else 
+        +themedColor($color, 'color')
 
     @if $borderColor == $lightModeColor
         +themed() 
-            border-color: t('text')
+            border-color: t('color')
+    @else 
+        +themedColor($borderColor, 'border-color')
 
     @if $outlineColor == $lightModeColor
         +themed() 
-            outline-color: t('text')
+            outline-color: t('color')
+    @else 
+        +themedColor($outlineColor, 'outline-color') 
 
 // Presets
 

@@ -22,70 +22,70 @@ $elementSizeMultipier: 2
 $standardRoundness: 12px
 
 $colorWhite: #fdfdfd 
-$colorDarkWhite: darken($colorWhite, 5%) // Not used in the moment
+$colorDarkWhite: #f2f2f2 // Not used in the moment
 
-$colorGrey: #d4d4d4
-$colorLightGrey: lighten($colorGrey, 5%) // #f2f2f2
-$colorLighterGrey: lighten($colorLightGrey, 5%)
-$colorDarkGrey: darken($colorGrey, 10%) // #a6a6a6
-$colorDarkerGrey: darken($colorDarkGrey, 10%)
+$colorGrey: #cccccc 
+$colorLightGrey: #d9d9d9 // #f2f2f2
+$colorLighterGrey: #e6e6e6 
+$colorDarkGrey: #a6a6a6
+$colorDarkerGrey: #808080
 
-$colorBlack: #303030
-$colorLightBlack: lighten($colorBlack, 10%)
+$colorBlack: #333333
+$colorLightBlack: #595959
 
 
-$colorYellow: #ffff73 //#FFFD99
+$colorYellow: #f2e76d //#FFFD99
 $colorLightYellow: lighten($colorYellow, 15%)
 $colorDarkYellow: darken($colorYellow, 15%)
 
-$colorOrange: #ffac5a //#FFBF80
+$colorOrange: #f29655 //#FFBF80
 $colorLightOrange: lighten($colorOrange, 15%)
 $colorDarkOrange: darken($colorOrange, 15%)
 
-$colorRed: #ff6666 //#FF8C8C  
+$colorRed: #f2616d //#FF8C8C  
 $colorLightRed: lighten($colorRed, 15%)
 $colorDarkRed: darken($colorRed, 15%)
 
-$colorPurple: #ca7fff //#D499FF  
+$colorPurple: #c079f2 //#D499FF  
 $colorLightPurple: lighten($colorPurple, 15%)
 $colorDarkPurple: darken($colorPurple, 15%)
 
-$colorBlue: #738aff //#99A7FF
+$colorBlue: #6d83f2 //#99A7FF
 $colorLightBlue: lighten($colorBlue, 15%)
 $colorDarkBlue: darken($colorBlue, 15%)
 
-$colorMint: #59ffc8 //#80FFD0   
+$colorMint: #55f2cb //#80FFD0   
 $colorLightMint: lighten($colorMint, 15%)
 $colorDarkMint: darken($colorMint, 15%)
 
-$colorGreen: #8aff80 //#9BFF99  
+$colorGreen: #79f297 //#9BFF99  
 $colorLightGreen: lighten($colorGreen, 15%)
 $colorDarkGreen: darken($colorGreen, 15%)
 
 // Dark Mode Colors
 
-$colorWhiteDM: #fdfdfd 
-$colorDarkWhiteDM: darken($colorWhiteDM, 5%) // Not used in the moment
+$colorWhiteDM: #f2f2f2
+$colorDarkWhiteDM: #d9d9d9
 
-$colorGreyDM: #d4d4d4
-$colorLightGreyDM: lighten($colorGreyDM, 5%) // #f2f2f2
-$colorLighterGreyDM: lighten($colorLightGreyDM, 5%)
-$colorDarkGreyDM: darken($colorGreyDM, 10%) // #a6a6a6
-$colorDarkerGreyDM: darken($colorDarkGreyDM, 10%)
+$colorGreyDM: #bfbfbf
+$colorLightGreyDM: #a6a6a6
+$colorLighterGreyDM: #bfbfbf
+$colorDarkGreyDM: #737373 // #a6a6a6
+$colorDarkerGreyDM: #595959
 
-$colorBlackDM: #303030
-$colorLightBlackDM: lighten($colorBlackDM, 10%)
+$colorBlackDM: #262626
+$colorLightBlackDM: #404040
 
 
-$colorYellowDM: #ffff73 //#FFFD99
+$colorYellowDM: #fff673 //#FFFD99
 $colorLightYellowDM: lighten($colorYellow, 15%)
 $colorDarkYellowDM: darken($colorYellow, 15%)
 
-$colorOrangeDM: #ffac5a //#FFBF80
+$colorOrangeDM: #ff9e59 //#FFBF80
 $colorLightOrangeDM: lighten($colorOrange, 15%)
 $colorDarkOrangeDM: darken($colorOrange, 15%)
 
-$colorRedDM: #ff6666 //#FF8C8C  
+$colorRedDM: #ff6673 //#FF8C8C  
 $colorLightRedDM: lighten($colorRed, 15%)
 $colorDarkRedDM: darken($colorRed, 15%)
 
@@ -97,18 +97,24 @@ $colorBlueDM: #738aff //#99A7FF
 $colorLightBlueDM: lighten($colorBlueDM, 15%)
 $colorDarkBlueDM: darken($colorBlueDM, 15%)
 
-$colorMintDM: #59ffc8 //#80FFD0   
+$colorMintDM: #59ffd6 //#80FFD0   
 $colorLightMintDM: lighten($colorMintDM, 15%)
 $colorDarkMintDM: darken($colorMintDM, 15%)
 
-$colorGreenDM: #8aff80 //#9BFF99  
+$colorGreenDM: #7fff9f //#9BFF99  
 $colorLightGreenDM: lighten($colorGreenDM, 15%)
 $colorDarkGreenDM: darken($colorGreenDM, 15%)
 
 $lightModeColor: $colorBlack
 $lightModeBgColor: $colorWhite
-$darkModeColor: $colorWhiteDM
-$darkModeBgColor: $colorBlackDM
+$darkModeColor: $colorWhite
+$darkModeBgColor: $colorBlack
+
+$lightModeColorDM: $colorBlackDM
+$lightModeBgColorDM: $colorWhiteDM
+$darkModeColorDM: $colorWhiteDM
+$darkModeBgColorDM: $colorBlackDM
+
 $linkColor: $colorBlue
 $linkHoverColor: darken($linkColor, 15%) 
 $toastColor: $colorBlack

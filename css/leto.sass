@@ -15,7 +15,7 @@
 
     @media (min-width: $tabletAndPC)
 
-        &-tablet-pc 
+        &-tablet-pc
             @content
 
     @media (min-width: $tabletAndPC) and ($touchDevice) 
@@ -38,14 +38,14 @@
         &-super-ultrawide
             @content
 
-=basicElementStylesAlt($bgColor, $color, $borderWidth, $borderColor, $borderRadius)
+=basicElementStylesAlt($bgColor, $color, $borderWidth, $borderColor, $borderRadius) 
     border-width: $borderWidth
     border-style: solid
     border-radius: $borderRadius
 
     @if $bgColor == $lightModeBgColor
         +themed() 
-            background: t('bg')
+            background: t('bg') 
 
     @else 
        background: $bgColor 
@@ -96,18 +96,18 @@
         background-color: $bgColor
         @if $bgColor == $lightModeBgColor
             +themed() 
-                background-color: t('bg')
+                background-color: t('bg') 
         font-size: $fontSizeSM
         font-weight: $fontWeightMedium
-        top: -10px
+        top: -10px 
         left: $basicPadding
-        padding-left: $basicPadding
+        padding-left: $basicPadding 
         padding-right: $basicPadding
 
     [class*=leto-input]
         min-width: 0
         width: 100%
-        border: 1px solid $colorLightGrey
+        border: 1px solid $colorLightGrey 
         margin: 0
 
     [class*=leto-input]:focus::placeholder
@@ -118,10 +118,10 @@
 
     [class*=leto-input]:focus
         background-color: transparent
-        border: 1px solid $colorDarkGrey
+        border: 1px solid $colorDarkGrey 
 
     > i
-        position: absolute
+        position: 
         top: 50%
         margin-top: -8px
         right: 8px
@@ -135,11 +135,11 @@
 // New Input Wrapper
 
 =inputWrapper()
-    $bgColor: getElementAttrVal('input', 'bg');
-    $borderColor: getElementAttrVal('input', 'border');
-
+    $bgColor: getElementAttrVal('input', 'bg')
+    $borderColor: getElementAttrVal('input', 'border')   
+ 
     position: relative
-    width: fit-content
+    width: fit-content 
     margin: $basicMargin
     display: flex
     flex-direction: column 
