@@ -6711,6 +6711,10 @@ p, b {
   border-radius: 100%;
 }
 
+.leto-input[type="checkbox"]:checked:after {
+  background-color: #333333;
+}
+
 .leto-input[type="checkbox"] {
   width: 24px;
   height: 24px;
@@ -6747,6 +6751,10 @@ p, b {
   width: calc(200% - 16px);
   height: calc(200% - 16px);
   border-radius: 100%;
+}
+
+.leto-input-xxs[type="checkbox"]:checked:after, .leto-input-xs[type="checkbox"]:checked:after, .leto-input-sm[type="checkbox"]:checked:after, .leto-input-md[type="checkbox"]:checked:after, .leto-input-lg[type="checkbox"]:checked:after, .leto-input-xl[type="checkbox"]:checked:after, .leto-input-xxl[type="checkbox"]:checked:after {
+  background-color: #333333;
 }
 
 .leto-input-xxs[type="checkbox"] {
@@ -8271,6 +8279,10 @@ select.leto-input-xxl {
   border-left: 1px solid #cccccc;
 }
 
+.leto-frame-dark .leto-input-wrapper label:before {
+  border-color: #808080;
+}
+
 .leto-input-wrapper label:after {
   content: "";
   -webkit-box-flex: 8;
@@ -8284,10 +8296,18 @@ select.leto-input-xxl {
   border-bottom: 1px solid #cccccc;
 }
 
+.leto-frame-dark .leto-input-wrapper label:after {
+  border-color: #808080;
+}
+
 .leto-input-wrapper label > span {
   margin-top: -10px;
   padding: 0 8px;
   border-bottom: 1px solid #cccccc;
+}
+
+.leto-frame-dark .leto-input-wrapper label > span {
+  border-color: #808080;
 }
 
 .leto-input-wrapper [class*=leto-input] {

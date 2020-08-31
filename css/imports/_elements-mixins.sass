@@ -615,6 +615,8 @@
             border-bottom: 1px solid $borderColor
             border-left: 1px solid $borderColor 
 
+            +themedColor($borderColor, 'border-color');
+
         &:after  
             content: ""
             flex: 8
@@ -625,6 +627,8 @@
             border-right: 1px solid $borderColor
             border-bottom: 1px solid $borderColor
 
+            +themedColor($borderColor, 'border-color');
+
     label > span
         margin-top: -10px
         padding: 0 8px 
@@ -632,6 +636,11 @@
     //    overflow: hidden;
     //    text-indent: -9999px;
         z-index: 0
+
+    label 
+    
+        &> span 
+            +themedColor($borderColor, 'border-color');
 
     [class*=leto-input]
         background-color: transparent !important
@@ -742,8 +751,7 @@
     &:checked
         
         &:after  
-            @if $bgColor == $lightModeBgColor
-                background-color: $darkModeBgColor
+            background-color: $lightModeColor
 
 =inputCheckboxDy($size)
     $multiplier: getElementAttrVal('radio', 'multiplier')
