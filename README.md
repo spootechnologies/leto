@@ -1,4 +1,4 @@
-# LETO
+# LETO 
 
 SPOO leto is a minimalistic css framework and design system, built for uncluttered and structured user interfaces.
 
