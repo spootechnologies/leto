@@ -3,20 +3,20 @@
 
 // Frame
 
-.leto-frame
+.#{$classPrefix}-frame
     width: 100%
 
 
 // Container
 
-.leto-container
+.#{$classPrefix}container
     position: relative
     width: 100%
     margin-left: auto
     margin-right: auto
     padding: $basicPadding
 
-    &[class*="leto-scrollable"]
+    &[class*="scrollable"]
         position: relative
         width: 100%
         height: 100%
@@ -31,7 +31,7 @@
         width: 100%
         padding: $basicPadding
 
-        &[class*="leto-scrollable"]
+        &[class*="scrollable"]
             position: relative
             width: 100%
             height: 100%
@@ -41,7 +41,7 @@
 
 @media (min-width: $pc)
 
-    .leto-container
+    .#{$classPrefix}container
         position: relative
         max-width: 1280px
         margin-left: auto
@@ -50,13 +50,13 @@
 
 @media (min-aspect-ratio: $ultrawideRatio) and (min-width: $ultrawide)
 
-    .leto-container
+    .#{$classPrefix}container
         max-width: 1680px
     
 
 // Edge
 
-.leto-edge
+.#{$classPrefix}edge
 
     &-horizontal
         width: 100%
@@ -100,28 +100,28 @@
         flex-direction: row
         display: flex
 
-[class*=leto-frame]
+[class*="frame"]
 
-    > .leto-group
+    > .#{$classPrefix}group
 
-        > .leto-container
+        > .#{$classPrefix}container
 
-            > .leto-edge-top
+            > .#{$classPrefix}edge-top
                 margin-top: -$basicPadding
 
 @media (max-width: $pc)
 
-    [class*=leto-frame]
+    [class*="frame"]
 
-        > .leto-group
+        > .#{$classPrefix}group
 
-           > .leto-edge-left, > .leto-edge-right
+           > .#{$classPrefix}edge-left, > .#{$classPrefix}edge-right
                 position: sticky
 
 
 // Sub-edge
 
-.leto-sub-edge
+.#{$classPrefix}sub-edge
 
     &-top
         position: fixed
@@ -153,7 +153,7 @@
 
 @media (min-width: $pc)   
 
-    .leto-sub-edge
+    .#{$classPrefix}sub-edge
 
         &-top, &-bottom
             min-height: 300px
@@ -166,7 +166,7 @@
 
 // Masonry
 
-.leto-masonry
+.#{$classPrefix}masonry
     +masonry(4)
 
     &-2
@@ -184,179 +184,179 @@
 
 // Flex
 
-.leto-group
+.#{$classPrefix}group
     +layoutConstructor('display')
         display: flex
 
-.leto-row    
+.#{$classPrefix}row  
     +layoutConstructor('display')
         flex-direction: row
 
-.leto-row-reverse  
+.#{$classPrefix}row-reverse
     +layoutConstructor('display')
         flex-direction: row-reverse
 
-.leto-column
+.#{$classPrefix}column
     +layoutConstructor('display')
         flex-direction: column
 
-.leto-column-reverse
+.#{$classPrefix}column-reverse
     +layoutConstructor('display')
         flex-direction: column-reverse
 
-.leto-no-wrap
+.#{$classPrefix}no-wrap
     +layoutConstructor('display')
         flex-wrap: nowrap
 
-.leto-wrap
+.#{$classPrefix}wrap
     +layoutConstructor('display')
         flex-wrap: wrap
 
-.leto-wrap-reverse
+.#{$classPrefix}wrap-reverse
     +layoutConstructor('display')
         flex-wrap: wrap-reverse
 
 
 // Position
 
-.leto-all-center
+.#{$classPrefix}all-center
     +layoutConstructor('axisPosition')
         justify-content: center
         align-items: center
 
-.leto-group.leto
+.#{$classPrefix}group
 
-    &-horizontal
+    &.#{$classPrefix}horizontal
         +layoutConstructor('axisPosition')
             +justifyContent()
 
-    &-vertical
+    &.#{$classPrefix}vertical
         +layoutConstructor('axisPosition')
             +alignItems()
         
 
-.leto-column.leto
+.#{$classPrefix}column
 
-    &-horizontal
+    &.#{$classPrefix}horizontal
         +layoutConstructor('axisPosition')
             +alignItems()
 
-    &-vertical
+    &.#{$classPrefix}vertical
         +layoutConstructor('axisPosition')
             +justifyContent()
 
 
-.leto-left
+.#{$classPrefix}left
     +layoutConstructor('elementPosition')
         margin-left: auto
 
-.leto-center
+.#{$classPrefix}center
     +layoutConstructor('elementPosition')
         margin-left: auto
         margin-right: auto
 
-.leto-right
+.#{$classPrefix}right
     +layoutConstructor('elementPosition')
         margin-right: auto
 
-.leto-group
+.#{$classPrefix}group
 
-    > .leto-left
+    > .#{$classPrefix}left
         +layoutConstructor('elementPosition')
             margin-left: 0
             margin-right: auto
 
-    > .leto-center
+    > .#{$classPrefix}center
         +layoutConstructor('elementPosition')
             margin-left: auto
             margin-right: auto
 
-    > .leto-right
+    > .#{$classPrefix}right
         +layoutConstructor('elementPosition')
             margin-left: auto
             margin-right: 0
 
 // Flexbox areas
 
-.leto-full 
+.#{$classPrefix}full 
     +layoutConstructor('flexArea')
         +letoFlexAreas(100%) 
 
-.leto-seven-eighths
+.#{$classPrefix}seven-eighths
     +layoutConstructor('flexArea')
         +letoFlexAreas(87.5%)
 
-.leto-five-sixths
+.#{$classPrefix}five-sixths
     +layoutConstructor('flexArea')
         +letoFlexAreas(calc((100% / 6) * 5)) 
 
-.leto-four-fifths
+.#{$classPrefix}four-fifths
     +layoutConstructor('flexArea')
         +letoFlexAreas(80%)
 
-.leto-three-quaters
+.#{$classPrefix}three-quaters
     +layoutConstructor('flexArea')
         +letoFlexAreas(75%)  
 
-.leto-two-thirds
+.#{$classPrefix}two-thirds
     +layoutConstructor('flexArea')
         +letoFlexAreas(calc((100% / 3) * 2))  
 
-.leto-five-eighths
+.#{$classPrefix}five-eighths
     +layoutConstructor('flexArea')
         +letoFlexAreas(62.5%)
 
-.leto-three-fifths
+.#{$classPrefix}three-fifths
     +layoutConstructor('flexArea')
         +letoFlexAreas(60%)     
 
-.leto-half
+.#{$classPrefix}half
     +layoutConstructor('flexArea')
         +letoFlexAreas(50%)
 
-.leto-three-sixths
+.#{$classPrefix}three-sixths
     +layoutConstructor('flexArea')
         +letoFlexAreas(calc((100% / 6) * 3))
 
-.leto-two-fifths
+.#{$classPrefix}two-fifths
     +layoutConstructor('flexArea')
         +letoFlexAreas(40%)
 
-.leto-three-eighths
+.#{$classPrefix}three-eighths
     +layoutConstructor('flexArea')
         +letoFlexAreas(37.5%)
     
-.leto-third
+.#{$classPrefix}third
     +layoutConstructor('flexArea')
         +letoFlexAreas(calc(100% / 3))
 
-.leto-quater
+.#{$classPrefix}quater
     +layoutConstructor('flexArea')
         +letoFlexAreas(25%)   
 
-.leto-fifth
+.#{$classPrefix}fifth
     +layoutConstructor('flexArea')
         +letoFlexAreas(20%)   
 
-.leto-sixth
+.#{$classPrefix}sixth
     +layoutConstructor('flexArea')
         +letoFlexAreas(calc(100% / 6))   
 
-.leto-eighth
+.#{$classPrefix}eighth
     +layoutConstructor('flexArea')
         +letoFlexAreas(12.5%)
 
 
 // Flex-shrink
 
-.leto-no-shrink
+.#{$classPrefix}no-shrink
     +layoutConstructor('shrink')
         flex-shrink: 0
 
 
 // Space
 
-.leto-space
+.#{$classPrefix}space
     +layoutConstructor('space')
         width: 100%
         height: calc($standardSize * 8)

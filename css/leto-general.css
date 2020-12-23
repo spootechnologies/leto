@@ -8,14 +8,14 @@ body {
   background-color: #fdfdfd;
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
-  color: #303030;
+  color: #333333;
   margin: 0;
   padding: 0;
 }
 
 .leto-frame-dark {
-  background-color: #303030;
-  color: #fdfdfd;
+  background-color: #262626;
+  color: #e6e6e6;
 }
 
 button {
@@ -52,7 +52,7 @@ select:focus {
 }
 
 a {
-  color: #738aff;
+  color: #6d83f2;
   text-decoration: none;
 }
 
@@ -71,4 +71,3 @@ h4, h5 {
 p, b {
   margin: 8px;
 }
-/*# sourceMappingURL=leto-general.css.map */

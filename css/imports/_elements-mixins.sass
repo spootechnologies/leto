@@ -389,7 +389,7 @@
     flex-direction: column
     display: inline-flex
 
-    > [class*=leto-bubble]
+    > [class*=bubble]
         margin-top: 0
         margin-left: auto
         margin-right: auto
@@ -398,17 +398,17 @@
     > label
         text-align: center
 
-    > [class*=leto-bubble] ~ label
+    > [class*=bubble] ~ label
         margin-top: $basicMargin
 
-    > label ~ [class*=leto-bubble]
+    > label ~ [class*=bubble]
         margin-top: $basicMargin
 
 =bubbleWrapperDy($value)
     $multiplier: getElementAttrVal('bubble', 'multiplier')
     width: $value * $multiplier
 
-    > .leto-bubble
+    > .#{$classPrefix}bubble
         height: $value * $multiplier
         width: $value * $multiplier
         font-size: $value * .75
@@ -431,7 +431,7 @@
     display: inline-flex
     overflow: hidden
 
-    > .leto-image-full
+    > .#{$classPrefix}image-full
         margin-top: -$basicMargin
         margin-left: -$basicMargin
         margin-right: -$basicMargin
@@ -451,7 +451,7 @@
     display: inline-flex
     overflow: hidden
 
-    > .leto-image-full
+    > .#{$classPrefix}image-full
         margin-top: -$basicMargin
         margin-left: -$basicMargin
         margin-right: -$basicMargin
@@ -464,7 +464,7 @@
     display: inline-flex
     overflow: hidden 
 
-    > .leto-image-full
+    > .#{$classPrefix}image-full
         margin-top: -$basicMargin
         margin-left: -$basicMargin
         margin-right: -$basicMargin
@@ -484,7 +484,7 @@
     flex-direction: column
     display: inline-flex
 
-    > [class*=leto-card]
+    > [class*=card]
         margin-top: 0
         margin-left: auto
         margin-right: auto
@@ -493,10 +493,10 @@
     > label
         text-align: center
 
-    > [class*=leto-card] ~ label
+    > [class*=card] ~ label
         margin-top: $basicMargin
 
-    > label ~ [class*=leto-card]
+    > label ~ [class*=card]
         margin-top: $basicMargin   
 
 
@@ -642,7 +642,7 @@
         &> span 
             +themedColor($borderColor, 'border-color');
 
-    [class*=leto-input]
+    [class*=input]
         background-color: transparent !important
         border: 0
         min-width: 0
@@ -651,7 +651,7 @@
         padding-left: 24px
         z-index: 1
 
-    //[class*=leto-input]:not(:placeholder-shown) + label span
+    //[class*=input]:not(:placeholder-shown) + label span
     //    opacity: 1
     //    text-indent: 0
 
@@ -661,7 +661,7 @@
         margin-top: -8px
         right: 8px
  
-    > select[class*=leto-input]
+    > select[class*=input]
         appearance: none
         background-color: transparent !important
         border: 0
@@ -951,7 +951,7 @@
     height: auto
     font-size: $fontSizeMD
     margin: $basicMargin
-    padding: 0 $basicPadding * 2
+    padding: $basicPadding $basicPadding * 2
 
     &:focus
         background-color: $colorLightGrey
@@ -995,13 +995,13 @@
         font-weight: $fontWeightBold
         text-align: left
 
-    tr:not(.leto-table-header)
+    tr:not(.#{$classPrefix}table-header)
 
         td
             border-top: 1px solid $colorGrey
             border-bottom: 1px solid $colorGrey
 
-    tr:not(.leto-table-header)
+    tr:not(.#{$classPrefix}table-header)
 
         td:first-child
             border-left: 1px solid $colorGrey
@@ -1015,12 +1015,12 @@
     td, th
         padding-left: $size / 1.5
 
-    tr:not(.leto-table-header)
+    tr:not(.#{$classPrefix}table-header)
 
         td
             padding: $size / 1.5
 
-    tr:not(.leto-table-header)
+    tr:not(.#{$classPrefix}table-header)
 
         td:first-child
             border-top-left-radius: $size / 1.5

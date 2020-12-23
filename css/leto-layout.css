@@ -1,4 +1,4 @@
-.leto-frame {
+.leto--frame {
   width: 100%;
 }
 
@@ -10,7 +10,7 @@
   padding: 8px;
 }
 
-.leto-container[class*="leto-scrollable"] {
+.leto-container[class*="scrollable"] {
   position: relative;
   width: 100%;
   height: 100%;
@@ -27,7 +27,7 @@
   padding: 8px;
 }
 
-.leto-container-full[class*="leto-scrollable"] {
+.leto-container-full[class*="scrollable"] {
   position: relative;
   width: 100%;
   height: 100%;
@@ -131,12 +131,12 @@
   display: flex;
 }
 
-[class*=leto-frame] > .leto-group > .leto-container > .leto-edge-top {
+[class*="frame"] > .leto-group > .leto-container > .leto-edge-top {
   margin-top: -8px;
 }
 
 @media (max-width: 1440px) {
-  [class*=leto-frame] > .leto-group > .leto-edge-left, [class*=leto-frame] > .leto-group > .leto-edge-right {
+  [class*="frame"] > .leto-group > .leto-edge-left, [class*="frame"] > .leto-group > .leto-edge-right {
     position: -webkit-sticky;
     position: sticky;
   }
@@ -2774,4 +2774,3 @@
   width: 100%;
   height: calc($xxl * 8);
 }
-/*# sourceMappingURL=leto-layout.css.map */

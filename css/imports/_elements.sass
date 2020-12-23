@@ -4,9 +4,9 @@
 
 // Bubble
 
-.leto-bubble
+.#{$classPrefix}bubble
     +elementConstructor('bubble')
-        +bubble()
+        +bubble() 
 
     +elementConstructorDy('bubble')
         +bubbleDy($standardSize) 
@@ -47,16 +47,16 @@
         +elementConstructorDy('bubble')
             +bubbleDy($xxl)
 
-[class*="leto-bubble"]
+[class*="bubble"]
     +elementThemeColors('bubble')
 
-[class*="leto-frame"] .leto-bubble
+[class*="frame"] .#{$classPrefix}bubble
     +presetConstructor('bubble')
 
     
 // Bubble wrapper
 
-.leto-bubble-wrapper
+.#{$classPrefix}bubble-wrapper
     +bubbleWrapper()
     
     +bubbleWrapperDy($standardSize)
@@ -88,7 +88,7 @@
 
 // Card
 
-.leto-card
+.#{$classPrefix}card
     +elementConstructor('card') 
         +cardAutoWidth()
 
@@ -163,22 +163,22 @@
             +elementConstructorDy('card')  
                 +cardSquareDy($xxl) 
 
-[class*="leto-card"]
+[class*="card"]
     +elementThemeColors('card')
 
-[class*="leto-frame"] .leto-card
+[class*="frame"] .#{$classPrefix}card
     +presetConstructor('card')
 
 
 // Card wrapper
 
-.leto-card-wrapper
+.#{$classPrefix}card-wrapper
     +cardWrapper()
 
 
 // Button
 
-.leto-button 
+.#{$classPrefix}button
     +elementConstructor('button')
         +button()
 
@@ -256,16 +256,16 @@
             +elementConstructorDy('button')
                 +buttonFullDy($xxl)
 
-[class*="leto-button"]
+[class*="button"]
     +elementThemeColors('button')
 
-[class*="leto-frame"] .leto-button
+[class*="frame"] .#{$classPrefix}button
     +presetConstructor('button')
 
 
 // Badge
 
-.leto-badge
+.#{$classPrefix}badge
     +elementConstructor('badge')
         +badge()
 
@@ -304,10 +304,10 @@
         +elementConstructorDy('badge') 
             +badgeDy($xxl)
 
-[class*="leto-badge"]
+[class*="badge"]
     +elementThemeColors('badge')
 
-[class*="leto-frame"] .leto-badge
+[class*="frame"] .#{$classPrefix}badge
     +presetConstructor('badge')
 
 =inputType()
@@ -316,7 +316,7 @@
 
 // Input
 
-.leto-input
+.#{$classPrefix}input
 
     +elementInputConstructor('input')
         +input()
@@ -356,12 +356,12 @@
         +elementInputConstructorDy('input')
             +inputDy($xxl)
 
-[class*="leto-input"]
+[class*="input"]
 
     &[type="text"], &[type="date"], &[type="datetime-local"], &[type="email"], &[type="month"], &[type="number"], &[type="password"], &[type="tel"], &[type="time"], &[type="url"], &[type="week"]
         +elementThemeColors('input')
 
-[class*="leto-frame"] .leto-input
+[class*="frame"] .#{$classPrefix}input
 
     &[type="text"], &[type="date"], &[type="datetime-local"], &[type="email"], &[type="month"], &[type="number"], &[type="password"], &[type="tel"], &[type="time"], &[type="url"], &[type="week"]
         +presetConstructor('input')
@@ -369,7 +369,7 @@
 
 // Input Radio
 
-.leto-input
+.#{$classPrefix}input
 
     &[type="radio"]
         +inputRadio()
@@ -401,12 +401,12 @@
     &-xxl[type="radio"]
         +inputRadioDy($xxl)
 
-[class*="leto-frame"] .leto-input
+[class*="frame"] .#{$classPrefix}input
     
     &[type="radio"]
         +presetConstructor('radio')
 
-[class*="leto-input"]
+[class*="input"]
 
     &[type="radio"]
         $bgColor: getElementAttrVal('radio', 'bg');
@@ -431,7 +431,7 @@
 
 // Input Checkbox
 
-.leto-input
+.#{$classPrefix}input
 
     &[type="checkbox"]
         +inputCheckbox()
@@ -463,12 +463,12 @@
     &-xxl[type="checkbox"]
         +inputCheckboxDy($xxl)
 
-[class*="leto-frame"] .leto-input
+[class*="frame"] .#{$classPrefix}input
     
     &[type="checkbox"]
         +presetConstructor('checkbox')
 
-[class*="leto-input"]
+[class*="input"]
 
     &[type="checkbox"]
         $bgColor: getElementAttrVal('checkbox', 'bg');
@@ -493,7 +493,7 @@
 
 // Input Color
 
-.leto-input
+.#{$classPrefix}input
 
     +elementInputConstructor('color')
         +inputColor()
@@ -533,12 +533,12 @@
         +elementInputConstructorDy('color')
             +inputColorDy($xxl)
     
-[class*="leto-input"]
+[class*="input"]
 
     &[type="color"]
         +elementThemeColors('input')
 
-[class*="leto-frame"] .leto-input
+[class*="frame"] .#{$classPrefix}input
     
     &[type="color"]
         +presetConstructor('color')
@@ -546,7 +546,7 @@
 
 // Input Image
 
-.leto-input // NOT USED
+.#{$classPrefix}input // NOT USED
 
     &[type="image"]
         +inputImage()
@@ -554,7 +554,7 @@
     
 // Range
 
-.leto-input // NOT USED
+.#{$classPrefix}input // NOT USED
 
     &[type=range]
         +range()
@@ -562,12 +562,12 @@
 
 // Input File
 
-.leto-file // NOT USED
+.#{$classPrefix}file // NOT USED
     +inputFile()  
 
 // Search
 
-.leto-input
+.#{$classPrefix}input
     
     +elementInputConstructor('search')
         +search()
@@ -607,12 +607,12 @@
         +elementInputConstructorDy('search')
             +searchDy($xxl)
 
-[class*="leto-input"]
+[class*="input"]
 
     &[type="search"]
         +elementThemeColors('search')
 
-[class*="leto-frame"] .leto-input
+[class*="frame"] .#{$classPrefix}input
     
     &[type="search"]
         +presetConstructor('search')
@@ -620,20 +620,20 @@
 
 // Textarea
 
-textarea[class*="leto-input"], .leto-textarea
+textarea.#{$classPrefix}input
     +elementConstructor('textarea')
         +textarea()
 
-textarea[class*="leto-input"]
+textarea[class*="input"]
     +elementThemeColors('textarea')
 
-[class*="leto-frame"] textarea[class*="leto-input"]
+[class*="frame"] textarea[class*="input"]
     +presetConstructor('textarea')
 
 
 // Select
 
-select.leto-input
+select.#{$classPrefix}input
     +elementConstructor('select')
         +select()
 
@@ -672,22 +672,22 @@ select.leto-input
         +elementConstructorDy('select')
             +selectDy($xxl)
 
-select[class*="leto-input"]
+select[class*="input"]
     +elementThemeColors('select')
 
-[class*="leto-frame"] select[class*="leto-input"]
+[class*="frame"] select[class*="input"]
     +presetConstructor('select')
 
     
 // Input Wrapper
 
-.leto-input-wrapper
+.#{$classPrefix}input-wrapper
     +inputWrapper()
 
 
 // Table
 
-.leto-table
+.#{$classPrefix}table
     +table()
 
     +tableDy($standardSize)
@@ -719,14 +719,14 @@ select[class*="leto-input"]
 
 // Wrapper
 
-.leto-wrapper // Not Used
+.#{$classPrefix}wrapper// Not Used
     flex-direction: column
     display: inline-flex
 
 
 // Header 
     
-.leto-header // Not Used
+.#{$classPrefix}header // Not Used
     font-weight: $fontWeightMedium
     align-items: center
     flex-direction: row
@@ -735,7 +735,7 @@ select[class*="leto-input"]
 
 // Image
 
-.leto-image
+.#{$classPrefix}image
 
     &-full
         max-height: auto
@@ -744,7 +744,7 @@ select[class*="leto-input"]
 
 // Pile
 
-.leto-pile
+.#{$classPrefix}pile
     +elementConstructor('pile')
         margin: $basicMargin
         padding: $basicPadding
@@ -757,16 +757,16 @@ select[class*="leto-input"]
             padding: $basicPadding
             display: block
 
-[class*="leto-pile"]
+[class*="pile"]
     +elementThemeColors('pile')
 
-[class*="leto-frame"] .leto-pile
+[class*="frame"] .#{$classPrefix}pile
     +presetConstructor('pile')
 
 
 // Form
  
-.leto-form
+.#{$classPrefix}form
     +elementConstructor('form')
         position: fixed
         width: calc(100% - #{$basicPadding})
@@ -813,16 +813,16 @@ select[class*="leto-input"]
         &-left, &-right
             width: 50vw
 
-[class*="leto-form"]
+[class*="form"]
     +elementThemeColors('form')
 
-[class*="leto-frame"] .leto-form
+[class*="frame"] .#{$classPrefix}form
     +presetConstructor('form')
 
 
 // Backdrop
 
-.leto-backdrop
+.#{$classPrefix}backdrop
     position: fixed
     left: 0
     top: 0
@@ -835,14 +835,14 @@ select[class*="leto-input"]
 
 // Toast
 
-.leto-toast
+.#{$classPrefix}toast
     +toastPos($toastColor, $colorWhite)
 
-.leto-toast-success
+.#{$classPrefix}toast-success
     +toastPos($colorGreen, $colorBlack)
 
-.leto-toast-warning
+.#{$classPrefix}toast-warning
     +toastPos($colorOrange, $colorBlack)
 
-.leto-toast-error
+.#{$classPrefix}toast-error
     +toastPos($colorRed, $colorBlack)

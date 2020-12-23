@@ -72,7 +72,7 @@ $colors: (
     @each $theme, $map in $colors {
         @each $color, $cMap in $map {
             @if $theme == '' {
-                .leto-frame#{$theme} &-#{$color}, .leto-frame#{$theme} &-#{$color}-themed {
+                .#{$classPrefix}frame#{$theme} &-#{$color}, .#{$classPrefix}frame#{$theme} &-#{$color}-themed {
                     $value: map-get(map-get($colors, $theme), '#{$color}');
                     @include transformerConstructor($type){
                         #{$attributeName}: $value;     
@@ -80,7 +80,7 @@ $colors: (
                 }
             }
             @if $theme == '-dark' {
-                .leto-frame#{$theme} &-#{$color}, .leto-frame#{$theme} &-#{$color}-themed {
+                .#{$classPrefix}frame#{$theme} &-#{$color}, .#{$classPrefix}frame#{$theme} &-#{$color}-themed {
                     $value: map-get(map-get($colors, $theme), '#{$color}');
                     @include transformerConstructor($type){
                         #{$attributeName}: $value;     
@@ -95,7 +95,7 @@ $colors: (
     @each $theme, $map in $colors {
         @each $color, $cMap in $map {
             @if $theme == '' {
-                .leto-frame#{$theme} &-#{$color}-lm{
+                .#{$classPrefix}frame#{$theme} &-#{$color}-lm{
                     $value: map-get(map-get($colors, $theme), '#{$color}');
                     @include transformerConstructor($type){
                         #{$attributeName}: $value;     
@@ -103,7 +103,7 @@ $colors: (
                 }
             }
             @if $theme == '-dark' {
-                .leto-frame#{$theme} &-#{$color}-dm{
+                .#{$classPrefix}frame#{$theme} &-#{$color}-dm{
                     $value: map-get(map-get($colors, $theme), '#{$color}');
                     @include transformerConstructor($type){
                         #{$attributeName}: $value;     

@@ -740,26 +740,26 @@ p, b {
   }
 }
 
-.leto-frame [class*="leto-bubble"] {
+.leto-frame [class*="bubble"] {
   color: #333333;
 }
 
-.leto-frame-dark [class*="leto-bubble"] {
+.leto-frame-dark [class*="bubble"] {
   color: #e6e6e6;
 }
 
-.leto-frame-dark [class*="leto-bubble"] {
+.leto-frame-dark [class*="bubble"] {
   border-color: #808080;
 }
 
-[class*="leto-frame"] .leto-bubble-white {
+[class*="frame"] .leto-bubble-white {
   background: transparent;
   color: #fdfdfd;
   border-color: #fdfdfd;
 }
 
 @media (min-width: 600px) {
-  [class*="leto-frame"] .leto-bubble-white-tablet {
+  [class*="frame"] .leto-bubble-white-tablet {
     background: transparent;
     color: #fdfdfd;
     border-color: #fdfdfd;
@@ -767,7 +767,7 @@ p, b {
 }
 
 @media (min-width: 1024px) {
-  [class*="leto-frame"] .leto-bubble-white-tablet-pc {
+  [class*="frame"] .leto-bubble-white-tablet-pc {
     background: transparent;
     color: #fdfdfd;
     border-color: #fdfdfd;
@@ -775,7 +775,7 @@ p, b {
 }
 
 @media (min-width: 1024px) and ((pointer: coarse)) {
-  [class*="leto-frame"] .leto-bubble-white-tablet-pc {
+  [class*="frame"] .leto-bubble-white-tablet-pc {
     background: transparent;
     color: #fdfdfd;
     border-color: #fdfdfd;
@@ -783,7 +783,7 @@ p, b {
 }
 
 @media (min-width: 1440px) {
-  [class*="leto-frame"] .leto-bubble-white-pc {
+  [class*="frame"] .leto-bubble-white-pc {
     background: transparent;
     color: #fdfdfd;
     border-color: #fdfdfd;
@@ -791,7 +791,7 @@ p, b {
 }
 
 @media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
-  [class*="leto-frame"] .leto-bubble-white-ultrawide {
+  [class*="frame"] .leto-bubble-white-ultrawide {
     background: transparent;
     color: #fdfdfd;
     border-color: #fdfdfd;
@@ -799,21 +799,21 @@ p, b {
 }
 
 @media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
-  [class*="leto-frame"] .leto-bubble-white-super-ultrawide {
+  [class*="frame"] .leto-bubble-white-super-ultrawide {
     background: transparent;
     color: #fdfdfd;
     border-color: #fdfdfd;
   }
 }
 
-[class*="leto-frame"] .leto-bubble-dark-white {
+[class*="frame"] .leto-bubble-dark-white {
   background: transparent;
   color: #f2f2f2;
   border-color: #f2f2f2;
 }
 
 @media (min-width: 600px) {
-  [class*="leto-frame"] .leto-bubble-dark-white-tablet {
+  [class*="frame"] .leto-bubble-dark-white-tablet {
     background: transparent;
     color: #f2f2f2;
     border-color: #f2f2f2;
@@ -821,7 +821,7 @@ p, b {
 }
 
 @media (min-width: 1024px) {
-  [class*="leto-frame"] .leto-bubble-dark-white-tablet-pc {
+  [class*="frame"] .leto-bubble-dark-white-tablet-pc {
     background: transparent;
     color: #f2f2f2;
     border-color: #f2f2f2;
@@ -829,7 +829,7 @@ p, b {
 }
 
 @media (min-width: 1024px) and ((pointer: coarse)) {
-  [class*="leto-frame"] .leto-bubble-dark-white-tablet-pc {
+  [class*="frame"] .leto-bubble-dark-white-tablet-pc {
     background: transparent;
     color: #f2f2f2;
     border-color: #f2f2f2;
@@ -837,7 +837,7 @@ p, b {
 }
 
 @media (min-width: 1440px) {
-  [class*="leto-frame"] .leto-bubble-dark-white-pc {
+  [class*="frame"] .leto-bubble-dark-white-pc {
     background: transparent;
     color: #f2f2f2;
     border-color: #f2f2f2;
@@ -845,7 +845,7 @@ p, b {
 }
 
 @media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
-  [class*="leto-frame"] .leto-bubble-dark-white-ultrawide {
+  [class*="frame"] .leto-bubble-dark-white-ultrawide {
     background: transparent;
     color: #f2f2f2;
     border-color: #f2f2f2;
@@ -853,21 +853,21 @@ p, b {
 }
 
 @media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
-  [class*="leto-frame"] .leto-bubble-dark-white-super-ultrawide {
+  [class*="frame"] .leto-bubble-dark-white-super-ultrawide {
     background: transparent;
     color: #f2f2f2;
     border-color: #f2f2f2;
   }
 }
 
-[class*="leto-frame"] .leto-bubble-grey {
+[class*="frame"] .leto-bubble-grey {
   background: transparent;
   color: #cccccc;
   border-color: #cccccc;
 }
 
 @media (min-width: 600px) {
-  [class*="leto-frame"] .leto-bubble-grey-tablet {
+  [class*="frame"] .leto-bubble-grey-tablet {
     background: transparent;
     color: #cccccc;
     border-color: #cccccc;
@@ -875,7 +875,7 @@ p, b {
 }
 
 @media (min-width: 1024px) {
-  [class*="leto-frame"] .leto-bubble-grey-tablet-pc {
+  [class*="frame"] .leto-bubble-grey-tablet-pc {
     background: transparent;
     color: #cccccc;
     border-color: #cccccc;
@@ -883,7 +883,7 @@ p, b {
 }
 
 @media (min-width: 1024px) and ((pointer: coarse)) {
-  [class*="leto-frame"] .leto-bubble-grey-tablet-pc {
+  [class*="frame"] .leto-bubble-grey-tablet-pc {
     background: transparent;
     color: #cccccc;
     border-color: #cccccc;
@@ -891,7 +891,7 @@ p, b {
 }
 
 @media (min-width: 1440px) {
-  [class*="leto-frame"] .leto-bubble-grey-pc {
+  [class*="frame"] .leto-bubble-grey-pc {
     background: transparent;
     color: #cccccc;
     border-color: #cccccc;
@@ -899,7 +899,7 @@ p, b {
 }
 
 @media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
-  [class*="leto-frame"] .leto-bubble-grey-ultrawide {
+  [class*="frame"] .leto-bubble-grey-ultrawide {
     background: transparent;
     color: #cccccc;
     border-color: #cccccc;
@@ -907,21 +907,21 @@ p, b {
 }
 
 @media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
-  [class*="leto-frame"] .leto-bubble-grey-super-ultrawide {
+  [class*="frame"] .leto-bubble-grey-super-ultrawide {
     background: transparent;
     color: #cccccc;
     border-color: #cccccc;
   }
 }
 
-[class*="leto-frame"] .leto-bubble-light-grey {
+[class*="frame"] .leto-bubble-light-grey {
   background: transparent;
   color: #d9d9d9;
   border-color: #d9d9d9;
 }
 
 @media (min-width: 600px) {
-  [class*="leto-frame"] .leto-bubble-light-grey-tablet {
+  [class*="frame"] .leto-bubble-light-grey-tablet {
     background: transparent;
     color: #d9d9d9;
     border-color: #d9d9d9;
@@ -929,7 +929,7 @@ p, b {
 }
 
 @media (min-width: 1024px) {
-  [class*="leto-frame"] .leto-bubble-light-grey-tablet-pc {
+  [class*="frame"] .leto-bubble-light-grey-tablet-pc {
     background: transparent;
     color: #d9d9d9;
     border-color: #d9d9d9;
@@ -937,7 +937,7 @@ p, b {
 }
 
 @media (min-width: 1024px) and ((pointer: coarse)) {
-  [class*="leto-frame"] .leto-bubble-light-grey-tablet-pc {
+  [class*="frame"] .leto-bubble-light-grey-tablet-pc {
     background: transparent;
     color: #d9d9d9;
     border-color: #d9d9d9;
@@ -945,7 +945,7 @@ p, b {
 }
 
 @media (min-width: 1440px) {
-  [class*="leto-frame"] .leto-bubble-light-grey-pc {
+  [class*="frame"] .leto-bubble-light-grey-pc {
     background: transparent;
     color: #d9d9d9;
     border-color: #d9d9d9;
@@ -953,7 +953,7 @@ p, b {
 }
 
 @media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
-  [class*="leto-frame"] .leto-bubble-light-grey-ultrawide {
+  [class*="frame"] .leto-bubble-light-grey-ultrawide {
     background: transparent;
     color: #d9d9d9;
     border-color: #d9d9d9;
@@ -961,21 +961,21 @@ p, b {
 }
 
 @media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
-  [class*="leto-frame"] .leto-bubble-light-grey-super-ultrawide {
+  [class*="frame"] .leto-bubble-light-grey-super-ultrawide {
     background: transparent;
     color: #d9d9d9;
     border-color: #d9d9d9;
   }
 }
 
-[class*="leto-frame"] .leto-bubble-lighter-grey {
+[class*="frame"] .leto-bubble-lighter-grey {
   background: transparent;
   color: #e6e6e6;
   border-color: #e6e6e6;
 }
 
 @media (min-width: 600px) {
-  [class*="leto-frame"] .leto-bubble-lighter-grey-tablet {
+  [class*="frame"] .leto-bubble-lighter-grey-tablet {
     background: transparent;
     color: #e6e6e6;
     border-color: #e6e6e6;
@@ -983,7 +983,7 @@ p, b {
 }
 
 @media (min-width: 1024px) {
-  [class*="leto-frame"] .leto-bubble-lighter-grey-tablet-pc {
+  [class*="frame"] .leto-bubble-lighter-grey-tablet-pc {
     background: transparent;
     color: #e6e6e6;
     border-color: #e6e6e6;
@@ -991,7 +991,7 @@ p, b {
 }
 
 @media (min-width: 1024px) and ((pointer: coarse)) {
-  [class*="leto-frame"] .leto-bubble-lighter-grey-tablet-pc {
+  [class*="frame"] .leto-bubble-lighter-grey-tablet-pc {
     background: transparent;
     color: #e6e6e6;
     border-color: #e6e6e6;
@@ -999,7 +999,7 @@ p, b {
 }
 
 @media (min-width: 1440px) {
-  [class*="leto-frame"] .leto-bubble-lighter-grey-pc {
+  [class*="frame"] .leto-bubble-lighter-grey-pc {
     background: transparent;
     color: #e6e6e6;
     border-color: #e6e6e6;
@@ -1007,7 +1007,7 @@ p, b {
 }
 
 @media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
-  [class*="leto-frame"] .leto-bubble-lighter-grey-ultrawide {
+  [class*="frame"] .leto-bubble-lighter-grey-ultrawide {
     background: transparent;
     color: #e6e6e6;
     border-color: #e6e6e6;
@@ -1015,21 +1015,21 @@ p, b {
 }
 
 @media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
-  [class*="leto-frame"] .leto-bubble-lighter-grey-super-ultrawide {
+  [class*="frame"] .leto-bubble-lighter-grey-super-ultrawide {
     background: transparent;
     color: #e6e6e6;
     border-color: #e6e6e6;
   }
 }
 
-[class*="leto-frame"] .leto-bubble-dark-grey {
+[class*="frame"] .leto-bubble-dark-grey {
   background: transparent;
   color: #a6a6a6;
   border-color: #a6a6a6;
 }
 
 @media (min-width: 600px) {
-  [class*="leto-frame"] .leto-bubble-dark-grey-tablet {
+  [class*="frame"] .leto-bubble-dark-grey-tablet {
     background: transparent;
     color: #a6a6a6;
     border-color: #a6a6a6;
@@ -1037,7 +1037,7 @@ p, b {
 }
 
 @media (min-width: 1024px) {
-  [class*="leto-frame"] .leto-bubble-dark-grey-tablet-pc {
+  [class*="frame"] .leto-bubble-dark-grey-tablet-pc {
     background: transparent;
     color: #a6a6a6;
     border-color: #a6a6a6;
@@ -1045,7 +1045,7 @@ p, b {
 }
 
 @media (min-width: 1024px) and ((pointer: coarse)) {
-  [class*="leto-frame"] .leto-bubble-dark-grey-tablet-pc {
+  [class*="frame"] .leto-bubble-dark-grey-tablet-pc {
     background: transparent;
     color: #a6a6a6;
     border-color: #a6a6a6;
@@ -1053,7 +1053,7 @@ p, b {
 }
 
 @media (min-width: 1440px) {
-  [class*="leto-frame"] .leto-bubble-dark-grey-pc {
+  [class*="frame"] .leto-bubble-dark-grey-pc {
     background: transparent;
     color: #a6a6a6;
     border-color: #a6a6a6;
@@ -1061,7 +1061,7 @@ p, b {
 }
 
 @media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
-  [class*="leto-frame"] .leto-bubble-dark-grey-ultrawide {
+  [class*="frame"] .leto-bubble-dark-grey-ultrawide {
     background: transparent;
     color: #a6a6a6;
     border-color: #a6a6a6;
@@ -1069,21 +1069,21 @@ p, b {
 }
 
 @media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
-  [class*="leto-frame"] .leto-bubble-dark-grey-super-ultrawide {
+  [class*="frame"] .leto-bubble-dark-grey-super-ultrawide {
     background: transparent;
     color: #a6a6a6;
     border-color: #a6a6a6;
   }
 }
 
-[class*="leto-frame"] .leto-bubble-darker-grey {
+[class*="frame"] .leto-bubble-darker-grey {
   background: transparent;
   color: #808080;
   border-color: #808080;
 }
 
 @media (min-width: 600px) {
-  [class*="leto-frame"] .leto-bubble-darker-grey-tablet {
+  [class*="frame"] .leto-bubble-darker-grey-tablet {
     background: transparent;
     color: #808080;
     border-color: #808080;
@@ -1091,7 +1091,7 @@ p, b {
 }
 
 @media (min-width: 1024px) {
-  [class*="leto-frame"] .leto-bubble-darker-grey-tablet-pc {
+  [class*="frame"] .leto-bubble-darker-grey-tablet-pc {
     background: transparent;
     color: #808080;
     border-color: #808080;
@@ -1099,7 +1099,7 @@ p, b {
 }
 
 @media (min-width: 1024px) and ((pointer: coarse)) {
-  [class*="leto-frame"] .leto-bubble-darker-grey-tablet-pc {
+  [class*="frame"] .leto-bubble-darker-grey-tablet-pc {
     background: transparent;
     color: #808080;
     border-color: #808080;
@@ -1107,7 +1107,7 @@ p, b {
 }
 
 @media (min-width: 1440px) {
-  [class*="leto-frame"] .leto-bubble-darker-grey-pc {
+  [class*="frame"] .leto-bubble-darker-grey-pc {
     background: transparent;
     color: #808080;
     border-color: #808080;
@@ -1115,7 +1115,7 @@ p, b {
 }
 
 @media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
-  [class*="leto-frame"] .leto-bubble-darker-grey-ultrawide {
+  [class*="frame"] .leto-bubble-darker-grey-ultrawide {
     background: transparent;
     color: #808080;
     border-color: #808080;
@@ -1123,21 +1123,21 @@ p, b {
 }
 
 @media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
-  [class*="leto-frame"] .leto-bubble-darker-grey-super-ultrawide {
+  [class*="frame"] .leto-bubble-darker-grey-super-ultrawide {
     background: transparent;
     color: #808080;
     border-color: #808080;
   }
 }
 
-[class*="leto-frame"] .leto-bubble-yellow {
+[class*="frame"] .leto-bubble-yellow {
   background: transparent;
   color: #f2e76d;
   border-color: #f2e76d;
 }
 
 @media (min-width: 600px) {
-  [class*="leto-frame"] .leto-bubble-yellow-tablet {
+  [class*="frame"] .leto-bubble-yellow-tablet {
     background: transparent;
     color: #f2e76d;
     border-color: #f2e76d;
@@ -1145,7 +1145,7 @@ p, b {
 }
 
 @media (min-width: 1024px) {
-  [class*="leto-frame"] .leto-bubble-yellow-tablet-pc {
+  [class*="frame"] .leto-bubble-yellow-tablet-pc {
     background: transparent;
     color: #f2e76d;
     border-color: #f2e76d;
@@ -1153,7 +1153,7 @@ p, b {
 }
 
 @media (min-width: 1024px) and ((pointer: coarse)) {
-  [class*="leto-frame"] .leto-bubble-yellow-tablet-pc {
+  [class*="frame"] .leto-bubble-yellow-tablet-pc {
     background: transparent;
     color: #f2e76d;
     border-color: #f2e76d;
@@ -1161,7 +1161,7 @@ p, b {
 }
 
 @media (min-width: 1440px) {
-  [class*="leto-frame"] .leto-bubble-yellow-pc {
+  [class*="frame"] .leto-bubble-yellow-pc {
     background: transparent;
     color: #f2e76d;
     border-color: #f2e76d;
@@ -1169,7 +1169,7 @@ p, b {
 }
 
 @media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
-  [class*="leto-frame"] .leto-bubble-yellow-ultrawide {
+  [class*="frame"] .leto-bubble-yellow-ultrawide {
     background: transparent;
     color: #f2e76d;
     border-color: #f2e76d;
@@ -1177,21 +1177,21 @@ p, b {
 }
 
 @media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
-  [class*="leto-frame"] .leto-bubble-yellow-super-ultrawide {
+  [class*="frame"] .leto-bubble-yellow-super-ultrawide {
     background: transparent;
     color: #f2e76d;
     border-color: #f2e76d;
   }
 }
 
-[class*="leto-frame"] .leto-bubble-light-yellow {
+[class*="frame"] .leto-bubble-light-yellow {
   background: transparent;
   color: #f8f3b3;
   border-color: #f8f3b3;
 }
 
 @media (min-width: 600px) {
-  [class*="leto-frame"] .leto-bubble-light-yellow-tablet {
+  [class*="frame"] .leto-bubble-light-yellow-tablet {
     background: transparent;
     color: #f8f3b3;
     border-color: #f8f3b3;
@@ -1199,7 +1199,7 @@ p, b {
 }
 
 @media (min-width: 1024px) {
-  [class*="leto-frame"] .leto-bubble-light-yellow-tablet-pc {
+  [class*="frame"] .leto-bubble-light-yellow-tablet-pc {
     background: transparent;
     color: #f8f3b3;
     border-color: #f8f3b3;
@@ -1207,7 +1207,7 @@ p, b {
 }
 
 @media (min-width: 1024px) and ((pointer: coarse)) {
-  [class*="leto-frame"] .leto-bubble-light-yellow-tablet-pc {
+  [class*="frame"] .leto-bubble-light-yellow-tablet-pc {
     background: transparent;
     color: #f8f3b3;
     border-color: #f8f3b3;
@@ -1215,7 +1215,7 @@ p, b {
 }
 
 @media (min-width: 1440px) {
-  [class*="leto-frame"] .leto-bubble-light-yellow-pc {
+  [class*="frame"] .leto-bubble-light-yellow-pc {
     background: transparent;
     color: #f8f3b3;
     border-color: #f8f3b3;
@@ -1223,7 +1223,7 @@ p, b {
 }
 
 @media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
-  [class*="leto-frame"] .leto-bubble-light-yellow-ultrawide {
+  [class*="frame"] .leto-bubble-light-yellow-ultrawide {
     background: transparent;
     color: #f8f3b3;
     border-color: #f8f3b3;
@@ -1231,21 +1231,21 @@ p, b {
 }
 
 @media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
-  [class*="leto-frame"] .leto-bubble-light-yellow-super-ultrawide {
+  [class*="frame"] .leto-bubble-light-yellow-super-ultrawide {
     background: transparent;
     color: #f8f3b3;
     border-color: #f8f3b3;
   }
 }
 
-[class*="leto-frame"] .leto-bubble-dark-yellow {
+[class*="frame"] .leto-bubble-dark-yellow {
   background: transparent;
   color: #ecdb27;
   border-color: #ecdb27;
 }
 
 @media (min-width: 600px) {
-  [class*="leto-frame"] .leto-bubble-dark-yellow-tablet {
+  [class*="frame"] .leto-bubble-dark-yellow-tablet {
     background: transparent;
     color: #ecdb27;
     border-color: #ecdb27;
@@ -1253,7 +1253,7 @@ p, b {
 }
 
 @media (min-width: 1024px) {
-  [class*="leto-frame"] .leto-bubble-dark-yellow-tablet-pc {
+  [class*="frame"] .leto-bubble-dark-yellow-tablet-pc {
     background: transparent;
     color: #ecdb27;
     border-color: #ecdb27;
@@ -1261,7 +1261,7 @@ p, b {
 }
 
 @media (min-width: 1024px) and ((pointer: coarse)) {
-  [class*="leto-frame"] .leto-bubble-dark-yellow-tablet-pc {
+  [class*="frame"] .leto-bubble-dark-yellow-tablet-pc {
     background: transparent;
     color: #ecdb27;
     border-color: #ecdb27;
@@ -1269,7 +1269,7 @@ p, b {
 }
 
 @media (min-width: 1440px) {
-  [class*="leto-frame"] .leto-bubble-dark-yellow-pc {
+  [class*="frame"] .leto-bubble-dark-yellow-pc {
     background: transparent;
     color: #ecdb27;
     border-color: #ecdb27;
@@ -1277,7 +1277,7 @@ p, b {
 }
 
 @media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
-  [class*="leto-frame"] .leto-bubble-dark-yellow-ultrawide {
+  [class*="frame"] .leto-bubble-dark-yellow-ultrawide {
     background: transparent;
     color: #ecdb27;
     border-color: #ecdb27;
@@ -1285,21 +1285,21 @@ p, b {
 }
 
 @media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
-  [class*="leto-frame"] .leto-bubble-dark-yellow-super-ultrawide {
+  [class*="frame"] .leto-bubble-dark-yellow-super-ultrawide {
     background: transparent;
     color: #ecdb27;
     border-color: #ecdb27;
   }
 }
 
-[class*="leto-frame"] .leto-bubble-orange {
+[class*="frame"] .leto-bubble-orange {
   background: transparent;
   color: #f29655;
   border-color: #f29655;
 }
 
 @media (min-width: 600px) {
-  [class*="leto-frame"] .leto-bubble-orange-tablet {
+  [class*="frame"] .leto-bubble-orange-tablet {
     background: transparent;
     color: #f29655;
     border-color: #f29655;
@@ -1307,7 +1307,7 @@ p, b {
 }
 
 @media (min-width: 1024px) {
-  [class*="leto-frame"] .leto-bubble-orange-tablet-pc {
+  [class*="frame"] .leto-bubble-orange-tablet-pc {
     background: transparent;
     color: #f29655;
     border-color: #f29655;
@@ -1315,7 +1315,7 @@ p, b {
 }
 
 @media (min-width: 1024px) and ((pointer: coarse)) {
-  [class*="leto-frame"] .leto-bubble-orange-tablet-pc {
+  [class*="frame"] .leto-bubble-orange-tablet-pc {
     background: transparent;
     color: #f29655;
     border-color: #f29655;
@@ -1323,7 +1323,7 @@ p, b {
 }
 
 @media (min-width: 1440px) {
-  [class*="leto-frame"] .leto-bubble-orange-pc {
+  [class*="frame"] .leto-bubble-orange-pc {
     background: transparent;
     color: #f29655;
     border-color: #f29655;
@@ -1331,7 +1331,7 @@ p, b {
 }
 
 @media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
-  [class*="leto-frame"] .leto-bubble-orange-ultrawide {
+  [class*="frame"] .leto-bubble-orange-ultrawide {
     background: transparent;
     color: #f29655;
     border-color: #f29655;
@@ -1339,21 +1339,21 @@ p, b {
 }
 
 @media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
-  [class*="leto-frame"] .leto-bubble-orange-super-ultrawide {
+  [class*="frame"] .leto-bubble-orange-super-ultrawide {
     background: transparent;
     color: #f29655;
     border-color: #f29655;
   }
 }
 
-[class*="leto-frame"] .leto-bubble-light-orange {
+[class*="frame"] .leto-bubble-light-orange {
   background: transparent;
   color: #f7c29c;
   border-color: #f7c29c;
 }
 
 @media (min-width: 600px) {
-  [class*="leto-frame"] .leto-bubble-light-orange-tablet {
+  [class*="frame"] .leto-bubble-light-orange-tablet {
     background: transparent;
     color: #f7c29c;
     border-color: #f7c29c;
@@ -1361,7 +1361,7 @@ p, b {
 }
 
 @media (min-width: 1024px) {
-  [class*="leto-frame"] .leto-bubble-light-orange-tablet-pc {
+  [class*="frame"] .leto-bubble-light-orange-tablet-pc {
     background: transparent;
     color: #f7c29c;
     border-color: #f7c29c;
@@ -1369,7 +1369,7 @@ p, b {
 }
 
 @media (min-width: 1024px) and ((pointer: coarse)) {
-  [class*="leto-frame"] .leto-bubble-light-orange-tablet-pc {
+  [class*="frame"] .leto-bubble-light-orange-tablet-pc {
     background: transparent;
     color: #f7c29c;
     border-color: #f7c29c;
@@ -1377,7 +1377,7 @@ p, b {
 }
 
 @media (min-width: 1440px) {
-  [class*="leto-frame"] .leto-bubble-light-orange-pc {
+  [class*="frame"] .leto-bubble-light-orange-pc {
     background: transparent;
     color: #f7c29c;
     border-color: #f7c29c;
@@ -1385,7 +1385,7 @@ p, b {
 }
 
 @media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
-  [class*="leto-frame"] .leto-bubble-light-orange-ultrawide {
+  [class*="frame"] .leto-bubble-light-orange-ultrawide {
     background: transparent;
     color: #f7c29c;
     border-color: #f7c29c;
@@ -1393,21 +1393,21 @@ p, b {
 }
 
 @media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
-  [class*="leto-frame"] .leto-bubble-light-orange-super-ultrawide {
+  [class*="frame"] .leto-bubble-light-orange-super-ultrawide {
     background: transparent;
     color: #f7c29c;
     border-color: #f7c29c;
   }
 }
 
-[class*="leto-frame"] .leto-bubble-dark-orange {
+[class*="frame"] .leto-bubble-dark-orange {
   background: transparent;
   color: #e96b12;
   border-color: #e96b12;
 }
 
 @media (min-width: 600px) {
-  [class*="leto-frame"] .leto-bubble-dark-orange-tablet {
+  [class*="frame"] .leto-bubble-dark-orange-tablet {
     background: transparent;
     color: #e96b12;
     border-color: #e96b12;
@@ -1415,7 +1415,7 @@ p, b {
 }
 
 @media (min-width: 1024px) {
-  [class*="leto-frame"] .leto-bubble-dark-orange-tablet-pc {
+  [class*="frame"] .leto-bubble-dark-orange-tablet-pc {
     background: transparent;
     color: #e96b12;
     border-color: #e96b12;
@@ -1423,7 +1423,7 @@ p, b {
 }
 
 @media (min-width: 1024px) and ((pointer: coarse)) {
-  [class*="leto-frame"] .leto-bubble-dark-orange-tablet-pc {
+  [class*="frame"] .leto-bubble-dark-orange-tablet-pc {
     background: transparent;
     color: #e96b12;
     border-color: #e96b12;
@@ -1431,7 +1431,7 @@ p, b {
 }
 
 @media (min-width: 1440px) {
-  [class*="leto-frame"] .leto-bubble-dark-orange-pc {
+  [class*="frame"] .leto-bubble-dark-orange-pc {
     background: transparent;
     color: #e96b12;
     border-color: #e96b12;
@@ -1439,7 +1439,7 @@ p, b {
 }
 
 @media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
-  [class*="leto-frame"] .leto-bubble-dark-orange-ultrawide {
+  [class*="frame"] .leto-bubble-dark-orange-ultrawide {
     background: transparent;
     color: #e96b12;
     border-color: #e96b12;
@@ -1447,21 +1447,21 @@ p, b {
 }
 
 @media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
-  [class*="leto-frame"] .leto-bubble-dark-orange-super-ultrawide {
+  [class*="frame"] .leto-bubble-dark-orange-super-ultrawide {
     background: transparent;
     color: #e96b12;
     border-color: #e96b12;
   }
 }
 
-[class*="leto-frame"] .leto-bubble-red {
+[class*="frame"] .leto-bubble-red {
   background: transparent;
   color: #f2616d;
   border-color: #f2616d;
 }
 
 @media (min-width: 600px) {
-  [class*="leto-frame"] .leto-bubble-red-tablet {
+  [class*="frame"] .leto-bubble-red-tablet {
     background: transparent;
     color: #f2616d;
     border-color: #f2616d;
@@ -1469,7 +1469,7 @@ p, b {
 }
 
 @media (min-width: 1024px) {
-  [class*="leto-frame"] .leto-bubble-red-tablet-pc {
+  [class*="frame"] .leto-bubble-red-tablet-pc {
     background: transparent;
     color: #f2616d;
     border-color: #f2616d;
@@ -1477,7 +1477,7 @@ p, b {
 }
 
 @media (min-width: 1024px) and ((pointer: coarse)) {
-  [class*="leto-frame"] .leto-bubble-red-tablet-pc {
+  [class*="frame"] .leto-bubble-red-tablet-pc {
     background: transparent;
     color: #f2616d;
     border-color: #f2616d;
@@ -1485,7 +1485,7 @@ p, b {
 }
 
 @media (min-width: 1440px) {
-  [class*="leto-frame"] .leto-bubble-red-pc {
+  [class*="frame"] .leto-bubble-red-pc {
     background: transparent;
     color: #f2616d;
     border-color: #f2616d;
@@ -1493,7 +1493,7 @@ p, b {
 }
 
 @media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
-  [class*="leto-frame"] .leto-bubble-red-ultrawide {
+  [class*="frame"] .leto-bubble-red-ultrawide {
     background: transparent;
     color: #f2616d;
     border-color: #f2616d;
@@ -1501,21 +1501,21 @@ p, b {
 }
 
 @media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
-  [class*="leto-frame"] .leto-bubble-red-super-ultrawide {
+  [class*="frame"] .leto-bubble-red-super-ultrawide {
     background: transparent;
     color: #f2616d;
     border-color: #f2616d;
   }
 }
 
-[class*="leto-frame"] .leto-bubble-light-red {
+[class*="frame"] .leto-bubble-light-red {
   background: transparent;
   color: #f8a8ae;
   border-color: #f8a8ae;
 }
 
 @media (min-width: 600px) {
-  [class*="leto-frame"] .leto-bubble-light-red-tablet {
+  [class*="frame"] .leto-bubble-light-red-tablet {
     background: transparent;
     color: #f8a8ae;
     border-color: #f8a8ae;
@@ -1523,7 +1523,7 @@ p, b {
 }
 
 @media (min-width: 1024px) {
-  [class*="leto-frame"] .leto-bubble-light-red-tablet-pc {
+  [class*="frame"] .leto-bubble-light-red-tablet-pc {
     background: transparent;
     color: #f8a8ae;
     border-color: #f8a8ae;
@@ -1531,7 +1531,7 @@ p, b {
 }
 
 @media (min-width: 1024px) and ((pointer: coarse)) {
-  [class*="leto-frame"] .leto-bubble-light-red-tablet-pc {
+  [class*="frame"] .leto-bubble-light-red-tablet-pc {
     background: transparent;
     color: #f8a8ae;
     border-color: #f8a8ae;
@@ -1539,7 +1539,7 @@ p, b {
 }
 
 @media (min-width: 1440px) {
-  [class*="leto-frame"] .leto-bubble-light-red-pc {
+  [class*="frame"] .leto-bubble-light-red-pc {
     background: transparent;
     color: #f8a8ae;
     border-color: #f8a8ae;
@@ -1547,7 +1547,7 @@ p, b {
 }
 
 @media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
-  [class*="leto-frame"] .leto-bubble-light-red-ultrawide {
+  [class*="frame"] .leto-bubble-light-red-ultrawide {
     background: transparent;
     color: #f8a8ae;
     border-color: #f8a8ae;
@@ -1555,21 +1555,21 @@ p, b {
 }
 
 @media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
-  [class*="leto-frame"] .leto-bubble-light-red-super-ultrawide {
+  [class*="frame"] .leto-bubble-light-red-super-ultrawide {
     background: transparent;
     color: #f8a8ae;
     border-color: #f8a8ae;
   }
 }
 
-[class*="leto-frame"] .leto-bubble-dark-red {
+[class*="frame"] .leto-bubble-dark-red {
   background: transparent;
   color: #ec1a2c;
   border-color: #ec1a2c;
 }
 
 @media (min-width: 600px) {
-  [class*="leto-frame"] .leto-bubble-dark-red-tablet {
+  [class*="frame"] .leto-bubble-dark-red-tablet {
     background: transparent;
     color: #ec1a2c;
     border-color: #ec1a2c;
@@ -1577,7 +1577,7 @@ p, b {
 }
 
 @media (min-width: 1024px) {
-  [class*="leto-frame"] .leto-bubble-dark-red-tablet-pc {
+  [class*="frame"] .leto-bubble-dark-red-tablet-pc {
     background: transparent;
     color: #ec1a2c;
     border-color: #ec1a2c;
@@ -1585,7 +1585,7 @@ p, b {
 }
 
 @media (min-width: 1024px) and ((pointer: coarse)) {
-  [class*="leto-frame"] .leto-bubble-dark-red-tablet-pc {
+  [class*="frame"] .leto-bubble-dark-red-tablet-pc {
     background: transparent;
     color: #ec1a2c;
     border-color: #ec1a2c;
@@ -1593,7 +1593,7 @@ p, b {
 }
 
 @media (min-width: 1440px) {
-  [class*="leto-frame"] .leto-bubble-dark-red-pc {
+  [class*="frame"] .leto-bubble-dark-red-pc {
     background: transparent;
     color: #ec1a2c;
     border-color: #ec1a2c;
@@ -1601,7 +1601,7 @@ p, b {
 }
 
 @media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
-  [class*="leto-frame"] .leto-bubble-dark-red-ultrawide {
+  [class*="frame"] .leto-bubble-dark-red-ultrawide {
     background: transparent;
     color: #ec1a2c;
     border-color: #ec1a2c;
@@ -1609,21 +1609,21 @@ p, b {
 }
 
 @media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
-  [class*="leto-frame"] .leto-bubble-dark-red-super-ultrawide {
+  [class*="frame"] .leto-bubble-dark-red-super-ultrawide {
     background: transparent;
     color: #ec1a2c;
     border-color: #ec1a2c;
   }
 }
 
-[class*="leto-frame"] .leto-bubble-purple {
+[class*="frame"] .leto-bubble-purple {
   background: transparent;
   color: #c079f2;
   border-color: #c079f2;
 }
 
 @media (min-width: 600px) {
-  [class*="leto-frame"] .leto-bubble-purple-tablet {
+  [class*="frame"] .leto-bubble-purple-tablet {
     background: transparent;
     color: #c079f2;
     border-color: #c079f2;
@@ -1631,7 +1631,7 @@ p, b {
 }
 
 @media (min-width: 1024px) {
-  [class*="leto-frame"] .leto-bubble-purple-tablet-pc {
+  [class*="frame"] .leto-bubble-purple-tablet-pc {
     background: transparent;
     color: #c079f2;
     border-color: #c079f2;
@@ -1639,7 +1639,7 @@ p, b {
 }
 
 @media (min-width: 1024px) and ((pointer: coarse)) {
-  [class*="leto-frame"] .leto-bubble-purple-tablet-pc {
+  [class*="frame"] .leto-bubble-purple-tablet-pc {
     background: transparent;
     color: #c079f2;
     border-color: #c079f2;
@@ -1647,7 +1647,7 @@ p, b {
 }
 
 @media (min-width: 1440px) {
-  [class*="leto-frame"] .leto-bubble-purple-pc {
+  [class*="frame"] .leto-bubble-purple-pc {
     background: transparent;
     color: #c079f2;
     border-color: #c079f2;
@@ -1655,7 +1655,7 @@ p, b {
 }
 
 @media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
-  [class*="leto-frame"] .leto-bubble-purple-ultrawide {
+  [class*="frame"] .leto-bubble-purple-ultrawide {
     background: transparent;
     color: #c079f2;
     border-color: #c079f2;
@@ -1663,21 +1663,21 @@ p, b {
 }
 
 @media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
-  [class*="leto-frame"] .leto-bubble-purple-super-ultrawide {
+  [class*="frame"] .leto-bubble-purple-super-ultrawide {
     background: transparent;
     color: #c079f2;
     border-color: #c079f2;
   }
 }
 
-[class*="leto-frame"] .leto-bubble-light-purple {
+[class*="frame"] .leto-bubble-light-purple {
   background: transparent;
   color: #e1bff9;
   border-color: #e1bff9;
 }
 
 @media (min-width: 600px) {
-  [class*="leto-frame"] .leto-bubble-light-purple-tablet {
+  [class*="frame"] .leto-bubble-light-purple-tablet {
     background: transparent;
     color: #e1bff9;
     border-color: #e1bff9;
@@ -1685,7 +1685,7 @@ p, b {
 }
 
 @media (min-width: 1024px) {
-  [class*="leto-frame"] .leto-bubble-light-purple-tablet-pc {
+  [class*="frame"] .leto-bubble-light-purple-tablet-pc {
     background: transparent;
     color: #e1bff9;
     border-color: #e1bff9;
@@ -1693,7 +1693,7 @@ p, b {
 }
 
 @media (min-width: 1024px) and ((pointer: coarse)) {
-  [class*="leto-frame"] .leto-bubble-light-purple-tablet-pc {
+  [class*="frame"] .leto-bubble-light-purple-tablet-pc {
     background: transparent;
     color: #e1bff9;
     border-color: #e1bff9;
@@ -1701,7 +1701,7 @@ p, b {
 }
 
 @media (min-width: 1440px) {
-  [class*="leto-frame"] .leto-bubble-light-purple-pc {
+  [class*="frame"] .leto-bubble-light-purple-pc {
     background: transparent;
     color: #e1bff9;
     border-color: #e1bff9;
@@ -1709,7 +1709,7 @@ p, b {
 }
 
 @media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
-  [class*="leto-frame"] .leto-bubble-light-purple-ultrawide {
+  [class*="frame"] .leto-bubble-light-purple-ultrawide {
     background: transparent;
     color: #e1bff9;
     border-color: #e1bff9;
@@ -1717,21 +1717,21 @@ p, b {
 }
 
 @media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
-  [class*="leto-frame"] .leto-bubble-light-purple-super-ultrawide {
+  [class*="frame"] .leto-bubble-light-purple-super-ultrawide {
     background: transparent;
     color: #e1bff9;
     border-color: #e1bff9;
   }
 }
 
-[class*="leto-frame"] .leto-bubble-dark-purple {
+[class*="frame"] .leto-bubble-dark-purple {
   background: transparent;
   color: #9f33eb;
   border-color: #9f33eb;
 }
 
 @media (min-width: 600px) {
-  [class*="leto-frame"] .leto-bubble-dark-purple-tablet {
+  [class*="frame"] .leto-bubble-dark-purple-tablet {
     background: transparent;
     color: #9f33eb;
     border-color: #9f33eb;
@@ -1739,7 +1739,7 @@ p, b {
 }
 
 @media (min-width: 1024px) {
-  [class*="leto-frame"] .leto-bubble-dark-purple-tablet-pc {
+  [class*="frame"] .leto-bubble-dark-purple-tablet-pc {
     background: transparent;
     color: #9f33eb;
     border-color: #9f33eb;
@@ -1747,7 +1747,7 @@ p, b {
 }
 
 @media (min-width: 1024px) and ((pointer: coarse)) {
-  [class*="leto-frame"] .leto-bubble-dark-purple-tablet-pc {
+  [class*="frame"] .leto-bubble-dark-purple-tablet-pc {
     background: transparent;
     color: #9f33eb;
     border-color: #9f33eb;
@@ -1755,7 +1755,7 @@ p, b {
 }
 
 @media (min-width: 1440px) {
-  [class*="leto-frame"] .leto-bubble-dark-purple-pc {
+  [class*="frame"] .leto-bubble-dark-purple-pc {
     background: transparent;
     color: #9f33eb;
     border-color: #9f33eb;
@@ -1763,7 +1763,7 @@ p, b {
 }
 
 @media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
-  [class*="leto-frame"] .leto-bubble-dark-purple-ultrawide {
+  [class*="frame"] .leto-bubble-dark-purple-ultrawide {
     background: transparent;
     color: #9f33eb;
     border-color: #9f33eb;
@@ -1771,21 +1771,21 @@ p, b {
 }
 
 @media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
-  [class*="leto-frame"] .leto-bubble-dark-purple-super-ultrawide {
+  [class*="frame"] .leto-bubble-dark-purple-super-ultrawide {
     background: transparent;
     color: #9f33eb;
     border-color: #9f33eb;
   }
 }
 
-[class*="leto-frame"] .leto-bubble-blue {
+[class*="frame"] .leto-bubble-blue {
   background: transparent;
   color: #6d83f2;
   border-color: #6d83f2;
 }
 
 @media (min-width: 600px) {
-  [class*="leto-frame"] .leto-bubble-blue-tablet {
+  [class*="frame"] .leto-bubble-blue-tablet {
     background: transparent;
     color: #6d83f2;
     border-color: #6d83f2;
@@ -1793,7 +1793,7 @@ p, b {
 }
 
 @media (min-width: 1024px) {
-  [class*="leto-frame"] .leto-bubble-blue-tablet-pc {
+  [class*="frame"] .leto-bubble-blue-tablet-pc {
     background: transparent;
     color: #6d83f2;
     border-color: #6d83f2;
@@ -1801,7 +1801,7 @@ p, b {
 }
 
 @media (min-width: 1024px) and ((pointer: coarse)) {
-  [class*="leto-frame"] .leto-bubble-blue-tablet-pc {
+  [class*="frame"] .leto-bubble-blue-tablet-pc {
     background: transparent;
     color: #6d83f2;
     border-color: #6d83f2;
@@ -1809,7 +1809,7 @@ p, b {
 }
 
 @media (min-width: 1440px) {
-  [class*="leto-frame"] .leto-bubble-blue-pc {
+  [class*="frame"] .leto-bubble-blue-pc {
     background: transparent;
     color: #6d83f2;
     border-color: #6d83f2;
@@ -1817,7 +1817,7 @@ p, b {
 }
 
 @media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
-  [class*="leto-frame"] .leto-bubble-blue-ultrawide {
+  [class*="frame"] .leto-bubble-blue-ultrawide {
     background: transparent;
     color: #6d83f2;
     border-color: #6d83f2;
@@ -1825,21 +1825,21 @@ p, b {
 }
 
 @media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
-  [class*="leto-frame"] .leto-bubble-blue-super-ultrawide {
+  [class*="frame"] .leto-bubble-blue-super-ultrawide {
     background: transparent;
     color: #6d83f2;
     border-color: #6d83f2;
   }
 }
 
-[class*="leto-frame"] .leto-bubble-light-blue {
+[class*="frame"] .leto-bubble-light-blue {
   background: transparent;
   color: #b3bff8;
   border-color: #b3bff8;
 }
 
 @media (min-width: 600px) {
-  [class*="leto-frame"] .leto-bubble-light-blue-tablet {
+  [class*="frame"] .leto-bubble-light-blue-tablet {
     background: transparent;
     color: #b3bff8;
     border-color: #b3bff8;
@@ -1847,7 +1847,7 @@ p, b {
 }
 
 @media (min-width: 1024px) {
-  [class*="leto-frame"] .leto-bubble-light-blue-tablet-pc {
+  [class*="frame"] .leto-bubble-light-blue-tablet-pc {
     background: transparent;
     color: #b3bff8;
     border-color: #b3bff8;
@@ -1855,7 +1855,7 @@ p, b {
 }
 
 @media (min-width: 1024px) and ((pointer: coarse)) {
-  [class*="leto-frame"] .leto-bubble-light-blue-tablet-pc {
+  [class*="frame"] .leto-bubble-light-blue-tablet-pc {
     background: transparent;
     color: #b3bff8;
     border-color: #b3bff8;
@@ -1863,7 +1863,7 @@ p, b {
 }
 
 @media (min-width: 1440px) {
-  [class*="leto-frame"] .leto-bubble-light-blue-pc {
+  [class*="frame"] .leto-bubble-light-blue-pc {
     background: transparent;
     color: #b3bff8;
     border-color: #b3bff8;
@@ -1871,7 +1871,7 @@ p, b {
 }
 
 @media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
-  [class*="leto-frame"] .leto-bubble-light-blue-ultrawide {
+  [class*="frame"] .leto-bubble-light-blue-ultrawide {
     background: transparent;
     color: #b3bff8;
     border-color: #b3bff8;
@@ -1879,21 +1879,21 @@ p, b {
 }
 
 @media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
-  [class*="leto-frame"] .leto-bubble-light-blue-super-ultrawide {
+  [class*="frame"] .leto-bubble-light-blue-super-ultrawide {
     background: transparent;
     color: #b3bff8;
     border-color: #b3bff8;
   }
 }
 
-[class*="leto-frame"] .leto-bubble-dark-blue {
+[class*="frame"] .leto-bubble-dark-blue {
   background: transparent;
   color: #2747ec;
   border-color: #2747ec;
 }
 
 @media (min-width: 600px) {
-  [class*="leto-frame"] .leto-bubble-dark-blue-tablet {
+  [class*="frame"] .leto-bubble-dark-blue-tablet {
     background: transparent;
     color: #2747ec;
     border-color: #2747ec;
@@ -1901,7 +1901,7 @@ p, b {
 }
 
 @media (min-width: 1024px) {
-  [class*="leto-frame"] .leto-bubble-dark-blue-tablet-pc {
+  [class*="frame"] .leto-bubble-dark-blue-tablet-pc {
     background: transparent;
     color: #2747ec;
     border-color: #2747ec;
@@ -1909,7 +1909,7 @@ p, b {
 }
 
 @media (min-width: 1024px) and ((pointer: coarse)) {
-  [class*="leto-frame"] .leto-bubble-dark-blue-tablet-pc {
+  [class*="frame"] .leto-bubble-dark-blue-tablet-pc {
     background: transparent;
     color: #2747ec;
     border-color: #2747ec;
@@ -1917,7 +1917,7 @@ p, b {
 }
 
 @media (min-width: 1440px) {
-  [class*="leto-frame"] .leto-bubble-dark-blue-pc {
+  [class*="frame"] .leto-bubble-dark-blue-pc {
     background: transparent;
     color: #2747ec;
     border-color: #2747ec;
@@ -1925,7 +1925,7 @@ p, b {
 }
 
 @media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
-  [class*="leto-frame"] .leto-bubble-dark-blue-ultrawide {
+  [class*="frame"] .leto-bubble-dark-blue-ultrawide {
     background: transparent;
     color: #2747ec;
     border-color: #2747ec;
@@ -1933,21 +1933,21 @@ p, b {
 }
 
 @media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
-  [class*="leto-frame"] .leto-bubble-dark-blue-super-ultrawide {
+  [class*="frame"] .leto-bubble-dark-blue-super-ultrawide {
     background: transparent;
     color: #2747ec;
     border-color: #2747ec;
   }
 }
 
-[class*="leto-frame"] .leto-bubble-mint {
+[class*="frame"] .leto-bubble-mint {
   background: transparent;
   color: #55f2cb;
   border-color: #55f2cb;
 }
 
 @media (min-width: 600px) {
-  [class*="leto-frame"] .leto-bubble-mint-tablet {
+  [class*="frame"] .leto-bubble-mint-tablet {
     background: transparent;
     color: #55f2cb;
     border-color: #55f2cb;
@@ -1955,7 +1955,7 @@ p, b {
 }
 
 @media (min-width: 1024px) {
-  [class*="leto-frame"] .leto-bubble-mint-tablet-pc {
+  [class*="frame"] .leto-bubble-mint-tablet-pc {
     background: transparent;
     color: #55f2cb;
     border-color: #55f2cb;
@@ -1963,7 +1963,7 @@ p, b {
 }
 
 @media (min-width: 1024px) and ((pointer: coarse)) {
-  [class*="leto-frame"] .leto-bubble-mint-tablet-pc {
+  [class*="frame"] .leto-bubble-mint-tablet-pc {
     background: transparent;
     color: #55f2cb;
     border-color: #55f2cb;
@@ -1971,7 +1971,7 @@ p, b {
 }
 
 @media (min-width: 1440px) {
-  [class*="leto-frame"] .leto-bubble-mint-pc {
+  [class*="frame"] .leto-bubble-mint-pc {
     background: transparent;
     color: #55f2cb;
     border-color: #55f2cb;
@@ -1979,7 +1979,7 @@ p, b {
 }
 
 @media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
-  [class*="leto-frame"] .leto-bubble-mint-ultrawide {
+  [class*="frame"] .leto-bubble-mint-ultrawide {
     background: transparent;
     color: #55f2cb;
     border-color: #55f2cb;
@@ -1987,21 +1987,21 @@ p, b {
 }
 
 @media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
-  [class*="leto-frame"] .leto-bubble-mint-super-ultrawide {
+  [class*="frame"] .leto-bubble-mint-super-ultrawide {
     background: transparent;
     color: #55f2cb;
     border-color: #55f2cb;
   }
 }
 
-[class*="leto-frame"] .leto-bubble-light-mint {
+[class*="frame"] .leto-bubble-light-mint {
   background: transparent;
   color: #9cf7e1;
   border-color: #9cf7e1;
 }
 
 @media (min-width: 600px) {
-  [class*="leto-frame"] .leto-bubble-light-mint-tablet {
+  [class*="frame"] .leto-bubble-light-mint-tablet {
     background: transparent;
     color: #9cf7e1;
     border-color: #9cf7e1;
@@ -2009,7 +2009,7 @@ p, b {
 }
 
 @media (min-width: 1024px) {
-  [class*="leto-frame"] .leto-bubble-light-mint-tablet-pc {
+  [class*="frame"] .leto-bubble-light-mint-tablet-pc {
     background: transparent;
     color: #9cf7e1;
     border-color: #9cf7e1;
@@ -2017,7 +2017,7 @@ p, b {
 }
 
 @media (min-width: 1024px) and ((pointer: coarse)) {
-  [class*="leto-frame"] .leto-bubble-light-mint-tablet-pc {
+  [class*="frame"] .leto-bubble-light-mint-tablet-pc {
     background: transparent;
     color: #9cf7e1;
     border-color: #9cf7e1;
@@ -2025,7 +2025,7 @@ p, b {
 }
 
 @media (min-width: 1440px) {
-  [class*="leto-frame"] .leto-bubble-light-mint-pc {
+  [class*="frame"] .leto-bubble-light-mint-pc {
     background: transparent;
     color: #9cf7e1;
     border-color: #9cf7e1;
@@ -2033,7 +2033,7 @@ p, b {
 }
 
 @media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
-  [class*="leto-frame"] .leto-bubble-light-mint-ultrawide {
+  [class*="frame"] .leto-bubble-light-mint-ultrawide {
     background: transparent;
     color: #9cf7e1;
     border-color: #9cf7e1;
@@ -2041,21 +2041,21 @@ p, b {
 }
 
 @media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
-  [class*="leto-frame"] .leto-bubble-light-mint-super-ultrawide {
+  [class*="frame"] .leto-bubble-light-mint-super-ultrawide {
     background: transparent;
     color: #9cf7e1;
     border-color: #9cf7e1;
   }
 }
 
-[class*="leto-frame"] .leto-bubble-dark-mint {
+[class*="frame"] .leto-bubble-dark-mint {
   background: transparent;
   color: #12e9b3;
   border-color: #12e9b3;
 }
 
 @media (min-width: 600px) {
-  [class*="leto-frame"] .leto-bubble-dark-mint-tablet {
+  [class*="frame"] .leto-bubble-dark-mint-tablet {
     background: transparent;
     color: #12e9b3;
     border-color: #12e9b3;
@@ -2063,7 +2063,7 @@ p, b {
 }
 
 @media (min-width: 1024px) {
-  [class*="leto-frame"] .leto-bubble-dark-mint-tablet-pc {
+  [class*="frame"] .leto-bubble-dark-mint-tablet-pc {
     background: transparent;
     color: #12e9b3;
     border-color: #12e9b3;
@@ -2071,7 +2071,7 @@ p, b {
 }
 
 @media (min-width: 1024px) and ((pointer: coarse)) {
-  [class*="leto-frame"] .leto-bubble-dark-mint-tablet-pc {
+  [class*="frame"] .leto-bubble-dark-mint-tablet-pc {
     background: transparent;
     color: #12e9b3;
     border-color: #12e9b3;
@@ -2079,7 +2079,7 @@ p, b {
 }
 
 @media (min-width: 1440px) {
-  [class*="leto-frame"] .leto-bubble-dark-mint-pc {
+  [class*="frame"] .leto-bubble-dark-mint-pc {
     background: transparent;
     color: #12e9b3;
     border-color: #12e9b3;
@@ -2087,7 +2087,7 @@ p, b {
 }
 
 @media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
-  [class*="leto-frame"] .leto-bubble-dark-mint-ultrawide {
+  [class*="frame"] .leto-bubble-dark-mint-ultrawide {
     background: transparent;
     color: #12e9b3;
     border-color: #12e9b3;
@@ -2095,21 +2095,21 @@ p, b {
 }
 
 @media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
-  [class*="leto-frame"] .leto-bubble-dark-mint-super-ultrawide {
+  [class*="frame"] .leto-bubble-dark-mint-super-ultrawide {
     background: transparent;
     color: #12e9b3;
     border-color: #12e9b3;
   }
 }
 
-[class*="leto-frame"] .leto-bubble-mint {
+[class*="frame"] .leto-bubble-mint {
   background: transparent;
   color: #79f297;
   border-color: #79f297;
 }
 
 @media (min-width: 600px) {
-  [class*="leto-frame"] .leto-bubble-mint-tablet {
+  [class*="frame"] .leto-bubble-mint-tablet {
     background: transparent;
     color: #79f297;
     border-color: #79f297;
@@ -2117,7 +2117,7 @@ p, b {
 }
 
 @media (min-width: 1024px) {
-  [class*="leto-frame"] .leto-bubble-mint-tablet-pc {
+  [class*="frame"] .leto-bubble-mint-tablet-pc {
     background: transparent;
     color: #79f297;
     border-color: #79f297;
@@ -2125,7 +2125,7 @@ p, b {
 }
 
 @media (min-width: 1024px) and ((pointer: coarse)) {
-  [class*="leto-frame"] .leto-bubble-mint-tablet-pc {
+  [class*="frame"] .leto-bubble-mint-tablet-pc {
     background: transparent;
     color: #79f297;
     border-color: #79f297;
@@ -2133,7 +2133,7 @@ p, b {
 }
 
 @media (min-width: 1440px) {
-  [class*="leto-frame"] .leto-bubble-mint-pc {
+  [class*="frame"] .leto-bubble-mint-pc {
     background: transparent;
     color: #79f297;
     border-color: #79f297;
@@ -2141,7 +2141,7 @@ p, b {
 }
 
 @media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
-  [class*="leto-frame"] .leto-bubble-mint-ultrawide {
+  [class*="frame"] .leto-bubble-mint-ultrawide {
     background: transparent;
     color: #79f297;
     border-color: #79f297;
@@ -2149,21 +2149,21 @@ p, b {
 }
 
 @media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
-  [class*="leto-frame"] .leto-bubble-mint-super-ultrawide {
+  [class*="frame"] .leto-bubble-mint-super-ultrawide {
     background: transparent;
     color: #79f297;
     border-color: #79f297;
   }
 }
 
-[class*="leto-frame"] .leto-bubble-light-mint {
+[class*="frame"] .leto-bubble-light-mint {
   background: transparent;
   color: #bff9cd;
   border-color: #bff9cd;
 }
 
 @media (min-width: 600px) {
-  [class*="leto-frame"] .leto-bubble-light-mint-tablet {
+  [class*="frame"] .leto-bubble-light-mint-tablet {
     background: transparent;
     color: #bff9cd;
     border-color: #bff9cd;
@@ -2171,7 +2171,7 @@ p, b {
 }
 
 @media (min-width: 1024px) {
-  [class*="leto-frame"] .leto-bubble-light-mint-tablet-pc {
+  [class*="frame"] .leto-bubble-light-mint-tablet-pc {
     background: transparent;
     color: #bff9cd;
     border-color: #bff9cd;
@@ -2179,7 +2179,7 @@ p, b {
 }
 
 @media (min-width: 1024px) and ((pointer: coarse)) {
-  [class*="leto-frame"] .leto-bubble-light-mint-tablet-pc {
+  [class*="frame"] .leto-bubble-light-mint-tablet-pc {
     background: transparent;
     color: #bff9cd;
     border-color: #bff9cd;
@@ -2187,7 +2187,7 @@ p, b {
 }
 
 @media (min-width: 1440px) {
-  [class*="leto-frame"] .leto-bubble-light-mint-pc {
+  [class*="frame"] .leto-bubble-light-mint-pc {
     background: transparent;
     color: #bff9cd;
     border-color: #bff9cd;
@@ -2195,7 +2195,7 @@ p, b {
 }
 
 @media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
-  [class*="leto-frame"] .leto-bubble-light-mint-ultrawide {
+  [class*="frame"] .leto-bubble-light-mint-ultrawide {
     background: transparent;
     color: #bff9cd;
     border-color: #bff9cd;
@@ -2203,21 +2203,21 @@ p, b {
 }
 
 @media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
-  [class*="leto-frame"] .leto-bubble-light-mint-super-ultrawide {
+  [class*="frame"] .leto-bubble-light-mint-super-ultrawide {
     background: transparent;
     color: #bff9cd;
     border-color: #bff9cd;
   }
 }
 
-[class*="leto-frame"] .leto-bubble-dark-mint {
+[class*="frame"] .leto-bubble-dark-mint {
   background: transparent;
   color: #33eb61;
   border-color: #33eb61;
 }
 
 @media (min-width: 600px) {
-  [class*="leto-frame"] .leto-bubble-dark-mint-tablet {
+  [class*="frame"] .leto-bubble-dark-mint-tablet {
     background: transparent;
     color: #33eb61;
     border-color: #33eb61;
@@ -2225,7 +2225,7 @@ p, b {
 }
 
 @media (min-width: 1024px) {
-  [class*="leto-frame"] .leto-bubble-dark-mint-tablet-pc {
+  [class*="frame"] .leto-bubble-dark-mint-tablet-pc {
     background: transparent;
     color: #33eb61;
     border-color: #33eb61;
@@ -2233,7 +2233,7 @@ p, b {
 }
 
 @media (min-width: 1024px) and ((pointer: coarse)) {
-  [class*="leto-frame"] .leto-bubble-dark-mint-tablet-pc {
+  [class*="frame"] .leto-bubble-dark-mint-tablet-pc {
     background: transparent;
     color: #33eb61;
     border-color: #33eb61;
@@ -2241,7 +2241,7 @@ p, b {
 }
 
 @media (min-width: 1440px) {
-  [class*="leto-frame"] .leto-bubble-dark-mint-pc {
+  [class*="frame"] .leto-bubble-dark-mint-pc {
     background: transparent;
     color: #33eb61;
     border-color: #33eb61;
@@ -2249,7 +2249,7 @@ p, b {
 }
 
 @media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
-  [class*="leto-frame"] .leto-bubble-dark-mint-ultrawide {
+  [class*="frame"] .leto-bubble-dark-mint-ultrawide {
     background: transparent;
     color: #33eb61;
     border-color: #33eb61;
@@ -2257,7 +2257,7 @@ p, b {
 }
 
 @media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
-  [class*="leto-frame"] .leto-bubble-dark-mint-super-ultrawide {
+  [class*="frame"] .leto-bubble-dark-mint-super-ultrawide {
     background: transparent;
     color: #33eb61;
     border-color: #33eb61;
@@ -2279,7 +2279,7 @@ p, b {
   width: 60px;
 }
 
-.leto-bubble-wrapper > [class*=leto-bubble] {
+.leto-bubble-wrapper > [class*=bubble] {
   margin-top: 0;
   margin-left: auto;
   margin-right: auto;
@@ -2290,11 +2290,11 @@ p, b {
   text-align: center;
 }
 
-.leto-bubble-wrapper > [class*=leto-bubble] ~ label {
+.leto-bubble-wrapper > [class*=bubble] ~ label {
   margin-top: 8px;
 }
 
-.leto-bubble-wrapper > label ~ [class*=leto-bubble] {
+.leto-bubble-wrapper > label ~ [class*=bubble] {
   margin-top: 8px;
 }
 
@@ -2323,7 +2323,7 @@ p, b {
   display: inline-flex;
 }
 
-.leto-bubble-wrapper-xxs > [class*=leto-bubble], .leto-bubble-wrapper-xs > [class*=leto-bubble], .leto-bubble-wrapper-sm > [class*=leto-bubble], .leto-bubble-wrapper-md > [class*=leto-bubble], .leto-bubble-wrapper-lg > [class*=leto-bubble], .leto-bubble-wrapper-xl > [class*=leto-bubble], .leto-bubble-wrapper-xxl > [class*=leto-bubble] {
+.leto-bubble-wrapper-xxs > [class*=bubble], .leto-bubble-wrapper-xs > [class*=bubble], .leto-bubble-wrapper-sm > [class*=bubble], .leto-bubble-wrapper-md > [class*=bubble], .leto-bubble-wrapper-lg > [class*=bubble], .leto-bubble-wrapper-xl > [class*=bubble], .leto-bubble-wrapper-xxl > [class*=bubble] {
   margin-top: 0;
   margin-left: auto;
   margin-right: auto;
@@ -2334,11 +2334,11 @@ p, b {
   text-align: center;
 }
 
-.leto-bubble-wrapper-xxs > [class*=leto-bubble] ~ label, .leto-bubble-wrapper-xs > [class*=leto-bubble] ~ label, .leto-bubble-wrapper-sm > [class*=leto-bubble] ~ label, .leto-bubble-wrapper-md > [class*=leto-bubble] ~ label, .leto-bubble-wrapper-lg > [class*=leto-bubble] ~ label, .leto-bubble-wrapper-xl > [class*=leto-bubble] ~ label, .leto-bubble-wrapper-xxl > [class*=leto-bubble] ~ label {
+.leto-bubble-wrapper-xxs > [class*=bubble] ~ label, .leto-bubble-wrapper-xs > [class*=bubble] ~ label, .leto-bubble-wrapper-sm > [class*=bubble] ~ label, .leto-bubble-wrapper-md > [class*=bubble] ~ label, .leto-bubble-wrapper-lg > [class*=bubble] ~ label, .leto-bubble-wrapper-xl > [class*=bubble] ~ label, .leto-bubble-wrapper-xxl > [class*=bubble] ~ label {
   margin-top: 8px;
 }
 
-.leto-bubble-wrapper-xxs > label ~ [class*=leto-bubble], .leto-bubble-wrapper-xs > label ~ [class*=leto-bubble], .leto-bubble-wrapper-sm > label ~ [class*=leto-bubble], .leto-bubble-wrapper-md > label ~ [class*=leto-bubble], .leto-bubble-wrapper-lg > label ~ [class*=leto-bubble], .leto-bubble-wrapper-xl > label ~ [class*=leto-bubble], .leto-bubble-wrapper-xxl > label ~ [class*=leto-bubble] {
+.leto-bubble-wrapper-xxs > label ~ [class*=bubble], .leto-bubble-wrapper-xs > label ~ [class*=bubble], .leto-bubble-wrapper-sm > label ~ [class*=bubble], .leto-bubble-wrapper-md > label ~ [class*=bubble], .leto-bubble-wrapper-lg > label ~ [class*=bubble], .leto-bubble-wrapper-xl > label ~ [class*=bubble], .leto-bubble-wrapper-xxl > label ~ [class*=bubble] {
   margin-top: 8px;
 }
 
@@ -3278,26 +3278,26 @@ p, b {
   }
 }
 
-.leto-frame [class*="leto-card"] {
+.leto-frame [class*="card"] {
   color: #333333;
 }
 
-.leto-frame-dark [class*="leto-card"] {
+.leto-frame-dark [class*="card"] {
   color: #e6e6e6;
 }
 
-.leto-frame-dark [class*="leto-card"] {
+.leto-frame-dark [class*="card"] {
   border-color: #808080;
 }
 
-[class*="leto-frame"] .leto-card-white {
+[class*="frame"] .leto-card-white {
   background: transparent;
   color: #fdfdfd;
   border-color: #fdfdfd;
 }
 
 @media (min-width: 600px) {
-  [class*="leto-frame"] .leto-card-white-tablet {
+  [class*="frame"] .leto-card-white-tablet {
     background: transparent;
     color: #fdfdfd;
     border-color: #fdfdfd;
@@ -3305,7 +3305,7 @@ p, b {
 }
 
 @media (min-width: 1024px) {
-  [class*="leto-frame"] .leto-card-white-tablet-pc {
+  [class*="frame"] .leto-card-white-tablet-pc {
     background: transparent;
     color: #fdfdfd;
     border-color: #fdfdfd;
@@ -3313,7 +3313,7 @@ p, b {
 }
 
 @media (min-width: 1024px) and ((pointer: coarse)) {
-  [class*="leto-frame"] .leto-card-white-tablet-pc {
+  [class*="frame"] .leto-card-white-tablet-pc {
     background: transparent;
     color: #fdfdfd;
     border-color: #fdfdfd;
@@ -3321,7 +3321,7 @@ p, b {
 }
 
 @media (min-width: 1440px) {
-  [class*="leto-frame"] .leto-card-white-pc {
+  [class*="frame"] .leto-card-white-pc {
     background: transparent;
     color: #fdfdfd;
     border-color: #fdfdfd;
@@ -3329,7 +3329,7 @@ p, b {
 }
 
 @media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
-  [class*="leto-frame"] .leto-card-white-ultrawide {
+  [class*="frame"] .leto-card-white-ultrawide {
     background: transparent;
     color: #fdfdfd;
     border-color: #fdfdfd;
@@ -3337,21 +3337,21 @@ p, b {
 }
 
 @media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
-  [class*="leto-frame"] .leto-card-white-super-ultrawide {
+  [class*="frame"] .leto-card-white-super-ultrawide {
     background: transparent;
     color: #fdfdfd;
     border-color: #fdfdfd;
   }
 }
 
-[class*="leto-frame"] .leto-card-dark-white {
+[class*="frame"] .leto-card-dark-white {
   background: transparent;
   color: #f2f2f2;
   border-color: #f2f2f2;
 }
 
 @media (min-width: 600px) {
-  [class*="leto-frame"] .leto-card-dark-white-tablet {
+  [class*="frame"] .leto-card-dark-white-tablet {
     background: transparent;
     color: #f2f2f2;
     border-color: #f2f2f2;
@@ -3359,7 +3359,7 @@ p, b {
 }
 
 @media (min-width: 1024px) {
-  [class*="leto-frame"] .leto-card-dark-white-tablet-pc {
+  [class*="frame"] .leto-card-dark-white-tablet-pc {
     background: transparent;
     color: #f2f2f2;
     border-color: #f2f2f2;
@@ -3367,7 +3367,7 @@ p, b {
 }
 
 @media (min-width: 1024px) and ((pointer: coarse)) {
-  [class*="leto-frame"] .leto-card-dark-white-tablet-pc {
+  [class*="frame"] .leto-card-dark-white-tablet-pc {
     background: transparent;
     color: #f2f2f2;
     border-color: #f2f2f2;
@@ -3375,7 +3375,7 @@ p, b {
 }
 
 @media (min-width: 1440px) {
-  [class*="leto-frame"] .leto-card-dark-white-pc {
+  [class*="frame"] .leto-card-dark-white-pc {
     background: transparent;
     color: #f2f2f2;
     border-color: #f2f2f2;
@@ -3383,7 +3383,7 @@ p, b {
 }
 
 @media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
-  [class*="leto-frame"] .leto-card-dark-white-ultrawide {
+  [class*="frame"] .leto-card-dark-white-ultrawide {
     background: transparent;
     color: #f2f2f2;
     border-color: #f2f2f2;
@@ -3391,21 +3391,21 @@ p, b {
 }
 
 @media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
-  [class*="leto-frame"] .leto-card-dark-white-super-ultrawide {
+  [class*="frame"] .leto-card-dark-white-super-ultrawide {
     background: transparent;
     color: #f2f2f2;
     border-color: #f2f2f2;
   }
 }
 
-[class*="leto-frame"] .leto-card-grey {
+[class*="frame"] .leto-card-grey {
   background: transparent;
   color: #cccccc;
   border-color: #cccccc;
 }
 
 @media (min-width: 600px) {
-  [class*="leto-frame"] .leto-card-grey-tablet {
+  [class*="frame"] .leto-card-grey-tablet {
     background: transparent;
     color: #cccccc;
     border-color: #cccccc;
@@ -3413,7 +3413,7 @@ p, b {
 }
 
 @media (min-width: 1024px) {
-  [class*="leto-frame"] .leto-card-grey-tablet-pc {
+  [class*="frame"] .leto-card-grey-tablet-pc {
     background: transparent;
     color: #cccccc;
     border-color: #cccccc;
@@ -3421,7 +3421,7 @@ p, b {
 }
 
 @media (min-width: 1024px) and ((pointer: coarse)) {
-  [class*="leto-frame"] .leto-card-grey-tablet-pc {
+  [class*="frame"] .leto-card-grey-tablet-pc {
     background: transparent;
     color: #cccccc;
     border-color: #cccccc;
@@ -3429,7 +3429,7 @@ p, b {
 }
 
 @media (min-width: 1440px) {
-  [class*="leto-frame"] .leto-card-grey-pc {
+  [class*="frame"] .leto-card-grey-pc {
     background: transparent;
     color: #cccccc;
     border-color: #cccccc;
@@ -3437,7 +3437,7 @@ p, b {
 }
 
 @media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
-  [class*="leto-frame"] .leto-card-grey-ultrawide {
+  [class*="frame"] .leto-card-grey-ultrawide {
     background: transparent;
     color: #cccccc;
     border-color: #cccccc;
@@ -3445,21 +3445,21 @@ p, b {
 }
 
 @media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
-  [class*="leto-frame"] .leto-card-grey-super-ultrawide {
+  [class*="frame"] .leto-card-grey-super-ultrawide {
     background: transparent;
     color: #cccccc;
     border-color: #cccccc;
   }
 }
 
-[class*="leto-frame"] .leto-card-light-grey {
+[class*="frame"] .leto-card-light-grey {
   background: transparent;
   color: #d9d9d9;
   border-color: #d9d9d9;
 }
 
 @media (min-width: 600px) {
-  [class*="leto-frame"] .leto-card-light-grey-tablet {
+  [class*="frame"] .leto-card-light-grey-tablet {
     background: transparent;
     color: #d9d9d9;
     border-color: #d9d9d9;
@@ -3467,7 +3467,7 @@ p, b {
 }
 
 @media (min-width: 1024px) {
-  [class*="leto-frame"] .leto-card-light-grey-tablet-pc {
+  [class*="frame"] .leto-card-light-grey-tablet-pc {
     background: transparent;
     color: #d9d9d9;
     border-color: #d9d9d9;
@@ -3475,7 +3475,7 @@ p, b {
 }
 
 @media (min-width: 1024px) and ((pointer: coarse)) {
-  [class*="leto-frame"] .leto-card-light-grey-tablet-pc {
+  [class*="frame"] .leto-card-light-grey-tablet-pc {
     background: transparent;
     color: #d9d9d9;
     border-color: #d9d9d9;
@@ -3483,7 +3483,7 @@ p, b {
 }
 
 @media (min-width: 1440px) {
-  [class*="leto-frame"] .leto-card-light-grey-pc {
+  [class*="frame"] .leto-card-light-grey-pc {
     background: transparent;
     color: #d9d9d9;
     border-color: #d9d9d9;
@@ -3491,7 +3491,7 @@ p, b {
 }
 
 @media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
-  [class*="leto-frame"] .leto-card-light-grey-ultrawide {
+  [class*="frame"] .leto-card-light-grey-ultrawide {
     background: transparent;
     color: #d9d9d9;
     border-color: #d9d9d9;
@@ -3499,21 +3499,21 @@ p, b {
 }
 
 @media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
-  [class*="leto-frame"] .leto-card-light-grey-super-ultrawide {
+  [class*="frame"] .leto-card-light-grey-super-ultrawide {
     background: transparent;
     color: #d9d9d9;
     border-color: #d9d9d9;
   }
 }
 
-[class*="leto-frame"] .leto-card-lighter-grey {
+[class*="frame"] .leto-card-lighter-grey {
   background: transparent;
   color: #e6e6e6;
   border-color: #e6e6e6;
 }
 
 @media (min-width: 600px) {
-  [class*="leto-frame"] .leto-card-lighter-grey-tablet {
+  [class*="frame"] .leto-card-lighter-grey-tablet {
     background: transparent;
     color: #e6e6e6;
     border-color: #e6e6e6;
@@ -3521,7 +3521,7 @@ p, b {
 }
 
 @media (min-width: 1024px) {
-  [class*="leto-frame"] .leto-card-lighter-grey-tablet-pc {
+  [class*="frame"] .leto-card-lighter-grey-tablet-pc {
     background: transparent;
     color: #e6e6e6;
     border-color: #e6e6e6;
@@ -3529,7 +3529,7 @@ p, b {
 }
 
 @media (min-width: 1024px) and ((pointer: coarse)) {
-  [class*="leto-frame"] .leto-card-lighter-grey-tablet-pc {
+  [class*="frame"] .leto-card-lighter-grey-tablet-pc {
     background: transparent;
     color: #e6e6e6;
     border-color: #e6e6e6;
@@ -3537,7 +3537,7 @@ p, b {
 }
 
 @media (min-width: 1440px) {
-  [class*="leto-frame"] .leto-card-lighter-grey-pc {
+  [class*="frame"] .leto-card-lighter-grey-pc {
     background: transparent;
     color: #e6e6e6;
     border-color: #e6e6e6;
@@ -3545,7 +3545,7 @@ p, b {
 }
 
 @media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
-  [class*="leto-frame"] .leto-card-lighter-grey-ultrawide {
+  [class*="frame"] .leto-card-lighter-grey-ultrawide {
     background: transparent;
     color: #e6e6e6;
     border-color: #e6e6e6;
@@ -3553,21 +3553,21 @@ p, b {
 }
 
 @media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
-  [class*="leto-frame"] .leto-card-lighter-grey-super-ultrawide {
+  [class*="frame"] .leto-card-lighter-grey-super-ultrawide {
     background: transparent;
     color: #e6e6e6;
     border-color: #e6e6e6;
   }
 }
 
-[class*="leto-frame"] .leto-card-dark-grey {
+[class*="frame"] .leto-card-dark-grey {
   background: transparent;
   color: #a6a6a6;
   border-color: #a6a6a6;
 }
 
 @media (min-width: 600px) {
-  [class*="leto-frame"] .leto-card-dark-grey-tablet {
+  [class*="frame"] .leto-card-dark-grey-tablet {
     background: transparent;
     color: #a6a6a6;
     border-color: #a6a6a6;
@@ -3575,7 +3575,7 @@ p, b {
 }
 
 @media (min-width: 1024px) {
-  [class*="leto-frame"] .leto-card-dark-grey-tablet-pc {
+  [class*="frame"] .leto-card-dark-grey-tablet-pc {
     background: transparent;
     color: #a6a6a6;
     border-color: #a6a6a6;
@@ -3583,7 +3583,7 @@ p, b {
 }
 
 @media (min-width: 1024px) and ((pointer: coarse)) {
-  [class*="leto-frame"] .leto-card-dark-grey-tablet-pc {
+  [class*="frame"] .leto-card-dark-grey-tablet-pc {
     background: transparent;
     color: #a6a6a6;
     border-color: #a6a6a6;
@@ -3591,7 +3591,7 @@ p, b {
 }
 
 @media (min-width: 1440px) {
-  [class*="leto-frame"] .leto-card-dark-grey-pc {
+  [class*="frame"] .leto-card-dark-grey-pc {
     background: transparent;
     color: #a6a6a6;
     border-color: #a6a6a6;
@@ -3599,7 +3599,7 @@ p, b {
 }
 
 @media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
-  [class*="leto-frame"] .leto-card-dark-grey-ultrawide {
+  [class*="frame"] .leto-card-dark-grey-ultrawide {
     background: transparent;
     color: #a6a6a6;
     border-color: #a6a6a6;
@@ -3607,21 +3607,21 @@ p, b {
 }
 
 @media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
-  [class*="leto-frame"] .leto-card-dark-grey-super-ultrawide {
+  [class*="frame"] .leto-card-dark-grey-super-ultrawide {
     background: transparent;
     color: #a6a6a6;
     border-color: #a6a6a6;
   }
 }
 
-[class*="leto-frame"] .leto-card-darker-grey {
+[class*="frame"] .leto-card-darker-grey {
   background: transparent;
   color: #808080;
   border-color: #808080;
 }
 
 @media (min-width: 600px) {
-  [class*="leto-frame"] .leto-card-darker-grey-tablet {
+  [class*="frame"] .leto-card-darker-grey-tablet {
     background: transparent;
     color: #808080;
     border-color: #808080;
@@ -3629,7 +3629,7 @@ p, b {
 }
 
 @media (min-width: 1024px) {
-  [class*="leto-frame"] .leto-card-darker-grey-tablet-pc {
+  [class*="frame"] .leto-card-darker-grey-tablet-pc {
     background: transparent;
     color: #808080;
     border-color: #808080;
@@ -3637,7 +3637,7 @@ p, b {
 }
 
 @media (min-width: 1024px) and ((pointer: coarse)) {
-  [class*="leto-frame"] .leto-card-darker-grey-tablet-pc {
+  [class*="frame"] .leto-card-darker-grey-tablet-pc {
     background: transparent;
     color: #808080;
     border-color: #808080;
@@ -3645,7 +3645,7 @@ p, b {
 }
 
 @media (min-width: 1440px) {
-  [class*="leto-frame"] .leto-card-darker-grey-pc {
+  [class*="frame"] .leto-card-darker-grey-pc {
     background: transparent;
     color: #808080;
     border-color: #808080;
@@ -3653,7 +3653,7 @@ p, b {
 }
 
 @media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
-  [class*="leto-frame"] .leto-card-darker-grey-ultrawide {
+  [class*="frame"] .leto-card-darker-grey-ultrawide {
     background: transparent;
     color: #808080;
     border-color: #808080;
@@ -3661,21 +3661,21 @@ p, b {
 }
 
 @media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
-  [class*="leto-frame"] .leto-card-darker-grey-super-ultrawide {
+  [class*="frame"] .leto-card-darker-grey-super-ultrawide {
     background: transparent;
     color: #808080;
     border-color: #808080;
   }
 }
 
-[class*="leto-frame"] .leto-card-yellow {
+[class*="frame"] .leto-card-yellow {
   background: transparent;
   color: #f2e76d;
   border-color: #f2e76d;
 }
 
 @media (min-width: 600px) {
-  [class*="leto-frame"] .leto-card-yellow-tablet {
+  [class*="frame"] .leto-card-yellow-tablet {
     background: transparent;
     color: #f2e76d;
     border-color: #f2e76d;
@@ -3683,7 +3683,7 @@ p, b {
 }
 
 @media (min-width: 1024px) {
-  [class*="leto-frame"] .leto-card-yellow-tablet-pc {
+  [class*="frame"] .leto-card-yellow-tablet-pc {
     background: transparent;
     color: #f2e76d;
     border-color: #f2e76d;
@@ -3691,7 +3691,7 @@ p, b {
 }
 
 @media (min-width: 1024px) and ((pointer: coarse)) {
-  [class*="leto-frame"] .leto-card-yellow-tablet-pc {
+  [class*="frame"] .leto-card-yellow-tablet-pc {
     background: transparent;
     color: #f2e76d;
     border-color: #f2e76d;
@@ -3699,7 +3699,7 @@ p, b {
 }
 
 @media (min-width: 1440px) {
-  [class*="leto-frame"] .leto-card-yellow-pc {
+  [class*="frame"] .leto-card-yellow-pc {
     background: transparent;
     color: #f2e76d;
     border-color: #f2e76d;
@@ -3707,7 +3707,7 @@ p, b {
 }
 
 @media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
-  [class*="leto-frame"] .leto-card-yellow-ultrawide {
+  [class*="frame"] .leto-card-yellow-ultrawide {
     background: transparent;
     color: #f2e76d;
     border-color: #f2e76d;
@@ -3715,21 +3715,21 @@ p, b {
 }
 
 @media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
-  [class*="leto-frame"] .leto-card-yellow-super-ultrawide {
+  [class*="frame"] .leto-card-yellow-super-ultrawide {
     background: transparent;
     color: #f2e76d;
     border-color: #f2e76d;
   }
 }
 
-[class*="leto-frame"] .leto-card-light-yellow {
+[class*="frame"] .leto-card-light-yellow {
   background: transparent;
   color: #f8f3b3;
   border-color: #f8f3b3;
 }
 
 @media (min-width: 600px) {
-  [class*="leto-frame"] .leto-card-light-yellow-tablet {
+  [class*="frame"] .leto-card-light-yellow-tablet {
     background: transparent;
     color: #f8f3b3;
     border-color: #f8f3b3;
@@ -3737,7 +3737,7 @@ p, b {
 }
 
 @media (min-width: 1024px) {
-  [class*="leto-frame"] .leto-card-light-yellow-tablet-pc {
+  [class*="frame"] .leto-card-light-yellow-tablet-pc {
     background: transparent;
     color: #f8f3b3;
     border-color: #f8f3b3;
@@ -3745,7 +3745,7 @@ p, b {
 }
 
 @media (min-width: 1024px) and ((pointer: coarse)) {
-  [class*="leto-frame"] .leto-card-light-yellow-tablet-pc {
+  [class*="frame"] .leto-card-light-yellow-tablet-pc {
     background: transparent;
     color: #f8f3b3;
     border-color: #f8f3b3;
@@ -3753,7 +3753,7 @@ p, b {
 }
 
 @media (min-width: 1440px) {
-  [class*="leto-frame"] .leto-card-light-yellow-pc {
+  [class*="frame"] .leto-card-light-yellow-pc {
     background: transparent;
     color: #f8f3b3;
     border-color: #f8f3b3;
@@ -3761,7 +3761,7 @@ p, b {
 }
 
 @media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
-  [class*="leto-frame"] .leto-card-light-yellow-ultrawide {
+  [class*="frame"] .leto-card-light-yellow-ultrawide {
     background: transparent;
     color: #f8f3b3;
     border-color: #f8f3b3;
@@ -3769,21 +3769,21 @@ p, b {
 }
 
 @media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
-  [class*="leto-frame"] .leto-card-light-yellow-super-ultrawide {
+  [class*="frame"] .leto-card-light-yellow-super-ultrawide {
     background: transparent;
     color: #f8f3b3;
     border-color: #f8f3b3;
   }
 }
 
-[class*="leto-frame"] .leto-card-dark-yellow {
+[class*="frame"] .leto-card-dark-yellow {
   background: transparent;
   color: #ecdb27;
   border-color: #ecdb27;
 }
 
 @media (min-width: 600px) {
-  [class*="leto-frame"] .leto-card-dark-yellow-tablet {
+  [class*="frame"] .leto-card-dark-yellow-tablet {
     background: transparent;
     color: #ecdb27;
     border-color: #ecdb27;
@@ -3791,7 +3791,7 @@ p, b {
 }
 
 @media (min-width: 1024px) {
-  [class*="leto-frame"] .leto-card-dark-yellow-tablet-pc {
+  [class*="frame"] .leto-card-dark-yellow-tablet-pc {
     background: transparent;
     color: #ecdb27;
     border-color: #ecdb27;
@@ -3799,7 +3799,7 @@ p, b {
 }
 
 @media (min-width: 1024px) and ((pointer: coarse)) {
-  [class*="leto-frame"] .leto-card-dark-yellow-tablet-pc {
+  [class*="frame"] .leto-card-dark-yellow-tablet-pc {
     background: transparent;
     color: #ecdb27;
     border-color: #ecdb27;
@@ -3807,7 +3807,7 @@ p, b {
 }
 
 @media (min-width: 1440px) {
-  [class*="leto-frame"] .leto-card-dark-yellow-pc {
+  [class*="frame"] .leto-card-dark-yellow-pc {
     background: transparent;
     color: #ecdb27;
     border-color: #ecdb27;
@@ -3815,7 +3815,7 @@ p, b {
 }
 
 @media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
-  [class*="leto-frame"] .leto-card-dark-yellow-ultrawide {
+  [class*="frame"] .leto-card-dark-yellow-ultrawide {
     background: transparent;
     color: #ecdb27;
     border-color: #ecdb27;
@@ -3823,21 +3823,21 @@ p, b {
 }
 
 @media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
-  [class*="leto-frame"] .leto-card-dark-yellow-super-ultrawide {
+  [class*="frame"] .leto-card-dark-yellow-super-ultrawide {
     background: transparent;
     color: #ecdb27;
     border-color: #ecdb27;
   }
 }
 
-[class*="leto-frame"] .leto-card-orange {
+[class*="frame"] .leto-card-orange {
   background: transparent;
   color: #f29655;
   border-color: #f29655;
 }
 
 @media (min-width: 600px) {
-  [class*="leto-frame"] .leto-card-orange-tablet {
+  [class*="frame"] .leto-card-orange-tablet {
     background: transparent;
     color: #f29655;
     border-color: #f29655;
@@ -3845,7 +3845,7 @@ p, b {
 }
 
 @media (min-width: 1024px) {
-  [class*="leto-frame"] .leto-card-orange-tablet-pc {
+  [class*="frame"] .leto-card-orange-tablet-pc {
     background: transparent;
     color: #f29655;
     border-color: #f29655;
@@ -3853,7 +3853,7 @@ p, b {
 }
 
 @media (min-width: 1024px) and ((pointer: coarse)) {
-  [class*="leto-frame"] .leto-card-orange-tablet-pc {
+  [class*="frame"] .leto-card-orange-tablet-pc {
     background: transparent;
     color: #f29655;
     border-color: #f29655;
@@ -3861,7 +3861,7 @@ p, b {
 }
 
 @media (min-width: 1440px) {
-  [class*="leto-frame"] .leto-card-orange-pc {
+  [class*="frame"] .leto-card-orange-pc {
     background: transparent;
     color: #f29655;
     border-color: #f29655;
@@ -3869,7 +3869,7 @@ p, b {
 }
 
 @media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
-  [class*="leto-frame"] .leto-card-orange-ultrawide {
+  [class*="frame"] .leto-card-orange-ultrawide {
     background: transparent;
     color: #f29655;
     border-color: #f29655;
@@ -3877,21 +3877,21 @@ p, b {
 }
 
 @media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
-  [class*="leto-frame"] .leto-card-orange-super-ultrawide {
+  [class*="frame"] .leto-card-orange-super-ultrawide {
     background: transparent;
     color: #f29655;
     border-color: #f29655;
   }
 }
 
-[class*="leto-frame"] .leto-card-light-orange {
+[class*="frame"] .leto-card-light-orange {
   background: transparent;
   color: #f7c29c;
   border-color: #f7c29c;
 }
 
 @media (min-width: 600px) {
-  [class*="leto-frame"] .leto-card-light-orange-tablet {
+  [class*="frame"] .leto-card-light-orange-tablet {
     background: transparent;
     color: #f7c29c;
     border-color: #f7c29c;
@@ -3899,7 +3899,7 @@ p, b {
 }
 
 @media (min-width: 1024px) {
-  [class*="leto-frame"] .leto-card-light-orange-tablet-pc {
+  [class*="frame"] .leto-card-light-orange-tablet-pc {
     background: transparent;
     color: #f7c29c;
     border-color: #f7c29c;
@@ -3907,7 +3907,7 @@ p, b {
 }
 
 @media (min-width: 1024px) and ((pointer: coarse)) {
-  [class*="leto-frame"] .leto-card-light-orange-tablet-pc {
+  [class*="frame"] .leto-card-light-orange-tablet-pc {
     background: transparent;
     color: #f7c29c;
     border-color: #f7c29c;
@@ -3915,7 +3915,7 @@ p, b {
 }
 
 @media (min-width: 1440px) {
-  [class*="leto-frame"] .leto-card-light-orange-pc {
+  [class*="frame"] .leto-card-light-orange-pc {
     background: transparent;
     color: #f7c29c;
     border-color: #f7c29c;
@@ -3923,7 +3923,7 @@ p, b {
 }
 
 @media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
-  [class*="leto-frame"] .leto-card-light-orange-ultrawide {
+  [class*="frame"] .leto-card-light-orange-ultrawide {
     background: transparent;
     color: #f7c29c;
     border-color: #f7c29c;
@@ -3931,21 +3931,21 @@ p, b {
 }
 
 @media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
-  [class*="leto-frame"] .leto-card-light-orange-super-ultrawide {
+  [class*="frame"] .leto-card-light-orange-super-ultrawide {
     background: transparent;
     color: #f7c29c;
     border-color: #f7c29c;
   }
 }
 
-[class*="leto-frame"] .leto-card-dark-orange {
+[class*="frame"] .leto-card-dark-orange {
   background: transparent;
   color: #e96b12;
   border-color: #e96b12;
 }
 
 @media (min-width: 600px) {
-  [class*="leto-frame"] .leto-card-dark-orange-tablet {
+  [class*="frame"] .leto-card-dark-orange-tablet {
     background: transparent;
     color: #e96b12;
     border-color: #e96b12;
@@ -3953,7 +3953,7 @@ p, b {
 }
 
 @media (min-width: 1024px) {
-  [class*="leto-frame"] .leto-card-dark-orange-tablet-pc {
+  [class*="frame"] .leto-card-dark-orange-tablet-pc {
     background: transparent;
     color: #e96b12;
     border-color: #e96b12;
@@ -3961,7 +3961,7 @@ p, b {
 }
 
 @media (min-width: 1024px) and ((pointer: coarse)) {
-  [class*="leto-frame"] .leto-card-dark-orange-tablet-pc {
+  [class*="frame"] .leto-card-dark-orange-tablet-pc {
     background: transparent;
     color: #e96b12;
     border-color: #e96b12;
@@ -3969,7 +3969,7 @@ p, b {
 }
 
 @media (min-width: 1440px) {
-  [class*="leto-frame"] .leto-card-dark-orange-pc {
+  [class*="frame"] .leto-card-dark-orange-pc {
     background: transparent;
     color: #e96b12;
     border-color: #e96b12;
@@ -3977,7 +3977,7 @@ p, b {
 }
 
 @media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
-  [class*="leto-frame"] .leto-card-dark-orange-ultrawide {
+  [class*="frame"] .leto-card-dark-orange-ultrawide {
     background: transparent;
     color: #e96b12;
     border-color: #e96b12;
@@ -3985,21 +3985,21 @@ p, b {
 }
 
 @media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
-  [class*="leto-frame"] .leto-card-dark-orange-super-ultrawide {
+  [class*="frame"] .leto-card-dark-orange-super-ultrawide {
     background: transparent;
     color: #e96b12;
     border-color: #e96b12;
   }
 }
 
-[class*="leto-frame"] .leto-card-red {
+[class*="frame"] .leto-card-red {
   background: transparent;
   color: #f2616d;
   border-color: #f2616d;
 }
 
 @media (min-width: 600px) {
-  [class*="leto-frame"] .leto-card-red-tablet {
+  [class*="frame"] .leto-card-red-tablet {
     background: transparent;
     color: #f2616d;
     border-color: #f2616d;
@@ -4007,7 +4007,7 @@ p, b {
 }
 
 @media (min-width: 1024px) {
-  [class*="leto-frame"] .leto-card-red-tablet-pc {
+  [class*="frame"] .leto-card-red-tablet-pc {
     background: transparent;
     color: #f2616d;
     border-color: #f2616d;
@@ -4015,7 +4015,7 @@ p, b {
 }
 
 @media (min-width: 1024px) and ((pointer: coarse)) {
-  [class*="leto-frame"] .leto-card-red-tablet-pc {
+  [class*="frame"] .leto-card-red-tablet-pc {
     background: transparent;
     color: #f2616d;
     border-color: #f2616d;
@@ -4023,7 +4023,7 @@ p, b {
 }
 
 @media (min-width: 1440px) {
-  [class*="leto-frame"] .leto-card-red-pc {
+  [class*="frame"] .leto-card-red-pc {
     background: transparent;
     color: #f2616d;
     border-color: #f2616d;
@@ -4031,7 +4031,7 @@ p, b {
 }
 
 @media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
-  [class*="leto-frame"] .leto-card-red-ultrawide {
+  [class*="frame"] .leto-card-red-ultrawide {
     background: transparent;
     color: #f2616d;
     border-color: #f2616d;
@@ -4039,21 +4039,21 @@ p, b {
 }
 
 @media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
-  [class*="leto-frame"] .leto-card-red-super-ultrawide {
+  [class*="frame"] .leto-card-red-super-ultrawide {
     background: transparent;
     color: #f2616d;
     border-color: #f2616d;
   }
 }
 
-[class*="leto-frame"] .leto-card-light-red {
+[class*="frame"] .leto-card-light-red {
   background: transparent;
   color: #f8a8ae;
   border-color: #f8a8ae;
 }
 
 @media (min-width: 600px) {
-  [class*="leto-frame"] .leto-card-light-red-tablet {
+  [class*="frame"] .leto-card-light-red-tablet {
     background: transparent;
     color: #f8a8ae;
     border-color: #f8a8ae;
@@ -4061,7 +4061,7 @@ p, b {
 }
 
 @media (min-width: 1024px) {
-  [class*="leto-frame"] .leto-card-light-red-tablet-pc {
+  [class*="frame"] .leto-card-light-red-tablet-pc {
     background: transparent;
     color: #f8a8ae;
     border-color: #f8a8ae;
@@ -4069,7 +4069,7 @@ p, b {
 }
 
 @media (min-width: 1024px) and ((pointer: coarse)) {
-  [class*="leto-frame"] .leto-card-light-red-tablet-pc {
+  [class*="frame"] .leto-card-light-red-tablet-pc {
     background: transparent;
     color: #f8a8ae;
     border-color: #f8a8ae;
@@ -4077,7 +4077,7 @@ p, b {
 }
 
 @media (min-width: 1440px) {
-  [class*="leto-frame"] .leto-card-light-red-pc {
+  [class*="frame"] .leto-card-light-red-pc {
     background: transparent;
     color: #f8a8ae;
     border-color: #f8a8ae;
@@ -4085,7 +4085,7 @@ p, b {
 }
 
 @media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
-  [class*="leto-frame"] .leto-card-light-red-ultrawide {
+  [class*="frame"] .leto-card-light-red-ultrawide {
     background: transparent;
     color: #f8a8ae;
     border-color: #f8a8ae;
@@ -4093,21 +4093,21 @@ p, b {
 }
 
 @media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
-  [class*="leto-frame"] .leto-card-light-red-super-ultrawide {
+  [class*="frame"] .leto-card-light-red-super-ultrawide {
     background: transparent;
     color: #f8a8ae;
     border-color: #f8a8ae;
   }
 }
 
-[class*="leto-frame"] .leto-card-dark-red {
+[class*="frame"] .leto-card-dark-red {
   background: transparent;
   color: #ec1a2c;
   border-color: #ec1a2c;
 }
 
 @media (min-width: 600px) {
-  [class*="leto-frame"] .leto-card-dark-red-tablet {
+  [class*="frame"] .leto-card-dark-red-tablet {
     background: transparent;
     color: #ec1a2c;
     border-color: #ec1a2c;
@@ -4115,7 +4115,7 @@ p, b {
 }
 
 @media (min-width: 1024px) {
-  [class*="leto-frame"] .leto-card-dark-red-tablet-pc {
+  [class*="frame"] .leto-card-dark-red-tablet-pc {
     background: transparent;
     color: #ec1a2c;
     border-color: #ec1a2c;
@@ -4123,7 +4123,7 @@ p, b {
 }
 
 @media (min-width: 1024px) and ((pointer: coarse)) {
-  [class*="leto-frame"] .leto-card-dark-red-tablet-pc {
+  [class*="frame"] .leto-card-dark-red-tablet-pc {
     background: transparent;
     color: #ec1a2c;
     border-color: #ec1a2c;
@@ -4131,7 +4131,7 @@ p, b {
 }
 
 @media (min-width: 1440px) {
-  [class*="leto-frame"] .leto-card-dark-red-pc {
+  [class*="frame"] .leto-card-dark-red-pc {
     background: transparent;
     color: #ec1a2c;
     border-color: #ec1a2c;
@@ -4139,7 +4139,7 @@ p, b {
 }
 
 @media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
-  [class*="leto-frame"] .leto-card-dark-red-ultrawide {
+  [class*="frame"] .leto-card-dark-red-ultrawide {
     background: transparent;
     color: #ec1a2c;
     border-color: #ec1a2c;
@@ -4147,21 +4147,21 @@ p, b {
 }
 
 @media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
-  [class*="leto-frame"] .leto-card-dark-red-super-ultrawide {
+  [class*="frame"] .leto-card-dark-red-super-ultrawide {
     background: transparent;
     color: #ec1a2c;
     border-color: #ec1a2c;
   }
 }
 
-[class*="leto-frame"] .leto-card-purple {
+[class*="frame"] .leto-card-purple {
   background: transparent;
   color: #c079f2;
   border-color: #c079f2;
 }
 
 @media (min-width: 600px) {
-  [class*="leto-frame"] .leto-card-purple-tablet {
+  [class*="frame"] .leto-card-purple-tablet {
     background: transparent;
     color: #c079f2;
     border-color: #c079f2;
@@ -4169,7 +4169,7 @@ p, b {
 }
 
 @media (min-width: 1024px) {
-  [class*="leto-frame"] .leto-card-purple-tablet-pc {
+  [class*="frame"] .leto-card-purple-tablet-pc {
     background: transparent;
     color: #c079f2;
     border-color: #c079f2;
@@ -4177,7 +4177,7 @@ p, b {
 }
 
 @media (min-width: 1024px) and ((pointer: coarse)) {
-  [class*="leto-frame"] .leto-card-purple-tablet-pc {
+  [class*="frame"] .leto-card-purple-tablet-pc {
     background: transparent;
     color: #c079f2;
     border-color: #c079f2;
@@ -4185,7 +4185,7 @@ p, b {
 }
 
 @media (min-width: 1440px) {
-  [class*="leto-frame"] .leto-card-purple-pc {
+  [class*="frame"] .leto-card-purple-pc {
     background: transparent;
     color: #c079f2;
     border-color: #c079f2;
@@ -4193,7 +4193,7 @@ p, b {
 }
 
 @media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
-  [class*="leto-frame"] .leto-card-purple-ultrawide {
+  [class*="frame"] .leto-card-purple-ultrawide {
     background: transparent;
     color: #c079f2;
     border-color: #c079f2;
@@ -4201,21 +4201,21 @@ p, b {
 }
 
 @media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
-  [class*="leto-frame"] .leto-card-purple-super-ultrawide {
+  [class*="frame"] .leto-card-purple-super-ultrawide {
     background: transparent;
     color: #c079f2;
     border-color: #c079f2;
   }
 }
 
-[class*="leto-frame"] .leto-card-light-purple {
+[class*="frame"] .leto-card-light-purple {
   background: transparent;
   color: #e1bff9;
   border-color: #e1bff9;
 }
 
 @media (min-width: 600px) {
-  [class*="leto-frame"] .leto-card-light-purple-tablet {
+  [class*="frame"] .leto-card-light-purple-tablet {
     background: transparent;
     color: #e1bff9;
     border-color: #e1bff9;
@@ -4223,7 +4223,7 @@ p, b {
 }
 
 @media (min-width: 1024px) {
-  [class*="leto-frame"] .leto-card-light-purple-tablet-pc {
+  [class*="frame"] .leto-card-light-purple-tablet-pc {
     background: transparent;
     color: #e1bff9;
     border-color: #e1bff9;
@@ -4231,7 +4231,7 @@ p, b {
 }
 
 @media (min-width: 1024px) and ((pointer: coarse)) {
-  [class*="leto-frame"] .leto-card-light-purple-tablet-pc {
+  [class*="frame"] .leto-card-light-purple-tablet-pc {
     background: transparent;
     color: #e1bff9;
     border-color: #e1bff9;
@@ -4239,7 +4239,7 @@ p, b {
 }
 
 @media (min-width: 1440px) {
-  [class*="leto-frame"] .leto-card-light-purple-pc {
+  [class*="frame"] .leto-card-light-purple-pc {
     background: transparent;
     color: #e1bff9;
     border-color: #e1bff9;
@@ -4247,7 +4247,7 @@ p, b {
 }
 
 @media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
-  [class*="leto-frame"] .leto-card-light-purple-ultrawide {
+  [class*="frame"] .leto-card-light-purple-ultrawide {
     background: transparent;
     color: #e1bff9;
     border-color: #e1bff9;
@@ -4255,21 +4255,21 @@ p, b {
 }
 
 @media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
-  [class*="leto-frame"] .leto-card-light-purple-super-ultrawide {
+  [class*="frame"] .leto-card-light-purple-super-ultrawide {
     background: transparent;
     color: #e1bff9;
     border-color: #e1bff9;
   }
 }
 
-[class*="leto-frame"] .leto-card-dark-purple {
+[class*="frame"] .leto-card-dark-purple {
   background: transparent;
   color: #9f33eb;
   border-color: #9f33eb;
 }
 
 @media (min-width: 600px) {
-  [class*="leto-frame"] .leto-card-dark-purple-tablet {
+  [class*="frame"] .leto-card-dark-purple-tablet {
     background: transparent;
     color: #9f33eb;
     border-color: #9f33eb;
@@ -4277,7 +4277,7 @@ p, b {
 }
 
 @media (min-width: 1024px) {
-  [class*="leto-frame"] .leto-card-dark-purple-tablet-pc {
+  [class*="frame"] .leto-card-dark-purple-tablet-pc {
     background: transparent;
     color: #9f33eb;
     border-color: #9f33eb;
@@ -4285,7 +4285,7 @@ p, b {
 }
 
 @media (min-width: 1024px) and ((pointer: coarse)) {
-  [class*="leto-frame"] .leto-card-dark-purple-tablet-pc {
+  [class*="frame"] .leto-card-dark-purple-tablet-pc {
     background: transparent;
     color: #9f33eb;
     border-color: #9f33eb;
@@ -4293,7 +4293,7 @@ p, b {
 }
 
 @media (min-width: 1440px) {
-  [class*="leto-frame"] .leto-card-dark-purple-pc {
+  [class*="frame"] .leto-card-dark-purple-pc {
     background: transparent;
     color: #9f33eb;
     border-color: #9f33eb;
@@ -4301,7 +4301,7 @@ p, b {
 }
 
 @media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
-  [class*="leto-frame"] .leto-card-dark-purple-ultrawide {
+  [class*="frame"] .leto-card-dark-purple-ultrawide {
     background: transparent;
     color: #9f33eb;
     border-color: #9f33eb;
@@ -4309,21 +4309,21 @@ p, b {
 }
 
 @media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
-  [class*="leto-frame"] .leto-card-dark-purple-super-ultrawide {
+  [class*="frame"] .leto-card-dark-purple-super-ultrawide {
     background: transparent;
     color: #9f33eb;
     border-color: #9f33eb;
   }
 }
 
-[class*="leto-frame"] .leto-card-blue {
+[class*="frame"] .leto-card-blue {
   background: transparent;
   color: #6d83f2;
   border-color: #6d83f2;
 }
 
 @media (min-width: 600px) {
-  [class*="leto-frame"] .leto-card-blue-tablet {
+  [class*="frame"] .leto-card-blue-tablet {
     background: transparent;
     color: #6d83f2;
     border-color: #6d83f2;
@@ -4331,7 +4331,7 @@ p, b {
 }
 
 @media (min-width: 1024px) {
-  [class*="leto-frame"] .leto-card-blue-tablet-pc {
+  [class*="frame"] .leto-card-blue-tablet-pc {
     background: transparent;
     color: #6d83f2;
     border-color: #6d83f2;
@@ -4339,7 +4339,7 @@ p, b {
 }
 
 @media (min-width: 1024px) and ((pointer: coarse)) {
-  [class*="leto-frame"] .leto-card-blue-tablet-pc {
+  [class*="frame"] .leto-card-blue-tablet-pc {
     background: transparent;
     color: #6d83f2;
     border-color: #6d83f2;
@@ -4347,7 +4347,7 @@ p, b {
 }
 
 @media (min-width: 1440px) {
-  [class*="leto-frame"] .leto-card-blue-pc {
+  [class*="frame"] .leto-card-blue-pc {
     background: transparent;
     color: #6d83f2;
     border-color: #6d83f2;
@@ -4355,7 +4355,7 @@ p, b {
 }
 
 @media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
-  [class*="leto-frame"] .leto-card-blue-ultrawide {
+  [class*="frame"] .leto-card-blue-ultrawide {
     background: transparent;
     color: #6d83f2;
     border-color: #6d83f2;
@@ -4363,21 +4363,21 @@ p, b {
 }
 
 @media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
-  [class*="leto-frame"] .leto-card-blue-super-ultrawide {
+  [class*="frame"] .leto-card-blue-super-ultrawide {
     background: transparent;
     color: #6d83f2;
     border-color: #6d83f2;
   }
 }
 
-[class*="leto-frame"] .leto-card-light-blue {
+[class*="frame"] .leto-card-light-blue {
   background: transparent;
   color: #b3bff8;
   border-color: #b3bff8;
 }
 
 @media (min-width: 600px) {
-  [class*="leto-frame"] .leto-card-light-blue-tablet {
+  [class*="frame"] .leto-card-light-blue-tablet {
     background: transparent;
     color: #b3bff8;
     border-color: #b3bff8;
@@ -4385,7 +4385,7 @@ p, b {
 }
 
 @media (min-width: 1024px) {
-  [class*="leto-frame"] .leto-card-light-blue-tablet-pc {
+  [class*="frame"] .leto-card-light-blue-tablet-pc {
     background: transparent;
     color: #b3bff8;
     border-color: #b3bff8;
@@ -4393,7 +4393,7 @@ p, b {
 }
 
 @media (min-width: 1024px) and ((pointer: coarse)) {
-  [class*="leto-frame"] .leto-card-light-blue-tablet-pc {
+  [class*="frame"] .leto-card-light-blue-tablet-pc {
     background: transparent;
     color: #b3bff8;
     border-color: #b3bff8;
@@ -4401,7 +4401,7 @@ p, b {
 }
 
 @media (min-width: 1440px) {
-  [class*="leto-frame"] .leto-card-light-blue-pc {
+  [class*="frame"] .leto-card-light-blue-pc {
     background: transparent;
     color: #b3bff8;
     border-color: #b3bff8;
@@ -4409,7 +4409,7 @@ p, b {
 }
 
 @media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
-  [class*="leto-frame"] .leto-card-light-blue-ultrawide {
+  [class*="frame"] .leto-card-light-blue-ultrawide {
     background: transparent;
     color: #b3bff8;
     border-color: #b3bff8;
@@ -4417,21 +4417,21 @@ p, b {
 }
 
 @media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
-  [class*="leto-frame"] .leto-card-light-blue-super-ultrawide {
+  [class*="frame"] .leto-card-light-blue-super-ultrawide {
     background: transparent;
     color: #b3bff8;
     border-color: #b3bff8;
   }
 }
 
-[class*="leto-frame"] .leto-card-dark-blue {
+[class*="frame"] .leto-card-dark-blue {
   background: transparent;
   color: #2747ec;
   border-color: #2747ec;
 }
 
 @media (min-width: 600px) {
-  [class*="leto-frame"] .leto-card-dark-blue-tablet {
+  [class*="frame"] .leto-card-dark-blue-tablet {
     background: transparent;
     color: #2747ec;
     border-color: #2747ec;
@@ -4439,7 +4439,7 @@ p, b {
 }
 
 @media (min-width: 1024px) {
-  [class*="leto-frame"] .leto-card-dark-blue-tablet-pc {
+  [class*="frame"] .leto-card-dark-blue-tablet-pc {
     background: transparent;
     color: #2747ec;
     border-color: #2747ec;
@@ -4447,7 +4447,7 @@ p, b {
 }
 
 @media (min-width: 1024px) and ((pointer: coarse)) {
-  [class*="leto-frame"] .leto-card-dark-blue-tablet-pc {
+  [class*="frame"] .leto-card-dark-blue-tablet-pc {
     background: transparent;
     color: #2747ec;
     border-color: #2747ec;
@@ -4455,7 +4455,7 @@ p, b {
 }
 
 @media (min-width: 1440px) {
-  [class*="leto-frame"] .leto-card-dark-blue-pc {
+  [class*="frame"] .leto-card-dark-blue-pc {
     background: transparent;
     color: #2747ec;
     border-color: #2747ec;
@@ -4463,7 +4463,7 @@ p, b {
 }
 
 @media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
-  [class*="leto-frame"] .leto-card-dark-blue-ultrawide {
+  [class*="frame"] .leto-card-dark-blue-ultrawide {
     background: transparent;
     color: #2747ec;
     border-color: #2747ec;
@@ -4471,21 +4471,21 @@ p, b {
 }
 
 @media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
-  [class*="leto-frame"] .leto-card-dark-blue-super-ultrawide {
+  [class*="frame"] .leto-card-dark-blue-super-ultrawide {
     background: transparent;
     color: #2747ec;
     border-color: #2747ec;
   }
 }
 
-[class*="leto-frame"] .leto-card-mint {
+[class*="frame"] .leto-card-mint {
   background: transparent;
   color: #55f2cb;
   border-color: #55f2cb;
 }
 
 @media (min-width: 600px) {
-  [class*="leto-frame"] .leto-card-mint-tablet {
+  [class*="frame"] .leto-card-mint-tablet {
     background: transparent;
     color: #55f2cb;
     border-color: #55f2cb;
@@ -4493,7 +4493,7 @@ p, b {
 }
 
 @media (min-width: 1024px) {
-  [class*="leto-frame"] .leto-card-mint-tablet-pc {
+  [class*="frame"] .leto-card-mint-tablet-pc {
     background: transparent;
     color: #55f2cb;
     border-color: #55f2cb;
@@ -4501,7 +4501,7 @@ p, b {
 }
 
 @media (min-width: 1024px) and ((pointer: coarse)) {
-  [class*="leto-frame"] .leto-card-mint-tablet-pc {
+  [class*="frame"] .leto-card-mint-tablet-pc {
     background: transparent;
     color: #55f2cb;
     border-color: #55f2cb;
@@ -4509,7 +4509,7 @@ p, b {
 }
 
 @media (min-width: 1440px) {
-  [class*="leto-frame"] .leto-card-mint-pc {
+  [class*="frame"] .leto-card-mint-pc {
     background: transparent;
     color: #55f2cb;
     border-color: #55f2cb;
@@ -4517,7 +4517,7 @@ p, b {
 }
 
 @media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
-  [class*="leto-frame"] .leto-card-mint-ultrawide {
+  [class*="frame"] .leto-card-mint-ultrawide {
     background: transparent;
     color: #55f2cb;
     border-color: #55f2cb;
@@ -4525,21 +4525,21 @@ p, b {
 }
 
 @media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
-  [class*="leto-frame"] .leto-card-mint-super-ultrawide {
+  [class*="frame"] .leto-card-mint-super-ultrawide {
     background: transparent;
     color: #55f2cb;
     border-color: #55f2cb;
   }
 }
 
-[class*="leto-frame"] .leto-card-light-mint {
+[class*="frame"] .leto-card-light-mint {
   background: transparent;
   color: #9cf7e1;
   border-color: #9cf7e1;
 }
 
 @media (min-width: 600px) {
-  [class*="leto-frame"] .leto-card-light-mint-tablet {
+  [class*="frame"] .leto-card-light-mint-tablet {
     background: transparent;
     color: #9cf7e1;
     border-color: #9cf7e1;
@@ -4547,7 +4547,7 @@ p, b {
 }
 
 @media (min-width: 1024px) {
-  [class*="leto-frame"] .leto-card-light-mint-tablet-pc {
+  [class*="frame"] .leto-card-light-mint-tablet-pc {
     background: transparent;
     color: #9cf7e1;
     border-color: #9cf7e1;
@@ -4555,7 +4555,7 @@ p, b {
 }
 
 @media (min-width: 1024px) and ((pointer: coarse)) {
-  [class*="leto-frame"] .leto-card-light-mint-tablet-pc {
+  [class*="frame"] .leto-card-light-mint-tablet-pc {
     background: transparent;
     color: #9cf7e1;
     border-color: #9cf7e1;
@@ -4563,7 +4563,7 @@ p, b {
 }
 
 @media (min-width: 1440px) {
-  [class*="leto-frame"] .leto-card-light-mint-pc {
+  [class*="frame"] .leto-card-light-mint-pc {
     background: transparent;
     color: #9cf7e1;
     border-color: #9cf7e1;
@@ -4571,7 +4571,7 @@ p, b {
 }
 
 @media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
-  [class*="leto-frame"] .leto-card-light-mint-ultrawide {
+  [class*="frame"] .leto-card-light-mint-ultrawide {
     background: transparent;
     color: #9cf7e1;
     border-color: #9cf7e1;
@@ -4579,21 +4579,21 @@ p, b {
 }
 
 @media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
-  [class*="leto-frame"] .leto-card-light-mint-super-ultrawide {
+  [class*="frame"] .leto-card-light-mint-super-ultrawide {
     background: transparent;
     color: #9cf7e1;
     border-color: #9cf7e1;
   }
 }
 
-[class*="leto-frame"] .leto-card-dark-mint {
+[class*="frame"] .leto-card-dark-mint {
   background: transparent;
   color: #12e9b3;
   border-color: #12e9b3;
 }
 
 @media (min-width: 600px) {
-  [class*="leto-frame"] .leto-card-dark-mint-tablet {
+  [class*="frame"] .leto-card-dark-mint-tablet {
     background: transparent;
     color: #12e9b3;
     border-color: #12e9b3;
@@ -4601,7 +4601,7 @@ p, b {
 }
 
 @media (min-width: 1024px) {
-  [class*="leto-frame"] .leto-card-dark-mint-tablet-pc {
+  [class*="frame"] .leto-card-dark-mint-tablet-pc {
     background: transparent;
     color: #12e9b3;
     border-color: #12e9b3;
@@ -4609,7 +4609,7 @@ p, b {
 }
 
 @media (min-width: 1024px) and ((pointer: coarse)) {
-  [class*="leto-frame"] .leto-card-dark-mint-tablet-pc {
+  [class*="frame"] .leto-card-dark-mint-tablet-pc {
     background: transparent;
     color: #12e9b3;
     border-color: #12e9b3;
@@ -4617,7 +4617,7 @@ p, b {
 }
 
 @media (min-width: 1440px) {
-  [class*="leto-frame"] .leto-card-dark-mint-pc {
+  [class*="frame"] .leto-card-dark-mint-pc {
     background: transparent;
     color: #12e9b3;
     border-color: #12e9b3;
@@ -4625,7 +4625,7 @@ p, b {
 }
 
 @media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
-  [class*="leto-frame"] .leto-card-dark-mint-ultrawide {
+  [class*="frame"] .leto-card-dark-mint-ultrawide {
     background: transparent;
     color: #12e9b3;
     border-color: #12e9b3;
@@ -4633,21 +4633,21 @@ p, b {
 }
 
 @media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
-  [class*="leto-frame"] .leto-card-dark-mint-super-ultrawide {
+  [class*="frame"] .leto-card-dark-mint-super-ultrawide {
     background: transparent;
     color: #12e9b3;
     border-color: #12e9b3;
   }
 }
 
-[class*="leto-frame"] .leto-card-mint {
+[class*="frame"] .leto-card-mint {
   background: transparent;
   color: #79f297;
   border-color: #79f297;
 }
 
 @media (min-width: 600px) {
-  [class*="leto-frame"] .leto-card-mint-tablet {
+  [class*="frame"] .leto-card-mint-tablet {
     background: transparent;
     color: #79f297;
     border-color: #79f297;
@@ -4655,7 +4655,7 @@ p, b {
 }
 
 @media (min-width: 1024px) {
-  [class*="leto-frame"] .leto-card-mint-tablet-pc {
+  [class*="frame"] .leto-card-mint-tablet-pc {
     background: transparent;
     color: #79f297;
     border-color: #79f297;
@@ -4663,7 +4663,7 @@ p, b {
 }
 
 @media (min-width: 1024px) and ((pointer: coarse)) {
-  [class*="leto-frame"] .leto-card-mint-tablet-pc {
+  [class*="frame"] .leto-card-mint-tablet-pc {
     background: transparent;
     color: #79f297;
     border-color: #79f297;
@@ -4671,7 +4671,7 @@ p, b {
 }
 
 @media (min-width: 1440px) {
-  [class*="leto-frame"] .leto-card-mint-pc {
+  [class*="frame"] .leto-card-mint-pc {
     background: transparent;
     color: #79f297;
     border-color: #79f297;
@@ -4679,7 +4679,7 @@ p, b {
 }
 
 @media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
-  [class*="leto-frame"] .leto-card-mint-ultrawide {
+  [class*="frame"] .leto-card-mint-ultrawide {
     background: transparent;
     color: #79f297;
     border-color: #79f297;
@@ -4687,21 +4687,21 @@ p, b {
 }
 
 @media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
-  [class*="leto-frame"] .leto-card-mint-super-ultrawide {
+  [class*="frame"] .leto-card-mint-super-ultrawide {
     background: transparent;
     color: #79f297;
     border-color: #79f297;
   }
 }
 
-[class*="leto-frame"] .leto-card-light-mint {
+[class*="frame"] .leto-card-light-mint {
   background: transparent;
   color: #bff9cd;
   border-color: #bff9cd;
 }
 
 @media (min-width: 600px) {
-  [class*="leto-frame"] .leto-card-light-mint-tablet {
+  [class*="frame"] .leto-card-light-mint-tablet {
     background: transparent;
     color: #bff9cd;
     border-color: #bff9cd;
@@ -4709,7 +4709,7 @@ p, b {
 }
 
 @media (min-width: 1024px) {
-  [class*="leto-frame"] .leto-card-light-mint-tablet-pc {
+  [class*="frame"] .leto-card-light-mint-tablet-pc {
     background: transparent;
     color: #bff9cd;
     border-color: #bff9cd;
@@ -4717,7 +4717,7 @@ p, b {
 }
 
 @media (min-width: 1024px) and ((pointer: coarse)) {
-  [class*="leto-frame"] .leto-card-light-mint-tablet-pc {
+  [class*="frame"] .leto-card-light-mint-tablet-pc {
     background: transparent;
     color: #bff9cd;
     border-color: #bff9cd;
@@ -4725,7 +4725,7 @@ p, b {
 }
 
 @media (min-width: 1440px) {
-  [class*="leto-frame"] .leto-card-light-mint-pc {
+  [class*="frame"] .leto-card-light-mint-pc {
     background: transparent;
     color: #bff9cd;
     border-color: #bff9cd;
@@ -4733,7 +4733,7 @@ p, b {
 }
 
 @media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
-  [class*="leto-frame"] .leto-card-light-mint-ultrawide {
+  [class*="frame"] .leto-card-light-mint-ultrawide {
     background: transparent;
     color: #bff9cd;
     border-color: #bff9cd;
@@ -4741,21 +4741,21 @@ p, b {
 }
 
 @media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
-  [class*="leto-frame"] .leto-card-light-mint-super-ultrawide {
+  [class*="frame"] .leto-card-light-mint-super-ultrawide {
     background: transparent;
     color: #bff9cd;
     border-color: #bff9cd;
   }
 }
 
-[class*="leto-frame"] .leto-card-dark-mint {
+[class*="frame"] .leto-card-dark-mint {
   background: transparent;
   color: #33eb61;
   border-color: #33eb61;
 }
 
 @media (min-width: 600px) {
-  [class*="leto-frame"] .leto-card-dark-mint-tablet {
+  [class*="frame"] .leto-card-dark-mint-tablet {
     background: transparent;
     color: #33eb61;
     border-color: #33eb61;
@@ -4763,7 +4763,7 @@ p, b {
 }
 
 @media (min-width: 1024px) {
-  [class*="leto-frame"] .leto-card-dark-mint-tablet-pc {
+  [class*="frame"] .leto-card-dark-mint-tablet-pc {
     background: transparent;
     color: #33eb61;
     border-color: #33eb61;
@@ -4771,7 +4771,7 @@ p, b {
 }
 
 @media (min-width: 1024px) and ((pointer: coarse)) {
-  [class*="leto-frame"] .leto-card-dark-mint-tablet-pc {
+  [class*="frame"] .leto-card-dark-mint-tablet-pc {
     background: transparent;
     color: #33eb61;
     border-color: #33eb61;
@@ -4779,7 +4779,7 @@ p, b {
 }
 
 @media (min-width: 1440px) {
-  [class*="leto-frame"] .leto-card-dark-mint-pc {
+  [class*="frame"] .leto-card-dark-mint-pc {
     background: transparent;
     color: #33eb61;
     border-color: #33eb61;
@@ -4787,7 +4787,7 @@ p, b {
 }
 
 @media (min-aspect-ratio: 21 / 9) and (min-width: 1921px) {
-  [class*="leto-frame"] .leto-card-dark-mint-ultrawide {
+  [class*="frame"] .leto-card-dark-mint-ultrawide {
     background: transparent;
     color: #33eb61;
     border-color: #33eb61;
@@ -4795,7 +4795,7 @@ p, b {
 }
 
 @media (min-aspect-ratio: 32 / 9) and (min-width: 1921px) {
-  [class*="leto-frame"] .leto-card-dark-mint-super-ultrawide {
+  [class*="frame"] .leto-card-dark-mint-super-ultrawide {
     background: transparent;
     color: #33eb61;
     border-color: #33eb61;
@@ -4816,7 +4816,7 @@ p, b {
   display: inline-flex;
 }
 
-.leto-card-wrapper > [class*=leto-card] {
+.leto-card-wrapper > [class*=card] {
   margin-top: 0;
   margin-left: auto;
   margin-right: auto;
@@ -4827,11 +4827,11 @@ p, b {
   text-align: center;
 }
 
-.leto-card-wrapper > [class*=leto-card] ~ label {
+.leto-card-wrapper > [class*=card] ~ label {
   margin-top: 8px;
 }
 
-.leto-card-wrapper > label ~ [class*=leto-card] {
+.leto-card-wrapper > label ~ [class*=card] {
   margin-top: 8px;
 }
 
@@ -5763,15 +5763,15 @@ p, b {
   }
 }
 
-.leto-frame [class*="leto-button"] {
+.leto-frame [class*="button"] {
   color: #333333;
 }
 
-.leto-frame-dark [class*="leto-button"] {
+.leto-frame-dark [class*="button"] {
   color: #e6e6e6;
 }
 
-.leto-frame-dark [class*="leto-button"] {
+.leto-frame-dark [class*="button"] {
   border-color: #808080;
 }
 
@@ -6159,15 +6159,15 @@ p, b {
   }
 }
 
-.leto-frame [class*="leto-badge"] {
+.leto-frame [class*="badge"] {
   color: #333333;
 }
 
-.leto-frame-dark [class*="leto-badge"] {
+.leto-frame-dark [class*="badge"] {
   color: #e6e6e6;
 }
 
-.leto-frame-dark [class*="leto-badge"] {
+.leto-frame-dark [class*="badge"] {
   border-color: #808080;
 }
 
@@ -6535,15 +6535,15 @@ p, b {
   }
 }
 
-.leto-frame [class*="leto-input"][type="text"], .leto-frame [class*="leto-input"][type="date"], .leto-frame [class*="leto-input"][type="datetime-local"], .leto-frame [class*="leto-input"][type="email"], .leto-frame [class*="leto-input"][type="month"], .leto-frame [class*="leto-input"][type="number"], .leto-frame [class*="leto-input"][type="password"], .leto-frame [class*="leto-input"][type="tel"], .leto-frame [class*="leto-input"][type="time"], .leto-frame [class*="leto-input"][type="url"], .leto-frame [class*="leto-input"][type="week"] {
+.leto-frame [class*="input"][type="text"], .leto-frame [class*="input"][type="date"], .leto-frame [class*="input"][type="datetime-local"], .leto-frame [class*="input"][type="email"], .leto-frame [class*="input"][type="month"], .leto-frame [class*="input"][type="number"], .leto-frame [class*="input"][type="password"], .leto-frame [class*="input"][type="tel"], .leto-frame [class*="input"][type="time"], .leto-frame [class*="input"][type="url"], .leto-frame [class*="input"][type="week"] {
   color: #333333;
 }
 
-.leto-frame-dark [class*="leto-input"][type="text"], .leto-frame-dark [class*="leto-input"][type="date"], .leto-frame-dark [class*="leto-input"][type="datetime-local"], .leto-frame-dark [class*="leto-input"][type="email"], .leto-frame-dark [class*="leto-input"][type="month"], .leto-frame-dark [class*="leto-input"][type="number"], .leto-frame-dark [class*="leto-input"][type="password"], .leto-frame-dark [class*="leto-input"][type="tel"], .leto-frame-dark [class*="leto-input"][type="time"], .leto-frame-dark [class*="leto-input"][type="url"], .leto-frame-dark [class*="leto-input"][type="week"] {
+.leto-frame-dark [class*="input"][type="text"], .leto-frame-dark [class*="input"][type="date"], .leto-frame-dark [class*="input"][type="datetime-local"], .leto-frame-dark [class*="input"][type="email"], .leto-frame-dark [class*="input"][type="month"], .leto-frame-dark [class*="input"][type="number"], .leto-frame-dark [class*="input"][type="password"], .leto-frame-dark [class*="input"][type="tel"], .leto-frame-dark [class*="input"][type="time"], .leto-frame-dark [class*="input"][type="url"], .leto-frame-dark [class*="input"][type="week"] {
   color: #e6e6e6;
 }
 
-.leto-frame-dark [class*="leto-input"][type="text"], .leto-frame-dark [class*="leto-input"][type="date"], .leto-frame-dark [class*="leto-input"][type="datetime-local"], .leto-frame-dark [class*="leto-input"][type="email"], .leto-frame-dark [class*="leto-input"][type="month"], .leto-frame-dark [class*="leto-input"][type="number"], .leto-frame-dark [class*="leto-input"][type="password"], .leto-frame-dark [class*="leto-input"][type="tel"], .leto-frame-dark [class*="leto-input"][type="time"], .leto-frame-dark [class*="leto-input"][type="url"], .leto-frame-dark [class*="leto-input"][type="week"] {
+.leto-frame-dark [class*="input"][type="text"], .leto-frame-dark [class*="input"][type="date"], .leto-frame-dark [class*="input"][type="datetime-local"], .leto-frame-dark [class*="input"][type="email"], .leto-frame-dark [class*="input"][type="month"], .leto-frame-dark [class*="input"][type="number"], .leto-frame-dark [class*="input"][type="password"], .leto-frame-dark [class*="input"][type="tel"], .leto-frame-dark [class*="input"][type="time"], .leto-frame-dark [class*="input"][type="url"], .leto-frame-dark [class*="input"][type="week"] {
   border-color: #808080;
 }
 
@@ -7263,15 +7263,15 @@ p, b {
   }
 }
 
-.leto-frame [class*="leto-input"][type="color"] {
+.leto-frame [class*="input"][type="color"] {
   color: #333333;
 }
 
-.leto-frame-dark [class*="leto-input"][type="color"] {
+.leto-frame-dark [class*="input"][type="color"] {
   color: #e6e6e6;
 }
 
-.leto-frame-dark [class*="leto-input"][type="color"] {
+.leto-frame-dark [class*="input"][type="color"] {
   border-color: #808080;
 }
 
@@ -7794,24 +7794,24 @@ p, b {
   }
 }
 
-.leto-frame [class*="leto-input"][type="search"] {
+.leto-frame [class*="input"][type="search"] {
   color: #333333;
 }
 
-.leto-frame-dark [class*="leto-input"][type="search"] {
+.leto-frame-dark [class*="input"][type="search"] {
   color: #e6e6e6;
 }
 
-.leto-frame-dark [class*="leto-input"][type="search"] {
+.leto-frame-dark [class*="input"][type="search"] {
   border-color: #808080;
 }
 
-textarea[class*="leto-input"], textarea[class*="leto-input"]-tablet, textarea[class*="leto-input"]-tablet-pc, textarea[class*="leto-input"]-pc, textarea[class*="leto-input"]-ultrawide, textarea[class*="leto-input"]-super-ultrawide, .leto-textarea, .leto-textarea-tablet, .leto-textarea-tablet-pc, .leto-textarea-pc, .leto-textarea-ultrawide, .leto-textarea-super-ultrawide {
+textarea.leto-input, textarea.leto-input-tablet, textarea.leto-input-tablet-pc, textarea.leto-input-pc, textarea.leto-input-ultrawide, textarea.leto-input-super-ultrawide {
   min-width: auto;
   height: auto;
   font-size: 16px;
   margin: 8px;
-  padding: 0 16px;
+  padding: 8px 16px;
   border-width: 1px;
   border-style: solid;
   border-radius: 12px;
@@ -7819,20 +7819,20 @@ textarea[class*="leto-input"], textarea[class*="leto-input"]-tablet, textarea[cl
   border-color: #cccccc;
 }
 
-textarea[class*="leto-input"]:focus, textarea[class*="leto-input"]-tablet:focus, textarea[class*="leto-input"]-tablet-pc:focus, textarea[class*="leto-input"]-pc:focus, textarea[class*="leto-input"]-ultrawide:focus, textarea[class*="leto-input"]-super-ultrawide:focus, .leto-textarea:focus, .leto-textarea-tablet:focus, .leto-textarea-tablet-pc:focus, .leto-textarea-pc:focus, .leto-textarea-ultrawide:focus, .leto-textarea-super-ultrawide:focus {
+textarea.leto-input:focus, textarea.leto-input-tablet:focus, textarea.leto-input-tablet-pc:focus, textarea.leto-input-pc:focus, textarea.leto-input-ultrawide:focus, textarea.leto-input-super-ultrawide:focus {
   background-color: #d9d9d9;
   border-color: #d9d9d9;
 }
 
-.leto-frame textarea[class*="leto-input"] {
+.leto-frame textarea[class*="input"] {
   color: #333333;
 }
 
-.leto-frame-dark textarea[class*="leto-input"] {
+.leto-frame-dark textarea[class*="input"] {
   color: #e6e6e6;
 }
 
-.leto-frame-dark textarea[class*="leto-input"] {
+.leto-frame-dark textarea[class*="input"] {
   border-color: #808080;
 }
 
@@ -8220,23 +8220,23 @@ select.leto-input-xxl {
   }
 }
 
-.leto-frame select[class*="leto-input"] {
+.leto-frame select[class*="input"] {
   background: #fdfdfd;
 }
 
-.leto-frame-dark select[class*="leto-input"] {
+.leto-frame-dark select[class*="input"] {
   background: #262626;
 }
 
-.leto-frame select[class*="leto-input"] {
+.leto-frame select[class*="input"] {
   color: #333333;
 }
 
-.leto-frame-dark select[class*="leto-input"] {
+.leto-frame-dark select[class*="input"] {
   color: #e6e6e6;
 }
 
-.leto-frame-dark select[class*="leto-input"] {
+.leto-frame-dark select[class*="input"] {
   border-color: #808080;
 }
 
@@ -8310,7 +8310,7 @@ select.leto-input-xxl {
   border-color: #808080;
 }
 
-.leto-input-wrapper [class*=leto-input] {
+.leto-input-wrapper [class*=input] {
   background-color: transparent !important;
   border: 0;
   min-width: 0;
@@ -8327,7 +8327,7 @@ select.leto-input-xxl {
   right: 8px;
 }
 
-.leto-input-wrapper > select[class*=leto-input] {
+.leto-input-wrapper > select[class*=input] {
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
@@ -8335,7 +8335,7 @@ select.leto-input-xxl {
   border: 0;
 }
 
-.leto-input-wrapper > select[class*=leto-input]::-ms-expand {
+.leto-input-wrapper > select[class*=input]::-ms-expand {
   display: none;
 }
 
@@ -8616,15 +8616,15 @@ select.leto-input-xxl {
   display: block;
 }
 
-.leto-frame [class*="leto-pile"] {
+.leto-frame [class*="pile"] {
   color: #333333;
 }
 
-.leto-frame-dark [class*="leto-pile"] {
+.leto-frame-dark [class*="pile"] {
   color: #e6e6e6;
 }
 
-.leto-frame-dark [class*="leto-pile"] {
+.leto-frame-dark [class*="pile"] {
   border-color: #808080;
 }
 
@@ -8723,15 +8723,15 @@ select.leto-input-xxl {
   }
 }
 
-.leto-frame [class*="leto-form"] {
+.leto-frame [class*="form"] {
   color: #333333;
 }
 
-.leto-frame-dark [class*="leto-form"] {
+.leto-frame-dark [class*="form"] {
   color: #e6e6e6;
 }
 
-.leto-frame-dark [class*="leto-form"] {
+.leto-frame-dark [class*="form"] {
   border-color: #808080;
 }
 
@@ -9734,7 +9734,7 @@ select.leto-input-xxl {
   bottom: 20px;
 }
 
-.leto-frame {
+.leto--frame {
   width: 100%;
 }
 
@@ -9746,7 +9746,7 @@ select.leto-input-xxl {
   padding: 8px;
 }
 
-.leto-container[class*="leto-scrollable"] {
+.leto-container[class*="scrollable"] {
   position: relative;
   width: 100%;
   height: 100%;
@@ -9763,7 +9763,7 @@ select.leto-input-xxl {
   padding: 8px;
 }
 
-.leto-container-full[class*="leto-scrollable"] {
+.leto-container-full[class*="scrollable"] {
   position: relative;
   width: 100%;
   height: 100%;
@@ -9867,12 +9867,12 @@ select.leto-input-xxl {
   display: flex;
 }
 
-[class*=leto-frame] > .leto-group > .leto-container > .leto-edge-top {
+[class*="frame"] > .leto-group > .leto-container > .leto-edge-top {
   margin-top: -8px;
 }
 
 @media (max-width: 1440px) {
-  [class*=leto-frame] > .leto-group > .leto-edge-left, [class*=leto-frame] > .leto-group > .leto-edge-right {
+  [class*="frame"] > .leto-group > .leto-edge-left, [class*="frame"] > .leto-group > .leto-edge-right {
     position: -webkit-sticky;
     position: sticky;
   }
@@ -12565,70 +12565,240 @@ select.leto-input-xxl {
 }
 
 .leto-min-width-full {
-  min-width: calc(100% - (8px*2));
+  min-width: calc(100%);
 }
 
 .leto-min-width-seven-eighths {
-  min-width: calc(87.5% - (8px*2));
+  min-width: calc(87.5%);
 }
 
 .leto-min-width-five-sixths {
-  min-width: calc(((100% / 6) * 5) - (8px*2));
+  min-width: calc(((100% / 6) * 5));
 }
 
 .leto-min-width-four-fifths {
-  min-width: calc(80% - (8px*2));
+  min-width: calc(80%);
 }
 
 .leto-min-width-three-quaters {
-  min-width: calc(75% - (8px*2));
+  min-width: calc(75%);
 }
 
 .leto-min-width-two-thirds {
-  min-width: calc(66% - (8px*2));
+  min-width: calc(66%);
 }
 
 .leto-min-width-five-eighths {
-  min-width: calc(62.5% - (8px*2));
+  min-width: calc(62.5%);
 }
 
 .leto-min-width-three-fifths {
-  min-width: calc(60% - (8px*2));
+  min-width: calc(60%);
 }
 
 .leto-min-width-half {
-  min-width: calc(50% - (8px*2));
+  min-width: calc(50%);
 }
 
 .leto-min-width-three-sixths {
-  min-width: calc(((100% / 6) * 3) - (8px*2));
+  min-width: calc(((100% / 6) * 3));
 }
 
 .leto-min-width-two-fifths {
-  min-width: calc(40% - (8px*2));
+  min-width: calc(40%);
 }
 
 .leto-min-width-three-eighths {
-  min-width: calc(37.5% - (8px*2));
+  min-width: calc(37.5%);
 }
 
 .leto-min-width-third {
-  min-width: calc((100% / 3) - (8px*2));
+  min-width: calc((100% / 3));
 }
 
 .leto-min-width-quater {
-  min-width: calc(25% - (8px*2));
+  min-width: calc(25%);
 }
 
 .leto-min-width-fifth {
-  min-width: calc(20% - (8px*2));
+  min-width: calc(20%);
 }
 
 .leto-min-width-sixth {
-  min-width: calc((100% / 6) - (8px*2));
+  min-width: calc((100% / 6));
 }
 
 .leto-min-width-eighth {
+  min-width: calc(12.5%);
+}
+
+[class*="bubble"].leto-min-width-full,
+[class*="card"].leto-min-width-full,
+[class*="button"].leto-min-width-full,
+[class*="badge"].leto-min-width-full,
+[class*="pile"].leto-min-width-full,
+[class*="input"].leto-min-width-full,
+[class*="table"].leto-min-width-full {
+  min-width: calc(100% - (8px*2));
+}
+
+[class*="bubble"].leto-min-width-seven-eighths,
+[class*="card"].leto-min-width-seven-eighths,
+[class*="button"].leto-min-width-seven-eighths,
+[class*="badge"].leto-min-width-seven-eighths,
+[class*="pile"].leto-min-width-seven-eighths,
+[class*="input"].leto-min-width-seven-eighths,
+[class*="table"].leto-min-width-seven-eighths {
+  min-width: calc(87.5% - (8px*2));
+}
+
+[class*="bubble"].leto-min-width-five-sixths,
+[class*="card"].leto-min-width-five-sixths,
+[class*="button"].leto-min-width-five-sixths,
+[class*="badge"].leto-min-width-five-sixths,
+[class*="pile"].leto-min-width-five-sixths,
+[class*="input"].leto-min-width-five-sixths,
+[class*="table"].leto-min-width-five-sixths {
+  min-width: calc(((100% / 6) * 5) - (8px*2));
+}
+
+[class*="bubble"].leto-min-width-four-fifths,
+[class*="card"].leto-min-width-four-fifths,
+[class*="button"].leto-min-width-four-fifths,
+[class*="badge"].leto-min-width-four-fifths,
+[class*="pile"].leto-min-width-four-fifths,
+[class*="input"].leto-min-width-four-fifths,
+[class*="table"].leto-min-width-four-fifths {
+  min-width: calc(80% - (8px*2));
+}
+
+[class*="bubble"].leto-min-width-three-quaters,
+[class*="card"].leto-min-width-three-quaters,
+[class*="button"].leto-min-width-three-quaters,
+[class*="badge"].leto-min-width-three-quaters,
+[class*="pile"].leto-min-width-three-quaters,
+[class*="input"].leto-min-width-three-quaters,
+[class*="table"].leto-min-width-three-quaters {
+  min-width: calc(75% - (8px*2));
+}
+
+[class*="bubble"].leto-min-width-two-thirds,
+[class*="card"].leto-min-width-two-thirds,
+[class*="button"].leto-min-width-two-thirds,
+[class*="badge"].leto-min-width-two-thirds,
+[class*="pile"].leto-min-width-two-thirds,
+[class*="input"].leto-min-width-two-thirds,
+[class*="table"].leto-min-width-two-thirds {
+  min-width: calc(66% - (8px*2));
+}
+
+[class*="bubble"].leto-min-width-five-eighths,
+[class*="card"].leto-min-width-five-eighths,
+[class*="button"].leto-min-width-five-eighths,
+[class*="badge"].leto-min-width-five-eighths,
+[class*="pile"].leto-min-width-five-eighths,
+[class*="input"].leto-min-width-five-eighths,
+[class*="table"].leto-min-width-five-eighths {
+  min-width: calc(62.5% - (8px*2));
+}
+
+[class*="bubble"].leto-min-width-three-fifths,
+[class*="card"].leto-min-width-three-fifths,
+[class*="button"].leto-min-width-three-fifths,
+[class*="badge"].leto-min-width-three-fifths,
+[class*="pile"].leto-min-width-three-fifths,
+[class*="input"].leto-min-width-three-fifths,
+[class*="table"].leto-min-width-three-fifths {
+  min-width: calc(60% - (8px*2));
+}
+
+[class*="bubble"].leto-min-width-half,
+[class*="card"].leto-min-width-half,
+[class*="button"].leto-min-width-half,
+[class*="badge"].leto-min-width-half,
+[class*="pile"].leto-min-width-half,
+[class*="input"].leto-min-width-half,
+[class*="table"].leto-min-width-half {
+  min-width: calc(50% - (8px*2));
+}
+
+[class*="bubble"].leto-min-width-three-sixths,
+[class*="card"].leto-min-width-three-sixths,
+[class*="button"].leto-min-width-three-sixths,
+[class*="badge"].leto-min-width-three-sixths,
+[class*="pile"].leto-min-width-three-sixths,
+[class*="input"].leto-min-width-three-sixths,
+[class*="table"].leto-min-width-three-sixths {
+  min-width: calc(((100% / 6) * 3) - (8px*2));
+}
+
+[class*="bubble"].leto-min-width-two-fifths,
+[class*="card"].leto-min-width-two-fifths,
+[class*="button"].leto-min-width-two-fifths,
+[class*="badge"].leto-min-width-two-fifths,
+[class*="pile"].leto-min-width-two-fifths,
+[class*="input"].leto-min-width-two-fifths,
+[class*="table"].leto-min-width-two-fifths {
+  min-width: calc(40% - (8px*2));
+}
+
+[class*="bubble"].leto-min-width-three-eighths,
+[class*="card"].leto-min-width-three-eighths,
+[class*="button"].leto-min-width-three-eighths,
+[class*="badge"].leto-min-width-three-eighths,
+[class*="pile"].leto-min-width-three-eighths,
+[class*="input"].leto-min-width-three-eighths,
+[class*="table"].leto-min-width-three-eighths {
+  min-width: calc(37.5% - (8px*2));
+}
+
+[class*="bubble"].leto-min-width-third,
+[class*="card"].leto-min-width-third,
+[class*="button"].leto-min-width-third,
+[class*="badge"].leto-min-width-third,
+[class*="pile"].leto-min-width-third,
+[class*="input"].leto-min-width-third,
+[class*="table"].leto-min-width-third {
+  min-width: calc((100% / 3) - (8px*2));
+}
+
+[class*="bubble"].leto-min-width-quater,
+[class*="card"].leto-min-width-quater,
+[class*="button"].leto-min-width-quater,
+[class*="badge"].leto-min-width-quater,
+[class*="pile"].leto-min-width-quater,
+[class*="input"].leto-min-width-quater,
+[class*="table"].leto-min-width-quater {
+  min-width: calc(25% - (8px*2));
+}
+
+[class*="bubble"].leto-min-width-fifth,
+[class*="card"].leto-min-width-fifth,
+[class*="button"].leto-min-width-fifth,
+[class*="badge"].leto-min-width-fifth,
+[class*="pile"].leto-min-width-fifth,
+[class*="input"].leto-min-width-fifth,
+[class*="table"].leto-min-width-fifth {
+  min-width: calc(20% - (8px*2));
+}
+
+[class*="bubble"].leto-min-width-sixth,
+[class*="card"].leto-min-width-sixth,
+[class*="button"].leto-min-width-sixth,
+[class*="badge"].leto-min-width-sixth,
+[class*="pile"].leto-min-width-sixth,
+[class*="input"].leto-min-width-sixth,
+[class*="table"].leto-min-width-sixth {
+  min-width: calc((100% / 6) - (8px*2));
+}
+
+[class*="bubble"].leto-min-width-eighth,
+[class*="card"].leto-min-width-eighth,
+[class*="button"].leto-min-width-eighth,
+[class*="badge"].leto-min-width-eighth,
+[class*="pile"].leto-min-width-eighth,
+[class*="input"].leto-min-width-eighth,
+[class*="table"].leto-min-width-eighth {
   min-width: calc(12.5% - (8px*2));
 }
 
@@ -12665,70 +12835,240 @@ select.leto-input-xxl {
 }
 
 .leto-width-full {
-  width: calc(100% - (8px*2));
+  width: calc(100%);
 }
 
 .leto-width-seven-eighths {
-  width: calc(87.5% - (8px*2));
+  width: calc(87.5%);
 }
 
 .leto-width-five-sixths {
-  width: calc(((100% / 6) * 5) - (8px*2));
+  width: calc(((100% / 6) * 5));
 }
 
 .leto-width-four-fifths {
-  width: calc(80% - (8px*2));
+  width: calc(80%);
 }
 
 .leto-width-three-quaters {
-  width: calc(75% - (8px*2));
+  width: calc(75%);
 }
 
 .leto-width-two-thirds {
-  width: calc(66% - (8px*2));
+  width: calc(66%);
 }
 
 .leto-width-five-eighths {
-  width: calc(62.5% - (8px*2));
+  width: calc(62.5%);
 }
 
 .leto-width-three-fifths {
-  width: calc(60% - (8px*2));
+  width: calc(60%);
 }
 
 .leto-width-half {
-  width: calc(50% - (8px*2));
+  width: calc(50%);
 }
 
 .leto-width-three-sixths {
-  width: calc(((100% / 6) * 3) - (8px*2));
+  width: calc(((100% / 6) * 3));
 }
 
 .leto-width-two-fifths {
-  width: calc(40% - (8px*2));
+  width: calc(40%);
 }
 
 .leto-width-three-eighths {
-  width: calc(37.5% - (8px*2));
+  width: calc(37.5%);
 }
 
 .leto-width-third {
-  width: calc((100% / 3) - (8px*2));
+  width: calc((100% / 3));
 }
 
 .leto-width-quater {
-  width: calc(25% - (8px*2));
+  width: calc(25%);
 }
 
 .leto-width-fifth {
-  width: calc(20% - (8px*2));
+  width: calc(20%);
 }
 
 .leto-width-sixth {
-  width: calc((100% / 6) - (8px*2));
+  width: calc((100% / 6));
 }
 
 .leto-width-eighth {
+  width: calc(12.5%);
+}
+
+[class*="bubble"].leto-width-full,
+[class*="card"].leto-width-full,
+[class*="button"].leto-width-full,
+[class*="badge"].leto-width-full,
+[class*="pile"].leto-width-full,
+[class*="input"].leto-width-full,
+[class*="table"].leto-width-full {
+  width: calc(100% - (8px*2));
+}
+
+[class*="bubble"].leto-width-seven-eighths,
+[class*="card"].leto-width-seven-eighths,
+[class*="button"].leto-width-seven-eighths,
+[class*="badge"].leto-width-seven-eighths,
+[class*="pile"].leto-width-seven-eighths,
+[class*="input"].leto-width-seven-eighths,
+[class*="table"].leto-width-seven-eighths {
+  width: calc(87.5% - (8px*2));
+}
+
+[class*="bubble"].leto-width-five-sixths,
+[class*="card"].leto-width-five-sixths,
+[class*="button"].leto-width-five-sixths,
+[class*="badge"].leto-width-five-sixths,
+[class*="pile"].leto-width-five-sixths,
+[class*="input"].leto-width-five-sixths,
+[class*="table"].leto-width-five-sixths {
+  width: calc(((100% / 6) * 5) - (8px*2));
+}
+
+[class*="bubble"].leto-width-four-fifths,
+[class*="card"].leto-width-four-fifths,
+[class*="button"].leto-width-four-fifths,
+[class*="badge"].leto-width-four-fifths,
+[class*="pile"].leto-width-four-fifths,
+[class*="input"].leto-width-four-fifths,
+[class*="table"].leto-width-four-fifths {
+  width: calc(80% - (8px*2));
+}
+
+[class*="bubble"].leto-width-three-quaters,
+[class*="card"].leto-width-three-quaters,
+[class*="button"].leto-width-three-quaters,
+[class*="badge"].leto-width-three-quaters,
+[class*="pile"].leto-width-three-quaters,
+[class*="input"].leto-width-three-quaters,
+[class*="table"].leto-width-three-quaters {
+  width: calc(75% - (8px*2));
+}
+
+[class*="bubble"].leto-width-two-thirds,
+[class*="card"].leto-width-two-thirds,
+[class*="button"].leto-width-two-thirds,
+[class*="badge"].leto-width-two-thirds,
+[class*="pile"].leto-width-two-thirds,
+[class*="input"].leto-width-two-thirds,
+[class*="table"].leto-width-two-thirds {
+  width: calc(66% - (8px*2));
+}
+
+[class*="bubble"].leto-width-five-eighths,
+[class*="card"].leto-width-five-eighths,
+[class*="button"].leto-width-five-eighths,
+[class*="badge"].leto-width-five-eighths,
+[class*="pile"].leto-width-five-eighths,
+[class*="input"].leto-width-five-eighths,
+[class*="table"].leto-width-five-eighths {
+  width: calc(62.5% - (8px*2));
+}
+
+[class*="bubble"].leto-width-three-fifths,
+[class*="card"].leto-width-three-fifths,
+[class*="button"].leto-width-three-fifths,
+[class*="badge"].leto-width-three-fifths,
+[class*="pile"].leto-width-three-fifths,
+[class*="input"].leto-width-three-fifths,
+[class*="table"].leto-width-three-fifths {
+  width: calc(60% - (8px*2));
+}
+
+[class*="bubble"].leto-width-half,
+[class*="card"].leto-width-half,
+[class*="button"].leto-width-half,
+[class*="badge"].leto-width-half,
+[class*="pile"].leto-width-half,
+[class*="input"].leto-width-half,
+[class*="table"].leto-width-half {
+  width: calc(50% - (8px*2));
+}
+
+[class*="bubble"].leto-width-three-sixths,
+[class*="card"].leto-width-three-sixths,
+[class*="button"].leto-width-three-sixths,
+[class*="badge"].leto-width-three-sixths,
+[class*="pile"].leto-width-three-sixths,
+[class*="input"].leto-width-three-sixths,
+[class*="table"].leto-width-three-sixths {
+  width: calc(((100% / 6) * 3) - (8px*2));
+}
+
+[class*="bubble"].leto-width-two-fifths,
+[class*="card"].leto-width-two-fifths,
+[class*="button"].leto-width-two-fifths,
+[class*="badge"].leto-width-two-fifths,
+[class*="pile"].leto-width-two-fifths,
+[class*="input"].leto-width-two-fifths,
+[class*="table"].leto-width-two-fifths {
+  width: calc(40% - (8px*2));
+}
+
+[class*="bubble"].leto-width-three-eighths,
+[class*="card"].leto-width-three-eighths,
+[class*="button"].leto-width-three-eighths,
+[class*="badge"].leto-width-three-eighths,
+[class*="pile"].leto-width-three-eighths,
+[class*="input"].leto-width-three-eighths,
+[class*="table"].leto-width-three-eighths {
+  width: calc(37.5% - (8px*2));
+}
+
+[class*="bubble"].leto-width-third,
+[class*="card"].leto-width-third,
+[class*="button"].leto-width-third,
+[class*="badge"].leto-width-third,
+[class*="pile"].leto-width-third,
+[class*="input"].leto-width-third,
+[class*="table"].leto-width-third {
+  width: calc((100% / 3) - (8px*2));
+}
+
+[class*="bubble"].leto-width-quater,
+[class*="card"].leto-width-quater,
+[class*="button"].leto-width-quater,
+[class*="badge"].leto-width-quater,
+[class*="pile"].leto-width-quater,
+[class*="input"].leto-width-quater,
+[class*="table"].leto-width-quater {
+  width: calc(25% - (8px*2));
+}
+
+[class*="bubble"].leto-width-fifth,
+[class*="card"].leto-width-fifth,
+[class*="button"].leto-width-fifth,
+[class*="badge"].leto-width-fifth,
+[class*="pile"].leto-width-fifth,
+[class*="input"].leto-width-fifth,
+[class*="table"].leto-width-fifth {
+  width: calc(20% - (8px*2));
+}
+
+[class*="bubble"].leto-width-sixth,
+[class*="card"].leto-width-sixth,
+[class*="button"].leto-width-sixth,
+[class*="badge"].leto-width-sixth,
+[class*="pile"].leto-width-sixth,
+[class*="input"].leto-width-sixth,
+[class*="table"].leto-width-sixth {
+  width: calc((100% / 6) - (8px*2));
+}
+
+[class*="bubble"].leto-width-eighth,
+[class*="card"].leto-width-eighth,
+[class*="button"].leto-width-eighth,
+[class*="badge"].leto-width-eighth,
+[class*="pile"].leto-width-eighth,
+[class*="input"].leto-width-eighth,
+[class*="table"].leto-width-eighth {
   width: calc(12.5% - (8px*2));
 }
 
@@ -12765,70 +13105,240 @@ select.leto-input-xxl {
 }
 
 .leto-max-width-full {
-  max-width: calc(100% - (8px*2));
+  max-width: calc(100%);
 }
 
 .leto-max-width-seven-eighths {
-  max-width: calc(87.5% - (8px*2));
+  max-width: calc(87.5%);
 }
 
 .leto-max-width-five-sixths {
-  max-width: calc(((100% / 6) * 5) - (8px*2));
+  max-width: calc(((100% / 6) * 5));
 }
 
 .leto-max-width-four-fifths {
-  max-width: calc(80% - (8px*2));
+  max-width: calc(80%);
 }
 
 .leto-max-width-three-quaters {
-  max-width: calc(75% - (8px*2));
+  max-width: calc(75%);
 }
 
 .leto-max-width-two-thirds {
-  max-width: calc(66% - (8px*2));
+  max-width: calc(66%);
 }
 
 .leto-max-width-five-eighths {
-  max-width: calc(62.5% - (8px*2));
+  max-width: calc(62.5%);
 }
 
 .leto-max-width-three-fifths {
-  max-width: calc(60% - (8px*2));
+  max-width: calc(60%);
 }
 
 .leto-max-width-half {
-  max-width: calc(50% - (8px*2));
+  max-width: calc(50%);
 }
 
 .leto-max-width-three-sixths {
-  max-width: calc(((100% / 6) * 3) - (8px*2));
+  max-width: calc(((100% / 6) * 3));
 }
 
 .leto-max-width-two-fifths {
-  max-width: calc(40% - (8px*2));
+  max-width: calc(40%);
 }
 
 .leto-max-width-three-eighths {
-  max-width: calc(37.5% - (8px*2));
+  max-width: calc(37.5%);
 }
 
 .leto-max-width-third {
-  max-width: calc((100% / 3) - (8px*2));
+  max-width: calc((100% / 3));
 }
 
 .leto-max-width-quater {
-  max-width: calc(25% - (8px*2));
+  max-width: calc(25%);
 }
 
 .leto-max-width-fifth {
-  max-width: calc(20% - (8px*2));
+  max-width: calc(20%);
 }
 
 .leto-max-width-sixth {
-  max-width: calc((100% / 6) - (8px*2));
+  max-width: calc((100% / 6));
 }
 
 .leto-max-width-eighth {
+  max-width: calc(12.5%);
+}
+
+[class*="bubble"].leto-max-width-full,
+[class*="card"].leto-max-width-full,
+[class*="button"].leto-max-width-full,
+[class*="badge"].leto-max-width-full,
+[class*="pile"].leto-max-width-full,
+[class*="input"].leto-max-width-full,
+[class*="table"].leto-max-width-full {
+  max-width: calc(100% - (8px*2));
+}
+
+[class*="bubble"].leto-max-width-seven-eighths,
+[class*="card"].leto-max-width-seven-eighths,
+[class*="button"].leto-max-width-seven-eighths,
+[class*="badge"].leto-max-width-seven-eighths,
+[class*="pile"].leto-max-width-seven-eighths,
+[class*="input"].leto-max-width-seven-eighths,
+[class*="table"].leto-max-width-seven-eighths {
+  max-width: calc(87.5% - (8px*2));
+}
+
+[class*="bubble"].leto-max-width-five-sixths,
+[class*="card"].leto-max-width-five-sixths,
+[class*="button"].leto-max-width-five-sixths,
+[class*="badge"].leto-max-width-five-sixths,
+[class*="pile"].leto-max-width-five-sixths,
+[class*="input"].leto-max-width-five-sixths,
+[class*="table"].leto-max-width-five-sixths {
+  max-width: calc(((100% / 6) * 5) - (8px*2));
+}
+
+[class*="bubble"].leto-max-width-four-fifths,
+[class*="card"].leto-max-width-four-fifths,
+[class*="button"].leto-max-width-four-fifths,
+[class*="badge"].leto-max-width-four-fifths,
+[class*="pile"].leto-max-width-four-fifths,
+[class*="input"].leto-max-width-four-fifths,
+[class*="table"].leto-max-width-four-fifths {
+  max-width: calc(80% - (8px*2));
+}
+
+[class*="bubble"].leto-max-width-three-quaters,
+[class*="card"].leto-max-width-three-quaters,
+[class*="button"].leto-max-width-three-quaters,
+[class*="badge"].leto-max-width-three-quaters,
+[class*="pile"].leto-max-width-three-quaters,
+[class*="input"].leto-max-width-three-quaters,
+[class*="table"].leto-max-width-three-quaters {
+  max-width: calc(75% - (8px*2));
+}
+
+[class*="bubble"].leto-max-width-two-thirds,
+[class*="card"].leto-max-width-two-thirds,
+[class*="button"].leto-max-width-two-thirds,
+[class*="badge"].leto-max-width-two-thirds,
+[class*="pile"].leto-max-width-two-thirds,
+[class*="input"].leto-max-width-two-thirds,
+[class*="table"].leto-max-width-two-thirds {
+  max-width: calc(66% - (8px*2));
+}
+
+[class*="bubble"].leto-max-width-five-eighths,
+[class*="card"].leto-max-width-five-eighths,
+[class*="button"].leto-max-width-five-eighths,
+[class*="badge"].leto-max-width-five-eighths,
+[class*="pile"].leto-max-width-five-eighths,
+[class*="input"].leto-max-width-five-eighths,
+[class*="table"].leto-max-width-five-eighths {
+  max-width: calc(62.5% - (8px*2));
+}
+
+[class*="bubble"].leto-max-width-three-fifths,
+[class*="card"].leto-max-width-three-fifths,
+[class*="button"].leto-max-width-three-fifths,
+[class*="badge"].leto-max-width-three-fifths,
+[class*="pile"].leto-max-width-three-fifths,
+[class*="input"].leto-max-width-three-fifths,
+[class*="table"].leto-max-width-three-fifths {
+  max-width: calc(60% - (8px*2));
+}
+
+[class*="bubble"].leto-max-width-half,
+[class*="card"].leto-max-width-half,
+[class*="button"].leto-max-width-half,
+[class*="badge"].leto-max-width-half,
+[class*="pile"].leto-max-width-half,
+[class*="input"].leto-max-width-half,
+[class*="table"].leto-max-width-half {
+  max-width: calc(50% - (8px*2));
+}
+
+[class*="bubble"].leto-max-width-three-sixths,
+[class*="card"].leto-max-width-three-sixths,
+[class*="button"].leto-max-width-three-sixths,
+[class*="badge"].leto-max-width-three-sixths,
+[class*="pile"].leto-max-width-three-sixths,
+[class*="input"].leto-max-width-three-sixths,
+[class*="table"].leto-max-width-three-sixths {
+  max-width: calc(((100% / 6) * 3) - (8px*2));
+}
+
+[class*="bubble"].leto-max-width-two-fifths,
+[class*="card"].leto-max-width-two-fifths,
+[class*="button"].leto-max-width-two-fifths,
+[class*="badge"].leto-max-width-two-fifths,
+[class*="pile"].leto-max-width-two-fifths,
+[class*="input"].leto-max-width-two-fifths,
+[class*="table"].leto-max-width-two-fifths {
+  max-width: calc(40% - (8px*2));
+}
+
+[class*="bubble"].leto-max-width-three-eighths,
+[class*="card"].leto-max-width-three-eighths,
+[class*="button"].leto-max-width-three-eighths,
+[class*="badge"].leto-max-width-three-eighths,
+[class*="pile"].leto-max-width-three-eighths,
+[class*="input"].leto-max-width-three-eighths,
+[class*="table"].leto-max-width-three-eighths {
+  max-width: calc(37.5% - (8px*2));
+}
+
+[class*="bubble"].leto-max-width-third,
+[class*="card"].leto-max-width-third,
+[class*="button"].leto-max-width-third,
+[class*="badge"].leto-max-width-third,
+[class*="pile"].leto-max-width-third,
+[class*="input"].leto-max-width-third,
+[class*="table"].leto-max-width-third {
+  max-width: calc((100% / 3) - (8px*2));
+}
+
+[class*="bubble"].leto-max-width-quater,
+[class*="card"].leto-max-width-quater,
+[class*="button"].leto-max-width-quater,
+[class*="badge"].leto-max-width-quater,
+[class*="pile"].leto-max-width-quater,
+[class*="input"].leto-max-width-quater,
+[class*="table"].leto-max-width-quater {
+  max-width: calc(25% - (8px*2));
+}
+
+[class*="bubble"].leto-max-width-fifth,
+[class*="card"].leto-max-width-fifth,
+[class*="button"].leto-max-width-fifth,
+[class*="badge"].leto-max-width-fifth,
+[class*="pile"].leto-max-width-fifth,
+[class*="input"].leto-max-width-fifth,
+[class*="table"].leto-max-width-fifth {
+  max-width: calc(20% - (8px*2));
+}
+
+[class*="bubble"].leto-max-width-sixth,
+[class*="card"].leto-max-width-sixth,
+[class*="button"].leto-max-width-sixth,
+[class*="badge"].leto-max-width-sixth,
+[class*="pile"].leto-max-width-sixth,
+[class*="input"].leto-max-width-sixth,
+[class*="table"].leto-max-width-sixth {
+  max-width: calc((100% / 6) - (8px*2));
+}
+
+[class*="bubble"].leto-max-width-eighth,
+[class*="card"].leto-max-width-eighth,
+[class*="button"].leto-max-width-eighth,
+[class*="badge"].leto-max-width-eighth,
+[class*="pile"].leto-max-width-eighth,
+[class*="input"].leto-max-width-eighth,
+[class*="table"].leto-max-width-eighth {
   max-width: calc(12.5% - (8px*2));
 }
 
@@ -12865,70 +13375,240 @@ select.leto-input-xxl {
 }
 
 .leto-min-height-full {
-  min-height: calc(100% - (8px*2));
+  min-height: calc(100%);
 }
 
 .leto-min-height-seven-eighths {
-  min-height: calc(87.5% - (8px*2));
+  min-height: calc(87.5%);
 }
 
 .leto-min-height-five-sixths {
-  min-height: calc(((100% / 6) * 5) - (8px*2));
+  min-height: calc(((100% / 6) * 5));
 }
 
 .leto-min-height-four-fifths {
-  min-height: calc(80% - (8px*2));
+  min-height: calc(80%);
 }
 
 .leto-min-height-three-quaters {
-  min-height: calc(75% - (8px*2));
+  min-height: calc(75%);
 }
 
 .leto-min-height-two-thirds {
-  min-height: calc(66% - (8px*2));
+  min-height: calc(66%);
 }
 
 .leto-min-height-five-eighths {
-  min-height: calc(62.5% - (8px*2));
+  min-height: calc(62.5%);
 }
 
 .leto-min-height-three-fifths {
-  min-height: calc(60% - (8px*2));
+  min-height: calc(60%);
 }
 
 .leto-min-height-half {
-  min-height: calc(50% - (8px*2));
+  min-height: calc(50%);
 }
 
 .leto-min-height-three-sixths {
-  min-height: calc(((100% / 6) * 3) - (8px*2));
+  min-height: calc(((100% / 6) * 3));
 }
 
 .leto-min-height-two-fifths {
-  min-height: calc(40% - (8px*2));
+  min-height: calc(40%);
 }
 
 .leto-min-height-three-eighths {
-  min-height: calc(37.5% - (8px*2));
+  min-height: calc(37.5%);
 }
 
 .leto-min-height-third {
-  min-height: calc((100% / 3) - (8px*2));
+  min-height: calc((100% / 3));
 }
 
 .leto-min-height-quater {
-  min-height: calc(25% - (8px*2));
+  min-height: calc(25%);
 }
 
 .leto-min-height-fifth {
-  min-height: calc(20% - (8px*2));
+  min-height: calc(20%);
 }
 
 .leto-min-height-sixth {
-  min-height: calc((100% / 6) - (8px*2));
+  min-height: calc((100% / 6));
 }
 
 .leto-min-height-eighth {
+  min-height: calc(12.5%);
+}
+
+[class*="bubble"].leto-min-height-full,
+[class*="card"].leto-min-height-full,
+[class*="button"].leto-min-height-full,
+[class*="badge"].leto-min-height-full,
+[class*="pile"].leto-min-height-full,
+[class*="input"].leto-min-height-full,
+[class*="table"].leto-min-height-full {
+  min-height: calc(100% - (8px*2));
+}
+
+[class*="bubble"].leto-min-height-seven-eighths,
+[class*="card"].leto-min-height-seven-eighths,
+[class*="button"].leto-min-height-seven-eighths,
+[class*="badge"].leto-min-height-seven-eighths,
+[class*="pile"].leto-min-height-seven-eighths,
+[class*="input"].leto-min-height-seven-eighths,
+[class*="table"].leto-min-height-seven-eighths {
+  min-height: calc(87.5% - (8px*2));
+}
+
+[class*="bubble"].leto-min-height-five-sixths,
+[class*="card"].leto-min-height-five-sixths,
+[class*="button"].leto-min-height-five-sixths,
+[class*="badge"].leto-min-height-five-sixths,
+[class*="pile"].leto-min-height-five-sixths,
+[class*="input"].leto-min-height-five-sixths,
+[class*="table"].leto-min-height-five-sixths {
+  min-height: calc(((100% / 6) * 5) - (8px*2));
+}
+
+[class*="bubble"].leto-min-height-four-fifths,
+[class*="card"].leto-min-height-four-fifths,
+[class*="button"].leto-min-height-four-fifths,
+[class*="badge"].leto-min-height-four-fifths,
+[class*="pile"].leto-min-height-four-fifths,
+[class*="input"].leto-min-height-four-fifths,
+[class*="table"].leto-min-height-four-fifths {
+  min-height: calc(80% - (8px*2));
+}
+
+[class*="bubble"].leto-min-height-three-quaters,
+[class*="card"].leto-min-height-three-quaters,
+[class*="button"].leto-min-height-three-quaters,
+[class*="badge"].leto-min-height-three-quaters,
+[class*="pile"].leto-min-height-three-quaters,
+[class*="input"].leto-min-height-three-quaters,
+[class*="table"].leto-min-height-three-quaters {
+  min-height: calc(75% - (8px*2));
+}
+
+[class*="bubble"].leto-min-height-two-thirds,
+[class*="card"].leto-min-height-two-thirds,
+[class*="button"].leto-min-height-two-thirds,
+[class*="badge"].leto-min-height-two-thirds,
+[class*="pile"].leto-min-height-two-thirds,
+[class*="input"].leto-min-height-two-thirds,
+[class*="table"].leto-min-height-two-thirds {
+  min-height: calc(66% - (8px*2));
+}
+
+[class*="bubble"].leto-min-height-five-eighths,
+[class*="card"].leto-min-height-five-eighths,
+[class*="button"].leto-min-height-five-eighths,
+[class*="badge"].leto-min-height-five-eighths,
+[class*="pile"].leto-min-height-five-eighths,
+[class*="input"].leto-min-height-five-eighths,
+[class*="table"].leto-min-height-five-eighths {
+  min-height: calc(62.5% - (8px*2));
+}
+
+[class*="bubble"].leto-min-height-three-fifths,
+[class*="card"].leto-min-height-three-fifths,
+[class*="button"].leto-min-height-three-fifths,
+[class*="badge"].leto-min-height-three-fifths,
+[class*="pile"].leto-min-height-three-fifths,
+[class*="input"].leto-min-height-three-fifths,
+[class*="table"].leto-min-height-three-fifths {
+  min-height: calc(60% - (8px*2));
+}
+
+[class*="bubble"].leto-min-height-half,
+[class*="card"].leto-min-height-half,
+[class*="button"].leto-min-height-half,
+[class*="badge"].leto-min-height-half,
+[class*="pile"].leto-min-height-half,
+[class*="input"].leto-min-height-half,
+[class*="table"].leto-min-height-half {
+  min-height: calc(50% - (8px*2));
+}
+
+[class*="bubble"].leto-min-height-three-sixths,
+[class*="card"].leto-min-height-three-sixths,
+[class*="button"].leto-min-height-three-sixths,
+[class*="badge"].leto-min-height-three-sixths,
+[class*="pile"].leto-min-height-three-sixths,
+[class*="input"].leto-min-height-three-sixths,
+[class*="table"].leto-min-height-three-sixths {
+  min-height: calc(((100% / 6) * 3) - (8px*2));
+}
+
+[class*="bubble"].leto-min-height-two-fifths,
+[class*="card"].leto-min-height-two-fifths,
+[class*="button"].leto-min-height-two-fifths,
+[class*="badge"].leto-min-height-two-fifths,
+[class*="pile"].leto-min-height-two-fifths,
+[class*="input"].leto-min-height-two-fifths,
+[class*="table"].leto-min-height-two-fifths {
+  min-height: calc(40% - (8px*2));
+}
+
+[class*="bubble"].leto-min-height-three-eighths,
+[class*="card"].leto-min-height-three-eighths,
+[class*="button"].leto-min-height-three-eighths,
+[class*="badge"].leto-min-height-three-eighths,
+[class*="pile"].leto-min-height-three-eighths,
+[class*="input"].leto-min-height-three-eighths,
+[class*="table"].leto-min-height-three-eighths {
+  min-height: calc(37.5% - (8px*2));
+}
+
+[class*="bubble"].leto-min-height-third,
+[class*="card"].leto-min-height-third,
+[class*="button"].leto-min-height-third,
+[class*="badge"].leto-min-height-third,
+[class*="pile"].leto-min-height-third,
+[class*="input"].leto-min-height-third,
+[class*="table"].leto-min-height-third {
+  min-height: calc((100% / 3) - (8px*2));
+}
+
+[class*="bubble"].leto-min-height-quater,
+[class*="card"].leto-min-height-quater,
+[class*="button"].leto-min-height-quater,
+[class*="badge"].leto-min-height-quater,
+[class*="pile"].leto-min-height-quater,
+[class*="input"].leto-min-height-quater,
+[class*="table"].leto-min-height-quater {
+  min-height: calc(25% - (8px*2));
+}
+
+[class*="bubble"].leto-min-height-fifth,
+[class*="card"].leto-min-height-fifth,
+[class*="button"].leto-min-height-fifth,
+[class*="badge"].leto-min-height-fifth,
+[class*="pile"].leto-min-height-fifth,
+[class*="input"].leto-min-height-fifth,
+[class*="table"].leto-min-height-fifth {
+  min-height: calc(20% - (8px*2));
+}
+
+[class*="bubble"].leto-min-height-sixth,
+[class*="card"].leto-min-height-sixth,
+[class*="button"].leto-min-height-sixth,
+[class*="badge"].leto-min-height-sixth,
+[class*="pile"].leto-min-height-sixth,
+[class*="input"].leto-min-height-sixth,
+[class*="table"].leto-min-height-sixth {
+  min-height: calc((100% / 6) - (8px*2));
+}
+
+[class*="bubble"].leto-min-height-eighth,
+[class*="card"].leto-min-height-eighth,
+[class*="button"].leto-min-height-eighth,
+[class*="badge"].leto-min-height-eighth,
+[class*="pile"].leto-min-height-eighth,
+[class*="input"].leto-min-height-eighth,
+[class*="table"].leto-min-height-eighth {
   min-height: calc(12.5% - (8px*2));
 }
 
@@ -12965,70 +13645,240 @@ select.leto-input-xxl {
 }
 
 .leto-height-full {
-  height: calc(100% - (8px*2));
+  height: calc(100%);
 }
 
 .leto-height-seven-eighths {
-  height: calc(87.5% - (8px*2));
+  height: calc(87.5%);
 }
 
 .leto-height-five-sixths {
-  height: calc(((100% / 6) * 5) - (8px*2));
+  height: calc(((100% / 6) * 5));
 }
 
 .leto-height-four-fifths {
-  height: calc(80% - (8px*2));
+  height: calc(80%);
 }
 
 .leto-height-three-quaters {
-  height: calc(75% - (8px*2));
+  height: calc(75%);
 }
 
 .leto-height-two-thirds {
-  height: calc(66% - (8px*2));
+  height: calc(66%);
 }
 
 .leto-height-five-eighths {
-  height: calc(62.5% - (8px*2));
+  height: calc(62.5%);
 }
 
 .leto-height-three-fifths {
-  height: calc(60% - (8px*2));
+  height: calc(60%);
 }
 
 .leto-height-half {
-  height: calc(50% - (8px*2));
+  height: calc(50%);
 }
 
 .leto-height-three-sixths {
-  height: calc(((100% / 6) * 3) - (8px*2));
+  height: calc(((100% / 6) * 3));
 }
 
 .leto-height-two-fifths {
-  height: calc(40% - (8px*2));
+  height: calc(40%);
 }
 
 .leto-height-three-eighths {
-  height: calc(37.5% - (8px*2));
+  height: calc(37.5%);
 }
 
 .leto-height-third {
-  height: calc((100% / 3) - (8px*2));
+  height: calc((100% / 3));
 }
 
 .leto-height-quater {
-  height: calc(25% - (8px*2));
+  height: calc(25%);
 }
 
 .leto-height-fifth {
-  height: calc(20% - (8px*2));
+  height: calc(20%);
 }
 
 .leto-height-sixth {
-  height: calc((100% / 6) - (8px*2));
+  height: calc((100% / 6));
 }
 
 .leto-height-eighth {
+  height: calc(12.5%);
+}
+
+[class*="bubble"].leto-height-full,
+[class*="card"].leto-height-full,
+[class*="button"].leto-height-full,
+[class*="badge"].leto-height-full,
+[class*="pile"].leto-height-full,
+[class*="input"].leto-height-full,
+[class*="table"].leto-height-full {
+  height: calc(100% - (8px*2));
+}
+
+[class*="bubble"].leto-height-seven-eighths,
+[class*="card"].leto-height-seven-eighths,
+[class*="button"].leto-height-seven-eighths,
+[class*="badge"].leto-height-seven-eighths,
+[class*="pile"].leto-height-seven-eighths,
+[class*="input"].leto-height-seven-eighths,
+[class*="table"].leto-height-seven-eighths {
+  height: calc(87.5% - (8px*2));
+}
+
+[class*="bubble"].leto-height-five-sixths,
+[class*="card"].leto-height-five-sixths,
+[class*="button"].leto-height-five-sixths,
+[class*="badge"].leto-height-five-sixths,
+[class*="pile"].leto-height-five-sixths,
+[class*="input"].leto-height-five-sixths,
+[class*="table"].leto-height-five-sixths {
+  height: calc(((100% / 6) * 5) - (8px*2));
+}
+
+[class*="bubble"].leto-height-four-fifths,
+[class*="card"].leto-height-four-fifths,
+[class*="button"].leto-height-four-fifths,
+[class*="badge"].leto-height-four-fifths,
+[class*="pile"].leto-height-four-fifths,
+[class*="input"].leto-height-four-fifths,
+[class*="table"].leto-height-four-fifths {
+  height: calc(80% - (8px*2));
+}
+
+[class*="bubble"].leto-height-three-quaters,
+[class*="card"].leto-height-three-quaters,
+[class*="button"].leto-height-three-quaters,
+[class*="badge"].leto-height-three-quaters,
+[class*="pile"].leto-height-three-quaters,
+[class*="input"].leto-height-three-quaters,
+[class*="table"].leto-height-three-quaters {
+  height: calc(75% - (8px*2));
+}
+
+[class*="bubble"].leto-height-two-thirds,
+[class*="card"].leto-height-two-thirds,
+[class*="button"].leto-height-two-thirds,
+[class*="badge"].leto-height-two-thirds,
+[class*="pile"].leto-height-two-thirds,
+[class*="input"].leto-height-two-thirds,
+[class*="table"].leto-height-two-thirds {
+  height: calc(66% - (8px*2));
+}
+
+[class*="bubble"].leto-height-five-eighths,
+[class*="card"].leto-height-five-eighths,
+[class*="button"].leto-height-five-eighths,
+[class*="badge"].leto-height-five-eighths,
+[class*="pile"].leto-height-five-eighths,
+[class*="input"].leto-height-five-eighths,
+[class*="table"].leto-height-five-eighths {
+  height: calc(62.5% - (8px*2));
+}
+
+[class*="bubble"].leto-height-three-fifths,
+[class*="card"].leto-height-three-fifths,
+[class*="button"].leto-height-three-fifths,
+[class*="badge"].leto-height-three-fifths,
+[class*="pile"].leto-height-three-fifths,
+[class*="input"].leto-height-three-fifths,
+[class*="table"].leto-height-three-fifths {
+  height: calc(60% - (8px*2));
+}
+
+[class*="bubble"].leto-height-half,
+[class*="card"].leto-height-half,
+[class*="button"].leto-height-half,
+[class*="badge"].leto-height-half,
+[class*="pile"].leto-height-half,
+[class*="input"].leto-height-half,
+[class*="table"].leto-height-half {
+  height: calc(50% - (8px*2));
+}
+
+[class*="bubble"].leto-height-three-sixths,
+[class*="card"].leto-height-three-sixths,
+[class*="button"].leto-height-three-sixths,
+[class*="badge"].leto-height-three-sixths,
+[class*="pile"].leto-height-three-sixths,
+[class*="input"].leto-height-three-sixths,
+[class*="table"].leto-height-three-sixths {
+  height: calc(((100% / 6) * 3) - (8px*2));
+}
+
+[class*="bubble"].leto-height-two-fifths,
+[class*="card"].leto-height-two-fifths,
+[class*="button"].leto-height-two-fifths,
+[class*="badge"].leto-height-two-fifths,
+[class*="pile"].leto-height-two-fifths,
+[class*="input"].leto-height-two-fifths,
+[class*="table"].leto-height-two-fifths {
+  height: calc(40% - (8px*2));
+}
+
+[class*="bubble"].leto-height-three-eighths,
+[class*="card"].leto-height-three-eighths,
+[class*="button"].leto-height-three-eighths,
+[class*="badge"].leto-height-three-eighths,
+[class*="pile"].leto-height-three-eighths,
+[class*="input"].leto-height-three-eighths,
+[class*="table"].leto-height-three-eighths {
+  height: calc(37.5% - (8px*2));
+}
+
+[class*="bubble"].leto-height-third,
+[class*="card"].leto-height-third,
+[class*="button"].leto-height-third,
+[class*="badge"].leto-height-third,
+[class*="pile"].leto-height-third,
+[class*="input"].leto-height-third,
+[class*="table"].leto-height-third {
+  height: calc((100% / 3) - (8px*2));
+}
+
+[class*="bubble"].leto-height-quater,
+[class*="card"].leto-height-quater,
+[class*="button"].leto-height-quater,
+[class*="badge"].leto-height-quater,
+[class*="pile"].leto-height-quater,
+[class*="input"].leto-height-quater,
+[class*="table"].leto-height-quater {
+  height: calc(25% - (8px*2));
+}
+
+[class*="bubble"].leto-height-fifth,
+[class*="card"].leto-height-fifth,
+[class*="button"].leto-height-fifth,
+[class*="badge"].leto-height-fifth,
+[class*="pile"].leto-height-fifth,
+[class*="input"].leto-height-fifth,
+[class*="table"].leto-height-fifth {
+  height: calc(20% - (8px*2));
+}
+
+[class*="bubble"].leto-height-sixth,
+[class*="card"].leto-height-sixth,
+[class*="button"].leto-height-sixth,
+[class*="badge"].leto-height-sixth,
+[class*="pile"].leto-height-sixth,
+[class*="input"].leto-height-sixth,
+[class*="table"].leto-height-sixth {
+  height: calc((100% / 6) - (8px*2));
+}
+
+[class*="bubble"].leto-height-eighth,
+[class*="card"].leto-height-eighth,
+[class*="button"].leto-height-eighth,
+[class*="badge"].leto-height-eighth,
+[class*="pile"].leto-height-eighth,
+[class*="input"].leto-height-eighth,
+[class*="table"].leto-height-eighth {
   height: calc(12.5% - (8px*2));
 }
 
@@ -13065,74 +13915,244 @@ select.leto-input-xxl {
 }
 
 .leto-max-height-full {
-  max-height: calc(100% - (8px*2));
+  max-height: calc(100%);
 }
 
 .leto-max-height-seven-eighths {
-  max-height: calc(87.5% - (8px*2));
+  max-height: calc(87.5%);
 }
 
 .leto-max-height-five-sixths {
-  max-height: calc(((100% / 6) * 5) - (8px*2));
+  max-height: calc(((100% / 6) * 5));
 }
 
 .leto-max-height-four-fifths {
-  max-height: calc(80% - (8px*2));
+  max-height: calc(80%);
 }
 
 .leto-max-height-three-quaters {
-  max-height: calc(75% - (8px*2));
+  max-height: calc(75%);
 }
 
 .leto-max-height-two-thirds {
-  max-height: calc(66% - (8px*2));
+  max-height: calc(66%);
 }
 
 .leto-max-height-five-eighths {
-  max-height: calc(62.5% - (8px*2));
+  max-height: calc(62.5%);
 }
 
 .leto-max-height-three-fifths {
-  max-height: calc(60% - (8px*2));
+  max-height: calc(60%);
 }
 
 .leto-max-height-half {
-  max-height: calc(50% - (8px*2));
+  max-height: calc(50%);
 }
 
 .leto-max-height-three-sixths {
-  max-height: calc(((100% / 6) * 3) - (8px*2));
+  max-height: calc(((100% / 6) * 3));
 }
 
 .leto-max-height-two-fifths {
-  max-height: calc(40% - (8px*2));
+  max-height: calc(40%);
 }
 
 .leto-max-height-three-eighths {
-  max-height: calc(37.5% - (8px*2));
+  max-height: calc(37.5%);
 }
 
 .leto-max-height-third {
-  max-height: calc((100% / 3) - (8px*2));
+  max-height: calc((100% / 3));
 }
 
 .leto-max-height-quater {
-  max-height: calc(25% - (8px*2));
+  max-height: calc(25%);
 }
 
 .leto-max-height-fifth {
-  max-height: calc(20% - (8px*2));
+  max-height: calc(20%);
 }
 
 .leto-max-height-sixth {
-  max-height: calc((100% / 6) - (8px*2));
+  max-height: calc((100% / 6));
 }
 
 .leto-max-height-eighth {
+  max-height: calc(12.5%);
+}
+
+[class*="bubble"].leto-max-height-full,
+[class*="card"].leto-max-height-full,
+[class*="button"].leto-max-height-full,
+[class*="badge"].leto-max-height-full,
+[class*="pile"].leto-max-height-full,
+[class*="input"].leto-max-height-full,
+[class*="table"].leto-max-height-full {
+  max-height: calc(100% - (8px*2));
+}
+
+[class*="bubble"].leto-max-height-seven-eighths,
+[class*="card"].leto-max-height-seven-eighths,
+[class*="button"].leto-max-height-seven-eighths,
+[class*="badge"].leto-max-height-seven-eighths,
+[class*="pile"].leto-max-height-seven-eighths,
+[class*="input"].leto-max-height-seven-eighths,
+[class*="table"].leto-max-height-seven-eighths {
+  max-height: calc(87.5% - (8px*2));
+}
+
+[class*="bubble"].leto-max-height-five-sixths,
+[class*="card"].leto-max-height-five-sixths,
+[class*="button"].leto-max-height-five-sixths,
+[class*="badge"].leto-max-height-five-sixths,
+[class*="pile"].leto-max-height-five-sixths,
+[class*="input"].leto-max-height-five-sixths,
+[class*="table"].leto-max-height-five-sixths {
+  max-height: calc(((100% / 6) * 5) - (8px*2));
+}
+
+[class*="bubble"].leto-max-height-four-fifths,
+[class*="card"].leto-max-height-four-fifths,
+[class*="button"].leto-max-height-four-fifths,
+[class*="badge"].leto-max-height-four-fifths,
+[class*="pile"].leto-max-height-four-fifths,
+[class*="input"].leto-max-height-four-fifths,
+[class*="table"].leto-max-height-four-fifths {
+  max-height: calc(80% - (8px*2));
+}
+
+[class*="bubble"].leto-max-height-three-quaters,
+[class*="card"].leto-max-height-three-quaters,
+[class*="button"].leto-max-height-three-quaters,
+[class*="badge"].leto-max-height-three-quaters,
+[class*="pile"].leto-max-height-three-quaters,
+[class*="input"].leto-max-height-three-quaters,
+[class*="table"].leto-max-height-three-quaters {
+  max-height: calc(75% - (8px*2));
+}
+
+[class*="bubble"].leto-max-height-two-thirds,
+[class*="card"].leto-max-height-two-thirds,
+[class*="button"].leto-max-height-two-thirds,
+[class*="badge"].leto-max-height-two-thirds,
+[class*="pile"].leto-max-height-two-thirds,
+[class*="input"].leto-max-height-two-thirds,
+[class*="table"].leto-max-height-two-thirds {
+  max-height: calc(66% - (8px*2));
+}
+
+[class*="bubble"].leto-max-height-five-eighths,
+[class*="card"].leto-max-height-five-eighths,
+[class*="button"].leto-max-height-five-eighths,
+[class*="badge"].leto-max-height-five-eighths,
+[class*="pile"].leto-max-height-five-eighths,
+[class*="input"].leto-max-height-five-eighths,
+[class*="table"].leto-max-height-five-eighths {
+  max-height: calc(62.5% - (8px*2));
+}
+
+[class*="bubble"].leto-max-height-three-fifths,
+[class*="card"].leto-max-height-three-fifths,
+[class*="button"].leto-max-height-three-fifths,
+[class*="badge"].leto-max-height-three-fifths,
+[class*="pile"].leto-max-height-three-fifths,
+[class*="input"].leto-max-height-three-fifths,
+[class*="table"].leto-max-height-three-fifths {
+  max-height: calc(60% - (8px*2));
+}
+
+[class*="bubble"].leto-max-height-half,
+[class*="card"].leto-max-height-half,
+[class*="button"].leto-max-height-half,
+[class*="badge"].leto-max-height-half,
+[class*="pile"].leto-max-height-half,
+[class*="input"].leto-max-height-half,
+[class*="table"].leto-max-height-half {
+  max-height: calc(50% - (8px*2));
+}
+
+[class*="bubble"].leto-max-height-three-sixths,
+[class*="card"].leto-max-height-three-sixths,
+[class*="button"].leto-max-height-three-sixths,
+[class*="badge"].leto-max-height-three-sixths,
+[class*="pile"].leto-max-height-three-sixths,
+[class*="input"].leto-max-height-three-sixths,
+[class*="table"].leto-max-height-three-sixths {
+  max-height: calc(((100% / 6) * 3) - (8px*2));
+}
+
+[class*="bubble"].leto-max-height-two-fifths,
+[class*="card"].leto-max-height-two-fifths,
+[class*="button"].leto-max-height-two-fifths,
+[class*="badge"].leto-max-height-two-fifths,
+[class*="pile"].leto-max-height-two-fifths,
+[class*="input"].leto-max-height-two-fifths,
+[class*="table"].leto-max-height-two-fifths {
+  max-height: calc(40% - (8px*2));
+}
+
+[class*="bubble"].leto-max-height-three-eighths,
+[class*="card"].leto-max-height-three-eighths,
+[class*="button"].leto-max-height-three-eighths,
+[class*="badge"].leto-max-height-three-eighths,
+[class*="pile"].leto-max-height-three-eighths,
+[class*="input"].leto-max-height-three-eighths,
+[class*="table"].leto-max-height-three-eighths {
+  max-height: calc(37.5% - (8px*2));
+}
+
+[class*="bubble"].leto-max-height-third,
+[class*="card"].leto-max-height-third,
+[class*="button"].leto-max-height-third,
+[class*="badge"].leto-max-height-third,
+[class*="pile"].leto-max-height-third,
+[class*="input"].leto-max-height-third,
+[class*="table"].leto-max-height-third {
+  max-height: calc((100% / 3) - (8px*2));
+}
+
+[class*="bubble"].leto-max-height-quater,
+[class*="card"].leto-max-height-quater,
+[class*="button"].leto-max-height-quater,
+[class*="badge"].leto-max-height-quater,
+[class*="pile"].leto-max-height-quater,
+[class*="input"].leto-max-height-quater,
+[class*="table"].leto-max-height-quater {
+  max-height: calc(25% - (8px*2));
+}
+
+[class*="bubble"].leto-max-height-fifth,
+[class*="card"].leto-max-height-fifth,
+[class*="button"].leto-max-height-fifth,
+[class*="badge"].leto-max-height-fifth,
+[class*="pile"].leto-max-height-fifth,
+[class*="input"].leto-max-height-fifth,
+[class*="table"].leto-max-height-fifth {
+  max-height: calc(20% - (8px*2));
+}
+
+[class*="bubble"].leto-max-height-sixth,
+[class*="card"].leto-max-height-sixth,
+[class*="button"].leto-max-height-sixth,
+[class*="badge"].leto-max-height-sixth,
+[class*="pile"].leto-max-height-sixth,
+[class*="input"].leto-max-height-sixth,
+[class*="table"].leto-max-height-sixth {
+  max-height: calc((100% / 6) - (8px*2));
+}
+
+[class*="bubble"].leto-max-height-eighth,
+[class*="card"].leto-max-height-eighth,
+[class*="button"].leto-max-height-eighth,
+[class*="badge"].leto-max-height-eighth,
+[class*="pile"].leto-max-height-eighth,
+[class*="input"].leto-max-height-eighth,
+[class*="table"].leto-max-height-eighth {
   max-height: calc(12.5% - (8px*2));
 }
 
-.leto-bg-none, [class*="leto-frame"] .leto-bg-none {
+.leto-bg-none, [class*="frame"] .leto-bg-none {
   background-color: transparent;
 }
 
@@ -13632,37 +14652,37 @@ select.leto-input-xxl {
   background-color: #33ff66;
 }
 
-.leto-border, [class*="leto-frame"] .leto-border {
+.leto-border, [class*="frame"] .leto-border {
   border: 1px solid #cccccc;
 }
 
-.leto-border-horizontal, [class*="leto-frame"] .leto-border-horizontal {
+.leto-border-horizontal, [class*="frame"] .leto-border-horizontal {
   border-top: 1px solid #cccccc;
   border-bottom: 1px solid #cccccc;
 }
 
-.leto-border-vertical, [class*="leto-frame"] .leto-border-vertical {
+.leto-border-vertical, [class*="frame"] .leto-border-vertical {
   border-left: 1px solid #cccccc;
   border-right: 1px solid #cccccc;
 }
 
-.leto-border-top, [class*="leto-frame"] .leto-border-top {
+.leto-border-top, [class*="frame"] .leto-border-top {
   border-top: 1px solid #cccccc;
 }
 
-.leto-border-left, [class*="leto-frame"] .leto-border-left {
+.leto-border-left, [class*="frame"] .leto-border-left {
   border-left: 1px solid #cccccc;
 }
 
-.leto-border-right, [class*="leto-frame"] .leto-border-right {
+.leto-border-right, [class*="frame"] .leto-border-right {
   border-right: 1px solid #cccccc;
 }
 
-.leto-border-bottom, [class*="leto-frame"] .leto-border-bottom {
+.leto-border-bottom, [class*="frame"] .leto-border-bottom {
   border-bottom: 1px solid #cccccc;
 }
 
-.leto-border-none, [class*="leto-frame"] .leto-border-none {
+.leto-border-none, [class*="frame"] .leto-border-none {
   border: none;
 }
 
@@ -14364,94 +15384,98 @@ select.leto-input-xxl {
   border-radius: 0;
 }
 
-.leto-text, [class*="leto-frame"] .leto-text {
+.leto-text, [class*="frame"] .leto-text {
   font-size: 16px;
 }
 
-.leto-text-xxs, [class*="leto-frame"] .leto-text-xxs {
+.leto-text-xxs, [class*="frame"] .leto-text-xxs {
   font-size: 10px;
 }
 
-.leto-text-xs, [class*="leto-frame"] .leto-text-xs {
+.leto-text-xs, [class*="frame"] .leto-text-xs {
   font-size: 12px;
 }
 
-.leto-text-sm, [class*="leto-frame"] .leto-text-sm {
+.leto-text-sm, [class*="frame"] .leto-text-sm {
   font-size: 14px;
 }
 
-.leto-text-md, [class*="leto-frame"] .leto-text-md {
+.leto-text-md, [class*="frame"] .leto-text-md {
   font-size: 16px;
 }
 
-.leto-text-lg, [class*="leto-frame"] .leto-text-lg {
+.leto-text-lg, [class*="frame"] .leto-text-lg {
   font-size: 20px;
 }
 
-.leto-text-xl, [class*="leto-frame"] .leto-text-xl {
+.leto-text-xl, [class*="frame"] .leto-text-xl {
   font-size: 24px;
 }
 
-.leto-text-xxl, [class*="leto-frame"] .leto-text-xxl {
+.leto-text-xxl, [class*="frame"] .leto-text-xxl {
   font-size: 32px;
 }
 
-.leto-text-light, [class*="leto-frame"] .leto-text-light {
+.leto-text-light, [class*="frame"] .leto-text-light {
   font-weight: 300;
 }
 
-.leto-text-regular, [class*="leto-frame"] .leto-text-regular {
+.leto-text-regular, [class*="frame"] .leto-text-regular {
   font-weight: 400;
 }
 
-.leto-text-medium, [class*="leto-frame"] .leto-text-medium {
+.leto-text-medium, [class*="frame"] .leto-text-medium {
   font-weight: 600;
 }
 
-.leto-text-bold, [class*="leto-frame"] .leto-text-bold {
+.leto-text-bold, [class*="frame"] .leto-text-bold {
   font-weight: 700;
 }
 
-.leto-text-bolder, [class*="leto-frame"] .leto-text-bolder {
+.leto-text-bolder, [class*="frame"] .leto-text-bolder {
   font-weight: 800;
 }
 
-.leto-text-italic, [class*="leto-frame"] .leto-text-italic {
+.leto-text-italic, [class*="frame"] .leto-text-italic {
   font-style: italic;
 }
 
-.leto-text-uppercase, [class*="leto-frame"] .leto-text-uppercase {
+.leto-text-uppercase, [class*="frame"] .leto-text-uppercase {
   text-transform: uppercase;
 }
 
-.leto-text-ellipsis, [class*="leto-frame"] .leto-text-ellipsis {
+.leto-text-ellipsis, [class*="frame"] .leto-text-ellipsis {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
 
-.leto-text-link, [class*="leto-frame"] .leto-text-link {
+.leto-text-link, [class*="frame"] .leto-text-link {
   color: #6d83f2;
   cursor: pointer;
 }
 
-.leto-text-link:hover, [class*="leto-frame"] .leto-text-link:hover {
+.leto-text-link:hover, [class*="frame"] .leto-text-link:hover {
   color: #2747ec;
 }
 
-.leto-text-left, [class*="leto-frame"] .leto-text-left {
+.leto-text-nowrap, [class*="frame"] .leto-text-nowrap {
+  white-space: nowrap;
+}
+
+.leto-text-left, [class*="frame"] .leto-text-left {
   text-align: left;
 }
 
-.leto-text-center, [class*="leto-frame"] .leto-text-center {
+.leto-text-center, [class*="frame"] .leto-text-center {
   text-align: center;
 }
 
-.leto-text-right, [class*="leto-frame"] .leto-text-right {
+.leto-text-right, [class*="frame"] .leto-text-right {
   text-align: right;
 }
 
-.leto-text-none, [class*="leto-frame"] .leto-text-none {
+.leto-text-none, [class*="frame"] .leto-text-none {
   color: transparent;
 }
 
@@ -22748,6 +23772,21 @@ select.leto-input-xxl {
   border-color: #d9d9d9 !important;
   color: #a6a6a6 !important;
   pointer-events: none;
+}
+
+.leto-disabled::-webkit-input-placeholder {
+  color: #a6a6a6 !important;
+}
+
+.leto-disabled:-ms-input-placeholder {
+  color: #a6a6a6 !important;
+}
+
+.leto-disabled::-ms-input-placeholder {
+  color: #a6a6a6 !important;
+}
+
+.leto-disabled::placeholder {
   color: #a6a6a6 !important;
 }
 
@@ -22765,1492 +23804,3 @@ select.leto-input-xxl {
   color: #333333;
   text-decoration: none;
 }
-
-.leto-active {
-  background-color: #cccccc;
-}
-
-.leto-active[class*=leto-bubble] {
-  border-width: 3px;
-}
-
-.leto-active[class*=leto-card] {
-  border-width: 3px;
-}
-
-.leto-active[class*=leto-button] {
-  border-width: 3px;
-}
-
-.leto-active[class*=leto-badge] {
-  border-width: 3px;
-}
-
-.leto-active[class*=leto-text] {
-  color: #cccccc;
-}
-
-.leto-active-white {
-  background-color: #fdfdfd;
-}
-
-.leto-active-white[class*=leto-bubble] {
-  border-width: 3px;
-}
-
-.leto-active-white[class*=leto-card] {
-  border-width: 3px;
-}
-
-.leto-active-white[class*=leto-button] {
-  border-width: 3px;
-}
-
-.leto-active-white[class*=leto-badge] {
-  border-width: 3px;
-}
-
-.leto-active-white[class*=leto-text] {
-  color: #fdfdfd;
-}
-
-.leto-active-dark-white {
-  background-color: #f2f2f2;
-}
-
-.leto-active-dark-white[class*=leto-bubble] {
-  border-width: 3px;
-}
-
-.leto-active-dark-white[class*=leto-card] {
-  border-width: 3px;
-}
-
-.leto-active-dark-white[class*=leto-button] {
-  border-width: 3px;
-}
-
-.leto-active-dark-white[class*=leto-badge] {
-  border-width: 3px;
-}
-
-.leto-active-dark-white[class*=leto-text] {
-  color: #f2f2f2;
-}
-
-.leto-active-lighter-grey {
-  background-color: #e6e6e6;
-}
-
-.leto-active-lighter-grey[class*=leto-bubble] {
-  border-width: 3px;
-}
-
-.leto-active-lighter-grey[class*=leto-card] {
-  border-width: 3px;
-}
-
-.leto-active-lighter-grey[class*=leto-button] {
-  border-width: 3px;
-}
-
-.leto-active-lighter-grey[class*=leto-badge] {
-  border-width: 3px;
-}
-
-.leto-active-lighter-grey[class*=leto-text] {
-  color: #e6e6e6;
-}
-
-.leto-active-light-grey {
-  background-color: #d9d9d9;
-}
-
-.leto-active-light-grey[class*=leto-bubble] {
-  border-width: 3px;
-}
-
-.leto-active-light-grey[class*=leto-card] {
-  border-width: 3px;
-}
-
-.leto-active-light-grey[class*=leto-button] {
-  border-width: 3px;
-}
-
-.leto-active-light-grey[class*=leto-badge] {
-  border-width: 3px;
-}
-
-.leto-active-light-grey[class*=leto-text] {
-  color: #d9d9d9;
-}
-
-.leto-active-grey {
-  background-color: #cccccc;
-}
-
-.leto-active-grey[class*=leto-bubble] {
-  border-width: 3px;
-}
-
-.leto-active-grey[class*=leto-card] {
-  border-width: 3px;
-}
-
-.leto-active-grey[class*=leto-button] {
-  border-width: 3px;
-}
-
-.leto-active-grey[class*=leto-badge] {
-  border-width: 3px;
-}
-
-.leto-active-grey[class*=leto-text] {
-  color: #cccccc;
-}
-
-.leto-active-dark-grey {
-  background-color: #a6a6a6;
-}
-
-.leto-active-dark-grey[class*=leto-bubble] {
-  border-width: 3px;
-}
-
-.leto-active-dark-grey[class*=leto-card] {
-  border-width: 3px;
-}
-
-.leto-active-dark-grey[class*=leto-button] {
-  border-width: 3px;
-}
-
-.leto-active-dark-grey[class*=leto-badge] {
-  border-width: 3px;
-}
-
-.leto-active-dark-grey[class*=leto-text] {
-  color: #a6a6a6;
-}
-
-.leto-active-darker-grey {
-  background-color: #808080;
-}
-
-.leto-active-darker-grey[class*=leto-bubble] {
-  border-width: 3px;
-}
-
-.leto-active-darker-grey[class*=leto-card] {
-  border-width: 3px;
-}
-
-.leto-active-darker-grey[class*=leto-button] {
-  border-width: 3px;
-}
-
-.leto-active-darker-grey[class*=leto-badge] {
-  border-width: 3px;
-}
-
-.leto-active-darker-grey[class*=leto-text] {
-  color: #808080;
-}
-
-.leto-active-light-black {
-  background-color: #595959;
-}
-
-.leto-active-light-black[class*=leto-bubble] {
-  border-width: 3px;
-}
-
-.leto-active-light-black[class*=leto-card] {
-  border-width: 3px;
-}
-
-.leto-active-light-black[class*=leto-button] {
-  border-width: 3px;
-}
-
-.leto-active-light-black[class*=leto-badge] {
-  border-width: 3px;
-}
-
-.leto-active-light-black[class*=leto-text] {
-  color: #595959;
-}
-
-.leto-active-black {
-  background-color: #333333;
-}
-
-.leto-active-black[class*=leto-bubble] {
-  border-width: 3px;
-}
-
-.leto-active-black[class*=leto-card] {
-  border-width: 3px;
-}
-
-.leto-active-black[class*=leto-button] {
-  border-width: 3px;
-}
-
-.leto-active-black[class*=leto-badge] {
-  border-width: 3px;
-}
-
-.leto-active-black[class*=leto-text] {
-  color: #333333;
-}
-
-.leto-active-light-yellow {
-  background-color: #f8f3b3;
-}
-
-.leto-active-light-yellow[class*=leto-bubble] {
-  border-width: 3px;
-}
-
-.leto-active-light-yellow[class*=leto-card] {
-  border-width: 3px;
-}
-
-.leto-active-light-yellow[class*=leto-button] {
-  border-width: 3px;
-}
-
-.leto-active-light-yellow[class*=leto-badge] {
-  border-width: 3px;
-}
-
-.leto-active-light-yellow[class*=leto-text] {
-  color: #f8f3b3;
-}
-
-.leto-active-yellow {
-  background-color: #f2e76d;
-}
-
-.leto-active-yellow[class*=leto-bubble] {
-  border-width: 3px;
-}
-
-.leto-active-yellow[class*=leto-card] {
-  border-width: 3px;
-}
-
-.leto-active-yellow[class*=leto-button] {
-  border-width: 3px;
-}
-
-.leto-active-yellow[class*=leto-badge] {
-  border-width: 3px;
-}
-
-.leto-active-yellow[class*=leto-text] {
-  color: #f2e76d;
-}
-
-.leto-active-dark-yellow {
-  background-color: #ecdb27;
-}
-
-.leto-active-dark-yellow[class*=leto-bubble] {
-  border-width: 3px;
-}
-
-.leto-active-dark-yellow[class*=leto-card] {
-  border-width: 3px;
-}
-
-.leto-active-dark-yellow[class*=leto-button] {
-  border-width: 3px;
-}
-
-.leto-active-dark-yellow[class*=leto-badge] {
-  border-width: 3px;
-}
-
-.leto-active-dark-yellow[class*=leto-text] {
-  color: #ecdb27;
-}
-
-.leto-active-light-orange {
-  background-color: #f7c29c;
-}
-
-.leto-active-light-orange[class*=leto-bubble] {
-  border-width: 3px;
-}
-
-.leto-active-light-orange[class*=leto-card] {
-  border-width: 3px;
-}
-
-.leto-active-light-orange[class*=leto-button] {
-  border-width: 3px;
-}
-
-.leto-active-light-orange[class*=leto-badge] {
-  border-width: 3px;
-}
-
-.leto-active-light-orange[class*=leto-text] {
-  color: #f7c29c;
-}
-
-.leto-active-orange {
-  background-color: #f29655;
-}
-
-.leto-active-orange[class*=leto-bubble] {
-  border-width: 3px;
-}
-
-.leto-active-orange[class*=leto-card] {
-  border-width: 3px;
-}
-
-.leto-active-orange[class*=leto-button] {
-  border-width: 3px;
-}
-
-.leto-active-orange[class*=leto-badge] {
-  border-width: 3px;
-}
-
-.leto-active-orange[class*=leto-text] {
-  color: #f29655;
-}
-
-.leto-active-dark-orange {
-  background-color: #e96b12;
-}
-
-.leto-active-dark-orange[class*=leto-bubble] {
-  border-width: 3px;
-}
-
-.leto-active-dark-orange[class*=leto-card] {
-  border-width: 3px;
-}
-
-.leto-active-dark-orange[class*=leto-button] {
-  border-width: 3px;
-}
-
-.leto-active-dark-orange[class*=leto-badge] {
-  border-width: 3px;
-}
-
-.leto-active-dark-orange[class*=leto-text] {
-  color: #e96b12;
-}
-
-.leto-active-light-red {
-  background-color: #f8a8ae;
-}
-
-.leto-active-light-red[class*=leto-bubble] {
-  border-width: 3px;
-}
-
-.leto-active-light-red[class*=leto-card] {
-  border-width: 3px;
-}
-
-.leto-active-light-red[class*=leto-button] {
-  border-width: 3px;
-}
-
-.leto-active-light-red[class*=leto-badge] {
-  border-width: 3px;
-}
-
-.leto-active-light-red[class*=leto-text] {
-  color: #f8a8ae;
-}
-
-.leto-active-red {
-  background-color: #f2616d;
-}
-
-.leto-active-red[class*=leto-bubble] {
-  border-width: 3px;
-}
-
-.leto-active-red[class*=leto-card] {
-  border-width: 3px;
-}
-
-.leto-active-red[class*=leto-button] {
-  border-width: 3px;
-}
-
-.leto-active-red[class*=leto-badge] {
-  border-width: 3px;
-}
-
-.leto-active-red[class*=leto-text] {
-  color: #f2616d;
-}
-
-.leto-active-dark-red {
-  background-color: #ec1a2c;
-}
-
-.leto-active-dark-red[class*=leto-bubble] {
-  border-width: 3px;
-}
-
-.leto-active-dark-red[class*=leto-card] {
-  border-width: 3px;
-}
-
-.leto-active-dark-red[class*=leto-button] {
-  border-width: 3px;
-}
-
-.leto-active-dark-red[class*=leto-badge] {
-  border-width: 3px;
-}
-
-.leto-active-dark-red[class*=leto-text] {
-  color: #ec1a2c;
-}
-
-.leto-active-light-purple {
-  background-color: #e1bff9;
-}
-
-.leto-active-light-purple[class*=leto-bubble] {
-  border-width: 3px;
-}
-
-.leto-active-light-purple[class*=leto-card] {
-  border-width: 3px;
-}
-
-.leto-active-light-purple[class*=leto-button] {
-  border-width: 3px;
-}
-
-.leto-active-light-purple[class*=leto-badge] {
-  border-width: 3px;
-}
-
-.leto-active-light-purple[class*=leto-text] {
-  color: #e1bff9;
-}
-
-.leto-active-purple {
-  background-color: #c079f2;
-}
-
-.leto-active-purple[class*=leto-bubble] {
-  border-width: 3px;
-}
-
-.leto-active-purple[class*=leto-card] {
-  border-width: 3px;
-}
-
-.leto-active-purple[class*=leto-button] {
-  border-width: 3px;
-}
-
-.leto-active-purple[class*=leto-badge] {
-  border-width: 3px;
-}
-
-.leto-active-purple[class*=leto-text] {
-  color: #c079f2;
-}
-
-.leto-active-dark-purple {
-  background-color: #9f33eb;
-}
-
-.leto-active-dark-purple[class*=leto-bubble] {
-  border-width: 3px;
-}
-
-.leto-active-dark-purple[class*=leto-card] {
-  border-width: 3px;
-}
-
-.leto-active-dark-purple[class*=leto-button] {
-  border-width: 3px;
-}
-
-.leto-active-dark-purple[class*=leto-badge] {
-  border-width: 3px;
-}
-
-.leto-active-dark-purple[class*=leto-text] {
-  color: #9f33eb;
-}
-
-.leto-active-light-blue {
-  background-color: #b3bff8;
-}
-
-.leto-active-light-blue[class*=leto-bubble] {
-  border-width: 3px;
-}
-
-.leto-active-light-blue[class*=leto-card] {
-  border-width: 3px;
-}
-
-.leto-active-light-blue[class*=leto-button] {
-  border-width: 3px;
-}
-
-.leto-active-light-blue[class*=leto-badge] {
-  border-width: 3px;
-}
-
-.leto-active-light-blue[class*=leto-text] {
-  color: #b3bff8;
-}
-
-.leto-active-blue {
-  background-color: #6d83f2;
-}
-
-.leto-active-blue[class*=leto-bubble] {
-  border-width: 3px;
-}
-
-.leto-active-blue[class*=leto-card] {
-  border-width: 3px;
-}
-
-.leto-active-blue[class*=leto-button] {
-  border-width: 3px;
-}
-
-.leto-active-blue[class*=leto-badge] {
-  border-width: 3px;
-}
-
-.leto-active-blue[class*=leto-text] {
-  color: #6d83f2;
-}
-
-.leto-active-dark-blue {
-  background-color: #2747ec;
-}
-
-.leto-active-dark-blue[class*=leto-bubble] {
-  border-width: 3px;
-}
-
-.leto-active-dark-blue[class*=leto-card] {
-  border-width: 3px;
-}
-
-.leto-active-dark-blue[class*=leto-button] {
-  border-width: 3px;
-}
-
-.leto-active-dark-blue[class*=leto-badge] {
-  border-width: 3px;
-}
-
-.leto-active-dark-blue[class*=leto-text] {
-  color: #2747ec;
-}
-
-.leto-active-light-mint {
-  background-color: #9cf7e1;
-}
-
-.leto-active-light-mint[class*=leto-bubble] {
-  border-width: 3px;
-}
-
-.leto-active-light-mint[class*=leto-card] {
-  border-width: 3px;
-}
-
-.leto-active-light-mint[class*=leto-button] {
-  border-width: 3px;
-}
-
-.leto-active-light-mint[class*=leto-badge] {
-  border-width: 3px;
-}
-
-.leto-active-light-mint[class*=leto-text] {
-  color: #9cf7e1;
-}
-
-.leto-active-mint {
-  background-color: #55f2cb;
-}
-
-.leto-active-mint[class*=leto-bubble] {
-  border-width: 3px;
-}
-
-.leto-active-mint[class*=leto-card] {
-  border-width: 3px;
-}
-
-.leto-active-mint[class*=leto-button] {
-  border-width: 3px;
-}
-
-.leto-active-mint[class*=leto-badge] {
-  border-width: 3px;
-}
-
-.leto-active-mint[class*=leto-text] {
-  color: #55f2cb;
-}
-
-.leto-active-dark-mint {
-  background-color: #12e9b3;
-}
-
-.leto-active-dark-mint[class*=leto-bubble] {
-  border-width: 3px;
-}
-
-.leto-active-dark-mint[class*=leto-card] {
-  border-width: 3px;
-}
-
-.leto-active-dark-mint[class*=leto-button] {
-  border-width: 3px;
-}
-
-.leto-active-dark-mint[class*=leto-badge] {
-  border-width: 3px;
-}
-
-.leto-active-dark-mint[class*=leto-text] {
-  color: #12e9b3;
-}
-
-.leto-active-light-green {
-  background-color: #bff9cd;
-}
-
-.leto-active-light-green[class*=leto-bubble] {
-  border-width: 3px;
-}
-
-.leto-active-light-green[class*=leto-card] {
-  border-width: 3px;
-}
-
-.leto-active-light-green[class*=leto-button] {
-  border-width: 3px;
-}
-
-.leto-active-light-green[class*=leto-badge] {
-  border-width: 3px;
-}
-
-.leto-active-light-green[class*=leto-text] {
-  color: #bff9cd;
-}
-
-.leto-active-green {
-  background-color: #79f297;
-}
-
-.leto-active-green[class*=leto-bubble] {
-  border-width: 3px;
-}
-
-.leto-active-green[class*=leto-card] {
-  border-width: 3px;
-}
-
-.leto-active-green[class*=leto-button] {
-  border-width: 3px;
-}
-
-.leto-active-green[class*=leto-badge] {
-  border-width: 3px;
-}
-
-.leto-active-green[class*=leto-text] {
-  color: #79f297;
-}
-
-.leto-active-dark-green {
-  background-color: #33eb61;
-}
-
-.leto-active-dark-green[class*=leto-bubble] {
-  border-width: 3px;
-}
-
-.leto-active-dark-green[class*=leto-card] {
-  border-width: 3px;
-}
-
-.leto-active-dark-green[class*=leto-button] {
-  border-width: 3px;
-}
-
-.leto-active-dark-green[class*=leto-badge] {
-  border-width: 3px;
-}
-
-.leto-active-dark-green[class*=leto-text] {
-  color: #33eb61;
-}
-
-.leto-hover:hover {
-  background-color: #cccccc;
-}
-
-.leto-hover[class*=leto-bubble]:hover {
-  border-width: 3px;
-}
-
-.leto-hover[class*=leto-card]:hover {
-  border-width: 3px;
-}
-
-.leto-hover[class*=leto-button]:hover {
-  border-width: 3px;
-}
-
-.leto-hover[class*=leto-badge]:hover {
-  border-width: 3px;
-}
-
-.leto-hover[class*=leto-text]:hover {
-  color: #cccccc;
-}
-
-.leto-hover-white:hover {
-  background-color: #fdfdfd;
-}
-
-.leto-hover-white[class*=leto-bubble]:hover {
-  border-width: 3px;
-}
-
-.leto-hover-white[class*=leto-card]:hover {
-  border-width: 3px;
-}
-
-.leto-hover-white[class*=leto-button]:hover {
-  border-width: 3px;
-}
-
-.leto-hover-white[class*=leto-badge]:hover {
-  border-width: 3px;
-}
-
-.leto-hover-white[class*=leto-text]:hover {
-  color: #fdfdfd;
-}
-
-.leto-hover-dark-white:hover {
-  background-color: #f2f2f2;
-}
-
-.leto-hover-dark-white[class*=leto-bubble]:hover {
-  border-width: 3px;
-}
-
-.leto-hover-dark-white[class*=leto-card]:hover {
-  border-width: 3px;
-}
-
-.leto-hover-dark-white[class*=leto-button]:hover {
-  border-width: 3px;
-}
-
-.leto-hover-dark-white[class*=leto-badge]:hover {
-  border-width: 3px;
-}
-
-.leto-hover-dark-white[class*=leto-text]:hover {
-  color: #f2f2f2;
-}
-
-.leto-hover-lighter-grey:hover {
-  background-color: #e6e6e6;
-}
-
-.leto-hover-lighter-grey[class*=leto-bubble]:hover {
-  border-width: 3px;
-}
-
-.leto-hover-lighter-grey[class*=leto-card]:hover {
-  border-width: 3px;
-}
-
-.leto-hover-lighter-grey[class*=leto-button]:hover {
-  border-width: 3px;
-}
-
-.leto-hover-lighter-grey[class*=leto-badge]:hover {
-  border-width: 3px;
-}
-
-.leto-hover-lighter-grey[class*=leto-text]:hover {
-  color: #e6e6e6;
-}
-
-.leto-hover-light-grey:hover {
-  background-color: #d9d9d9;
-}
-
-.leto-hover-light-grey[class*=leto-bubble]:hover {
-  border-width: 3px;
-}
-
-.leto-hover-light-grey[class*=leto-card]:hover {
-  border-width: 3px;
-}
-
-.leto-hover-light-grey[class*=leto-button]:hover {
-  border-width: 3px;
-}
-
-.leto-hover-light-grey[class*=leto-badge]:hover {
-  border-width: 3px;
-}
-
-.leto-hover-light-grey[class*=leto-text]:hover {
-  color: #d9d9d9;
-}
-
-.leto-hover-grey:hover {
-  background-color: #cccccc;
-}
-
-.leto-hover-grey[class*=leto-bubble]:hover {
-  border-width: 3px;
-}
-
-.leto-hover-grey[class*=leto-card]:hover {
-  border-width: 3px;
-}
-
-.leto-hover-grey[class*=leto-button]:hover {
-  border-width: 3px;
-}
-
-.leto-hover-grey[class*=leto-badge]:hover {
-  border-width: 3px;
-}
-
-.leto-hover-grey[class*=leto-text]:hover {
-  color: #cccccc;
-}
-
-.leto-hover-dark-grey:hover {
-  background-color: #a6a6a6;
-}
-
-.leto-hover-dark-grey[class*=leto-bubble]:hover {
-  border-width: 3px;
-}
-
-.leto-hover-dark-grey[class*=leto-card]:hover {
-  border-width: 3px;
-}
-
-.leto-hover-dark-grey[class*=leto-button]:hover {
-  border-width: 3px;
-}
-
-.leto-hover-dark-grey[class*=leto-badge]:hover {
-  border-width: 3px;
-}
-
-.leto-hover-dark-grey[class*=leto-text]:hover {
-  color: #a6a6a6;
-}
-
-.leto-hover-darker-grey:hover {
-  background-color: #808080;
-}
-
-.leto-hover-darker-grey[class*=leto-bubble]:hover {
-  border-width: 3px;
-}
-
-.leto-hover-darker-grey[class*=leto-card]:hover {
-  border-width: 3px;
-}
-
-.leto-hover-darker-grey[class*=leto-button]:hover {
-  border-width: 3px;
-}
-
-.leto-hover-darker-grey[class*=leto-badge]:hover {
-  border-width: 3px;
-}
-
-.leto-hover-darker-grey[class*=leto-text]:hover {
-  color: #808080;
-}
-
-.leto-hover-light-black:hover {
-  background-color: #595959;
-}
-
-.leto-hover-light-black[class*=leto-bubble]:hover {
-  border-width: 3px;
-}
-
-.leto-hover-light-black[class*=leto-card]:hover {
-  border-width: 3px;
-}
-
-.leto-hover-light-black[class*=leto-button]:hover {
-  border-width: 3px;
-}
-
-.leto-hover-light-black[class*=leto-badge]:hover {
-  border-width: 3px;
-}
-
-.leto-hover-light-black[class*=leto-text]:hover {
-  color: #595959;
-}
-
-.leto-hover-black:hover {
-  background-color: #333333;
-}
-
-.leto-hover-black[class*=leto-bubble]:hover {
-  border-width: 3px;
-}
-
-.leto-hover-black[class*=leto-card]:hover {
-  border-width: 3px;
-}
-
-.leto-hover-black[class*=leto-button]:hover {
-  border-width: 3px;
-}
-
-.leto-hover-black[class*=leto-badge]:hover {
-  border-width: 3px;
-}
-
-.leto-hover-black[class*=leto-text]:hover {
-  color: #333333;
-}
-
-.leto-hover-light-yellow:hover {
-  background-color: #f8f3b3;
-}
-
-.leto-hover-light-yellow[class*=leto-bubble]:hover {
-  border-width: 3px;
-}
-
-.leto-hover-light-yellow[class*=leto-card]:hover {
-  border-width: 3px;
-}
-
-.leto-hover-light-yellow[class*=leto-button]:hover {
-  border-width: 3px;
-}
-
-.leto-hover-light-yellow[class*=leto-badge]:hover {
-  border-width: 3px;
-}
-
-.leto-hover-light-yellow[class*=leto-text]:hover {
-  color: #f8f3b3;
-}
-
-.leto-hover-yellow:hover {
-  background-color: #f2e76d;
-}
-
-.leto-hover-yellow[class*=leto-bubble]:hover {
-  border-width: 3px;
-}
-
-.leto-hover-yellow[class*=leto-card]:hover {
-  border-width: 3px;
-}
-
-.leto-hover-yellow[class*=leto-button]:hover {
-  border-width: 3px;
-}
-
-.leto-hover-yellow[class*=leto-badge]:hover {
-  border-width: 3px;
-}
-
-.leto-hover-yellow[class*=leto-text]:hover {
-  color: #f2e76d;
-}
-
-.leto-hover-dark-yellow:hover {
-  background-color: #ecdb27;
-}
-
-.leto-hover-dark-yellow[class*=leto-bubble]:hover {
-  border-width: 3px;
-}
-
-.leto-hover-dark-yellow[class*=leto-card]:hover {
-  border-width: 3px;
-}
-
-.leto-hover-dark-yellow[class*=leto-button]:hover {
-  border-width: 3px;
-}
-
-.leto-hover-dark-yellow[class*=leto-badge]:hover {
-  border-width: 3px;
-}
-
-.leto-hover-dark-yellow[class*=leto-text]:hover {
-  color: #ecdb27;
-}
-
-.leto-hover-light-orange:hover {
-  background-color: #f7c29c;
-}
-
-.leto-hover-light-orange[class*=leto-bubble]:hover {
-  border-width: 3px;
-}
-
-.leto-hover-light-orange[class*=leto-card]:hover {
-  border-width: 3px;
-}
-
-.leto-hover-light-orange[class*=leto-button]:hover {
-  border-width: 3px;
-}
-
-.leto-hover-light-orange[class*=leto-badge]:hover {
-  border-width: 3px;
-}
-
-.leto-hover-light-orange[class*=leto-text]:hover {
-  color: #f7c29c;
-}
-
-.leto-hover-orange:hover {
-  background-color: #f29655;
-}
-
-.leto-hover-orange[class*=leto-bubble]:hover {
-  border-width: 3px;
-}
-
-.leto-hover-orange[class*=leto-card]:hover {
-  border-width: 3px;
-}
-
-.leto-hover-orange[class*=leto-button]:hover {
-  border-width: 3px;
-}
-
-.leto-hover-orange[class*=leto-badge]:hover {
-  border-width: 3px;
-}
-
-.leto-hover-orange[class*=leto-text]:hover {
-  color: #f29655;
-}
-
-.leto-hover-dark-orange:hover {
-  background-color: #e96b12;
-}
-
-.leto-hover-dark-orange[class*=leto-bubble]:hover {
-  border-width: 3px;
-}
-
-.leto-hover-dark-orange[class*=leto-card]:hover {
-  border-width: 3px;
-}
-
-.leto-hover-dark-orange[class*=leto-button]:hover {
-  border-width: 3px;
-}
-
-.leto-hover-dark-orange[class*=leto-badge]:hover {
-  border-width: 3px;
-}
-
-.leto-hover-dark-orange[class*=leto-text]:hover {
-  color: #e96b12;
-}
-
-.leto-hover-light-red:hover {
-  background-color: #f8a8ae;
-}
-
-.leto-hover-light-red[class*=leto-bubble]:hover {
-  border-width: 3px;
-}
-
-.leto-hover-light-red[class*=leto-card]:hover {
-  border-width: 3px;
-}
-
-.leto-hover-light-red[class*=leto-button]:hover {
-  border-width: 3px;
-}
-
-.leto-hover-light-red[class*=leto-badge]:hover {
-  border-width: 3px;
-}
-
-.leto-hover-light-red[class*=leto-text]:hover {
-  color: #f8a8ae;
-}
-
-.leto-hover-red:hover {
-  background-color: #f2616d;
-}
-
-.leto-hover-red[class*=leto-bubble]:hover {
-  border-width: 3px;
-}
-
-.leto-hover-red[class*=leto-card]:hover {
-  border-width: 3px;
-}
-
-.leto-hover-red[class*=leto-button]:hover {
-  border-width: 3px;
-}
-
-.leto-hover-red[class*=leto-badge]:hover {
-  border-width: 3px;
-}
-
-.leto-hover-red[class*=leto-text]:hover {
-  color: #f2616d;
-}
-
-.leto-hover-dark-red:hover {
-  background-color: #ec1a2c;
-}
-
-.leto-hover-dark-red[class*=leto-bubble]:hover {
-  border-width: 3px;
-}
-
-.leto-hover-dark-red[class*=leto-card]:hover {
-  border-width: 3px;
-}
-
-.leto-hover-dark-red[class*=leto-button]:hover {
-  border-width: 3px;
-}
-
-.leto-hover-dark-red[class*=leto-badge]:hover {
-  border-width: 3px;
-}
-
-.leto-hover-dark-red[class*=leto-text]:hover {
-  color: #ec1a2c;
-}
-
-.leto-hover-light-purple:hover {
-  background-color: #e1bff9;
-}
-
-.leto-hover-light-purple[class*=leto-bubble]:hover {
-  border-width: 3px;
-}
-
-.leto-hover-light-purple[class*=leto-card]:hover {
-  border-width: 3px;
-}
-
-.leto-hover-light-purple[class*=leto-button]:hover {
-  border-width: 3px;
-}
-
-.leto-hover-light-purple[class*=leto-badge]:hover {
-  border-width: 3px;
-}
-
-.leto-hover-light-purple[class*=leto-text]:hover {
-  color: #e1bff9;
-}
-
-.leto-hover-purple:hover {
-  background-color: #c079f2;
-}
-
-.leto-hover-purple[class*=leto-bubble]:hover {
-  border-width: 3px;
-}
-
-.leto-hover-purple[class*=leto-card]:hover {
-  border-width: 3px;
-}
-
-.leto-hover-purple[class*=leto-button]:hover {
-  border-width: 3px;
-}
-
-.leto-hover-purple[class*=leto-badge]:hover {
-  border-width: 3px;
-}
-
-.leto-hover-purple[class*=leto-text]:hover {
-  color: #c079f2;
-}
-
-.leto-hover-dark-purple:hover {
-  background-color: #9f33eb;
-}
-
-.leto-hover-dark-purple[class*=leto-bubble]:hover {
-  border-width: 3px;
-}
-
-.leto-hover-dark-purple[class*=leto-card]:hover {
-  border-width: 3px;
-}
-
-.leto-hover-dark-purple[class*=leto-button]:hover {
-  border-width: 3px;
-}
-
-.leto-hover-dark-purple[class*=leto-badge]:hover {
-  border-width: 3px;
-}
-
-.leto-hover-dark-purple[class*=leto-text]:hover {
-  color: #9f33eb;
-}
-
-.leto-hover-light-blue:hover {
-  background-color: #b3bff8;
-}
-
-.leto-hover-light-blue[class*=leto-bubble]:hover {
-  border-width: 3px;
-}
-
-.leto-hover-light-blue[class*=leto-card]:hover {
-  border-width: 3px;
-}
-
-.leto-hover-light-blue[class*=leto-button]:hover {
-  border-width: 3px;
-}
-
-.leto-hover-light-blue[class*=leto-badge]:hover {
-  border-width: 3px;
-}
-
-.leto-hover-light-blue[class*=leto-text]:hover {
-  color: #b3bff8;
-}
-
-.leto-hover-blue:hover {
-  background-color: #6d83f2;
-}
-
-.leto-hover-blue[class*=leto-bubble]:hover {
-  border-width: 3px;
-}
-
-.leto-hover-blue[class*=leto-card]:hover {
-  border-width: 3px;
-}
-
-.leto-hover-blue[class*=leto-button]:hover {
-  border-width: 3px;
-}
-
-.leto-hover-blue[class*=leto-badge]:hover {
-  border-width: 3px;
-}
-
-.leto-hover-blue[class*=leto-text]:hover {
-  color: #6d83f2;
-}
-
-.leto-hover-dark-blue:hover {
-  background-color: #2747ec;
-}
-
-.leto-hover-dark-blue[class*=leto-bubble]:hover {
-  border-width: 3px;
-}
-
-.leto-hover-dark-blue[class*=leto-card]:hover {
-  border-width: 3px;
-}
-
-.leto-hover-dark-blue[class*=leto-button]:hover {
-  border-width: 3px;
-}
-
-.leto-hover-dark-blue[class*=leto-badge]:hover {
-  border-width: 3px;
-}
-
-.leto-hover-dark-blue[class*=leto-text]:hover {
-  color: #2747ec;
-}
-
-.leto-hover-light-mint:hover {
-  background-color: #9cf7e1;
-}
-
-.leto-hover-light-mint[class*=leto-bubble]:hover {
-  border-width: 3px;
-}
-
-.leto-hover-light-mint[class*=leto-card]:hover {
-  border-width: 3px;
-}
-
-.leto-hover-light-mint[class*=leto-button]:hover {
-  border-width: 3px;
-}
-
-.leto-hover-light-mint[class*=leto-badge]:hover {
-  border-width: 3px;
-}
-
-.leto-hover-light-mint[class*=leto-text]:hover {
-  color: #9cf7e1;
-}
-
-.leto-hover-mint:hover {
-  background-color: #55f2cb;
-}
-
-.leto-hover-mint[class*=leto-bubble]:hover {
-  border-width: 3px;
-}
-
-.leto-hover-mint[class*=leto-card]:hover {
-  border-width: 3px;
-}
-
-.leto-hover-mint[class*=leto-button]:hover {
-  border-width: 3px;
-}
-
-.leto-hover-mint[class*=leto-badge]:hover {
-  border-width: 3px;
-}
-
-.leto-hover-mint[class*=leto-text]:hover {
-  color: #55f2cb;
-}
-
-.leto-hover-dark-mint:hover {
-  background-color: #12e9b3;
-}
-
-.leto-hover-dark-mint[class*=leto-bubble]:hover {
-  border-width: 3px;
-}
-
-.leto-hover-dark-mint[class*=leto-card]:hover {
-  border-width: 3px;
-}
-
-.leto-hover-dark-mint[class*=leto-button]:hover {
-  border-width: 3px;
-}
-
-.leto-hover-dark-mint[class*=leto-badge]:hover {
-  border-width: 3px;
-}
-
-.leto-hover-dark-mint[class*=leto-text]:hover {
-  color: #12e9b3;
-}
-
-.leto-hover-light-green:hover {
-  background-color: #bff9cd;
-}
-
-.leto-hover-light-green[class*=leto-bubble]:hover {
-  border-width: 3px;
-}
-
-.leto-hover-light-green[class*=leto-card]:hover {
-  border-width: 3px;
-}
-
-.leto-hover-light-green[class*=leto-button]:hover {
-  border-width: 3px;
-}
-
-.leto-hover-light-green[class*=leto-badge]:hover {
-  border-width: 3px;
-}
-
-.leto-hover-light-green[class*=leto-text]:hover {
-  color: #bff9cd;
-}
-
-.leto-hover-green:hover {
-  background-color: #79f297;
-}
-
-.leto-hover-green[class*=leto-bubble]:hover {
-  border-width: 3px;
-}
-
-.leto-hover-green[class*=leto-card]:hover {
-  border-width: 3px;
-}
-
-.leto-hover-green[class*=leto-button]:hover {
-  border-width: 3px;
-}
-
-.leto-hover-green[class*=leto-badge]:hover {
-  border-width: 3px;
-}
-
-.leto-hover-green[class*=leto-text]:hover {
-  color: #79f297;
-}
-
-.leto-hover-dark-green:hover {
-  background-color: #33eb61;
-}
-
-.leto-hover-dark-green[class*=leto-bubble]:hover {
-  border-width: 3px;
-}
-
-.leto-hover-dark-green[class*=leto-card]:hover {
-  border-width: 3px;
-}
-
-.leto-hover-dark-green[class*=leto-button]:hover {
-  border-width: 3px;
-}
-
-.leto-hover-dark-green[class*=leto-badge]:hover {
-  border-width: 3px;
-}
-
-.leto-hover-dark-green[class*=leto-text]:hover {
-  color: #33eb61;
-}
-/*# sourceMappingURL=leto.css.map */

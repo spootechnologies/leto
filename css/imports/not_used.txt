@@ -1,0 +1,498 @@
+=constructor() 
+    @content 
+    
+    @media (min-width: $tablet) 
+
+        &-tablet
+            @content
+
+    @media (min-width: $tabletAndPC)
+
+        &-tablet-pc
+            @content
+
+    @media (min-width: $tabletAndPC) and ($touchDevice) 
+
+        &-tablet-pc
+            @content
+
+    @media (min-width: $pc)
+
+        &-pc
+            @content
+
+    @media (min-aspect-ratio: $ultrawideRatio) and (min-width: $ultrawide)
+
+        &-ultrawide 
+            @content
+
+    @media (min-aspect-ratio: $superUltrawideRatio) and (min-width: $ultrawide)
+        
+        &-super-ultrawide
+            @content
+
+=basicElementStylesAlt($bgColor, $color, $borderWidth, $borderColor, $borderRadius) 
+    border-width: $borderWidth
+    border-style: solid
+    border-radius: $borderRadius
+
+    @if $bgColor == $lightModeBgColor
+        +themed() 
+            background: t('bg') 
+
+    @else 
+       background: $bgColor 
+
+    @if $color == $lightModeColor
+        +themed() 
+            color: t('text') 
+
+    @else 
+       color: $color
+
+    @if $borderColor == $lightModeColor
+        +themed() 
+            border-color: t('text') 
+
+    @else
+        border-color: $borderColor
+
+=placeHolderInput()
+    label
+        position: absolute
+        background-color: $bgColor
+        @if $bgColor == $lightModeBgColor
+            +themed()  
+                background-color: t('bg')
+
+    &:focus::placeholder
+    opacity: 0
+
+    &:focus ~ label 
+        opacity: 1
+
+    &:focus
+        background-color: transparent
+        border: 1px solid $colorDarkGrey 
+
+// Old Input Wrapper
+
+=inputWrapper()
+    $bgColor: getElementAttrVal('input', 'bg');
+
+    position: relative
+    width: fit-content
+    margin: $basicMargin
+
+    label
+        position: absolute
+        background-color: $bgColor
+        @if $bgColor == $lightModeBgColor
+            +themed() 
+                background-color: t('bg') 
+        font-size: $fontSizeSM
+        font-weight: $fontWeightMedium
+        top: -10px 
+        left: $basicPadding
+        padding-left: $basicPadding 
+        padding-right: $basicPadding
+
+    [class*=leto-input]
+        min-width: 0
+        width: 100%
+        border: 1px solid $colorLightGrey 
+        margin: 0
+
+    [class*=leto-input]:focus::placeholder
+        opacity: 0
+
+    [class*=leto-input]:focus ~ label
+        opacity: 1
+
+    [class*=leto-input]:focus
+        background-color: transparent
+        border: 1px solid $colorDarkGrey 
+
+    > i
+        position: 
+        top: 50%
+        margin-top: -8px
+        right: 8px
+
+    > select[class*=leto-input]
+        appearance: none
+
+        &::-ms-expand
+            display: none
+
+// New Input Wrapper
+
+=inputWrapper()
+    $bgColor: getElementAttrVal('input', 'bg')
+    $borderColor: getElementAttrVal('input', 'border')   
+ 
+    position: relative
+    width: fit-content 
+    margin: $basicMargin
+    display: flex
+    flex-direction: column 
+
+    label 
+        position: absolute
+        font-size: $fontSizeSM
+        font-weight: $fontWeightMedium
+        top: 0
+        right: 0
+        bottom: 0
+        left: 0
+        display: flex
+
+        &:before
+            content: "" 
+            width: 12 * 2
+            height: 100%
+            border-top-left-radius: 12px
+            border-bottom-left-radius: 12px
+            border-top: 1px solid $borderColor
+            border-bottom: 1px solid $borderColor
+            border-left: 1px solid $borderColor 
+
+        &:after  
+            content: ""
+            flex: 8
+            height: 100%
+            border-top-right-radius: 12px
+            border-bottom-right-radius: 12px
+            border-top: 1px solid $borderColor
+            border-right: 1px solid $borderColor
+            border-bottom: 1px solid $borderColor
+
+    label span
+        margin-top: -10px
+        padding: 0 8px 
+        border-bottom: 1px solid $borderColor
+    //    overflow: hidden;
+    //    text-indent: -9999px;
+        z-index: 0
+
+    [class*=leto-input]
+        background-color: transparent !important
+        border: 0
+        min-width: 0
+        width: 100%  
+        margin: 0
+        z-index: 1
+
+    //[class*=leto-input]:not(:placeholder-shown) + label span
+    //    opacity: 1
+    //    text-indent: 0
+
+    > i
+        position: absolute
+        top: 50%
+        margin-top: -8px
+        right: 8px
+ 
+    > select[class*=leto-input]
+        appearance: none
+        background-color: transparent !important
+        border: 0
+
+        &::-ms-expand
+            display: none 
+
+// Active
+
+=active($color)
+    background-color: $color
+
+    &[class*=bubble]
+        border-width: 3px
+
+    &[class*=card]
+        border-width: 3px
+
+    &[class*=button]
+        border-width: 3px
+
+    &[class*=badge]
+        border-width: 3px
+
+    &[class*=text]
+        color: $color
+
+
+// Hover
+
+=hover($color)
+
+    &:hover
+        background-color: $color
+
+    &[class*=bubble]:hover
+        border-width: 3px
+
+    &[class*=card]:hover
+        border-width: 3px
+
+    &[class*=button]:hover
+        border-width: 3px
+
+    &[class*=badge]:hover
+        border-width: 3px
+
+    &[class*=text]:hover
+        color: $color
+
+// Active
+
+.#{$classPrefix}active
+    +transformerConstructor('active')
+        +active($colorGrey)
+
+    &-white
+        +transformerConstructor('active')
+            +active($colorWhite)
+   
+    &-dark-white
+        +transformerConstructor('active')
+            +active($colorDarkWhite)
+
+    &-lighter-grey
+        +transformerConstructor('active')
+            +active($colorLighterGrey)
+
+    &-light-grey
+        +transformerConstructor('active')
+            +active($colorLightGrey)
+
+    &-grey
+        +transformerConstructor('active')
+            +active($colorGrey)
+
+    &-dark-grey
+        +transformerConstructor('active')
+            +active($colorDarkGrey)
+
+    &-darker-grey
+        +transformerConstructor('active')
+            +active($colorDarkerGrey)
+
+    &-light-black
+        +transformerConstructor('active')
+            +active($colorLightBlack)
+
+    &-black
+        +transformerConstructor('active')
+            +active($colorBlack)
+
+    &-light-yellow
+        +transformerConstructor('active')
+            +active($colorLightYellow)
+
+    &-yellow
+        +transformerConstructor('active')
+            +active($colorYellow)
+
+    &-dark-yellow
+        +transformerConstructor('active')
+            +active($colorDarkYellow)
+
+    &-light-orange
+        +transformerConstructor('active')
+            +active($colorLightOrange)
+
+    &-orange
+        +transformerConstructor('active')
+            +active($colorOrange)
+
+    &-dark-orange
+        +transformerConstructor('active')
+            +active($colorDarkOrange)
+
+    &-light-red
+        +transformerConstructor('active')
+            +active($colorLightRed)
+
+    &-red
+        +transformerConstructor('active')
+            +active($colorRed)
+
+    &-dark-red
+        +transformerConstructor('active')
+            +active($colorDarkRed)
+
+    &-light-purple
+        +transformerConstructor('active')
+            +active($colorLightPurple)
+
+    &-purple
+        +transformerConstructor('active')
+            +active($colorPurple)
+
+    &-dark-purple
+        +transformerConstructor('active')
+            +active($colorDarkPurple)
+
+    &-light-blue
+        +transformerConstructor('active')
+            +active($colorLightBlue)
+
+    &-blue
+        +transformerConstructor('active')
+            +active($colorBlue)
+
+    &-dark-blue
+        +transformerConstructor('active')
+            +active($colorDarkBlue)
+
+    &-light-mint
+        +transformerConstructor('active')
+            +active($colorLightMint)
+
+    &-mint
+        +transformerConstructor('active')
+            +active($colorMint)
+
+    &-dark-mint
+        +transformerConstructor('active')
+            +active($colorDarkMint)
+
+    &-light-green
+        +transformerConstructor('active')
+            +active($colorLightGreen)
+
+    &-green
+        +transformerConstructor('active')
+            +active($colorGreen)
+
+    &-dark-green
+        +transformerConstructor('active')
+            +active($colorDarkGreen)
+
+
+// Hover
+
+.#{$classPrefix}hover
+    +transformerConstructor('hover')
+        +hover($colorGrey)
+
+    &-white
+        +transformerConstructor('hover')
+            +hover($colorWhite)
+   
+    &-dark-white
+        +transformerConstructor('hover')
+            +hover($colorDarkWhite)
+
+    &-lighter-grey
+        +transformerConstructor('hover')
+            +hover($colorLighterGrey)
+
+    &-light-grey
+        +transformerConstructor('hover')
+            +hover($colorLightGrey)
+
+    &-grey
+        +transformerConstructor('hover')
+            +hover($colorGrey)
+
+    &-dark-grey
+        +transformerConstructor('hover')
+            +hover($colorDarkGrey)
+
+    &-darker-grey
+        +transformerConstructor('hover')
+            +hover($colorDarkerGrey)
+
+    &-light-black
+        +transformerConstructor('hover')
+            +hover($colorLightBlack)
+
+    &-black
+        +transformerConstructor('hover')
+            +hover($colorBlack)
+
+    &-light-yellow
+        +transformerConstructor('hover')
+            +hover($colorLightYellow)
+
+    &-yellow
+        +transformerConstructor('hover')
+            +hover($colorYellow)
+
+    &-dark-yellow
+        +transformerConstructor('hover')
+            +hover($colorDarkYellow)
+
+    &-light-orange
+        +transformerConstructor('hover')
+            +hover($colorLightOrange)
+
+    &-orange
+        +transformerConstructor('hover')
+            +hover($colorOrange)
+
+    &-dark-orange
+        +transformerConstructor('hover')
+            +hover($colorDarkOrange)
+
+    &-light-red
+        +transformerConstructor('hover')
+            +hover($colorLightRed)
+
+    &-red
+        +transformerConstructor('hover')
+            +hover($colorRed)
+
+    &-dark-red
+        +transformerConstructor('hover')
+            +hover($colorDarkRed)
+
+    &-light-purple
+        +transformerConstructor('hover')
+            +hover($colorLightPurple)
+
+    &-purple
+        +transformerConstructor('hover')
+            +hover($colorPurple)
+
+    &-dark-purple
+        +transformerConstructor('hover')
+            +hover($colorDarkPurple)
+
+    &-light-blue
+        +transformerConstructor('hover')
+            +hover($colorLightBlue)
+
+    &-blue
+        +transformerConstructor('hover')
+            +hover($colorBlue)
+
+    &-dark-blue
+        +transformerConstructor('hover')
+            +hover($colorDarkBlue)
+
+    &-light-mint
+        +transformerConstructor('hover')
+            +hover($colorLightMint)
+
+    &-mint
+        +transformerConstructor('hover')
+            +hover($colorMint)
+
+    &-dark-mint
+        +transformerConstructor('hover')
+            +hover($colorDarkMint)
+
+    &-light-green
+        +transformerConstructor('hover')
+            +hover($colorLightGreen)
+
+    &-green
+        +transformerConstructor('hover')
+            +hover($colorGreen)
+
+    &-dark-green
+        +transformerConstructor('hover')
+            +hover($colorDarkGreen)
